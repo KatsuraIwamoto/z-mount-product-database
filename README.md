@@ -67,7 +67,7 @@ The distribution data can be used to:
 
 ### Search and visualization on a website
 
-The [Nikon page on cercidiphyllum.jp](https://cercidiphyllum.jp/nikon/) uses this project's distribution data for product search and aggregate visualizations.
+The [Nikon page on cercidiphyllum.jp](https://cercidiphyllum.jp/en/nikon/) uses this project's distribution data for product search and aggregate visualizations.
 
 ## From research to distribution
 
