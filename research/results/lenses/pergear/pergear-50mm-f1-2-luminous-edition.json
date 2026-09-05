@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "pergear-50mm-f1-2-luminous-edition",
+  "subject": {
+    "manufacturerId": "pergear",
+    "brandId": "pergear",
+    "name": "PERGEAR 50mm F1.2 Luminous Edition"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "pergear-50mm-f1-2-luminous-edition"
+  },
+  "sources": [
+    {
+      "url": "https://www.pergear.com/products/pergear-50-mm-f1-2",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://www.pergear.com/blogs/news/50mm-f1-2-luminous",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cercidiphyllum.jp/schemas/1.0.0/lenses/product-record.schema.json",
+  "$comment": "SPDX-FileCopyrightText: 2026 Katsura Iwamoto\nSPDX-License-Identifier: MIT",
+  "allOf": [
+    {
+      "$ref": "product-full.schema.json"
+    },
+    {
+      "type": "object",
+      "required": [
+        "$schema"
+      ],
+      "properties": {
+        "$schema": {
+          "const": "../../../../schemas/lenses/product-record.schema.json"
+        }
+      }
+    }
+  ],
+  "title": "Canonical product record"
+}

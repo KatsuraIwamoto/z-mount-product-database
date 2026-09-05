@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "megadap-etz21-pro-plus",
+  "subject": {
+    "manufacturerId": "megadap",
+    "brandId": "megadap",
+    "name": "Sony E to Nikon Z Autofocus Adapter Pro+"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "megadap-etz21-pro-plus"
+  },
+  "sources": [
+    {
+      "url": "https://megadap.net/product/etz21-proplus/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms",
+        "physical.officialEnvironmentalProtectionClaims"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.megadap.com/%E5%85%A8%E9%83%A8%E4%BA%A7%E5%93%81/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity"
+      ]
+    }
+  ]
+}

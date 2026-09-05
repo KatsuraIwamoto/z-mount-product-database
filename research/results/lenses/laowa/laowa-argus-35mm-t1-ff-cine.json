@@ -1,0 +1,70 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "laowa-argus-35mm-t1-ff-cine",
+  "subject": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "name": "LAOWA Argus 35mm T1 FF Cine"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "laowa-argus-35mm-t1-ff-cine"
+  },
+  "sources": [
+    {
+      "url": "https://laowacine.com/product/laowa-argus-t1-cine-series-ff/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.externalLengthDuringFocus",
+        "physical.isRetractableForStorage",
+        "physical.frontAccessoryInterface",
+        "controls",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.venuslens.net/shop/?product_tag=Z&product_view=list",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/cat/argus-T1.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "lens.focalLength",
+        "lens.anglesOfView",
+        "lens.imageCircleDiameters",
+        "lens.stabilization"
+      ]
+    }
+  ]
+}

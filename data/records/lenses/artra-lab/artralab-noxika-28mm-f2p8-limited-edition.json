@@ -1,0 +1,142 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "artralab-noxika-28mm-f2p8-limited-edition",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "artra-lab",
+    "brandId": "artra-lab",
+    "productName": "NOXIKA 28mm F2.8 Nikon Z Limited Edition (Qty 200)",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://artralab.com/products/artralab-noxika-28mm-f2-8-full-frame-nikon-z-limited-edition-qty200",
+      "pageFamilies": [
+        "home-country",
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Artra Lab"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": false
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 63,
+        "lengthMm": 28,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 180,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 58,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": null
+  },
+  "controls": null,
+  "accessories": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 28
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 2.8,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 10,
+        "bladeShape": null
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 75,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 3,
+      "elements": 9
+    },
+    "specialElements": null,
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "mechanical-coupled"
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.35,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": null,
+      "officialFocusBehaviorClaims": []
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}

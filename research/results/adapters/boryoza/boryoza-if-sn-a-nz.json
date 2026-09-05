@@ -1,0 +1,46 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "boryoza-if-sn-a-nz",
+  "subject": {
+    "manufacturerId": "boryoza",
+    "brandId": "boryoza",
+    "name": "IF·SN A-NZ Chipped Focus Confirm Adapter Sony A Mount Lens Compatible with Nikon Z Camera"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "boryoza-if-sn-a-nz"
+  },
+  "sources": [
+    {
+      "url": "https://boryoza.net/en/product?slug=if-sn-a-nz",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.amazon.com/dp/B0H2C6S1W7",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mechanisms"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

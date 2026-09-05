@@ -1,0 +1,68 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "novoflex-nikz-nik",
+  "identity": {
+    "manufacturerId": "novoflex",
+    "brandId": "novoflex",
+    "productName": "Adapter Nikon F-mount Lenses to Nikon Z Cameras with Aperture Control",
+    "modelNumberOptions": [
+      "NIKZ/NIK"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.novoflex.de/en/Adapter-Nikon-F-mount-lenses-to-Nikon-Z-cameras-w.-aperture-control/NIKZ-NIK",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "NOVOFLEX"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "nikon-f",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": [
+    {
+      "type": "aperture-ring",
+      "conditions": {}
+    }
+  ],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": false
+  }
+}

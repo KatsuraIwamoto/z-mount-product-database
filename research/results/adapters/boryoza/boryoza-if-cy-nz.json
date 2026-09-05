@@ -1,0 +1,46 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "boryoza-if-cy-nz",
+  "subject": {
+    "manufacturerId": "boryoza",
+    "brandId": "boryoza",
+    "name": "IF·CY-NZ Chipped Focus Confirm Adapter Contax/Yashica CY Mount Lens Compatible with Nikon Z Camera"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "boryoza-if-cy-nz"
+  },
+  "sources": [
+    {
+      "url": "https://boryoza.net/en/product?slug=if-cy-nz",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.amazon.com/dp/B0H24YM8W4",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

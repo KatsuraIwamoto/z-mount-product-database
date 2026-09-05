@@ -1,0 +1,76 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "laowa-200mm-f2-autofocus-full-frame-lens",
+  "subject": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "name": "LAOWA 200mm F2 Autofocus Full-Frame Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "laowa-200mm-f2-autofocus-full-frame-lens"
+  },
+  "sources": [
+    {
+      "url": "https://www.venuslens.net/product/laowa-200mm-f-2-af-ff/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.coverage"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.venuslens.net/shop/?product_tag=Z&product_view=list",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/200mmf2af.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://www.venuslens.net/download/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "electronicServices"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "laowa-aurogon-ff-10-50x-na0-5-supermicro-apo",
+  "subject": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "name": "LAOWA Aurogon FF 10-50x NA0.5 Supermicro APO"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "laowa-aurogon-ff-10-50x-na0-5-supermicro-apo"
+  },
+  "sources": [
+    {
+      "url": "https://www.venuslens.net/product/laowa-aurogon-ff-10-50x-na0-5-supermicro-apo/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "physical",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.venuslens.net/shop/?product_tag=Z&product_view=list",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/668827f1b5d63610d94b628335272a150d3e651d.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "lens.focalLength",
+        "lens.stabilization"
+      ]
+    }
+  ]
+}

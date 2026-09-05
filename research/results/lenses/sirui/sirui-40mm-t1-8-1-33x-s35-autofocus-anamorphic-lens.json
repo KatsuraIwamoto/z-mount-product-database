@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "sirui-40mm-t1-8-1-33x-s35-autofocus-anamorphic-lens",
+  "subject": {
+    "manufacturerId": "sirui",
+    "brandId": "sirui",
+    "name": "SIRUI 40mm T1.8 1.33x S35 Autofocus Anamorphic Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "sirui-40mm-t1-8-1-33x-s35-autofocus-anamorphic-lens"
+  },
+  "sources": [
+    {
+      "url": "https://store.sirui.com/products/sirui-40mm-t1-8-1-33x-s35-frame-autofocus-anamorphic-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://store.sirui.com/collections/z-mount-nikon-1",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    }
+  ]
+}

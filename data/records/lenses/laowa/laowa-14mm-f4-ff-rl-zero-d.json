@@ -1,0 +1,156 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "laowa-14mm-f4-ff-rl-zero-d",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "productName": "LAOWA 14mm F4 FF RL Zero-D",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.venuslens.net/product/14mm-f4-ff-rl-zero-d/",
+      "pageFamilies": [
+        "global",
+        "usa"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Venus Optics"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": null
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 58,
+        "lengthMm": 59,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 228,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 52,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": false
+  },
+  "controls": null,
+  "accessories": null,
+  "electronicServices": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 14
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 4,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 5,
+        "bladeShape": null
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 114,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 9,
+      "elements": 13
+    },
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 2,
+        "officialName": "Aspherical"
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 3,
+        "officialName": "ED"
+      }
+    ],
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "mechanical-coupled"
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.27,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": null,
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}

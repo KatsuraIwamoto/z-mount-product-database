@@ -1,0 +1,140 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "meike-10mm-f2-aps-c-lens",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "meike",
+    "brandId": "meike",
+    "productName": "Meike 10mm F2 APS-C Lens",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://meikeglobal.com/products/10mm-f2-0z",
+      "pageFamilies": [
+        "global",
+        "usa"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Meike Global"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": false
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": [
+      {
+        "grams": 550,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": null,
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": false
+  },
+  "controls": null,
+  "accessories": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 10
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 2,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": null,
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 10,
+        "bladeShape": null
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": [
+      {
+        "format": "aps-c",
+        "orientation": "horizontal",
+        "degrees": 96,
+        "conditions": {}
+      },
+      {
+        "format": "aps-c",
+        "orientation": "vertical",
+        "degrees": 72,
+        "conditions": {}
+      },
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 107,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "aps-c"
+    },
+    "opticalConstruction": {
+      "groups": 12,
+      "elements": 15
+    },
+    "specialElements": null,
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "mechanical-coupled"
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.3,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": null,
+      "officialFocusBehaviorClaims": [
+        {
+          "type": "focus-breathing-suppressed",
+          "conditions": {}
+        }
+      ]
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}

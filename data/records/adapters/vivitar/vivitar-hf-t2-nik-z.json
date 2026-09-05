@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "vivitar-hf-t2-nik-z",
+  "identity": {
+    "manufacturerId": "sakar-international",
+    "brandId": "vivitar",
+    "productName": "T2/T-Mount to Nikon Z Mount Adapter",
+    "modelNumberOptions": [
+      "HF-T2-NIK-Z"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": null
+  },
+  "officialProductPages": [],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "t-mount",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": [],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": {
+      "present": false
+    }
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "metabones-mb-md-nz-bt1",
+  "subject": {
+    "manufacturerId": "metabones",
+    "brandId": "metabones",
+    "name": "Minolta MD Lens to Nikon Z-mount T Adapter"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "metabones-mb-md-nz-bt1"
+  },
+  "sources": [
+    {
+      "url": "https://www.metabones.com/products/details/MB_MD-NZ-BT1",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    }
+  ]
+}

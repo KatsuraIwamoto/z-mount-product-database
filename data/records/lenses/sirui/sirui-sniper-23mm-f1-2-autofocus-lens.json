@@ -1,0 +1,165 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "sirui-sniper-23mm-f1-2-autofocus-lens",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "sirui",
+    "brandId": "sirui",
+    "productName": "SIRUI Sniper 23mm F1.2 Autofocus Lens",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://store.sirui.com/products/sirui-sniper-series-16-75mm-f1-2-aps-c-frame-autofocus-lens-set",
+      "pageFamilies": [
+        "global",
+        "usa"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "SIRUI"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": null
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": null,
+        "lengthMm": 94.2,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 386,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 58,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": null
+  },
+  "controls": null,
+  "accessories": null,
+  "electronicServices": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 23
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 1.2,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 16,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 11,
+        "bladeShape": null
+      },
+      "controlMechanism": "electronic"
+    },
+    "anglesOfView": null,
+    "coverage": {
+      "format": "aps-c"
+    },
+    "opticalConstruction": {
+      "groups": 11,
+      "elements": 12
+    },
+    "specialElements": [
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 6,
+        "officialName": "HRI Glass"
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "officialName": "HD Nano Coating",
+        "appliedTo": null
+      }
+    ],
+    "focus": {
+      "autofocus": {
+        "present": true,
+        "motors": [
+          {
+            "type": "stepping-motor",
+            "quantity": null,
+            "officialName": "STM"
+          }
+        ]
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": null
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.3,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": null,
+      "officialFocusBehaviorClaims": [
+        {
+          "type": "focus-breathing-suppressed",
+          "conditions": {}
+        }
+      ]
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}

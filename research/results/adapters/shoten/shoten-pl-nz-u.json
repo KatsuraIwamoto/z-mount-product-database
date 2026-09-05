@@ -1,0 +1,55 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "shoten-pl-nz-u",
+  "subject": {
+    "manufacturerId": "shoten-kobo",
+    "brandId": "shoten",
+    "name": "SHOTEN PL-NZ-U Mount Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "shoten-pl-nz-u"
+  },
+  "sources": [
+    {
+      "url": "https://stkb.co.jp/info/?p=24767",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000001870",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://videosalon.jp/news/shotenums_pl/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    }
+  ]
+}

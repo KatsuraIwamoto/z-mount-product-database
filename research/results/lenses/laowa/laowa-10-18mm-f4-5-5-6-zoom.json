@@ -1,0 +1,67 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "laowa-10-18mm-f4-5-5-6-zoom",
+  "subject": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "name": "LAOWA 10-18mm F4.5-5.6 Zoom"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "laowa-10-18mm-f4-5-5-6-zoom"
+  },
+  "sources": [
+    {
+      "url": "https://www.venuslens.net/product/laowa-10-18mm-f-4-5-5-6-fe-zoom/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.venuslens.net/shop/?product_tag=Z&product_view=list",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/69d5c3d18c4a44eca1fa4c5e25b5a26c73aab37e.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    }
+  ]
+}

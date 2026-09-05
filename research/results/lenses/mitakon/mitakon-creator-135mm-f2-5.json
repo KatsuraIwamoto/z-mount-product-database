@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "mitakon-creator-135mm-f2-5",
+  "subject": {
+    "manufacturerId": "zhongyi-optics",
+    "brandId": "mitakon",
+    "name": "Mitakon Creator 135mm f/2.5 Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "mitakon-creator-135mm-f2-5"
+  },
+  "sources": [
+    {
+      "url": "https://zyoptics.net/product/mitakon-creator-135mm-f-2-5-lens/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.externalLengthDuringFocus",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://zyoptics.net/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

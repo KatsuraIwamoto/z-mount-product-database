@@ -1,0 +1,181 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "laowa-argus-35mm-f0-95-ff",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "productName": "LAOWA Argus 35mm F0.95 FF",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.venuslens.net/product/laowa-argus-35mm-f-0-95-ff/",
+      "pageFamilies": [
+        "global",
+        "usa"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Venus Optics"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": null
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 76.8,
+        "lengthMm": 103,
+        "approximate": true,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 755,
+        "approximate": true,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 72,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": "constant",
+    "isRetractableForStorage": false
+  },
+  "controls": null,
+  "accessories": null,
+  "electronicServices": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 35
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 0.95,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 16,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 15,
+        "bladeShape": null
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 63.4,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 9,
+      "elements": 14
+    },
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 1,
+        "officialName": "Aspherical"
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 1,
+        "officialName": "ED"
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "officialName": "UHR",
+        "quantity": 4
+      }
+    ],
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "mechanical-coupled"
+      },
+      "opticalFocusingSystems": [
+        {
+          "type": "internal-focusing",
+          "officialName": "Internal Focusing"
+        }
+      ],
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.5,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.1,
+          "conditions": {}
+        }
+      ],
+      "officialFocusBehaviorClaims": [
+        {
+          "type": "focus-breathing-suppressed",
+          "conditions": {}
+        }
+      ]
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}

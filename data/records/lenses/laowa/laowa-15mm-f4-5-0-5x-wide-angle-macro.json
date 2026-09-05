@@ -1,0 +1,187 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "laowa-15mm-f4-5-0-5x-wide-angle-macro",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "productName": "LAOWA 15mm F4.5 0.5x Wide-Angle Macro",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.venuslens.net/product/laowa-15mm-f-4-5-0-5x-wide-angle-macro/",
+      "pageFamilies": [
+        "global",
+        "usa"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Venus Optics"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": {
+        "present": true,
+        "standards": [
+          "exif"
+        ]
+      }
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 70,
+        "lengthMm": 47.7,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 308,
+        "approximate": true,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 62,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": false
+  },
+  "controls": null,
+  "accessories": null,
+  "electronicServices": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 15
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 4.5,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 32,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 5,
+        "bladeShape": null
+      },
+      "controlMechanism": "electronic"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 110.5,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 11,
+      "elements": 16
+    },
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 2,
+        "officialName": "Aspherical"
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 3,
+        "officialName": "HR"
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 3,
+        "officialName": "ED"
+      }
+    ],
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "mechanical-coupled"
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.129,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.5,
+          "conditions": {}
+        }
+      ],
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {
+      "macro": {
+        "workingDistances": [
+          {
+            "distanceM": 0.036,
+            "conditions": {}
+          }
+        ]
+      }
+    }
+  }
+}

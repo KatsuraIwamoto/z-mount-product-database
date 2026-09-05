@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "monsteradapter-la-nz1",
+  "subject": {
+    "manufacturerId": "monsteradapter",
+    "brandId": "monsteradapter",
+    "name": "LA-NZ1"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://nikonrumors.com/2026/02/25/monsteradapter-to-announce-two-new-z-mount-adapters-la-fz11-for-nikon-f-mount-non-cpu-lenses-and-la-nz1-for-contax-n-mount-lenses.aspx/amp/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Confirm an official release announcement or verified sale of LA-NZ1; development references alone do not qualify for a canonical record."
+  ]
+}

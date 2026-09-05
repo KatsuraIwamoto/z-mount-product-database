@@ -1,0 +1,85 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "7artisans-af-50mm-f1p8",
+  "subject": {
+    "manufacturerId": "7artisans",
+    "brandId": "7artisans",
+    "name": "AF 50mm F1.8 Full-frame Lens"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "7artisans-af-50mm-f1p8"
+  },
+  "sources": [
+    {
+      "url": "https://7artisans.store/products/50mm-f1-8-af-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.variants",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/ja/products/50mm-f1-8-af-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.variants",
+        "mount",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/collections/af-50mm-f1-8",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/products/af-50mm-f1-8-full-frame-lens-for-l",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "lens.anglesOfView"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/pages/firmware-upgrade",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    }
+  ]
+}

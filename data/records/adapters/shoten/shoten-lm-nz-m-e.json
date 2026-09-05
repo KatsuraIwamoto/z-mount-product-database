@@ -1,0 +1,98 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "shoten-lm-nz-m-e",
+  "identity": {
+    "manufacturerId": "shoten-kobo",
+    "brandId": "shoten",
+    "productName": "SHOTEN LM-NZ M E Mount Adapter",
+    "modelNumberOptions": [
+      "LM-NZ M E"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2026-05-27",
+    "officialDesignations": null
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000002892",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "SHOTEN"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "leica-m",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": true,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": true,
+    "metadataTransmission": {
+      "present": true,
+      "standards": [
+        "exif"
+      ]
+    },
+    "lensPowerTransmission": null,
+    "recordingTriggerTransmission": null
+  },
+  "mechanisms": [
+    {
+      "type": "helicoid",
+      "conditions": {}
+    }
+  ],
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 65,
+        "lengthMm": 12,
+        "approximate": true,
+        "conditions": {
+          "excludesProjections": true
+        },
+        "note": "Excludes the mount and projections."
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 113,
+        "approximate": true,
+        "conditions": {}
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "purposes": [
+          "firmware-update",
+          "configuration"
+        ]
+      }
+    ]
+  },
+  "conversionOptics": {
+    "present": false
+  }
+}

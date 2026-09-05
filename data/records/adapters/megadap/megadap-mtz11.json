@@ -1,0 +1,70 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "megadap-mtz11",
+  "identity": {
+    "manufacturerId": "megadap",
+    "brandId": "megadap",
+    "productName": "Leica M to Nikon Z Autofocus Adapter",
+    "modelNumberOptions": [
+      "MTZ11"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": null
+  },
+  "officialProductPages": [],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "leica-m",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": true,
+    "autofocus": true,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": true,
+    "metadataTransmission": null,
+    "lensPowerTransmission": null,
+    "recordingTriggerTransmission": null
+  },
+  "mechanisms": [
+    {
+      "type": "helicoid",
+      "conditions": {}
+    }
+  ],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "purposes": [
+          "firmware-update"
+        ],
+        "connectorType": "micro-usb"
+      },
+      {
+        "method": "camera-body",
+        "purposes": [
+          "configuration"
+        ]
+      }
+    ]
+  },
+  "conversionOptics": {
+    "present": false
+  }
+}

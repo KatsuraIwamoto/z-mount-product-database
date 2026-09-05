@@ -1,0 +1,66 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "ttartisan-af-35mm-f1-8-ii",
+  "subject": {
+    "manufacturerId": "ttartisan",
+    "brandId": "ttartisan",
+    "name": "TTArtisan AF 35mm F1.8 II"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "ttartisan-af-35mm-f1-8-ii"
+  },
+  "sources": [
+    {
+      "url": "https://en.ttartisan.com/?af-lens%2FAF-35-II.html=",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.variants",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://ttartisan.store/products/ttartisan-af-35mm-f1-8",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mount",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "electronicServices",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://ttartisan.store/collections/af-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

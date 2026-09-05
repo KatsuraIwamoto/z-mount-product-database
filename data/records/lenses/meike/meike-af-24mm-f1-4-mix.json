@@ -1,0 +1,205 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "meike-af-24mm-f1-4-mix",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "meike",
+    "brandId": "meike",
+    "productName": "Meike AF 24mm F1.4 MIX",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://meikeglobal.com/products/2414z",
+      "pageFamilies": [
+        "global",
+        "usa"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Meike Global"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": null
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 79,
+        "lengthMm": 107,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 560,
+        "conditions": {
+          "attachedComponents": []
+        },
+        "approximate": true
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 72,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": false
+  },
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    },
+    {
+      "type": "function-button",
+      "quantity": 1
+    }
+  ],
+  "accessories": null,
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": null
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 24
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 1.4,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 16,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 11,
+        "bladeShape": null
+      },
+      "controlMechanism": "electronic"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": "horizontal",
+        "degrees": 74.8,
+        "conditions": {}
+      },
+      {
+        "format": "full-frame",
+        "orientation": "vertical",
+        "degrees": 53.8,
+        "conditions": {}
+      },
+      {
+        "format": "full-frame",
+        "orientation": "diagonal",
+        "degrees": 84.8,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 12,
+      "elements": 15
+    },
+    "specialElements": [
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 2,
+        "officialName": "High-Refractive Index Element"
+      },
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 3
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 3,
+        "officialName": "ED"
+      }
+    ],
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": true,
+        "motors": [
+          {
+            "type": "stepping-motor",
+            "quantity": null,
+            "officialName": "STM"
+          }
+        ]
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": null
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.28,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": null,
+      "officialFocusBehaviorClaims": []
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}

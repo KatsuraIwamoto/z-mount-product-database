@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "retropia-repurposed-disposable-film-camera-lens-32mm-f11-oreo",
+  "subject": {
+    "manufacturerId": "retropia",
+    "brandId": "retropia",
+    "name": "Retropia® Repurposed Disposable Film Camera Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "retropia-repurposed-disposable-film-camera-lens-32mm-f11-oreo"
+  },
+  "sources": [
+    {
+      "url": "https://retro-pia.com/products/retropia-disposable-camera-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.tripodSupport",
+        "physical.externalLengthDuringFocus",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.amazon.co.jp/dp/B0FFFZW2NB",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount",
+        "accessories"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

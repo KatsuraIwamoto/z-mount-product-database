@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "hartblei-rbz-ds-hart118",
+  "subject": {
+    "manufacturerId": "hartblei",
+    "brandId": "hartblei",
+    "name": "Hartblei RBZ-DS Dual Shift Adapter Parallax-Free"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "hartblei-rbz-ds-hart118"
+  },
+  "sources": [
+    {
+      "url": "https://hartbleilens.com/index.php?route=product/product&product_id=69",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

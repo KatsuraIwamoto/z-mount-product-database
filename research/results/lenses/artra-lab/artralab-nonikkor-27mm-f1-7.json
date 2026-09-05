@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "artralab-nonikkor-27mm-f1-7",
+  "subject": {
+    "manufacturerId": "artra-lab",
+    "brandId": "artra-lab",
+    "name": "ArtraLab NONIKKOR 27mm F1.7"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The official catalog and exact-product evidence identify the Nikon Z product as NONIKKOR-MC 24mm F1.7; no separate 27mm F1.7 product is documented."
+  },
+  "sources": [
+    {
+      "url": "https://www.artralab.hk/collections/lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://www.artralab.hk/products/pre-order-artralab-nonikkor-mc-24mm-f1-7-aps-c",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1853333-REG/artra_lab_al2417z_nonikkor_mc_24mm_f_1_7_lens.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    }
+  ]
+}

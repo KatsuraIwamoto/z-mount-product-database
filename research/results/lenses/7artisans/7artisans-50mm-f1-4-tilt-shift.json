@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "7artisans-50mm-f1-4-tilt-shift",
+  "subject": {
+    "manufacturerId": "7artisans",
+    "brandId": "7artisans",
+    "name": "7Artisans 50mm F1.4 Tilt-Shift"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The official 7Artisans page for the 50mm F1.4 Tilt-Shift offers only Sony E, Fuji X, and M43 and does not list a Nikon Z configuration, so it is excluded."
+  },
+  "sources": [
+    {
+      "url": "https://7artisans.store/products/50mm-f1-4-aps-c-tilt-lens-for-e-fx-m43",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.variants",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

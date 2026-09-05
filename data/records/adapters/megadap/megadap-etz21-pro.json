@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "megadap-etz21-pro",
+  "identity": {
+    "manufacturerId": "megadap",
+    "brandId": "megadap",
+    "productName": "Sony E to Nikon Z Autofocus Adapter Pro",
+    "modelNumberOptions": [
+      "ETZ21 Pro"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": null
+  },
+  "officialProductPages": [],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "sony-e",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": true,
+    "autofocus": true,
+    "cameraControlledAperture": true,
+    "lensStabilizationCommunication": true,
+    "manualFocusAssistance": true,
+    "metadataTransmission": {
+      "present": true,
+      "standards": [
+        "exif"
+      ]
+    },
+    "lensPowerTransmission": null,
+    "recordingTriggerTransmission": null
+  },
+  "mechanisms": [],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": [
+      {
+        "method": "camera-body",
+        "purposes": [
+          "firmware-update",
+          "configuration"
+        ]
+      }
+    ]
+  },
+  "conversionOptics": {
+    "present": false
+  }
+}

@@ -1,0 +1,148 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "ttartisan-50mm-f1-2",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "ttartisan",
+    "brandId": "ttartisan",
+    "productName": "TTArtisan 50mm F1.2",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://en.ttartisan.com/?aps-c-lenses%2F73.html=",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "TTArtisan"
+      }
+    },
+    {
+      "url": "https://ttartisan.store/products/ttartisan-50mm-f1-2",
+      "pageFamilies": [
+        "usa"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "TTArtisan"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": false
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": [
+      {
+        "grams": 336,
+        "approximate": true,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 52,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": false
+  },
+  "controls": null,
+  "accessories": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 50
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 1.2,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 16,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 10,
+        "bladeShape": null
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": [
+      {
+        "format": "aps-c",
+        "orientation": null,
+        "degrees": 32,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "aps-c"
+    },
+    "opticalConstruction": {
+      "groups": 5,
+      "elements": 7
+    },
+    "specialElements": null,
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": null
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.5,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": null,
+      "officialFocusBehaviorClaims": []
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}

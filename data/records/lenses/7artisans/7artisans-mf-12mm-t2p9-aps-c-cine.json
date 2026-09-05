@@ -1,0 +1,166 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "7artisans-mf-12mm-t2p9-aps-c-cine",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "7artisans",
+    "brandId": "7artisans",
+    "productName": "MF 12mm T2.9 APS-C MF Cine Lens",
+    "modelNumberOptions": [
+      "12/T2.9-B-Z",
+      "C706B"
+    ],
+    "alternateNames": [
+      {
+        "name": "7Artisans 12mm T2.9 Vision Cine Lens",
+        "language": "en"
+      }
+    ],
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2022-12-05",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://7artisans.store/products/12mm-t2-9-aps-c-mf-cine-lens-for-fujifilm-x-sony-e-m43-canon-rf-nikon-z-sigma-l-panasonic-l-leica-l-cl-tl",
+      "pageFamilies": [
+        "global",
+        "usa"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "7Artisans"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": false
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 89,
+        "lengthMm": 70,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 602,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 82,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": null
+  },
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "rotationDegrees": 270,
+      "geared": true
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "declicked",
+      "geared": true
+    }
+  ],
+  "accessories": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 12
+    },
+    "aperture": {
+      "fNumber": null,
+      "tNumber": {
+        "maximumAperture": [
+          {
+            "value": 2.9,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 16,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 9,
+        "bladeShape": null
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": [
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 100,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "aps-c"
+    },
+    "opticalConstruction": {
+      "groups": 10,
+      "elements": 12
+    },
+    "specialElements": null,
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "mechanical-coupled"
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.14,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": null,
+      "officialFocusBehaviorClaims": []
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {
+      "cinema": {}
+    }
+  }
+}

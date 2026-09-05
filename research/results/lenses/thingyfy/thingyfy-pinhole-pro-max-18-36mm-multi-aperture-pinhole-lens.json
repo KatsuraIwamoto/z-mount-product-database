@@ -1,0 +1,80 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "thingyfy-pinhole-pro-max-18-36mm-multi-aperture-pinhole-lens",
+  "subject": {
+    "manufacturerId": "thingyfy",
+    "brandId": "thingyfy",
+    "name": "Thingyfy Pinhole Pro Max 18-36mm Multi-Aperture Pinhole Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://thingyfy.com/pages/about-thingyfy",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "company-profile",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://thingyfy.com/products/pinhole-pro-x-professional-pinhole-2x-zoom-lens-for-dslr-mirrorless-cameras",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://www.digitalcameraworld.com/reviews/thingify-pinhole-pro-max-review",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://nikonrumors.com/2022/03/29/new-pinhole-pro-max-lens-for-nikon-f-z-raised-over-80k-on-kickstarter-on-the-first-day.aspx/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.fotopolis.pl/newsy-sprzetowe/obiektywy/35710-thingyfy-pinhole-pro-max-najbardziej-zaawansowany-obiektyw-otworkowy-na-swiecie",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.kickstarter.com/projects/bozzou/pinholepro-max-worlds-most-advanced-pinhole-lens/description",
+      "publisherRelationship": "crowdfunding-platform",
+      "sourceType": "crowdfunding",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Was the Nikon Z configuration commercially released or fulfilled to backers?"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "denz-pl-adapter-nikon-z",
+  "subject": {
+    "manufacturerId": "denz",
+    "brandId": "denz",
+    "name": "PL-Adapter for Nikon Z-mount cameras"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "denz-pl-adapter-nikon-z"
+  },
+  "sources": [
+    {
+      "url": "https://www.denz-precision.com/en/cinetec/pl-adapater-for-leica-l-mount-cameras-1/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    }
+  ]
+}

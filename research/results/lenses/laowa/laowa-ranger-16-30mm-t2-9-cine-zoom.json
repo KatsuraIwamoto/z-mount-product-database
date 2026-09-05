@@ -1,0 +1,69 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "laowa-ranger-16-30mm-t2-9-cine-zoom",
+  "subject": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "name": "LAOWA Ranger 16-30mm T2.9 Cine Zoom"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "laowa-ranger-16-30mm-t2-9-cine-zoom"
+  },
+  "sources": [
+    {
+      "url": "https://laowacine.com/product/laowa-ranger-compact-cine-zoom-series/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "mount.adapter",
+        "physical",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "physical.frontAccessoryInterface",
+        "controls",
+        "lens.coverage",
+        "lens.focus",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://laowacine.com/wp-content/uploads/2025/03/Ranger-16-30-Product-Page_05_Spec.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "controls",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/cat/6cabc04d3bd26955447f46b469bbb29d54ab62ef.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "lens.focalLength",
+        "lens.imageCircleDiameters",
+        "lens.stabilization"
+      ]
+    }
+  ]
+}

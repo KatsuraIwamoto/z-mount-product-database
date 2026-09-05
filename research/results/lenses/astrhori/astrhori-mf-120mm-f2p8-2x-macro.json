@@ -1,0 +1,81 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "astrhori-mf-120mm-f2p8-2x-macro",
+  "subject": {
+    "manufacturerId": "astrhori",
+    "brandId": "astrhori",
+    "name": "MF 120mm F2.8 Full-frame Macro Lens"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "astrhori-mf-120mm-f2p8-2x-macro"
+  },
+  "sources": [
+    {
+      "url": "https://www.astrhori.cn/products/120mm-f2-8-full-frame-macro-lens-for-e-rf-z-l",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.com/cp",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1847492-REG/astrhori_a31b_n_120mm_f_2_8_2x_macro.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces",
+        "lens.anglesOfView",
+        "lens.opticalConstruction"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0698/5046/4568/files/120mm.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.anglesOfView",
+        "physical.filterInterfaces",
+        "physical.weightMeasurements",
+        "controls"
+      ]
+    }
+  ],
+  "unresolved": [
+    "What is the published weight of the Nikon Z configuration?"
+  ]
+}

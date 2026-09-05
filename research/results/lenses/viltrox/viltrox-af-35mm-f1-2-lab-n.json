@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "viltrox-af-35mm-f1-2-lab-n",
+  "subject": {
+    "manufacturerId": null,
+    "brandId": "viltrox",
+    "name": "VILTROX AF 35mm F1.2 LAB N"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "Viltrox's official Nikon Z page lists only the display-equipped AF 35mm F1.2 LAB Z. The official Sony E page identifies LAB N as the non-display FE version, and no LAB N configuration that mounts directly to Nikon Z was found."
+  },
+  "sources": [
+    {
+      "url": "https://viltrox.com/products/af-35mm-f1-2-fe",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "mount"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/products/af-35mm-f1-2-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "mount"
+      ]
+    },
+    {
+      "url": "https://petapixel.com/2026/04/23/viltroxs-refined-af-35mm-f-1-2-lab-n-lens-ditches-the-display/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "announcement",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

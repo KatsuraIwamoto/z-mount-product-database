@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "big-421379",
+  "subject": {
+    "manufacturerId": "brenner-import",
+    "brandId": "big",
+    "name": "B.I.G. T2-Adapter für Nikon Z"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "big-421379"
+  },
+  "sources": [
+    {
+      "url": "https://www.big-photo.de/b.i.g.-t2-adapter-fuer-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.big-photo.de/pdf/archiv/big-katalog/BIG-GESAMTKATALOG.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    }
+  ]
+}

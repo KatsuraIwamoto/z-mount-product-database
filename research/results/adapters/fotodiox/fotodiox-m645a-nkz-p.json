@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fotodiox-m645a-nkz-p",
+  "subject": {
+    "manufacturerId": "fotodiox",
+    "brandId": "fotodiox",
+    "name": "Fotodiox Pro Lens Mount Adapter Compatible with Mamiya 645 (M645) Mount AF/AF-D Lenses to Nikon Z-Mount Mirrorless Camera Bodies"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "fotodiox-m645a-nkz-p"
+  },
+  "sources": [
+    {
+      "url": "https://fotodioxpro.com/products/m645a-nkz-p",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

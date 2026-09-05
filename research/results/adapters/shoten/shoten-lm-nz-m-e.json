@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "shoten-lm-nz-m-e",
+  "subject": {
+    "manufacturerId": "shoten-kobo",
+    "brandId": "shoten",
+    "name": "SHOTEN LM-NZ M E Mount Adapter"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "shoten-lm-nz-m-e"
+  },
+  "sources": [
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000002892",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages",
+        "physical.weightMeasurements",
+        "physical.dimensionMeasurements"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/p52421/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ]
+}

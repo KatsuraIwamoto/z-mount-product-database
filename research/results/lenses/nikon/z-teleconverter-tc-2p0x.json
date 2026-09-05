@@ -1,0 +1,143 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "z-teleconverter-tc-2p0x",
+  "subject": {
+    "manufacturerId": "nikon",
+    "brandId": "nikon",
+    "name": "Z TELECONVERTER TC-2.0x"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "z-teleconverter-tc-2p0x"
+  },
+  "sources": [
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/z-mount/z_tc_2x/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "accessories",
+        "teleconverter.coverage",
+        "teleconverter.magnification",
+        "teleconverter.apertureLossStops",
+        "teleconverter.supportsAutofocus",
+        "teleconverter.opticalConstruction",
+        "teleconverter.specialElements",
+        "teleconverter.compatibleLensIds"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/z_teleconverter_tc-20x/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "accessories",
+        "teleconverter.coverage",
+        "teleconverter.magnification",
+        "teleconverter.apertureLossStops",
+        "teleconverter.supportsAutofocus",
+        "teleconverter.opticalConstruction",
+        "teleconverter.compatibleLensIds",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/z_teleconverter_tc-20x/features01.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "physical.officialEnvironmentalProtectionClaims",
+        "teleconverter.supportsAutofocus",
+        "teleconverter.opticalConstruction",
+        "teleconverter.coatings"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/z_teleconverter_tc-20x/spec.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "specification",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "teleconverter.magnification",
+        "teleconverter.apertureLossStops",
+        "teleconverter.opticalConstruction"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/z_teleconverter_tc-20x/accessory.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.nikonusa.com/p/z-teleconverter-tc-20x/20099/overview",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "teleconverter.coverage",
+        "teleconverter.magnification",
+        "teleconverter.apertureLossStops",
+        "teleconverter.supportsAutofocus",
+        "teleconverter.opticalConstruction",
+        "teleconverter.compatibleLensIds",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://downloadcenter.nikonimglib.com/en/products/551/Z_TELECONVERTER_TC-20x.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://download.nikonimglib.com/archive5/ykbWW00KM6R2058di9V91WQR7024/ZTELECONVERTER_TC-1.4x_TC-2.0x_CH(64_DL)04.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/glossary/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "teleconverter.specialElements",
+        "teleconverter.coatings"
+      ]
+    }
+  ],
+  "notes": [
+    "The recorded length uses the published distance between the bayonet-mount reference planes."
+  ]
+}

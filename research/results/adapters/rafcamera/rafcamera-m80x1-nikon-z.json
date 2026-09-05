@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "rafcamera-m80x1-nikon-z",
+  "subject": {
+    "manufacturerId": "rafcamera",
+    "brandId": "rafcamera",
+    "name": "M80x1 X-Ray Lens to Nikon Z Camera Mount Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "rafcamera-m80x1-nikon-z"
+  },
+  "sources": [
+    {
+      "url": "https://rafcamera.com/adapter-m80x1f-to-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    }
+  ]
+}

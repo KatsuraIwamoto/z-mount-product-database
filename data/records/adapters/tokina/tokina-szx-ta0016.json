@@ -1,0 +1,66 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "tokina-szx-ta0016",
+  "identity": {
+    "manufacturerId": "kenko-tokina",
+    "brandId": "tokina",
+    "productName": "SZX T-Mount Adapter for Nikon Z",
+    "modelNumberOptions": [
+      "SZX-TA0016",
+      "TA0016",
+      "TA-016",
+      "TO1-TA0016"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2021-04-22",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.tokina.cz/produkty/prislusenstvi-tokina/tokina-mount-adapter-075-x-45-mm.htm",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "CZ",
+      "language": "cs",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Tokina"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "t-mount",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": [],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": false
+  }
+}

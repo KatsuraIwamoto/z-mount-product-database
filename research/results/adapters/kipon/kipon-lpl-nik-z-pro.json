@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "kipon-lpl-nik-z-pro",
+  "subject": {
+    "manufacturerId": "kipon",
+    "brandId": "kipon",
+    "name": "LPL-NIK Z PRO Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "kipon-lpl-nik-z-pro"
+  },
+  "sources": [
+    {
+      "url": "https://www.kipon.jp/products/lpl-cine-lens-nikon-z-camera-pro-version",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

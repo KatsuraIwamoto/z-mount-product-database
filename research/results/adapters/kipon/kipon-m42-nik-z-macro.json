@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "kipon-m42-nik-z-macro",
+  "subject": {
+    "manufacturerId": "kipon",
+    "brandId": "kipon",
+    "name": "M42-NIK Z Macro Adapter with Helicoid"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "kipon-m42-nik-z-macro"
+  },
+  "sources": [
+    {
+      "url": "https://www.kipon.jp/products/macro-adapter-for-m42-mount-lens-on-nikon-z-mirrorless-camera",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

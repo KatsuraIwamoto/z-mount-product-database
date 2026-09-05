@@ -1,0 +1,72 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "7artisans-mf-12mm-t2p9-aps-c-cine",
+  "subject": {
+    "manufacturerId": "7artisans",
+    "brandId": "7artisans",
+    "name": "MF 12mm T2.9 APS-C MF Cine Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "7artisans-mf-12mm-t2p9-aps-c-cine"
+  },
+  "sources": [
+    {
+      "url": "https://7artisans.store/products/12mm-t2-9-aps-c-mf-cine-lens-for-fujifilm-x-sony-e-m43-canon-rf-nikon-z-sigma-l-panasonic-l-leica-l-cl-tl",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.modelNumberOptions",
+        "identity.alternateNames",
+        "identity.variants",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1732958-REG/7artisans_photoelectric_c706b_12mm_t2_9_lens_for.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.cined.com/7artisans-12mm-t2-9-vision-series-aps-c-cine-lens-released/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "laowa-100mm-f2-8-tilt-shift-1x-macro",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "productName": "LAOWA 100mm F2.8 Tilt-Shift 1x Macro",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.venuslens.net/product/laowa-100mm-f-2-8-tilt-shift-1x-macro/",
+      "pageFamilies": [
+        "global",
+        "usa"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Venus Optics"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": null
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 85,
+        "lengthMm": 162,
+        "approximate": true,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 1215,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 77,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": true,
+      "components": [
+        {
+          "type": "other",
+          "relationship": "supplied",
+          "removable": null,
+          "interfaces": [
+            {
+              "type": "arca-compatible"
+            }
+          ],
+          "modelNumberOptions": null,
+          "quantity": null,
+          "conditions": {}
+        }
+      ]
+    },
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": false
+  },
+  "controls": null,
+  "accessories": null,
+  "electronicServices": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 100
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 2.8,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 15,
+        "bladeShape": null
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 37,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 10,
+      "elements": 13
+    },
+    "specialElements": null,
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "mechanical-coupled"
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": null,
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 1,
+          "conditions": {}
+        }
+      ],
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {
+      "macro": {
+        "workingDistances": null
+      },
+      "movements": {
+        "tiltMeasurements": [
+          {
+            "maximumFromNeutralDegrees": 10,
+            "totalRangeDegrees": 20,
+            "directionality": "bidirectional",
+            "conditions": {}
+          }
+        ],
+        "shiftMeasurements": [
+          {
+            "maximumFromNeutralMm": 12,
+            "totalRangeMm": 24,
+            "directionality": "bidirectional",
+            "conditions": {}
+          }
+        ],
+        "rotationMeasurements": [
+          {
+            "scope": "movement-assembly",
+            "maximumFromNeutralDegrees": null,
+            "totalRangeDegrees": 360,
+            "directionality": null,
+            "conditions": {}
+          }
+        ]
+      }
+    }
+  }
+}

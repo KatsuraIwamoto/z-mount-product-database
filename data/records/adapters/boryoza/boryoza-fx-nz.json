@@ -1,0 +1,70 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "boryoza-fx-nz",
+  "identity": {
+    "manufacturerId": "boryoza",
+    "brandId": "boryoza",
+    "productName": "BORYOZA FX-NZ Auto Focus Adapter Compatible with Fujifilm X Mount Lens to Nikon Z Mount Cameras",
+    "modelNumberOptions": [
+      "FX-NZ",
+      "F010760EXB"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://boryoza.net/en/product?slug=fx-nz",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "BORYOZA"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "fujifilm-x",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": true,
+    "autofocus": true,
+    "cameraControlledAperture": true,
+    "lensStabilizationCommunication": true,
+    "manualFocusAssistance": true,
+    "metadataTransmission": {
+      "present": true,
+      "standards": [
+        "exif"
+      ]
+    },
+    "lensPowerTransmission": null,
+    "recordingTriggerTransmission": null
+  },
+  "mechanisms": [],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": null
+  },
+  "conversionOptics": {
+    "present": false
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "mtf-services-panavision-to-nikon-z-mount-adaptor",
+  "subject": {
+    "manufacturerId": "mtf-services",
+    "brandId": "mtf-services",
+    "name": "Panavision to Nikon Z Mount Adaptor"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.newsshooter.com/2018/09/06/mtf-services-nikon-z-mount-adapters/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.newsshooter.com/2018/09/17/mtf-services-nikon-z-mount-lens-adapters-ibc-2018/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://teltec.de/en/mtf-panavision-auf-nikon-z-objektivmountadapter.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Can a manufacturer or authorized-distributor source confirm that the Panavision-to-Nikon Z adapter reached sale as a distinct MTF Services product?"
+  ]
+}

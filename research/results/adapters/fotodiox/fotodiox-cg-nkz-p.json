@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fotodiox-cg-nkz-p",
+  "subject": {
+    "manufacturerId": "fotodiox",
+    "brandId": "fotodiox",
+    "name": "Fotodiox Pro Lens Adapter For Select Contax G Lenses to Nikon Z-Mount Cameras with Built-in Focus Control Dial"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "fotodiox-cg-nkz-p"
+  },
+  "sources": [
+    {
+      "url": "https://fotodioxpro.com/products/cg-nkz-p",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

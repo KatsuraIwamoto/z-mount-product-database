@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "hartblei-sra-i",
+  "subject": {
+    "manufacturerId": "hartblei",
+    "brandId": "hartblei",
+    "name": "HARTBLEI SRA-I Superrotator Adapter Interchangeable"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "hartblei-sra-i"
+  },
+  "sources": [
+    {
+      "url": "https://www.hartblei.de/en/whatsnew.htm",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "kippertie-adapta-lc-v2-z-bayonet-kit",
+  "subject": {
+    "manufacturerId": "kippertie",
+    "brandId": "kippertie",
+    "name": "Adapta LC / v2 – Z bayonet kit"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "Excluded because it is a replacement camera-side bayonet component for another adapter, not a complete interposed mount adapter."
+  },
+  "sources": [
+    {
+      "url": "https://store.kippertie.com/product/adapta-lc-z-bayonet-kit/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity"
+      ],
+      "decisionChecks": [
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

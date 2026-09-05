@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "kipon-n-g-nik-z-m",
+  "subject": {
+    "manufacturerId": "kipon",
+    "brandId": "kipon",
+    "name": "N/G-NIK Z M with Helicoid"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "kipon-n-g-nik-z-m"
+  },
+  "sources": [
+    {
+      "url": "https://www.kipon.jp/products/n-g-nik-z-m-with-helicoid",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "astrhori-af-27mm-f2p8",
+  "subject": {
+    "manufacturerId": "astrhori",
+    "brandId": "astrhori",
+    "name": "AF 27mm F2.8 APS-C Lens"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "astrhori-af-27mm-f2p8"
+  },
+  "sources": [
+    {
+      "url": "https://www.astrhori.cn/products/af-27mm-f2-8-aps-c-lens-for-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.com/cp",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.com/xzzx",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1863658-REG/astrhori_af27mmf2_8g_af_27mm_f_2_8_lens.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.anglesOfView"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0698/5046/4568/files/27_2.8.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.anglesOfView"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.cn/pages/firmware-upgrade",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    }
+  ]
+}

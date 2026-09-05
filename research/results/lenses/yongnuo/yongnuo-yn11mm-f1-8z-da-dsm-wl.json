@@ -1,0 +1,89 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "yongnuo-yn11mm-f1-8z-da-dsm-wl",
+  "subject": {
+    "manufacturerId": "yongnuo",
+    "brandId": "yongnuo",
+    "name": "YONGNUO YN11mm F1.8Z DA DSM WL"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "yongnuo-yn11mm-f1-8z-da-dsm-wl"
+  },
+  "sources": [
+    {
+      "url": "https://th.hkyongnuo.com/products/yn11mm-f18z-da-dsm-wl",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.weightMeasurements",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://th.hkyongnuo.com/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://ueeshop.ly200-cdn.com/u_file/UPAU/UPAU946/2509/26/photo/en-015.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus",
+        "physical.filterInterfaces",
+        "lens.anglesOfView",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.szyongnuo.com/upload/file/202403/2026-03.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.aperture",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://ueeshop.ly200-cdn.com/u_file/UPAU/UPAU946/2509/26/photo/en-014.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronicServices"
+      ]
+    }
+  ],
+  "unresolved": [
+    "What is the published weight of the Nikon Z configuration, with its measurement conditions?"
+  ]
+}

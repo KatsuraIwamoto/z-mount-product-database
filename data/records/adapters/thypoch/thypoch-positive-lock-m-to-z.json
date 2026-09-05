@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "thypoch-positive-lock-m-to-z",
+  "identity": {
+    "manufacturerId": "thypoch",
+    "brandId": "thypoch",
+    "productName": "Positive-Lock M Lens Adapter for Nikon Z",
+    "modelNumberOptions": [
+      "TP-MPLAZ"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2025-12-26",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://store.thypoch.com/products/thypoch-m-lens-adapter",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Thypoch"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "leica-m",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": {
+        "type": "positive-lock"
+      },
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": [],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": false
+  }
+}

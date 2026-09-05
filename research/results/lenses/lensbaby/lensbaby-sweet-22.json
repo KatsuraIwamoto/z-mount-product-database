@@ -1,0 +1,58 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "lensbaby-sweet-22",
+  "subject": {
+    "manufacturerId": "lensbaby",
+    "brandId": "lensbaby",
+    "name": "Lensbaby Sweet 22"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "lensbaby-sweet-22"
+  },
+  "sources": [
+    {
+      "url": "https://lensbaby.com/products/sweet-22",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "lifecycle",
+        "mount",
+        "physical.filterInterfaces",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.coatings",
+        "lens.focus",
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/collections/lenses/nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/pages/help",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "faq",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    }
+  ]
+}

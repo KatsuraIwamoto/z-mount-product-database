@@ -1,0 +1,46 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "boryoza-if-fd-nz",
+  "subject": {
+    "manufacturerId": "boryoza",
+    "brandId": "boryoza",
+    "name": "IF·FD-NZ Chipped Focus Confirm Adapter FD Mount Lens Compatible with Nikon Z Camera"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "boryoza-if-fd-nz"
+  },
+  "sources": [
+    {
+      "url": "https://boryoza.net/en/product?slug=if-fd-nz",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.amazon.com/dp/B0H25KZVR7",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mechanisms"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

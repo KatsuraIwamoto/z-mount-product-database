@@ -1,0 +1,138 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "sirui-35mm-f1-8-1-33x-aps-c-anamorphic-lens",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "sirui",
+    "brandId": "sirui",
+    "productName": "SIRUI 35mm F1.8 1.33x APS-C Anamorphic Lens",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://store.sirui.com/products/sirui-35mm-anamorphic-lens",
+      "pageFamilies": [
+        "global",
+        "usa"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "SIRUI"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "user-interchangeable",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": false
+    },
+    "adapter": {
+      "relationship": "supplied",
+      "dedicatedToProduct": true,
+      "nativeMountSystemId": "micro-four-thirds",
+      "name": null,
+      "modelNumberOptions": null
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 67,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": null
+  },
+  "controls": null,
+  "accessories": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 35
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 1.8,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 16,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 10,
+        "bladeShape": null
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": null,
+    "coverage": {
+      "format": "aps-c"
+    },
+    "opticalConstruction": {
+      "groups": 9,
+      "elements": 13
+    },
+    "specialElements": null,
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "mechanical-coupled"
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.85,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": null,
+      "officialFocusBehaviorClaims": []
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {
+      "anamorphic": {
+        "squeezeRatios": [
+          {
+            "value": 1.33,
+            "conditions": {}
+          }
+        ]
+      }
+    }
+  }
+}

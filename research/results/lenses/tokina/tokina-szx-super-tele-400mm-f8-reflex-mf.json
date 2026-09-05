@@ -1,0 +1,101 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "tokina-szx-super-tele-400mm-f8-reflex-mf",
+  "subject": {
+    "manufacturerId": "kenko-tokina",
+    "brandId": "tokina",
+    "name": "SZX SUPER TELE 400mm F8 Reflex MF"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "tokina-szx-super-tele-400mm-f8-reflex-mf"
+  },
+  "sources": [
+    {
+      "url": "https://tokinalens.com/product/szx_super_tele_400mm_f8_reflex_mf/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "mount.adapter",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.coatings",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://tokinalens.com/news/tokina_szx_super_tele_400mm_f8_reflex_mf_lens_for_nikon_z_and_canon_rf_camera_mounts_worldwide_sales_date_announcement",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://tokinausa.com/products/szx-400mm-2x-extender-kit-2",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "controls",
+        "accessories",
+        "lens.focus"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.kenko-tokina.co.jp/lp/campaign2022/tmount/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mount",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1683085-REG/tokina_szx_ta0016_ta0016_szx_t_mount_adapter.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mount",
+        "accessories"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

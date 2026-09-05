@@ -1,0 +1,62 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "astrhori-28mm-f13-2x-macro-probe-360",
+  "subject": {
+    "manufacturerId": "astrhori",
+    "brandId": "astrhori",
+    "name": "28mm F13 Full-frame 2X Macro Probe Lens 360° View"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "astrhori-28mm-f13-2x-macro-probe-360"
+  },
+  "sources": [
+    {
+      "url": "https://www.astrhori.cn/products/28mm-f13-2x-macro-probe-lens-full-frame-360-view-free-switching-specialty-lens-for-e-z-rf-l-ef",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.dimensionMeasurements",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.com/cp",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0698/5046/4568/files/2b4f0a458af87b1bec8387e05863ce08.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements"
+      ]
+    }
+  ]
+}

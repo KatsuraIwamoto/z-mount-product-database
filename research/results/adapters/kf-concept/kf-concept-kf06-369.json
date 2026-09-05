@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "kf-concept-kf06-369",
+  "subject": {
+    "manufacturerId": "kf-concept",
+    "brandId": "kf-concept",
+    "name": "Nikon G Lenses to Nikon Z Mount Camera Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "kf-concept-kf06-369"
+  },
+  "sources": [
+    {
+      "url": "https://www.kentfaith.co.uk/KF06.369_nikon-g-lenses-to-nikon-z-mount-camera-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.kentfaith.co.jp/faq_13886",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "faq",
+      "checked": [
+        "mechanisms"
+      ]
+    }
+  ]
+}

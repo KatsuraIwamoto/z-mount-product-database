@@ -1,0 +1,46 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "brightin-star-mf-10mm-f5p6-fisheye",
+  "subject": {
+    "manufacturerId": "brightin-star",
+    "brandId": "brightin-star",
+    "name": "10mm F5.6 APS-C Fisheye Manual Focus Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "brightin-star-mf-10mm-f5p6-fisheye"
+  },
+  "sources": [
+    {
+      "url": "https://brightinstar.com/products/10mm-f5-6-aps-c-fisheye-lens-wide-angle-lens-for-panasonic-olympus-micro-4-3-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.focus",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/collections/nikon-z-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "lens.stabilization"
+      ]
+    }
+  ]
+}

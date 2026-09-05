@@ -1,0 +1,46 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "boryoza-m42-nz-e-plus",
+  "subject": {
+    "manufacturerId": "boryoza",
+    "brandId": "boryoza",
+    "name": "M42-NZ e⁺ Chipped Focus Confirm Adapter M42 Mount Lens Compatible with Nikon Z Camera"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "boryoza-m42-nz-e-plus"
+  },
+  "sources": [
+    {
+      "url": "https://boryoza.net/en/product?slug=m42-nz-e",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.amazon.com/dp/B0H2CDLY2L",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

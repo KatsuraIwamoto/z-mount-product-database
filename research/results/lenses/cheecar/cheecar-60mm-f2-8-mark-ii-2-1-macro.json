@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "cheecar-60mm-f2-8-mark-ii-2-1-macro",
+  "subject": {
+    "manufacturerId": "cheecar",
+    "brandId": "cheecar",
+    "name": "Cheecar 60mm F2.8 Mark II 2:1 Macro"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "cheecar-60mm-f2-8-mark-ii-2-1-macro"
+  },
+  "sources": [
+    {
+      "url": "http://cheecar.com/product-42292-37596-119503.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    }
+  ]
+}

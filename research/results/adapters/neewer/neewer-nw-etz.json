@@ -1,0 +1,34 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "neewer-nw-etz",
+  "subject": {
+    "manufacturerId": "neewer",
+    "brandId": "neewer",
+    "name": "NW-ETZ Camera Autofocus Adapter Ring for Nikon"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "neewer-nw-etz"
+  },
+  "sources": [
+    {
+      "url": "https://neewer.com/collections/all-product/products/neewer-nw-etz-camera-autofocus-adapter-ring-for-nikon-66608408",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    }
+  ]
+}

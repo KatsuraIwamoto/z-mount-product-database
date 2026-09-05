@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "mofage-poco-ii-interchangeable-lens-mounts",
+  "subject": {
+    "manufacturerId": "mofage",
+    "brandId": "mofage",
+    "name": "POCO II interchangeable lens mounts"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "Excluded because these are replacement front-mount modules for POCO II, not complete interposed mount adapters."
+  },
+  "sources": [
+    {
+      "url": "https://www.bhphotovideo.com/c/buy/lens-mount-adapter-accessories/ci/38358",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "collection",
+      "checked": [
+        "identity.variants"
+      ],
+      "decisionChecks": [
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

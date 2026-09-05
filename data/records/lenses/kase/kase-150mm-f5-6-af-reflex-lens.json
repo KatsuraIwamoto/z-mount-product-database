@@ -1,0 +1,145 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "kase-150mm-f5-6-af-reflex-lens",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "kase",
+    "brandId": "kase",
+    "productName": "Kase Reflex 150mm AF",
+    "modelNumberOptions": null,
+    "alternateNames": [
+      {
+        "name": "Kase Reflex 150mm AF Mirror Telephoto Lens",
+        "language": "en"
+      },
+      {
+        "name": "Kase Reflex 150mm AF Spiegeltele Objektiv",
+        "language": "de"
+      }
+    ],
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://kasefilters.de/kase-reflex-150mm-af-spiegeltele-objektiv",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "DE",
+      "language": "de",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Kase Filters"
+      }
+    },
+    {
+      "url": "https://kasefilters.eu/kase-reflex-150mm-af-mirror-telephoto-lens",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Kase Filters"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": null
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 67,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "isRetractableForStorage": false,
+    "externalLengthDuringFocus": null
+  },
+  "controls": null,
+  "accessories": null,
+  "electronicServices": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 150
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 5.6,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 5.6,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": false
+      },
+      "controlMechanism": "electronic"
+    },
+    "anglesOfView": null,
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "elements": 5,
+      "groups": 4
+    },
+    "specialElements": null,
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": true,
+        "motors": null
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": null
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 1.5,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": null,
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {
+      "reflex": {}
+    }
+  }
+}

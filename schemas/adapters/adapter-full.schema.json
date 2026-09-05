@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cercidiphyllum.jp/schemas/1.0.0/adapters/adapter-full.schema.json",
+  "$comment": "SPDX-FileCopyrightText: 2026 Katsura Iwamoto\nSPDX-License-Identifier: MIT",
+  "title": "Full mount adapter",
+  "description": "A product whose primary purpose is adapting an interchangeable-lens mount to Nikon Z. Omission means structurally inapplicable; null means applicable but not established by published official information; an empty array means a confirmed empty collection; false means a confirmed negative fact.",
+  "type": "object",
+  "required": [
+    "id",
+    "identity",
+    "lifecycle",
+    "officialProductPages",
+    "mountConfigurations",
+    "electronics",
+    "electronicServices",
+    "conversionOptics",
+    "mechanisms",
+    "physical"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "$ref": "../shared/shared-definitions.schema.json#/$defs/id",
+      "description": "Slug-form product ID that is unique within the adapters namespace. Its text is not a source of product attributes."
+    },
+    "identity": {
+      "$ref": "adapter-components.schema.json#/$defs/identity"
+    },
+    "lifecycle": {
+      "$ref": "adapter-components.schema.json#/$defs/lifecycle"
+    },
+    "officialProductPages": {
+      "type": "array",
+      "items": {
+        "$ref": "adapter-components.schema.json#/$defs/officialProductPage"
+      }
+    },
+    "mountConfigurations": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "adapter-components.schema.json#/$defs/mountConfiguration"
+      },
+      "uniqueItems": true
+    },
+    "electronics": {
+      "$ref": "adapter-components.schema.json#/$defs/electronics"
+    },
+    "electronicServices": {
+      "$ref": "../shared/shared-definitions.schema.json#/$defs/electronicServices"
+    },
+    "conversionOptics": {
+      "$ref": "adapter-components.schema.json#/$defs/conversionOptics"
+    },
+    "mechanisms": {
+      "$ref": "adapter-components.schema.json#/$defs/mechanisms"
+    },
+    "physical": {
+      "$ref": "adapter-components.schema.json#/$defs/physical"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "electronicServices": {
+            "type": "object",
+            "properties": {
+              "connections": {
+                "type": "array",
+                "contains": {
+                  "type": "object",
+                  "required": [
+                    "method"
+                  ],
+                  "properties": {
+                    "method": {
+                      "const": "camera-body"
+                    }
+                  }
+                }
+              }
+            },
+            "required": [
+              "connections"
+            ]
+          }
+        },
+        "required": [
+          "electronicServices"
+        ]
+      },
+      "then": {
+        "properties": {
+          "electronics": {
+            "type": "object",
+            "required": [
+              "electronicContacts"
+            ],
+            "properties": {
+              "electronicContacts": {
+                "const": true
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

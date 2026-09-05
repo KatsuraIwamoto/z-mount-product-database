@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "commlite-cm-ef-nz",
+  "subject": {
+    "manufacturerId": "commlite",
+    "brandId": "commlite",
+    "name": "Electronic AF Lens Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "commlite-cm-ef-nz"
+  },
+  "sources": [
+    {
+      "url": "https://www.commlite.com/intro/4.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://images-na.ssl-images-amazon.com/images/I/61XBkWBF6vL.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "nikkor-z-400mm-f2p8-tc-vr-s",
+  "subject": {
+    "manufacturerId": "nikon",
+    "brandId": "nikkor",
+    "name": "NIKKOR Z 400mm f/2.8 TC VR S"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "nikkor-z-400mm-f2p8-tc-vr-s"
+  },
+  "sources": [
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/z-mount/z_400mmf28_tc_vr_s/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_400mm_f28_tc_vr_s/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_400mm_f28_tc_vr_s/features01.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "physical",
+        "physical.officialEnvironmentalProtectionClaims",
+        "controls",
+        "lens.coatings",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_400mm_f28_tc_vr_s/spec.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "specification",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_400mm_f28_tc_vr_s/accessory.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "physical.filterInterfaces",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.nikonusa.com/p/nikkor-z-400mm-f28-tc-vr-s/20111/overview",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://downloadcenter.nikonimglib.com/en/products/595/NIKKOR_Z_400mm_f_28_TC_VR_S.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://download.nikonimglib.com/archive7/Affpq00pTRvy06zdS8681GakFZ10/Z400_2.8TCVRSRG_(En)03.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "physical.tripodSupport",
+        "controls",
+        "accessories",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://downloadcenter.nikonimglib.com/en/download/fw/481.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/nikkor/about/technology.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/glossary/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "physical.externalLengthDuringFocus",
+        "lens.focus",
+        "lens.specialElements",
+        "lens.coatings"
+      ]
+    }
+  ],
+  "notes": [
+    "Nikon states that the published stabilization rating also applies with the built-in teleconverter engaged.",
+    "The published tripod-collar removal guidance directs the user to a Nikon-authorized service representative."
+  ]
+}

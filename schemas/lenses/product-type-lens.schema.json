@@ -1,0 +1,1141 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cercidiphyllum.jp/schemas/1.0.0/lenses/product-type-lens.schema.json",
+  "$comment": "SPDX-FileCopyrightText: 2026 Katsura Iwamoto\nSPDX-License-Identifier: MIT",
+  "description": "Lens-only optical, focus, stabilization, and composable specialized-feature specifications.",
+  "$defs": {
+    "apertureValues": {
+      "type": "object",
+      "required": [
+        "maximumAperture",
+        "minimumAperture",
+        "effective"
+      ],
+      "properties": {
+        "maximumAperture": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "../shared/shared-definitions.schema.json#/$defs/fNumberMeasurement"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "minimumAperture": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "../shared/shared-definitions.schema.json#/$defs/fNumberMeasurement"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "effective": {
+          "oneOf": [
+            {
+              "type": "object",
+              "required": [
+                "maximumAperture",
+                "minimumAperture"
+              ],
+              "properties": {
+                "maximumAperture": {
+                  "oneOf": [
+                    {
+                      "type": "array",
+                      "minItems": 1,
+                      "items": {
+                        "$ref": "../shared/shared-definitions.schema.json#/$defs/fNumberMeasurement"
+                      }
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "minimumAperture": {
+                  "oneOf": [
+                    {
+                      "type": "array",
+                      "minItems": 1,
+                      "items": {
+                        "$ref": "../shared/shared-definitions.schema.json#/$defs/fNumberMeasurement"
+                      }
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "tApertureValues": {
+      "type": "object",
+      "required": [
+        "maximumAperture",
+        "minimumAperture",
+        "effective"
+      ],
+      "properties": {
+        "maximumAperture": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "../shared/shared-definitions.schema.json#/$defs/tNumberMeasurement"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "minimumAperture": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "../shared/shared-definitions.schema.json#/$defs/tNumberMeasurement"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "effective": {
+          "oneOf": [
+            {
+              "type": "object",
+              "required": [
+                "maximumAperture",
+                "minimumAperture"
+              ],
+              "properties": {
+                "maximumAperture": {
+                  "oneOf": [
+                    {
+                      "type": "array",
+                      "minItems": 1,
+                      "items": {
+                        "$ref": "../shared/shared-definitions.schema.json#/$defs/tNumberMeasurement"
+                      }
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "minimumAperture": {
+                  "oneOf": [
+                    {
+                      "type": "array",
+                      "minItems": 1,
+                      "items": {
+                        "$ref": "../shared/shared-definitions.schema.json#/$defs/tNumberMeasurement"
+                      }
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                }
+              },
+              "additionalProperties": false
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "diaphragm": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "present"
+          ],
+          "properties": {
+            "present": {
+              "const": false
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "present",
+            "bladeCount",
+            "bladeShape"
+          ],
+          "properties": {
+            "present": {
+              "const": true
+            },
+            "bladeCount": {
+              "type": [
+                "integer",
+                "null"
+              ],
+              "minimum": 1,
+              "maximum": 9007199254740991
+            },
+            "bladeShape": {
+              "enum": [
+                "rounded",
+                "straight",
+                "other",
+                null
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "aperture": {
+      "type": "object",
+      "required": [
+        "fNumber",
+        "diaphragm",
+        "controlMechanism"
+      ],
+      "properties": {
+        "fNumber": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/apertureValues"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "tNumber": {
+          "$ref": "#/$defs/tApertureValues"
+        },
+        "diaphragm": {
+          "$ref": "#/$defs/diaphragm"
+        },
+        "controlMechanism": {
+          "enum": [
+            "mechanical",
+            "electronic",
+            null
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "autofocus": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "present"
+          ],
+          "properties": {
+            "present": {
+              "const": false
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "present",
+            "motors"
+          ],
+          "properties": {
+            "present": {
+              "const": true
+            },
+            "motors": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "type",
+                      "quantity"
+                    ],
+                    "properties": {
+                      "type": {
+                        "enum": [
+                          "stepping-motor",
+                          "voice-coil-motor",
+                          "linear-motor",
+                          "ultrasonic-motor",
+                          "dc-motor",
+                          "other"
+                        ]
+                      },
+                      "officialName": {
+                        "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+                      },
+                      "quantity": {
+                        "type": [
+                          "integer",
+                          "null"
+                        ],
+                        "minimum": 1,
+                        "maximum": 9007199254740991
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "manualFocus": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "present"
+          ],
+          "properties": {
+            "present": {
+              "const": false
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "present",
+            "mechanism"
+          ],
+          "properties": {
+            "present": {
+              "const": true
+            },
+            "mechanism": {
+              "enum": [
+                "mechanical-coupled",
+                "electronic-by-wire",
+                null
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "zoom": {
+      "type": "object",
+      "required": [
+        "drive",
+        "opticalZoomingSystems"
+      ],
+      "properties": {
+        "drive": {
+          "enum": [
+            "manual",
+            "motorized",
+            "manual-and-motorized",
+            null
+          ]
+        },
+        "opticalZoomingSystems": {
+          "oneOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "type"
+                ],
+                "properties": {
+                  "type": {
+                    "enum": [
+                      "internal-zooming",
+                      "other"
+                    ]
+                  },
+                  "officialName": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "uniqueItems": true
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "focus": {
+      "type": "object",
+      "required": [
+        "autofocus",
+        "manualFocus",
+        "opticalFocusingSystems",
+        "minimumFocusDistances",
+        "reproductionMagnifications",
+        "officialFocusBehaviorClaims"
+      ],
+      "properties": {
+        "autofocus": {
+          "$ref": "#/$defs/autofocus"
+        },
+        "manualFocus": {
+          "$ref": "#/$defs/manualFocus"
+        },
+        "opticalFocusingSystems": {
+          "oneOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "type"
+                ],
+                "properties": {
+                  "type": {
+                    "enum": [
+                      "all-element-focusing",
+                      "front-focusing",
+                      "internal-focusing",
+                      "rear-focusing",
+                      "multiple-group-focusing",
+                      "floating",
+                      "other"
+                    ]
+                  },
+                  "officialName": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "uniqueItems": true
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "minimumFocusDistances": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "../shared/shared-definitions.schema.json#/$defs/minimumFocusDistance"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "reproductionMagnifications": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "../shared/shared-definitions.schema.json#/$defs/reproductionMagnification"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "officialFocusBehaviorClaims": {
+          "oneOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "type",
+                  "conditions"
+                ],
+                "properties": {
+                  "type": {
+                    "enum": [
+                      "focus-breathing-suppressed",
+                      "parfocal"
+                    ]
+                  },
+                  "conditions": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/specializedConditions"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "uniqueItems": true
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "stabilizationRating": {
+      "type": "object",
+      "required": [
+        "stops",
+        "conditions"
+      ],
+      "properties": {
+        "stops": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/nonNegativeNumber"
+        },
+        "conditions": {
+          "type": "object",
+          "properties": {
+            "focalLength": {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/focalLengthCondition"
+            },
+            "imageFormat": {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/imageFormat"
+            },
+            "cameraBodyModel": {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+            },
+            "configuration": {
+              "enum": [
+                "lens-only",
+                "lens-and-body",
+                "unspecified"
+              ]
+            },
+            "standard": {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+            },
+            "standardVersion": {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+            },
+            "mode": {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+            },
+            "measurementAxes": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 9007199254740991
+            },
+            "evaluationPosition": {
+              "enum": [
+                "center",
+                "center-and-peripheral"
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "stabilization": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "present"
+          ],
+          "properties": {
+            "present": {
+              "const": false
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "present",
+            "ratings"
+          ],
+          "properties": {
+            "present": {
+              "const": true
+            },
+            "officialName": {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+            },
+            "ratings": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/stabilizationRating"
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "engagedAperture": {
+      "type": "object",
+      "required": [
+        "fNumber"
+      ],
+      "properties": {
+        "fNumber": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/apertureValues"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "tNumber": {
+          "$ref": "#/$defs/tApertureValues"
+        }
+      },
+      "additionalProperties": false
+    },
+    "builtInTeleconverter": {
+      "type": "object",
+      "required": [
+        "magnification",
+        "unitOpticalConstruction",
+        "engagedSpecifications"
+      ],
+      "properties": {
+        "magnification": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/positiveNumber"
+        },
+        "unitOpticalConstruction": {
+          "oneOf": [
+            {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/opticalConstruction"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "engagedSpecifications": {
+          "type": "object",
+          "required": [
+            "focalLength",
+            "aperture",
+            "anglesOfView",
+            "minimumFocusDistances",
+            "reproductionMagnifications",
+            "stabilizationRatings"
+          ],
+          "properties": {
+            "focalLength": {
+              "oneOf": [
+                {
+                  "$ref": "../shared/shared-definitions.schema.json#/$defs/focalLength"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "aperture": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/engagedAperture"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "anglesOfView": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/angleOfView"
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "minimumFocusDistances": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/minimumFocusDistance"
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "reproductionMagnifications": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/reproductionMagnification"
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "stabilizationRatings": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/$defs/stabilizationRating"
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "specialized": {
+      "type": "object",
+      "properties": {
+        "cinema": {
+          "type": "object",
+          "additionalProperties": false
+        },
+        "anamorphic": {
+          "type": "object",
+          "required": [
+            "squeezeRatios"
+          ],
+          "properties": {
+            "squeezeRatios": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "value",
+                      "conditions"
+                    ],
+                    "properties": {
+                      "value": {
+                        "$ref": "../shared/shared-definitions.schema.json#/$defs/positiveNumber"
+                      },
+                      "conditions": {
+                        "$ref": "../shared/shared-definitions.schema.json#/$defs/specializedConditions"
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "fisheye": {
+          "type": "object",
+          "required": [
+            "imageTypes"
+          ],
+          "properties": {
+            "imageTypes": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "type",
+                      "conditions"
+                    ],
+                    "properties": {
+                      "type": {
+                        "enum": [
+                          "circular",
+                          "diagonal"
+                        ]
+                      },
+                      "conditions": {
+                        "$ref": "../shared/shared-definitions.schema.json#/$defs/specializedConditions"
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "macro": {
+          "type": "object",
+          "required": [
+            "workingDistances"
+          ],
+          "properties": {
+            "workingDistances": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/workingDistance"
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "reflex": {
+          "type": "object",
+          "additionalProperties": false
+        },
+        "movements": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/movements"
+        },
+        "probe": {
+          "type": "object",
+          "description": "Presence identifies a probe lens; published viewing and lighting details may be added independently.",
+          "properties": {
+            "viewConfigurations": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "directionDegrees",
+                      "relationship"
+                    ],
+                    "properties": {
+                      "directionDegrees": {
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 360
+                      },
+                      "relationship": {
+                        "enum": [
+                          "supplied",
+                          "optional",
+                          "integrated",
+                          null
+                        ]
+                      },
+                      "axialRotationDegrees": {
+                        "$ref": "../shared/shared-definitions.schema.json#/$defs/nonNegativeNumber"
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "integratedLights": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "type",
+                      "location",
+                      "quantity"
+                    ],
+                    "properties": {
+                      "type": {
+                        "enum": [
+                          "led",
+                          "other"
+                        ]
+                      },
+                      "location": {
+                        "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+                      },
+                      "quantity": {
+                        "type": "integer",
+                        "minimum": 1,
+                        "maximum": 9007199254740991
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "builtInTeleconverter": {
+          "$ref": "#/$defs/builtInTeleconverter"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "type": "object",
+  "required": [
+    "focalLength",
+    "aperture",
+    "anglesOfView",
+    "coverage",
+    "opticalConstruction",
+    "specialElements",
+    "coatings",
+    "focus",
+    "stabilization",
+    "specialized"
+  ],
+  "properties": {
+    "focalLength": {
+      "oneOf": [
+        {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/focalLength"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "aperture": {
+      "$ref": "#/$defs/aperture"
+    },
+    "anglesOfView": {
+      "oneOf": [
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "../shared/shared-definitions.schema.json#/$defs/angleOfView"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "coverage": {
+      "$ref": "../shared/shared-definitions.schema.json#/$defs/coverage"
+    },
+    "imageCircleDiameters": {
+      "oneOf": [
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "diameterMm",
+              "conditions"
+            ],
+            "properties": {
+              "diameterMm": {
+                "$ref": "../shared/shared-definitions.schema.json#/$defs/positiveNumber"
+              },
+              "conditions": {
+                "$ref": "../shared/shared-definitions.schema.json#/$defs/specializedConditions"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "opticalConstruction": {
+      "oneOf": [
+        {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/opticalConstruction"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "specialElements": {
+      "oneOf": [
+        {
+          "type": "array",
+          "items": {
+            "$ref": "../shared/shared-definitions.schema.json#/$defs/specialElement"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "coatings": {
+      "oneOf": [
+        {
+          "type": "array",
+          "items": {
+            "$ref": "../shared/shared-definitions.schema.json#/$defs/coating"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "focus": {
+      "$ref": "#/$defs/focus"
+    },
+    "zoom": {
+      "$ref": "#/$defs/zoom"
+    },
+    "stabilization": {
+      "$ref": "#/$defs/stabilization"
+    },
+    "specialized": {
+      "$ref": "#/$defs/specialized"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "focalLength": {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "const": "zoom"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          }
+        },
+        "required": [
+          "focalLength"
+        ]
+      },
+      "then": {
+        "required": [
+          "zoom"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "focalLength": {
+            "type": "object",
+            "properties": {
+              "kind": {
+                "const": "prime"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          }
+        },
+        "required": [
+          "focalLength"
+        ]
+      },
+      "then": {
+        "not": {
+          "required": [
+            "zoom"
+          ]
+        }
+      }
+    }
+  ],
+  "additionalProperties": false,
+  "title": "Lens product fields"
+}

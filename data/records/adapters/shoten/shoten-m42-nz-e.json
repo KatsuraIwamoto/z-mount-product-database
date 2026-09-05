@@ -1,0 +1,93 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "shoten-m42-nz-e",
+  "identity": {
+    "manufacturerId": "shoten-kobo",
+    "brandId": "shoten",
+    "productName": "SHOTEN M42-NZ E Mount Adapter",
+    "modelNumberOptions": [
+      "M42-NZ E"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2026-03-25",
+    "officialDesignations": null
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000002433",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "SHOTEN"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "m42",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": true,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": true,
+    "metadataTransmission": {
+      "present": true,
+      "standards": [
+        "exif"
+      ]
+    },
+    "lensPowerTransmission": null,
+    "recordingTriggerTransmission": null
+  },
+  "mechanisms": [],
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 68,
+        "lengthMm": 28,
+        "approximate": true,
+        "conditions": {
+          "excludesProjections": true
+        },
+        "note": "Excludes the mount and projections."
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 147,
+        "approximate": true,
+        "conditions": {}
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "purposes": [
+          "firmware-update",
+          "configuration"
+        ]
+      }
+    ]
+  },
+  "conversionOptics": {
+    "present": false
+  }
+}

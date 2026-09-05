@@ -1,0 +1,54 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "artralab-motus-50mm-f1p6-pan-tilt-360",
+  "subject": {
+    "manufacturerId": "artra-lab",
+    "brandId": "artra-lab",
+    "name": "MOTUS 50mm F1.6 PAN TILT 360"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "artralab-motus-50mm-f1p6-pan-tilt-360"
+  },
+  "sources": [
+    {
+      "url": "https://artralab.com/products/artra-lab-motus-50mm-f1-6-pan-tilt-360",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://www.artralab.hk/collections/lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Confirm the diaphragm blade count of the MOTUS 50 mm F1.6 Nikon Z configuration."
+  ]
+}

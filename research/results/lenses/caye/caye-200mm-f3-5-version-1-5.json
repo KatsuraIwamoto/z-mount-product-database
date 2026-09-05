@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "caye-200mm-f3-5-version-1-5",
+  "subject": {
+    "manufacturerId": null,
+    "brandId": "caye",
+    "name": "CAYE 200mm F3.5 Version 1.5"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.dcfever.com/news/readnews.php?id=39151&page=2",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Which entity manufactures the product, and which official specifications apply to the Nikon Z configuration?"
+  ]
+}

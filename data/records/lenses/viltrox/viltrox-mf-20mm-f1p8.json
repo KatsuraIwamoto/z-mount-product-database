@@ -1,0 +1,210 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "viltrox-mf-20mm-f1p8",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "viltrox",
+    "brandId": "viltrox",
+    "productName": "MF 20mm F1.8",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://viltrox.com/products/viltrox-20mm-f1-8-full-frame-wide-angle-fixed-prime-lens-for-nikon-z-mount-mirrorless",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Viltrox"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": null
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 76.8,
+        "lengthMm": 104,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 782,
+        "conditions": {
+          "attachedComponents": []
+        },
+        "approximate": true
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": [],
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 82,
+        "host": {
+          "kind": "accessory",
+          "category": "other",
+          "modelNumberOptions": null
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": "constant",
+    "isRetractableForStorage": false
+  },
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "rotationDegrees": 148.5
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    }
+  ],
+  "accessories": null,
+  "electronicServices": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 20
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 1.8,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 16,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 14,
+        "bladeShape": null
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": "diagonal",
+        "degrees": 94.2,
+        "conditions": {}
+      },
+      {
+        "format": "full-frame",
+        "orientation": "horizontal",
+        "degrees": 75.366667,
+        "conditions": {}
+      },
+      {
+        "format": "full-frame",
+        "orientation": "vertical",
+        "degrees": 56.516667,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 9,
+      "elements": 12
+    },
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "officialName": "Double-sided aspherical lens",
+        "quantity": 1
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 4,
+        "officialName": "ED"
+      },
+      {
+        "types": [
+          "other"
+        ],
+        "quantity": 1
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "officialName": "HD Nano Coating",
+        "appliedTo": null
+      }
+    ],
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "mechanical-coupled"
+      },
+      "opticalFocusingSystems": [
+        {
+          "type": "rear-focusing"
+        }
+      ],
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.25,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.120482,
+          "conditions": {}
+        }
+      ],
+      "officialFocusBehaviorClaims": []
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {},
+    "imageCircleDiameters": [
+      {
+        "diameterMm": 43.2,
+        "conditions": {}
+      }
+    ]
+  }
+}

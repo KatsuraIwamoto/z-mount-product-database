@@ -1,0 +1,103 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "zeiss-otus-ml-35mm-f1p4",
+  "subject": {
+    "manufacturerId": "carl-zeiss-ag",
+    "brandId": "zeiss",
+    "name": "ZEISS Otus ML 1.4/35"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "zeiss-otus-ml-35mm-f1p4"
+  },
+  "sources": [
+    {
+      "url": "https://www.zeiss.com/photonics-and-optics/en/photography/products/lenses-for-mirrorless-system-cameras/otus-ml-lenses.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.specialElements",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.zeiss.com/photonics-and-optics/us/photography/products/lenses-for-mirrorless-system-cameras/otus-ml-lenses.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "controls",
+        "accessories",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.zeiss.com/photonics-and-optics/en/home/content/newsroom/news-overview/2026/otus-ml-35mm-launch.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mount",
+        "lens.coverage",
+        "lens.coatings"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.cosina.co.jp/zeiss/otus-ml/otus-ml-1-4-35/",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "mount",
+        "physical",
+        "controls",
+        "accessories",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://petapixel.com/2026/06/16/exclusive-zeiss-refutes-rumors-cosina-developed-otus-ml-lenses/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://www.zeiss.com/content/dam/pno/downloads/photo-lenses/datasheets/otus-ml-lenses/datasheet-zeiss-otus-ml-1435.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "specification",
+      "checked": [
+        "identity",
+        "lens.anglesOfView"
+      ]
+    }
+  ]
+}

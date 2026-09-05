@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "astrhori-mf-9mm-f2p8",
+  "subject": {
+    "manufacturerId": "astrhori",
+    "brandId": "astrhori",
+    "name": "MF 9mm F2.8 Ultra Wide-angle APS-C Lens"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "astrhori-mf-9mm-f2p8"
+  },
+  "sources": [
+    {
+      "url": "https://www.astrhori.cn/products/mf-9mm-f2-8-ultra-wide-angle-aps-c-lens-for-e-fx-eos-r-m43-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.com/cp",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1927029-REG/astrhori_a38bz_9mm_f_2_8_lens_nikon.html/overview",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.opticalConstruction"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0698/5046/4568/files/9mm_F2.8.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.anglesOfView"
+      ]
+    }
+  ]
+}

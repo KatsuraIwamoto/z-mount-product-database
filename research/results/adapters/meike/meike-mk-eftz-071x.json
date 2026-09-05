@@ -1,0 +1,54 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "meike-mk-eftz-071x",
+  "subject": {
+    "manufacturerId": "meike",
+    "brandId": "meike",
+    "name": "0.71x Speed Booster Adapter for Canon EF/EF-S Lenses to Nikon Z Cameras"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "meike-mk-eftz-071x"
+  },
+  "sources": [
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1793196-REG/meike_mk_eftz_071x_0_71x_speedbooster_adapter_for.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/pages/ef-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "electronics",
+        "electronicServices",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/en-de/collections/new-year-discount-adapter-page/products/speedbooster",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    }
+  ]
+}

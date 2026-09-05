@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "opticron-40615",
+  "subject": {
+    "manufacturerId": "opticron",
+    "brandId": "opticron",
+    "name": "T-Mount for Nikon Z"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The product is marketed primarily as a digiscoping connection for Opticron spotting-scope systems, not as a general interchangeable-lens mount conversion product."
+  },
+  "sources": [
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1696771-REG/opticron_40615_t_mount_for_nikon_z.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions"
+      ]
+    },
+    {
+      "url": "https://www.opticron.eu/ukhtml/PDF/Product_Guide_13.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity"
+      ]
+    }
+  ]
+}

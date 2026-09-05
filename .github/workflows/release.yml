@@ -1,0 +1,84 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "*.*.*"
+
+permissions: {}
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Create release
+    permissions:
+      contents: write # Required to create the GitHub Release.
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out tagged commit
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.14"
+
+      - name: Install Hatch
+        run: python -m pip install --disable-pip-version-check hatch==1.18.0
+
+      - name: Run checks
+        run: hatch run check
+
+      - name: Verify release tag
+        env:
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: >-
+          python -c 'import json, os;
+          version = json.load(open("config/versions.json", encoding="utf-8"))["dataVersion"];
+          assert os.environ["RELEASE_TAG"] == version,
+          f"tag must be {version}"'
+
+      - name: Verify public repository, documentation, licenses, and schemas
+        run: |
+          curl -fsSL --retry 3 --output /dev/null \
+            https://github.com/KatsuraIwamoto/z-mount-product-database
+          curl -fsSL --retry 3 --output /dev/null \
+            https://katsuraiwamoto.github.io/z-mount-product-database/
+          curl -fsSL --retry 3 --output /dev/null \
+            https://katsuraiwamoto.github.io/z-mount-product-database/ja/
+          curl -fsSL --retry 3 --output /dev/null \
+            https://katsuraiwamoto.github.io/z-mount-product-database/license/
+          curl -fsSL --retry 3 --output /dev/null \
+            https://katsuraiwamoto.github.io/z-mount-product-database/ja/license/
+          curl -fsSL --retry 3 \
+            "https://raw.githubusercontent.com/KatsuraIwamoto/z-mount-product-database/${GITHUB_REF_NAME}/LICENSING.md" \
+            | cmp -s LICENSING.md -
+          curl -fsSL --retry 3 \
+            "https://raw.githubusercontent.com/KatsuraIwamoto/z-mount-product-database/${GITHUB_REF_NAME}/LICENSES/MIT.txt" \
+            | cmp -s LICENSES/MIT.txt -
+          find schemas/lenses schemas/adapters schemas/shared \
+            -type f -name '*.schema.json' -print0 | while IFS= read -r -d '' schema; do
+            schema_url="$(python -c \
+              'import json, sys; print(json.load(open(sys.argv[1], encoding="utf-8"))["$id"])' \
+              "$schema")"
+            curl -fsSL --retry 3 "$schema_url" | cmp -s "$schema" -
+          done
+
+      - name: Create GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release create "${GITHUB_REF_NAME}" \
+            dist/z-mount-lenses.full.json \
+            dist/z-mount-lenses.light.json \
+            dist/z-mount-adapters.full.json \
+            PRODUCTS.md \
+            LICENSES/CC-BY-4.0.txt \
+            LICENSING.md \
+            --generate-notes \
+            --title "Z Mount Product Database ${GITHUB_REF_NAME}"

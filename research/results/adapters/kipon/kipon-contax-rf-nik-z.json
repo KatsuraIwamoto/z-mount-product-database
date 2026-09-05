@@ -1,0 +1,36 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "kipon-contax-rf-nik-z",
+  "subject": {
+    "manufacturerId": "kipon",
+    "brandId": "kipon",
+    "name": "Adapter for Contax Rangefinder RF Lens on Nikon Z Full-Frame Camera"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "kipon-contax-rf-nik-z"
+  },
+  "sources": [
+    {
+      "url": "https://www.kipon.jp/products/adapter-for-contax-rangefinder-rf-lens-on-nikon-z-full-frame-camera",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Which manufacturer model identifier and Contax RF bayonet configuration distinguish this product from the other listed Contax RF-to-Nikon Z versions?"
+  ]
+}

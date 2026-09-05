@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "cheecar-50mm-f1-8",
+  "subject": {
+    "manufacturerId": "cheecar",
+    "brandId": "cheecar",
+    "name": "Cheecar 50mm F1.8"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "cheecar-50mm-f1-8"
+  },
+  "sources": [
+    {
+      "url": "http://cheecar.com/product-42292-37595-119499.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "lomography-joseph-petzval-135mm-f2-5-focus-coupled-bokeh-control-art-lens",
+  "subject": {
+    "manufacturerId": "lomography",
+    "brandId": "lomography",
+    "name": "Lomography Joseph Petzval 135mm F2.5 Focus-Coupled Bokeh Control Art Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "lomography-joseph-petzval-135mm-f2-5-focus-coupled-bokeh-control-art-lens"
+  },
+  "sources": [
+    {
+      "url": "https://shop.lomography.com/jp/joseph-petzval-135-f-2-5-bokeh-control-art-lens-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "physical",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://shop.lomography.com/us/lenses/all",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

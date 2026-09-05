@@ -1,0 +1,228 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "samyang-mf-14mm-f2p8-z",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "samyang-optics",
+    "brandId": "rokinon",
+    "productName": "14mm F2.8 Full Frame Ultra Wide Angle (Nikon Z)",
+    "modelNumberOptions": [
+      "Z14-N"
+    ],
+    "alternateNames": [
+      {
+        "name": "MF 14mm F2.8 Z",
+        "brandId": "samyang",
+        "region": "KR"
+      }
+    ],
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://rokinon.com/products/14mm-f2-8-full-frame-ultra-wide-angle-nikon-z",
+      "pageFamilies": [
+        "usa"
+      ],
+      "region": "US",
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Rokinon"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": false
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 87,
+        "lengthMm": 124.1,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 810,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "weather-resistant"
+        ],
+        "scope": {
+          "kind": "product"
+        },
+        "conditions": {}
+      }
+    ],
+    "filterInterfaces": [
+      {
+        "type": "rear-gelatin",
+        "sheetDimensionsMm": null,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": false
+  },
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "integrated",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": null,
+    "rearCaps": null,
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 14
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 2.8,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 6,
+        "bladeShape": null
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 115.7,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 10,
+      "elements": 14
+    },
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "officialName": "ASP",
+        "quantity": 1
+      },
+      {
+        "types": [
+          "aspherical"
+        ],
+        "officialName": "H-ASP",
+        "quantity": 1
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 2,
+        "officialName": "ED"
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 3,
+        "officialName": "HR"
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "officialName": "Ultra Multi-Coating",
+        "appliedTo": null
+      }
+    ],
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": null
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.28,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.08,
+          "conditions": {}
+        }
+      ],
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}

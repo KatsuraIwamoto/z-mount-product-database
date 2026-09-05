@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "novoflex-nikz-lei",
+  "subject": {
+    "manufacturerId": "novoflex",
+    "brandId": "novoflex",
+    "name": "Adapter M39 Lenses to Nikon Z Cameras"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "novoflex-nikz-lei"
+  },
+  "sources": [
+    {
+      "url": "https://www.novoflex.de/en/Adapter-M39-lenses-to-Nikon-Z-cameras/NIKZ-LEI",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    }
+  ]
+}

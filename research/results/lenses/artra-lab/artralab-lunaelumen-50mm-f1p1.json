@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "artralab-lunaelumen-50mm-f1p1",
+  "subject": {
+    "manufacturerId": "artra-lab",
+    "brandId": "artra-lab",
+    "name": "50mm F1.1 LUNAELUMEN"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "artralab-lunaelumen-50mm-f1p1"
+  },
+  "sources": [
+    {
+      "url": "https://artralab.com/products/custom-made-version-artra-lab-50mm-f1-1-lunaelumen-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://www.artralab.hk/collections/lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    }
+  ]
+}

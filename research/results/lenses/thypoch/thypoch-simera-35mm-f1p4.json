@@ -1,0 +1,75 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "thypoch-simera-35mm-f1p4",
+  "subject": {
+    "manufacturerId": "thypoch",
+    "brandId": "thypoch",
+    "name": "Simera 35mm f/1.4 Z/M/E/RF Mount Full-Frame Manual Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "thypoch-simera-35mm-f1p4"
+  },
+  "sources": [
+    {
+      "url": "https://thypoch.com/en/simera/35mm",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://store.thypoch.com/products/simera-35mm-camera-lens-f1-4",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "controls",
+        "accessories",
+        "lens.coverage",
+        "lens.focus"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://store.thypoch.com/collections/simera",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "eletrend-fujifilm-x-to-nikon-z-af-adapter",
+  "subject": {
+    "manufacturerId": null,
+    "brandId": "eletrend",
+    "name": "Fujifilm X to Nikon Z Autofocus Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.zsystemuser.com/z-mount-lenses/z-mount-adapters/other-adapters/other-z-mount-adapters.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "technical-page",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Confirm the exact model number, manufacturer identity, and official release or verified sale."
+  ]
+}

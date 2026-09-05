@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "mofage-poco-nikon-z-interchangeable-mount",
+  "subject": {
+    "manufacturerId": "mofage",
+    "brandId": "mofage",
+    "name": "Interchangeable mount for E/RF/L/Z/Kine (Z-Mount)"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "Excluded because it is a replacement camera-side mount component that must be installed on a POCO adapter, not a complete interposed mount adapter."
+  },
+  "sources": [
+    {
+      "url": "https://www.mofage.store/products/poco-drop-in-filter-adapter-e-rf-l-z-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

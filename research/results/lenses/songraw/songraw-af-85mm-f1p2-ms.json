@@ -1,0 +1,98 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "songraw-af-85mm-f1p2-ms",
+  "subject": {
+    "manufacturerId": "songraw",
+    "brandId": "songraw",
+    "name": "SongRaw AF 85mm F1.2 MS",
+    "aliases": [
+      "SongRaw AF 85mm F1.2 M-Simplify"
+    ]
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "songraw-af-85mm-f1p2-ms"
+  },
+  "sources": [
+    {
+      "url": "https://www.songraw.com/jt",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://songrawlens.com/products/songraw-af-851-2-ms-full-frame-autofocus-lens-golden-focal-lengthportraits-with-depth",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.alternateNames",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.filterInterfaces",
+        "physical.externalLengthDuringFocus",
+        "physical.isRetractableForStorage",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5317643353199720.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.imaging-resource.com/news/songraw-af-85mm-f-1-2-simplified-edition-delivers-moonlit-optics-for-half-the-price/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1973279-REG/songraw_af_851_2_z_ms_85mm_f_1_2_af_ms.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mount",
+        "accessories"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

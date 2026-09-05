@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "viltrox-nf-z",
+  "subject": {
+    "manufacturerId": "viltrox",
+    "brandId": "viltrox",
+    "name": "NF-Z Auto Focus Mount Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "viltrox-nf-z"
+  },
+  "sources": [
+    {
+      "url": "https://viltrox.com/products/nf-z-auto-focus-f-mount-to-nikon-z-camera-mount-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1714129-REG/viltrox_nf_z_nikon_f_mount_lens.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ]
+}

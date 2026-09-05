@@ -1,0 +1,229 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "viltrox-af-28mm-f4p5",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "viltrox",
+    "brandId": "viltrox",
+    "productName": "AF 28mm F4.5",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://viltrox.com/products/af-28mm-f4-5-z",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Viltrox"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": {
+        "present": true,
+        "standards": [
+          "exif"
+        ]
+      }
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 65.3,
+        "lengthMm": 16.8,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 80,
+        "conditions": {
+          "attachedComponents": []
+        },
+        "approximate": true
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "dust-resistant",
+          "waterproof",
+          "other"
+        ],
+        "scope": {
+          "kind": "component",
+          "component": "front element"
+        },
+        "conditions": {}
+      }
+    ],
+    "filterInterfaces": [],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": true
+  },
+  "controls": [
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Slide lever"
+    }
+  ],
+  "accessories": {
+    "lensHoods": [],
+    "frontCaps": [],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": [],
+    "lensStraps": [],
+    "protectiveWraps": []
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": null,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 28
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 4.5,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 4.5,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": false
+      },
+      "controlMechanism": "electronic"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 73.42,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 6,
+      "elements": 6
+    },
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 2,
+        "officialName": "Aspherical"
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 2,
+        "officialName": "ED"
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "officialName": "HD Nano Coating",
+        "appliedTo": null
+      },
+      {
+        "types": [
+          "surface-protective"
+        ],
+        "appliedTo": [
+          "front-element"
+        ]
+      }
+    ],
+    "focus": {
+      "autofocus": {
+        "present": true,
+        "motors": [
+          {
+            "type": "voice-coil-motor",
+            "quantity": null,
+            "officialName": "VCM"
+          }
+        ]
+      },
+      "manualFocus": {
+        "present": false
+      },
+      "opticalFocusingSystems": [
+        {
+          "type": "all-element-focusing",
+          "officialName": "Full-lens focusing system"
+        }
+      ],
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.35,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.1,
+          "conditions": {}
+        }
+      ],
+      "officialFocusBehaviorClaims": []
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}

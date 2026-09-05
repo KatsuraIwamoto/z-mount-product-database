@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fotasy-lm-nz",
+  "subject": {
+    "manufacturerId": null,
+    "brandId": "fotasy",
+    "name": "Leica M to Nikon Z Adapter",
+    "aliases": [
+      "LM-N/Z",
+      "LM-Nik Z"
+    ]
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://cameraexc.com/en-ca/products/fotasy-leica-m-to-nikon-z-mount-adapter",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://acephoto.net/cameras/fotasy-leica-m-lm-nikon-z/",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Which entity manufactures this branded product?",
+    "Can an official exact-product page, official catalog, or manufacturer-run storefront confirm the official product name and model number, and whether this is a distinct product or a variant of another adapter?"
+  ]
+}

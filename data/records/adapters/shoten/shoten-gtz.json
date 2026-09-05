@@ -1,0 +1,88 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "shoten-gtz",
+  "identity": {
+    "manufacturerId": "shoten-kobo",
+    "brandId": "shoten",
+    "productName": "SHOTEN GTZ Mount Adapter",
+    "modelNumberOptions": [
+      "GTZ"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2025-07-04",
+    "officialDesignations": null
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000002266",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "SHOTEN"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "contax-g",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": true,
+    "autofocus": true,
+    "cameraControlledAperture": null,
+    "lensStabilizationCommunication": null,
+    "manualFocusAssistance": null,
+    "metadataTransmission": null,
+    "lensPowerTransmission": null,
+    "recordingTriggerTransmission": null
+  },
+  "mechanisms": [],
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          81,
+          66,
+          23
+        ],
+        "approximate": true,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 194,
+        "approximate": true,
+        "conditions": {}
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "purposes": [
+          "firmware-update"
+        ],
+        "connectorType": "micro-usb"
+      }
+    ]
+  },
+  "conversionOptics": {
+    "present": false
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "red-z-to-pl-adapter",
+  "subject": {
+    "manufacturerId": "red-digital-cinema",
+    "brandId": "red",
+    "name": "RED Z to PL Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "red-z-to-pl-adapter"
+  },
+  "sources": [
+    {
+      "url": "https://www.reddigitalcinema.com/red-z-to-pl-adapter-pack",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.variants",
+        "lifecycle",
+        "mountConfigurations",
+        "conversionOptics",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://support.red.com/hc/en-us/articles/38057098334867-Z-Mount-Lensing",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "identity",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://support.red.com/hc/en-us/articles/38449050809107-KOMODO-X-Z-to-PL-Adapter-and-Brackets-Setup-Guide",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://docs.red.com/955-0219/955-0219_V2.1_Rev-B_RED_PS_KOMODO-X_Operation_Guide/Content/D_Accessories/KXZ_to_PL.htm",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "electronics"
+      ]
+    }
+  ]
+}

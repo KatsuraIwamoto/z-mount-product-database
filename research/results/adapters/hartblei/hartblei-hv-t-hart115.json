@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "hartblei-hv-t-hart115",
+  "subject": {
+    "manufacturerId": "hartblei",
+    "brandId": "hartblei",
+    "name": "Hartblei HV-T TILT Adapter for Hasselblad V lenses"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "hartblei-hv-t-hart115"
+  },
+  "sources": [
+    {
+      "url": "https://hartbleilens.com/index.php?route=product/product&product_id=66",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

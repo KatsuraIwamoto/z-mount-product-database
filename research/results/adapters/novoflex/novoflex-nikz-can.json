@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "novoflex-nikz-can",
+  "subject": {
+    "manufacturerId": "novoflex",
+    "brandId": "novoflex",
+    "name": "Adapter Canon FD Lenses to Nikon Z Cameras"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "novoflex-nikz-can"
+  },
+  "sources": [
+    {
+      "url": "https://www.novoflex.de/en/Adapter-Canon-FD-lenses-to-Nikon-Z-cameras/NIKZ-CAN",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    }
+  ]
+}

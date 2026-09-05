@@ -1,0 +1,208 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "nikkor-z-dx-16-to-50mm-f3p5-to-6p3-vr",
+  "subject": {
+    "manufacturerId": "nikon",
+    "brandId": "nikkor",
+    "name": "NIKKOR Z DX 16-50mm f/3.5-6.3 VR"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "nikkor-z-dx-16-to-50mm-f3p5-to-6p3-vr"
+  },
+  "sources": [
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/z-mount/z_dx_16-50mmf35-63_vr/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.externalLengthDuringZoom",
+        "physical.isRetractableForStorage",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_dx_16-50mm_f35-63_vr/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.variants",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.nikonusa.com/p/nikkor-z-dx-16-50mm-f35-63-vr/20084/overview",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.coatings",
+        "lens.focus",
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.nikon.com/company/news/2019/1010_lens_01/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "lifecycle",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.nikon.com/company/news/2021/0629_mirrorless_01/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity.variants",
+        "lifecycle",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.nikonusa.com/p/nikkor-z-dx-16-50mm-f35-63-vr-silver/20109/overview",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity.variants",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/shop/g/g4960759909268/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.variants"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://downloadcenter.nikonimglib.com/en/products/527/NIKKOR_Z_DX_16-50mm_f_35-63_VR.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://download.nikonimglib.com/archive4/l2CXp00K8dA104mgcwZ90HoPON42/ZDX16-50_3.5-6.3VR_BV_DL(En)01_01.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "controls",
+        "accessories",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://downloadcenter.nikonimglib.com/en/download/fw/547.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_dx_16-50mm_f35-63_vr/features01.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "physical",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/glossary/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "physical.externalLengthDuringZoom",
+        "physical.externalLengthDuringFocus",
+        "lens.focus",
+        "lens.specialElements",
+        "lens.coatings"
+      ]
+    }
+  ],
+  "notes": [
+    "Nikon describes Silver as a color variation of the existing product."
+  ],
+  "unresolved": [
+    "Confirm the minimum f-number at each end of the zoom range for this product."
+  ]
+}

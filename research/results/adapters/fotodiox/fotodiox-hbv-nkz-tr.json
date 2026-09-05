@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fotodiox-hbv-nkz-tr",
+  "subject": {
+    "manufacturerId": "fotodiox",
+    "brandId": "fotodiox",
+    "name": "Fotodiox Pro TLT ROKR - Tilt / Shift Lens Mount Adapter Compatible with Hasselblad V-Mount SLR Lenses to Nikon Z-Mount Mirrorless Camera Body"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "fotodiox-hbv-nkz-tr"
+  },
+  "sources": [
+    {
+      "url": "https://fotodioxpro.com/products/hbv-nkz-tr",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

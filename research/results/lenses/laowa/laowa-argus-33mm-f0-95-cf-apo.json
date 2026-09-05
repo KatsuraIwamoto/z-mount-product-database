@@ -1,0 +1,69 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "laowa-argus-33mm-f0-95-cf-apo",
+  "subject": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "name": "LAOWA Argus 33mm F0.95 CF APO"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "laowa-argus-33mm-f0-95-cf-apo"
+  },
+  "sources": [
+    {
+      "url": "https://www.venuslens.net/product/laowa-argus-33mm-f-0-95-cf-apo/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.externalLengthDuringFocus",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.venuslens.net/shop/?product_tag=Z&product_view=list",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/7839ebf57335d77e528f1089b52dc0d82a84f429.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "lens.focalLength",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.specialElements",
+        "lens.stabilization"
+      ]
+    }
+  ]
+}

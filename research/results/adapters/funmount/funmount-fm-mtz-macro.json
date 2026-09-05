@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "funmount-fm-mtz-macro",
+  "subject": {
+    "manufacturerId": "funmount",
+    "brandId": "funmount",
+    "name": "FM-MTZ MACRO Mount Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "funmount-fm-mtz-macro"
+  },
+  "sources": [
+    {
+      "url": "https://www.funmount.com/FM-MTZ-MACRO?_l=en",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.funmount.com/manual?_l=en",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ]
+}

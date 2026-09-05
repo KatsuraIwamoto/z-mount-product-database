@@ -1,0 +1,232 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "voigtlander-macro-apo-ultron-d35mm-f2",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "cosina",
+    "brandId": "voigtlander",
+    "productName": "MACRO APO-ULTRON D35mm F2",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2022-09-15",
+    "officialDesignations": [
+      {
+        "type": "production-ended"
+      }
+    ]
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.cosina.co.jp/voigtlander/z-mount/macro-apo-ultron-d35mm-f2/",
+      "pageFamilies": [
+        "home-country",
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Cosina"
+      }
+    },
+    {
+      "url": "https://shop.cameraquest.com/voigtlander-z-mount/voigtlander-z-d35mm-f/2-macro-apo-ultron/",
+      "pageFamilies": [
+        "usa"
+      ],
+      "region": "US",
+      "language": "en",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "CameraQuest"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": "officially-licensed",
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": {
+        "present": true,
+        "standards": [
+          "exif"
+        ]
+      }
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 67.6,
+        "lengthMm": 56.7,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 290,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 52,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": "variable",
+    "isRetractableForStorage": false
+  },
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null,
+    "lensCases": null
+  },
+  "electronicServices": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 35
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 2,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 10,
+        "bladeShape": "rounded"
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": [
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 42.7,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "aps-c"
+    },
+    "opticalConstruction": {
+      "groups": 6,
+      "elements": 9
+    },
+    "specialElements": [
+      {
+        "types": [
+          "anomalous-partial-dispersion"
+        ],
+        "officialName": "Anomalous partial dispersion glass",
+        "quantity": 3
+      }
+    ],
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "mechanical-coupled"
+      },
+      "opticalFocusingSystems": [
+        {
+          "type": "front-focusing",
+          "officialName": "Front focus system"
+        }
+      ],
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.163,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 35
+            }
+          }
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.5,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 35
+            }
+          }
+        }
+      ],
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {
+      "macro": {
+        "workingDistances": null
+      }
+    }
+  }
+}

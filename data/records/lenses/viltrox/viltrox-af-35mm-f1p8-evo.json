@@ -1,0 +1,275 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "viltrox-af-35mm-f1p8-evo",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "viltrox",
+    "brandId": "viltrox",
+    "productName": "AF 35mm F1.8 EVO",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2026-04-20",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://viltrox.com/products/af-35mm-f1-8-z",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Viltrox"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": {
+        "present": true,
+        "standards": [
+          "exif"
+        ]
+      }
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 69,
+        "lengthMm": 78,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 375,
+        "conditions": {
+          "attachedComponents": []
+        },
+        "approximate": true
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "dust-resistant",
+          "drip-resistant"
+        ],
+        "scope": {
+          "kind": "product"
+        },
+        "conditions": {}
+      },
+      {
+        "types": [
+          "other"
+        ],
+        "scope": {
+          "kind": "component",
+          "component": "lens mount"
+        },
+        "conditions": {}
+      },
+      {
+        "types": [
+          "other"
+        ],
+        "scope": {
+          "kind": "component",
+          "component": "front element"
+        },
+        "conditions": {}
+      }
+    ],
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 58,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": "constant",
+    "isRetractableForStorage": false
+  },
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "function-button",
+      "quantity": 1,
+      "officialName": "Fn button"
+    },
+    {
+      "type": "aperture-ring-click-switch",
+      "quantity": 1,
+      "officialName": "CLICK switch"
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": null,
+    "rearCaps": null,
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 35
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 1.8,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 16,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 9,
+        "bladeShape": null
+      },
+      "controlMechanism": "electronic"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 63,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 10,
+      "elements": 13
+    },
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 2,
+        "officialName": "ED"
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 3,
+        "officialName": "HR"
+      },
+      {
+        "types": [
+          "aspherical"
+        ],
+        "officialName": "UA",
+        "quantity": 1
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "surface-protective"
+        ],
+        "appliedTo": [
+          "front-element"
+        ]
+      }
+    ],
+    "focus": {
+      "autofocus": {
+        "present": true,
+        "motors": [
+          {
+            "type": "stepping-motor",
+            "officialName": "STM+Lead screw",
+            "quantity": null
+          }
+        ]
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": null
+      },
+      "opticalFocusingSystems": [
+        {
+          "type": "internal-focusing",
+          "officialName": "Internal focus"
+        }
+      ],
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.34,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.15,
+          "conditions": {}
+        }
+      ],
+      "officialFocusBehaviorClaims": []
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}

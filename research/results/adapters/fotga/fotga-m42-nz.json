@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fotga-m42-nz",
+  "subject": {
+    "manufacturerId": null,
+    "brandId": "fotga",
+    "name": "M42 to Nikon Z Adapter",
+    "aliases": [
+      "M42-NZ"
+    ]
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.kamerapro.hu/m42-nikon-z-adapter-nikon-z-m42-mount-atalakito-m42-nz",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://www.focusfilme.com.br/anel_adaptador_fotga_p_lente_m42_nikon_z5_z6_z7_z50_z7ii_z6ii_montagem_cameras_n/prod-10771405/",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Which entity manufactures this branded product?",
+    "Can an official exact-product page, official catalog, or manufacturer-run storefront confirm the official product name and model number, and whether this is a distinct product or a variant of another adapter?"
+  ]
+}

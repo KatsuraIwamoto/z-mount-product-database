@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "shoten-xtz",
+  "subject": {
+    "manufacturerId": "shoten-kobo",
+    "brandId": "shoten",
+    "name": "SHOTEN XTZ Mount Adapter"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "shoten-xtz"
+  },
+  "sources": [
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000002079",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages",
+        "physical.weightMeasurements"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/?p=32084",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ]
+}

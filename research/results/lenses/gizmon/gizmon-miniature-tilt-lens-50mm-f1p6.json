@@ -1,0 +1,68 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "gizmon-miniature-tilt-lens-50mm-f1p6",
+  "subject": {
+    "manufacturerId": "gizmon",
+    "brandId": "gizmon",
+    "name": "GIZMON Miniature Tilt Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "gizmon-miniature-tilt-lens-50mm-f1p6"
+  },
+  "sources": [
+    {
+      "url": "https://gizmon.com/ja/products/miniature-tilt-lens/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://gizmon.com/products/miniature-tilt-lens/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "controls",
+        "lens.focus",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://gizmon.com/2023/07/19/27207/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ]
+}

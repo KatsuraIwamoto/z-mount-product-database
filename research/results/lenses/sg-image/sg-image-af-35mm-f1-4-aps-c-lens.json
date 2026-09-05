@@ -1,0 +1,90 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "sg-image-af-35mm-f1-4-aps-c-lens",
+  "subject": {
+    "manufacturerId": "sg-image",
+    "brandId": "sg-image",
+    "name": "SG-image AF 35mm F1.4 APS-C Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.sg-image.com/collections/all-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.nikoneye.com/here-are-the-new-sg-image-lenses-displayed-at-the-beijing-photo-show/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5332237706592738.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5333913749948772.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5334049648549269.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.eicre.co.jp/post/sg-af-35mm-f22-news-20260430",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Has an official Nikon Z release announcement or confirmed Nikon Z sale or availability been published?"
+  ]
+}

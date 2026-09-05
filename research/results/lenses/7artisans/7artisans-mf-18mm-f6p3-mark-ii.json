@@ -1,0 +1,79 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "7artisans-mf-18mm-f6p3-mark-ii",
+  "subject": {
+    "manufacturerId": "7artisans",
+    "brandId": "7artisans",
+    "name": "MF 18mm f/6.3 Mark II APS-C Lens"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "7artisans-mf-18mm-f6p3-mark-ii"
+  },
+  "sources": [
+    {
+      "url": "https://7artisans.store/products/18mm-f-6-3-mark-ii-aps-c-lens-for-sony-e-fujifilm-x-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.variants",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/ja/products/18mm-f-6-3-mark-ii-aps-c-lens-for-sony-e-fujifilm-x-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.variants",
+        "mount",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/collections/aps-c-z-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1732930-REG/7artisans_photoelectric_a004bii_z_18mm_f_6_3_mark_ii.html/overview",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "lens.anglesOfView",
+        "lens.opticalConstruction"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "astrhori-18mm-f8-full-frame-shift-lens",
+  "subject": {
+    "manufacturerId": "astrhori",
+    "brandId": "astrhori",
+    "name": "AstrHori 18mm F8 Full-Frame Shift Lens"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "astrhori-18mm-f8-full-frame-shift-lens"
+  },
+  "sources": [
+    {
+      "url": "https://www.astrhori.com/cp",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=Zz6DKkY5w4Q",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "video",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.aperture"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.biccamera.com/bc/c/media/article/2025/09/202509-photolife-astrhori18mm-f8-shift.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount",
+        "mount.electronicContacts"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.eicre.co.jp/post/%E3%80%90e%EF%BC%86i%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%82%B7%E3%83%A7%E3%83%B3%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%80%91astrhori-%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AD%E3%83%AA-%E3%81%AE2%E3%81%A4%E3%81%AE%E6%A9%9F%E8%83%BD%E3%82%92%E5%82%99%E3%81%88%E3%81%9F%E5%BA%83%E8%A7%92%E3%83%AC%E3%83%B3%E3%82%BA18%EF%BD%8D%EF%BD%8D-f8-0-shift%E7%99%BA%E5%A3%B2%E9%96%8B%E5%A7%8B",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "distributor-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://2ndfocus.com/products/astrhori-18mm-f80-shift",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "distributor-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

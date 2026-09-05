@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "funmount-fd-nz",
+  "subject": {
+    "manufacturerId": "funmount",
+    "brandId": "funmount",
+    "name": "FD-NZ Mount Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.funmount.com/manual?_l=en",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "lifecycle"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Confirm a product release or verified sale and the exact marketed product name for FD-NZ; the surviving manual alone does not establish canonical availability."
+  ]
+}

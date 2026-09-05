@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "pergear-14mm-f2-8-mark-ii-full-frame-lens",
+  "subject": {
+    "manufacturerId": "pergear",
+    "brandId": "pergear",
+    "name": "PERGEAR 14mm F2.8 Mark II Full-Frame Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "pergear-14mm-f2-8-mark-ii-full-frame-lens"
+  },
+  "sources": [
+    {
+      "url": "https://www.pergear.com/products/pergear-14mm-f2-8/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://www.pergear.com/blogs/news/pergear-14mm-f2-8-ii",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.weightMeasurements"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

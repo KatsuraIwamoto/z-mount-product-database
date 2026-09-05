@@ -1,0 +1,126 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "nikkor-z-14-to-30mm-f4-s",
+  "subject": {
+    "manufacturerId": "nikon",
+    "brandId": "nikkor",
+    "name": "NIKKOR Z 14-30mm f/4 S"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "nikkor-z-14-to-30mm-f4-s"
+  },
+  "sources": [
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/z-mount/z_14-30mmf4s/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.externalLengthDuringZoom",
+        "physical.isRetractableForStorage",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_14-30mm_f4_s/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.nikonusa.com/p/nikkor-z-14-30mm-f4-s/20070/overview",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://downloadcenter.nikonimglib.com/en/products/512/NIKKOR_Z_14-30mm_f_4_S.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://download.nikonimglib.com/archive7/COpcd00dzUuA062Isxq71bpJkT33/Z14-30_4SRG_(En)01.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "accessories",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_14-30mm_f4_s/features01.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "physical",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.isRetractableForStorage",
+        "lens.coatings",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/glossary/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "physical.externalLengthDuringZoom",
+        "physical.externalLengthDuringFocus",
+        "lens.focus",
+        "lens.specialElements",
+        "lens.coatings"
+      ]
+    }
+  ]
+}

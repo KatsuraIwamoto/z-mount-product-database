@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "pixco-ng-nz",
+  "subject": {
+    "manufacturerId": "pixco",
+    "brandId": "pixco",
+    "name": "Nikon G to Nikon Z Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "pixco-ng-nz"
+  },
+  "sources": [
+    {
+      "url": "https://pixco.com.cn/products/nikon-g-nikon-z-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/collections/adapter-for-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

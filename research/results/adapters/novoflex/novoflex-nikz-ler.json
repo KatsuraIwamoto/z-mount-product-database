@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "novoflex-nikz-ler",
+  "subject": {
+    "manufacturerId": "novoflex",
+    "brandId": "novoflex",
+    "name": "Adapter Leica R Lenses to Nikon Z Cameras"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "novoflex-nikz-ler"
+  },
+  "sources": [
+    {
+      "url": "https://www.novoflex.de/en/Adapter-Leica-R-lenses-to-Nikon-Z-cameras/NIKZ-LER",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    }
+  ]
+}

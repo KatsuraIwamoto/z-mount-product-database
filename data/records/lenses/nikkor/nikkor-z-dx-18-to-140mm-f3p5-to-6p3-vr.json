@@ -1,0 +1,418 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "nikkor-z-dx-18-to-140mm-f3p5-to-6p3-vr",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "nikon",
+    "brandId": "nikkor",
+    "productName": "NIKKOR Z DX 18-140mm f/3.5-6.3 VR",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2021-10-13",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/z-mount/z_dx_18-140mmf35-63_vr/",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Nikon"
+      }
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_dx_18-140mm_f35-63_vr/",
+      "pageFamilies": [
+        "nikon-imaging-japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Nikon"
+      }
+    },
+    {
+      "url": "https://www.nikonusa.com/p/nikkor-z-dx-18-140mm-f35-63-vr/20104/overview",
+      "pageFamilies": [
+        "usa"
+      ],
+      "region": "US",
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Nikon"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": "mount-owner",
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": {
+        "present": true,
+        "standards": [
+          "exif"
+        ]
+      }
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 73,
+        "lengthMm": 90,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 315,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "other"
+        ],
+        "scope": {
+          "kind": "product"
+        },
+        "conditions": {}
+      }
+    ],
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 62,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringZoom": "variable",
+    "externalLengthDuringFocus": "constant",
+    "isRetractableForStorage": false
+  },
+  "controls": [
+    {
+      "type": "zoom-ring",
+      "quantity": 1
+    },
+    {
+      "type": "control-ring",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "optional",
+        "modelNumberOptions": [
+          "HB-101"
+        ],
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "LC-62B"
+        ],
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "LF-N1"
+        ],
+        "quantity": 1
+      }
+    ],
+    "lensStraps": [],
+    "protectiveWraps": [],
+    "lensCases": [
+      {
+        "construction": "soft-case",
+        "relationship": "optional",
+        "modelNumberOptions": [
+          "CL-C1"
+        ],
+        "quantity": 1
+      }
+    ]
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": [
+      {
+        "method": "camera-body",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "zoom",
+      "rangeMm": {
+        "minimum": 18,
+        "maximum": 140
+      }
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 3.5,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 18
+              }
+            }
+          },
+          {
+            "value": 6.3,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 140
+              }
+            }
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 18
+              }
+            }
+          },
+          {
+            "value": 40,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 140
+              }
+            }
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 7,
+        "bladeShape": "rounded"
+      },
+      "controlMechanism": "electronic"
+    },
+    "anglesOfView": [
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 76,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 18
+          }
+        }
+      },
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 11.5,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 140
+          }
+        }
+      }
+    ],
+    "coverage": {
+      "format": "aps-c"
+    },
+    "opticalConstruction": {
+      "groups": 13,
+      "elements": 17
+    },
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 2,
+        "officialName": "ED glass"
+      },
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 2,
+        "officialName": "Aspherical lens"
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "officialName": "Nikon Super Integrated Coating",
+        "appliedTo": null
+      }
+    ],
+    "focus": {
+      "autofocus": {
+        "present": true,
+        "motors": [
+          {
+            "type": "stepping-motor",
+            "quantity": null,
+            "officialName": "Stepping Motor (STM)"
+          }
+        ]
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": null
+      },
+      "opticalFocusingSystems": [
+        {
+          "type": "internal-focusing",
+          "officialName": "Internal Focusing system"
+        }
+      ],
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.2,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 18
+            }
+          }
+        },
+        {
+          "distanceM": 0.22,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 24
+            }
+          }
+        },
+        {
+          "distanceM": 0.25,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 35
+            }
+          }
+        },
+        {
+          "distanceM": 0.3,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 50
+            }
+          }
+        },
+        {
+          "distanceM": 0.36,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 70
+            }
+          }
+        },
+        {
+          "distanceM": 0.4,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 100
+            }
+          }
+        },
+        {
+          "distanceM": 0.4,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 140
+            }
+          }
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.33,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 140
+            }
+          }
+        }
+      ],
+      "officialFocusBehaviorClaims": [
+        {
+          "type": "focus-breathing-suppressed",
+          "conditions": {}
+        }
+      ]
+    },
+    "stabilization": {
+      "present": true,
+      "ratings": [
+        {
+          "stops": 5.0,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 140
+            },
+            "standard": "CIPA",
+            "mode": "Normal",
+            "imageFormat": "aps-c"
+          }
+        }
+      ],
+      "officialName": "Vibration Reduction"
+    },
+    "specialized": {},
+    "zoom": {
+      "drive": null,
+      "opticalZoomingSystems": null
+    }
+  }
+}

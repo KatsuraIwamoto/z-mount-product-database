@@ -1,0 +1,39 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "rayqual-lm-nz",
+  "subject": {
+    "manufacturerId": "rayqual",
+    "brandId": "rayqual",
+    "name": "Leica M Lens Mount Adapter for Nikon Z"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "rayqual-lm-nz"
+  },
+  "sources": [
+    {
+      "url": "https://www.rayqual.com/NikonZ.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://www.rayqual.com/seihin.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    }
+  ]
+}

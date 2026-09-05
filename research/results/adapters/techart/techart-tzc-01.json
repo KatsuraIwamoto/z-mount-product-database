@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "techart-tzc-01",
+  "subject": {
+    "manufacturerId": "techart",
+    "brandId": "techart",
+    "name": "Canon EF to Nikon Z Autofocus Adapter"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "techart-tzc-01"
+  },
+  "sources": [
+    {
+      "url": "https://techartpro.com/?product=techart-canon-ef-nikon-z-autofocus-adapter-tzc-01",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1538425-REG/techart_pro_tzc_01_canon_ef_to_nikon.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ]
+}

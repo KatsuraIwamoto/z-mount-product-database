@@ -1,0 +1,81 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "7artisans-af-27mm-f2p8",
+  "subject": {
+    "manufacturerId": "7artisans",
+    "brandId": "7artisans",
+    "name": "AF 27mm F2.8 APS-C Lens"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "7artisans-af-27mm-f2p8"
+  },
+  "sources": [
+    {
+      "url": "https://7artisans.store/products/af-27mm-f2-8-aps-c-lens-for-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.variants",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/ja/products/af-27mm-f2-8-aps-c-lens-for-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.variants",
+        "mount",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/products/af-27mm-f2-8-aps-c-lens-for-fx",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "lens.anglesOfView"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/a/new/1840970/7artisans_photoelectric_af27f28_z_27mm_f_2_8_af_lens.html/specs",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/pages/firmware-upgrade",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    }
+  ]
+}

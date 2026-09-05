@@ -1,0 +1,66 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "hartblei-p6-hart101",
+  "identity": {
+    "manufacturerId": "hartblei",
+    "brandId": "hartblei",
+    "productName": "Hartblei P6 Adapter for Pentacon Six lenses with tripod base (optional: for P6 & Kiev-88 lenses)",
+    "modelNumberOptions": [
+      "hart101"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://hartbleilens.com/Hartblei-P6-Fuji-with-tripod",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "HARTBLEI"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "pentacon-six",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": [],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": {
+      "present": true,
+      "components": null
+    }
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": false
+  }
+}

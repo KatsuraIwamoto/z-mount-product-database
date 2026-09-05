@@ -1,0 +1,88 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "hartblei-sra-i",
+  "identity": {
+    "manufacturerId": "hartblei",
+    "brandId": "hartblei",
+    "productName": "HARTBLEI SRA-I Superrotator Adapter Interchangeable",
+    "modelNumberOptions": [
+      "SRA-I"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2019-06-10",
+    "officialDesignations": []
+  },
+  "officialProductPages": [],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "hasselblad-v",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    },
+    {
+      "lensSideMountSystemId": "pentacon-six",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": [
+    {
+      "type": "shift",
+      "conditions": {},
+      "movements": {
+        "shiftMeasurements": [
+          {
+            "maximumFromNeutralMm": 10,
+            "totalRangeMm": null,
+            "directionality": null,
+            "conditions": {}
+          }
+        ]
+      }
+    },
+    {
+      "type": "tilt",
+      "conditions": {},
+      "movements": {
+        "tiltMeasurements": [
+          {
+            "maximumFromNeutralDegrees": 8,
+            "totalRangeDegrees": null,
+            "directionality": null,
+            "conditions": {}
+          }
+        ]
+      }
+    }
+  ],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": {
+      "present": true,
+      "components": null
+    }
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": false
+  }
+}

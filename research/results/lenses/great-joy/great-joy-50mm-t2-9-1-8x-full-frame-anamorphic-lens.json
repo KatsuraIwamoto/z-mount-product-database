@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "great-joy-50mm-t2-9-1-8x-full-frame-anamorphic-lens",
+  "subject": {
+    "manufacturerId": "blazar-lens",
+    "brandId": "great-joy",
+    "name": "Great Joy 50mm T2.9 1.8x Full-Frame Anamorphic Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The released 50mm T2.9 1.8x line was offered in PL/EF, RF, E, L, MFT, and related configurations, but no Nikon Z version was found. Generic adaptation does not meet the database inclusion policy."
+  },
+  "sources": [
+    {
+      "url": "https://blazarlens.com/about/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "company-profile",
+      "checked": [
+        "identity"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://store.blazarlens.com/collections/all",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1763742-REG/great_joy_gj502918_pla_50mm_t2_9_1_8x_anamorphic.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

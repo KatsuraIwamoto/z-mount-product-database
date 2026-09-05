@@ -1,0 +1,52 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "kipon-elegant-35mm-f2-4",
+  "subject": {
+    "manufacturerId": "kipon",
+    "brandId": "kipon",
+    "name": "2022 Version KIPON ELEGANT 35mm F2.4 for Nikon Z"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "kipon-elegant-35mm-f2-4"
+  },
+  "sources": [
+    {
+      "url": "https://kipon.com/product/2022-version-elegant-35mm-f2-4-for-nikon-z/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://kipon.com/mount/nikon-z/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    }
+  ]
+}

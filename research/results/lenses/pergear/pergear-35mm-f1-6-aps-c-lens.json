@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "pergear-35mm-f1-6-aps-c-lens",
+  "subject": {
+    "manufacturerId": "pergear",
+    "brandId": "pergear",
+    "name": "PERGEAR 35mm F1.6 APS-C Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The current official page's purchase options and product-specific compatibility table list only Sony E, Fuji X, and M4/3, with no Nikon Z configuration. The generic phrase 'Nikon Cameras' lacks a specific mount, sale configuration, or compatible model and is not accepted as evidence of a direct-mount product."
+  },
+  "sources": [
+    {
+      "url": "https://www.pergear.com/products/pergear-35mm",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    }
+  ]
+}

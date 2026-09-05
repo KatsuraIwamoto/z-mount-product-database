@@ -1,0 +1,72 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "brightin-star-mf-35mm-f1p7",
+  "subject": {
+    "manufacturerId": "brightin-star",
+    "brandId": "brightin-star",
+    "name": "35mm F1.7 APS-C Manual Focus Prime Lens"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "brightin-star-mf-35mm-f1p7"
+  },
+  "sources": [
+    {
+      "url": "https://brightinstar.com/products/mf-35mm-f1-7-aps-c-prime-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/collections/nikon-z-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/35-17_503a1088-921c-464f-bd27-1a86186912e2.webp",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.focus",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0762/8587/0396/files/MF_35mm_F1.7_APS-C.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.focus",
+        "physical.filterInterfaces"
+      ]
+    }
+  ],
+  "unresolved": [
+    "How many optical groups does the 35 mm F1.7 lens contain?"
+  ]
+}

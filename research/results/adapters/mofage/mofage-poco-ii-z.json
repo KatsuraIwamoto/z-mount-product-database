@@ -1,0 +1,88 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "mofage-poco-ii-z",
+  "subject": {
+    "manufacturerId": "mofage",
+    "brandId": "mofage",
+    "name": "POCO II Drop-In Filter Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "mofage-poco-ii-z"
+  },
+  "sources": [
+    {
+      "url": "https://www.mofage.store/collections/frontpage/products/poco-ii-drop-in-filter-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.variants",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.newsshooter.com/2026/07/10/mofage-poco-ii-drop-in-filter-adapter-now-available-to-order/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity.variants",
+        "lifecycle",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.newsshooter.com/2026/08/02/mofage-poco-ii-drop-in-filter-adapter-review/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1988720-REG/mofage_pl_z_poco_ii_drop_in_filter.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1988714-REG/mofage_ef_z_poco_ii_drop_in_filter.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "electronics",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.tripodSupport"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

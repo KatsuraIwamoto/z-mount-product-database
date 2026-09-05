@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "novoflex-nikz-t2",
+  "subject": {
+    "manufacturerId": "novoflex",
+    "brandId": "novoflex",
+    "name": "Adapter T2 Lenses to Nikon Z Cameras"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "novoflex-nikz-t2"
+  },
+  "sources": [
+    {
+      "url": "https://www.novoflex.de/en/Adapter-T2-lenses-to-Nikon-Z-cameras/NIKZ-T2",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    }
+  ]
+}

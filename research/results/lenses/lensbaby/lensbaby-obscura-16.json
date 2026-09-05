@@ -1,0 +1,66 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "lensbaby-obscura-16",
+  "subject": {
+    "manufacturerId": "lensbaby",
+    "brandId": "lensbaby",
+    "name": "Lensbaby Obscura 16"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "lensbaby-obscura-16"
+  },
+  "sources": [
+    {
+      "url": "https://lensbaby.com/pages/lensbaby-obscura-launch",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "pinhole.coverage",
+        "pinhole.imagingModes"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1645149-REG/lensbaby_lbo16nz_obscura_16mm_mirrorless_pancake.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://www.kenko-tokina.co.jp/newproducts/obscura_news202111.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.kenko-tokina.co.jp/camera-lens/lensbaby/stand-alone-lens/obscura16.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "officialProductPages",
+        "physical",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "pinhole.coverage",
+        "pinhole.focalLength",
+        "pinhole.imagingModes"
+      ]
+    }
+  ]
+}

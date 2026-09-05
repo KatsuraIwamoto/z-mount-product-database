@@ -1,0 +1,68 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "brightin-star-mf-7p5mm-f2p8-iv-fisheye",
+  "subject": {
+    "manufacturerId": "brightin-star",
+    "brandId": "brightin-star",
+    "name": "MF 7.5mm F2.8 IV APS-C Fisheye Lens"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "brightin-star-mf-7p5mm-f2p8-iv-fisheye"
+  },
+  "sources": [
+    {
+      "url": "https://brightinstar.com/products/brightin-star-7-5mm-f2-8-iv-fisheye-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/collections/nikon-z-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/7.5mm_F2.8_eee6f095-7c33-4efc-9570-fafee08b0dc3.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0762/8587/0396/files/MF_7.5mm_F2.8_APS-C.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "lens.focus"
+      ]
+    }
+  ]
+}

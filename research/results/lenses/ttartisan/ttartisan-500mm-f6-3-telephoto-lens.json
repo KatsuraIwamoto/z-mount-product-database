@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "ttartisan-500mm-f6-3-telephoto-lens",
+  "subject": {
+    "manufacturerId": "ttartisan",
+    "brandId": "ttartisan",
+    "name": "TTArtisan 500mm F6.3 Telephoto Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "ttartisan-500mm-f6-3-telephoto-lens"
+  },
+  "sources": [
+    {
+      "url": "https://en.ttartisan.com/?full-frame-lenses%2F500-F6-3.html=",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://ttartisan.store/products/500mm",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mount",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://ttartisan.store/collections/full-frame-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

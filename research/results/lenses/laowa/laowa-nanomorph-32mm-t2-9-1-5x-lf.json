@@ -1,0 +1,100 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "laowa-nanomorph-32mm-t2-9-1-5x-lf",
+  "subject": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "name": "LAOWA Nanomorph 32mm T2.9 1.5x LF"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "laowa-nanomorph-32mm-t2-9-1-5x-lf"
+  },
+  "sources": [
+    {
+      "url": "https://laowacine.com/product/nanomorph-lf-1-5x-anamorphic-series/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "physical.filterInterfaces",
+        "controls",
+        "lens.focalLength",
+        "lens.coverage",
+        "lens.imageCircleDiameters",
+        "lens.focus",
+        "lens.specialized",
+        "lifecycle",
+        "identity.variants",
+        "mount.adapter"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://laowacine.com/wp-content/uploads/2025/12/Nanomorph-LF_Spec-A.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.imageCircleDiameters",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/cat/nanomorph-lf.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "physical.filterInterfaces",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/cat3/bayonet-lf.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "mount"
+      ]
+    },
+    {
+      "url": "https://laowacine.com/product/spare-parts/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "mount"
+      ]
+    },
+    {
+      "url": "https://www.focusnordic.com/products/video/cinema-lenses/wide-angle-lenses/laowa-nanomorph-lf-32mm-t2.9-1.5x-blue-arri-pl-canon-ef",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "lens.stabilization"
+      ]
+    }
+  ],
+  "unresolved": [
+    "What are the published dimensions and weight with the Nikon Z bayonet installed?",
+    "Which sensor format and horizontal/vertical orientations apply to the published paired angles of view?"
+  ]
+}

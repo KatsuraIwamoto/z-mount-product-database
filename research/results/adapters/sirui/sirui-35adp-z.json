@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "sirui-35adp-z",
+  "subject": {
+    "manufacturerId": "sirui",
+    "brandId": "sirui",
+    "name": "Nikon Z-Mount Adapter for 35mm Anamorphic Lens"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "sirui-35adp-z"
+  },
+  "sources": [
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1583627-REG/sirui_35adp_z_nikon_z_mount_adapter.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.siruiusa.com/index/index/instructionmanuals.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://store.sirui.com/products/sirui-canon-ef-m-adapter-for-sirui-35mm-f-1-8-anamorphic-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "lifecycle",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    }
+  ]
+}

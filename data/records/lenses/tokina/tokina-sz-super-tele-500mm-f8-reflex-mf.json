@@ -1,0 +1,193 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "tokina-sz-super-tele-500mm-f8-reflex-mf",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "kenko-tokina",
+    "brandId": "tokina",
+    "productName": "SZ 500mm F8 Reflex MF",
+    "modelNumberOptions": [
+      "SZMF500-NZ"
+    ],
+    "alternateNames": [
+      {
+        "name": "SZ SUPER TELE 500mm F8 Reflex MF",
+        "language": "en"
+      }
+    ],
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2022-01-28",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.kenko-tokina.co.jp/camera-lens/tokina/telephoto-lenses/sz_500mm_f8_reflex_mf/",
+      "pageFamilies": [
+        "home-country",
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Kenko Tokina Co., Ltd."
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "user-interchangeable",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": false
+    },
+    "adapter": {
+      "relationship": "supplied",
+      "dedicatedToProduct": null,
+      "name": "Tokina Mount Adapter TA-016 for Nikon Z",
+      "modelNumberOptions": [
+        "TA-016",
+        "TA-0016",
+        "SZX-TA0016"
+      ],
+      "nativeMountSystemId": "t-mount"
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 74,
+        "lengthMm": 89,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 310,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 72,
+        "host": {
+          "kind": "product"
+        }
+      },
+      {
+        "type": "rear-thread",
+        "diameterMm": 30.5,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": "variable",
+    "isRetractableForStorage": false
+  },
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "MH-721"
+        ],
+        "quantity": 1
+      }
+    ],
+    "frontCaps": null,
+    "rearCaps": null,
+    "lensStraps": null,
+    "protectiveWraps": null,
+    "lensCases": null
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 500
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 8,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 8,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": false
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": "diagonal",
+        "degrees": 4.133333,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 7,
+      "elements": 7
+    },
+    "specialElements": null,
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "mechanical-coupled"
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 1.7,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.34965,
+          "conditions": {}
+        }
+      ],
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {
+      "reflex": {}
+    }
+  }
+}

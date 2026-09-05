@@ -1,0 +1,39 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "artra-lab-allmz",
+  "subject": {
+    "manufacturerId": "artra-lab",
+    "brandId": "artra-lab",
+    "name": "Leica M Mount Lens to Nikon Z Mount Body Macro Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "artra-lab-allmz"
+  },
+  "sources": [
+    {
+      "url": "https://www.artralab.hk/products/leica-m-mount-nikon-z-mount-body",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1853387-REG/artra_lab_allmz_leica_m_mount_to.html/compatibility",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions"
+      ]
+    }
+  ]
+}

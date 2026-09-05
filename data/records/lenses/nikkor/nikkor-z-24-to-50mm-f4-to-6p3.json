@@ -1,0 +1,373 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "nikkor-z-24-to-50mm-f4-to-6p3",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "nikon",
+    "brandId": "nikkor",
+    "productName": "NIKKOR Z 24-50mm f/4-6.3",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2020-07-21",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/z-mount/z_24-50mmf4-63/",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Nikon"
+      }
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_24-50mm_f4-63/",
+      "pageFamilies": [
+        "nikon-imaging-japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Nikon"
+      }
+    },
+    {
+      "url": "https://www.nikonusa.com/p/nikkor-z-24-50mm-f4-63/20096/overview",
+      "pageFamilies": [
+        "usa"
+      ],
+      "region": "US",
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Nikon"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": "mount-owner",
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": {
+        "present": true,
+        "standards": [
+          "exif"
+        ]
+      }
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 73.5,
+        "lengthMm": 51,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 195,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "other"
+        ],
+        "scope": {
+          "kind": "product"
+        },
+        "conditions": {}
+      }
+    ],
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 52,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringZoom": "variable",
+    "externalLengthDuringFocus": "constant",
+    "isRetractableForStorage": true
+  },
+  "controls": [
+    {
+      "type": "zoom-ring",
+      "quantity": 1
+    },
+    {
+      "type": "control-ring",
+      "quantity": 1,
+      "clickBehavior": "declicked"
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "optional",
+        "modelNumberOptions": [
+          "HB-98"
+        ],
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "LC-52B"
+        ],
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "LF-N1"
+        ],
+        "quantity": 1
+      }
+    ],
+    "lensStraps": [],
+    "protectiveWraps": [],
+    "lensCases": [
+      {
+        "construction": "soft-case",
+        "relationship": "optional",
+        "modelNumberOptions": [
+          "CL-C4"
+        ],
+        "quantity": 1
+      }
+    ]
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": [
+      {
+        "method": "camera-body",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "zoom",
+      "rangeMm": {
+        "minimum": 24,
+        "maximum": 50
+      }
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 4,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 24
+              }
+            }
+          },
+          {
+            "value": 6.3,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 50
+              }
+            }
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 24
+              }
+            }
+          },
+          {
+            "value": 36,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 50
+              }
+            }
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 7,
+        "bladeShape": "rounded"
+      },
+      "controlMechanism": "electronic"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": "diagonal",
+        "degrees": 84,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 24
+          }
+        }
+      },
+      {
+        "format": "full-frame",
+        "orientation": "diagonal",
+        "degrees": 47,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 50
+          }
+        }
+      },
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 61,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 24
+          }
+        }
+      },
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 31.5,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 50
+          }
+        }
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 10,
+      "elements": 11
+    },
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 2,
+        "officialName": "ED glass"
+      },
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 3,
+        "officialName": "Aspherical lens"
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "officialName": "Nikon Super Integrated Coating",
+        "appliedTo": null
+      }
+    ],
+    "focus": {
+      "autofocus": {
+        "present": true,
+        "motors": [
+          {
+            "type": "stepping-motor",
+            "quantity": null,
+            "officialName": "Stepping Motor (STM)"
+          }
+        ]
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": null
+      },
+      "opticalFocusingSystems": [
+        {
+          "type": "internal-focusing",
+          "officialName": "Internal Focusing system"
+        }
+      ],
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.35,
+          "conditions": {
+            "focalLength": {
+              "kind": "range",
+              "minimumMm": 24,
+              "maximumMm": 50
+            }
+          }
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.17,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 50
+            }
+          }
+        }
+      ],
+      "officialFocusBehaviorClaims": [
+        {
+          "type": "focus-breathing-suppressed",
+          "conditions": {}
+        }
+      ]
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {},
+    "zoom": {
+      "drive": null,
+      "opticalZoomingSystems": null
+    }
+  }
+}

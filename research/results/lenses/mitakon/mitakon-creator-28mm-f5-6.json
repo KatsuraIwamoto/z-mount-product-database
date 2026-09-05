@@ -1,0 +1,74 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "mitakon-creator-28mm-f5-6",
+  "subject": {
+    "manufacturerId": "zhongyi-optics",
+    "brandId": "mitakon",
+    "name": "Mitakon Creator 28mm f/5.6 Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "mitakon-creator-28mm-f5-6"
+  },
+  "sources": [
+    {
+      "url": "https://zyoptics.net/product/mitakon-creator-28mm-f-5-6-lens/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "mount.adapter",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.externalLengthDuringFocus",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.imaging-resource.com/news/2023/03/28/zy-optics-announces-mitakon-creator-28mm-f5.6-lens",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://petapixel.com/2023/03/28/the-mitakon-28mm-f-5-6-is-a-low-priced-recration-of-a-leica-summaron/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ]
+}

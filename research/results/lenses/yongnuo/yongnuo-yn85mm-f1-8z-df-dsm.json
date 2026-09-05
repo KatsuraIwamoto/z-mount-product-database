@@ -1,0 +1,58 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "yongnuo-yn85mm-f1-8z-df-dsm",
+  "subject": {
+    "manufacturerId": "yongnuo",
+    "brandId": "yongnuo",
+    "name": "YONGNUO YN85mm F1.8Z DF DSM"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "yongnuo-yn85mm-f1-8z-df-dsm"
+  },
+  "sources": [
+    {
+      "url": "https://www.th.hkyongnuo.com/products/yn85mm-f18z-df-dsm",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.weightMeasurements",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "physical.filterInterfaces",
+        "lens.anglesOfView",
+        "physical.dimensionMeasurements",
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://th.hkyongnuo.com/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

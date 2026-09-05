@@ -1,0 +1,44 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "vocas-z-mount-to-pl-adapter",
+  "subject": {
+    "manufacturerId": "vocas",
+    "brandId": "vocas",
+    "name": "Vocas Z-mount to PL adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "vocas-z-mount-to-pl-adapter"
+  },
+  "sources": [
+    {
+      "url": "https://www.vocas.com/vocas-z-mount-to-pl-adapter/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.weightMeasurements",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.vocas.com/amfile/file/download/file/34/product/58292/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions"
+      ]
+    }
+  ]
+}

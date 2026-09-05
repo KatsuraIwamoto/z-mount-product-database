@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fotodiox-pl-nkz-cndt",
+  "subject": {
+    "manufacturerId": "fotodiox",
+    "brandId": "fotodiox",
+    "name": "Vizelex Cine ND Throttle Lens Mount Adapter - Arri PL (Positive Lock) Mount Lens to Nikon Z-Mount Mirrorless Camera Body with Built-In Variable ND Filter (2 to 8 Stops)"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "fotodiox-pl-nkz-cndt"
+  },
+  "sources": [
+    {
+      "url": "https://fotodioxpro.com/products/pl-nkz-cndt",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

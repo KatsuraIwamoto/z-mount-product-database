@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "hartblei-p6-nikon-f-hart117",
+  "subject": {
+    "manufacturerId": "hartblei",
+    "brandId": "hartblei",
+    "name": "Hartblei Pentacon Six P6 Kiev 60 88CM Lens to Nikon F Camera Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The adapter terminates in Nikon F rather than Nikon Z; using it on Z would require a separate FTZ-class second adapter, so it is not directly Nikon Z-compatible."
+  },
+  "sources": [
+    {
+      "url": "https://hartbleilens.com/index.php?route=product/product&product_id=68",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions"
+      ]
+    }
+  ]
+}

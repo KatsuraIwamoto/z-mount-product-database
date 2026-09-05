@@ -1,0 +1,34 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "urth-ulma-md-z",
+  "subject": {
+    "manufacturerId": "urth",
+    "brandId": "urth",
+    "name": "Minolta Rokkor (SR/MD/MC) Lens Mount to Nikon Z Camera Mount"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "urth-ulma-md-z"
+  },
+  "sources": [
+    {
+      "url": "https://urth.co/products/minolta-rokkor-sr-md-mc-lens-mount-to-nikon-z-camera-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

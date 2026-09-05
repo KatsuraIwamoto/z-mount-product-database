@@ -1,0 +1,46 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "meike-mk-eftz-b",
+  "subject": {
+    "manufacturerId": "meike",
+    "brandId": "meike",
+    "name": "Auto-Focus Mount Adapter for Canon EF/EF-S Lenses to Nikon Z Cameras"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "meike-mk-eftz-b"
+  },
+  "sources": [
+    {
+      "url": "https://meikeglobal.com/products/auto-focus-mount-adapter-ef-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1730063-REG/meike_mk_eftz_b_auto_focus_mount_adapter.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ]
+}

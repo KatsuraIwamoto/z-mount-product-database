@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "meike-af-56mm-f1-7-air-aps-c-lens",
+  "subject": {
+    "manufacturerId": "meike",
+    "brandId": "meike",
+    "name": "Meike AF 56mm F1.7 Air APS-C Lens"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "meike-af-56mm-f1-7-air-aps-c-lens"
+  },
+  "sources": [
+    {
+      "url": "https://meikeglobal.com/products/5617z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/5617_08.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    }
+  ]
+}

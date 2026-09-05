@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "pergear-7-5mm-f2-8-fisheye-lens",
+  "subject": {
+    "manufacturerId": "pergear",
+    "brandId": "pergear",
+    "name": "PERGEAR 7.5mm F2.8 Fisheye Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "pergear-7-5mm-f2-8-fisheye-lens"
+  },
+  "sources": [
+    {
+      "url": "https://www.pergear.com/products/pergear-7-5mm-f2-8-fish-eye-manual-focus-fixed-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.dimensionMeasurements",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://www.pergear.com/collections/nikon-z-mount/pergear",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "mitakon-lens-turbo-ii-nikon-z",
+  "identity": {
+    "manufacturerId": "zhongyi-optics",
+    "brandId": "mitakon",
+    "productName": "Lens Turbo II",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": [
+      {
+        "variantId": "ef-z",
+        "name": "EF-Z II",
+        "modelNumberOptions": [
+          "LNLTNZEF"
+        ]
+      },
+      {
+        "variantId": "m42-z",
+        "name": "M42-Z II",
+        "modelNumberOptions": [
+          "LNLTNZM42"
+        ]
+      },
+      {
+        "variantId": "nikon-f-z",
+        "name": "N/G-N/Z",
+        "modelNumberOptions": [
+          "LNLTNZNG"
+        ]
+      }
+    ]
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.mitakon.com.tw/product/%E4%B8%AD%E4%B8%80%E5%85%89%E5%AD%B8-mitakon-zhongyi-eos-ef-nz-nikon-z-lnltnzef/",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": "TW",
+      "language": "zh-TW",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "中一光學台灣總代理"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "canon-ef",
+      "cameraSideMountSystemId": "nikon-z",
+      "variantId": "ef-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    },
+    {
+      "lensSideMountSystemId": "m42",
+      "cameraSideMountSystemId": "nikon-z",
+      "variantId": "m42-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    },
+    {
+      "lensSideMountSystemId": "nikon-f",
+      "cameraSideMountSystemId": "nikon-z",
+      "variantId": "nikon-f-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": [
+    {
+      "type": "aperture-ring",
+      "conditions": {}
+    }
+  ],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": true,
+    "focalLengthMultiplier": 0.726,
+    "apertureChange": {
+      "direction": "brighter",
+      "stops": 1,
+      "relation": "exact"
+    },
+    "opticalConstruction": {
+      "groups": 3,
+      "elements": 4
+    },
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 1
+      }
+    ],
+    "coatings": null,
+    "supportedImageCircleDiameterMm": null,
+    "maximumSupportedAperture": null
+  }
+}

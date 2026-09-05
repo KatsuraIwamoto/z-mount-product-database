@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "techart-tzm-02-adapter-set",
+  "subject": {
+    "manufacturerId": "techart",
+    "brandId": "techart",
+    "name": "TECHART TZM-02 Mount Adapter Set"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "Each set combines the existing TZM-02 Leica M-to-Nikon Z adapter with a separate lens-mount-to-Leica M adapter, so mount conversion depends on two stacked adapters rather than one independently marketed Nikon Z adapter."
+  },
+  "sources": [
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000001862/",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions"
+      ],
+      "decisionChecks": [
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

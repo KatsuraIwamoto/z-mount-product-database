@@ -1,0 +1,76 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "hartblei-rbz-s-parallax-free-hart110",
+  "identity": {
+    "manufacturerId": "hartblei",
+    "brandId": "hartblei",
+    "productName": "Hartblei RBZ-S Parallax Free Shift Adapter for Mamiya RB / RZ 67 Lenses",
+    "modelNumberOptions": [
+      "hart110"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://hartbleilens.com/index.php?route=product/product&product_id=61",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "HARTBLEI"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "mamiya-rb-rz",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": [
+    {
+      "type": "helicoid",
+      "conditions": {}
+    },
+    {
+      "type": "shift",
+      "conditions": {},
+      "movements": null
+    }
+  ],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": {
+      "present": true,
+      "components": null
+    }
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": false
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "brightin-star-mf-35mm-f0p95",
+  "subject": {
+    "manufacturerId": "brightin-star",
+    "brandId": "brightin-star",
+    "name": "MF 35mm F0.95 APS-C Portrait Prime Lens"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "brightin-star-mf-35mm-f0p95"
+  },
+  "sources": [
+    {
+      "url": "https://brightinstar.com/products/mf-35mm-f0-95-aps-c-prime-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.opticalConstruction"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/collections/nikon-z-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/35095_f2bdc54b-9d06-4c27-bc91-b4b6beb224c3.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.anglesOfView"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0762/8587/0396/files/MF_35mm_F0.95_APS-C.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.anglesOfView"
+      ]
+    }
+  ],
+  "unresolved": [
+    "What angle of view and measurement orientation apply to the 35 mm F0.95 lens?",
+    "Confirm the optical element and group counts of the Nikon Z configuration."
+  ]
+}

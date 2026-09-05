@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "nisi-15mm-f4-wide-angle-full-frame-asph-lens",
+  "subject": {
+    "manufacturerId": "nisi",
+    "brandId": "nisi",
+    "name": "NiSi 15mm F4 Wide Angle Full-Frame ASPH Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "nisi-15mm-f4-wide-angle-full-frame-asph-lens"
+  },
+  "sources": [
+    {
+      "url": "https://www.nisioptics.com/nisi-15mm-f4",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "physical",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    }
+  ]
+}

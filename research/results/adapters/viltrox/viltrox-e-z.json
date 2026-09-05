@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "viltrox-e-z",
+  "subject": {
+    "manufacturerId": "viltrox",
+    "brandId": "viltrox",
+    "name": "E-Z AF Lens Mount Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "viltrox-e-z"
+  },
+  "sources": [
+    {
+      "url": "https://viltrox.com/products/viltrox-e-z-af-lens-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1876142-REG/viltrox_e_z_af_lens_mount.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

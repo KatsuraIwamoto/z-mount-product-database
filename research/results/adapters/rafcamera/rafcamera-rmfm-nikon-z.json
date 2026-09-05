@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "rafcamera-rmfm-nikon-z",
+  "subject": {
+    "manufacturerId": "rafcamera",
+    "brandId": "rafcamera",
+    "name": "Rodenstock Modular Focus Mount to Nikon Z Camera Mount Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "rafcamera-rmfm-nikon-z"
+  },
+  "sources": [
+    {
+      "url": "https://rafcamera.com/adapter-rmfm-to-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    }
+  ]
+}

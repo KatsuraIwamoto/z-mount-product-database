@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Z Product Compare",
+  "version": "1.0.0",
+  "description": "Compare evidence sources, canonical records, and research results for Z-mount lenses, related optics, and mount adapters.",
+  "permissions": [
+    "sidePanel"
+  ],
+  "action": {
+    "default_title": "Z Product Compare"
+  },
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; frame-src http://127.0.0.1:8765"
+  }
+}

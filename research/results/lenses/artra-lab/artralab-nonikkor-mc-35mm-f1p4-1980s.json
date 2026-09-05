@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "artralab-nonikkor-mc-35mm-f1p4-1980s",
+  "subject": {
+    "manufacturerId": "artra-lab",
+    "brandId": "artra-lab",
+    "name": "NONIKKOR-MC 35mm F1.4 (Full Frame) 1980's"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "artralab-nonikkor-mc-35mm-f1p4-1980s"
+  },
+  "sources": [
+    {
+      "url": "https://artralab.com/products/presaleartralab-nonikkor-mc-35mm-f1-4-full-frame-1980s",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://www.artralab.hk/collections/lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    }
+  ]
+}

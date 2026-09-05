@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "hartblei-p6-m42-hart116",
+  "subject": {
+    "manufacturerId": "hartblei",
+    "brandId": "hartblei",
+    "name": "Hartblei Pentacon Six P6 Kiev 60 88CM Lens to M42 Zenit Camera Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The adapter terminates in M42 rather than Nikon Z; using it on Z would require a separate second adapter, so it is not directly Nikon Z-compatible."
+  },
+  "sources": [
+    {
+      "url": "https://hartbleilens.com/index.php?route=product/product&product_id=67",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions"
+      ]
+    }
+  ]
+}

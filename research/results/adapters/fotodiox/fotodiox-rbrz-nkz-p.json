@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fotodiox-rbrz-nkz-p",
+  "subject": {
+    "manufacturerId": "fotodiox",
+    "brandId": "fotodiox",
+    "name": "Fotodiox Pro Lens Mount Adapter - Mamiya RB67/RZ67 Mount Lens to Nikon Z-Mount Mirrorless Camera Body with Built-In Focusing Helicoid"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "fotodiox-rbrz-nkz-p"
+  },
+  "sources": [
+    {
+      "url": "https://fotodioxpro.com/products/rbrz-nkz-p",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

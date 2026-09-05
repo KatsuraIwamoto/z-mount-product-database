@@ -1,0 +1,98 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "cooke-sp3-50mm-t2-4-full-frame-prime-lens",
+  "subject": {
+    "manufacturerId": "cooke-optics-limited",
+    "brandId": "cooke",
+    "name": "SP3 50mm"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "cooke-sp3-50mm-t2-4-full-frame-prime-lens"
+  },
+  "sources": [
+    {
+      "url": "https://cookeoptics.com/lens/sp3/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.filterInterfaces",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.coatings",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://cookeoptics.com/wp-content/uploads/2024/09/COOKE-SP3-50mm-ON-BLACK-UPDATED.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.aperture",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cookeoptics.com/wp-content/uploads/2024/09/COOKE_SP3_Specification_6_LENSES_022924-1.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.frontAccessoryInterface",
+        "controls",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.imageCircleDiameters",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cookeoptics.com/wp-content/uploads/2023/10/COOKE_SP3_PACKAGING_MOUNT-CHANGE-_BOOKLET_120-x-83_V01_PRINT_NO_BLEED.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "mount",
+        "accessories",
+        "mount.electronicContacts"
+      ]
+    },
+    {
+      "url": "https://cookeoptics.com/news-and-events/cooke-announces-z-mount-for-sp3-and-ap3-mirrorless-lenses/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "licensing"
+      ]
+    }
+  ],
+  "notes": [
+    "Cooke's specification sheet identifies the published length as an E-mount front-to-mount measurement and states that the published weight includes a lens mount.",
+    "Cooke's specification sheet defines minimum marked object distance as measured from the sensor plane."
+  ],
+  "unresolved": [
+    "What are the official overall length and weight for the Nikon Z-mount configuration?"
+  ]
+}

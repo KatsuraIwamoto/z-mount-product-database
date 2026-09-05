@@ -1,0 +1,452 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "nikkor-z-28-to-135mm-f4-pz",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "nikon",
+    "brandId": "nikkor",
+    "productName": "NIKKOR Z 28-135mm f/4 PZ",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2025-02-13",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/z-mount/z_28-135mmf4/",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Nikon"
+      }
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_28-135mm_f4_pz/",
+      "pageFamilies": [
+        "nikon-imaging-japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Nikon"
+      }
+    },
+    {
+      "url": "https://www.nikonusa.com/p/nikkor-z-28-135mm-f4-pz/20127/overview",
+      "pageFamilies": [
+        "usa"
+      ],
+      "region": "US",
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Nikon"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": "mount-owner",
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": {
+        "present": true,
+        "standards": [
+          "exif"
+        ]
+      }
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 105,
+        "lengthMm": 177.5,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 1210,
+        "conditions": {
+          "attachedComponents": [
+            "tripod-collar-assembly"
+          ]
+        }
+      },
+      {
+        "grams": 1120,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "dust-resistant",
+          "drip-resistant"
+        ],
+        "scope": {
+          "kind": "product"
+        },
+        "conditions": {}
+      }
+    ],
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 95,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": true,
+      "components": [
+        {
+          "type": "foot",
+          "relationship": "supplied",
+          "removable": true,
+          "interfaces": null,
+          "modelNumberOptions": null,
+          "quantity": 1,
+          "conditions": {}
+        }
+      ]
+    },
+    "externalLengthDuringZoom": "constant",
+    "externalLengthDuringFocus": "constant",
+    "isRetractableForStorage": false
+  },
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "zoom-ring",
+      "quantity": 1
+    },
+    {
+      "type": "control-ring",
+      "quantity": 1
+    },
+    {
+      "type": "zoom-lever",
+      "quantity": 1
+    },
+    {
+      "type": "function-button",
+      "quantity": 2,
+      "officialName": "L-Fn button"
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "HB-116"
+        ],
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "LC-95B"
+        ],
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "LF-N1"
+        ],
+        "quantity": 1
+      }
+    ],
+    "lensStraps": [],
+    "protectiveWraps": [],
+    "lensCases": [
+      {
+        "construction": "soft-case",
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "CL-C5"
+        ],
+        "quantity": 1
+      }
+    ]
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": null,
+    "connections": null
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "zoom",
+      "rangeMm": {
+        "minimum": 28,
+        "maximum": 135
+      }
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 4,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 9,
+        "bladeShape": "rounded"
+      },
+      "controlMechanism": "electronic"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": "diagonal",
+        "degrees": 75,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 28
+          }
+        }
+      },
+      {
+        "format": "full-frame",
+        "orientation": "diagonal",
+        "degrees": 18.17,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 135
+          }
+        }
+      },
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 53,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 28
+          }
+        }
+      },
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 12,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 135
+          }
+        }
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 13,
+      "elements": 18
+    },
+    "specialElements": [
+      {
+        "types": [
+          "aspherical",
+          "low-dispersion"
+        ],
+        "officialName": "Aspherical ED glass",
+        "quantity": 1
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 3,
+        "officialName": "ED glass"
+      },
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 4,
+        "officialName": "Aspherical lens"
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "officialName": "Meso Amorphous Coat",
+        "appliedTo": null
+      },
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "officialName": "Nikon Super Integrated Coating",
+        "appliedTo": null
+      },
+      {
+        "types": [
+          "surface-protective"
+        ],
+        "officialName": "Fluorine coat",
+        "appliedTo": [
+          "front-element"
+        ]
+      }
+    ],
+    "focus": {
+      "autofocus": {
+        "present": true,
+        "motors": [
+          {
+            "type": "stepping-motor",
+            "quantity": null,
+            "officialName": "Stepping Motor (STM)"
+          }
+        ]
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "electronic-by-wire"
+      },
+      "opticalFocusingSystems": [
+        {
+          "type": "internal-focusing",
+          "officialName": "Internal Focusing system"
+        }
+      ],
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.34,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 28
+            }
+          }
+        },
+        {
+          "distanceM": 0.34,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 35
+            }
+          }
+        },
+        {
+          "distanceM": 0.34,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 50
+            }
+          }
+        },
+        {
+          "distanceM": 0.39,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 70
+            }
+          }
+        },
+        {
+          "distanceM": 0.43,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 85
+            }
+          }
+        },
+        {
+          "distanceM": 0.49,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 105
+            }
+          }
+        },
+        {
+          "distanceM": 0.57,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 135
+            }
+          }
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.25,
+          "conditions": {
+            "focalLength": {
+              "kind": "range",
+              "minimumMm": 55,
+              "maximumMm": 135
+            }
+          }
+        }
+      ],
+      "officialFocusBehaviorClaims": [
+        {
+          "type": "focus-breathing-suppressed",
+          "conditions": {}
+        }
+      ]
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {},
+    "zoom": {
+      "drive": null,
+      "opticalZoomingSystems": null
+    }
+  }
+}

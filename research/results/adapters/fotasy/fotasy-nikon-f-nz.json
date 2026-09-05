@@ -1,0 +1,48 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fotasy-nikon-f-nz",
+  "subject": {
+    "manufacturerId": null,
+    "brandId": "fotasy",
+    "name": "Nikon F to Nikon Z Adapter",
+    "aliases": [
+      "NK-NZ",
+      "NK-N/Z"
+    ]
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.optyczne.pl/16010-news-Adapter_Fotasy_NK-NZ.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.ebay.de/p/2323874670",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Which entity manufactures this branded product?",
+    "Can an official exact-product page, official catalog, or manufacturer-run storefront confirm the official product name and model number, and whether this is a distinct product or a variant of another adapter?"
+  ]
+}

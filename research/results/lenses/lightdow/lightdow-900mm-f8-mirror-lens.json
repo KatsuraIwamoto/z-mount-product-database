@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "lightdow-900mm-f8-mirror-lens",
+  "subject": {
+    "manufacturerId": "lightdow",
+    "brandId": "lightdow",
+    "name": "Lightdow 900mm F8 Mirror Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The product is a generic T2-mount mirror lens sold with camera-side adapter rings. It is not a direct, supplied lens-specific, or dedicated-series Nikon Z configuration."
+  },
+  "sources": [
+    {
+      "url": "https://www.lightdow.com/collections/all",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://www.yorkshire.com/marketplace/cameras-and-optics-141/camera-and-optic-accessories-2096/camera-lens-accessories-2911/lens-and-filter-adaptor-rings-5588/dfa298f8-46aa-47a7-902c-83eba5a929b1",
+      "publisherRelationship": "unknown",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

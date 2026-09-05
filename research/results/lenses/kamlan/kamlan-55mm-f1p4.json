@@ -1,0 +1,54 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "kamlan-55mm-f1p4",
+  "subject": {
+    "manufacturerId": "kamlan",
+    "brandId": "kamlan",
+    "name": "KamLan 55mm F1.4"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "kamlan-55mm-f1p4"
+  },
+  "sources": [
+    {
+      "url": "https://www.sightron.co.jp/kamlan/55mmF1.4.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "physical",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://www.sightron.co.jp/kamlan/kamlan.profil.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "company-profile",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

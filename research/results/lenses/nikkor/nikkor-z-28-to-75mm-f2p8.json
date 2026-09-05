@@ -1,0 +1,144 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "nikkor-z-28-to-75mm-f2p8",
+  "subject": {
+    "manufacturerId": "nikon",
+    "brandId": "nikkor",
+    "name": "NIKKOR Z 28-75mm f/2.8"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "nikkor-z-28-to-75mm-f2p8"
+  },
+  "sources": [
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/z-mount/z_28-75mmf28/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.externalLengthDuringZoom",
+        "physical.isRetractableForStorage",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_28-75mm_f28/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.nikonusa.com/p/nikkor-z-28-75mm-f-28/20137/overview",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://downloadcenter.nikonimglib.com/en/products/593/NIKKOR_Z_28-75mm_f_28.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://download.nikonimglib.com/archive5/AokKf00WdoJ1058EN0025Lw4S028/Z28-75_2.8_(En)01.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "accessories",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://downloadcenter.nikonimglib.com/en/download/fw/522.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_28-75mm_f28/features01.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "physical",
+        "physical.officialEnvironmentalProtectionClaims",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/nikkor/about/technology.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "lens.coatings",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/glossary/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "physical.externalLengthDuringZoom",
+        "physical.externalLengthDuringFocus",
+        "lens.focus",
+        "lens.specialElements",
+        "lens.coatings"
+      ]
+    }
+  ]
+}

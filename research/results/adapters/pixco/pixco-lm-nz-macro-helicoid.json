@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "pixco-lm-nz-macro-helicoid",
+  "subject": {
+    "manufacturerId": "pixco",
+    "brandId": "pixco",
+    "name": "Leica M to Nikon Z Macro Focusing Helicoid Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "pixco-lm-nz-macro-helicoid"
+  },
+  "sources": [
+    {
+      "url": "https://pixco.com.cn/products/leica-m-nikon-z-macro-focusing-helicoid-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/collections/adapter-for-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

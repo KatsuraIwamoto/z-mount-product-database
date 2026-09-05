@@ -1,0 +1,76 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "apsara-lumiere-35mm-t1p4",
+  "subject": {
+    "manufacturerId": "simmod-lens",
+    "brandId": "apsara",
+    "name": "APSARA LUMIÈRE 35mm T1.4"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "apsara-lumiere-35mm-t1p4"
+  },
+  "sources": [
+    {
+      "url": "https://www.simmodlens.com/product-page/apsara-lumiere-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "physical",
+        "physical.filterInterfaces",
+        "physical.frontAccessoryInterface",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.coatings",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1912590-REG/simmod_apsara_lumiere_35_nikon_z_mount_apsara_lumiere_lens_nikon.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "controls",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://jp.pronews.com/news/202507151243627548.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.simmodlens.com/category/apsara-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "ttartisan-m-z-6bit",
+  "subject": {
+    "manufacturerId": "ttartisan",
+    "brandId": "ttartisan",
+    "name": "M-Z 6Bit Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "ttartisan-m-z-6bit"
+  },
+  "sources": [
+    {
+      "url": "https://en.ttartisan.com/?download-center_2%2F=",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "electronics",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://ttartisan.com/?tutorials-Firmware%2F=",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronics",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/?p=23165",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=YmymQ8j5wwA",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "video",
+      "checked": [
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ]
+}

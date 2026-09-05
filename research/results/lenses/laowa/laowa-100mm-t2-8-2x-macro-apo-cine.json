@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "laowa-100mm-t2-8-2x-macro-apo-cine",
+  "subject": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "name": "LAOWA 100mm T2.8 2X Macro APO Cine"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The cine product is officially designated 100mm T2.9 and is offered in PL, Sony E, and Canon EF mounts, not Nikon Z. The separate 100mm F2.8 still-photo lens must not be conflated with this cine candidate."
+  },
+  "sources": [
+    {
+      "url": "https://laowa.com.pl/produkt/100mm-t29-cine-macro-apo/",
+      "publisherRelationship": "unknown",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.fotopolis.pl/newsy-sprzetowe/obiektywy/36216-obiektywy-laowa-65-mm-i-100-mm-macro-apo-w-filmowych-wersjach-cine",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ]
+}

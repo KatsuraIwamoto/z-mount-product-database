@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "kf-concept-kf06-491",
+  "subject": {
+    "manufacturerId": "kf-concept",
+    "brandId": "kf-concept",
+    "name": "Pentax K DA Lens to Nikon Z Mount Camera Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "kf-concept-kf06-491"
+  },
+  "sources": [
+    {
+      "url": "https://www.kentfaith.co.uk/KF06.491_pentax-pk-da-lens-to-nikon-z-series-mount-camera-high-precision-lens-adapter-pk-da-nik-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://item.rakuten.co.jp/kentfaith/kf06-491/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "mechanisms"
+      ]
+    }
+  ]
+}

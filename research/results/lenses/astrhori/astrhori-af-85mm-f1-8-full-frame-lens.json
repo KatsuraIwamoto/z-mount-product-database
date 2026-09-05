@@ -1,0 +1,104 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "astrhori-af-85mm-f1-8-full-frame-lens",
+  "subject": {
+    "manufacturerId": "astrhori",
+    "brandId": "astrhori",
+    "name": "AstrHori AF 85mm F1.8 Full-Frame Lens"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "astrhori-af-85mm-f1-8-full-frame-lens"
+  },
+  "sources": [
+    {
+      "url": "https://www.astrhori.com/cp",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.com/xzzx",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://opticallimits.com/nikon/nikon-z/astrhori-af-85mm-f-1-8-z-review/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "technical-page",
+      "checked": [
+        "identity",
+        "mount",
+        "mount.electronicContacts"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=2aNEACAkwik",
+      "publisherRelationship": "unknown",
+      "sourceType": "video",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.eicre.co.jp/post/%E3%80%90e%EF%BC%86i%E3%82%AF%E3%83%AA%E3%82%A8%E3%82%A4%E3%82%B7%E3%83%A7%E3%83%B3%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%80%91astrhori-%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AD%E3%83%AA-%E3%81%AE%E4%BA%A4%E6%8F%9B%E3%83%AC%E3%83%B3%E3%82%BA%E3%80%8Castrhori-85mm-f1-8-af%E3%83%AC%E3%83%B3%E3%82%BA-%E3%83%8B%E3%82%B3%E3%83%B3z%E3%83%9E%E3%82%A6%E3%83%B3%E3%83%88%E3%80%8D%E6%96%B0%E7%99%BA%E5%A3%B2",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "distributor-page",
+      "checked": [
+        "identity",
+        "mount",
+        "mount.electronicContacts",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://2ndfocus.com/products/astrhori-af-85mm-f18",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "distributor-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

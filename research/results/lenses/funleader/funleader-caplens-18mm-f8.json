@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "funleader-caplens-18mm-f8",
+  "subject": {
+    "manufacturerId": "funleader",
+    "brandId": "funleader",
+    "name": "CAPLENS 18mm f/8.0 for Street Photography"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "funleader-caplens-18mm-f8"
+  },
+  "sources": [
+    {
+      "url": "https://myfunleader.com/products/funleader-caplens-for-mirrorless-camera",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "physical.externalLengthDuringFocus",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://myfunleader.com/ja/products/funleader-caplens-for-mirrorless-camera",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "lens.focus",
+        "officialProductPages"
+      ]
+    }
+  ]
+}

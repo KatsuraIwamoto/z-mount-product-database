@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "ttartisan-c03b",
+  "subject": {
+    "manufacturerId": "ttartisan",
+    "brandId": "ttartisan",
+    "name": "Leica M Lens to Nikon Z Mount Camera Lens Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "ttartisan-c03b"
+  },
+  "sources": [
+    {
+      "url": "https://ttartisan.store/products/ttartisan-leica-m-lens-to-nikon-z-mount-camera-lens-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1562306-REG/ttartisan_c03b_leica_m_lens_to.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "physical.weightMeasurements"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

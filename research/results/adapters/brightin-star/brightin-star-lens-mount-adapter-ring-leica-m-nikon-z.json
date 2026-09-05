@@ -1,0 +1,37 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "brightin-star-lens-mount-adapter-ring-leica-m-nikon-z",
+  "subject": {
+    "manufacturerId": "brightin-star",
+    "brandId": "brightin-star",
+    "name": "Lens Mount Adapter Ring (Leica M to Nikon Z)",
+    "aliases": [
+      "6977732097063"
+    ]
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1946316-REG/brightin_star_6977732097063_leica_m_to_nikon.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Locate a BRIGHTIN STAR or authorized-distributor source for 6977732097063 and determine whether it is the same marketed product as the BS-LM-Z variant of 28mm F2.8 Lens Adapter Ring."
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "viltrox-af-35mm-f1p8",
+  "subject": {
+    "manufacturerId": "viltrox",
+    "brandId": "viltrox",
+    "name": "AF 35mm F1.8"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "viltrox-af-35mm-f1p8"
+  },
+  "sources": [
+    {
+      "url": "https://viltrox.com/products/viltrox-af-35mm-f18-z-mount-lens-for-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "lifecycle",
+        "mount",
+        "mount.electronicContacts",
+        "physical.officialEnvironmentalProtectionClaims",
+        "controls",
+        "accessories",
+        "electronicServices",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/pages/sitemap",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "productType",
+        "identity",
+        "mount",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/pages/af-35-1-8-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "physical.weightMeasurements",
+        "electronicServices",
+        "lens.aperture"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_35mm_F1.8_Z_Manual.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.filterInterfaces",
+        "physical.externalLengthDuringFocus",
+        "controls",
+        "accessories",
+        "electronicServices",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.coatings",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    }
+  ]
+}

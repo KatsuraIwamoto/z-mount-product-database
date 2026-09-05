@@ -1,0 +1,188 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "mitakon-55mm-f2-8-1-5x-macro-lens",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "zhongyi-optics",
+    "brandId": "mitakon",
+    "productName": "Mitakon 55mm f/2.8 1-5X Macro Lens",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://zyoptics.net/product/mitakon-55mm-f-2-8-1-5x-macro-lens/",
+      "pageFamilies": [
+        "global",
+        "usa"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Mitakon - ZY Optics"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": null
+  },
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": [
+      {
+        "grams": 690,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 58,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": true,
+      "components": [
+        {
+          "type": "collar-assembly",
+          "relationship": "supplied",
+          "removable": true,
+          "interfaces": [
+            {
+              "type": "arca-compatible"
+            }
+          ],
+          "modelNumberOptions": null,
+          "quantity": null,
+          "conditions": {}
+        }
+      ]
+    },
+    "externalLengthDuringFocus": "variable",
+    "isRetractableForStorage": false
+  },
+  "controls": null,
+  "accessories": null,
+  "electronicServices": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 55
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 2.8,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": null,
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 9,
+        "bladeShape": "rounded"
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": null,
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 8,
+      "elements": 13
+    },
+    "specialElements": null,
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "mechanical-coupled"
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.279,
+          "conditions": {
+            "reproductionMagnification": 1
+          }
+        },
+        {
+          "distanceM": 0.272,
+          "conditions": {
+            "reproductionMagnification": 5
+          }
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "range",
+          "minimum": 1,
+          "maximum": 5,
+          "conditions": {}
+        }
+      ],
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {
+      "macro": {
+        "workingDistances": [
+          {
+            "distanceM": 0.15,
+            "conditions": {
+              "reproductionMagnification": 1
+            }
+          },
+          {
+            "distanceM": 0.097,
+            "conditions": {
+              "reproductionMagnification": 2
+            }
+          },
+          {
+            "distanceM": 0.079,
+            "conditions": {
+              "reproductionMagnification": 3
+            }
+          },
+          {
+            "distanceM": 0.071,
+            "conditions": {
+              "reproductionMagnification": 4
+            }
+          },
+          {
+            "distanceM": 0.065,
+            "conditions": {
+              "reproductionMagnification": 5
+            }
+          }
+        ]
+      }
+    }
+  }
+}

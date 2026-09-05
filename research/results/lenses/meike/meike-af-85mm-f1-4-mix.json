@@ -1,0 +1,66 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "meike-af-85mm-f1-4-mix",
+  "subject": {
+    "manufacturerId": "meike",
+    "brandId": "meike",
+    "name": "Meike AF 85mm F1.4 MIX"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "meike-af-85mm-f1-4-mix"
+  },
+  "sources": [
+    {
+      "url": "https://meikeglobal.com/products/8514z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "electronicServices",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/collections/nikon",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://keithwee.com/2024/08/23/meike-85mm-%C6%921-4-for-nikon-z-review-performance-and-value-hand-in-hand/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "technical-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "lens.coverage"
+      ]
+    }
+  ]
+}

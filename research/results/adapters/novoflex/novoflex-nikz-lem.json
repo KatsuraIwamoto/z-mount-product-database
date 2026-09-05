@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "novoflex-nikz-lem",
+  "subject": {
+    "manufacturerId": "novoflex",
+    "brandId": "novoflex",
+    "name": "Adapter Leica M Lenses to Nikon Z Cameras"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "novoflex-nikz-lem"
+  },
+  "sources": [
+    {
+      "url": "https://www.novoflex.de/en/Adapter-Leica-M-lenses-to-Nikon-Z-cameras/NIKZ-LEM",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    }
+  ]
+}

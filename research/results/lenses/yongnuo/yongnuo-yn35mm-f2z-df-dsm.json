@@ -1,0 +1,86 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "yongnuo-yn35mm-f2z-df-dsm",
+  "subject": {
+    "manufacturerId": "yongnuo",
+    "brandId": "yongnuo",
+    "name": "YONGNUO YN35mm F2Z DF DSM"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "yongnuo-yn35mm-f2z-df-dsm"
+  },
+  "sources": [
+    {
+      "url": "https://th.hkyongnuo.com/products/yn35mm-f2z-df-dsm",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://th.hkyongnuo.com/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://ueeshop.ly200-cdn.com/u_file/UPAU/UPAU946/2211/04/photo/35mmF2Z13-4726.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus",
+        "physical.filterInterfaces",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.szyongnuo.com/upload/file/202403/2026-03.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.aperture",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://ueeshop.ly200-cdn.com/u_file/UPAU/UPAU946/2211/04/photo/35mmF2Z5-2407.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronicServices"
+      ]
+    }
+  ]
+}

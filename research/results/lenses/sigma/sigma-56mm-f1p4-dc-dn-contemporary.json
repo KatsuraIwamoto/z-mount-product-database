@@ -1,0 +1,172 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "sigma-56mm-f1p4-dc-dn-contemporary",
+  "subject": {
+    "manufacturerId": "sigma",
+    "brandId": "sigma",
+    "name": "56mm F1.4 DC DN | Contemporary"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "sigma-56mm-f1p4-dc-dn-contemporary"
+  },
+  "sources": [
+    {
+      "url": "https://www.sigma-global.com/jp/lenses/c018_56_14/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.sigma-global.com/en/lenses/c018_56_14/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.coatings",
+        "lens.focus",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.sigmaphoto.com/56mm-f1-4-dc-dn-c",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.focus",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.sigma-global.com/en/support/manual/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "mount",
+        "controls",
+        "lens.focus"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.sigma-global.com/en/support/download/56mm_F14_DC_DN_C018.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "mount.electronicContacts",
+        "physical.isRetractableForStorage",
+        "controls",
+        "accessories",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.sigma-global.com/lenses/c018_56_14_specification_01_01.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "https://www.sigma-global.com/en/support/faq/5841/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "mount",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.sigma-global.com/en/support/firmware/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "mount",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://www.sigma-global.com/jp/news/2023/02/22/20187/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.focus"
+      ],
+      "decisionChecks": [
+        "availability",
+        "licensing",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.sigma-global.com/en/support/download/SIGMA_LensCatalogue_24Spring_ver2_EN.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/glossary/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "physical.externalLengthDuringFocus",
+        "lens.focus"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "mtf-services-fuji-mk-to-nikon-z-conversion-kit",
+  "subject": {
+    "manufacturerId": "mtf-services",
+    "brandId": "mtf-services",
+    "name": "Fuji MK lens conversion from E to Nikon Z mount"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "Excluded because it replaces the lens's native mount and collar; it is not an interposed mount adapter."
+  },
+  "sources": [
+    {
+      "url": "https://mtfservices.com/products/fuji-mk-lens-conversion-from-e-to-nikon-z-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    }
+  ]
+}

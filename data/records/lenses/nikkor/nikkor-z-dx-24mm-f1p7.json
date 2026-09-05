@@ -1,0 +1,279 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "nikkor-z-dx-24mm-f1p7",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "nikon",
+    "brandId": "nikkor",
+    "productName": "NIKKOR Z DX 24mm f/1.7",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2023-06-07",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/z-mount/z_dx_24mmf17/",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Nikon"
+      }
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_dx_24mm_f17/",
+      "pageFamilies": [
+        "nikon-imaging-japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Nikon"
+      }
+    },
+    {
+      "url": "https://www.nikonusa.com/p/nikkor-z-dx-24mm-f17/20119/overview",
+      "pageFamilies": [
+        "usa"
+      ],
+      "region": "US",
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Nikon"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": "mount-owner",
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": {
+        "present": true,
+        "standards": [
+          "exif"
+        ]
+      }
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 70,
+        "lengthMm": 40,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 135,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "other"
+        ],
+        "scope": {
+          "kind": "product"
+        },
+        "conditions": {}
+      }
+    ],
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 46,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": "constant",
+    "isRetractableForStorage": false
+  },
+  "controls": [
+    {
+      "type": "control-ring",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "HN-42"
+        ],
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "LC-46B"
+        ],
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "LF-N1"
+        ],
+        "quantity": 1
+      }
+    ],
+    "lensStraps": [],
+    "protectiveWraps": [],
+    "lensCases": [
+      {
+        "construction": "soft-case",
+        "relationship": "optional",
+        "modelNumberOptions": [
+          "CL-C4"
+        ],
+        "quantity": 1
+      }
+    ]
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": null,
+    "connections": null
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 24
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 1.7,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 11,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 7,
+        "bladeShape": "rounded"
+      },
+      "controlMechanism": "electronic"
+    },
+    "anglesOfView": [
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 61,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "aps-c"
+    },
+    "opticalConstruction": {
+      "groups": 8,
+      "elements": 9
+    },
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 2,
+        "officialName": "Aspherical lens"
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "officialName": "Nikon Super Integrated Coating",
+        "appliedTo": null
+      }
+    ],
+    "focus": {
+      "autofocus": {
+        "present": true,
+        "motors": [
+          {
+            "type": "stepping-motor",
+            "quantity": null,
+            "officialName": "Stepping Motor (STM)"
+          }
+        ]
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": null
+      },
+      "opticalFocusingSystems": [
+        {
+          "type": "rear-focusing",
+          "officialName": "Rear Focusing system"
+        }
+      ],
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.18,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 24
+            }
+          }
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.19,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 24
+            }
+          }
+        }
+      ],
+      "officialFocusBehaviorClaims": [
+        {
+          "type": "focus-breathing-suppressed",
+          "conditions": {}
+        }
+      ]
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}

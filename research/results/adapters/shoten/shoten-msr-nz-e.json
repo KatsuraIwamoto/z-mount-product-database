@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "shoten-msr-nz-e",
+  "subject": {
+    "manufacturerId": "shoten-kobo",
+    "brandId": "shoten",
+    "name": "SHOTEN MSR-NZ E Mount Adapter"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "shoten-msr-nz-e"
+  },
+  "sources": [
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000002436",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages",
+        "physical.weightMeasurements",
+        "physical.dimensionMeasurements"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/shoten-%e3%83%8b%e3%82%b3%e3%83%b3z%e3%83%9e%e3%82%a6%e3%83%b3%e3%83%88%e7%94%a8-%e9%9b%bb%e5%ad%90%e6%8e%a5%e7%82%b9%e4%bb%98%e3%81%8d%e3%83%9e%e3%82%a6%e3%83%b3%e3%83%88%e3%82%a2%e3%83%80%e3%83%97/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ]
+}

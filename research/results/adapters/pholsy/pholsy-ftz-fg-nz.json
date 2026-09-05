@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "pholsy-ftz-fg-nz",
+  "subject": {
+    "manufacturerId": "pholsy",
+    "brandId": "pholsy",
+    "name": "PHOLSY FTZ Lens Mount Adapter Manual Focus Compatible with Nikon F (G) Mount Lens to Nikon Z Mount Camera Body"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "pholsy-ftz-fg-nz"
+  },
+  "sources": [
+    {
+      "url": "https://pholsy.com/products/pholsy-ftz-lens-mount-adapter-manual-focus-compatible-with-nikon-f-g-mount-lens-to-nikon-z-mount-camera-body",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://pholsy.com/collections/pholsy-lens-mount-adapter-manual-focus-compatible-with-nikon-z-mount-camera-body",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

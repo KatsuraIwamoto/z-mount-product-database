@@ -1,0 +1,410 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "tamron-12-to-20mm-f2p8-a084",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "tamron",
+    "brandId": "tamron",
+    "productName": "12-20mm F2.8",
+    "modelNumberOptions": [
+      "A084"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2026-07-15",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.tamron.com/jp/consumer/lenses/a084/",
+      "pageFamilies": [
+        "home-country",
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Tamron"
+      }
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/lenses/a084/",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Tamron"
+      }
+    },
+    {
+      "url": "https://tamron-americas.com/product/12-20mm-f-2-8/",
+      "pageFamilies": [
+        "usa"
+      ],
+      "region": "US",
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Tamron"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": "officially-licensed",
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": null
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 90,
+        "lengthMm": 121.3,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 585,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "moisture-resistant"
+        ],
+        "scope": {
+          "kind": "product"
+        },
+        "conditions": {}
+      }
+    ],
+    "filterInterfaces": [
+      {
+        "type": "rear-gelatin",
+        "sheetDimensionsMm": {
+          "width": 40,
+          "height": 31
+        },
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringZoom": "constant",
+    "externalLengthDuringFocus": "constant",
+    "isRetractableForStorage": false
+  },
+  "controls": [
+    {
+      "type": "zoom-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "control-ring",
+      "quantity": 1
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Custom Switch"
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    },
+    {
+      "type": "function-button",
+      "quantity": 1,
+      "officialName": "Focus Set Button"
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "MF Lock Switch"
+    },
+    {
+      "type": "zoom-lock",
+      "quantity": 1
+    },
+    {
+      "type": "control-ring-click-switch",
+      "quantity": 1,
+      "officialName": "Click ON/OFF Switch"
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Control Lock Switch"
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "integrated",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "CFA084"
+        ],
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "CR-Z IV"
+        ],
+        "quantity": 1
+      }
+    ],
+    "lensStraps": [],
+    "protectiveWraps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": []
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": null,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "connectorType": "usb-c",
+        "purposes": [
+          "firmware-update",
+          "configuration"
+        ],
+        "application": "TAMRON Lens Utility"
+      },
+      {
+        "method": "direct-usb",
+        "connectorType": "usb-c",
+        "purposes": [
+          "configuration",
+          "tethered-control"
+        ],
+        "application": "TAMRON Lens Utility Mobile"
+      }
+    ]
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "zoom",
+      "rangeMm": {
+        "minimum": 12,
+        "maximum": 20
+      }
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 2.8,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 16,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 12,
+        "bladeShape": "rounded"
+      },
+      "controlMechanism": "electronic"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": "diagonal",
+        "degrees": 121.97,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 12
+          }
+        }
+      },
+      {
+        "format": "full-frame",
+        "orientation": "diagonal",
+        "degrees": 94.5,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 20
+          }
+        }
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 12,
+      "elements": 17
+    },
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "officialName": "XGM (eXpanded Glass Molded Aspherical)",
+        "quantity": 1
+      },
+      {
+        "types": [
+          "aspherical"
+        ],
+        "officialName": "GM (Glass Molded Aspherical)",
+        "quantity": 3
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "officialName": "XLD (eXtra Low Dispersion)",
+        "quantity": 1
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "officialName": "LD (Low Dispersion)",
+        "quantity": 3
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "officialName": "AX (Anti-reflection eXpand) Coating",
+        "appliedTo": null
+      },
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "officialName": "BBAR-G2 (Broad-Band Anti-Reflection Generation 2) Coating",
+        "appliedTo": null
+      },
+      {
+        "types": [
+          "surface-protective"
+        ],
+        "officialName": "Fluorine Coating",
+        "appliedTo": [
+          "front-element"
+        ]
+      }
+    ],
+    "focus": {
+      "autofocus": {
+        "present": true,
+        "motors": [
+          {
+            "type": "voice-coil-motor",
+            "quantity": null,
+            "officialName": "VXD (Voice-coil eXtreme-torque Drive)"
+          }
+        ]
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "electronic-by-wire"
+      },
+      "opticalFocusingSystems": [
+        {
+          "type": "internal-focusing",
+          "officialName": "IF (Internal Focusing)"
+        }
+      ],
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.18,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 12
+            }
+          }
+        },
+        {
+          "distanceM": 0.28,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 20
+            }
+          }
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.17,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 12
+            }
+          }
+        },
+        {
+          "kind": "maximum",
+          "value": 0.11,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 20
+            }
+          }
+        }
+      ],
+      "officialFocusBehaviorClaims": []
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {},
+    "zoom": {
+      "drive": null,
+      "opticalZoomingSystems": null
+    }
+  }
+}

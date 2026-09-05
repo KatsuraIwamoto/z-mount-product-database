@@ -1,0 +1,109 @@
+[build-system]
+requires = ["hatchling==1.32.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "z-mount-product-database"
+dynamic = ["version"]
+description = "Open datasets for Nikon Z-mount lenses, related optical products, and mount adapters."
+readme = "README.md"
+requires-python = ">=3.14"
+license = "MIT"
+license-files = ["LICENSES/MIT.txt"]
+authors = [
+  { name = "Katsura Iwamoto" },
+]
+dependencies = [
+  "jsonschema>=4.23,<5",
+  "referencing>=0.28.4,<1",
+  "rfc8785>=0.1.4,<1",
+  "rfc3986-validator>=0.1.1,<1",
+]
+
+[project.scripts]
+zproduct-validate = "z_mount_product_database.cli:validate_main"
+zproduct-generate = "z_mount_product_database.cli:generate_main"
+zproduct-review = "z_mount_product_database.review:main"
+
+[project.urls]
+Homepage = "https://katsuraiwamoto.github.io/z-mount-product-database/"
+Documentation = "https://katsuraiwamoto.github.io/z-mount-product-database/"
+Repository = "https://github.com/KatsuraIwamoto/z-mount-product-database"
+
+[tool.hatch.build]
+directory = "build/packages"
+
+[tool.hatch.version]
+path = "src/z_mount_product_database/__init__.py"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/z_mount_product_database"]
+
+[tool.hatch.envs.default]
+python = "3.14"
+dependencies = [
+  "mypy==2.3.1",
+  "pytest==9.1.1",
+  "reuse[charset-normalizer]==6.2.0",
+  "ruff==0.16.5",
+  "types-jsonschema==4.26.0.20260518",
+]
+
+[tool.hatch.envs.default.scripts]
+clean = "python tools/clean.py"
+format-json = "python tools/format_json.py"
+check-json-format = "python tools/format_json.py --check"
+lint = [
+  "ruff check .",
+  "ruff format --check .",
+]
+typecheck = "mypy"
+test = "pytest"
+validate = "zproduct-validate"
+check = [
+  "ruff check .",
+  "ruff format --check .",
+  "python tools/format_json.py --check",
+  "reuse --no-multiprocessing lint",
+  "mypy",
+  "pytest",
+  "zproduct-validate",
+]
+generate = "zproduct-generate"
+review = "python -m z_mount_product_database.review {args}"
+
+[tool.hatch.envs.docs]
+detached = true
+python = "3.14"
+dependencies = [
+  "zensical==0.0.58",
+]
+
+[tool.hatch.envs.docs.scripts]
+build = [
+  "zensical build --clean --strict --config-file zensical.en.toml",
+  "zensical build --clean --strict --config-file zensical.ja.toml",
+]
+serve = [
+  "zensical build --clean --strict --config-file zensical.en.toml",
+  "zensical build --clean --strict --config-file zensical.ja.toml",
+  "python -m http.server 8766 --bind 127.0.0.1 --directory site",
+]
+serve-ja = "zensical serve --config-file zensical.ja.toml"
+serve-en = "zensical serve --config-file zensical.en.toml"
+
+[tool.ruff]
+target-version = "py314"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["B", "E4", "E7", "E9", "F", "I", "SIM", "UP"]
+
+[tool.mypy]
+python_version = "3.14"
+strict = true
+files = ["src", "tests"]
+
+[tool.pytest.ini_options]
+addopts = ["-ra", "--strict-config", "--strict-markers"]
+testpaths = ["tests"]

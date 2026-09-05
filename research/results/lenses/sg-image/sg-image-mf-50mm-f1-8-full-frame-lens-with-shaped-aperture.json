@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "sg-image-mf-50mm-f1-8-full-frame-lens-with-shaped-aperture",
+  "subject": {
+    "manufacturerId": "sg-image",
+    "brandId": "sg-image",
+    "name": "SG-image MF 50mm F1.8 Full-Frame Lens with Shaped Aperture"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "sg-image-mf-50mm-f1-8-full-frame-lens-with-shaped-aperture"
+  },
+  "sources": [
+    {
+      "url": "https://www.sg-image.com/products/50mm-f1-8-mf-full-frame-lens-with-shaped-aperture",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "physical",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.sg-image.com/collections/all-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/508.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.anglesOfView",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "amopofo-b4-nik-z",
+  "subject": {
+    "manufacturerId": null,
+    "brandId": "amopofo",
+    "name": "B4 2/3-Inch to Nikon Z Adapter",
+    "aliases": [
+      "B4-NIK/Z"
+    ]
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://camlensadapter.com/",
+      "publisherRelationship": "retailer",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "physical.tripodSupport"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Which entity manufactures this branded product?",
+    "Can an official exact-product page, official catalog, or manufacturer-run storefront confirm the official product name and model number, and whether this is a distinct product or a variant of another adapter?"
+  ]
+}

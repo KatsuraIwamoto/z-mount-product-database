@@ -1,0 +1,87 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "laowa-ranger-75-180mm-t2-9-lite-cine-zoom",
+  "subject": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "name": "LAOWA Ranger 75-180mm T2.9 Lite Cine Zoom"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "laowa-ranger-75-180mm-t2-9-lite-cine-zoom"
+  },
+  "sources": [
+    {
+      "url": "https://laowacine.com/product/laowa-ranger-compact-cine-zoom-series/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "mount.adapter",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.adorama.com/venus-laowa-ranger-lite-cine-2-lens-kit-t2-9-pl-ef/p/veranl287bpl",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount",
+        "mount.adapter",
+        "accessories"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.venuslens.net/shop/?product_tag=Z&product_view=list",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/cat/6cabc04d3bd26955447f46b469bbb29d54ab62ef.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "lens.focalLength",
+        "lens.anglesOfView",
+        "lens.imageCircleDiameters",
+        "lens.stabilization",
+        "lens.opticalConstruction"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Confirm the optical element count of the 75–180 mm Nikon Z configuration."
+  ]
+}

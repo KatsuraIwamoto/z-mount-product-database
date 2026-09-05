@@ -1,0 +1,68 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "brightin-star-mf-10mm-f5p6-ii-fisheye",
+  "subject": {
+    "manufacturerId": "brightin-star",
+    "brandId": "brightin-star",
+    "name": "MF 10mm F5.6 II APS-C Fisheye Lens"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "brightin-star-mf-10mm-f5p6-ii-fisheye"
+  },
+  "sources": [
+    {
+      "url": "https://brightinstar.com/products/brightin-star-10mm-f5-6-ii-aps-c-fisheye-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/collections/nikon-z-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/10mmF5.6.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0762/8587/0396/files/MF_10mm_F5.6_APS-C.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    }
+  ]
+}

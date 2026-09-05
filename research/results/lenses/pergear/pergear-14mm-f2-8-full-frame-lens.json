@@ -1,0 +1,66 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "pergear-14mm-f2-8-full-frame-lens",
+  "subject": {
+    "manufacturerId": "pergear",
+    "brandId": "pergear",
+    "name": "PERGEAR 14mm F2.8 Full-Frame Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "pergear-14mm-f2-8-full-frame-lens"
+  },
+  "sources": [
+    {
+      "url": "https://www.pergear.com/blogs/news/pergear-14mm-f2-8",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.pergear.com/products/pergear-14mm-f2-8",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "mount.electronicContacts",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000236.000070183.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "announcement",
+      "checked": [
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "songraw-af-50mm-f1p2-ms",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "songraw",
+    "brandId": "songraw",
+    "productName": "SongRaw AF 50mm F1.2 MS",
+    "modelNumberOptions": [
+      "AF 501.2 Z MS"
+    ],
+    "alternateNames": [
+      {
+        "name": "SongRaw AF 50mm F1.2 M-Simplify",
+        "language": "en"
+      }
+    ],
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2026-06-18",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://songrawlens.com/products/songraw-af-50mm-f1-2-ms-mirrorless-camera-lens",
+      "pageFamilies": [
+        "global",
+        "usa"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "SongRawLens"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": null
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 72,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": null,
+    "externalLengthDuringFocus": "constant",
+    "isRetractableForStorage": false
+  },
+  "controls": null,
+  "accessories": null,
+  "electronicServices": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 50
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 1.2,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 16,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 13,
+        "bladeShape": null
+      },
+      "controlMechanism": "electronic"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 47.85,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 10,
+      "elements": 15
+    },
+    "specialElements": null,
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": true,
+        "motors": [
+          {
+            "type": "stepping-motor",
+            "quantity": null
+          }
+        ]
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "electronic-by-wire"
+      },
+      "opticalFocusingSystems": [
+        {
+          "type": "internal-focusing",
+          "officialName": "Internal focusing"
+        }
+      ],
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.52,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.13,
+          "conditions": {}
+        }
+      ],
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}

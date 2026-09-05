@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "sirui-saturn-v2-full-frame-anamorphic-lens-series",
+  "subject": {
+    "manufacturerId": "sirui",
+    "brandId": "sirui",
+    "name": "SIRUI Saturn V2 Full-Frame Anamorphic Lens Series"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://qicai.fengniao.com/538/5383069.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://store.sirui.com/collections/z-mount-nikon-1",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "mount"
+      ]
+    },
+    {
+      "url": "https://camerarumors.kr/2026-08-17-birtv-2026-chinese-lens-preview",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "mount"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Has SIRUI published a product release announcement or confirmed sale or availability for the Saturn V2 series?",
+    "Has SIRUI announced or offered a Nikon Z configuration for the Saturn V2 series?"
+  ]
+}

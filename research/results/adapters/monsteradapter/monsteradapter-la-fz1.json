@@ -1,0 +1,48 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "monsteradapter-la-fz1",
+  "subject": {
+    "manufacturerId": "monsteradapter",
+    "brandId": "monsteradapter",
+    "name": "Nikon F-mount Lenses to Nikon Z-mount Cameras Adapter with AF Motor Built-in"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "monsteradapter-la-fz1"
+  },
+  "sources": [
+    {
+      "url": "https://www.monsteradapter.com/products/la-fz1-nikon-f-mount-lenses-to-nikon-z-mount-cameras-adapter-with-af-motor-built-in-fw-v1-1",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms",
+        "physical.weightMeasurements"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1949006-REG/monster_adapter_la_fz1_nikon_f_lens.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ]
+}

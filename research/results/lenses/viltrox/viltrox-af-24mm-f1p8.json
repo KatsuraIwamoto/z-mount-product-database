@@ -1,0 +1,72 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "viltrox-af-24mm-f1p8",
+  "subject": {
+    "manufacturerId": "viltrox",
+    "brandId": "viltrox",
+    "name": "AF 24mm F1.8"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "viltrox-af-24mm-f1p8"
+  },
+  "sources": [
+    {
+      "url": "https://viltrox.com/products/viltrox-af-24mm-f18-z-mount-full-frame-prime-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.externalLengthDuringFocus",
+        "physical.isRetractableForStorage",
+        "controls",
+        "accessories",
+        "electronicServices",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/collections/z-mount/z-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/collections/z-mount/z-mount?page=2",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/pages/af-24-1-8-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "electronicServices"
+      ]
+    }
+  ]
+}

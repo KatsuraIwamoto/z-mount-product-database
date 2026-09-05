@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fotodiox-m645-nkz-rcv",
+  "subject": {
+    "manufacturerId": "fotodiox",
+    "brandId": "fotodiox",
+    "name": "RhinoCam Vertex Rotating Stitching Adapter, Compatible with Mamiya 645 (M645) Mount SLR Lens to Nikon Z-Mount Mirrorless Cameras"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The product is primarily a stitching or view-camera positioning system rather than a direct interchangeable-lens mount converter."
+  },
+  "sources": [
+    {
+      "url": "https://fotodioxpro.com/products/m645-nkz-rcv",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

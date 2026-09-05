@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "cgpro-leica-m-to-nikon-z-adapter",
+  "subject": {
+    "manufacturerId": "cine-gear-pro",
+    "brandId": "cgpro",
+    "name": "CGPro Leica M Lens Mount Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "cgpro-leica-m-to-nikon-z-adapter"
+  },
+  "sources": [
+    {
+      "url": "https://www.cinegearpro.co.uk/products/leica-m-mount-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.variants",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,369 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "tamron-18-to-300mm-f3p5-to-6p3-di-iii-a-vc-vxd-b061",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "tamron",
+    "brandId": "tamron",
+    "productName": "18-300mm F/3.5-6.3 Di III-A VC VXD",
+    "modelNumberOptions": [
+      "B061"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2025-08-07",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.tamron.com/jp/consumer/lenses/b061/",
+      "pageFamilies": [
+        "home-country",
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Tamron"
+      }
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/lenses/b061/",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Tamron"
+      }
+    },
+    {
+      "url": "https://tamron-americas.com/product/18-300mm-f-3-5-6-3-di-iii-a-vc-vxd/",
+      "pageFamilies": [
+        "usa"
+      ],
+      "region": "US",
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Tamron"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": "officially-licensed",
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": null
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 75.5,
+        "lengthMm": 127.6,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 635,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "moisture-resistant"
+        ],
+        "scope": {
+          "kind": "product"
+        },
+        "conditions": {}
+      }
+    ],
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 67,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringZoom": "variable",
+    "externalLengthDuringFocus": "constant",
+    "isRetractableForStorage": false
+  },
+  "controls": [
+    {
+      "type": "zoom-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "zoom-lock",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "HA036"
+        ],
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "CF67II"
+        ],
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "CR-Z III"
+        ],
+        "quantity": 1
+      }
+    ],
+    "lensStraps": [],
+    "protectiveWraps": [],
+    "lensCases": []
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": null,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "connectorType": "usb-c",
+        "purposes": [
+          "firmware-update"
+        ],
+        "application": "TAMRON Lens Utility"
+      }
+    ]
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "zoom",
+      "rangeMm": {
+        "minimum": 18,
+        "maximum": 300
+      }
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 3.5,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 18
+              }
+            }
+          },
+          {
+            "value": 6.3,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 300
+              }
+            }
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 18
+              }
+            }
+          },
+          {
+            "value": 40,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 300
+              }
+            }
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 7,
+        "bladeShape": "rounded"
+      },
+      "controlMechanism": "electronic"
+    },
+    "anglesOfView": [
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 77.4,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 18
+          }
+        }
+      },
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 5.5,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 300
+          }
+        }
+      }
+    ],
+    "coverage": {
+      "format": "aps-c"
+    },
+    "opticalConstruction": {
+      "groups": 15,
+      "elements": 19
+    },
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "officialName": "LD (Low Dispersion)",
+        "quantity": 4
+      },
+      {
+        "types": [
+          "aspherical"
+        ],
+        "officialName": "Hybrid aspherical lens",
+        "quantity": 3
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "officialName": "BBAR-G2 (Broad-Band Anti-Reflection Generation 2) Coating",
+        "appliedTo": null
+      },
+      {
+        "types": [
+          "surface-protective"
+        ],
+        "officialName": "Fluorine Coating",
+        "appliedTo": [
+          "front-element"
+        ]
+      }
+    ],
+    "focus": {
+      "autofocus": {
+        "present": true,
+        "motors": [
+          {
+            "type": "voice-coil-motor",
+            "quantity": null,
+            "officialName": "VXD (Voice-coil eXtreme-torque Drive)"
+          }
+        ]
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "electronic-by-wire"
+      },
+      "opticalFocusingSystems": [
+        {
+          "type": "internal-focusing",
+          "officialName": "IF (Internal Focusing)"
+        }
+      ],
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.15,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 18
+            }
+          }
+        },
+        {
+          "distanceM": 0.99,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 300
+            }
+          }
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.5,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 18
+            }
+          }
+        },
+        {
+          "kind": "maximum",
+          "value": 0.25,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 300
+            }
+          }
+        }
+      ],
+      "officialFocusBehaviorClaims": []
+    },
+    "stabilization": {
+      "present": true,
+      "ratings": null,
+      "officialName": "VC (Vibration Compensation)"
+    },
+    "specialized": {},
+    "zoom": {
+      "drive": null,
+      "opticalZoomingSystems": null
+    }
+  }
+}

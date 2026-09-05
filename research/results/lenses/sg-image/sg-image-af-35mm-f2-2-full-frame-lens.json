@@ -1,0 +1,70 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "sg-image-af-35mm-f2-2-full-frame-lens",
+  "subject": {
+    "manufacturerId": "sg-image",
+    "brandId": "sg-image",
+    "name": "SG-image AF 35mm F2.2 Full-Frame Lens"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "sg-image-af-35mm-f2-2-full-frame-lens"
+  },
+  "sources": [
+    {
+      "url": "https://www.sg-image.com/products/sg-image-af35mm-f2-2-full-frame-lens-for-e-mount-z-mount-l-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.weightMeasurements",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.sg-image.com/collections/all-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/spec_1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.anglesOfView",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.aperture",
+        "physical.filterInterfaces"
+      ]
+    }
+  ],
+  "unresolved": [
+    "What is the confirmed physical length of the Nikon Z configuration?"
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "laowa-magic-shift-converter-z",
+  "subject": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "name": "Magic Shift Converter (MSC)"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "laowa-magic-shift-converter-z"
+  },
+  "sources": [
+    {
+      "url": "https://www.laowa.jp/cat3/42957fbad78e9ee2070fe1e9ba9eb87ac153ddde.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.variants",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "conversionOptics",
+        "mechanisms",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.venuslens.net/product/laowa-magic-shift-converter/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "electronics",
+        "officialProductPages"
+      ]
+    }
+  ]
+}

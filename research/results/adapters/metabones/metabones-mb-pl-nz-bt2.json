@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "metabones-mb-pl-nz-bt2",
+  "subject": {
+    "manufacturerId": "metabones",
+    "brandId": "metabones",
+    "name": "ARRI PL Lens to Nikon Z-mount T CINE Adapter S"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "metabones-mb-pl-nz-bt2"
+  },
+  "sources": [
+    {
+      "url": "https://www.metabones.com/products/details/MB_PL-NZ-BT2",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.tripodSupport"
+      ]
+    }
+  ]
+}

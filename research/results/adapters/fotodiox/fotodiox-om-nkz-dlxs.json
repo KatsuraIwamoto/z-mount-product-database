@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fotodiox-om-nkz-dlxs",
+  "subject": {
+    "manufacturerId": "fotodiox",
+    "brandId": "fotodiox",
+    "name": "Fotodiox DLX Stretch Lens Adapter - Compatible with Olympus Zuiko (OM) 35mm SLR Lens to Nikon Z-Mount Mirrorless Cameras with Macro Focusing Helicoid and Magnetic Drop-In Filters"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "fotodiox-om-nkz-dlxs"
+  },
+  "sources": [
+    {
+      "url": "https://fotodioxpro.com/products/om-nkz-dlxs",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

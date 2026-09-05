@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "novoflex-nikz-min-af",
+  "subject": {
+    "manufacturerId": "novoflex",
+    "brandId": "novoflex",
+    "name": "Adapter Sony/Minolta Lenses to Nikon Z Cameras with Aperture Control"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "novoflex-nikz-min-af"
+  },
+  "sources": [
+    {
+      "url": "https://www.novoflex.de/en/Adapter-Sony-Minolta-lenses-to-Nikon-Z-cameras-w.-aperture-control/NIKZ-MIN-AF",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    }
+  ]
+}

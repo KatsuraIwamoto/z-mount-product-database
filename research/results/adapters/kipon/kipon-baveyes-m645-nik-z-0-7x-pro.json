@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "kipon-baveyes-m645-nik-z-0-7x-pro",
+  "subject": {
+    "manufacturerId": "kipon",
+    "brandId": "kipon",
+    "name": "Baveyes Mamiya 645-NIK Z 0.7x PRO Lock Version"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "kipon-baveyes-m645-nik-z-0-7x-pro"
+  },
+  "sources": [
+    {
+      "url": "https://www.kipon.jp/products/mamiya-645-nikon-z-0-7x-pro-baveyes-focal-reducer-lock-version",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

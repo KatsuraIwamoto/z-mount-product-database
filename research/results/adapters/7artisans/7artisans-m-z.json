@@ -1,0 +1,40 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "7artisans-m-z",
+  "subject": {
+    "manufacturerId": "7artisans",
+    "brandId": "7artisans",
+    "name": "Leica M to Nikon Z Lens Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "7artisans-m-z"
+  },
+  "sources": [
+    {
+      "url": "https://7artisans.co.uk/products/leica-m-adapters",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/a/new/1717403/7artisans_photoelectric_m_z_ring_tg_leica_transfer_ring_for.html/specs",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "specification",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations"
+      ]
+    }
+  ]
+}

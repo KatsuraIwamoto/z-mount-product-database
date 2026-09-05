@@ -1,0 +1,37 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "c7adapters-lpl-nikon-z",
+  "subject": {
+    "manufacturerId": "c7adapters",
+    "brandId": "c7adapters",
+    "name": "LPL mount – Nikon Z"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "c7adapters-lpl-nikon-z"
+  },
+  "sources": [
+    {
+      "url": "https://c7adapters.com/adapters/nikon-z/lpl-mount-nikon-z/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.variants",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

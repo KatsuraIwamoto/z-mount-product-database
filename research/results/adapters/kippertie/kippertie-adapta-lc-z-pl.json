@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "kippertie-adapta-lc-z-pl",
+  "subject": {
+    "manufacturerId": "kippertie",
+    "brandId": "kippertie",
+    "name": "Adapta LC Z/PL"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "kippertie-adapta-lc-z-pl"
+  },
+  "sources": [
+    {
+      "url": "https://store.kippertie.com/product/adapta-lc-z-pl/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

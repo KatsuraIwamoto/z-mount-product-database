@@ -1,0 +1,39 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "accpro-m42-n-z",
+  "subject": {
+    "manufacturerId": null,
+    "brandId": "accpro",
+    "name": "Accpro Lens Adapter M42-N/Z",
+    "aliases": [
+      "m42-N/Z",
+      "ACE69740",
+      "7565212531"
+    ]
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://acephoto.net/cameras/lens-adapter-m42-n-z/",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Identify the manufacturing entity and an official brand source or evidence that Ace Photo is the manufacturer rather than only the designer and retailer.",
+    "Determine whether this is the same marketed product as the European Rollin / ACCPro M42-to-Nikon Z adapter or a distinct private-label product."
+  ]
+}

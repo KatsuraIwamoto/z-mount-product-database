@@ -1,0 +1,79 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "yasuhara-anthy35-35mm-f1-8",
+  "subject": {
+    "manufacturerId": "yasuhara",
+    "brandId": "yasuhara",
+    "name": "Anthy35 35mm F1.8 Manual Wide Angle Minimal Distortion Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "yasuhara-anthy35-35mm-f1-8"
+  },
+  "sources": [
+    {
+      "url": "https://yasuharausa.com/products/anthy-35mm-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.alternateNames",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://yasuharausa.com/pages/our-company",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "company-profile",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://dc.watch.impress.co.jp/docs/news/1216541.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.ephotozine.com/article/yasuhara-announce-new-anthy-prime-lenses-33997",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ]
+}

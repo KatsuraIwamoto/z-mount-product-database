@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "wooden-camera-nikon-z-to-pl-mount-adapter-pro",
+  "subject": {
+    "manufacturerId": "wooden-camera",
+    "brandId": "wooden-camera",
+    "name": "Nikon Z Mount to PL Mount Adapter (Pro)"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "wooden-camera-nikon-z-to-pl-mount-adapter-pro"
+  },
+  "sources": [
+    {
+      "url": "https://woodencamera.com/products/nikon-z-mount-to-pl-mount-adapter-pro",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

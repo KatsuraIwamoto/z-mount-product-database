@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "simmod-arri-lpl-to-nikon-z-cine-pro-adapter",
+  "subject": {
+    "manufacturerId": "simmod-lens",
+    "brandId": "simmod",
+    "name": "Simmod ARRI LPL to Nikon Z-Mount Cine Pro Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "simmod-arri-lpl-to-nikon-z-cine-pro-adapter"
+  },
+  "sources": [
+    {
+      "url": "https://www.simmodlens.com/product-page/simmod-arri-lpl-to-nikon-z-mount-cine-pro-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "mitakon-speedmaster-35mm-f0-95-mark-ii",
+  "subject": {
+    "manufacturerId": "zhongyi-optics",
+    "brandId": "mitakon",
+    "name": "Mitakon Speedmaster 35mm F0.95 Mark II"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The current official Zhongyi Optics product page and release material list Fuji X, Sony E, and EOS-M mounts and no native Nikon Z version, so it is excluded."
+  },
+  "sources": [
+    {
+      "url": "https://zyoptics.net/product/mitakon-speedmaster-35mm-f-0-95/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "controls",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://zyoptics.net/version-2-of-the-zhongyi-mitakon-speedmaster-35mm-f-0-95-lens-released/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ]
+}

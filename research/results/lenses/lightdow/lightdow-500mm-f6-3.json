@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "lightdow-500mm-f6-3",
+  "subject": {
+    "manufacturerId": "lightdow",
+    "brandId": "lightdow",
+    "name": "Lightdow 500mm F6.3"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The Nikon Z package is a generic T2-mount lens bundled with a T2-to-Z adapter. Generic system adapters are outside the project's lens-dataset inclusion criteria."
+  },
+  "sources": [
+    {
+      "url": "https://www.lightdow.com/collections/all",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://shopee.ph/Lightdow-500mm-F6.3-Full-Frame-Telephoto-Fixed-Focus-Lens-T2-Lens-Adapter-Ring-for-Canon-EF-M-RF-Sony-E-Nikon-Z-Camera-i.1236233395.24377014680",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

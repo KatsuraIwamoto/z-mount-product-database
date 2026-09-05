@@ -1,0 +1,82 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "meike-af-85mm-f1-4-mix-ii",
+  "subject": {
+    "manufacturerId": "meike",
+    "brandId": "meike",
+    "name": "Meike AF 85mm F1.4 MIX II"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "meike-af-85mm-f1-4-mix-ii"
+  },
+  "sources": [
+    {
+      "url": "https://meikeglobal.com/products/8514iiz",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/collections/nikon",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.digitalcameraworld.com/cameras/lenses/meike-85mm-f-1-4-mix-ii-review-wait-ages-for-an-updated-upgraded-meike-85mm-prime-and-then-two-come-along-almost-at-once-this-ones-the-best",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "technical-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces",
+        "electronicServices",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.coatings",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/85mm_F1.4ii-15.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.anglesOfView"
+      ]
+    }
+  ]
+}

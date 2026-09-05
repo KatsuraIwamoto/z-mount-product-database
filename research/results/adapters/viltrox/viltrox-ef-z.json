@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "viltrox-ef-z",
+  "subject": {
+    "manufacturerId": "viltrox",
+    "brandId": "viltrox",
+    "name": "EF-Z Auto Focus Mount Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "viltrox-ef-z"
+  },
+  "sources": [
+    {
+      "url": "https://viltrox.com/products/viltrox-canon-ef-to-z-mount-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/pages/ef-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronics",
+        "electronicServices"
+      ]
+    }
+  ]
+}

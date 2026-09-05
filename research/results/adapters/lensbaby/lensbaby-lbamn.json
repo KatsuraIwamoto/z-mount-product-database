@@ -1,0 +1,40 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "lensbaby-lbamn",
+  "subject": {
+    "manufacturerId": "lensbaby",
+    "brandId": "lensbaby",
+    "name": "Lensbaby Mount Adapter for Nikon Z"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "lensbaby-lbamn"
+  },
+  "sources": [
+    {
+      "url": "https://lensbaby.com/products/lensbaby-mount-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1733679-REG/lensbaby_lbamn_mount_converters_for_nikon.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    }
+  ]
+}

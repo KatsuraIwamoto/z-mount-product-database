@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "novoflex-pentring-67",
+  "subject": {
+    "manufacturerId": "novoflex",
+    "brandId": "novoflex",
+    "name": "Adapter Pentax 67 lenses to D-SLR and Mirrorless cameras"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "PENTRING 67 terminates in the NOVOFLEX A universal bayonet and requires the separate NIKZ/A camera-specific adapter for Nikon Z, so it violates the rule excluding products that need multiple stacked adapters."
+  },
+  "sources": [
+    {
+      "url": "https://novoflex.de/en/Adapter-Pentax-67-lenses-to-D-SLR-and-Mirrorless-cameras/PENTRING-67",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity"
+      ]
+    }
+  ]
+}

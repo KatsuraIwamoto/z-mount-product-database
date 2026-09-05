@@ -1,0 +1,49 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Hatch: Check",
+      "type": "process",
+      "command": "hatch",
+      "args": [
+        "run",
+        "check"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Hatch: Generate",
+      "type": "process",
+      "command": "hatch",
+      "args": [
+        "run",
+        "generate"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Hatch: Clean",
+      "type": "process",
+      "command": "hatch",
+      "args": [
+        "run",
+        "clean"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "Hatch: Build documentation",
+      "type": "process",
+      "command": "hatch",
+      "args": [
+        "run",
+        "docs:build"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}

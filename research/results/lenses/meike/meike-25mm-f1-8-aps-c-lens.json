@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "meike-25mm-f1-8-aps-c-lens",
+  "subject": {
+    "manufacturerId": "meike",
+    "brandId": "meike",
+    "name": "Meike 25mm F1.8 APS-C Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The current official listing for the 25mm F1.8 includes E mount but no Nikon Z configuration, so the product is excluded."
+  },
+  "sources": [
+    {
+      "url": "https://meikeglobal.com/products/meike-mk-25mm-f1-8-large-aperture-wide-angle-lens-manual-focus-lens-fit-fujifilm-x-mount-mirrorless-cameras-x-pro2-x-e3-x-t1-x-t2-x-t3-x-t10-x-t20-x-a2-x-e2-x-t100-x-e1-x30-x70-x-m1-x-a1-xpro1-etc",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    }
+  ]
+}

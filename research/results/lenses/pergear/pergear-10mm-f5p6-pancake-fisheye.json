@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "pergear-10mm-f5p6-pancake-fisheye",
+  "subject": {
+    "manufacturerId": "pergear",
+    "brandId": "pergear",
+    "name": "PERGEAR 10mm F5.6 Pancake Fisheye Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The official exact-product page publishes Fujifilm X, Micro Four Thirds, and Sony E configurations only; no official direct Nikon Z configuration is published."
+  },
+  "sources": [
+    {
+      "url": "https://www.pergear.de/products/pergear-10mm-f5-6",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.diyphotography.net/pergear-announces-its-all-metal-10mm-f-5-6-170-fisheye-lens-for-aps-c-and-mft-mirrorless/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://radojuva.com/en/2021/11/pergear-fish-eye-10-mm-f-5-6-lens-review/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "technical-page",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "novoflex-nikza-k",
+  "subject": {
+    "manufacturerId": "novoflex",
+    "brandId": "novoflex",
+    "name": "Short Adapter Nikon Z-camera to NOVOFLEX A-Mount"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "NIKZA-K is expressly limited to connecting NOVOFLEX bellows devices and cannot be used with the manufacturer's medium-format lens adapters or historical follow-focus lenses; mount conversion is therefore not its primary role."
+  },
+  "sources": [
+    {
+      "url": "https://novoflex.de/en/Short-Adapter-Nikon-Z-camera-to-NOVOFLEX-A-Mount/NIKZA-K",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity"
+      ]
+    }
+  ]
+}

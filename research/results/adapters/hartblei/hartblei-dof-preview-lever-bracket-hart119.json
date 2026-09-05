@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "hartblei-dof-preview-lever-bracket-hart119",
+  "subject": {
+    "manufacturerId": "hartblei",
+    "brandId": "hartblei",
+    "name": "Hartblei DoF Preview Lever Locker Bracket for Mamiya RB / RZ 67 lenses"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "This is a depth-of-field preview-lever bracket for Mamiya lenses, not a product that converts a lens mount to Nikon Z."
+  },
+  "sources": [
+    {
+      "url": "https://hartbleilens.com/index.php?route=product/product&product_id=70",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions"
+      ]
+    }
+  ]
+}

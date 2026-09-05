@@ -1,0 +1,67 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "sg-image-mf-7-5mm-f2-8-fisheye-lens",
+  "subject": {
+    "manufacturerId": "sg-image",
+    "brandId": "sg-image",
+    "name": "SG-image MF 7.5mm F2.8 Fisheye Lens"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "sg-image-mf-7-5mm-f2-8-fisheye-lens"
+  },
+  "sources": [
+    {
+      "url": "https://www.sg-image.com/products/mf-7-5mm-f2-8-aps-c-fisheye-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "physical",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.sg-image.com/collections/all-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/7.5.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.anglesOfView",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.aperture",
+        "controls",
+        "physical.filterInterfaces"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "gabale-lm-z",
+  "subject": {
+    "manufacturerId": null,
+    "brandId": "gabale",
+    "name": "Leica M to Nikon Z Close Focus Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.ebay.com/itm/355805373557",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://kamerastore.com/en-us/products/gabale-leica-m-nikon-z-lm-z-close-focus-adapter-nikon-z-t121130",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://www.fredmiranda.com/forum/topic/1667819/3/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "other",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://www.stkb.jp/shopbrand/nikon-z-mega/",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Can an exact manufacturer-, brand-, or authorized-distributor source be found that confirms the Gabale LM-Z as a released product and supports its canonical specifications?"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "lightdow-240mm-f5-6-reflex-lens",
+  "subject": {
+    "manufacturerId": "lightdow",
+    "brandId": "lightdow",
+    "name": "Lightdow EF 240mm F5.6 Reflex Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "lightdow-240mm-f5-6-reflex-lens"
+  },
+  "sources": [
+    {
+      "url": "https://www.lightdow.com/products/lightdow-ef-240mm-f5-6-reflex-lens-telephoto-manual-dslr-cameras-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.alternateNames",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://ja.aliexpress.com/item/1005008505703982.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "controls",
+        "lens.focus"
+      ]
+    }
+  ]
+}

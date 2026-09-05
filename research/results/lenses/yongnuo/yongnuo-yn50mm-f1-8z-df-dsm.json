@@ -1,0 +1,102 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "yongnuo-yn50mm-f1-8z-df-dsm",
+  "subject": {
+    "manufacturerId": "yongnuo",
+    "brandId": "yongnuo",
+    "name": "YONGNUO YN50mm F1.8Z DF DSM"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "yongnuo-yn50mm-f1-8z-df-dsm"
+  },
+  "sources": [
+    {
+      "url": "https://th.hkyongnuo.com/products/yn50mm-f18z-df-dsm",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.hkyongnuo.com/productinfo/834463.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "controls",
+        "accessories",
+        "lens.focus",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://th.hkyongnuo.com/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://ueeshop.ly200-cdn.com/u_file/UPAU/UPAU946/2206/14/photo/YN50mm-F114-246c.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus",
+        "physical.filterInterfaces",
+        "lens.anglesOfView"
+      ]
+    },
+    {
+      "url": "https://www.szyongnuo.com/upload/file/202403/2026-03.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.aperture",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://ueeshop.ly200-cdn.com/u_file/UPAU/UPAU946/2206/14/photo/YN50mm-F112-1e82.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronicServices"
+      ]
+    }
+  ]
+}

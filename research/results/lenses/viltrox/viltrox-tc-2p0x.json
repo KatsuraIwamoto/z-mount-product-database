@@ -1,0 +1,59 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "viltrox-tc-2p0x",
+  "subject": {
+    "manufacturerId": "viltrox",
+    "brandId": "viltrox",
+    "name": "TC-2.0X Teleconverter for Nikon"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "viltrox-tc-2p0x"
+  },
+  "sources": [
+    {
+      "url": "https://viltrox.com/products/tc-2-0x-teleconverter-for-nikon",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "lifecycle",
+        "mount",
+        "mount.electronicContacts",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "electronicServices",
+        "teleconverter.coverage",
+        "teleconverter.magnification",
+        "teleconverter.apertureLossStops",
+        "teleconverter.supportsAutofocus",
+        "teleconverter.opticalConstruction",
+        "teleconverter.specialElements",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/collections/z-mount/z-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/collections/z-mount/z-mount?page=2",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    }
+  ]
+}

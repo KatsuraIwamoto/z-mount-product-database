@@ -1,0 +1,430 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "tamron-150-to-500mm-f5-to-6p7-di-iii-vc-vxd-a057",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "tamron",
+    "brandId": "tamron",
+    "productName": "150-500mm F/5-6.7 Di III VC VXD",
+    "modelNumberOptions": [
+      "A057"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2023-10-10",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.tamron.com/jp/consumer/lenses/a057/",
+      "pageFamilies": [
+        "home-country",
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Tamron"
+      }
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/lenses/a057/",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Tamron"
+      }
+    },
+    {
+      "url": "https://tamron-americas.com/product/150-500mm-f-5-6-7-di-iii-vc-vxd/",
+      "pageFamilies": [
+        "usa"
+      ],
+      "region": "US",
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Tamron"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": "officially-licensed",
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": null
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 93,
+        "lengthMm": 212.3,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 1720,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "moisture-resistant"
+        ],
+        "scope": {
+          "kind": "product"
+        },
+        "conditions": {}
+      }
+    ],
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 82,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": true,
+      "components": [
+        {
+          "type": "collar-assembly",
+          "relationship": "supplied",
+          "removable": true,
+          "interfaces": null,
+          "modelNumberOptions": null,
+          "quantity": 1,
+          "conditions": {}
+        }
+      ]
+    },
+    "externalLengthDuringZoom": "variable",
+    "externalLengthDuringFocus": "constant",
+    "isRetractableForStorage": false
+  },
+  "controls": [
+    {
+      "type": "zoom-ring",
+      "quantity": 1,
+      "rotationDegrees": 75
+    },
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "response": "switchable"
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    },
+    {
+      "type": "focus-limiter",
+      "quantity": 1
+    },
+    {
+      "type": "zoom-lock",
+      "quantity": 1,
+      "officialName": "Wide-end zoom lock switch"
+    },
+    {
+      "type": "zoom-lock",
+      "quantity": 1,
+      "officialName": "FLEX ZOOM LOCK mechanism"
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Linear/Non-Linear switch"
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "HA057"
+        ],
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "CF82II"
+        ],
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "CR-Z III"
+        ],
+        "quantity": 1
+      }
+    ],
+    "lensStraps": [],
+    "protectiveWraps": [],
+    "lensCases": []
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "connectorType": "usb-c",
+        "purposes": [
+          "firmware-update"
+        ],
+        "application": "TAMRON Lens Utility"
+      }
+    ]
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "zoom",
+      "rangeMm": {
+        "minimum": 150,
+        "maximum": 500
+      }
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 5,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 150
+              }
+            }
+          },
+          {
+            "value": 6.7,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 500
+              }
+            }
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 150
+              }
+            }
+          },
+          {
+            "value": 32,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 500
+              }
+            }
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 7,
+        "bladeShape": "rounded"
+      },
+      "controlMechanism": "electronic"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": "diagonal",
+        "degrees": 16.42,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 150
+          }
+        }
+      },
+      {
+        "format": "full-frame",
+        "orientation": "diagonal",
+        "degrees": 4.95,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 500
+          }
+        }
+      },
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 10.98,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 150
+          }
+        }
+      },
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 3.3,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 500
+          }
+        }
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 16,
+      "elements": 25
+    },
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "officialName": "XLD (eXtra Low Dispersion)",
+        "quantity": 1
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "officialName": "LD (Low Dispersion)",
+        "quantity": 5
+      },
+      {
+        "types": [
+          "aspherical"
+        ],
+        "officialName": "Hybrid aspherical lens",
+        "quantity": 2
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "officialName": "BBAR-G2 (Broad-Band Anti-Reflection Generation 2) Coating",
+        "appliedTo": null
+      },
+      {
+        "types": [
+          "surface-protective"
+        ],
+        "officialName": "Fluorine Coating",
+        "appliedTo": [
+          "front-element"
+        ]
+      }
+    ],
+    "focus": {
+      "autofocus": {
+        "present": true,
+        "motors": [
+          {
+            "type": "voice-coil-motor",
+            "quantity": null,
+            "officialName": "VXD (Voice-coil eXtreme-torque Drive)"
+          }
+        ]
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "electronic-by-wire"
+      },
+      "opticalFocusingSystems": [
+        {
+          "type": "internal-focusing",
+          "officialName": "IF (Internal Focusing)"
+        }
+      ],
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.6,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 150
+            }
+          }
+        },
+        {
+          "distanceM": 1.8,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 500
+            }
+          }
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.32,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 150
+            }
+          }
+        },
+        {
+          "kind": "maximum",
+          "value": 0.27,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 500
+            }
+          }
+        }
+      ],
+      "officialFocusBehaviorClaims": []
+    },
+    "stabilization": {
+      "present": true,
+      "ratings": null,
+      "officialName": "VC (Vibration Compensation)"
+    },
+    "specialized": {},
+    "zoom": {
+      "drive": null,
+      "opticalZoomingSystems": null
+    }
+  }
+}

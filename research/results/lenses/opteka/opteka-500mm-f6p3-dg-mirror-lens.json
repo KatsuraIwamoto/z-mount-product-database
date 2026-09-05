@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "opteka-500mm-f6p3-dg-mirror-lens",
+  "subject": {
+    "manufacturerId": "opteka",
+    "brandId": "opteka",
+    "name": "Opteka 500mm f/6.3 DG Mirror Manual Focus Lens"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.keh.com/shop/28484512.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "catalog",
+      "checked": [
+        "mount",
+        "mount.electronicContacts"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.newegg.com/p/043-000E-005S3",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "productType",
+        "identity",
+        "mount",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/explora/photography/buying-guide/recommended-ultra-telephoto-lenses",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount",
+        "mount.adapter",
+        "accessories"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Was an Opteka-branded Nikon Z package of this lens sold by Opteka or an authorized distributor, with the T-mount adapter for Nikon Z supplied as part of that package?"
+  ]
+}

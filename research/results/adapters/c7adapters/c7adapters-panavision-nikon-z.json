@@ -1,0 +1,36 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "c7adapters-panavision-nikon-z",
+  "subject": {
+    "manufacturerId": "c7adapters",
+    "brandId": "c7adapters",
+    "name": "Panavision – Nikon Z"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "c7adapters-panavision-nikon-z"
+  },
+  "sources": [
+    {
+      "url": "https://c7adapters.com/adapters/nikon-z/panavision-nikon-z/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

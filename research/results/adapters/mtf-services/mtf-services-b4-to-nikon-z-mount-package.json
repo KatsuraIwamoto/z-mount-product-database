@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "mtf-services-b4-to-nikon-z-mount-package",
+  "subject": {
+    "manufacturerId": "mtf-services",
+    "brandId": "mtf-services",
+    "name": "B4 2/3\" to Nikon Z mount package"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "mtf-services-b4-to-nikon-z-mount-package"
+  },
+  "sources": [
+    {
+      "url": "https://mtfservices.com/products/b4-2-3-to-nikon-z-mount-package",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.newsshooter.com/2018/09/06/mtf-services-nikon-z-mount-adapters/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ]
+}

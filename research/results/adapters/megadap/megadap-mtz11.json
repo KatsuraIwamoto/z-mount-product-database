@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "megadap-mtz11",
+  "subject": {
+    "manufacturerId": "megadap",
+    "brandId": "megadap",
+    "name": "Leica M to Nikon Z Autofocus Adapter"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "megadap-mtz11"
+  },
+  "sources": [
+    {
+      "url": "https://megadap.net/mtz11-manual/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://megadap.net/manual/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ]
+}

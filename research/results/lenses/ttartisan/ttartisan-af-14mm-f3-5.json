@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "ttartisan-af-14mm-f3-5",
+  "subject": {
+    "manufacturerId": "ttartisan",
+    "brandId": "ttartisan",
+    "name": "TTArtisan AF 14mm F3.5"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The current official product page offers Sony E and Fujifilm X mounts only. No direct Nikon Z version, supplied lens-specific adapter, or dedicated-series Nikon Z adapter was found."
+  },
+  "sources": [
+    {
+      "url": "https://cn.ttartisan.com/?AFlens%2FAF14-10.html=",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    }
+  ]
+}

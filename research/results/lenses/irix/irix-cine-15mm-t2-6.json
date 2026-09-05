@@ -1,0 +1,55 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "irix-cine-15mm-t2-6",
+  "subject": {
+    "manufacturerId": "th-swiss-ag",
+    "brandId": "irix",
+    "name": "Irix Cine 15mm T2.6"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "irix-cine-15mm-t2-6"
+  },
+  "sources": [
+    {
+      "url": "https://irixlens.com/cine-lenses/15mm/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.externalLengthDuringFocus",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://irixlens.com/new/wp-content/uploads/2024/03/Irix-Cine-Catalogue-2024-PDF-EN.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "controls"
+      ]
+    }
+  ]
+}

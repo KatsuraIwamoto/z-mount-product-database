@@ -1,0 +1,39 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "viltrox-ef-z2",
+  "subject": {
+    "manufacturerId": "viltrox",
+    "brandId": "viltrox",
+    "name": "EF-Z2 0.71x Mount Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "viltrox-ef-z2"
+  },
+  "sources": [
+    {
+      "url": "https://viltrox.com/pages/ef-z2",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1582388-REG/viltrox_ef_z2_canon_ef_lens_to.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    }
+  ]
+}

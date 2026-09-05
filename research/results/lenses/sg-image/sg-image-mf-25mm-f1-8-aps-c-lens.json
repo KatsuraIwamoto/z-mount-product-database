@@ -1,0 +1,66 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "sg-image-mf-25mm-f1-8-aps-c-lens",
+  "subject": {
+    "manufacturerId": "sg-image",
+    "brandId": "sg-image",
+    "name": "SG-image MF 25mm F1.8 APS-C Lens"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "sg-image-mf-25mm-f1-8-aps-c-lens"
+  },
+  "sources": [
+    {
+      "url": "https://www.sg-image.com/products/mf-18mm-f6-3-aps-c-ultra-slim-pancake-lens-copy",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "physical",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.sg-image.com/collections/all-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/25m.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.anglesOfView",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.aperture",
+        "controls",
+        "physical.filterInterfaces"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "vello-ext-nz",
+  "subject": {
+    "manufacturerId": "gradus-group",
+    "brandId": "vello",
+    "name": "Auto Focus Extension Tube Set for Nikon Z-Mount Lenses"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "This is a same-mount extension-tube set, not a product whose primary purpose is converting one interchangeable-lens mount to Nikon Z."
+  },
+  "sources": [
+    {
+      "url": "https://www.vellogear.com/product/16873/Vello-EXT_NZ-Auto-Focus-Extension-Tube-Set-for-Nikon-Z_Mounts-Lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    }
+  ]
+}

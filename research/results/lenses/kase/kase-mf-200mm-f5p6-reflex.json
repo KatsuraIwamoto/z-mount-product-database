@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "kase-mf-200mm-f5p6-reflex",
+  "subject": {
+    "manufacturerId": "kase",
+    "brandId": "kase",
+    "name": "Kase Reflex 200mm F5.6"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "kase-mf-200mm-f5p6-reflex"
+  },
+  "sources": [
+    {
+      "url": "https://kasefilters.com/product/kase-reflex-200mm-f5-6-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.alternateNames",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://kasestore.com/products/reflex-lens-200mm-f5-6",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "controls",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://kasefilters.com/product-category/lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

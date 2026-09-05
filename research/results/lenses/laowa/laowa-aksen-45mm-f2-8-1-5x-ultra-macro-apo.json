@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "laowa-aksen-45mm-f2-8-1-5x-ultra-macro-apo",
+  "subject": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "name": "LAOWA Aksen 45mm F2.8 1-5X Ultra Macro APO"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "laowa-aksen-45mm-f2-8-1-5x-ultra-macro-apo"
+  },
+  "sources": [
+    {
+      "url": "https://laowacine.com/product/laowa-aksen-ultra-macro-apo/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "physical",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5320871378159246.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "productType",
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/files/20251203/FF45mmF2.8ULTRAMACRO1-5XAPOyijiFF17.5mmF1.7ULTRAMACRO5-10XAPOxianweijingtouxianweijingshuomingshu.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "mount",
+        "physical",
+        "controls"
+      ]
+    }
+  ]
+}

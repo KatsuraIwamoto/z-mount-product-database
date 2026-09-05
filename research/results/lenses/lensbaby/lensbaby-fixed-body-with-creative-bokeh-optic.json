@@ -1,0 +1,69 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "lensbaby-fixed-body-with-creative-bokeh-optic",
+  "subject": {
+    "manufacturerId": "lensbaby",
+    "brandId": "lensbaby",
+    "name": "Lensbaby Fixed Body with Creative Bokeh Optic"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "lensbaby-fixed-body-with-creative-bokeh-optic"
+  },
+  "sources": [
+    {
+      "url": "https://lensbaby.com/pages/help",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "faq",
+      "checked": [
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1703221-REG/lensbaby_lbfbcbonz_fixed_body_with_creative.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.modelNumberOptions",
+        "mount",
+        "lens.coverage"
+      ]
+    },
+    {
+      "url": "https://www.kenko-tokina.co.jp/camera-lens/lensbaby/discontinued/creative_bokh_optic.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.aperture"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/pages/faq-2",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "faq",
+      "checked": [
+        "mount",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/blogs/creative-photography/guide-creative-bokeh-optic",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.stabilization"
+      ]
+    }
+  ]
+}

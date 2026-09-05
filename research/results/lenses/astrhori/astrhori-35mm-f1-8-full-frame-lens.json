@@ -1,0 +1,66 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "astrhori-35mm-f1-8-full-frame-lens",
+  "subject": {
+    "manufacturerId": "astrhori",
+    "brandId": "astrhori",
+    "name": "AstrHori 35mm F1.8 Full-Frame Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "astrhori-35mm-f1-8-full-frame-lens"
+  },
+  "sources": [
+    {
+      "url": "https://www.astrhori.com/productinfo/1194284.html?templateId=502384",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.weightMeasurements",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.fotokoch.de/AstrHori-35mm-f-1-8-Nikon-Z_50783.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.eicre.co.jp/product-page/astrhori-%E3%82%A2%E3%82%B9%E3%83%88%E3%83%AD%E3%83%AA-35mm-f-1-8-%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF-%E5%8D%98%E7%84%A6%E7%82%B9%E3%83%AC%E3%83%B3%E3%82%BA",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "distributor-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.opticalConstruction"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "nisi-250mm-f5-6-reflex-mf-lens",
+  "subject": {
+    "manufacturerId": "nisi",
+    "brandId": "nisi",
+    "name": "NiSi 250mm F5.6 Reflex Lens Manual Focus"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "nisi-250mm-f5-6-reflex-mf-lens"
+  },
+  "sources": [
+    {
+      "url": "https://nisiopticsusa.com/product/nisi-250mm-f-5-6-reflex-lens-manual-focus-z-mount/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "physical",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    }
+  ]
+}

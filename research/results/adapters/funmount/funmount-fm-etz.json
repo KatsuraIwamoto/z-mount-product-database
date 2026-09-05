@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "funmount-fm-etz",
+  "subject": {
+    "manufacturerId": "funmount",
+    "brandId": "funmount",
+    "name": "FM-ETZ Electronic Mount Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "funmount-fm-etz"
+  },
+  "sources": [
+    {
+      "url": "https://www.funmount.com/FM-ETZ?_l=en",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.funmount.com/manual?_l=en",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "vello-la-nz-m42",
+  "subject": {
+    "manufacturerId": "gradus-group",
+    "brandId": "vello",
+    "name": "Lens Adapter for M42 Lens to Nikon Z-Mount Camera"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "vello-la-nz-m42"
+  },
+  "sources": [
+    {
+      "url": "https://www.vellogear.com/product/14058/Vello-LA_NZ_M42-Lens-Adapter-for-M42-Lens-to-Nikon-Z-Mount-Camera-",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "electronics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1447579-REG/vello_la_nz_m42_m42_lens_to_nikon.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "physical.weightMeasurements"
+      ]
+    }
+  ]
+}

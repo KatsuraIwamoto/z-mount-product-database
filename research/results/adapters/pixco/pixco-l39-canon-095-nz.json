@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "pixco-l39-canon-095-nz",
+  "subject": {
+    "manufacturerId": "pixco",
+    "brandId": "pixco",
+    "name": "L39 Screw Mount / Canon 50mm f/0.95 Lens to Nikon Z Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "pixco-l39-canon-095-nz"
+  },
+  "sources": [
+    {
+      "url": "https://pixco.com.cn/products/l39-screw-mount-canon-50-0-95-lens-nikon-z-mount-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/collections/adapter-for-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

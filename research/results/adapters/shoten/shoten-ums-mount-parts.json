@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "shoten-ums-mount-parts",
+  "subject": {
+    "manufacturerId": "shoten-kobo",
+    "brandId": "shoten",
+    "name": "SHOTEN UMS Series Mount Parts"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "These are interchangeable front-mount components for SHOTEN UMS adapters, not complete products that independently convert a lens mount to Nikon Z."
+  },
+  "sources": [
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000001782/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    }
+  ]
+}

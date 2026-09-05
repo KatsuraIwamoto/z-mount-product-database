@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "thypoch-positive-lock-m-to-z",
+  "subject": {
+    "manufacturerId": "thypoch",
+    "brandId": "thypoch",
+    "name": "Positive-Lock M Lens Adapter for Nikon Z"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "thypoch-positive-lock-m-to-z"
+  },
+  "sources": [
+    {
+      "url": "https://store.thypoch.com/products/thypoch-m-lens-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000593.000071960.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "yasuhara-nanoha-5x-super-macro-lens",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "yasuhara",
+    "brandId": "yasuhara",
+    "productName": "Nanoha 5X Super Macro Lens",
+    "modelNumberOptions": null,
+    "alternateNames": [
+      {
+        "name": "YASUHARA Nanoha 5X Super Macro Lens"
+      }
+    ],
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://yasuharausa.com/products/nanoha-macro-lens",
+      "pageFamilies": [
+        "usa"
+      ],
+      "region": "US",
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Yasuhara USA"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": false
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": null,
+    "tripodSupport": {
+      "present": false
+    },
+    "isRetractableForStorage": false,
+    "externalLengthDuringFocus": null
+  },
+  "controls": null,
+  "accessories": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": null
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 11,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 32,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": null,
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": null,
+    "coverage": {
+      "format": "aps-c"
+    },
+    "opticalConstruction": {
+      "elements": 10,
+      "groups": 7
+    },
+    "specialElements": null,
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "mechanical-coupled"
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": null,
+      "reproductionMagnifications": [
+        {
+          "kind": "range",
+          "minimum": 4,
+          "maximum": 5,
+          "conditions": {}
+        }
+      ],
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {
+      "macro": {
+        "workingDistances": null
+      }
+    }
+  }
+}

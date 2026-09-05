@@ -1,0 +1,36 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "brightin-star-50mm-f2-tri-sight",
+  "subject": {
+    "manufacturerId": "brightin-star",
+    "brandId": "brightin-star",
+    "name": "BRIGHTIN STAR 50mm F2 TRI-SIGHT"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://petapixel.com/2026/02/26/brightin-stars-new-50mm-f-2-tri-sight-lens-has-3-swappable-photo-looks/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://dc.watch.impress.co.jp/docs/news/2090024.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    }
+  ],
+  "unresolved": [
+    "A Nikon Z development prototype was shown at CP+ 2026, but no current exact-product manufacturer page, formal release announcement, or retail availability was found. Confirm commercial release before inclusion."
+  ]
+}

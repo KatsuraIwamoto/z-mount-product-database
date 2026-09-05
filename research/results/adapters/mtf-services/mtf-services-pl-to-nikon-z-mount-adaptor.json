@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "mtf-services-pl-to-nikon-z-mount-adaptor",
+  "subject": {
+    "manufacturerId": "mtf-services",
+    "brandId": "mtf-services",
+    "name": "PL to Nikon Z Mount Adaptor"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "mtf-services-pl-to-nikon-z-mount-adaptor"
+  },
+  "sources": [
+    {
+      "url": "https://mtfservices.com/products/pl-to-nikon-z-mount-adaptor",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.newsshooter.com/2018/09/06/mtf-services-nikon-z-mount-adapters/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.newsshooter.com/2019/03/31/mtf-lensadapter-pl-to-nikon-z-mount-review/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mechanisms",
+        "physical.tripodSupport"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

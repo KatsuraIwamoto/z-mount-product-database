@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "meike-12mm-f2-aps-c-lens",
+  "subject": {
+    "manufacturerId": "meike",
+    "brandId": "meike",
+    "name": "Meike 12mm F2 APS-C Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The current official listing for the 12mm F2 includes E mount but no Nikon Z configuration, so the product is excluded."
+  },
+  "sources": [
+    {
+      "url": "https://meikeglobal.com/products/12mm-f2-0-e-x-mft",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    }
+  ]
+}

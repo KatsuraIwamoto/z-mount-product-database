@@ -1,0 +1,96 @@
+[project]
+site_name = "Z Mount Product Database"
+site_description = "Public datasets for Nikon Z-mount lenses, related optical products, and mount adapters"
+site_url = "https://katsuraiwamoto.github.io/z-mount-product-database/"
+docs_dir = "docs/en"
+site_dir = "site"
+dev_addr = "127.0.0.1:8766"
+copyright = "Copyright &copy; Katsura Iwamoto &middot; <a href='https://katsuraiwamoto.github.io/z-mount-product-database/license/'>Licensing</a>"
+repo_url = "https://github.com/KatsuraIwamoto/z-mount-product-database"
+repo_name = "z-mount-product-database"
+nav = [
+  { "Z Mount Product Database" = "index.md" },
+  { "Product list (download)" = "https://github.com/KatsuraIwamoto/z-mount-product-database/releases/latest/download/PRODUCTS.md" },
+  { "About the project" = [
+    { "Scope and principles" = "overview.md" },
+    { "Glossary" = "glossary.md" },
+  ] },
+  { "Use the data" = [
+    { "Using the distribution data" = "use-data.md" },
+    { "Licensing" = "license.md" },
+  ] },
+  { "Understand the data" = [
+    { "Data model" = "data-model.md" },
+    { "Value-state rules" = "value-rules.md" },
+    { "Field reference for lenses and related optical products" = "lens-field-reference.md" },
+    { "Mount adapter field reference" = "adapter-field-reference.md" },
+  ] },
+  { "Contribute to research and editing" = [
+    { "Reporting and editing" = "contribute.md" },
+    { "Per-product research results" = "research.md" },
+  ] },
+  { "For developers" = [
+    { "Development and validation" = "development.md" },
+    { "JSON Schema reference" = [
+      { "Overview" = "reference/schemas/index.md" },
+      { "Shared" = [
+        { "shared-definitions" = "reference/schemas/shared/shared-definitions.md" },
+        { "reference-data" = "reference/schemas/shared/reference-data.md" },
+      ] },
+      { "Lenses and related optical products" = [
+        { "dataset-full" = "reference/schemas/lenses/dataset-full.md" },
+        { "dataset-light" = "reference/schemas/lenses/dataset-light.md" },
+        { "product-full" = "reference/schemas/lenses/product-full.md" },
+        { "product-light" = "reference/schemas/lenses/product-light.md" },
+        { "product-record" = "reference/schemas/lenses/product-record.md" },
+        { "product-components" = "reference/schemas/lenses/product-components.md" },
+        { "product-type-lens" = "reference/schemas/lenses/product-type-lens.md" },
+        { "product-type-teleconverter" = "reference/schemas/lenses/product-type-teleconverter.md" },
+        { "product-type-pinhole" = "reference/schemas/lenses/product-type-pinhole.md" },
+        { "research-result" = "reference/schemas/lenses/research-result.md" },
+      ] },
+      { "Mount adapters" = [
+        { "dataset-full" = "reference/schemas/adapters/dataset-full.md" },
+        { "adapter-full" = "reference/schemas/adapters/adapter-full.md" },
+        { "adapter-record" = "reference/schemas/adapters/adapter-record.md" },
+        { "adapter-components" = "reference/schemas/adapters/adapter-components.md" },
+        { "research-result" = "reference/schemas/adapters/research-result.md" },
+      ] },
+    ] },
+  ] },
+]
+
+[project.theme]
+language = "en"
+features = [
+  "content.code.copy",
+  "navigation.footer",
+  "navigation.path",
+  "navigation.sections",
+  "navigation.top",
+  "search.highlight",
+  "toc.follow",
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "Switch to light mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to system preference"
+
+[project.extra]
+alternate = [
+  { name = "日本語（トップ）", link = "ja/", lang = "ja" },
+  { name = "English (home)", link = ".", lang = "en" },
+]

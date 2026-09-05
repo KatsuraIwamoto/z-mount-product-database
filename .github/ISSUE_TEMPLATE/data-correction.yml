@@ -1,0 +1,73 @@
+name: Product addition or correction / 製品の追加・修正
+description: Report incorrect product information, missing products, or changes to official URLs. / 製品の誤り、未収録候補、公式URL変更などを報告します。
+title: "[Product / 製品] "
+labels:
+  - data
+body:
+  - type: markdown
+    attributes:
+      value: |
+        You do not need to write JSON or JSON Schema. Fill in what you know, in either Japanese or English.
+        JSONやJSON Schemaを書く必要はありません。分かる範囲を日本語または英語で記載してください。
+
+  - type: dropdown
+    id: report_type
+    attributes:
+      label: Report type / 報告の種類
+      options:
+        - Correction / 誤りの修正
+        - Missing product / 未収録製品
+        - Possible exclusion / 収録対象外かもしれない
+        - Official URL change / 公式URLの変更
+        - Other / その他
+    validations:
+      required: true
+
+  - type: dropdown
+    id: dataset
+    attributes:
+      label: Dataset / データセット
+      options:
+        - Lens or related optical product / レンズ・関連光学製品
+        - Mount adapter / マウントアダプター
+        - Unsure / 不明
+    validations:
+      required: true
+
+  - type: input
+    id: product
+    attributes:
+      label: Product name / 製品名
+      placeholder: Use any known name if the official name is unclear. / 公式名が不明なら、分かる名称で構いません。
+    validations:
+      required: true
+
+  - type: textarea
+    id: report
+    attributes:
+      label: What did you notice? / 気づいたこと
+      description: Describe the current information, what you believe is correct, and anything that remains uncertain. / 現在の内容、正しいと思う内容、未確定な点を自由に書いてください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: official_sources
+    attributes:
+      label: Official sources / 公式情報
+      description: Add URLs for the manufacturer's official product pages, specification sheets, or manuals if available. You can submit the report without them. / メーカー公式ページ、仕様書、マニュアルのURLがあれば記載してください。なくても報告できます。
+      placeholder: https://
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context / 補足
+      description: Add page locations, regional differences, images, or other context. / ページ内の確認箇所、地域差、画像などがあれば記載してください。
+
+  - type: markdown
+    attributes:
+      value: |
+        If you include third-party text, images, logos, or similar material, identify the rights holder, source, terms of use, and any portions the permission does not cover. Attachments supplied as research evidence will not be copied directly into public documentation. See [Licensing](https://katsuraiwamoto.github.io/z-mount-product-database/license/).
+        第三者の文章、画像、ロゴなどを含める場合は、権利者、出典、利用条件、許諾の対象外となる部分を記載してください。調査資料として添付された画像などは、そのまま公開文書へ転載しません。詳しくは[ライセンス](https://katsuraiwamoto.github.io/z-mount-product-database/ja/license/)を確認してください。
+
+        AI may help edit your report, but do not ask it to invent URLs or values. Submit only what you could verify.
+        AIで文章を整えても構いませんが、URLや数値は推測させず、確認できた内容だけを投稿してください。

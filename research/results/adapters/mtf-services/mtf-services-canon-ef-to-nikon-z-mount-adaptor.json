@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "mtf-services-canon-ef-to-nikon-z-mount-adaptor",
+  "subject": {
+    "manufacturerId": "mtf-services",
+    "brandId": "mtf-services",
+    "name": "Canon EF to Nikon Z Mount Adaptor"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "mtf-services-canon-ef-to-nikon-z-mount-adaptor"
+  },
+  "sources": [
+    {
+      "url": "https://mtfservices.com/products/canon-ef-to-nikon-z-mount-adaptor",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    }
+  ]
+}

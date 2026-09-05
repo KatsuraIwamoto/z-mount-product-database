@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "lightdow-500mm-f7-5-mirror-lens",
+  "subject": {
+    "manufacturerId": "lightdow",
+    "brandId": "lightdow",
+    "name": "Lightdow 500mm F7.5 Mirror Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The product is a generic T2-mount mirror lens sold with camera-side adapter rings; Nikon Z attachment therefore falls outside the project's lens-dataset inclusion criteria."
+  },
+  "sources": [
+    {
+      "url": "https://www.lightdow.com/collections/all",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/167737311919",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

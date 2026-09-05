@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "mitakon-speedmaster-85mm-f1-2",
+  "subject": {
+    "manufacturerId": "zhongyi-optics",
+    "brandId": "mitakon",
+    "name": "Mitakon Speedmaster 85mm F1.2"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The lens has no Nikon Z configuration. Zhongyi's separately sold Lens Turbo II is a broad Canon EF, M42, and Nikon F-to-Z optical adapter rather than a supplied or lens-dedicated adapter, so this lens remains excluded."
+  },
+  "sources": [
+    {
+      "url": "https://zyoptics.net/product/mitakon-speedmaster-85mm-f-1-2/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "controls",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://zyoptics.net/the-launch-of-mitakon-speedmaster-85mm-f-1-2-lens-the-dream/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://zyoptics.net/product/mitakon-lens-turbo-adapter-mark-ii-for-z-mount-camera/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

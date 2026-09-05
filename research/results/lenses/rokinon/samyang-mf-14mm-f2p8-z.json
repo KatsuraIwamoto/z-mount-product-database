@@ -1,0 +1,78 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "samyang-mf-14mm-f2p8-z",
+  "subject": {
+    "manufacturerId": "samyang-optics",
+    "brandId": "rokinon",
+    "name": "14mm F2.8 Full Frame Ultra Wide Angle (Nikon Z)",
+    "aliases": [
+      "SAMYANG MF 14mm F2.8 Z"
+    ]
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "samyang-mf-14mm-f2p8-z"
+  },
+  "sources": [
+    {
+      "url": "https://rokinon.com/products/14mm-f2-8-full-frame-ultra-wide-angle-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.modelNumberOptions",
+        "identity.alternateNames",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.coatings",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://rokinon.com/collections/nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.samyanglens.com/assets/download/%EC%82%AC%EC%97%85%EB%B3%B4%EA%B3%A0%EC%84%9C.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

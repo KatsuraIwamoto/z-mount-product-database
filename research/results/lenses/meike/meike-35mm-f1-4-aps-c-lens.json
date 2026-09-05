@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "meike-35mm-f1-4-aps-c-lens",
+  "subject": {
+    "manufacturerId": "meike",
+    "brandId": "meike",
+    "name": "Meike 35mm F1.4 APS-C Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The current official listing for the 35mm F1.4 includes only E and X mounts and no Nikon Z configuration, so the product is excluded."
+  },
+  "sources": [
+    {
+      "url": "https://meikeglobal.com/products/meike-mk-35mm-f-1-4-aps-c-large-aperture-manual-focus-lens-for-sony-e-mount-mirrorless-cameras-a7iii-a9-nex-3-nex-3n-nex-5-nex-5t-nex-5r-nex-6-7-a5000-a5100-a6000-a6100-a6300-a6500",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    }
+  ]
+}

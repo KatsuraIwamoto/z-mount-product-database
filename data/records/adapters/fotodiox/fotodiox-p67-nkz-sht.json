@@ -1,0 +1,91 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "fotodiox-p67-nkz-sht",
+  "identity": {
+    "manufacturerId": "fotodiox",
+    "brandId": "fotodiox",
+    "productName": "Fotodiox Pro Lens Mount Shift Adapter - Compatible With Pentax 6x7 (P67, PK67) Mount SLR Lens to Nikon Z-Mount Mirrorless Cameras",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://fotodioxpro.com/products/p67-nkz-sht",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Fotodiox"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "pentax-67",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": [
+    {
+      "type": "shift",
+      "conditions": {},
+      "movements": {
+        "shiftMeasurements": [
+          {
+            "maximumFromNeutralMm": 10,
+            "totalRangeMm": 20,
+            "directionality": "bidirectional",
+            "conditions": {}
+          }
+        ]
+      }
+    },
+    {
+      "type": "rotation",
+      "movements": {
+        "rotationMeasurements": [
+          {
+            "scope": "movement-assembly",
+            "maximumFromNeutralDegrees": null,
+            "totalRangeDegrees": 360,
+            "directionality": null,
+            "conditions": {}
+          }
+        ]
+      },
+      "conditions": {}
+    }
+  ],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": false
+  }
+}

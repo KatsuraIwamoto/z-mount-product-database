@@ -1,0 +1,34 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "urth-ulma-f-g-z",
+  "subject": {
+    "manufacturerId": "urth",
+    "brandId": "urth",
+    "name": "Nikon F (G-Type) Lens Mount to Nikon Z Camera Mount"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "urth-ulma-f-g-z"
+  },
+  "sources": [
+    {
+      "url": "https://urth.co/products/nikon-f-g-type-lens-mount-to-nikon-z-camera-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

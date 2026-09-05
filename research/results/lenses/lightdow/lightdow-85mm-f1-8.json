@@ -1,0 +1,40 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "lightdow-85mm-f1-8",
+  "subject": {
+    "manufacturerId": "lightdow",
+    "brandId": "lightdow",
+    "name": "Lightdow 85mm F1.8 Medium Telephoto Manual Focus Full Frame Portrait Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "lightdow-85mm-f1-8"
+  },
+  "sources": [
+    {
+      "url": "https://www.lightdow.com/products/lightdow-85mm-f1-8-medium-telephoto-manual-focus-full-frame-portrait-lens-for-canon-nikon-sony-cameras",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.alternateNames",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.tripodSupport",
+        "physical.externalLengthDuringFocus",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "pixco-lm-nz-adjustable-helicoid",
+  "subject": {
+    "manufacturerId": "pixco",
+    "brandId": "pixco",
+    "name": "Adjustable Helicoid Macro-to-Infinity Focus Leica M to Nikon Z Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "pixco-lm-nz-adjustable-helicoid"
+  },
+  "sources": [
+    {
+      "url": "https://pixco.com.cn/products/adjustable-helicoid-macro-to-infinity-focus-leica-m-nikon-z-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/collections/adapter-for-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "lightdow-500mm-f8",
+  "subject": {
+    "manufacturerId": "lightdow",
+    "brandId": "lightdow",
+    "name": "Lightdow 500mm F8"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The product is a generic T2-mount telephoto lens sold with camera-side adapter rings, including a Nikon Z option. Generic system adapters are outside the project's lens-dataset inclusion criteria."
+  },
+  "sources": [
+    {
+      "url": "https://www.lightdow.com/collections/all",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://www.daraz.lk/products/lightdow-manual-prime-telephoto-lens-500mm-f8-f32-with-t2-adapter-ring-for-canon-nikon-sony-pentax-olympus-fujifilm-camera-i435034187.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

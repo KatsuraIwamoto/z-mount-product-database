@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "big-421240",
+  "subject": {
+    "manufacturerId": "brenner-import",
+    "brandId": "big",
+    "name": "B.I.G. Objektivadapter Nikon AI(S) an Nikon Z"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "big-421240"
+  },
+  "sources": [
+    {
+      "url": "https://www.big-photo.de/pdf/archiv/big-katalog/BIG_2021_2.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "red-z-to-pl-adapter-electronic-nd",
+  "subject": {
+    "manufacturerId": "red-digital-cinema",
+    "brandId": "red",
+    "name": "RED Z to PL Adapter w/ Electronic ND Filter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "red-z-to-pl-adapter-electronic-nd"
+  },
+  "sources": [
+    {
+      "url": "https://www.reddigitalcinema.com/v-raptor-z-to-pl-adapter-w-electronic-nd-filter-pack",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.variants",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://support.red.com/hc/en-us/articles/38057098334867-Z-Mount-Lensing",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "identity",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://support.red.com/hc/en-us/articles/38448231133971-Z-to-PL-Adapter-w-Electronic-ND-Quick-Start-Guide",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "electronics",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://support.red.com/hc/en-us/articles/15475477512467-PL-Adapters-w-Electronic-ND-Lens-Compatibility",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://support.red.com/hc/en-us/articles/38449050809107-KOMODO-X-Z-to-PL-Adapter-and-Brackets-Setup-Guide",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "mountConfigurations",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://docs.red.com/955-0219/955-0219_V2.1_Rev-B_RED_PS_KOMODO-X_Operation_Guide/Content/D_Accessories/KXZ_to_PL_w_ND.htm",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "electronics"
+      ]
+    }
+  ]
+}

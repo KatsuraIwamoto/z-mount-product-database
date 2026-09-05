@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "dzofilm-octopus-ii-pl-z",
+  "subject": {
+    "manufacturerId": "dzofilm",
+    "brandId": "dzofilm",
+    "name": "Octopus II"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "dzofilm-octopus-ii-pl-z"
+  },
+  "sources": [
+    {
+      "url": "https://dzofilm.com/en/accessories/adapter/octopus",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://store.dzofilm.com/products/octopus-adapter-ii",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity.variants",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

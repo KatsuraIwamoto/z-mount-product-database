@@ -1,0 +1,256 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "laowa-15-24mm-t8-macro-probe-zoom",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "productName": "LAOWA 15-24mm T8 Macro Probe Zoom",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": [
+      {
+        "variantId": "direct-view",
+        "name": "Direct View",
+        "modelNumberOptions": null
+      },
+      {
+        "variantId": "35-degree-view",
+        "name": "35° View",
+        "modelNumberOptions": null
+      },
+      {
+        "variantId": "90-degree-view",
+        "name": "90° View",
+        "modelNumberOptions": null
+      },
+      {
+        "variantId": "periscope-view",
+        "name": "Periscope View",
+        "modelNumberOptions": null
+      }
+    ]
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://laowacine.com/product/po-laowa-probe-zoom-15-24mm-t8-15-35mm-t12/",
+      "pageFamilies": [
+        "global",
+        "usa"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "LAOWA Cinema Lenses"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "user-interchangeable",
+    "mountOwnerRelationship": null,
+    "electronicContacts": null
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 68.8,
+        "lengthMm": 545.1,
+        "conditions": {
+          "variantId": "direct-view"
+        }
+      },
+      {
+        "maximumDiameterMm": 68.8,
+        "lengthMm": 539.2,
+        "conditions": {
+          "variantId": "35-degree-view"
+        }
+      },
+      {
+        "maximumDiameterMm": 68.8,
+        "lengthMm": 545.6,
+        "conditions": {
+          "variantId": "90-degree-view"
+        }
+      },
+      {
+        "maximumDiameterMm": 68.8,
+        "lengthMm": 540,
+        "conditions": {
+          "variantId": "periscope-view"
+        }
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 1400,
+        "approximate": true,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "waterproof"
+        ],
+        "scope": {
+          "kind": "component",
+          "component": "front barrel"
+        },
+        "conditions": {}
+      }
+    ],
+    "filterInterfaces": null,
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": false,
+    "externalLengthDuringZoom": null
+  },
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "geared": true
+    },
+    {
+      "type": "zoom-ring",
+      "quantity": 1,
+      "geared": true
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "geared": true
+    }
+  ],
+  "accessories": null,
+  "electronicServices": null,
+  "lens": {
+    "focalLength": {
+      "kind": "zoom",
+      "rangeMm": {
+        "minimum": 15,
+        "maximum": 24
+      }
+    },
+    "aperture": {
+      "fNumber": null,
+      "tNumber": {
+        "maximumAperture": [
+          {
+            "value": 8,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 32,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 9,
+        "bladeShape": null
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 110.5,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 15
+          }
+        }
+      },
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 84.1,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 24
+          }
+        }
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 26,
+      "elements": 37
+    },
+    "specialElements": null,
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "mechanical-coupled"
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.6005,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "range",
+          "minimum": 1,
+          "maximum": 1.6,
+          "conditions": {}
+        }
+      ],
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {
+      "cinema": {},
+      "macro": {
+        "workingDistances": [
+          {
+            "distanceM": 0.005,
+            "conditions": {}
+          }
+        ]
+      },
+      "probe": {
+        "viewConfigurations": null
+      }
+    },
+    "zoom": {
+      "drive": null,
+      "opticalZoomingSystems": null
+    },
+    "imageCircleDiameters": [
+      {
+        "diameterMm": 43.2,
+        "conditions": {}
+      }
+    ]
+  }
+}

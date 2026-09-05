@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fotodiox-ef-nkz-fsn",
+  "subject": {
+    "manufacturerId": "fotodiox",
+    "brandId": "fotodiox",
+    "name": "Fotodiox Pro Fusion Adapter, Smart AF Adapter - Compatible with Canon EOS (EF / EF-S) D/SLR Lenses to Nikon Z-Mount Mirrorless Cameras with Full Automated Functions"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "fotodiox-ef-nkz-fsn"
+  },
+  "sources": [
+    {
+      "url": "https://fotodioxpro.com/products/ef-nkz-fsn",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages",
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://fotodiox-knowledge-base.gorgias.help/en-US/ef-nkz-fsn-199596",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Is lens-based image stabilization supported by the released EF-NKZ-FSN firmware?"
+  ]
+}

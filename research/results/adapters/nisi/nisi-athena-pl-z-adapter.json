@@ -1,0 +1,47 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "nisi-athena-pl-z-adapter",
+  "subject": {
+    "manufacturerId": "nisi",
+    "brandId": "nisi",
+    "name": "NiSi ATHENA PL-Z Adapter for PL Mount Lenses to Z Mount Cameras"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "nisi-athena-pl-z-adapter"
+  },
+  "sources": [
+    {
+      "url": "https://nisiopticsusa.com/product/nisi-athena-pl-z-adapter-for-pl-mount-lenses-to-z-mount-cameras/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1820801-REG/nisi_nic_ath_ad_pl_z_athena_pl_z_adapter_for.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics"
+      ]
+    }
+  ]
+}

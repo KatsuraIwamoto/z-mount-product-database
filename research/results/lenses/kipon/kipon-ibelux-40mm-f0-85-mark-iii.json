@@ -1,0 +1,61 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "kipon-ibelux-40mm-f0-85-mark-iii",
+  "subject": {
+    "manufacturerId": "kipon",
+    "brandId": "kipon",
+    "name": "KIPON IBELUX 40mm F0.85 Nikon Z Mark III"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "kipon-ibelux-40mm-f0-85-mark-iii"
+  },
+  "sources": [
+    {
+      "url": "https://kipon.com/product/ibelux-40mm-f0-85-nikon-z-mark3/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://kipon.com/mount/nikon-z/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://kipon.com/ibelux-mark-3/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "physical",
+        "lens.focus"
+      ]
+    }
+  ]
+}

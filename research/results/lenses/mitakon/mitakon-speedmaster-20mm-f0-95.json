@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "mitakon-speedmaster-20mm-f0-95",
+  "subject": {
+    "manufacturerId": "zhongyi-optics",
+    "brandId": "mitakon",
+    "name": "Mitakon Speedmaster 20mm f/0.95"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "mitakon-speedmaster-20mm-f0-95"
+  },
+  "sources": [
+    {
+      "url": "https://zyoptics.net/product/mitakon-speedmaster-20mm-f-0-95/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://zyoptics.net/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

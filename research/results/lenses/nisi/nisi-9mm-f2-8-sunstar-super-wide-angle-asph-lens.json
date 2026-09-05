@@ -1,0 +1,56 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "nisi-9mm-f2-8-sunstar-super-wide-angle-asph-lens",
+  "subject": {
+    "manufacturerId": "nisi",
+    "brandId": "nisi",
+    "name": "NiSi 9mm F2.8 Sunstar Super Wide Angle ASPH Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "nisi-9mm-f2-8-sunstar-super-wide-angle-asph-lens"
+  },
+  "sources": [
+    {
+      "url": "https://www.nisioptics.com/9mm-f28",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://nisiopticsusa.com/product/nisi-9mm-f-2-8-sunstar-super-wide-angle-asph-lens-for-nikon-z-mount/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mount",
+        "physical",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    }
+  ]
+}

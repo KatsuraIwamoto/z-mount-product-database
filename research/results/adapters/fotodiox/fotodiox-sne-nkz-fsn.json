@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fotodiox-sne-nkz-fsn",
+  "subject": {
+    "manufacturerId": "fotodiox",
+    "brandId": "fotodiox",
+    "name": "Fotodiox Pro Fusion Adapter, Smart AF Adapter - Compatible with Sony Alpha E-Mount Mirrorless Lenses to Nikon Z-Mount Mirrorless Full Frame Cameras with Full Automated Functions"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "fotodiox-sne-nkz-fsn"
+  },
+  "sources": [
+    {
+      "url": "https://fotodioxpro.com/products/sne-nkz-fsn",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages",
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://fotodiox-knowledge-base.gorgias.help/en-US/frmwr-sne-nkz-fsn-270801",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    }
+  ],
+  "unresolved": [
+    "What firmware-update connection method and connector apply to each released SNE-NKZ-FSN version?"
+  ]
+}

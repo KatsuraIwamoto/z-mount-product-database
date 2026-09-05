@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "apsara-lumiere-100mm-t1p4",
+  "subject": {
+    "manufacturerId": "simmod-lens",
+    "brandId": "apsara",
+    "name": "APSARA LUMIÈRE 100mm T1.4"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "apsara-lumiere-100mm-t1p4"
+  },
+  "sources": [
+    {
+      "url": "https://www.simmodlens.com/product-page/apsara-lumiere-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "physical",
+        "physical.filterInterfaces",
+        "physical.frontAccessoryInterface",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.coatings",
+        "lens.focus",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://www.simmodlens.com/category/apsara-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

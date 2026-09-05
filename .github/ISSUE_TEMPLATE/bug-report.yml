@@ -1,0 +1,46 @@
+name: Bug report / 不具合報告
+description: Report a bug in validation, generation, JSON Schema, or documentation. / 検証、生成、JSON Schema、ドキュメントの不具合を報告します。
+title: "[Bug / 不具合] "
+labels:
+  - bug
+body:
+  - type: dropdown
+    id: affected_area
+    attributes:
+      label: Area / 対象
+      options:
+        - Validation / データ検証
+        - Generation / 配布ファイル生成
+        - JSON Schema
+        - Documentation / ドキュメント
+        - GitHub Pages and CI / GitHub Pages・CI
+        - Other / その他
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Description / 内容
+      description: Describe what happened, what you expected, and the actual result. / 何が起きたか、期待した結果と実際の結果を記載してください。
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction / 再現方法
+      description: List the steps only if you know them. / 分かる場合だけで構いません。
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / ログ
+      description: Remove credentials and personal information. / 認証情報や個人情報を削除してください。
+      render: shell
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment / 環境
+      placeholder: OS, Python, Hatch

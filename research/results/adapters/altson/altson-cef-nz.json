@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "altson-cef-nz",
+  "subject": {
+    "manufacturerId": null,
+    "brandId": "altson",
+    "name": "CEF-NZ Auto Focus Lens Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://shopee.tw/%E2%98%86%E9%96%83%E6%96%B0%E2%98%86ALTSON-%E5%A5%A7%E7%89%B9%E9%81%9C-CEF-NZ-%E8%87%AA%E5%8B%95%E5%B0%8D%E7%84%A6-%E4%BD%B3%E8%83%BDEF-EF-S-%E9%8F%A1%E9%A0%AD-%E8%BD%89NIKON-Z-%E6%A9%9F%E8%BA%AB-%E8%BD%89%E6%8E%A5%E7%92%B0%28%E5%85%AC%E5%8F%B8%E8%B2%A8%29-i.7871929.6316116440",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Confirm the manufacturer identity and an official release or exact authorized sale listing for CEF-NZ."
+  ]
+}

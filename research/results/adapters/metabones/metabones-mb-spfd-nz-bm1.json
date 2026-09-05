@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "metabones-mb-spfd-nz-bm1",
+  "subject": {
+    "manufacturerId": "metabones",
+    "brandId": "metabones",
+    "name": "Canon FD/FL Lens to Nikon Z-mount Speed Booster ULTRA 0.71x"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "metabones-mb-spfd-nz-bm1"
+  },
+  "sources": [
+    {
+      "url": "https://www.metabones.com/products/details/MB_SPFD-NZ-BM1",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.tripodSupport"
+      ]
+    }
+  ]
+}

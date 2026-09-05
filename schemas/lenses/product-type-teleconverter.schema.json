@@ -1,0 +1,88 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cercidiphyllum.jp/schemas/1.0.0/lenses/product-type-teleconverter.schema.json",
+  "$comment": "SPDX-FileCopyrightText: 2026 Katsura Iwamoto\nSPDX-License-Identifier: MIT",
+  "description": "Specifications for an independently sold, directly mountable Z-mount teleconverter.",
+  "type": "object",
+  "required": [
+    "coverage",
+    "magnification",
+    "apertureLossStops",
+    "supportsAutofocus",
+    "opticalConstruction",
+    "specialElements",
+    "coatings",
+    "compatibleLensIds"
+  ],
+  "properties": {
+    "coverage": {
+      "$ref": "../shared/shared-definitions.schema.json#/$defs/coverage"
+    },
+    "magnification": {
+      "$ref": "../shared/shared-definitions.schema.json#/$defs/positiveNumber"
+    },
+    "apertureLossStops": {
+      "$ref": "../shared/shared-definitions.schema.json#/$defs/nonNegativeNumber"
+    },
+    "supportsAutofocus": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "opticalConstruction": {
+      "oneOf": [
+        {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/opticalConstruction"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "specialElements": {
+      "oneOf": [
+        {
+          "type": "array",
+          "items": {
+            "$ref": "../shared/shared-definitions.schema.json#/$defs/specialElement"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "coatings": {
+      "oneOf": [
+        {
+          "type": "array",
+          "items": {
+            "$ref": "../shared/shared-definitions.schema.json#/$defs/coating"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "compatibleLensIds": {
+      "description": "Officially compatible product IDs in the lenses namespace whose productType is lens.",
+      "oneOf": [
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "../shared/shared-definitions.schema.json#/$defs/id"
+          },
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "additionalProperties": false,
+  "title": "Teleconverter product fields"
+}

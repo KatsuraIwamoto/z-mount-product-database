@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "dzofilm-catta-18-to-35mm-t2p9",
+  "subject": {
+    "manufacturerId": "dzofilm",
+    "brandId": "dzofilm",
+    "name": "Catta Zoom 18-35mm T2.9"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "dzofilm-catta-18-to-35mm-t2p9"
+  },
+  "sources": [
+    {
+      "url": "https://dzofilm.com/en/lens/zoom/catta-zoom",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.variants",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "physical.frontAccessoryInterface",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    }
+  ]
+}

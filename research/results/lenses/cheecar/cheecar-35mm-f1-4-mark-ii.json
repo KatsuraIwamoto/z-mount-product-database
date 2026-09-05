@@ -1,0 +1,40 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "cheecar-35mm-f1-4-mark-ii",
+  "subject": {
+    "manufacturerId": "cheecar",
+    "brandId": "cheecar",
+    "name": "Cheecar 35mm F1.4 Mark II"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "cheecar-35mm-f1-4-mark-ii"
+  },
+  "sources": [
+    {
+      "url": "http://cheecar.com/product-42292-37596-119420.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    }
+  ]
+}

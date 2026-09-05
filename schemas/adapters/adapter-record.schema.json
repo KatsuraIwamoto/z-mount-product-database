@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cercidiphyllum.jp/schemas/1.0.0/adapters/adapter-record.schema.json",
+  "$comment": "SPDX-FileCopyrightText: 2026 Katsura Iwamoto\nSPDX-License-Identifier: MIT",
+  "title": "Canonical mount adapter record",
+  "allOf": [
+    {
+      "$ref": "adapter-full.schema.json"
+    },
+    {
+      "type": "object",
+      "required": [
+        "$schema"
+      ],
+      "properties": {
+        "$schema": {
+          "const": "../../../../schemas/adapters/adapter-record.schema.json"
+        }
+      }
+    }
+  ]
+}

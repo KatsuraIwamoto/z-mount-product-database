@@ -1,0 +1,87 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "songraw-af-50mm-f1p2-moonlit",
+  "subject": {
+    "manufacturerId": "songraw",
+    "brandId": "songraw",
+    "name": "Z-Mount AF 50mm F1.2 Moonlit Full Frame Autofocus Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "songraw-af-50mm-f1p2-moonlit"
+  },
+  "sources": [
+    {
+      "url": "https://songrawlens.com/products/songraw-af-50mm-f1-2-fe-moonlit-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.filterInterfaces",
+        "physical.externalLengthDuringFocus",
+        "physical.isRetractableForStorage",
+        "controls",
+        "accessories",
+        "electronicServices",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://songrawlens.com/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.ithome.com/0/909/639.htm",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1973275-REG/songraw_af_50_1_2_z_moonlit_50mm_f_1_2_af_moonlit.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mount",
+        "accessories"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "lomography-new-petzval-55mm-f1-7-mkii-bokeh-control-art-lens",
+  "subject": {
+    "manufacturerId": "lomography",
+    "brandId": "lomography",
+    "name": "Lomography New Petzval 55mm F1.7 MKII Bokeh Control Art Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "lomography-new-petzval-55mm-f1-7-mkii-bokeh-control-art-lens"
+  },
+  "sources": [
+    {
+      "url": "https://shop.lomography.com/uk/new-petzval-55-f-1-7-mkii-art-lens-black-aluminium-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "physical",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://shop.lomography.com/us/lenses/all",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

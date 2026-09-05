@@ -1,0 +1,90 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "vivitar-hf-t2-nik-z",
+  "subject": {
+    "manufacturerId": "sakar-international",
+    "brandId": "vivitar",
+    "name": "T2/T-Mount to Nikon Z Mount Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "vivitar-hf-t2-nik-z"
+  },
+  "sources": [
+    {
+      "url": "https://www.thetedstore.com/products/viv-t2-nik-z-us",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.thetedstore.com/cdn/shop/files/5e747542-7e7c-4c7c-bce2-0afe82e50f31.jpg",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "image",
+      "checked": [
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.thetedstore.com/cdn/shop/files/57ab39ee-afad-4b9f-bf97-8468691c272e.jpg",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "image",
+      "checked": [
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.thetedstore.com/cdn/shop/files/2c0917b5-a6e3-4bf3-9285-74ccae943cd4.jpg",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.thetedstore.com/cdn/shop/files/64039c2e-5c3d-4332-89cd-49ca421fdce2.jpg",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "image",
+      "checked": [
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1494991-REG/vivitar_hf_t2_nik_z_t_mount_to_nikon_z_mount.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.vivitar.com/pages/about-us",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "company-profile",
+      "checked": [
+        "identity"
+      ]
+    }
+  ]
+}

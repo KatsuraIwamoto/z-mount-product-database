@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "amopofo-nik-nik-z",
+  "subject": {
+    "manufacturerId": null,
+    "brandId": "amopofo",
+    "name": "Nikon F to Nikon Z Adapter",
+    "aliases": [
+      "Nik-Nik Z"
+    ]
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://taipeigeek.blogspot.com/2019/10/list-of-all-nikon-f-to-z-mount-adapters.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://camlensadapter.com/",
+      "publisherRelationship": "retailer",
+      "sourceType": "catalog",
+      "checked": [
+        "identity"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Which entity manufactures this branded product?",
+    "Can an official exact-product page, official catalog, or manufacturer-run storefront confirm the official product name and model number, and whether this is a distinct product or a variant of another adapter?"
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "lomography-new-petzval-80-5mm-f1-9-mkii-bokeh-control-art-lens",
+  "subject": {
+    "manufacturerId": "lomography",
+    "brandId": "lomography",
+    "name": "Lomography New Petzval 80.5mm F1.9 MKII Bokeh Control Art Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The New Petzval 80.5mm F1.9 MKII exists for Nikon F and Canon EF. Lomography supports use through general mount adapters, but none is supplied or dedicated to this lens; the native Nikon Z Focus-Coupled 80.5mm is a separate product, so this MKII remains excluded."
+  },
+  "sources": [
+    {
+      "url": "https://www.lomography.com/magazine/343648-zeczec-petzval-80-5-mm-f-1-9-mkii-launch-tw",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://shop.lomography.com/jp/joseph-petzval-80-5-f-1-9-bokeh-control-art-lens-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://www.lomography.jp/magazine/343610-petzval-80-5-mm-f-1-9-mkii-slr-art-lens-faq-motiongallery",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "faq",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

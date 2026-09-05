@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "SPDX-FileCopyrightText: 2026 Katsura Iwamoto\nSPDX-License-Identifier: MIT",
+  "title": "Product manufacturer and brand registry",
+  "description": "Repository-only source registry for manufacturer and brand IDs and display names.",
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entry": {
+      "type": "object",
+      "required": [
+        "id",
+        "name"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id",
+          "description": "Stable lowercase identifier used by repository records."
+        },
+        "name": {
+          "$ref": "#/$defs/nonEmptyString",
+          "description": "Display name embedded in generated reference data."
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "type": "object",
+  "required": [
+    "$schema",
+    "manufacturers",
+    "brands"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "../schemas/internal/product-manufacturer-brand-registry.schema.json"
+    },
+    "manufacturers": {
+      "type": "array",
+      "description": "Manufacturer IDs and display names used by repository records.",
+      "items": {
+        "$ref": "#/$defs/entry"
+      }
+    },
+    "brands": {
+      "type": "array",
+      "description": "Brand IDs and display names used by repository records and research results.",
+      "items": {
+        "$ref": "#/$defs/entry"
+      }
+    }
+  },
+  "additionalProperties": false
+}

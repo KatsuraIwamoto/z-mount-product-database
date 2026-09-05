@@ -1,0 +1,116 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "dzofilm-marlin-1-4x-expander-pl-z",
+  "identity": {
+    "manufacturerId": "dzofilm",
+    "brandId": "dzofilm",
+    "productName": "Marlin 1.4x Expander",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": [
+      {
+        "variantId": "pl-z",
+        "name": "PL-Z",
+        "modelNumberOptions": null
+      }
+    ]
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://store.dzofilm.com/products/marlin-1-4x-expander",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "DZOFILM"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "arri-pl",
+      "cameraSideMountSystemId": "nikon-z",
+      "variantId": "pl-z",
+      "lensRetention": {
+        "type": "positive-lock"
+      },
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": [
+    {
+      "type": "flange-focal-distance-adjustment",
+      "conditions": {}
+    }
+  ],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": [
+      {
+        "grams": 535,
+        "conditions": {
+          "variantId": "pl-z"
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": true,
+    "focalLengthMultiplier": 1.4,
+    "apertureChange": {
+      "direction": "darker",
+      "stops": 1,
+      "relation": "less-than"
+    },
+    "opticalConstruction": {
+      "groups": 4,
+      "elements": 6
+    },
+    "specialElements": [
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": null
+      },
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": null
+      }
+    ],
+    "coatings": null,
+    "supportedImageCircleDiameterMm": {
+      "kind": "range",
+      "minimumDiameterMm": 31,
+      "maximumDiameterMm": 43.27
+    },
+    "maximumSupportedAperture": {
+      "scale": "t-number",
+      "value": 2.8
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "techart-tzm-02",
+  "subject": {
+    "manufacturerId": "techart",
+    "brandId": "techart",
+    "name": "Leica M to Nikon Z Autofocus Adapter Version II"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "techart-tzm-02"
+  },
+  "sources": [
+    {
+      "url": "https://techartpro.com/?product=techart-pro-leica-m-nikon-z-autofocus-adapter-ver-ii-tzm02",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1745871-REG/techart_pro_tzm_02_autofocus_adapter_for_leica.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "collection",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "http://techartpro.com/wp-content/uploads/2023/01/User-Manual-TZM02.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "electronicServices"
+      ]
+    }
+  ]
+}

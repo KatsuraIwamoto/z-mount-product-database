@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "kf-concept-kf06-375",
+  "identity": {
+    "manufacturerId": "kf-concept",
+    "brandId": "kf-concept",
+    "productName": "M42 Lenses to Nikon Z Mount Camera Adapter",
+    "modelNumberOptions": [
+      "KF06.375",
+      "KF-42Z"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.kentfaith.co.uk/KF06.375_m42-lenses-to-nikon-z-mount-camera-adapter",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": "GB",
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "K&F CONCEPT"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "m42",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": [],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": false
+  }
+}

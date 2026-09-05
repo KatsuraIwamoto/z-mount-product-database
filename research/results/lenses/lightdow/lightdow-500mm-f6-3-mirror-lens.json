@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "lightdow-500mm-f6-3-mirror-lens",
+  "subject": {
+    "manufacturerId": "lightdow",
+    "brandId": "lightdow",
+    "name": "Lightdow 500mm F6.3 Mirror Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The mirror lens uses a generic T2 interface and camera-side adapter; Nikon Z is only an adapter choice, not a dedicated lens or lens-series mount."
+  },
+  "sources": [
+    {
+      "url": "https://www.lightdow.com/collections/all",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://gorilatravel.com/product/lightdow-fixed-focus-500mm-f6-3-telephoto-manual-mirror-lens-with-t2-mount-adapter-ring-for-nikon-canon-pentax-sony-dslr-cameras/",
+      "publisherRelationship": "unknown",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

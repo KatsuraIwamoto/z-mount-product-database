@@ -1,0 +1,151 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "gizmon-vivilens-22mm-f11",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "gizmon",
+    "brandId": "gizmon",
+    "productName": "GIZMON Vivilens",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2024-06-14",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://gizmon.com/ja/products/gizmonlens-series/vivilens/",
+      "pageFamilies": [
+        "home-country",
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "GIZMON"
+      }
+    },
+    {
+      "url": "https://gizmon.com/products/gizmonlens-series/vivilens/",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "GIZMON"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "user-interchangeable",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": false
+    },
+    "adapter": {
+      "relationship": "supplied",
+      "dedicatedToProduct": null,
+      "name": "Lens mount adapter",
+      "modelNumberOptions": null,
+      "nativeMountSystemId": "leica-m39"
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 60,
+        "lengthMm": 15,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 46,
+        "conditions": {
+          "attachedComponents": []
+        },
+        "approximate": true
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": false
+  },
+  "controls": null,
+  "accessories": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 22
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 11,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 11,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": false
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": null,
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 1,
+      "elements": 1
+    },
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "officialName": "Aspherical plastic lens",
+        "quantity": 1
+      }
+    ],
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": null,
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 1.5,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": null,
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}

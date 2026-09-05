@@ -1,0 +1,80 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "yongnuo-yn33mm-f1-4z-da-dsm-wl-pro",
+  "subject": {
+    "manufacturerId": "yongnuo",
+    "brandId": "yongnuo",
+    "name": "YONGNUO YN33mm F1.4Z DA DSM WL Pro"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "yongnuo-yn33mm-f1-4z-da-dsm-wl-pro"
+  },
+  "sources": [
+    {
+      "url": "https://th.hkyongnuo.com/products/33mmf14",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.weightMeasurements",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://th.hkyongnuo.com/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://ueeshop.ly200-cdn.com/u_file/UPAU/UPAU946/2406/11/photo/YN56mm-F14Z-DA-DSM-WL-Pro10-a778.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus",
+        "physical.filterInterfaces",
+        "lens.anglesOfView",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.szyongnuo.com/upload/file/202403/2026-03.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.aperture",
+        "physical.filterInterfaces"
+      ]
+    }
+  ],
+  "unresolved": [
+    "What is the published weight of the Nikon Z configuration, with its measurement conditions?"
+  ]
+}

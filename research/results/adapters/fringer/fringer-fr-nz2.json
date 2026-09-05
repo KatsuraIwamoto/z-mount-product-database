@@ -1,0 +1,63 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fringer-fr-nz2",
+  "subject": {
+    "manufacturerId": "fringer",
+    "brandId": "fringer",
+    "name": "Fringer EF-NZ II"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "fringer-fr-nz2"
+  },
+  "sources": [
+    {
+      "url": "https://www.fringeradapter.com/canon-ef-to-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages",
+        "physical.officialEnvironmentalProtectionClaims"
+      ]
+    },
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000001922/",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "distributor-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1778961-REG/fringer_fr_nz2_canon_ef_to_nikon.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://uploads.strikinglycdn.com/files/09c05b02-df50-4c68-8ab6-6d85de62d226/efnz%20manual.en.1.90.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "electronicServices"
+      ]
+    }
+  ],
+  "notes": [
+    "Weather sealing is specified for use with weather-sealed cameras and lenses."
+  ]
+}

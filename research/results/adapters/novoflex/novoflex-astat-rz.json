@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "novoflex-astat-rz",
+  "subject": {
+    "manufacturerId": "novoflex",
+    "brandId": "novoflex",
+    "name": "Adapter Collar Mount for EOSR- and NIKZ-Adapters"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "ASTAT-RZ is a tripod collar/support accessory for mount adapters and does not itself convert a lens mount to Nikon Z."
+  },
+  "sources": [
+    {
+      "url": "https://novoflex.de/en/Adapter-Collar-Mount-for-EOSR-and-NIKZ-Adapters/ASTAT-RZ",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "physical.tripodSupport"
+      ]
+    }
+  ]
+}

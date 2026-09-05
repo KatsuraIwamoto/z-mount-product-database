@@ -1,0 +1,70 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "meike-6-5mm-f2-fisheye-lens",
+  "subject": {
+    "manufacturerId": "meike",
+    "brandId": "meike",
+    "name": "Meike 6.5mm Ultra Wide F2.0 Circular Fisheye Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "meike-6-5mm-f2-fisheye-lens"
+  },
+  "sources": [
+    {
+      "url": "https://meikeglobal.com/products/meike-6-5mm-ultra-wide-f-2-0-circular-fisheye-lens-for-sony-a9-a7iii-a7riii-a6500-a6000-a6100-a6300-nex3-nex3n-nex5-nex5t-nex5r-nex6-nex7-a7ii-a7sii-a7rii-mirorrless-cameras",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.alternateNames",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.kamera-express.nl/meike-mk-6-5mm-f2-0-nikon-z-mount",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.optyczne.pl/15713-news-Meike_6.5_mm_f_2.0_Fisheye_z_nowym_mocowaniem.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ]
+}

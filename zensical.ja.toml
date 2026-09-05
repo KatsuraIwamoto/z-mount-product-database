@@ -1,0 +1,96 @@
+[project]
+site_name = "Z Mount Product Database"
+site_description = "ニコンZマウント用のレンズと関連光学製品、およびマウントアダプターの公開データセット"
+site_url = "https://katsuraiwamoto.github.io/z-mount-product-database/ja/"
+docs_dir = "docs/ja"
+site_dir = "site/ja"
+dev_addr = "127.0.0.1:8766"
+copyright = "Copyright &copy; Katsura Iwamoto &middot; <a href='https://katsuraiwamoto.github.io/z-mount-product-database/ja/license/'>ライセンス</a>"
+repo_url = "https://github.com/KatsuraIwamoto/z-mount-product-database"
+repo_name = "z-mount-product-database"
+nav = [
+  { "Z Mount Product Database" = "index.md" },
+  { "製品一覧（ダウンロード）" = "https://github.com/KatsuraIwamoto/z-mount-product-database/releases/latest/download/PRODUCTS.md" },
+  { "プロジェクトについて" = [
+    { "収録範囲と考え方" = "overview.md" },
+    { "用語集" = "glossary.md" },
+  ] },
+  { "データを利用する" = [
+    { "配布データを使う" = "use-data.md" },
+    { "ライセンス" = "license.md" },
+  ] },
+  { "データを理解する" = [
+    { "データモデル" = "data-model.md" },
+    { "値の読み方" = "value-rules.md" },
+    { "レンズと関連光学製品のフィールドリファレンス" = "lens-field-reference.md" },
+    { "マウントアダプターのフィールドリファレンス" = "adapter-field-reference.md" },
+  ] },
+  { "調査と編集に参加する" = [
+    { "報告と編集" = "contribute.md" },
+    { "調査結果データ" = "research.md" },
+  ] },
+  { "開発者向け" = [
+    { "開発と検証" = "development.md" },
+    { "JSON Schemaリファレンス" = [
+      { "概要" = "reference/schemas/index.md" },
+      { "共通" = [
+        { "shared-definitions" = "reference/schemas/shared/shared-definitions.md" },
+        { "reference-data" = "reference/schemas/shared/reference-data.md" },
+      ] },
+      { "レンズと関連光学製品" = [
+        { "dataset-full" = "reference/schemas/lenses/dataset-full.md" },
+        { "dataset-light" = "reference/schemas/lenses/dataset-light.md" },
+        { "product-full" = "reference/schemas/lenses/product-full.md" },
+        { "product-light" = "reference/schemas/lenses/product-light.md" },
+        { "product-record" = "reference/schemas/lenses/product-record.md" },
+        { "product-components" = "reference/schemas/lenses/product-components.md" },
+        { "product-type-lens" = "reference/schemas/lenses/product-type-lens.md" },
+        { "product-type-teleconverter" = "reference/schemas/lenses/product-type-teleconverter.md" },
+        { "product-type-pinhole" = "reference/schemas/lenses/product-type-pinhole.md" },
+        { "research-result" = "reference/schemas/lenses/research-result.md" },
+      ] },
+      { "マウントアダプター" = [
+        { "dataset-full" = "reference/schemas/adapters/dataset-full.md" },
+        { "adapter-full" = "reference/schemas/adapters/adapter-full.md" },
+        { "adapter-record" = "reference/schemas/adapters/adapter-record.md" },
+        { "adapter-components" = "reference/schemas/adapters/adapter-components.md" },
+        { "research-result" = "reference/schemas/adapters/research-result.md" },
+      ] },
+    ] },
+  ] },
+]
+
+[project.theme]
+language = "ja"
+features = [
+  "content.code.copy",
+  "navigation.footer",
+  "navigation.path",
+  "navigation.sections",
+  "navigation.top",
+  "search.highlight",
+  "toc.follow",
+]
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme)"
+toggle.icon = "lucide/sun-moon"
+toggle.name = "ライトモードに切り替え"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: light)"
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "ダークモードに切り替え"
+
+[[project.theme.palette]]
+media = "(prefers-color-scheme: dark)"
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "システム設定に切り替え"
+
+[project.extra]
+alternate = [
+  { name = "日本語（トップ）", link = ".", lang = "ja" },
+  { name = "English (home)", link = "..", lang = "en" },
+]

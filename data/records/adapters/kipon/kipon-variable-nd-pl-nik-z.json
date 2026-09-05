@@ -1,0 +1,86 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "kipon-variable-nd-pl-nik-z",
+  "identity": {
+    "manufacturerId": "kipon",
+    "brandId": "kipon",
+    "productName": "KIPON PL-Nikon Z Variable ND Adapter",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2026-06-23",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://kipon.com/product/preorder-kipon-variable-nd-adapter-for-professional-cinema-pl-lens-nikon-z-camera/",
+      "pageFamilies": [
+        "global"
+      ],
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "KIPON"
+      },
+      "region": null
+    },
+    {
+      "url": "https://www.kipon.jp/products/preorder-kipon-variable-nd-adapter-pl-nikon-z",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "KIPON"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "arri-pl",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": [
+        {
+          "maximumMm": 26.6,
+          "referencePlane": null,
+          "conditions": {}
+        }
+      ]
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": [
+    {
+      "type": "drop-in-filter",
+      "conditions": {}
+    },
+    {
+      "type": "flange-focal-distance-adjustment",
+      "conditions": {}
+    }
+  ],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": null,
+  "conversionOptics": null
+}

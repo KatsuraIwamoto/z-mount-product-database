@@ -1,0 +1,40 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "lomography-z460n",
+  "subject": {
+    "manufacturerId": "lomography",
+    "brandId": "lomography",
+    "name": "Mirrorless Close-Up Lens Adapter for Nikon Z"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "lomography-z460n"
+  },
+  "sources": [
+    {
+      "url": "https://www.lomography.cn/products/z460n/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1728870-REG/lomography_z460n_mirrorless_closeup_adapter_for.html/compatibility",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mechanisms"
+      ]
+    }
+  ]
+}

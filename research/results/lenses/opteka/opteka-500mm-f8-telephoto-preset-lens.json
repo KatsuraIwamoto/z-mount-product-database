@@ -1,0 +1,77 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "opteka-500mm-f8-telephoto-preset-lens",
+  "subject": {
+    "manufacturerId": "opteka",
+    "brandId": "opteka",
+    "name": "Opteka 500mm f/8 Telephoto Preset Lens"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://business.walmart.com/ip/Opteka-500mm-Telephoto-Lens-for-Nikon-Z-Mount-Z7-Z6-and-Z50-Mirrorless-Digital-Camera/531324140",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.modelNumberOptions",
+        "mount",
+        "mount.electronicContacts",
+        "mount.adapter",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.thetedstore.com/products/b-sly500-f8-0-nik-z",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "controls",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://opteka.com/collections/lens-accessories",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Was an Opteka-branded Nikon Z package of this lens sold by Opteka or an authorized distributor, with the T-mount for Nikon Z supplied as part of that package?"
+  ]
+}

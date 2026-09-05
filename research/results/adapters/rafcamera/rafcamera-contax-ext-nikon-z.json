@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "rafcamera-contax-ext-nikon-z",
+  "subject": {
+    "manufacturerId": "rafcamera",
+    "brandId": "rafcamera",
+    "name": "Contax External Bayonet Lens to Nikon Z Camera Mount Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "rafcamera-contax-ext-nikon-z"
+  },
+  "sources": [
+    {
+      "url": "https://rafcamera.com/adapter-contax-ext-to-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    }
+  ]
+}

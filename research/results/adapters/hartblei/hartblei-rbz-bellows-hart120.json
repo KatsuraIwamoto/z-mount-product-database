@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "hartblei-rbz-bellows-hart120",
+  "subject": {
+    "manufacturerId": "hartblei",
+    "brandId": "hartblei",
+    "name": "Hartblei BELLOWS for Mamiya RZ/RB 67 (Hasselblad V, P6)"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The marketed product is primarily a focusing bellows and close-up/macro system; its interchangeable Nikon Z rear mount does not make mount conversion the product's primary purpose."
+  },
+  "sources": [
+    {
+      "url": "https://hartbleilens.com/index.php?route=product/product&product_id=71",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "identity.variants",
+        "mountConfigurations"
+      ]
+    }
+  ]
+}

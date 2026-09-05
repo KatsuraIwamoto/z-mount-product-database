@@ -1,0 +1,81 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "opteka-650-1300mm-f8-16-hd-telephoto-zoom-lens",
+  "subject": {
+    "manufacturerId": "opteka",
+    "brandId": "opteka",
+    "name": "Opteka 650-1300mm High Definition Telephoto Zoom Lens"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://opteka.com/products/op6501300mm-bk",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.modelNumberOptions",
+        "mount",
+        "mount.electronicContacts",
+        "mount.adapter",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.externalLengthDuringZoom",
+        "physical.externalLengthDuringFocus",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://business.walmart.com/ip/Opteka-650-1300mm-with-2x-1300-2600mm-Super-Zoom-Lens-for-Nikon-Z-Mount-Z7-Z6-Z50-Mirrorless-Camera/543187209",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://manuals.plus/asin/B001GKRR8Q",
+      "publisherRelationship": "unknown",
+      "sourceType": "manual",
+      "checked": [
+        "mount",
+        "physical",
+        "controls",
+        "accessories",
+        "lens.focus"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Was an Opteka-branded Nikon Z package of this lens sold by Opteka or an authorized distributor, with the T-mount adapter for Nikon Z supplied as part of that package?"
+  ]
+}

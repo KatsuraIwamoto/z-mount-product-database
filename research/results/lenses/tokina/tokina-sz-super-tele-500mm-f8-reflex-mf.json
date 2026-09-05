@@ -1,0 +1,113 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "tokina-sz-super-tele-500mm-f8-reflex-mf",
+  "subject": {
+    "manufacturerId": "kenko-tokina",
+    "brandId": "tokina",
+    "name": "SZ 500mm F8 Reflex MF",
+    "aliases": [
+      "SZ SUPER TELE 500mm F8 Reflex MF"
+    ]
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "tokina-sz-super-tele-500mm-f8-reflex-mf"
+  },
+  "sources": [
+    {
+      "url": "https://www.kenko-tokina.co.jp/camera-lens/tokina/telephoto-lenses/sz_500mm_f8_reflex_mf/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.alternateNames",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "mount.adapter",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "physical.externalLengthDuringFocus",
+        "physical.isRetractableForStorage",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.kenko-tokina.co.jp/camera-lens/tokina/telephoto-lenses/sz_500mm_f8_reflex_mf/spec.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "specification",
+      "checked": [
+        "physical",
+        "physical.filterInterfaces",
+        "controls",
+        "accessories",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.kenko-tokina.co.jp/newproducts/sz_500mm_f8_reflex_mf_news202201.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://dc.watch.impress.co.jp/docs/news/1384621.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.kenko-tokina.co.jp/lp/campaign2022/tmount/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mount",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1687818-REG/tokina_szmf500_nz_sz_500mm_f_8_reflex.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mount",
+        "accessories"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

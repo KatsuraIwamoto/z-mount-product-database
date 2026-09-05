@@ -1,0 +1,54 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "cheecar-25mm-f1-7",
+  "subject": {
+    "manufacturerId": "cheecar",
+    "brandId": "cheecar",
+    "name": "Cheecar 25mm F1.7"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "cheecar-25mm-f1-7"
+  },
+  "sources": [
+    {
+      "url": "http://cheecar.com/product-42292-37595-186624.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://photorumors.com/2024/11/24/new-cheecar-25mm-f-1-7-lens/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ]
+}

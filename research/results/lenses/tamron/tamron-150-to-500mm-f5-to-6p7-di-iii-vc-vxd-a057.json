@@ -1,0 +1,227 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "tamron-150-to-500mm-f5-to-6p7-di-iii-vc-vxd-a057",
+  "subject": {
+    "manufacturerId": "tamron",
+    "brandId": "tamron",
+    "name": "150-500mm F/5-6.7 Di III VC VXD"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "tamron-150-to-500mm-f5-to-6p7-di-iii-vc-vxd-a057"
+  },
+  "sources": [
+    {
+      "url": "https://www.tamron.com/jp/consumer/lenses/a057/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.modelNumberOptions",
+        "officialProductPages",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "controls",
+        "accessories",
+        "electronicServices",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/lenses/a057/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.externalLengthDuringZoom",
+        "controls",
+        "accessories",
+        "electronicServices",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.coatings",
+        "lens.focus",
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/tamron-docs/consumer/support/download/inst/a057/inst_2309_en.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "mount",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://tamron-americas.com/product/150-500mm-f-5-6-7-di-iii-vc-vxd/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "controls",
+        "accessories",
+        "electronicServices",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/soft/lensutility/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "controls",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/support/download/firmware/a057/nikon_z/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "mount",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/news/detail/a057z_20231010.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.focus"
+      ],
+      "decisionChecks": [
+        "availability",
+        "licensing",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/sp/compare/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "specification",
+      "checked": [
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "controls",
+        "accessories",
+        "electronicServices",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/lenses/a057/spec.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "specification",
+      "checked": [
+        "mount.electronicContacts",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/glossary/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "physical.externalLengthDuringZoom",
+        "physical.externalLengthDuringFocus",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/accessories/rear_caps/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/accessories/tripod_mounts/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/tamron-docs/consumer/support/download/catalog/all-lenses_en.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "controls",
+        "accessories",
+        "lens.coatings",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/technology/lens/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/technology/coating/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "lens.coatings"
+      ]
+    }
+  ]
+}

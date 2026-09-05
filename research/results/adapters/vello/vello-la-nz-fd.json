@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "vello-la-nz-fd",
+  "subject": {
+    "manufacturerId": "gradus-group",
+    "brandId": "vello",
+    "name": "Lens Adapter for Canon FD Lens to Nikon Z-Mount Camera"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "vello-la-nz-fd"
+  },
+  "sources": [
+    {
+      "url": "https://www.vellogear.com/product/14059/Vello-LA_NZ_FD-Lens-Adapter-for-Canon-FD-Lens-to-Nikon-Z-Mount-Camera-",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    }
+  ]
+}

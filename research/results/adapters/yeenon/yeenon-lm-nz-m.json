@@ -1,0 +1,55 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "yeenon-lm-nz-m",
+  "subject": {
+    "manufacturerId": "yeenon",
+    "brandId": "yeenon",
+    "name": "Leica M to Nikon Z Macro Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.ebay.com/itm/404236342718",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://www.mkkcamera.com/yeenon-leica-m-to-nikon-z-adapter-macro-black-lm-nz-m-6mb/",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://rangefinderforum.com/threads/adapters-for-z-mount.4755538/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "other",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Can a YEENON or authorized-distributor source confirm this Leica M-to-Nikon Z macro adapter, its model identifiers, and its sale as a YEENON product?"
+  ]
+}

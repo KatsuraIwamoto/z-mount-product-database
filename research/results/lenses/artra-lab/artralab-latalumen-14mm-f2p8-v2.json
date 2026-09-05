@@ -1,0 +1,77 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "artralab-latalumen-14mm-f2p8-v2",
+  "subject": {
+    "manufacturerId": "artra-lab",
+    "brandId": "artra-lab",
+    "name": "LATALUMEN 14mm F2.8 V2"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "artralab-latalumen-14mm-f2p8-v2"
+  },
+  "sources": [
+    {
+      "url": "https://artralab.com/products/artra-lab-14mm-f2-8-latalumen-v2",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.artralab.hk/collections/lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0491/3787/7141/files/IMG-20230710-WA0007.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "https://artralab.com/cdn/shop/files/WhatsAppImage2023-07-20at20.49.56_360x_01117e3c-89dd-4c99-b42b-f8f8dd1b5cb7.webp",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.filterInterfaces",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://artralab.com/cdn/shop/files/WhatsAppImage2023-07-20at20.49.56_1_360x_1e7b39f6-2785-4f82-96c4-d99dc8a7ab0e.webp",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.filterInterfaces",
+        "controls"
+      ]
+    }
+  ]
+}

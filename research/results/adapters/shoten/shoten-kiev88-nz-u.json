@@ -1,0 +1,49 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "shoten-kiev88-nz-u",
+  "subject": {
+    "manufacturerId": "shoten-kobo",
+    "brandId": "shoten",
+    "name": "SHOTEN Kiev88-NZ-U Mount Adapter"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "shoten-kiev88-nz-u"
+  },
+  "sources": [
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000002039",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages",
+        "physical.weightMeasurements",
+        "physical.tripodSupport"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/shoten-ums%e3%82%b7%e3%83%aa%e3%83%bc%e3%82%ba%ef%bd%9c%e3%83%9a%e3%83%b3%e3%82%bf%e3%82%b3%e3%83%b3%e3%82%b7%e3%83%83%e3%82%af%e3%82%b9%e3%83%bb%e3%82%ad%e3%82%a8%e3%83%9560%e3%80%81%e3%82%ad/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ]
+}

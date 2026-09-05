@@ -1,0 +1,57 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "viltrox-af-40mm-f1p2-pro",
+  "subject": {
+    "manufacturerId": "viltrox",
+    "brandId": "viltrox",
+    "name": "AF 40mm F1.2 Pro"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.sina.cn/news/detail/5331052262595726.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5334029080462328.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "announcement",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.sina.cn/news/detail/5297759180558153.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://www.digitalcameraworld.com/cameras/lenses/is-viltrox-about-to-release-lenses-for-a-camera-mount-combo-that-no-longer-exists",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "announcement",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Has Viltrox officially announced the release of or begun selling a Nikon Z configuration of this product?"
+  ]
+}

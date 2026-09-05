@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "viltrox-af-85mm-f1p8-ii",
+  "subject": {
+    "manufacturerId": "viltrox",
+    "brandId": "viltrox",
+    "name": "AF 85mm F1.8 II",
+    "aliases": [
+      "VILTROX AF 85mm F1.8"
+    ]
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "viltrox-af-85mm-f1p8-ii"
+  },
+  "sources": [
+    {
+      "url": "https://viltrox.com/en-gb/products/viltrox-autofocus-85mm-z-lens-for-nikon-z-mirrorless",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "productType",
+        "lifecycle",
+        "mount",
+        "physical.officialEnvironmentalProtectionClaims",
+        "controls",
+        "accessories",
+        "electronicServices",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/pages/af-85-1-8-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "electronicServices",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/lit_files/666688.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "mount",
+        "mount.electronicContacts",
+        "physical.filterInterfaces",
+        "physical.externalLengthDuringFocus",
+        "lens.coverage",
+        "lens.opticalConstruction"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/products/viltrox-85mm-f18-e-mount-sony-markii",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "lens.specialElements"
+      ]
+    }
+  ]
+}

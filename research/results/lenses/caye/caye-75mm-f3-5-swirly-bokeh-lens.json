@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "caye-75mm-f3-5-swirly-bokeh-lens",
+  "subject": {
+    "manufacturerId": null,
+    "brandId": "caye",
+    "name": "CAYE 75mm F3.5 Swirly Bokeh Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.ebuy7.com/cangye-75mm-f3-5-rotary-dewei-king-portrait-lens-east-germany-zeiss-eight-feathered-monster-russian-head-rotating-bokeh.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mount",
+        "accessories"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Which entity manufactures the product, and does the Nikon Z configuration use a direct mount or a generic adapter?"
+  ]
+}

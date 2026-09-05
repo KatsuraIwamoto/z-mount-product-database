@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "meike-mk-eftz-071x",
+  "identity": {
+    "manufacturerId": "meike",
+    "brandId": "meike",
+    "productName": "0.71x Speed Booster Adapter for Canon EF/EF-S Lenses to Nikon Z Cameras",
+    "modelNumberOptions": [
+      "MK-EFTZ-071X",
+      "MK-EFTZ-071X-C"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": null
+  },
+  "officialProductPages": [],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "canon-ef",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": true,
+    "autofocus": true,
+    "cameraControlledAperture": true,
+    "lensStabilizationCommunication": true,
+    "manualFocusAssistance": true,
+    "metadataTransmission": {
+      "present": true,
+      "standards": [
+        "exif"
+      ]
+    },
+    "lensPowerTransmission": null,
+    "recordingTriggerTransmission": null
+  },
+  "mechanisms": [],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": null
+  },
+  "conversionOptics": {
+    "present": true,
+    "focalLengthMultiplier": 0.71,
+    "apertureChange": null,
+    "opticalConstruction": null,
+    "specialElements": null,
+    "coatings": null,
+    "supportedImageCircleDiameterMm": null,
+    "maximumSupportedAperture": null
+  }
+}

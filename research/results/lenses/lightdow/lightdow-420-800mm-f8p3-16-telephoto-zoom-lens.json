@@ -1,0 +1,71 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "lightdow-420-800mm-f8p3-16-telephoto-zoom-lens",
+  "subject": {
+    "manufacturerId": "lightdow",
+    "brandId": "lightdow",
+    "name": "Lightdow 420-800mm F8.3-16 Telephoto Zoom Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.lightdow.com/products/lightdow-420-800mm-f-8-3-manual-zoom-super-telephoto-lens-t-mount-adapter-ring-for-canon-eos-rebel-cameraswhite",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://www.lightdow.com/products/420-800mm-f8-3-telephoto-zoom-lens-built-in-lens-mount-for-canon-nikon-sony",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://glorymage.com/en/products/lightdow-white-420-800mm-f-8-3-16-super-telephoto-manual-zoom-lens-t2-adapter-ring-for-canon-nikon-sony-pentax-fuji-cameras",
+      "publisherRelationship": "unknown",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://www.ebay.com/itm/365181050417",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Was a Lightdow-branded Nikon Z T2-adapter package actually sold by Lightdow or an authorized distributor, or are the marketplace bundles seller-assembled?",
+    "Can a manufacturer identifier or sealed retail package explicitly including the Nikon Z adapter be verified?"
+  ]
+}

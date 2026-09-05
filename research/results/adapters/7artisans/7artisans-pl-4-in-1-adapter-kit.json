@@ -1,0 +1,48 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "7artisans-pl-4-in-1-adapter-kit",
+  "subject": {
+    "manufacturerId": "7artisans",
+    "brandId": "7artisans",
+    "name": "PL Lens Adapter Kit 4-in-1"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "7artisans-pl-4-in-1-adapter-kit"
+  },
+  "sources": [
+    {
+      "url": "https://7artisans.store/products/pl-lens-adapter-kit-pl-e-pl-z-pl-rf-pl-l",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.variants",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1901458-REG/7artisans_photoelectric_pl4in1_sil_4_in_1_pl_lens_mount.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions"
+      ]
+    },
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000002427/",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "distributor-page",
+      "checked": [
+        "mechanisms"
+      ]
+    }
+  ]
+}

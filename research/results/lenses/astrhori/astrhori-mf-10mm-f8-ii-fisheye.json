@@ -1,0 +1,80 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "astrhori-mf-10mm-f8-ii-fisheye",
+  "subject": {
+    "manufacturerId": "astrhori",
+    "brandId": "astrhori",
+    "name": "MF 10mm F8 II APS-C Fisheye Lens"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "astrhori-mf-10mm-f8-ii-fisheye"
+  },
+  "sources": [
+    {
+      "url": "https://www.astrhori.cn/products/10mm-f8-ii-super-wide-angle-fisheye-aps-c-manual-prime-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized",
+        "lens.specialElements"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.com/cp",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.cn/cdn/shop/products/2_9e287214-cbf2-4129-b886-b3ee1e44ce71.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces",
+        "lens.anglesOfView",
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.cn/cdn/shop/files/1_cf2441d8-3795-45eb-80bc-544d687f26a1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements"
+      ]
+    }
+  ],
+  "unresolved": [
+    "What are the published dimensions and filter-thread diameter for the Nikon Z configuration?",
+    "What angle of view is specified for the Nikon Z APS-C configuration?"
+  ]
+}

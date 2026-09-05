@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fotodiox-lm-nkz-prn",
+  "subject": {
+    "manufacturerId": "fotodiox",
+    "brandId": "fotodiox",
+    "name": "Fotodiox Pro PRONTO Autofocus Adapter - Compatible with Leica M Mount Lenses to Nikon Z-Mount Mirrorless Cameras"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "fotodiox-lm-nkz-prn"
+  },
+  "sources": [
+    {
+      "url": "https://fotodioxpro.com/products/lm-nkz-prn",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages",
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://fotodiox-knowledge-base.gorgias.help/en-US/product-manual-and-firmware-for-fotodiox-pro-pronto-leica-m-to-nikon-z-focusing-adapter-199566",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://attachments.gorgias.help/uploads.gorgias.io/Aa90l7EKV96JWorj/LM-NKZ-PRN-EN-b6451697-9666-4b9d-af25-a7fca629973b.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "electronics",
+        "electronicServices"
+      ]
+    }
+  ]
+}

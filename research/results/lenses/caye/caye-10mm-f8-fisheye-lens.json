@@ -1,0 +1,27 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "caye-10mm-f8-fisheye-lens",
+  "subject": {
+    "manufacturerId": null,
+    "brandId": "caye",
+    "name": "CAYE 10mm F8 Fisheye Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.photogear4fun.com/all-alternative-lenses-with-nikon-z-mount.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "technical-page",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Which entity manufactures the product, and is the Nikon Z configuration directly mountable?"
+  ]
+}

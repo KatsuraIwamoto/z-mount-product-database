@@ -1,0 +1,46 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fotodiox-m7-nkz-fsn",
+  "subject": {
+    "manufacturerId": "fotodiox",
+    "brandId": "fotodiox",
+    "name": "Fotodiox Pro Fusion Adapter, Smart Adapter - Compatible with Mamiya 7 Rangefinder Lenses to Nikon Z-Mount Mirrorless Cameras with Limited Automated Functions"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "fotodiox-m7-nkz-fsn"
+  },
+  "sources": [
+    {
+      "url": "https://fotodioxpro.com/products/m7-nkz-fsn",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages",
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://fotodiox-knowledge-base.gorgias.help/en-US/product-manual-and-firmware-for-fotodiox-pro-fusion-mamiya-7-to-nikon-z-smart-adapter-199557",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices",
+        "electronics"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Can the camera control the aperture of a Mamiya 7 lens through this adapter?"
+  ]
+}

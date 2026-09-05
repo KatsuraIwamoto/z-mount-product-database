@@ -1,0 +1,26 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "novoflex-bal-nikz-c",
+  "subject": {
+    "manufacturerId": "novoflex",
+    "brandId": "novoflex",
+    "name": "Auto Bellows Nikon Z-Mount with built-in Focusing Rail"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "This is an automatic macro bellows with a focusing rail rather than a product whose primary purpose is converting another interchangeable-lens mount to Nikon Z."
+  },
+  "sources": [
+    {
+      "url": "https://novoflex.de/en/Auto-Bellows-Nikon-Z-Mount-with-built-in-Focusing-Rail/BAL-NIKZ-C",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cercidiphyllum.jp/schemas/1.0.0/shared/reference-data.schema.json",
+  "$comment": "SPDX-FileCopyrightText: 2026 Katsura Iwamoto\nSPDX-License-Identifier: MIT",
+  "title": "Embedded reference data",
+  "description": "Display metadata for registry IDs used by one generated dataset.",
+  "$defs": {
+    "referenceEntry": {
+      "type": "object",
+      "required": [
+        "name"
+      ],
+      "properties": {
+        "name": {
+          "$ref": "shared-definitions.schema.json#/$defs/nonEmptyString"
+        }
+      },
+      "additionalProperties": false
+    },
+    "referenceMap": {
+      "type": "object",
+      "propertyNames": {
+        "$ref": "shared-definitions.schema.json#/$defs/id"
+      },
+      "additionalProperties": {
+        "$ref": "#/$defs/referenceEntry"
+      }
+    }
+  },
+  "type": "object",
+  "required": [
+    "manufacturers",
+    "brands",
+    "mountSystems"
+  ],
+  "properties": {
+    "manufacturers": {
+      "$ref": "#/$defs/referenceMap"
+    },
+    "brands": {
+      "$ref": "#/$defs/referenceMap"
+    },
+    "mountSystems": {
+      "$ref": "#/$defs/referenceMap"
+    }
+  },
+  "additionalProperties": false
+}

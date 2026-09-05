@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "meike-mk-etz",
+  "subject": {
+    "manufacturerId": "meike",
+    "brandId": "meike",
+    "name": "Mount Adapter ETZ for Sony E Mount Lenses to Nikon Z Cameras"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "meike-mk-etz"
+  },
+  "sources": [
+    {
+      "url": "https://meikeglobal.com/collections/bfcm-accessories/products/adapter-etz-for-sony-e-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    }
+  ]
+}

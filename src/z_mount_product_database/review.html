@@ -1,0 +1,1676 @@
+<!doctype html>
+<html lang="en" data-theme="system">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>Z Product Compare</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&amp;family=IBM+Plex+Sans+JP:wght@400;500&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light dark;
+      --canvas: light-dark(#ffffff, #202124);
+      --panel: light-dark(#f8f9fa, #292a2d);
+      --subpanel: light-dark(#f1f3f4, #303134);
+      --control: light-dark(#ffffff, #35363a);
+      --control-strong: light-dark(#ffffff, #3c4043);
+      --border: light-dark(#dadce0, #3c4043);
+      --border-strong: light-dark(#bdc1c6, #5f6368);
+      --text: light-dark(#202124, #e8eaed);
+      --muted: light-dark(#5f6368, #9aa0a6);
+      --accent: light-dark(#0b57d0, #8ab4f8);
+      --string: light-dark(#a31515, #d9987c);
+      --number: light-dark(#098658, #b5cea8);
+      --keyword: light-dark(#0451a5, #6cb6ff);
+      --null: light-dark(#795e26, #d6d18f);
+      --success: light-dark(#137333, #91d08b);
+      --warning: light-dark(#8a5200, #f9ab00);
+      --error: light-dark(#b3261e, #f48771);
+      --match: light-dark(#fff4ce, #5a4b00);
+      --control-text: light-dark(#202124, #e8eaed);
+      --hover-border: light-dark(#7d8590, #9aa0a6);
+      --manufacturer-control: light-dark(#f1f3f4, #303134);
+      --manufacturer-text: light-dark(#5f6368, #bdc1c6);
+      --product-border: light-dark(#9ca3af, #5f6368);
+      --product-text: light-dark(#202124, #f1f3f4);
+      --tab-strip: light-dark(#e8eaed, #202124);
+      --tab-text: light-dark(#5f6368, #bdc1c6);
+      --tab-selected: light-dark(#d2e3fc, #3c4043);
+      --tab-selected-text: light-dark(#202124, #f1f3f4);
+      --record-surface: light-dark(#ffffff, #202124);
+      --row-border: light-dark(#e8eaed, #3c4043);
+      --table-header: light-dark(#f8f9fa, #292a2d);
+      --table-header-text: light-dark(#5f6368, #9aa0a6);
+    }
+
+    :root[data-theme="light"] {
+      color-scheme: light;
+    }
+
+    :root[data-theme="dark"] {
+      color-scheme: dark;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: var(--canvas);
+      color: var(--text);
+      font-family: "IBM Plex Mono", "IBM Plex Sans JP", ui-monospace, monospace;
+      font-size: 13px;
+    }
+
+    button,
+    input,
+    select {
+      min-width: 0;
+      min-height: 34px;
+      border: 1px solid var(--border-strong);
+      border-radius: 4px;
+      background: var(--control);
+      color: var(--control-text);
+      font: inherit;
+    }
+
+    button {
+      padding: 6px 10px;
+      cursor: pointer;
+      white-space: nowrap;
+    }
+
+    input,
+    select {
+      width: 100%;
+      padding: 6px 9px;
+    }
+
+    button:hover,
+    input:hover,
+    select:hover {
+      border-color: var(--hover-border);
+      background: var(--control-strong);
+    }
+
+    button:focus-visible,
+    input:focus-visible,
+    select:focus-visible {
+      border-color: var(--accent);
+      outline: 1px solid var(--accent);
+      outline-offset: -1px;
+    }
+
+    button:disabled,
+    input:disabled,
+    select:disabled {
+      cursor: default;
+      opacity: 0.55;
+    }
+
+    .app {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-rows: max-content max-content max-content minmax(260px, 1fr);
+      gap: 16px;
+      width: 100%;
+      height: 100%;
+      min-height: 0;
+      padding: 14px;
+      overflow-y: auto;
+      background: var(--canvas);
+    }
+
+    .appbar,
+    .panel {
+      min-width: 0;
+      overflow: hidden;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      background: var(--panel);
+    }
+
+    .appbar {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 8px 12px;
+      min-height: 50px;
+      padding: 8px 12px;
+    }
+
+    .appbar-controls {
+      display: flex;
+      flex: 1 1 300px;
+      gap: 8px;
+      min-width: 0;
+    }
+
+    .title,
+    .panel-title {
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .dataset-select,
+    .theme-select,
+    .language-select {
+      flex: 1 1 0;
+      width: auto;
+      min-width: 0;
+    }
+
+    .panel-heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      min-height: 42px;
+      gap: 12px;
+      padding: 8px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .heading-meta,
+    .stepper,
+    .record-heading-meta {
+      display: flex;
+      align-items: center;
+    }
+
+    .heading-meta {
+      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: flex-end;
+    }
+
+    .stepper {
+      gap: 2px;
+    }
+
+    .stepper button {
+      width: 32px;
+      min-height: 28px;
+      padding: 2px;
+      font-size: 15px;
+    }
+
+    .position {
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    .lens-grid,
+    .source-grid {
+      display: grid;
+      grid-template-columns: minmax(140px, 0.35fr) minmax(260px, 1fr);
+      gap: 10px;
+      align-items: end;
+      padding: 12px;
+    }
+
+    .lens-grid {
+      grid-template-columns: minmax(160px, 0.32fr) minmax(140px, 0.28fr) minmax(0, 1fr);
+    }
+
+    .field {
+      display: grid;
+      gap: 5px;
+      min-width: 0;
+    }
+
+    .field-label {
+      color: var(--muted);
+      font-family: "IBM Plex Sans JP", sans-serif;
+      font-size: 12px;
+    }
+
+    .brand select {
+      background: var(--manufacturer-control);
+      color: var(--manufacturer-text);
+    }
+
+    .decision-status {
+      padding: 3px 7px;
+      border: 1px solid currentColor;
+      border-radius: 999px;
+      font-family: "IBM Plex Sans JP", sans-serif;
+      font-size: 11px;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+
+    .status-included {
+      background: color-mix(in srgb, var(--success) 12%, transparent);
+      color: var(--success);
+    }
+
+    .status-needs-review {
+      background: color-mix(in srgb, var(--warning) 12%, transparent);
+      color: var(--warning);
+    }
+
+    .status-excluded {
+      background: color-mix(in srgb, var(--error) 10%, transparent);
+      color: var(--error);
+    }
+
+    .decision-summary {
+      display: grid;
+      gap: 6px;
+      padding: 10px 12px;
+      border-top: 1px solid var(--border);
+      background: var(--subpanel);
+    }
+
+    .decision-summary-heading {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 12px;
+      color: var(--muted);
+      font-family: "IBM Plex Sans JP", sans-serif;
+      font-size: 12px;
+    }
+
+    .decision-summary-list {
+      max-height: 96px;
+      margin: 0;
+      padding-left: 18px;
+      overflow: auto;
+    }
+
+    .decision-summary-list li + li {
+      margin-top: 4px;
+    }
+
+    .product-control,
+    .copy-control {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      min-width: 0;
+    }
+
+    .product-control {
+      gap: 7px;
+    }
+
+    .product-control select {
+      border-color: var(--product-border);
+      background: var(--control-strong);
+      color: var(--product-text);
+    }
+
+    .copy-control input {
+      border-right: 0;
+      border-radius: 4px 0 0 4px;
+      color: var(--muted);
+      text-overflow: ellipsis;
+    }
+
+    .copy-control button {
+      border-radius: 0 4px 4px 0;
+    }
+
+    .short-label {
+      display: none;
+    }
+
+    .record-panel {
+      display: grid;
+      grid-template-rows: auto auto auto minmax(0, 1fr);
+      min-height: 0;
+    }
+
+    .record-heading-meta {
+      min-width: 0;
+      gap: 10px;
+    }
+
+    .status-message {
+      overflow: hidden;
+      color: var(--muted);
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+
+    .validation-button {
+      min-height: 28px;
+      padding: 2px 6px;
+      border-color: transparent;
+      background: transparent;
+      font-weight: 500;
+    }
+
+    .validation-ok {
+      color: var(--success);
+    }
+
+    .validation-error {
+      color: var(--error);
+    }
+
+    .filebar {
+      display: grid;
+      grid-template-columns: minmax(165px, 0.3fr) minmax(180px, 1fr) auto;
+      align-items: end;
+      gap: 8px;
+      padding: 12px;
+      border-bottom: 1px solid var(--border);
+      background: var(--subpanel);
+    }
+
+    .data-kind-field select {
+      background: var(--control-strong);
+    }
+
+    .record-tools {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 9px 12px;
+      border-bottom: 1px solid var(--border);
+      background: var(--subpanel);
+    }
+
+    .record-search {
+      min-width: 130px;
+      flex: 1;
+    }
+
+    .tabs {
+      display: inline-flex;
+      gap: 2px;
+      padding: 2px;
+      border-radius: 8px;
+      background: var(--tab-strip);
+    }
+
+    .tabs button {
+      min-height: 28px;
+      border-color: transparent;
+      background: transparent;
+      color: var(--tab-text);
+    }
+
+    .tabs button[aria-pressed="true"] {
+      background: var(--tab-selected);
+      color: var(--tab-selected-text);
+    }
+
+    .record-body {
+      min-height: 0;
+      overflow: auto;
+      background: var(--record-surface);
+    }
+
+    .record-table {
+      width: 100%;
+      border-collapse: collapse;
+      table-layout: fixed;
+    }
+
+    .record-table th,
+    .record-table td {
+      padding: 9px 12px;
+      border-bottom: 1px solid var(--row-border);
+      overflow-wrap: anywhere;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    .record-table th {
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      background: var(--table-header);
+      color: var(--table-header-text);
+      font-weight: 500;
+    }
+
+    .record-table th:nth-child(1) {
+      width: 39%;
+    }
+
+    .record-table th:nth-child(2) {
+      width: 43%;
+    }
+
+    .record-table th:nth-child(3) {
+      width: 18%;
+    }
+
+    .record-table th:nth-child(3),
+    .record-table td:nth-child(3) {
+      text-align: center;
+    }
+
+    .section-row td {
+      background: var(--subpanel);
+      color: var(--keyword);
+      font-weight: 500;
+    }
+
+    .value-string {
+      color: var(--string);
+    }
+
+    .value-number {
+      color: var(--number);
+    }
+
+    .value-keyword {
+      color: var(--keyword);
+    }
+
+    .value-null {
+      color: var(--null);
+      font-style: italic;
+    }
+
+    .field-row.is-match {
+      background: color-mix(in srgb, var(--match) 50%, transparent);
+    }
+
+    .field-row.is-current-match {
+      outline: 1px solid var(--accent);
+      outline-offset: -1px;
+    }
+
+    .cell-action {
+      min-height: 26px;
+      padding: 3px 7px;
+    }
+
+    .json-view {
+      min-height: 100%;
+      margin: 0;
+      padding: 16px;
+      overflow: visible;
+      color: var(--text);
+      font: inherit;
+      white-space: pre-wrap;
+      overflow-wrap: anywhere;
+    }
+
+    dialog {
+      width: min(760px, calc(100vw - 32px));
+      max-height: min(680px, calc(100vh - 32px));
+      padding: 0;
+      overflow: hidden;
+      border: 1px solid var(--border-strong);
+      border-radius: 8px;
+      background: var(--panel);
+      color: var(--text);
+      font: inherit;
+    }
+
+    dialog::backdrop {
+      background: rgb(0 0 0 / 60%);
+    }
+
+    .dialog-header,
+    .dialog-footer {
+      display: flex;
+      align-items: center;
+      padding: 10px 12px;
+      background: var(--subpanel);
+    }
+
+    .dialog-header {
+      justify-content: space-between;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .dialog-footer {
+      justify-content: flex-end;
+      border-top: 1px solid var(--border);
+    }
+
+    .validation-list {
+      max-height: min(520px, calc(100vh - 150px));
+      margin: 0;
+      padding: 16px 16px 16px 36px;
+      overflow: auto;
+    }
+
+    .validation-list li + li {
+      margin-top: 8px;
+    }
+
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    [hidden] {
+      display: none !important;
+    }
+
+    @media (max-width: 620px) {
+      .lens-grid {
+        grid-template-columns: minmax(135px, 0.42fr) minmax(100px, 0.35fr) minmax(180px, 1fr);
+      }
+
+      .source-grid {
+        grid-template-columns: minmax(92px, 0.35fr) minmax(180px, 1fr);
+      }
+
+      .filebar {
+        grid-template-columns: minmax(130px, 0.3fr) minmax(180px, 1fr) auto;
+      }
+
+      .wide-label {
+        display: none;
+      }
+
+      .short-label {
+        display: inline;
+      }
+
+      .record-tools {
+        flex-wrap: wrap;
+      }
+
+      .record-search {
+        flex-basis: 100%;
+      }
+    }
+
+    @media (max-width: 520px) {
+      .app {
+        grid-template-rows: max-content max-content max-content minmax(380px, 1fr);
+      }
+
+      .lens-grid {
+        grid-template-columns: minmax(0, 1fr);
+        align-items: start;
+      }
+
+      .filebar {
+        grid-template-columns: minmax(110px, 0.4fr) minmax(0, 1fr);
+      }
+
+      .filebar > button {
+        grid-column: 1 / -1;
+        justify-self: start;
+      }
+    }
+
+    @media (max-width: 420px) {
+      .app {
+        grid-template-rows: max-content max-content max-content minmax(420px, 1fr);
+        gap: 12px;
+        padding: 10px;
+      }
+
+      .appbar {
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+
+      .appbar-controls {
+        margin-left: auto;
+      }
+
+      .lens-grid,
+      .source-grid,
+      .filebar {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .product-control {
+        grid-template-columns: minmax(0, 1fr);
+      }
+
+      .decision-summary-heading {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 3px;
+      }
+
+      .filebar > button {
+        grid-column: auto;
+        justify-self: start;
+      }
+
+      .record-table th:nth-child(1) {
+        width: 38%;
+      }
+
+      .record-table th:nth-child(2) {
+        width: 40%;
+      }
+
+      .record-table th:nth-child(3) {
+        width: 22%;
+      }
+
+      .record-table th:nth-child(3),
+      .record-table td:nth-child(3) {
+        padding-right: 4px;
+        padding-left: 4px;
+      }
+
+      .cell-action {
+        padding-right: 4px;
+        padding-left: 4px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="app" aria-label="Z Product Compare">
+    <header class="appbar">
+      <div class="title">Z Product Compare</div>
+      <div class="appbar-controls">
+        <label class="sr-only" for="datasetSelect" data-i18n="dataset">データセット</label>
+        <select class="dataset-select" id="datasetSelect" data-i18n-aria="dataset" aria-label="データセット">
+          <option value="lenses" data-i18n="lenses">レンズと関連光学製品</option>
+          <option value="adapters" data-i18n="adapters">マウントアダプター</option>
+        </select>
+        <label class="sr-only" for="themeSelect" data-i18n="theme">テーマ</label>
+        <select class="theme-select" id="themeSelect" data-i18n-aria="theme" aria-label="テーマ">
+          <option value="system" data-i18n="themeSystem">システム設定</option>
+          <option value="light" data-i18n="themeLight">ライト</option>
+          <option value="dark" data-i18n="themeDark">ダーク</option>
+        </select>
+        <label class="sr-only" for="languageSelect" data-i18n="language">言語</label>
+        <select class="language-select" id="languageSelect" data-i18n-aria="language" aria-label="言語">
+          <option value="ja">日本語</option>
+          <option value="en" selected>English</option>
+        </select>
+      </div>
+    </header>
+
+    <section class="panel" aria-labelledby="lensTitle">
+      <div class="panel-heading">
+        <span class="panel-title" id="lensTitle" data-i18n="productSelection">製品選択</span>
+        <span class="heading-meta">
+          <output class="decision-status status-included" id="decisionStatus">—</output>
+          <output class="position" id="position">— / —</output>
+          <span class="stepper" role="group" data-i18n-aria="productNavigation" aria-label="製品を切り替える">
+            <button id="previousProduct" type="button" data-i18n-aria="previousProduct" aria-label="前の製品">←</button>
+            <button id="nextProduct" type="button" data-i18n-aria="nextProduct" aria-label="次の製品">→</button>
+          </span>
+        </span>
+      </div>
+      <div class="lens-grid">
+        <label class="field scope-field">
+          <span class="field-label" data-i18n="scope">表示対象</span>
+          <select id="scopeSelect"></select>
+        </label>
+        <label class="field brand">
+          <span class="field-label" data-i18n="brand">ブランド</span>
+          <select id="brandSelect"></select>
+        </label>
+        <div class="field">
+          <label class="field-label" for="productSelect" data-i18n="product">製品</label>
+          <span class="product-control">
+            <select id="productSelect"></select>
+            <button class="copy-product-name" id="copyProductName" type="button" data-i18n-aria="copyProductName" aria-label="製品名をコピー">
+              <span class="wide-label" data-i18n="copyProductNameShort">製品名コピー</span>
+              <span class="short-label" data-i18n="copy">コピー</span>
+            </button>
+          </span>
+        </div>
+      </div>
+      <div class="decision-summary">
+        <div class="decision-summary-heading">
+          <span data-i18n="decisionDetails">判断内容</span>
+          <span><span data-i18n="reviewedOn">最終確認日</span>: <time id="reviewedOn">—</time></span>
+        </div>
+        <ul class="decision-summary-list" id="decisionSummary"></ul>
+      </div>
+    </section>
+
+    <section class="panel" aria-labelledby="sourceTitle">
+      <div class="panel-heading">
+        <span class="panel-title" id="sourceTitle" data-i18n="sources">情報源</span>
+        <span class="heading-meta">
+          <output class="position" id="sourcePosition">— / —</output>
+          <span class="stepper" role="group" data-i18n-aria="sourceNavigation" aria-label="情報源を切り替える">
+            <button id="previousSource" type="button" data-i18n-aria="previousSource" aria-label="前の情報源">←</button>
+            <button id="nextSource" type="button" data-i18n-aria="nextSource" aria-label="次の情報源">→</button>
+          </span>
+        </span>
+      </div>
+      <div class="source-grid">
+        <label class="field">
+          <span class="field-label" data-i18n="source">情報源</span>
+          <select id="sourceSelect"></select>
+        </label>
+        <div class="field">
+          <label class="field-label" for="sourceUrl">URL</label>
+          <span class="copy-control">
+            <input id="sourceUrl" type="url" readonly>
+            <button id="copySourceUrl" type="button" data-i18n-aria="copyUrl" aria-label="URLをコピー">
+              <span class="wide-label" data-i18n="copyUrlShort">URLコピー</span>
+              <span class="short-label" data-i18n="copy">コピー</span>
+            </button>
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel record-panel" aria-labelledby="recordTitle">
+      <div class="panel-heading">
+        <span class="panel-title" id="recordTitle" data-i18n="data">データ</span>
+        <span class="record-heading-meta">
+          <span class="status-message" id="statusMessage" aria-live="polite"></span>
+          <button class="validation-button" id="validationButton" type="button" data-i18n="validationAction">検証</button>
+        </span>
+      </div>
+
+      <div class="filebar">
+        <label class="field data-kind-field">
+          <span class="field-label" data-i18n="displayData">表示データ</span>
+          <select id="dataKindSelect"></select>
+        </label>
+        <div class="field">
+          <label class="field-label" for="recordPath" data-i18n="file">ファイル</label>
+          <span class="copy-control">
+            <input id="recordPath" type="text" readonly>
+            <button id="copyRecordPath" type="button" data-i18n-aria="copyRecordPath" aria-label="ファイルパスをコピー">
+              <span class="wide-label" data-i18n="copyPathShort">パスコピー</span>
+              <span class="short-label" data-i18n="copy">コピー</span>
+            </button>
+          </span>
+        </div>
+        <button id="openVSCode" type="button" data-i18n="openVSCode">VS Codeで開く</button>
+      </div>
+
+      <div class="record-tools">
+        <label class="sr-only" for="recordSearch" data-i18n="recordSearchLabel">データ内検索</label>
+        <input class="record-search" id="recordSearch" type="search" data-i18n-placeholder="recordSearch" placeholder="項目・値を検索">
+        <button id="nextMatch" type="button" data-i18n-title="nextMatch" title="次の検索結果">↓ <span data-i18n="next">次</span></button>
+        <button id="toggleEmpty" type="button" aria-pressed="false" data-i18n="hideEmpty">空の値を隠す</button>
+        <div class="tabs" role="group" data-i18n-aria="viewMode" aria-label="表示形式">
+          <button id="tableTab" type="button" aria-pressed="true" data-i18n="fieldTable">フィールド一覧</button>
+          <button id="jsonTab" type="button" aria-pressed="false">JSON</button>
+        </div>
+      </div>
+
+      <div class="record-body" id="recordBody">
+        <table class="record-table" id="recordTable">
+          <thead>
+            <tr>
+              <th data-i18n="item">項目</th>
+              <th data-i18n="value">値</th>
+              <th data-i18n="copy">コピー</th>
+            </tr>
+          </thead>
+          <tbody id="recordRows"></tbody>
+        </table>
+        <pre class="json-view" id="jsonView" hidden></pre>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="validationDialog">
+    <div class="dialog-header">
+      <strong data-i18n="validation">検証結果</strong>
+      <button id="closeValidationX" type="button" data-i18n-aria="close" aria-label="閉じる">×</button>
+    </div>
+    <ol class="validation-list" id="validationList"></ol>
+    <div class="dialog-footer">
+      <button id="closeValidation" type="button" data-i18n="close">閉じる</button>
+    </div>
+  </dialog>
+
+  <script>
+    (() => {
+      "use strict";
+
+      const translations = {
+        ja: {
+          dataset: "データセット",
+          lenses: "レンズと関連光学製品",
+          adapters: "マウントアダプター",
+          theme: "テーマ",
+          themeSystem: "システム設定",
+          themeLight: "ライト",
+          themeDark: "ダーク",
+          language: "言語",
+          productSelection: "製品選択",
+          scope: "表示対象",
+          scopeIncluded: "収録済み",
+          scopeUnregistered: "収録製品データなし",
+          scopeNeedsReview: "要確認",
+          scopeExcluded: "除外",
+          scopeAll: "すべて",
+          brand: "ブランド",
+          product: "製品",
+          productNavigation: "製品を切り替える",
+          previousProduct: "前の製品",
+          nextProduct: "次の製品",
+          copyProductName: "製品名をコピー",
+          copyProductNameShort: "製品名コピー",
+          statusIncluded: "収録済み",
+          statusNeedsReview: "要確認",
+          statusExcluded: "除外",
+          decisionDetails: "判断内容",
+          canonicalRecordId: "収録製品データ: {id}",
+          exclusionReason: "除外理由: {reason}",
+          unresolvedQuestion: "未解決事項: {question}",
+          reviewedOn: "最終確認日",
+          sources: "情報源",
+          sourceNavigation: "情報源を切り替える",
+          previousSource: "前の情報源",
+          nextSource: "次の情報源",
+          source: "情報源",
+          researchSource: "調査時に確認した情報源",
+          copyUrl: "URLをコピー",
+          copyUrlShort: "URLコピー",
+          data: "データ",
+          displayData: "表示データ",
+          canonicalRecord: "収録製品データ",
+          researchResult: "調査結果データ",
+          file: "ファイル",
+          copyRecordPath: "ファイルパスをコピー",
+          copyPathShort: "パスコピー",
+          openVSCode: "VS Codeで開く",
+          recordSearchLabel: "データ内検索",
+          recordSearch: "項目・値を検索",
+          nextMatch: "次の検索結果",
+          next: "次",
+          hideEmpty: "空の値を隠す",
+          showEmpty: "空の値を表示",
+          viewMode: "表示形式",
+          fieldTable: "フィールド一覧",
+          item: "項目",
+          value: "値",
+          copy: "コピー",
+          copyValue: "{item} の値をコピー",
+          copied: "コピーしました",
+          noProducts: "製品がありません",
+          noSources: "情報源なし",
+          validation: "検証結果",
+          validationAction: "検証",
+          validationOk: "検証 OK",
+          validationErrors: "検証エラー {count}件",
+          noValidationErrors: "検証エラーはありません。",
+          close: "閉じる",
+          vscodeOpened: "VS Codeで開きました",
+          requestFailed: "操作に失敗しました: {message}",
+          catalogLoadFailed: "製品データを読み込めませんでした。",
+          unsupportedUrl: "HTTPまたはHTTPSのURLを指定してください。",
+          activeTabNotFound: "操作対象のタブが見つかりません。",
+          notFound: "要求したデータが見つかりません。",
+          forbiddenOrigin: "このページからは操作できません。",
+          invalidRequestSize: "リクエストのサイズが不正です。",
+          idRequired: "製品IDが必要です。",
+          invalidDataset: "データセットの指定が不正です。",
+          invalidKind: "データ種別の指定が不正です。",
+          unknownReviewFile: "対象ファイルが見つかりません。",
+          invalidLine: "行番号は整数で指定してください。",
+          lineOutOfRange: "行番号が範囲外です。",
+          vscodeCommandNotFound: "VS Codeのコマンドが見つかりません。VS Codeのコマンドパレットから「Shell Command: Install 'code' command in PATH」を実行してください。",
+          vscodeOpenFailed: "VS Codeでファイルを開けませんでした。",
+          vscodeExitFailed: "VS Codeのコマンドが終了ステータス {status} で失敗しました。",
+          matchCount: "検索結果 {current} / {total}",
+          noMatch: "一致する項目がありません"
+        },
+        en: {
+          dataset: "Dataset",
+          lenses: "Lenses & related optics",
+          adapters: "Mount adapters",
+          theme: "Theme",
+          themeSystem: "System",
+          themeLight: "Light",
+          themeDark: "Dark",
+          language: "Language",
+          productSelection: "Product selection",
+          scope: "Show",
+          scopeIncluded: "Included",
+          scopeUnregistered: "No canonical record",
+          scopeNeedsReview: "Needs review",
+          scopeExcluded: "Excluded",
+          scopeAll: "All",
+          brand: "Brand",
+          product: "Product",
+          productNavigation: "Switch products",
+          previousProduct: "Previous product",
+          nextProduct: "Next product",
+          copyProductName: "Copy product name",
+          copyProductNameShort: "Copy product name",
+          statusIncluded: "Included",
+          statusNeedsReview: "Needs review",
+          statusExcluded: "Excluded",
+          decisionDetails: "Decision details",
+          canonicalRecordId: "Canonical record: {id}",
+          exclusionReason: "Exclusion reason: {reason}",
+          unresolvedQuestion: "Unresolved question: {question}",
+          reviewedOn: "Last reviewed",
+          sources: "Sources",
+          sourceNavigation: "Switch sources",
+          previousSource: "Previous source",
+          nextSource: "Next source",
+          source: "Source",
+          researchSource: "Research source",
+          copyUrl: "Copy URL",
+          copyUrlShort: "Copy URL",
+          data: "Data",
+          displayData: "Displayed data",
+          canonicalRecord: "Canonical record",
+          researchResult: "Research result",
+          file: "File",
+          copyRecordPath: "Copy file path",
+          copyPathShort: "Copy path",
+          openVSCode: "Open in VS Code",
+          recordSearchLabel: "Search data",
+          recordSearch: "Search fields or values",
+          nextMatch: "Next match",
+          next: "Next",
+          hideEmpty: "Hide empty values",
+          showEmpty: "Show empty values",
+          viewMode: "View mode",
+          fieldTable: "Field list",
+          item: "Field",
+          value: "Value",
+          copy: "Copy",
+          copyValue: "Copy the value of {item}",
+          copied: "Copied",
+          noProducts: "No products",
+          noSources: "No sources",
+          validation: "Validation results",
+          validationAction: "Validation",
+          validationOk: "Validation OK",
+          validationErrors: "Validation errors: {count}",
+          noValidationErrors: "No validation errors.",
+          close: "Close",
+          vscodeOpened: "Opened in VS Code",
+          requestFailed: "Action failed: {message}",
+          catalogLoadFailed: "Could not load the product data.",
+          unsupportedUrl: "Enter an HTTP or HTTPS URL.",
+          activeTabNotFound: "Could not find the active tab.",
+          notFound: "The requested data was not found.",
+          forbiddenOrigin: "This action is not available from the current page.",
+          invalidRequestSize: "The request size is invalid.",
+          idRequired: "A product ID is required.",
+          invalidDataset: "The dataset is invalid.",
+          invalidKind: "The data type is invalid.",
+          unknownReviewFile: "The requested file was not found.",
+          invalidLine: "The line number must be an integer.",
+          lineOutOfRange: "The line number is out of range.",
+          vscodeCommandNotFound: "The VS Code command was not found. Run \"Shell Command: Install 'code' command in PATH\" from the VS Code Command Palette.",
+          vscodeOpenFailed: "Could not open the file in VS Code.",
+          vscodeExitFailed: "The VS Code command failed with exit status {status}.",
+          matchCount: "Search result {current} / {total}",
+          noMatch: "No matching items"
+        }
+      };
+
+      const sidePanelMode = new URL(window.location.href).searchParams.get("sidepanel") === "1";
+
+      const elements = Object.fromEntries(
+        [...document.querySelectorAll("[id]")].map((element) => [element.id, element])
+      );
+      const savedTheme = localStorage.getItem("zproduct-review-theme");
+      const savedDataset = localStorage.getItem("zproduct-review-dataset");
+      const state = {
+        catalog: null,
+        products: [],
+        filteredProducts: [],
+        visibleProducts: [],
+        product: null,
+        fields: [],
+        matches: [],
+        matchIndex: -1,
+        sourceIndex: 0,
+        dataset: ["lenses", "adapters"].includes(savedDataset) ? savedDataset : "lenses",
+        scope: "included",
+        dataKind: "record",
+        hideEmpty: false,
+        view: "table",
+        theme: ["light", "dark"].includes(savedTheme) ? savedTheme : "system",
+        language: localStorage.getItem("zproduct-review-language") || "en"
+      };
+      let statusTimer;
+
+      const text = (key, values = {}) => {
+        let value = translations[state.language]?.[key] || translations.en[key] || key;
+        Object.entries(values).forEach(([name, replacement]) => {
+          value = value.replace(`{${name}}`, String(replacement));
+        });
+        return value;
+      };
+
+      const errorText = (message) => {
+        if (typeof message !== "string") return String(message ?? "");
+        const exact = {
+          "not found": "notFound",
+          "forbidden origin": "forbiddenOrigin",
+          "invalid request size": "invalidRequestSize",
+          "id is required": "idRequired",
+          "dataset must be lenses or adapters": "invalidDataset",
+          "kind must be record or research": "invalidKind",
+          "unknown review file": "unknownReviewFile",
+          "line must be an integer": "invalidLine",
+          "line is out of range": "lineOutOfRange",
+          unsupportedUrl: "unsupportedUrl",
+          activeTabNotFound: "activeTabNotFound"
+        }[message];
+        if (exact) return text(exact);
+        if (message.startsWith("VS Code command was not found.")) {
+          return text("vscodeCommandNotFound");
+        }
+        if (message.startsWith("could not open VS Code:")) return text("vscodeOpenFailed");
+        const exitStatus = message.match(/^VS Code command exited with status (\d+)$/)?.[1];
+        if (exitStatus) return text("vscodeExitFailed", { status: exitStatus });
+        return message;
+      };
+
+      const showStatus = (message) => {
+        window.clearTimeout(statusTimer);
+        elements.statusMessage.textContent = message;
+        statusTimer = window.setTimeout(() => {
+          elements.statusMessage.textContent = "";
+        }, 2800);
+      };
+
+      const copyText = async (value) => {
+        try {
+          await navigator.clipboard.writeText(value);
+        } catch {
+          const input = document.createElement("textarea");
+          input.value = value;
+          input.style.position = "fixed";
+          input.style.opacity = "0";
+          document.body.append(input);
+          input.select();
+          document.execCommand("copy");
+          input.remove();
+        }
+        showStatus(text("copied"));
+      };
+
+      const valueText = (value) => typeof value === "string" ? value : JSON.stringify(value);
+      const displayValue = (value) => JSON.stringify(value);
+      const valueClass = (value) => {
+        if (value === null) return "value-null";
+        if (typeof value === "string") return "value-string";
+        if (typeof value === "number") return "value-number";
+        return "value-keyword";
+      };
+      const isEmptyValue = (value) => (
+        value === null || (Array.isArray(value) && !value.length)
+      );
+
+      const flatten = (value, path, rows) => {
+        if (Array.isArray(value)) {
+          if (!value.length) rows.push({ path, value });
+          value.forEach((item, index) => flatten(item, `${path}[${index}]`, rows));
+          return;
+        }
+        if (value !== null && typeof value === "object") {
+          const entries = Object.entries(value);
+          if (!entries.length) rows.push({ path, value });
+          entries.forEach(([key, item]) => flatten(item, path ? `${path}.${key}` : key, rows));
+          return;
+        }
+        rows.push({ path, value });
+      };
+
+      const makeCopyButton = (field) => {
+        const button = document.createElement("button");
+        button.type = "button";
+        button.className = "cell-action";
+        button.textContent = text("copy");
+        button.setAttribute("aria-label", text("copyValue", { item: field.path }));
+        button.addEventListener("click", () => copyText(valueText(field.value)));
+        return button;
+      };
+
+      const updateEmptyButton = () => {
+        elements.toggleEmpty.textContent = text(state.hideEmpty ? "showEmpty" : "hideEmpty");
+        elements.toggleEmpty.setAttribute("aria-pressed", String(state.hideEmpty));
+      };
+
+      const currentData = () => {
+        if (!state.product) return null;
+        if (state.dataKind === "record" && state.product.record) {
+          return { value: state.product.record, path: state.product.recordPath };
+        }
+        return { value: state.product.research, path: state.product.researchPath };
+      };
+
+      const renderRecord = () => {
+        const reviewData = currentData();
+        if (!reviewData) return;
+        const query = elements.recordSearch.value;
+        elements.recordRows.replaceChildren();
+        state.fields = [];
+
+        const appendSection = (section, rows) => {
+          const heading = document.createElement("tr");
+          const headingCell = document.createElement("td");
+          heading.className = "section-row";
+          headingCell.colSpan = 3;
+          headingCell.textContent = section;
+          heading.append(headingCell);
+          elements.recordRows.append(heading);
+
+          rows.forEach((field) => {
+            const row = document.createElement("tr");
+            const itemCell = document.createElement("td");
+            const valueCell = document.createElement("td");
+            const copyCell = document.createElement("td");
+            row.className = "field-row";
+            row.hidden = state.hideEmpty && isEmptyValue(field.value);
+            itemCell.textContent = field.path;
+            valueCell.className = valueClass(field.value);
+            valueCell.textContent = displayValue(field.value);
+            copyCell.append(makeCopyButton(field));
+            row.append(itemCell, valueCell, copyCell);
+            elements.recordRows.append(row);
+            state.fields.push({ ...field, row });
+          });
+        };
+
+        const rootRows = [];
+        const sections = [];
+        Object.entries(reviewData.value).forEach(([section, value]) => {
+          if (value !== null && typeof value === "object") {
+            const rows = [];
+            flatten(value, section, rows);
+            sections.push({ section, rows });
+          } else {
+            rootRows.push({ path: section, value });
+          }
+        });
+        appendSection(state.dataKind, rootRows);
+        sections.forEach(({ section, rows }) => appendSection(section, rows));
+
+        elements.jsonView.textContent = JSON.stringify(reviewData.value, null, 2);
+        updateEmptyButton();
+        updateMatches(query);
+        setView(state.view);
+      };
+
+      const setView = (view) => {
+        state.view = view;
+        const json = view === "json";
+        elements.recordTable.hidden = json;
+        elements.jsonView.hidden = !json;
+        elements.tableTab.setAttribute("aria-pressed", String(!json));
+        elements.jsonTab.setAttribute("aria-pressed", String(json));
+      };
+
+      const updateMatches = (query = elements.recordSearch.value) => {
+        const normalized = query.trim().toLocaleLowerCase();
+        state.matches = [];
+        state.matchIndex = -1;
+        state.fields.forEach((field) => {
+          const matches = normalized && `${field.path} ${displayValue(field.value)}`
+            .toLocaleLowerCase().includes(normalized);
+          field.row.classList.toggle("is-match", Boolean(matches));
+          field.row.classList.remove("is-current-match");
+          if (matches && !field.row.hidden) state.matches.push(field);
+        });
+      };
+
+      const nextMatch = () => {
+        if (!state.matches.length) {
+          showStatus(text("noMatch"));
+          return;
+        }
+        setView("table");
+        state.fields.forEach((field) => field.row.classList.remove("is-current-match"));
+        state.matchIndex = (state.matchIndex + 1) % state.matches.length;
+        const field = state.matches[state.matchIndex];
+        field.row.classList.add("is-current-match");
+        field.row.scrollIntoView({ block: "center" });
+        showStatus(text("matchCount", {
+          current: state.matchIndex + 1,
+          total: state.matches.length
+        }));
+      };
+
+      const toggleEmpty = () => {
+        state.hideEmpty = !state.hideEmpty;
+        state.fields.forEach((field) => {
+          field.row.hidden = state.hideEmpty && isEmptyValue(field.value);
+        });
+        updateEmptyButton();
+        updateMatches();
+      };
+
+      const renderDecision = () => {
+        if (!state.product) return;
+        const statusKeys = {
+          included: "statusIncluded",
+          "needs-review": "statusNeedsReview",
+          excluded: "statusExcluded"
+        };
+        elements.decisionStatus.className = `decision-status status-${state.product.status}`;
+        elements.decisionStatus.textContent = text(statusKeys[state.product.status]);
+        elements.reviewedOn.dateTime = state.product.reviewedOn;
+        elements.reviewedOn.textContent = state.product.reviewedOn;
+        elements.decisionSummary.replaceChildren();
+
+        const lines = [];
+        const decision = state.product.research.decision;
+        if (state.product.status === "included") {
+          lines.push(text("canonicalRecordId", { id: decision.recordId }));
+        } else if (state.product.status === "excluded") {
+          lines.push(text("exclusionReason", { reason: decision.reason }));
+        } else {
+          (state.product.research.unresolved || []).forEach((question) => {
+            lines.push(text("unresolvedQuestion", { question }));
+          });
+        }
+        lines.forEach((line) => {
+          const item = document.createElement("li");
+          item.textContent = line;
+          elements.decisionSummary.append(item);
+        });
+      };
+
+      const matchesScope = (product) => {
+        if (state.scope === "all") return true;
+        if (state.scope === "unregistered") return product.status !== "included";
+        return product.status === state.scope;
+      };
+
+      const populateScopes = () => {
+        const datasetProducts = state.products.filter(
+          (product) => product.dataset === state.dataset
+        );
+        const options = [
+          ["included", "scopeIncluded", (product) => product.status === "included"],
+          ["unregistered", "scopeUnregistered", (product) => product.status !== "included"],
+          ["needs-review", "scopeNeedsReview", (product) => product.status === "needs-review"],
+          ["excluded", "scopeExcluded", (product) => product.status === "excluded"],
+          ["all", "scopeAll", () => true]
+        ];
+        elements.scopeSelect.replaceChildren();
+        options.forEach(([value, label, predicate]) => {
+          const option = document.createElement("option");
+          option.value = value;
+          option.textContent = `${text(label)} (${datasetProducts.filter(predicate).length})`;
+          elements.scopeSelect.append(option);
+        });
+        elements.scopeSelect.value = state.scope;
+      };
+
+      const populateDataKinds = () => {
+        if (!state.product) return;
+        const kinds = state.product.record
+          ? [["record", "canonicalRecord"], ["research", "researchResult"]]
+          : [["research", "researchResult"]];
+        if (!kinds.some(([kind]) => kind === state.dataKind)) {
+          state.dataKind = kinds[0][0];
+        }
+        elements.dataKindSelect.replaceChildren();
+        kinds.forEach(([kind, label]) => {
+          const option = document.createElement("option");
+          option.value = kind;
+          option.textContent = text(label);
+          elements.dataKindSelect.append(option);
+        });
+        elements.dataKindSelect.value = state.dataKind;
+        elements.recordPath.value = currentData()?.path || "";
+      };
+
+      const sourceLabel = (source) => {
+        const host = new URL(source.url).hostname;
+        if (source.kind === "officialProductPage") {
+          const details = [
+            ...(Array.isArray(source.pageFamilies)
+              ? source.pageFamilies.map((value) => value.charAt(0).toUpperCase() + value.slice(1))
+              : []),
+            source.region,
+            source.language
+          ].filter(Boolean).join(" / ");
+          return details || host;
+        }
+        return `${text("researchSource")} · ${source.description || host}`;
+      };
+
+      const navigateSource = (url) => {
+        if (sidePanelMode && window.parent !== window) {
+          window.parent.postMessage({ type: "zproduct:navigate", url }, "*");
+        }
+      };
+
+      const showSource = (index, navigate = true) => {
+        const sources = state.product?.sources || [];
+        const source = sources[index];
+        const enabled = Boolean(source);
+        state.sourceIndex = enabled ? index : 0;
+        elements.sourceSelect.disabled = !enabled;
+        elements.copySourceUrl.disabled = !enabled;
+        elements.previousSource.disabled = sources.length < 2;
+        elements.nextSource.disabled = sources.length < 2;
+        elements.sourcePosition.textContent = enabled ? `${index + 1} / ${sources.length}` : "0 / 0";
+        elements.sourceUrl.value = source?.url || "";
+        if (enabled) {
+          elements.sourceSelect.value = String(index);
+          if (navigate) navigateSource(source.url);
+        }
+      };
+
+      const renderSources = (selectedIndex = 0, navigate = true) => {
+        if (!state.product) return;
+        const sources = state.product.sources;
+        elements.sourceSelect.replaceChildren();
+        if (!sources.length) {
+          const option = document.createElement("option");
+          option.textContent = text("noSources");
+          elements.sourceSelect.append(option);
+        }
+        sources.forEach((source, index) => {
+          const option = document.createElement("option");
+          option.value = String(index);
+          option.textContent = sourceLabel(source);
+          elements.sourceSelect.append(option);
+        });
+        const index = Math.min(selectedIndex, Math.max(0, sources.length - 1));
+        showSource(index, navigate);
+      };
+
+      const moveSource = (amount) => {
+        const sources = state.product?.sources || [];
+        if (sources.length < 2) return;
+        const index = (state.sourceIndex + amount + sources.length) % sources.length;
+        showSource(index);
+      };
+
+      const populateBrands = (selected = "") => {
+        const brands = [...new Set(state.filteredProducts.map((product) => product.brand))]
+          .sort((a, b) => a.localeCompare(b));
+        elements.brandSelect.replaceChildren();
+        brands.forEach((brand) => {
+          const option = document.createElement("option");
+          option.value = brand;
+          option.textContent = brand;
+          elements.brandSelect.append(option);
+        });
+        elements.brandSelect.value = brands.includes(selected) ? selected : (brands[0] || "");
+        elements.brandSelect.disabled = !brands.length;
+      };
+
+      const populateProducts = (brand, selectedId = "") => {
+        state.visibleProducts = state.filteredProducts.filter((product) => product.brand === brand);
+        elements.productSelect.replaceChildren();
+        state.visibleProducts.forEach((product) => {
+          const option = document.createElement("option");
+          option.value = product.id;
+          option.textContent = product.productName;
+          elements.productSelect.append(option);
+        });
+        const selected = state.visibleProducts.find((product) => product.id === selectedId)
+          || state.visibleProducts[0];
+        elements.productSelect.disabled = !selected;
+        if (selected) elements.productSelect.value = selected.id;
+        return selected;
+      };
+
+      const renderProduct = (product, navigate = true) => {
+        if (!product) {
+          showStatus(text("noProducts"));
+          return;
+        }
+        state.product = product;
+        state.matchIndex = -1;
+        state.sourceIndex = 0;
+        state.dataKind = product.record ? "record" : "research";
+        localStorage.setItem("zproduct-review-product", product.id);
+        const url = new URL(window.location.href);
+        url.searchParams.set("dataset", product.dataset);
+        url.searchParams.set("id", product.id);
+        history.replaceState(null, "", url);
+        elements.brandSelect.value = product.brand;
+        populateProducts(product.brand, product.id);
+        const filteredIndex = state.filteredProducts.findIndex((item) => item.id === product.id);
+        elements.position.textContent = `${filteredIndex + 1} / ${state.filteredProducts.length}`;
+        elements.previousProduct.disabled = state.filteredProducts.length < 2;
+        elements.nextProduct.disabled = state.filteredProducts.length < 2;
+        renderDecision();
+        populateDataKinds();
+        renderSources(0, navigate);
+        renderRecord();
+        elements.recordBody.scrollTo(0, 0);
+      };
+
+      const moveProduct = (amount) => {
+        if (!state.product || !state.filteredProducts.length) return;
+        const index = state.filteredProducts.findIndex((product) => product.id === state.product.id);
+        const nextIndex = (index + amount + state.filteredProducts.length)
+          % state.filteredProducts.length;
+        const product = state.filteredProducts[nextIndex];
+        if (product.brand !== elements.brandSelect.value) {
+          populateBrands(product.brand);
+        }
+        renderProduct(product);
+      };
+
+      const applyScope = (preferred = state.product) => {
+        state.filteredProducts = state.products.filter(
+          (product) => product.dataset === state.dataset && matchesScope(product)
+        );
+        const selected = state.filteredProducts.find((product) => product.id === preferred?.id)
+          || state.filteredProducts[0];
+        populateBrands(selected?.brand || "");
+        renderProduct(selected);
+      };
+
+      const renderValidation = () => {
+        if (!state.catalog) return;
+        const diagnostics = state.catalog.validation;
+        elements.validationButton.textContent = diagnostics.length
+          ? text("validationErrors", { count: diagnostics.length })
+          : text("validationOk");
+        elements.validationButton.className = diagnostics.length
+          ? "validation-button validation-error"
+          : "validation-button validation-ok";
+        elements.validationList.replaceChildren();
+        if (!diagnostics.length) {
+          const item = document.createElement("li");
+          item.textContent = text("noValidationErrors");
+          elements.validationList.append(item);
+          return;
+        }
+        diagnostics.forEach((diagnostic) => {
+          const item = document.createElement("li");
+          item.textContent = diagnostic;
+          elements.validationList.append(item);
+        });
+      };
+
+      const applyLanguage = () => {
+        document.documentElement.lang = state.language;
+        elements.datasetSelect.value = state.dataset;
+        elements.languageSelect.value = state.language;
+        document.querySelectorAll("[data-i18n]").forEach((element) => {
+          element.textContent = text(element.dataset.i18n);
+        });
+        document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => {
+          element.placeholder = text(element.dataset.i18nPlaceholder);
+        });
+        document.querySelectorAll("[data-i18n-title]").forEach((element) => {
+          element.title = text(element.dataset.i18nTitle);
+        });
+        document.querySelectorAll("[data-i18n-aria]").forEach((element) => {
+          element.setAttribute("aria-label", text(element.dataset.i18nAria));
+        });
+        populateScopes();
+        if (state.product) {
+          renderDecision();
+          populateDataKinds();
+          renderSources(state.sourceIndex, false);
+          renderRecord();
+        }
+        renderValidation();
+      };
+
+      const applyTheme = () => {
+        document.documentElement.dataset.theme = state.theme;
+        elements.themeSelect.value = state.theme;
+      };
+
+      const openVSCode = async () => {
+        const reviewData = currentData();
+        if (!state.product || !reviewData) return;
+        const json = JSON.stringify(reviewData.value, null, 2).split("\n");
+        const nameKey = state.dataKind === "record" ? '"productName"' : '"name"';
+        const productNameLine = json.findIndex((line) => line.includes(nameKey)) + 1;
+        try {
+          const response = await fetch("/api/open-vscode", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({
+              dataset: state.product.dataset,
+              id: state.product.id,
+              kind: state.dataKind,
+              line: Math.max(1, productNameLine)
+            })
+          });
+          const result = await response.json();
+          if (!response.ok) throw new Error(result.error || response.statusText);
+          showStatus(text("vscodeOpened"));
+        } catch (error) {
+          showStatus(text("requestFailed", { message: errorText(error.message) }));
+        }
+      };
+
+      elements.previousProduct.addEventListener("click", () => moveProduct(-1));
+      elements.nextProduct.addEventListener("click", () => moveProduct(1));
+      elements.scopeSelect.addEventListener("change", () => {
+        state.scope = elements.scopeSelect.value;
+        applyScope();
+      });
+      elements.brandSelect.addEventListener("change", () => {
+        const selected = populateProducts(elements.brandSelect.value);
+        renderProduct(selected);
+      });
+      elements.productSelect.addEventListener("change", () => {
+        const product = state.filteredProducts.find(
+          (item) => item.id === elements.productSelect.value
+        );
+        renderProduct(product);
+      });
+      elements.datasetSelect.addEventListener("change", () => {
+        state.dataset = elements.datasetSelect.value;
+        localStorage.setItem("zproduct-review-dataset", state.dataset);
+        populateScopes();
+        applyScope();
+      });
+      elements.themeSelect.addEventListener("change", () => {
+        state.theme = elements.themeSelect.value;
+        localStorage.setItem("zproduct-review-theme", state.theme);
+        applyTheme();
+      });
+      elements.languageSelect.addEventListener("change", () => {
+        state.language = elements.languageSelect.value;
+        localStorage.setItem("zproduct-review-language", state.language);
+        applyLanguage();
+      });
+      elements.previousSource.addEventListener("click", () => moveSource(-1));
+      elements.nextSource.addEventListener("click", () => moveSource(1));
+      elements.sourceSelect.addEventListener("change", () => showSource(Number(elements.sourceSelect.value)));
+      elements.copySourceUrl.addEventListener("click", () => {
+        const source = state.product?.sources[state.sourceIndex];
+        if (source) copyText(source.url);
+      });
+      elements.copyProductName.addEventListener("click", () => {
+        if (state.product) copyText(state.product.productName);
+      });
+      elements.copyRecordPath.addEventListener("click", () => {
+        const reviewData = currentData();
+        if (reviewData) copyText(reviewData.path);
+      });
+      elements.openVSCode.addEventListener("click", openVSCode);
+      elements.dataKindSelect.addEventListener("change", () => {
+        state.dataKind = elements.dataKindSelect.value;
+        populateDataKinds();
+        renderRecord();
+        elements.recordBody.scrollTo(0, 0);
+      });
+      elements.tableTab.addEventListener("click", () => setView("table"));
+      elements.jsonTab.addEventListener("click", () => setView("json"));
+      elements.recordSearch.addEventListener("input", () => updateMatches());
+      elements.recordSearch.addEventListener("keydown", (event) => {
+        if (event.key === "Enter") {
+          event.preventDefault();
+          nextMatch();
+        }
+      });
+      elements.nextMatch.addEventListener("click", nextMatch);
+      elements.toggleEmpty.addEventListener("click", toggleEmpty);
+      elements.validationButton.addEventListener("click", () => elements.validationDialog.showModal());
+      elements.closeValidation.addEventListener("click", () => elements.validationDialog.close());
+      elements.closeValidationX.addEventListener("click", () => elements.validationDialog.close());
+
+      window.addEventListener("message", (event) => {
+        if (!sidePanelMode || !event.origin.startsWith("chrome-extension://")) return;
+        if (event.data?.type === "zproduct:navigate-result" && !event.data.ok) {
+          showStatus(text("requestFailed", { message: errorText(event.data.message) }));
+        }
+      });
+
+      document.addEventListener("keydown", (event) => {
+        const editable = ["INPUT", "SELECT", "TEXTAREA"].includes(event.target.tagName);
+        if (editable) return;
+        if (event.key === "ArrowLeft") moveProduct(-1);
+        if (event.key === "ArrowRight") moveProduct(1);
+        if (event.key.toLocaleLowerCase() === "t") setView(state.view === "table" ? "json" : "table");
+        if (event.key.toLocaleLowerCase() === "n") toggleEmpty();
+      });
+
+      const initialize = async () => {
+        try {
+          const response = await fetch("/api/catalog");
+          if (!response.ok) throw new Error(response.statusText);
+          state.catalog = await response.json();
+          state.products = state.catalog.products;
+          if (!translations[state.language]) state.language = "en";
+          const query = new URL(window.location.href).searchParams;
+          const queryDataset = query.get("dataset");
+          if (["lenses", "adapters"].includes(queryDataset)) state.dataset = queryDataset;
+          const queryId = query.get("id");
+          const queryProduct = state.products.find(
+            (product) => product.dataset === state.dataset && product.id === queryId
+          );
+          if (queryProduct?.status !== "included") {
+            state.scope = queryProduct?.status || "included";
+          }
+          const savedId = localStorage.getItem("zproduct-review-product");
+          const preferred = queryProduct
+            || state.products.find(
+              (product) => product.dataset === state.dataset
+                && product.id === savedId
+                && product.status === "included"
+            );
+          applyLanguage();
+          applyScope(preferred);
+          if (sidePanelMode && window.parent !== window) {
+            window.parent.postMessage({ type: "zproduct:loaded" }, "*");
+          }
+        } catch (error) {
+          showStatus(text("requestFailed", { message: text("catalogLoadFailed") }));
+        }
+      };
+
+      applyLanguage();
+      applyTheme();
+      initialize();
+    })();
+  </script>
+</body>
+</html>

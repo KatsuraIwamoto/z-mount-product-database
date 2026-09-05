@@ -1,0 +1,36 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "c7adapters-nikon-f-nikon-z",
+  "subject": {
+    "manufacturerId": "c7adapters",
+    "brandId": "c7adapters",
+    "name": "Nikon F – Nikon Z"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "c7adapters-nikon-f-nikon-z"
+  },
+  "sources": [
+    {
+      "url": "https://c7adapters.com/adapters/nikon-z/nikon-f-nikon-z/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

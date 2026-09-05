@@ -1,0 +1,55 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "vello-la-nz-cef",
+  "subject": {
+    "manufacturerId": "gradus-group",
+    "brandId": "vello",
+    "name": "Canon EF/EF-S Lens to Nikon Z-Mount Camera Lens Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "vello-la-nz-cef"
+  },
+  "sources": [
+    {
+      "url": "https://www.vellogear.com/products/Lens-Accessories/Lens-Mount-Adapters",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://www.vellogear.com/product/14054/Vello-LA_NZ_CEF-Lens-Adapter-for-Canon-EF-and-EF_S-Lens-to-Nikon-Z-Mount-Camera-",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1447574-REG/vello_la_nz_cef_canon_ef_s_lens_to.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "physical.weightMeasurements"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

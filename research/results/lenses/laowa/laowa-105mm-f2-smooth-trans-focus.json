@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "laowa-105mm-f2-smooth-trans-focus",
+  "subject": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "name": "LAOWA 105mm F2 Smooth Trans Focus"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The 105mm F2 Smooth Trans Focus has no Nikon Z configuration. LAOWA's separately sold Magic Shift Converter is a broad F/EF-to-Z optical adapter rather than a supplied or lens-dedicated adapter and changes focal length and function, so this lens remains excluded."
+  },
+  "sources": [
+    {
+      "url": "https://www.venuslens.net/shop/?product_tag=Z&product_view=list",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.venuslens.net/product/laowa-magic-shift-converter-msc-efz/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

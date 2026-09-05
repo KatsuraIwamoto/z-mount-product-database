@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "kf-concept-kf06-495",
+  "identity": {
+    "manufacturerId": "kf-concept",
+    "brandId": "kf-concept",
+    "productName": "Konica AR Lens to Nikon Z Mount Camera Adapter",
+    "modelNumberOptions": [
+      "KF06.495",
+      "KF-ARZ"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.kentfaith.co.uk/KF06.495_konica-series-lens-to-nikon-z-series-mount-camera-high-precision-lens-adapter-k-ar-nik-z",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": "GB",
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "K&F CONCEPT"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "konica-ar",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": [],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": false
+  }
+}

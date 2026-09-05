@@ -1,0 +1,40 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "astrhori-120mm-f5p6-2x-macro",
+  "subject": {
+    "manufacturerId": "astrhori",
+    "brandId": "astrhori",
+    "name": "AstrHori 120mm F5.6 Macro 2X"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "AstrHori's official 120mm 2x macro product is the MF 120mm F2.8 Full-frame Macro Lens, which is already represented by astrhori-mf-120mm-f2p8-2x-macro; no separate 120mm F5.6 product was found."
+  },
+  "sources": [
+    {
+      "url": "https://www.astrhori.cn/collections/all-products",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.com/cp",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

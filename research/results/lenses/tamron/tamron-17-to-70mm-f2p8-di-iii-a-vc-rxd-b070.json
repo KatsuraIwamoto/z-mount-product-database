@@ -1,0 +1,226 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "tamron-17-to-70mm-f2p8-di-iii-a-vc-rxd-b070",
+  "subject": {
+    "manufacturerId": "tamron",
+    "brandId": "tamron",
+    "name": "17-70mm F/2.8 Di III-A VC RXD"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "tamron-17-to-70mm-f2p8-di-iii-a-vc-rxd-b070"
+  },
+  "sources": [
+    {
+      "url": "https://www.tamron.com/jp/consumer/lenses/b070/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.modelNumberOptions",
+        "officialProductPages",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "controls",
+        "accessories",
+        "electronicServices",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/lenses/b070/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.filterInterfaces",
+        "controls",
+        "accessories",
+        "electronicServices",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.coatings",
+        "lens.focus",
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://tamron-americas.com/product/17-70mm-f-2-8-di-iii-a-vc-rxd/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "controls",
+        "accessories",
+        "electronicServices",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/support/download/firmware/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "mount",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/soft/lensutility/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "controls",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/news/detail/b070rf_z_20260624.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.focus"
+      ],
+      "decisionChecks": [
+        "availability",
+        "licensing",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/sp/compare/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "specification",
+      "checked": [
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "controls",
+        "accessories",
+        "electronicServices",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/tamron-docs/consumer/support/download/inst/b070/b070_inst_2606_en.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "accessories",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/lenses/b070/spec.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "specification",
+      "checked": [
+        "mount.electronicContacts",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/glossary/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "physical.externalLengthDuringZoom",
+        "physical.externalLengthDuringFocus",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/accessories/rear_caps/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/accessories/tripod_mounts/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/tamron-docs/consumer/support/download/catalog/all-lenses_en.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "controls",
+        "accessories",
+        "lens.coatings",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/technology/lens/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/technology/coating/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "lens.coatings"
+      ]
+    }
+  ]
+}

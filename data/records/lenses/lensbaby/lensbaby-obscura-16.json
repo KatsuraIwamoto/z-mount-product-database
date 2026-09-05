@@ -1,0 +1,85 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "lensbaby-obscura-16",
+  "productType": "pinhole",
+  "identity": {
+    "manufacturerId": "lensbaby",
+    "brandId": "lensbaby",
+    "productName": "Lensbaby Obscura 16",
+    "modelNumberOptions": [
+      "LBO16NZ"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.kenko-tokina.co.jp/camera-lens/lensbaby/stand-alone-lens/obscura16.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "Kenko Tokina Co., Ltd."
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": null
+  },
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": [
+      {
+        "grams": 152,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [],
+    "tripodSupport": null,
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": null
+  },
+  "controls": null,
+  "accessories": null,
+  "electronicServices": null,
+  "pinhole": {
+    "coverage": {
+      "format": "full-frame"
+    },
+    "focalLength": {
+      "kind": "fixed",
+      "millimeters": 16
+    },
+    "imagingModes": [
+      {
+        "type": "zone-plate",
+        "fNumber": 22,
+        "opening": null
+      },
+      {
+        "type": "pinhole-sieve",
+        "fNumber": 45,
+        "opening": null
+      },
+      {
+        "type": "pinhole",
+        "fNumber": 90,
+        "opening": null
+      }
+    ],
+    "anglesOfView": null
+  }
+}

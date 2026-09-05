@@ -1,0 +1,711 @@
+{
+  "$schema": "../schemas/internal/product-manufacturer-brand-registry.schema.json",
+  "manufacturers": [
+    {
+      "id": "7artisans",
+      "name": "7Artisans"
+    },
+    {
+      "id": "artra-lab",
+      "name": "Artra Lab"
+    },
+    {
+      "id": "astrhori",
+      "name": "AstrHori"
+    },
+    {
+      "id": "blazar-lens",
+      "name": "Blazar Lens"
+    },
+    {
+      "id": "brightin-star",
+      "name": "Brightin Star"
+    },
+    {
+      "id": "cheecar",
+      "name": "福建契卡摄影器材有限公司"
+    },
+    {
+      "id": "carl-zeiss-ag",
+      "name": "Carl Zeiss AG"
+    },
+    {
+      "id": "cooke-optics-limited",
+      "name": "Cooke Optics Limited"
+    },
+    {
+      "id": "cosina",
+      "name": "Cosina"
+    },
+    {
+      "id": "dzofilm",
+      "name": "DZOFILM"
+    },
+    {
+      "id": "funleader",
+      "name": "Funleader"
+    },
+    {
+      "id": "gizmon",
+      "name": "GIZMON"
+    },
+    {
+      "id": "hartblei",
+      "name": "HARTBLEI"
+    },
+    {
+      "id": "kamlan",
+      "name": "KamLan"
+    },
+    {
+      "id": "kase",
+      "name": "Kase"
+    },
+    {
+      "id": "kenko-tokina",
+      "name": "Kenko Tokina Co., Ltd."
+    },
+    {
+      "id": "kipon",
+      "name": "KIPON"
+    },
+    {
+      "id": "leitz-cine",
+      "name": "Leitz Cine"
+    },
+    {
+      "id": "lensbaby",
+      "name": "Lensbaby"
+    },
+    {
+      "id": "lightdow",
+      "name": "Lightdow"
+    },
+    {
+      "id": "lomography",
+      "name": "Lomography"
+    },
+    {
+      "id": "meike",
+      "name": "Meike"
+    },
+    {
+      "id": "meyer-optik-gorlitz",
+      "name": "Meyer Optik Görlitz"
+    },
+    {
+      "id": "mr-ding-studio",
+      "name": "MR.DING Studio"
+    },
+    {
+      "id": "nikon",
+      "name": "Nikon"
+    },
+    {
+      "id": "nisi",
+      "name": "NiSi"
+    },
+    {
+      "id": "opteka",
+      "name": "Opteka"
+    },
+    {
+      "id": "pergear",
+      "name": "PERGEAR"
+    },
+    {
+      "id": "polarpro",
+      "name": "PolarPro"
+    },
+    {
+      "id": "retropia",
+      "name": "Retropia"
+    },
+    {
+      "id": "rollei-gmbh-co-kg",
+      "name": "Rollei GmbH & Co. KG"
+    },
+    {
+      "id": "samyang-optics",
+      "name": "Samyang Optics"
+    },
+    {
+      "id": "sg-image",
+      "name": "SG-image"
+    },
+    {
+      "id": "sigma",
+      "name": "Sigma"
+    },
+    {
+      "id": "simmod-lens",
+      "name": "Simmod Lens"
+    },
+    {
+      "id": "sirui",
+      "name": "SIRUI"
+    },
+    {
+      "id": "songraw",
+      "name": "SongRaw"
+    },
+    {
+      "id": "tamron",
+      "name": "Tamron"
+    },
+    {
+      "id": "thingyfy",
+      "name": "Thingyfy"
+    },
+    {
+      "id": "th-swiss-ag",
+      "name": "TH Swiss AG"
+    },
+    {
+      "id": "thypoch",
+      "name": "Thypoch"
+    },
+    {
+      "id": "ttartisan",
+      "name": "TTArtisan"
+    },
+    {
+      "id": "venus-optics",
+      "name": "Venus Optics"
+    },
+    {
+      "id": "viltrox",
+      "name": "Viltrox"
+    },
+    {
+      "id": "yasuhara",
+      "name": "YASUHARA Co., Ltd."
+    },
+    {
+      "id": "yongnuo",
+      "name": "YONGNUO"
+    },
+    {
+      "id": "zhongyi-optics",
+      "name": "Zhongyi Optics"
+    },
+    {
+      "id": "boryoza",
+      "name": "永康市三水摄影器材有限公司"
+    },
+    {
+      "id": "c7adapters",
+      "name": "Foto-Akcesoria Ryszard Jankowski"
+    },
+    {
+      "id": "cine-gear-pro",
+      "name": "Cine Gear Pro Ltd"
+    },
+    {
+      "id": "commlite",
+      "name": "Commlite"
+    },
+    {
+      "id": "denz",
+      "name": "DENZ Präzisions-Entwicklung GmbH"
+    },
+    {
+      "id": "fotodiox",
+      "name": "Fotodiox, Inc."
+    },
+    {
+      "id": "fringer",
+      "name": "Fringer"
+    },
+    {
+      "id": "funmount",
+      "name": "Hangzhou Xunying Technology Co., Ltd."
+    },
+    {
+      "id": "gradus-group",
+      "name": "Gradus Group LLC"
+    },
+    {
+      "id": "kf-concept",
+      "name": "Shenzhen Zhuo Er Photographic Equipment Co., Ltd."
+    },
+    {
+      "id": "kippertie",
+      "name": "KipperTie Ltd"
+    },
+    {
+      "id": "megadap",
+      "name": "Megadap"
+    },
+    {
+      "id": "metabones",
+      "name": "Global Boom International Limited"
+    },
+    {
+      "id": "monsteradapter",
+      "name": "Shenzhen Muohuan Optics-electrical Technology Co., Ltd."
+    },
+    {
+      "id": "mofage",
+      "name": "MOFAGE"
+    },
+    {
+      "id": "mtf-services",
+      "name": "MTF Services Ltd"
+    },
+    {
+      "id": "neewer",
+      "name": "NEEWER"
+    },
+    {
+      "id": "novoflex",
+      "name": "NOVOFLEX Präzisionstechnik GmbH"
+    },
+    {
+      "id": "rayqual",
+      "name": "宮本製作所"
+    },
+    {
+      "id": "red-digital-cinema",
+      "name": "RED Digital Cinema, LLC"
+    },
+    {
+      "id": "shoten-kobo",
+      "name": "株式会社焦点工房"
+    },
+    {
+      "id": "techart",
+      "name": "Techart"
+    },
+    {
+      "id": "urth",
+      "name": "Urth"
+    },
+    {
+      "id": "vocas",
+      "name": "Vocas Systems B.V."
+    },
+    {
+      "id": "wooden-camera",
+      "name": "Wooden Camera"
+    },
+    {
+      "id": "brenner-import",
+      "name": "Brenner Import- und Handels GmbH"
+    },
+    {
+      "id": "haoge",
+      "name": "Haoge"
+    },
+    {
+      "id": "pholsy",
+      "name": "PHOLSY"
+    },
+    {
+      "id": "pixco",
+      "name": "Pixco"
+    },
+    {
+      "id": "rafcamera",
+      "name": "RafCamera"
+    },
+    {
+      "id": "sakar-international",
+      "name": "Sakar International, Inc."
+    },
+    {
+      "id": "yeenon",
+      "name": "Guangzhou YEENON Photographic Equipment Co., Ltd."
+    },
+    {
+      "id": "opticron",
+      "name": "Opticron"
+    },
+    {
+      "id": "kiwifotos",
+      "name": "Kiwifotos"
+    }
+  ],
+  "brands": [
+    {
+      "id": "7artisans",
+      "name": "7Artisans"
+    },
+    {
+      "id": "apsara",
+      "name": "APSARA"
+    },
+    {
+      "id": "artra-lab",
+      "name": "ARTRA LAB"
+    },
+    {
+      "id": "astrhori",
+      "name": "AstrHori"
+    },
+    {
+      "id": "blazar",
+      "name": "Blazar"
+    },
+    {
+      "id": "brightin-star",
+      "name": "BRIGHTIN STAR"
+    },
+    {
+      "id": "caye",
+      "name": "CAYE"
+    },
+    {
+      "id": "cheecar",
+      "name": "Cheecar"
+    },
+    {
+      "id": "cooke",
+      "name": "Cooke"
+    },
+    {
+      "id": "dzofilm",
+      "name": "DZOFILM"
+    },
+    {
+      "id": "funleader",
+      "name": "Funleader"
+    },
+    {
+      "id": "gizmon",
+      "name": "GIZMON"
+    },
+    {
+      "id": "great-joy",
+      "name": "Great Joy"
+    },
+    {
+      "id": "hartblei",
+      "name": "HARTBLEI"
+    },
+    {
+      "id": "irix",
+      "name": "Irix"
+    },
+    {
+      "id": "kamlan",
+      "name": "KamLan"
+    },
+    {
+      "id": "kase",
+      "name": "Kase"
+    },
+    {
+      "id": "kipon",
+      "name": "KIPON"
+    },
+    {
+      "id": "laowa",
+      "name": "LAOWA"
+    },
+    {
+      "id": "leitz-cine",
+      "name": "Leitz Cine"
+    },
+    {
+      "id": "lensbaby",
+      "name": "Lensbaby"
+    },
+    {
+      "id": "lightdow",
+      "name": "Lightdow"
+    },
+    {
+      "id": "lomography",
+      "name": "Lomography"
+    },
+    {
+      "id": "meike",
+      "name": "Meike"
+    },
+    {
+      "id": "meyer-optik-gorlitz",
+      "name": "Meyer Optik Görlitz"
+    },
+    {
+      "id": "mitakon",
+      "name": "Mitakon"
+    },
+    {
+      "id": "mr-ding",
+      "name": "MR.DING"
+    },
+    {
+      "id": "nikkor",
+      "name": "NIKKOR"
+    },
+    {
+      "id": "nikon",
+      "name": "Nikon"
+    },
+    {
+      "id": "nisi",
+      "name": "NiSi"
+    },
+    {
+      "id": "opteka",
+      "name": "Opteka"
+    },
+    {
+      "id": "pergear",
+      "name": "PERGEAR"
+    },
+    {
+      "id": "polarpro",
+      "name": "PolarPro"
+    },
+    {
+      "id": "retropia",
+      "name": "Retropia"
+    },
+    {
+      "id": "rokinon",
+      "name": "Rokinon"
+    },
+    {
+      "id": "rollei",
+      "name": "Rollei"
+    },
+    {
+      "id": "samyang",
+      "name": "SAMYANG"
+    },
+    {
+      "id": "sg-image",
+      "name": "SG-image"
+    },
+    {
+      "id": "sigma",
+      "name": "SIGMA"
+    },
+    {
+      "id": "sirui",
+      "name": "SIRUI"
+    },
+    {
+      "id": "songraw",
+      "name": "SongRaw"
+    },
+    {
+      "id": "tamron",
+      "name": "TAMRON"
+    },
+    {
+      "id": "thingyfy",
+      "name": "Thingyfy"
+    },
+    {
+      "id": "tokina",
+      "name": "Tokina"
+    },
+    {
+      "id": "thypoch",
+      "name": "Thypoch"
+    },
+    {
+      "id": "ttartisan",
+      "name": "TTArtisan"
+    },
+    {
+      "id": "viltrox",
+      "name": "VILTROX"
+    },
+    {
+      "id": "voigtlander",
+      "name": "Voigtländer"
+    },
+    {
+      "id": "yasuhara",
+      "name": "YASUHARA"
+    },
+    {
+      "id": "yongnuo",
+      "name": "YONGNUO"
+    },
+    {
+      "id": "zeiss",
+      "name": "ZEISS"
+    },
+    {
+      "id": "accpro",
+      "name": "Accpro"
+    },
+    {
+      "id": "altson",
+      "name": "Altson"
+    },
+    {
+      "id": "boryoza",
+      "name": "BORYOZA"
+    },
+    {
+      "id": "c7adapters",
+      "name": "c7Adapters"
+    },
+    {
+      "id": "cgpro",
+      "name": "CGPro"
+    },
+    {
+      "id": "commlite",
+      "name": "Commlite"
+    },
+    {
+      "id": "denz",
+      "name": "DENZ"
+    },
+    {
+      "id": "eletrend",
+      "name": "Eletrend"
+    },
+    {
+      "id": "fotasy",
+      "name": "Fotasy"
+    },
+    {
+      "id": "fotodiox",
+      "name": "Fotodiox"
+    },
+    {
+      "id": "fringer",
+      "name": "Fringer"
+    },
+    {
+      "id": "funmount",
+      "name": "FUNMOUNT"
+    },
+    {
+      "id": "gutty",
+      "name": "Gutty"
+    },
+    {
+      "id": "kf-concept",
+      "name": "K&F CONCEPT"
+    },
+    {
+      "id": "kippertie",
+      "name": "KipperTie"
+    },
+    {
+      "id": "megadap",
+      "name": "Megadap"
+    },
+    {
+      "id": "metabones",
+      "name": "Metabones"
+    },
+    {
+      "id": "monsteradapter",
+      "name": "MonsterAdapter"
+    },
+    {
+      "id": "mofage",
+      "name": "MOFAGE"
+    },
+    {
+      "id": "mtf-services",
+      "name": "MTF Services"
+    },
+    {
+      "id": "neewer",
+      "name": "NEEWER"
+    },
+    {
+      "id": "novoflex",
+      "name": "NOVOFLEX"
+    },
+    {
+      "id": "rayqual",
+      "name": "RAYQUAL"
+    },
+    {
+      "id": "rollin-accpro",
+      "name": "Rollin / ACCPro"
+    },
+    {
+      "id": "red",
+      "name": "RED"
+    },
+    {
+      "id": "shoten",
+      "name": "SHOTEN"
+    },
+    {
+      "id": "simmod",
+      "name": "SIMMOD LENS"
+    },
+    {
+      "id": "techart",
+      "name": "TECHART"
+    },
+    {
+      "id": "urth",
+      "name": "Urth"
+    },
+    {
+      "id": "vello",
+      "name": "Vello"
+    },
+    {
+      "id": "vocas",
+      "name": "Vocas"
+    },
+    {
+      "id": "wooden-camera",
+      "name": "Wooden Camera"
+    },
+    {
+      "id": "big",
+      "name": "B.I.G."
+    },
+    {
+      "id": "gabale",
+      "name": "Gabale"
+    },
+    {
+      "id": "haoge",
+      "name": "Haoge"
+    },
+    {
+      "id": "pholsy",
+      "name": "PHOLSY"
+    },
+    {
+      "id": "pixco",
+      "name": "Pixco"
+    },
+    {
+      "id": "rafcamera",
+      "name": "RafCamera"
+    },
+    {
+      "id": "vivitar",
+      "name": "Vivitar"
+    },
+    {
+      "id": "yeenon",
+      "name": "YEENON"
+    },
+    {
+      "id": "opticron",
+      "name": "Opticron"
+    },
+    {
+      "id": "amopofo",
+      "name": "AMOPOFO"
+    },
+    {
+      "id": "fotga",
+      "name": "FOTGA"
+    },
+    {
+      "id": "kiwifotos",
+      "name": "Kiwifotos"
+    }
+  ]
+}

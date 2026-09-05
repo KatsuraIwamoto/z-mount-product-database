@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "techart-tze-01-02",
+  "subject": {
+    "manufacturerId": "techart",
+    "brandId": "techart",
+    "name": "Sony E to Nikon Z Autofocus Adapter"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "techart-tze-01-02"
+  },
+  "sources": [
+    {
+      "url": "https://techartpro.com/?product=techart-sony-e-nikon-z-autofocus-adapter-tze-01",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1662752-REG/techart_pro_tze_02_autofocus_adapter_for_sony.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

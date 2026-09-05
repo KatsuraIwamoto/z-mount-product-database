@@ -1,0 +1,46 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "lensbaby-composer-pro-ii-with-edge-80-optic",
+  "subject": {
+    "manufacturerId": "lensbaby",
+    "brandId": "lensbaby",
+    "name": "Lensbaby Composer Pro II with Edge 80 Optic"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "lensbaby-composer-pro-ii-with-edge-80-optic"
+  },
+  "sources": [
+    {
+      "url": "https://lensbaby.com/products/composer-pro-ii-with-edge-80-optic",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "physical.filterInterfaces",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.coatings",
+        "lens.focus",
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/pages/help",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "faq",
+      "checked": [
+        "lens.focus"
+      ]
+    }
+  ]
+}

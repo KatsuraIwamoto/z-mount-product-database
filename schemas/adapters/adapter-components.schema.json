@@ -1,0 +1,1080 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cercidiphyllum.jp/schemas/1.0.0/adapters/adapter-components.schema.json",
+  "$comment": "SPDX-FileCopyrightText: 2026 Katsura Iwamoto\nSPDX-License-Identifier: MIT",
+  "title": "Mount adapter components",
+  "$defs": {
+    "identity": {
+      "type": "object",
+      "required": [
+        "manufacturerId",
+        "brandId",
+        "productName",
+        "modelNumberOptions",
+        "alternateNames",
+        "variants"
+      ],
+      "properties": {
+        "manufacturerId": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/id"
+        },
+        "brandId": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/id"
+        },
+        "productName": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+        },
+        "modelNumberOptions": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/modelNumberOptions"
+        },
+        "alternateNames": {
+          "oneOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "name"
+                ],
+                "properties": {
+                  "name": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+                  },
+                  "brandId": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/id"
+                  },
+                  "region": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/region"
+                  },
+                  "language": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/language"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "variants": {
+          "oneOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "variantId",
+                  "name",
+                  "modelNumberOptions"
+                ],
+                "properties": {
+                  "variantId": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/id"
+                  },
+                  "name": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+                  },
+                  "modelNumberOptions": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/modelNumberOptions"
+                  },
+                  "color": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+                  }
+                },
+                "additionalProperties": false
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "lifecycle": {
+      "type": "object",
+      "required": [
+        "announcementDate",
+        "officialDesignations"
+      ],
+      "properties": {
+        "announcementDate": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "date"
+        },
+        "officialDesignations": {
+          "oneOf": [
+            {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "required": [
+                  "type"
+                ],
+                "properties": {
+                  "type": {
+                    "enum": [
+                      "legacy-product",
+                      "sales-ended",
+                      "production-ended",
+                      "discontinued"
+                    ]
+                  },
+                  "region": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/region"
+                  },
+                  "observedOn": {
+                    "type": "string",
+                    "format": "date"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "uniqueItems": true
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "officialProductPage": {
+      "type": "object",
+      "required": [
+        "url",
+        "pageFamilies",
+        "region",
+        "language",
+        "publisher"
+      ],
+      "properties": {
+        "url": {
+          "type": "string",
+          "format": "uri",
+          "pattern": "^https?://"
+        },
+        "pageFamilies": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "home-country",
+              "global",
+              "japan",
+              "nikon-imaging-japan",
+              "usa"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "region": {
+          "oneOf": [
+            {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/region"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "language": {
+          "oneOf": [
+            {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/language"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "publisher": {
+          "type": "object",
+          "required": [
+            "type",
+            "name"
+          ],
+          "properties": {
+            "type": {
+              "enum": [
+                "manufacturer-or-brand",
+                "authorized-distributor"
+              ]
+            },
+            "name": {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "lensRetention": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "type"
+          ],
+          "properties": {
+            "type": {
+              "enum": [
+                "mount-defined",
+                "positive-lock",
+                "locking-ring",
+                "other"
+              ]
+            },
+            "officialName": {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "lensRearProtrusionLimit": {
+      "type": "object",
+      "required": [
+        "maximumMm",
+        "referencePlane",
+        "conditions"
+      ],
+      "properties": {
+        "maximumMm": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/nonNegativeNumber"
+        },
+        "referencePlane": {
+          "enum": [
+            "mount-flange",
+            "mount-face",
+            "other",
+            null
+          ]
+        },
+        "conditions": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/specializedConditions"
+        }
+      },
+      "additionalProperties": false
+    },
+    "mountConfiguration": {
+      "type": "object",
+      "required": [
+        "lensSideMountSystemId",
+        "cameraSideMountSystemId",
+        "lensRetention",
+        "lensRearProtrusionLimits"
+      ],
+      "properties": {
+        "lensSideMountSystemId": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/id",
+          "not": {
+            "const": "nikon-z"
+          }
+        },
+        "cameraSideMountSystemId": {
+          "const": "nikon-z"
+        },
+        "lensRetention": {
+          "$ref": "#/$defs/lensRetention"
+        },
+        "lensRearProtrusionLimits": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/lensRearProtrusionLimit"
+              },
+              "uniqueItems": true
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "variantId": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/id"
+        }
+      },
+      "additionalProperties": false
+    },
+    "electronics": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "electronicContacts",
+            "autofocus",
+            "cameraControlledAperture",
+            "metadataTransmission",
+            "lensStabilizationCommunication",
+            "manualFocusAssistance",
+            "lensPowerTransmission",
+            "recordingTriggerTransmission"
+          ],
+          "properties": {
+            "electronicContacts": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "autofocus": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "cameraControlledAperture": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "metadataTransmission": {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/metadataTransmission"
+            },
+            "lensStabilizationCommunication": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "manualFocusAssistance": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "lensPowerTransmission": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "recordingTriggerTransmission": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            }
+          },
+          "allOf": [
+            {
+              "if": {
+                "properties": {
+                  "electronicContacts": {
+                    "const": false
+                  }
+                }
+              },
+              "then": {
+                "properties": {
+                  "autofocus": {
+                    "const": false
+                  },
+                  "cameraControlledAperture": {
+                    "const": false
+                  },
+                  "metadataTransmission": {
+                    "const": {
+                      "present": false
+                    }
+                  },
+                  "lensStabilizationCommunication": {
+                    "const": false
+                  },
+                  "manualFocusAssistance": {
+                    "const": false
+                  },
+                  "lensPowerTransmission": {
+                    "const": false
+                  },
+                  "recordingTriggerTransmission": {
+                    "const": false
+                  }
+                }
+              }
+            }
+          ],
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "apertureChange": {
+      "type": "object",
+      "required": [
+        "direction",
+        "stops",
+        "relation"
+      ],
+      "properties": {
+        "direction": {
+          "enum": [
+            "brighter",
+            "darker",
+            "unchanged"
+          ]
+        },
+        "stops": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/nonNegativeNumber"
+        },
+        "relation": {
+          "enum": [
+            "exact",
+            "approximately",
+            "less-than"
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "direction"
+            ],
+            "properties": {
+              "direction": {
+                "const": "unchanged"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "stops": {
+                "const": 0
+              },
+              "relation": {
+                "const": "exact"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "stops": {
+                "$ref": "../shared/shared-definitions.schema.json#/$defs/positiveNumber"
+              }
+            }
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "imageCircleDiameter": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "kind",
+            "diameterMm"
+          ],
+          "properties": {
+            "kind": {
+              "const": "value"
+            },
+            "diameterMm": {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/positiveNumber"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "kind",
+            "minimumDiameterMm",
+            "maximumDiameterMm"
+          ],
+          "properties": {
+            "kind": {
+              "const": "range"
+            },
+            "minimumDiameterMm": {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/positiveNumber"
+            },
+            "maximumDiameterMm": {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/positiveNumber"
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "maximumSupportedAperture": {
+      "type": "object",
+      "required": [
+        "scale",
+        "value"
+      ],
+      "properties": {
+        "scale": {
+          "enum": [
+            "f-number",
+            "t-number"
+          ]
+        },
+        "value": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/positiveNumber"
+        }
+      },
+      "additionalProperties": false
+    },
+    "conversionOptics": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "present",
+            "focalLengthMultiplier",
+            "apertureChange",
+            "opticalConstruction",
+            "specialElements",
+            "coatings",
+            "supportedImageCircleDiameterMm",
+            "maximumSupportedAperture"
+          ],
+          "properties": {
+            "present": {
+              "const": true
+            },
+            "focalLengthMultiplier": {
+              "oneOf": [
+                {
+                  "$ref": "../shared/shared-definitions.schema.json#/$defs/positiveNumber"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "apertureChange": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/apertureChange"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "opticalConstruction": {
+              "oneOf": [
+                {
+                  "$ref": "../shared/shared-definitions.schema.json#/$defs/opticalConstruction"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "specialElements": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/specialElement"
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "coatings": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "items": {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/coating"
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "supportedImageCircleDiameterMm": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/imageCircleDiameter"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            },
+            "maximumSupportedAperture": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/maximumSupportedAperture"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "present"
+          ],
+          "properties": {
+            "present": {
+              "const": false
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "mechanism": {
+      "type": "object",
+      "required": [
+        "type",
+        "conditions"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "aperture-ring",
+            "drop-in-filter",
+            "flange-focal-distance-adjustment",
+            "helicoid",
+            "shift",
+            "tilt",
+            "rotation",
+            "other"
+          ]
+        },
+        "officialName": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+        },
+        "movements": {
+          "oneOf": [
+            {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/movements"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "conditions": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/specializedConditions"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "shift"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "movements"
+            ],
+            "properties": {
+              "movements": {
+                "oneOf": [
+                  {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/movements",
+                    "required": [
+                      "shiftMeasurements"
+                    ],
+                    "properties": {
+                      "shiftMeasurements": {
+                        "type": "array"
+                      }
+                    },
+                    "not": {
+                      "anyOf": [
+                        {
+                          "required": [
+                            "tiltMeasurements"
+                          ]
+                        },
+                        {
+                          "required": [
+                            "rotationMeasurements"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "tilt"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "movements"
+            ],
+            "properties": {
+              "movements": {
+                "oneOf": [
+                  {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/movements",
+                    "required": [
+                      "tiltMeasurements"
+                    ],
+                    "properties": {
+                      "tiltMeasurements": {
+                        "type": "array"
+                      }
+                    },
+                    "not": {
+                      "anyOf": [
+                        {
+                          "required": [
+                            "shiftMeasurements"
+                          ]
+                        },
+                        {
+                          "required": [
+                            "rotationMeasurements"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "rotation"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "movements"
+            ],
+            "properties": {
+              "movements": {
+                "oneOf": [
+                  {
+                    "$ref": "../shared/shared-definitions.schema.json#/$defs/movements",
+                    "required": [
+                      "rotationMeasurements"
+                    ],
+                    "properties": {
+                      "rotationMeasurements": {
+                        "type": "array"
+                      }
+                    },
+                    "not": {
+                      "anyOf": [
+                        {
+                          "required": [
+                            "shiftMeasurements"
+                          ]
+                        },
+                        {
+                          "required": [
+                            "tiltMeasurements"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "enum": [
+                  "shift",
+                  "tilt",
+                  "rotation"
+                ]
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "movements"
+              ]
+            }
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "mechanisms": {
+      "oneOf": [
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/mechanism"
+          },
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "dimensionMeasurement": {
+      "type": "object",
+      "required": [
+        "conditions"
+      ],
+      "properties": {
+        "maximumDiameterMm": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/positiveNumber"
+        },
+        "lengthMm": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/positiveNumber"
+        },
+        "widthMm": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/positiveNumber"
+        },
+        "heightMm": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/positiveNumber"
+        },
+        "unclassifiedDimensionsMm": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "../shared/shared-definitions.schema.json#/$defs/positiveNumber"
+          }
+        },
+        "approximate": {
+          "type": "boolean"
+        },
+        "conditions": {
+          "$ref": "#/$defs/dimensionMeasurementConditions"
+        },
+        "note": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+        }
+      },
+      "anyOf": [
+        {
+          "required": [
+            "maximumDiameterMm"
+          ]
+        },
+        {
+          "required": [
+            "lengthMm"
+          ]
+        },
+        {
+          "required": [
+            "widthMm"
+          ]
+        },
+        {
+          "required": [
+            "heightMm"
+          ]
+        },
+        {
+          "required": [
+            "unclassifiedDimensionsMm"
+          ]
+        }
+      ],
+      "additionalProperties": false
+    },
+    "weightMeasurement": {
+      "type": "object",
+      "required": [
+        "grams",
+        "conditions"
+      ],
+      "properties": {
+        "grams": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/positiveNumber"
+        },
+        "approximate": {
+          "type": "boolean"
+        },
+        "conditions": {
+          "$ref": "#/$defs/weightMeasurementConditions"
+        },
+        "note": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+        }
+      },
+      "additionalProperties": false
+    },
+    "measurementComponentStates": {
+      "type": "object",
+      "minProperties": 1,
+      "properties": {
+        "tripodCollarAssembly": {
+          "type": "boolean"
+        },
+        "tripodFoot": {
+          "type": "boolean"
+        },
+        "tripodMountCover": {
+          "type": "boolean"
+        },
+        "lensHood": {
+          "type": "boolean"
+        },
+        "frontCap": {
+          "type": "boolean"
+        },
+        "rearCap": {
+          "type": "boolean"
+        },
+        "dropInFilter": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "dimensionMeasurementConditions": {
+      "type": "object",
+      "properties": {
+        "variantId": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/id"
+        },
+        "componentStates": {
+          "$ref": "#/$defs/measurementComponentStates"
+        },
+        "excludesProjections": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "weightMeasurementConditions": {
+      "type": "object",
+      "properties": {
+        "variantId": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/id"
+        },
+        "componentStates": {
+          "$ref": "#/$defs/measurementComponentStates"
+        }
+      },
+      "additionalProperties": false
+    },
+    "physical": {
+      "type": "object",
+      "required": [
+        "dimensionMeasurements",
+        "weightMeasurements",
+        "officialEnvironmentalProtectionClaims",
+        "tripodSupport"
+      ],
+      "properties": {
+        "dimensionMeasurements": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/dimensionMeasurement"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "weightMeasurements": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/weightMeasurement"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "officialEnvironmentalProtectionClaims": {
+          "oneOf": [
+            {
+              "type": "array",
+              "items": {
+                "$ref": "../shared/shared-definitions.schema.json#/$defs/environmentalClaim"
+              }
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "tripodSupport": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/tripodSupport"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

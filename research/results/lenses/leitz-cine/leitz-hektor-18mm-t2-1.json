@@ -1,0 +1,91 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "leitz-hektor-18mm-t2-1",
+  "subject": {
+    "manufacturerId": "leitz-cine",
+    "brandId": "leitz-cine",
+    "name": "HEKTOR 18mm T2.1"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "leitz-hektor-18mm-t2-1"
+  },
+  "sources": [
+    {
+      "url": "https://www.leitz-cine.com/product/hektor",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "physical.frontAccessoryInterface",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.imageCircleDiameters",
+        "lens.coatings",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://api.knots.io/codeapp/r/htulgqh/dkwpc3n1?itm=HEKTOR&typ=Data+Sheet+English",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.frontAccessoryInterface",
+        "controls",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.coatings",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.leitz-cine.com/article/introducing-leitz-hektor-lenses-for-mirrorless-cameras",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mount",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.focus"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.digitalcameraworld.com/cameras/cinema-cameras/the-nikon-zr-is-just-the-start-nikon-insiders-reveal-plans-for-future-nikon-x-red-video-cameras-and-a-new-line-of-z-cinema-lenses",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "licensing"
+      ]
+    }
+  ]
+}

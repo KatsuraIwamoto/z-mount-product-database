@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "caye-500mm-f6-3",
+  "subject": {
+    "manufacturerId": null,
+    "brandId": "caye",
+    "name": "CAYE 500mm F6.3"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [],
+  "unresolved": [
+    "Does the Nikon Z configuration attach directly or use a generic mount adapter, and which entity manufactures the product?"
+  ]
+}

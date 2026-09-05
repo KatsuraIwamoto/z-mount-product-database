@@ -1,0 +1,142 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "mount-adapter-ftz",
+  "identity": {
+    "manufacturerId": "nikon",
+    "brandId": "nikon",
+    "productName": "Mount Adapter FTZ",
+    "modelNumberOptions": null,
+    "alternateNames": [
+      {
+        "name": "マウントアダプター FTZ",
+        "region": "JP",
+        "language": "ja"
+      }
+    ],
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2018-08-23",
+    "officialDesignations": [
+      {
+        "type": "legacy-product",
+        "region": "JP",
+        "observedOn": "2026-09-02"
+      },
+      {
+        "type": "discontinued",
+        "region": "US",
+        "observedOn": "2026-09-02"
+      }
+    ]
+  },
+  "officialProductPages": [
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/accessory/camera/ftz/",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Nikon"
+      }
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/accessory/body/ftz/",
+      "pageFamilies": [
+        "nikon-imaging-japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Nikon"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "nikon-f",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": true,
+    "autofocus": true,
+    "cameraControlledAperture": true,
+    "lensStabilizationCommunication": true,
+    "manualFocusAssistance": true,
+    "metadataTransmission": {
+      "present": true,
+      "standards": [
+        "exif"
+      ]
+    },
+    "lensPowerTransmission": null,
+    "recordingTriggerTransmission": null
+  },
+  "mechanisms": [],
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 70,
+        "unclassifiedDimensionsMm": [
+          80
+        ],
+        "approximate": true,
+        "conditions": {
+          "excludesProjections": true
+        }
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 135,
+        "approximate": true,
+        "conditions": {}
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "dust-resistant",
+          "drip-resistant"
+        ],
+        "scope": {
+          "kind": "product"
+        },
+        "conditions": {}
+      }
+    ],
+    "tripodSupport": {
+      "present": true,
+      "components": [
+        {
+          "type": "body-mounting-point",
+          "relationship": "integrated",
+          "removable": false,
+          "interfaces": [
+            {
+              "type": "mounting-thread",
+              "threadDesignation": null
+            }
+          ],
+          "modelNumberOptions": null,
+          "quantity": null,
+          "conditions": {}
+        }
+      ]
+    }
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": null
+  },
+  "conversionOptics": {
+    "present": false
+  }
+}

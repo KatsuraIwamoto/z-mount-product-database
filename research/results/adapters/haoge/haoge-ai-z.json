@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "haoge-ai-z",
+  "subject": {
+    "manufacturerId": "haoge",
+    "brandId": "haoge",
+    "name": "Nikon F AI/AIS/D to Nikon Z Manual Lens Mount Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "haoge-ai-z"
+  },
+  "sources": [
+    {
+      "url": "https://haogefoto.com/products/haoge-manual-lens-mount-adapter-for-nikon-nikkor-f-ai-ais-d-lens-to-nikon-z-mount-camera-such-as-z6-z7",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://haogefoto.com/collections/adapter-for-nikon-z-mount-camera",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

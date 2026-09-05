@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fotodiox-4x5-nkz-p",
+  "subject": {
+    "manufacturerId": "fotodiox",
+    "brandId": "fotodiox",
+    "name": "Fotodiox Pro Lens Mount Adapter, Nikon Z-Mount Mirrorless Camera Body to Large Format 4x5 View Cameras with a Graflok Rear Standard - Shift / Stitch Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The product is primarily a stitching or view-camera positioning system rather than a direct interchangeable-lens mount converter."
+  },
+  "sources": [
+    {
+      "url": "https://fotodioxpro.com/products/4x5-nkz-p",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

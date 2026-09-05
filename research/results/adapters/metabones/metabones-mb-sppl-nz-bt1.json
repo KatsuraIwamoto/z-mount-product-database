@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "metabones-mb-sppl-nz-bt1",
+  "subject": {
+    "manufacturerId": "metabones",
+    "brandId": "metabones",
+    "name": "ARRI PL Lens to Nikon Z-mount T CINE Speed Booster ULTRA 0.71x"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "metabones-mb-sppl-nz-bt1"
+  },
+  "sources": [
+    {
+      "url": "https://www.metabones.com/products/details/MB_SPPL-NZ-BT1",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.tripodSupport"
+      ]
+    }
+  ]
+}

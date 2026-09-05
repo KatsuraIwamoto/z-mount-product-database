@@ -1,0 +1,55 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "voigtlander-vm-z-close-focus-adapter",
+  "subject": {
+    "manufacturerId": "cosina",
+    "brandId": "voigtlander",
+    "name": "VM-Z Close Focus Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "voigtlander-vm-z-close-focus-adapter"
+  },
+  "sources": [
+    {
+      "url": "https://www.cosina.co.jp/voigtlander/en/accessories/vm-z-close-focus-adapter/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.cosina.co.jp/voigtlander/accessories/vm-z-close-focus-adapter/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/803269556-USE/voigtlander_bd285a_vm_z_close_focus_adapter.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ]
+}

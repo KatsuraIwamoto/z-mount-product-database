@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "lightdow-650-1300mm-f8-16-telephoto-zoom-lens",
+  "subject": {
+    "manufacturerId": "lightdow",
+    "brandId": "lightdow",
+    "name": "Lightdow 650-1300mm F8-16 Super Telephoto Manual Zoom Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.onbuy.com/gb/p/lightdow-650-1300mm-f80-f16-super-telephoto-manual-zoom-lens-for-nikon-for-canon-for-sony-for-pantex-camera~p78835940/",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Can an exact Lightdow-branded 650-1300mm package supplied with a Nikon Z T2 adapter be verified from a manufacturer, authorized distributor, or large retailer?",
+    "Is the reported Nikon Z compatibility based only on a separately purchased generic T2-to-Z adapter, which is outside the inclusion rule?"
+  ]
+}

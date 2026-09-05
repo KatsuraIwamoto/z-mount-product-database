@@ -1,0 +1,40 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "vello-la-nz-lm",
+  "subject": {
+    "manufacturerId": "gradus-group",
+    "brandId": "vello",
+    "name": "Lens Adapter for Leica M Lens to Nikon Z-Mount Camera"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "vello-la-nz-lm"
+  },
+  "sources": [
+    {
+      "url": "https://www.vellogear.com/product/14052/Vello-LA_NZ_LM-Lens-Adapter-for-Leica-M-Lens-to-Nikon-Z-Mount-Camera-",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1447577-REG/vello_la_nz_lm_leica_m_lens_to.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "physical.weightMeasurements"
+      ]
+    }
+  ]
+}

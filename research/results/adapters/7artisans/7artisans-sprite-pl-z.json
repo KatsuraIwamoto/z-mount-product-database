@@ -1,0 +1,37 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "7artisans-sprite-pl-z",
+  "subject": {
+    "manufacturerId": "7artisans",
+    "brandId": "7artisans",
+    "name": "Sprite PL-Z Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "7artisans-sprite-pl-z"
+  },
+  "sources": [
+    {
+      "url": "https://www.big-photo.de/pdf/archiv/big-katalog/BIG-GESAMTKATALOG.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1840980-REG/7artisans_photoelectric_pl_z_adapter.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    }
+  ]
+}

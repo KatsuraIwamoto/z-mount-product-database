@@ -1,0 +1,45 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "laowa-af-35mm-f2-8-1x-apo-macro",
+  "subject": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "name": "LAOWA AF 35mm F2.8 1X APO Macro"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.sina.cn/media/5843992636",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://asobinet.com/laowa-begins-recruiting-testers-for-the-af-35mm-f2-8-1x-apo/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Has LAOWA issued an official product release announcement or begun sales for this product?",
+    "Has LAOWA announced a Nikon Z configuration?"
+  ]
+}

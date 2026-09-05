@@ -1,0 +1,149 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "laowa-magic-shift-converter-z",
+  "identity": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "productName": "Magic Shift Converter (MSC)",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": [
+      {
+        "variantId": "canon-ef-nikon-z",
+        "name": "Canon EF to Nikon Z",
+        "modelNumberOptions": null
+      },
+      {
+        "variantId": "nikon-f-nikon-z",
+        "name": "Nikon F to Nikon Z",
+        "modelNumberOptions": null
+      }
+    ]
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.venuslens.net/product/laowa-magic-shift-converter/",
+      "pageFamilies": [
+        "global",
+        "usa"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Venus Optics"
+      }
+    },
+    {
+      "url": "https://www.laowa.jp/cat3/42957fbad78e9ee2070fe1e9ba9eb87ac153ddde.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "LAOWA"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "canon-ef",
+      "cameraSideMountSystemId": "nikon-z",
+      "variantId": "canon-ef-nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    },
+    {
+      "lensSideMountSystemId": "nikon-f",
+      "cameraSideMountSystemId": "nikon-z",
+      "variantId": "nikon-f-nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": [
+    {
+      "type": "shift",
+      "conditions": {},
+      "movements": {
+        "shiftMeasurements": [
+          {
+            "maximumFromNeutralMm": 10,
+            "totalRangeMm": null,
+            "directionality": null,
+            "conditions": {}
+          }
+        ]
+      }
+    },
+    {
+      "type": "rotation",
+      "movements": {
+        "rotationMeasurements": [
+          {
+            "scope": "movement-assembly",
+            "maximumFromNeutralDegrees": null,
+            "totalRangeDegrees": 360,
+            "directionality": null,
+            "conditions": {}
+          }
+        ]
+      },
+      "conditions": {}
+    }
+  ],
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 69.6,
+        "lengthMm": 44.1,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 360,
+        "approximate": true,
+        "conditions": {}
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": true,
+    "focalLengthMultiplier": 1.4,
+    "apertureChange": {
+      "direction": "darker",
+      "stops": 1,
+      "relation": "exact"
+    },
+    "opticalConstruction": {
+      "groups": 4,
+      "elements": 5
+    },
+    "specialElements": null,
+    "coatings": null,
+    "supportedImageCircleDiameterMm": null,
+    "maximumSupportedAperture": null
+  }
+}

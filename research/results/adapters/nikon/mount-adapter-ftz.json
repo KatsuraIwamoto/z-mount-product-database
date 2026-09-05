@@ -1,0 +1,113 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "mount-adapter-ftz",
+  "subject": {
+    "manufacturerId": "nikon",
+    "brandId": "nikon",
+    "name": "Mount Adapter FTZ",
+    "aliases": [
+      "マウントアダプター FTZ"
+    ]
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "mount-adapter-ftz"
+  },
+  "sources": [
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/accessory/camera/ftz/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.alternateNames",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "mechanisms",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/accessory/body/ftz/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "electronics",
+        "electronicServices",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.nikon.com/company/news/2018/0823_nikkor-z_01/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://downloadcenter.nikonimglib.com/en/products/491/FTZ.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "electronics",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://download.nikonimglib.com/archive4/t970r00FLV51052Ysx310msnQQ43/MountAdapterFTZ_TH%28AD_DL%2903.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "physical.dimensionMeasurements",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/support/faq/products/article?articleNo=000046073",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "electronics",
+        "electronicServices",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.nikonusa.com/learn-and-explore/c/products-and-innovation/you-can-use-vintage-nikon-lenses-with-your-z-series-mirrorless-cameras",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "songraw-af-85mm-f1p2-moonlit",
+  "subject": {
+    "manufacturerId": "songraw",
+    "brandId": "songraw",
+    "name": "SongRaw AF 85mm F1.2 Moonlit"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.cined.com/songraw-moonlit-85mm-f-1-2-lens-announced-challenging-the-85mm-classics/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://petapixel.com/2025/09/16/songraw-expands-its-moonlit-lens-series-with-the-85mm-f-1-2/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.songraw.com/jt",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://songrawlens.com/collections/all",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Was the Nikon Z version officially released or offered for sale?",
+    "Did an official source state that the MS product replaced the Moonlit product?"
+  ]
+}

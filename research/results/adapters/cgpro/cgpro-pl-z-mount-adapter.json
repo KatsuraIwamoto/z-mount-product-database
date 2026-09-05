@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "cgpro-pl-z-mount-adapter",
+  "subject": {
+    "manufacturerId": "cine-gear-pro",
+    "brandId": "cgpro",
+    "name": "CGPro PL-Z Arri PL to NIKON Z Mount Adapter For Z6/Z7"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "cgpro-pl-z-mount-adapter"
+  },
+  "sources": [
+    {
+      "url": "https://www.cinegearpro.co.uk/products/cgpro-pl-z-lens-mount-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.variants",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

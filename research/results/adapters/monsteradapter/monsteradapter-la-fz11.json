@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "monsteradapter-la-fz11",
+  "subject": {
+    "manufacturerId": "monsteradapter",
+    "brandId": "monsteradapter",
+    "name": "LA-FZ11"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://dc.watch.impress.co.jp/docs/news/2089450.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "mechanisms"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Confirm an official release announcement or verified sale of LA-FZ11; development references alone do not qualify for a canonical record."
+  ]
+}

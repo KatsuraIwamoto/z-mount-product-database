@@ -1,0 +1,60 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "sirui-venus-100mm-t2-9-1-6x-full-frame-anamorphic-lens",
+  "subject": {
+    "manufacturerId": "sirui",
+    "brandId": "sirui",
+    "name": "SIRUI Venus 100mm T2.9 1.6x Full-Frame Anamorphic Lens"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "sirui-venus-100mm-t2-9-1-6x-full-frame-anamorphic-lens"
+  },
+  "sources": [
+    {
+      "url": "https://store.sirui.com/products/sirui-venus-anamorphic-lens-kit",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://store.sirui.com/collections/z-mount-nikon-1",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://store.sirui.com/pages/lens-spec-table",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "specification",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.aperture"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "voigtlander-e-z-adapter",
+  "subject": {
+    "manufacturerId": "cosina",
+    "brandId": "voigtlander",
+    "name": "E-Z Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://dc.watch.impress.co.jp/docs/news/1171710.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Was the E-Z Adapter commercially released, and if so what exact model designation and official product page identify it?"
+  ]
+}

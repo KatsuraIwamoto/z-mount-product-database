@@ -1,0 +1,82 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "blazar-mantis-100mm-t2p4-1p33x",
+  "subject": {
+    "manufacturerId": "blazar-lens",
+    "brandId": "blazar",
+    "name": "Mantis 100mm T2.4 1.33X Full Frame Anamorphic Lens"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "blazar-mantis-100mm-t2p4-1p33x"
+  },
+  "sources": [
+    {
+      "url": "https://store.blazarlens.com/products/mantis-100mm-t2-4-1-33x-full-frame-anamorphic-lens-pl-e",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "physical.frontAccessoryInterface",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://store.blazarlens.com/collections/all",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://store.blazarlens.com/products/mantis-1-33x-anamorphic-mount-pl-e-ef-rf-l-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://blazarlens.com/mantis/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "physical.weightMeasurements",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://blazarlens.com/specs/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "specification",
+      "checked": [
+        "physical.weightMeasurements",
+        "controls"
+      ]
+    }
+  ],
+  "unresolved": [
+    "What is the published weight with the Nikon Z mount installed?"
+  ]
+}

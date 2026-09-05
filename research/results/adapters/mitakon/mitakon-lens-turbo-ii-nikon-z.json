@@ -1,0 +1,60 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "mitakon-lens-turbo-ii-nikon-z",
+  "subject": {
+    "manufacturerId": "zhongyi-optics",
+    "brandId": "mitakon",
+    "name": "Lens Turbo II"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "mitakon-lens-turbo-ii-nikon-z"
+  },
+  "sources": [
+    {
+      "url": "https://www.mitakon.com.tw/product/%E4%B8%AD%E4%B8%80%E5%85%89%E5%AD%B8-mitakon-zhongyi-eos-ef-nz-nikon-z-lnltnzef/",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "electronics",
+        "conversionOptics",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.mitakon.com.tw/product/mitakon-zhongyi-m42-nz-nikon-z-lnltnzm42/",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "distributor-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "electronics",
+        "conversionOptics"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.mitakon.com.tw/product/mitakon-zhongyi-nikon-g-nz-nikon-z-lnltnzng/",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "distributor-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "identity.variants",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    }
+  ]
+}

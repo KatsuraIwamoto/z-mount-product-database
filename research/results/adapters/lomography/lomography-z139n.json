@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "lomography-z139n",
+  "subject": {
+    "manufacturerId": "lomography",
+    "brandId": "lomography",
+    "name": "Nikon Z Mount Close-Up Lens Adapter for Lomography Atoll Ultra-Wide 2.8/17 Art Lens"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "lomography-z139n"
+  },
+  "sources": [
+    {
+      "url": "https://shop.lomography.com/jp/nikon-z-mount-close-up-lens-adapter-for-lomography-atoll-ultra-wide-2-8-17-art-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1728857-REG/lomography_z139n_nikon_z_mount_close_up.html/ask-question",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ]
+}

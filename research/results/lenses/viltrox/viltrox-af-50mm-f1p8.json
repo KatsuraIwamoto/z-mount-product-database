@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "viltrox-af-50mm-f1p8",
+  "subject": {
+    "manufacturerId": "viltrox",
+    "brandId": "viltrox",
+    "name": "AF 50mm F1.8"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "viltrox-af-50mm-f1p8"
+  },
+  "sources": [
+    {
+      "url": "https://viltrox.com/products/viltrox-50mm-z-mount-full-frame-lens-for-nikon-z-mirrorless-camera",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "lifecycle",
+        "mount",
+        "mount.electronicContacts",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.externalLengthDuringFocus",
+        "controls",
+        "accessories",
+        "electronicServices",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/pages/sitemap",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "productType",
+        "identity",
+        "mount",
+        "lens.focalLength",
+        "lens.coverage"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/pages/af-50-1-8-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "electronicServices",
+        "lens.aperture",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1678083-REG/viltrox_af_50_1_8_z_af_50mm_f_1_8_z.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.externalLengthDuringFocus",
+        "lens.coverage"
+      ]
+    }
+  ]
+}

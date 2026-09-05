@@ -1,0 +1,17 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "caye-135mm-f2-5-iii",
+  "subject": {
+    "manufacturerId": null,
+    "brandId": "caye",
+    "name": "CAYE 135mm F2.5 III"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [],
+  "unresolved": [
+    "Which entity manufactures the product, and is the Nikon Z configuration directly mountable?"
+  ]
+}

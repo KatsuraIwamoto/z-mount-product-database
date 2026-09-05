@@ -1,0 +1,281 @@
+{
+  "$schema": "../schemas/internal/mount-system-registry.schema.json",
+  "mountSystems": [
+    {
+      "id": "alpa",
+      "name": "ALPA"
+    },
+    {
+      "id": "arri-bayonet",
+      "name": "ARRI Bayonet"
+    },
+    {
+      "id": "arri-lpl",
+      "name": "ARRI LPL"
+    },
+    {
+      "id": "arri-pl",
+      "name": "ARRI PL"
+    },
+    {
+      "id": "asa-m37",
+      "name": "ASA M37"
+    },
+    {
+      "id": "b4-2-3-inch",
+      "name": "B4 2/3-inch"
+    },
+    {
+      "id": "bnc",
+      "name": "BNC"
+    },
+    {
+      "id": "bncr",
+      "name": "BNCR"
+    },
+    {
+      "id": "bronica-etr",
+      "name": "Bronica ETR"
+    },
+    {
+      "id": "bronica-sq",
+      "name": "Bronica SQ"
+    },
+    {
+      "id": "c-mount",
+      "name": "C-mount"
+    },
+    {
+      "id": "canon-7-rangefinder",
+      "name": "Canon 7 rangefinder"
+    },
+    {
+      "id": "canon-ef",
+      "name": "Canon EF"
+    },
+    {
+      "id": "canon-fd",
+      "name": "Canon FD"
+    },
+    {
+      "id": "contarex",
+      "name": "Contarex"
+    },
+    {
+      "id": "contax-g",
+      "name": "Contax G"
+    },
+    {
+      "id": "contax-rangefinder",
+      "name": "Contax rangefinder"
+    },
+    {
+      "id": "contax-yashica",
+      "name": "Contax/Yashica"
+    },
+    {
+      "id": "dkl",
+      "name": "Deckel DKL"
+    },
+    {
+      "id": "exakta",
+      "name": "Exakta"
+    },
+    {
+      "id": "exakta-topcon",
+      "name": "Exakta/Topcon"
+    },
+    {
+      "id": "four-thirds",
+      "name": "Four Thirds"
+    },
+    {
+      "id": "fujica-gl690",
+      "name": "Fujica GL690"
+    },
+    {
+      "id": "fujica-x",
+      "name": "Fujica X"
+    },
+    {
+      "id": "fujifilm-g",
+      "name": "Fujifilm G"
+    },
+    {
+      "id": "fujifilm-x",
+      "name": "Fujifilm X"
+    },
+    {
+      "id": "fuji-ox",
+      "name": "Fuji OX"
+    },
+    {
+      "id": "hasselblad-v",
+      "name": "Hasselblad V"
+    },
+    {
+      "id": "hasselblad-xpan",
+      "name": "Hasselblad XPan"
+    },
+    {
+      "id": "icarex-35s",
+      "name": "Icarex 35S"
+    },
+    {
+      "id": "kiev-88",
+      "name": "Kiev 88"
+    },
+    {
+      "id": "konica-ar",
+      "name": "Konica AR"
+    },
+    {
+      "id": "leica-m",
+      "name": "Leica M"
+    },
+    {
+      "id": "leica-m39",
+      "name": "Leica M39/LTM"
+    },
+    {
+      "id": "leica-r",
+      "name": "Leica R"
+    },
+    {
+      "id": "leica-visoflex",
+      "name": "Leica Visoflex"
+    },
+    {
+      "id": "m42",
+      "name": "M42"
+    },
+    {
+      "id": "mamiya-645",
+      "name": "Mamiya 645"
+    },
+    {
+      "id": "mamiya-645-af",
+      "name": "Mamiya 645 AF"
+    },
+    {
+      "id": "mamiya-7",
+      "name": "Mamiya 7"
+    },
+    {
+      "id": "mamiya-rb-rz",
+      "name": "Mamiya RB67/RZ67"
+    },
+    {
+      "id": "minolta-sr",
+      "name": "Minolta SR"
+    },
+    {
+      "id": "miranda",
+      "name": "Miranda"
+    },
+    {
+      "id": "nikon-f",
+      "name": "Nikon F"
+    },
+    {
+      "id": "nikon-z",
+      "name": "Nikon Z"
+    },
+    {
+      "id": "novoflex-a",
+      "name": "NOVOFLEX A"
+    },
+    {
+      "id": "olympus-om",
+      "name": "Olympus OM"
+    },
+    {
+      "id": "olympus-pen-f",
+      "name": "Olympus Pen F"
+    },
+    {
+      "id": "panavision-pv",
+      "name": "Panavision PV"
+    },
+    {
+      "id": "panavision-sp70",
+      "name": "Panavision SP70"
+    },
+    {
+      "id": "pentacon-six",
+      "name": "Pentacon Six/Kiev 60"
+    },
+    {
+      "id": "pentax-110",
+      "name": "Pentax 110"
+    },
+    {
+      "id": "pentax-645",
+      "name": "Pentax 645"
+    },
+    {
+      "id": "pentax-67",
+      "name": "Pentax 6x7/67"
+    },
+    {
+      "id": "pentax-k",
+      "name": "Pentax K"
+    },
+    {
+      "id": "praktica-b",
+      "name": "Praktica B"
+    },
+    {
+      "id": "rollei-qbm",
+      "name": "Rollei QBM"
+    },
+    {
+      "id": "sony-a",
+      "name": "Sony A"
+    },
+    {
+      "id": "sony-e",
+      "name": "Sony E"
+    },
+    {
+      "id": "t-mount",
+      "name": "T/T2 mount"
+    },
+    {
+      "id": "tamron-adaptall",
+      "name": "Tamron Adaptall"
+    },
+    {
+      "id": "d-mount",
+      "name": "D-mount"
+    },
+    {
+      "id": "leica-l",
+      "name": "Leica L-Mount"
+    },
+    {
+      "id": "m80x1-x-ray",
+      "name": "M80x1 X-ray lens mount"
+    },
+    {
+      "id": "micro-four-thirds",
+      "name": "Micro Four Thirds"
+    },
+    {
+      "id": "nikon-s-rangefinder",
+      "name": "Nikon S rangefinder"
+    },
+    {
+      "id": "oct-18",
+      "name": "OCT-18"
+    },
+    {
+      "id": "oct-19",
+      "name": "OCT-19"
+    },
+    {
+      "id": "rodenstock-modular-focus-mount",
+      "name": "Rodenstock Modular Focus Mount"
+    }
+  ]
+}

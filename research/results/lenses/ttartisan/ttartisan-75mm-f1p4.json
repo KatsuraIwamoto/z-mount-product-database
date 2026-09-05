@@ -1,0 +1,32 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "ttartisan-75mm-f1p4",
+  "subject": {
+    "manufacturerId": "ttartisan",
+    "brandId": "ttartisan",
+    "name": "TTArtisan 75mm F1.4"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The released 75mm F1.4 Nikon Z lens is made by 7Artisans and is already represented by 7artisans-mf-75mm-f1p4; TTArtisan's official 75mm full-frame product is the distinct AF 75mm F2, and no TTArtisan 75mm F1.4 was found."
+  },
+  "sources": [
+    {
+      "url": "https://www.7artisans.com/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "decisionChecks": [
+        "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://www.ttartisan.com/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "decisionChecks": [
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

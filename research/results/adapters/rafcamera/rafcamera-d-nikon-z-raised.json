@@ -1,0 +1,33 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "rafcamera-d-nikon-z-raised",
+  "subject": {
+    "manufacturerId": "rafcamera",
+    "brandId": "rafcamera",
+    "name": "D-Mount Lens to Nikon Z Camera Mount Adapter, Raised Version"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "rafcamera-d-nikon-z-raised"
+  },
+  "sources": [
+    {
+      "url": "https://rafcamera.com/adapter-d-mount-to-nikon-z-1",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

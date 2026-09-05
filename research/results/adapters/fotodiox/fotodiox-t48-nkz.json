@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fotodiox-t48-nkz",
+  "subject": {
+    "manufacturerId": "fotodiox",
+    "brandId": "fotodiox",
+    "name": "Fotodiox Lens Adapter Astro Edition - Compatible with 48mm (x0.75) T-Mount Wide Field Telescopes to Nikon Z-Mount Mirrorless Cameras for Deep Space Astro-Photography"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The product is dedicated to telescope or astronomy attachment rather than adapting an interchangeable camera lens."
+  },
+  "sources": [
+    {
+      "url": "https://fotodioxpro.com/products/t48-nkz",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

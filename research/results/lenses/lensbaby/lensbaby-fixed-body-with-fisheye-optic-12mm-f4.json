@@ -1,0 +1,78 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "lensbaby-fixed-body-with-fisheye-optic-12mm-f4",
+  "subject": {
+    "manufacturerId": "lensbaby",
+    "brandId": "lensbaby",
+    "name": "Fixed Body with Fisheye Optic"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "lensbaby-fixed-body-with-fisheye-optic-12mm-f4"
+  },
+  "sources": [
+    {
+      "url": "https://lensbaby.com/products/copy-of-fisheye-optic-refurbished",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://milled.com/lensbaby/save-huge-on-our-fixed-body-refurbished-collection-mdMd_risJ5jbuCqk",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "other",
+      "checked": [
+        "identity"
+      ],
+      "note": "Archive of a Lensbaby marketing email that links to the former official product page."
+    },
+    {
+      "url": "https://lensbaby.com/pages/help",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "faq",
+      "checked": [
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1771711-REG/lensbaby_lbfbfenz_fixed_body_with_fisheye.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.modelNumberOptions",
+        "mount",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/pages/faq-2",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "faq",
+      "checked": [
+        "mount",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/blogs/creative-photography/fisheye-photography",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "productType",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.specialized"
+      ]
+    }
+  ]
+}

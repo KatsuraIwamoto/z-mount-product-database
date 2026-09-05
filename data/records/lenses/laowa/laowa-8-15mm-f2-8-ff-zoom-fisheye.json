@@ -1,0 +1,234 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "laowa-8-15mm-f2-8-ff-zoom-fisheye",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "productName": "LAOWA 8-15mm F2.8 FF Zoom Fisheye",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.venuslens.net/product/laowa-8-15mm-f-2-8-ff-zoom-fisheye-2/",
+      "pageFamilies": [
+        "global",
+        "usa"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Venus Optics"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": false
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [],
+    "tripodSupport": {
+      "present": false
+    },
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": false,
+    "externalLengthDuringZoom": null
+  },
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "rotationDegrees": 70
+    },
+    {
+      "type": "zoom-ring",
+      "quantity": 1,
+      "rotationDegrees": 75
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "rotationDegrees": 42
+    }
+  ],
+  "accessories": null,
+  "lens": {
+    "focalLength": {
+      "kind": "zoom",
+      "rangeMm": {
+        "minimum": 8,
+        "maximum": 15
+      }
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 2.8,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 9,
+        "bladeShape": null
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": "horizontal",
+        "degrees": 180,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 8
+          }
+        }
+      },
+      {
+        "format": "full-frame",
+        "orientation": "vertical",
+        "degrees": 180,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 8
+          }
+        }
+      },
+      {
+        "format": "full-frame",
+        "orientation": "diagonal",
+        "degrees": 180,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 8
+          }
+        }
+      },
+      {
+        "format": "full-frame",
+        "orientation": "horizontal",
+        "degrees": 142,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 15
+          }
+        }
+      },
+      {
+        "format": "full-frame",
+        "orientation": "vertical",
+        "degrees": 91,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 15
+          }
+        }
+      },
+      {
+        "format": "full-frame",
+        "orientation": "diagonal",
+        "degrees": 175,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 15
+          }
+        }
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 9,
+      "elements": 13
+    },
+    "specialElements": null,
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "mechanical-coupled"
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.16,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.23,
+          "conditions": {}
+        }
+      ],
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {
+      "fisheye": {
+        "imageTypes": [
+          {
+            "type": "circular",
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 8
+              }
+            }
+          },
+          {
+            "type": "diagonal",
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 15
+              }
+            }
+          }
+        ]
+      }
+    },
+    "zoom": {
+      "drive": null,
+      "opticalZoomingSystems": null
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "polarpro-lightleak-50mm-f11",
+  "subject": {
+    "manufacturerId": "polarpro",
+    "brandId": "polarpro",
+    "name": "LightLeak Lens 50mm F11"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "polarpro-lightleak-50mm-f11"
+  },
+  "sources": [
+    {
+      "url": "https://www.polarpro.com/products/lightleak-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://polarpro.zendesk.com/hc/en-us/articles/28041431360283-FAQ-LightLeak-Lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "controls",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized",
+        "mount.electronicContacts",
+        "physical.externalLengthDuringFocus",
+        "physical.weightMeasurements"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

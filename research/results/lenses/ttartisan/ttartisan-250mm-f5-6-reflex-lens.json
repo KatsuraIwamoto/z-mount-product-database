@@ -1,0 +1,37 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "ttartisan-250mm-f5-6-reflex-lens",
+  "subject": {
+    "manufacturerId": "ttartisan",
+    "brandId": "ttartisan",
+    "name": "TTArtisan 250mm F5.6 Reflex Lens"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The M42 lens has no Nikon Z configuration or supplied Z adapter. TTArtisan's own M-to-Z adapter explicitly does not support it, leaving only generic adapters, so it remains excluded."
+  },
+  "sources": [
+    {
+      "url": "https://www.ttartisan.com/?full-frame-lenses%2F250-Reflex.html=",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://ttartisan.store/products/ttartisan-leica-m-lens-to-nikon-z-mount-camera-lens-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "mount.adapter"
+      ]
+    }
+  ]
+}

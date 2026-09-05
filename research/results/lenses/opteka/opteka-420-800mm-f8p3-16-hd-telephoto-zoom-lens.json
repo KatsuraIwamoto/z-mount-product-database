@@ -1,0 +1,77 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "opteka-420-800mm-f8p3-16-hd-telephoto-zoom-lens",
+  "subject": {
+    "manufacturerId": "opteka",
+    "brandId": "opteka",
+    "name": "Opteka 420-800mm f/8.3-16 HD Telephoto Zoom Lens"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.ebay.com/itm/196937250678",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.modelNumberOptions",
+        "mount",
+        "mount.adapter",
+        "accessories",
+        "lens.focalLength",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.sansmirror.com/lenses/lens-reviews/lenses-for-nikon-z/opteka-420-800mm-lens-revie.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "technical-page",
+      "checked": [
+        "identity",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.externalLengthDuringZoom",
+        "physical.externalLengthDuringFocus",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/a/new/1277297/opteka_opt420800_420_800mm_f_8_3_preset_lens.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "mount",
+        "mount.adapter",
+        "accessories",
+        "lens.coverage"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Was an Opteka-branded Nikon Z package of this lens sold by Opteka or an authorized distributor, with the T2-to-Nikon Z adapter supplied as part of that package?"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "mofage-poco-pl-nikon-z",
+  "subject": {
+    "manufacturerId": "mofage",
+    "brandId": "mofage",
+    "name": "POCO Drop-In Filter Lens Mount Adapter Kit (PL to Nikon Z)"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "mofage-poco-pl-nikon-z"
+  },
+  "sources": [
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1775447-REG/mofage_s_z_poco_drop_in_filter_adapter.html",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "physical.tripodSupport"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.mofage.store/blogs/pocc-drop-in-filter-adapter-blog",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "conversionOptics",
+        "mechanisms"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.mofage.store/products/poco-drop-in-filter-adapter-e-rf-l-z-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://www.mofage.store/pages/faqs",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "faq",
+      "checked": [
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/lit_files/1028251.pdf",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "manual",
+      "checked": [
+        "identity"
+      ]
+    }
+  ]
+}

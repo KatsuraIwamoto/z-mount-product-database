@@ -1,0 +1,67 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "kipon-variable-nd-pl-nik-z",
+  "subject": {
+    "manufacturerId": "kipon",
+    "brandId": "kipon",
+    "name": "KIPON PL-Nikon Z Variable ND Adapter"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "kipon-variable-nd-pl-nik-z"
+  },
+  "sources": [
+    {
+      "url": "https://www.kipon.jp/products/preorder-kipon-variable-nd-adapter-pl-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "mechanisms"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://kipon.com/a-decade-later-kipon-reinvents-the-variable-nd-adapter-for-professional-cinema/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "mechanisms"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://kipon.com/product/preorder-kipon-variable-nd-adapter-for-professional-cinema-pl-lens-nikon-z-camera/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "officialProductPages",
+        "mountConfigurations",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://www.kipon.jp/guides/pl-lpl-cinema-lens-adapter-guide",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "electronics"
+      ]
+    }
+  ]
+}

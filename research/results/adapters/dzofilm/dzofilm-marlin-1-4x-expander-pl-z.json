@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "dzofilm-marlin-1-4x-expander-pl-z",
+  "subject": {
+    "manufacturerId": "dzofilm",
+    "brandId": "dzofilm",
+    "name": "Marlin 1.4x Expander"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "dzofilm-marlin-1-4x-expander-pl-z"
+  },
+  "sources": [
+    {
+      "url": "https://store.dzofilm.com/products/marlin-1-4x-expander",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.variants",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.weightMeasurements",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

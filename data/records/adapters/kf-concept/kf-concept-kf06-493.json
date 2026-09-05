@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "kf-concept-kf06-493",
+  "identity": {
+    "manufacturerId": "kf-concept",
+    "brandId": "kf-concept",
+    "productName": "Rollei QBM Lens to Nikon Z Mount Camera Adapter",
+    "modelNumberOptions": [
+      "KF06.493",
+      "KF-QBMZ"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.kentfaith.co.uk/KF06.493_rollei-qbm-lens-to-nikon-z-series-mount-camera-high-precision-lens-adapter-qbm-nik-z",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": "GB",
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "K&F CONCEPT"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "rollei-qbm",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": [],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": false
+  }
+}

@@ -1,0 +1,1217 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cercidiphyllum.jp/schemas/1.0.0/shared/shared-definitions.schema.json",
+  "$comment": "SPDX-FileCopyrightText: 2026 Katsura Iwamoto\nSPDX-License-Identifier: MIT",
+  "description": "Reusable identifiers, numeric values, conditions, measurements, and optical terminology for the 1.0 data model.",
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "positiveNumber": {
+      "type": "number",
+      "exclusiveMinimum": 0,
+      "maximum": 9007199254740991
+    },
+    "nonNegativeNumber": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 9007199254740991
+    },
+    "measurementComponent": {
+      "enum": [
+        "tripod-collar-assembly",
+        "tripod-foot",
+        "tripod-mount-cover",
+        "lens-hood",
+        "front-cap",
+        "rear-cap",
+        "drop-in-filter",
+        "other"
+      ]
+    },
+    "region": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "language": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(?:-[A-Z]{2})?$"
+    },
+    "imageFormat": {
+      "enum": [
+        "full-frame",
+        "aps-c",
+        "super-35",
+        "other"
+      ]
+    },
+    "coverage": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "format"
+          ],
+          "properties": {
+            "format": {
+              "$ref": "#/$defs/imageFormat"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "modelNumberOptions": {
+      "oneOf": [
+        {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          },
+          "uniqueItems": true
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "focalLengthCondition": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "kind",
+            "millimeters"
+          ],
+          "properties": {
+            "kind": {
+              "const": "point"
+            },
+            "millimeters": {
+              "$ref": "#/$defs/positiveNumber"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "kind",
+            "minimumMm",
+            "maximumMm"
+          ],
+          "properties": {
+            "kind": {
+              "const": "range"
+            },
+            "minimumMm": {
+              "$ref": "#/$defs/positiveNumber"
+            },
+            "maximumMm": {
+              "$ref": "#/$defs/positiveNumber"
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "focalLength": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "kind",
+            "millimeters"
+          ],
+          "properties": {
+            "kind": {
+              "const": "prime"
+            },
+            "millimeters": {
+              "oneOf": [
+                {
+                  "$ref": "#/$defs/positiveNumber"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "kind",
+            "rangeMm"
+          ],
+          "properties": {
+            "kind": {
+              "const": "zoom"
+            },
+            "rangeMm": {
+              "type": "object",
+              "required": [
+                "minimum",
+                "maximum"
+              ],
+              "properties": {
+                "minimum": {
+                  "$ref": "#/$defs/positiveNumber"
+                },
+                "maximum": {
+                  "$ref": "#/$defs/positiveNumber"
+                }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "kind",
+            "configurations"
+          ],
+          "properties": {
+            "kind": {
+              "const": "interchangeable"
+            },
+            "configurations": {
+              "type": "array",
+              "minItems": 2,
+              "items": {
+                "type": "object",
+                "required": [
+                  "magnification",
+                  "millimeters"
+                ],
+                "properties": {
+                  "magnification": {
+                    "$ref": "#/$defs/positiveNumber"
+                  },
+                  "millimeters": {
+                    "$ref": "#/$defs/positiveNumber"
+                  }
+                },
+                "additionalProperties": false
+              },
+              "uniqueItems": true
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "apertureConditions": {
+      "type": "object",
+      "properties": {
+        "focalLength": {
+          "$ref": "#/$defs/focalLengthCondition"
+        },
+        "focusDistanceM": {
+          "$ref": "#/$defs/positiveNumber"
+        },
+        "reproductionMagnification": {
+          "$ref": "#/$defs/nonNegativeNumber"
+        },
+        "cameraBodyModel": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "variantId": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "additionalProperties": false
+    },
+    "angleConditions": {
+      "type": "object",
+      "properties": {
+        "focalLength": {
+          "$ref": "#/$defs/focalLengthCondition"
+        },
+        "cameraBodyModel": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "variantId": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "additionalProperties": false
+    },
+    "focusConditions": {
+      "type": "object",
+      "properties": {
+        "focalLength": {
+          "$ref": "#/$defs/focalLengthCondition"
+        },
+        "cameraBodyModel": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "variantId": {
+          "$ref": "#/$defs/id"
+        },
+        "reproductionMagnification": {
+          "$ref": "#/$defs/nonNegativeNumber"
+        }
+      },
+      "additionalProperties": false
+    },
+    "specializedConditions": {
+      "type": "object",
+      "properties": {
+        "focalLength": {
+          "$ref": "#/$defs/focalLengthCondition"
+        },
+        "focusDistanceM": {
+          "$ref": "#/$defs/positiveNumber"
+        },
+        "reproductionMagnification": {
+          "$ref": "#/$defs/nonNegativeNumber"
+        },
+        "cameraBodyModel": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "variantId": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "additionalProperties": false
+    },
+    "fNumberMeasurement": {
+      "type": "object",
+      "required": [
+        "value",
+        "conditions"
+      ],
+      "properties": {
+        "value": {
+          "$ref": "#/$defs/positiveNumber"
+        },
+        "conditions": {
+          "$ref": "#/$defs/apertureConditions"
+        }
+      },
+      "additionalProperties": false
+    },
+    "tNumberMeasurement": {
+      "type": "object",
+      "required": [
+        "value",
+        "conditions"
+      ],
+      "properties": {
+        "value": {
+          "$ref": "#/$defs/positiveNumber"
+        },
+        "conditions": {
+          "$ref": "#/$defs/apertureConditions"
+        }
+      },
+      "additionalProperties": false
+    },
+    "angleOfView": {
+      "type": "object",
+      "required": [
+        "format",
+        "orientation",
+        "degrees",
+        "conditions"
+      ],
+      "properties": {
+        "format": {
+          "$ref": "#/$defs/imageFormat"
+        },
+        "orientation": {
+          "enum": [
+            "diagonal",
+            "horizontal",
+            "vertical",
+            null
+          ]
+        },
+        "degrees": {
+          "type": "number",
+          "exclusiveMinimum": 0,
+          "maximum": 360
+        },
+        "conditions": {
+          "$ref": "#/$defs/angleConditions"
+        }
+      },
+      "additionalProperties": false
+    },
+    "opticalConstruction": {
+      "type": "object",
+      "required": [
+        "groups",
+        "elements"
+      ],
+      "properties": {
+        "groups": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 9007199254740991
+        },
+        "elements": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 9007199254740991
+        }
+      },
+      "anyOf": [
+        {
+          "properties": {
+            "groups": {
+              "type": "integer"
+            }
+          }
+        },
+        {
+          "properties": {
+            "elements": {
+              "type": "integer"
+            }
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "specialElement": {
+      "type": "object",
+      "required": [
+        "types",
+        "quantity"
+      ],
+      "properties": {
+        "types": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "low-dispersion",
+              "anomalous-partial-dispersion",
+              "aspherical",
+              "fluorite",
+              "high-refractive-index",
+              "diffractive-optical",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "officialName": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "quantity": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 9007199254740991
+        }
+      },
+      "additionalProperties": false
+    },
+    "coating": {
+      "type": "object",
+      "required": [
+        "types",
+        "appliedTo"
+      ],
+      "properties": {
+        "types": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "anti-reflective",
+              "surface-protective",
+              "spectral-control",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "officialName": {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        "appliedTo": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "enum": [
+                  "front-element",
+                  "rear-element",
+                  "all-elements"
+                ]
+              },
+              "uniqueItems": true
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "environmentalClaim": {
+      "type": "object",
+      "required": [
+        "types",
+        "scope",
+        "conditions"
+      ],
+      "properties": {
+        "types": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "enum": [
+              "dust-resistant",
+              "drip-resistant",
+              "splash-resistant",
+              "moisture-resistant",
+              "weather-resistant",
+              "waterproof",
+              "other"
+            ]
+          },
+          "uniqueItems": true
+        },
+        "scope": {
+          "oneOf": [
+            {
+              "type": "object",
+              "required": [
+                "kind"
+              ],
+              "properties": {
+                "kind": {
+                  "const": "product"
+                }
+              },
+              "additionalProperties": false
+            },
+            {
+              "type": "object",
+              "required": [
+                "kind",
+                "component"
+              ],
+              "properties": {
+                "kind": {
+                  "const": "component"
+                },
+                "component": {
+                  "$ref": "#/$defs/nonEmptyString"
+                }
+              },
+              "additionalProperties": false
+            }
+          ]
+        },
+        "conditions": {
+          "$ref": "#/$defs/specializedConditions"
+        }
+      },
+      "additionalProperties": false
+    },
+    "metadataTransmission": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "present"
+          ],
+          "properties": {
+            "present": {
+              "const": false
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "present",
+            "standards"
+          ],
+          "properties": {
+            "present": {
+              "const": true
+            },
+            "standards": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "enum": [
+                      "exif",
+                      "cooke-i",
+                      "other"
+                    ]
+                  },
+                  "uniqueItems": true
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "electronicServices": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "hasPublishedFirmwareUpdate",
+            "connections"
+          ],
+          "properties": {
+            "hasPublishedFirmwareUpdate": {
+              "type": [
+                "boolean",
+                "null"
+              ]
+            },
+            "connections": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "required": [
+                      "method",
+                      "purposes"
+                    ],
+                    "properties": {
+                      "method": {
+                        "enum": [
+                          "camera-body",
+                          "direct-usb",
+                          "dock",
+                          "other"
+                        ]
+                      },
+                      "connectorType": {
+                        "enum": [
+                          "usb-c",
+                          "micro-usb",
+                          "other"
+                        ]
+                      },
+                      "purposes": {
+                        "type": "array",
+                        "minItems": 1,
+                        "items": {
+                          "enum": [
+                            "firmware-update",
+                            "configuration",
+                            "tethered-control"
+                          ]
+                        },
+                        "uniqueItems": true
+                      },
+                      "application": {
+                        "$ref": "#/$defs/nonEmptyString"
+                      }
+                    },
+                    "additionalProperties": false
+                  }
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "tripodSupportInterface": {
+      "type": "object",
+      "required": [
+        "type"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "arca-compatible",
+            "mounting-thread",
+            "other"
+          ]
+        },
+        "threadDesignation": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/nonEmptyString"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "mounting-thread"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "required": [
+              "threadDesignation"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "threadDesignation"
+              ]
+            }
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "tripodSupportComponent": {
+      "type": "object",
+      "required": [
+        "type",
+        "relationship",
+        "removable",
+        "interfaces",
+        "modelNumberOptions",
+        "quantity",
+        "conditions"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "collar-assembly",
+            "foot",
+            "support-bridge",
+            "support-bracket",
+            "body-mounting-point",
+            "other"
+          ]
+        },
+        "relationship": {
+          "enum": [
+            "integrated",
+            "supplied",
+            "optional",
+            null
+          ]
+        },
+        "removable": {
+          "type": [
+            "boolean",
+            "null"
+          ]
+        },
+        "interfaces": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/tripodSupportInterface"
+              },
+              "uniqueItems": true
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "modelNumberOptions": {
+          "$ref": "#/$defs/modelNumberOptions"
+        },
+        "quantity": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "minimum": 1,
+          "maximum": 9007199254740991
+        },
+        "conditions": {
+          "$ref": "#/$defs/specializedConditions"
+        }
+      },
+      "additionalProperties": false
+    },
+    "tripodSupport": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "present"
+          ],
+          "properties": {
+            "present": {
+              "const": false
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "present",
+            "components"
+          ],
+          "properties": {
+            "present": {
+              "const": true
+            },
+            "components": {
+              "oneOf": [
+                {
+                  "type": "array",
+                  "minItems": 1,
+                  "items": {
+                    "$ref": "#/$defs/tripodSupportComponent"
+                  },
+                  "uniqueItems": true
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "tiltMeasurement": {
+      "type": "object",
+      "required": [
+        "maximumFromNeutralDegrees",
+        "totalRangeDegrees",
+        "directionality",
+        "conditions"
+      ],
+      "properties": {
+        "maximumFromNeutralDegrees": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/positiveNumber"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "totalRangeDegrees": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/positiveNumber"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "directionality": {
+          "enum": [
+            "single-direction",
+            "bidirectional",
+            null
+          ]
+        },
+        "conditions": {
+          "$ref": "#/$defs/specializedConditions"
+        }
+      },
+      "anyOf": [
+        {
+          "properties": {
+            "maximumFromNeutralDegrees": {
+              "type": "number"
+            }
+          }
+        },
+        {
+          "properties": {
+            "totalRangeDegrees": {
+              "type": "number"
+            }
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "shiftMeasurement": {
+      "type": "object",
+      "required": [
+        "maximumFromNeutralMm",
+        "totalRangeMm",
+        "directionality",
+        "conditions"
+      ],
+      "properties": {
+        "maximumFromNeutralMm": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/positiveNumber"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "totalRangeMm": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/positiveNumber"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "directionality": {
+          "enum": [
+            "single-direction",
+            "bidirectional",
+            null
+          ]
+        },
+        "conditions": {
+          "$ref": "#/$defs/specializedConditions"
+        }
+      },
+      "anyOf": [
+        {
+          "properties": {
+            "maximumFromNeutralMm": {
+              "type": "number"
+            }
+          }
+        },
+        {
+          "properties": {
+            "totalRangeMm": {
+              "type": "number"
+            }
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "rotationMeasurement": {
+      "type": "object",
+      "required": [
+        "scope",
+        "maximumFromNeutralDegrees",
+        "totalRangeDegrees",
+        "directionality",
+        "conditions"
+      ],
+      "properties": {
+        "scope": {
+          "enum": [
+            "product",
+            "movement-assembly",
+            "mount-interface",
+            "other"
+          ]
+        },
+        "maximumFromNeutralDegrees": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/positiveNumber",
+              "maximum": 360
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "totalRangeDegrees": {
+          "oneOf": [
+            {
+              "$ref": "#/$defs/positiveNumber",
+              "maximum": 360
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "directionality": {
+          "enum": [
+            "single-direction",
+            "bidirectional",
+            null
+          ]
+        },
+        "conditions": {
+          "$ref": "#/$defs/specializedConditions"
+        }
+      },
+      "anyOf": [
+        {
+          "properties": {
+            "maximumFromNeutralDegrees": {
+              "type": "number"
+            }
+          }
+        },
+        {
+          "properties": {
+            "totalRangeDegrees": {
+              "type": "number"
+            }
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "movements": {
+      "type": "object",
+      "properties": {
+        "tiltMeasurements": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/tiltMeasurement"
+              },
+              "uniqueItems": true
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "shiftMeasurements": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/shiftMeasurement"
+              },
+              "uniqueItems": true
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "rotationMeasurements": {
+          "oneOf": [
+            {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/rotationMeasurement"
+              },
+              "uniqueItems": true
+            },
+            {
+              "type": "null"
+            }
+          ]
+        }
+      },
+      "minProperties": 1,
+      "additionalProperties": false
+    },
+    "minimumFocusDistance": {
+      "type": "object",
+      "required": [
+        "distanceM",
+        "conditions"
+      ],
+      "properties": {
+        "distanceM": {
+          "$ref": "#/$defs/positiveNumber"
+        },
+        "conditions": {
+          "$ref": "#/$defs/focusConditions"
+        }
+      },
+      "additionalProperties": false
+    },
+    "reproductionMagnification": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "kind",
+            "value",
+            "conditions"
+          ],
+          "properties": {
+            "kind": {
+              "enum": [
+                "maximum",
+                "fixed"
+              ]
+            },
+            "value": {
+              "$ref": "#/$defs/nonNegativeNumber"
+            },
+            "conditions": {
+              "$ref": "#/$defs/focusConditions"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "kind",
+            "minimum",
+            "maximum",
+            "conditions"
+          ],
+          "properties": {
+            "kind": {
+              "const": "range"
+            },
+            "minimum": {
+              "$ref": "#/$defs/nonNegativeNumber"
+            },
+            "maximum": {
+              "$ref": "#/$defs/nonNegativeNumber"
+            },
+            "conditions": {
+              "$ref": "#/$defs/focusConditions"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "kind",
+            "values",
+            "conditions"
+          ],
+          "properties": {
+            "kind": {
+              "const": "discrete"
+            },
+            "values": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "$ref": "#/$defs/nonNegativeNumber"
+              },
+              "uniqueItems": true
+            },
+            "conditions": {
+              "$ref": "#/$defs/focusConditions"
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "workingDistance": {
+      "type": "object",
+      "required": [
+        "distanceM",
+        "conditions"
+      ],
+      "properties": {
+        "distanceM": {
+          "$ref": "#/$defs/positiveNumber"
+        },
+        "conditions": {
+          "$ref": "#/$defs/specializedConditions"
+        }
+      },
+      "additionalProperties": false
+    },
+    "host": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "kind"
+          ],
+          "properties": {
+            "kind": {
+              "const": "product"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "kind",
+            "category",
+            "modelNumberOptions"
+          ],
+          "properties": {
+            "kind": {
+              "const": "accessory"
+            },
+            "category": {
+              "enum": [
+                "lens-hood",
+                "other"
+              ]
+            },
+            "modelNumberOptions": {
+              "$ref": "#/$defs/modelNumberOptions"
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    }
+  },
+  "title": "Shared definitions"
+}

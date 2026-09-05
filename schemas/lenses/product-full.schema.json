@@ -1,0 +1,464 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cercidiphyllum.jp/schemas/1.0.0/lenses/product-full.schema.json",
+  "$comment": "SPDX-FileCopyrightText: 2026 Katsura Iwamoto\nSPDX-License-Identifier: MIT",
+  "description": "A Z-mount optical product with common fields and exactly one product-type block. Omission means structurally inapplicable; null means applicable but not established by published official information; an empty array means a confirmed empty collection; false means a confirmed negative fact.",
+  "type": "object",
+  "required": [
+    "id",
+    "productType",
+    "identity",
+    "lifecycle",
+    "officialProductPages",
+    "mount",
+    "physical",
+    "controls",
+    "accessories"
+  ],
+  "properties": {
+    "$schema": {
+      "type": "string"
+    },
+    "id": {
+      "$ref": "../shared/shared-definitions.schema.json#/$defs/id",
+      "description": "Slug-form product ID that is unique within the lenses namespace and shared with the Light projection. Its text is not a source of product attributes."
+    },
+    "productType": {
+      "enum": [
+        "lens",
+        "teleconverter",
+        "pinhole"
+      ]
+    },
+    "identity": {
+      "$ref": "product-components.schema.json#/$defs/identity"
+    },
+    "lifecycle": {
+      "$ref": "product-components.schema.json#/$defs/lifecycle"
+    },
+    "officialProductPages": {
+      "type": "array",
+      "items": {
+        "$ref": "product-components.schema.json#/$defs/officialProductPage"
+      }
+    },
+    "mount": {
+      "$ref": "product-components.schema.json#/$defs/mount"
+    },
+    "physical": {
+      "$ref": "product-components.schema.json#/$defs/physical"
+    },
+    "controls": {
+      "oneOf": [
+        {
+          "type": "array",
+          "items": {
+            "$ref": "product-components.schema.json#/$defs/control"
+          }
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "accessories": {
+      "$ref": "product-components.schema.json#/$defs/accessories"
+    },
+    "electronicServices": {
+      "$ref": "../shared/shared-definitions.schema.json#/$defs/electronicServices"
+    },
+    "lens": {
+      "$ref": "product-type-lens.schema.json"
+    },
+    "teleconverter": {
+      "$ref": "product-type-teleconverter.schema.json"
+    },
+    "pinhole": {
+      "$ref": "product-type-pinhole.schema.json"
+    }
+  },
+  "oneOf": [
+    {
+      "properties": {
+        "productType": {
+          "const": "lens"
+        }
+      },
+      "required": [
+        "lens"
+      ],
+      "not": {
+        "anyOf": [
+          {
+            "required": [
+              "teleconverter"
+            ]
+          },
+          {
+            "required": [
+              "pinhole"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "properties": {
+        "productType": {
+          "const": "teleconverter"
+        }
+      },
+      "required": [
+        "teleconverter"
+      ],
+      "not": {
+        "anyOf": [
+          {
+            "required": [
+              "lens"
+            ]
+          },
+          {
+            "required": [
+              "pinhole"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "properties": {
+        "productType": {
+          "const": "pinhole"
+        }
+      },
+      "required": [
+        "pinhole"
+      ],
+      "not": {
+        "anyOf": [
+          {
+            "required": [
+              "lens"
+            ]
+          },
+          {
+            "required": [
+              "teleconverter"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "mount": {
+            "properties": {
+              "electronicContacts": {
+                "type": "object",
+                "properties": {
+                  "present": {
+                    "const": true
+                  }
+                },
+                "required": [
+                  "present"
+                ]
+              }
+            },
+            "required": [
+              "electronicContacts"
+            ]
+          }
+        },
+        "required": [
+          "mount"
+        ]
+      },
+      "then": {
+        "required": [
+          "electronicServices"
+        ]
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "productType": {
+            "const": "lens"
+          }
+        },
+        "required": [
+          "productType"
+        ]
+      },
+      "then": {
+        "properties": {
+          "physical": {
+            "required": [
+              "isRetractableForStorage"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lens": {
+            "type": "object",
+            "properties": {
+              "focalLength": {
+                "type": "object",
+                "properties": {
+                  "kind": {
+                    "const": "zoom"
+                  }
+                },
+                "required": [
+                  "kind"
+                ]
+              }
+            },
+            "required": [
+              "focalLength"
+            ]
+          }
+        },
+        "required": [
+          "lens"
+        ]
+      },
+      "then": {
+        "properties": {
+          "physical": {
+            "required": [
+              "externalLengthDuringZoom"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lens": {
+            "type": "object",
+            "properties": {
+              "focalLength": {
+                "type": "object",
+                "properties": {
+                  "kind": {
+                    "const": "prime"
+                  }
+                },
+                "required": [
+                  "kind"
+                ]
+              }
+            },
+            "required": [
+              "focalLength"
+            ]
+          }
+        },
+        "required": [
+          "lens"
+        ]
+      },
+      "then": {
+        "properties": {
+          "physical": {
+            "not": {
+              "required": [
+                "externalLengthDuringZoom"
+              ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "productType": {
+            "const": "lens"
+          }
+        },
+        "required": [
+          "productType"
+        ]
+      },
+      "then": {
+        "properties": {
+          "physical": {
+            "required": [
+              "externalLengthDuringFocus"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lens": {
+            "type": "object",
+            "properties": {
+              "focus": {
+                "type": "object",
+                "properties": {
+                  "opticalFocusingSystems": {
+                    "type": "array",
+                    "contains": {
+                      "type": "object",
+                      "required": [
+                        "type"
+                      ],
+                      "properties": {
+                        "type": {
+                          "enum": [
+                            "internal-focusing",
+                            "rear-focusing"
+                          ]
+                        }
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "opticalFocusingSystems"
+                ]
+              }
+            },
+            "required": [
+              "focus"
+            ]
+          }
+        },
+        "required": [
+          "lens"
+        ]
+      },
+      "then": {
+        "properties": {
+          "physical": {
+            "properties": {
+              "externalLengthDuringFocus": {
+                "const": "constant"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "lens": {
+            "type": "object",
+            "properties": {
+              "zoom": {
+                "type": "object",
+                "properties": {
+                  "opticalZoomingSystems": {
+                    "type": "array",
+                    "contains": {
+                      "type": "object",
+                      "required": [
+                        "type"
+                      ],
+                      "properties": {
+                        "type": {
+                          "const": "internal-zooming"
+                        }
+                      }
+                    }
+                  }
+                },
+                "required": [
+                  "opticalZoomingSystems"
+                ]
+              }
+            },
+            "required": [
+              "zoom"
+            ]
+          }
+        },
+        "required": [
+          "lens"
+        ]
+      },
+      "then": {
+        "properties": {
+          "physical": {
+            "required": [
+              "externalLengthDuringZoom"
+            ],
+            "properties": {
+              "externalLengthDuringZoom": {
+                "const": "constant"
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "electronicServices": {
+            "type": "object",
+            "properties": {
+              "connections": {
+                "type": "array",
+                "contains": {
+                  "type": "object",
+                  "required": [
+                    "method"
+                  ],
+                  "properties": {
+                    "method": {
+                      "const": "camera-body"
+                    }
+                  }
+                }
+              }
+            },
+            "required": [
+              "connections"
+            ]
+          }
+        },
+        "required": [
+          "electronicServices"
+        ]
+      },
+      "then": {
+        "properties": {
+          "mount": {
+            "properties": {
+              "electronicContacts": {
+                "type": "object",
+                "required": [
+                  "present"
+                ],
+                "properties": {
+                  "present": {
+                    "const": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false,
+  "title": "Full lens-dataset product"
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "kiwifotos-lma-m42-nz",
+  "subject": {
+    "manufacturerId": "kiwifotos",
+    "brandId": "kiwifotos",
+    "name": "Lens Mount Adapter for M42 Lenses to Nikon Z Body"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "kiwifotos-lma-m42-nz"
+  },
+  "sources": [
+    {
+      "url": "https://en.kiwifotos.cn/index/goods/detail.html?id=275",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://en.kiwifotos.cn/index/goods/index.html?id=40",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    }
+  ]
+}

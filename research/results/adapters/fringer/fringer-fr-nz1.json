@@ -1,0 +1,38 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "fringer-fr-nz1",
+  "subject": {
+    "manufacturerId": "fringer",
+    "brandId": "fringer",
+    "name": "Fringer EF-NZ"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "fringer-fr-nz1"
+  },
+  "sources": [
+    {
+      "url": "https://www.fringeradapter.com/canon-ef-to-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://www.fringeradapter.com/firmware-ef-nz",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "mountConfigurations"
+      ]
+    }
+  ]
+}

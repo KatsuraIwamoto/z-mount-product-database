@@ -1,0 +1,54 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "7artisans-ef-nz",
+  "subject": {
+    "manufacturerId": "7artisans",
+    "brandId": "7artisans",
+    "name": "EF-NZ Autofocus Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "7artisans-ef-nz"
+  },
+  "sources": [
+    {
+      "url": "https://www.7artisans.com/prod_view.aspx?id=440&nid=3&typeid=96",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1747399-REG/7artisans_photoelectric_ef_nz_autofocus_adapter_for_canon.html/includes",
+      "publisherRelationship": "retailer",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.big-photo.de/7artisans-autofokusadapter-canon-ef-an-nikon-z",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "distributor-page",
+      "checked": [
+        "identity",
+        "conversionOptics",
+        "mechanisms",
+        "physical.weightMeasurements"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "7artisans-7-5mm-f2-8-fisheye",
+  "subject": {
+    "manufacturerId": "7artisans",
+    "brandId": "7artisans",
+    "name": "7Artisans 7.5mm F2.8 Fisheye"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The official page for the original 7Artisans 7.5mm F2.8 lists E, EOS-M, FX, and M43 mounts. Nikon Z was added for the Mark II, so the original candidate is excluded."
+  },
+  "sources": [
+    {
+      "url": "http://m.7artisans.com/en/h-pd-21.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "http://m.7artisans.com/en/h-pd-71.html?sortName=name",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

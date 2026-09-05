@@ -1,0 +1,34 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "kf-concept-kf06-373",
+  "subject": {
+    "manufacturerId": "kf-concept",
+    "brandId": "kf-concept",
+    "name": "Minolta A / Sony A Lenses to Nikon Z Mount Camera Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "kf-concept-kf06-373"
+  },
+  "sources": [
+    {
+      "url": "https://www.kentfaith.co.uk/KF06.373_minolta-a-sony-a-lenses-to-nikon-z-mount-camera-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

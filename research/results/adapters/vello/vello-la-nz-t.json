@@ -1,0 +1,41 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "vello-la-nz-t",
+  "subject": {
+    "manufacturerId": "gradus-group",
+    "brandId": "vello",
+    "name": "T-Mount Lens to Nikon Z-Mount Camera Lens Adapter"
+  },
+  "reviewedOn": "2026-09-04",
+  "decision": {
+    "status": "included",
+    "recordId": "vello-la-nz-t"
+  },
+  "sources": [
+    {
+      "url": "https://www.vellogear.com/product/20423/Vello-LA_NZ_T-T_Mount-Lens-to-Nikon-Z_Mount-Camera%20Lens-Adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1708815-REG/vello_la_nz_t_nikon_z_camera_to.html/specs",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "specification",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

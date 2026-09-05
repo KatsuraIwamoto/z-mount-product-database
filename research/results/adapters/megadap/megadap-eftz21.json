@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "megadap-eftz21",
+  "subject": {
+    "manufacturerId": "megadap",
+    "brandId": "megadap",
+    "name": "Canon EF to Nikon Z Autofocus Adapter"
+  },
+  "reviewedOn": "2026-09-05",
+  "decision": {
+    "status": "included",
+    "recordId": "megadap-eftz21"
+  },
+  "sources": [
+    {
+      "url": "https://megadap.net/product/megadap-canon-ef-to-nikon-z-autofocus-adapter-eftz21/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms",
+        "physical.officialEnvironmentalProtectionClaims"
+      ]
+    },
+    {
+      "url": "https://megadap.net/eftz21-firmware-update/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "electronics",
+        "electronicServices"
+      ]
+    }
+  ]
+}

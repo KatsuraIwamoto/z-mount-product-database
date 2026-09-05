@@ -1,0 +1,46 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "shoten-lm-nz-m-l",
+  "subject": {
+    "manufacturerId": "shoten-kobo",
+    "brandId": "shoten",
+    "name": "SHOTEN LM-NZ M (L) Mount Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "shoten-lm-nz-m-l"
+  },
+  "sources": [
+    {
+      "url": "https://stkb.co.jp/info/shoten-lm-nz-m-l-%e3%83%a9%e3%82%a4%e3%82%abm%e3%83%9e%e3%82%a6%e3%83%b3%e3%83%88%e3%83%ac%e3%83%b3%e3%82%ba-%e2%86%92-%e3%83%8b%e3%82%b3%e3%83%b3z%e3%83%9e%e3%82%a6%e3%83%b3%e3%83%88%e5%a4%89/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000001683",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ]
+}

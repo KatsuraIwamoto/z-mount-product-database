@@ -1,0 +1,300 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cercidiphyllum.jp/schemas/1.0.0/adapters/research-result.schema.json",
+  "$comment": "SPDX-FileCopyrightText: 2026 Katsura Iwamoto\nSPDX-License-Identifier: MIT",
+  "title": "Mount adapter research result",
+  "description": "The current inclusion decision, evidence sources, and unresolved questions for one investigated mount adapter.",
+  "$defs": {
+    "nullableId": {
+      "oneOf": [
+        {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/id"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "stringList": {
+      "type": "array",
+      "items": {
+        "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+      },
+      "uniqueItems": true
+    },
+    "publisherRelationship": {
+      "enum": [
+        "manufacturer-or-brand",
+        "authorized-distributor",
+        "authorized-retailer",
+        "retailer",
+        "crowdfunding-platform",
+        "independent-publication",
+        "unknown"
+      ]
+    },
+    "sourceType": {
+      "enum": [
+        "announcement",
+        "catalog",
+        "collection",
+        "company-profile",
+        "crowdfunding",
+        "distributor-page",
+        "faq",
+        "image",
+        "manual",
+        "news-report",
+        "product-page",
+        "retailer-listing",
+        "specification",
+        "support-page",
+        "technical-page",
+        "video",
+        "other"
+      ]
+    },
+    "productFieldPath": {
+      "enum": [
+        "identity",
+        "identity.modelNumberOptions",
+        "identity.alternateNames",
+        "identity.variants",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "mechanisms",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.tripodSupport"
+      ]
+    },
+    "decisionCheck": {
+      "enum": [
+        "availability",
+        "inclusion-criteria",
+        "licensing",
+        "release-status"
+      ]
+    }
+  },
+  "type": "object",
+  "required": [
+    "$schema",
+    "id",
+    "subject",
+    "reviewedOn",
+    "decision",
+    "sources"
+  ],
+  "properties": {
+    "$schema": {
+      "const": "../../../../schemas/adapters/research-result.schema.json"
+    },
+    "id": {
+      "$ref": "../shared/shared-definitions.schema.json#/$defs/id"
+    },
+    "subject": {
+      "type": "object",
+      "required": [
+        "manufacturerId",
+        "brandId",
+        "name"
+      ],
+      "properties": {
+        "manufacturerId": {
+          "$ref": "#/$defs/nullableId"
+        },
+        "brandId": {
+          "$ref": "#/$defs/nullableId"
+        },
+        "name": {
+          "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+        },
+        "aliases": {
+          "$ref": "#/$defs/stringList"
+        }
+      },
+      "additionalProperties": false
+    },
+    "reviewedOn": {
+      "type": "string",
+      "format": "date"
+    },
+    "decision": {
+      "oneOf": [
+        {
+          "type": "object",
+          "required": [
+            "status",
+            "recordId"
+          ],
+          "properties": {
+            "status": {
+              "const": "included"
+            },
+            "recordId": {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/id"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "status",
+            "reason"
+          ],
+          "properties": {
+            "status": {
+              "const": "excluded"
+            },
+            "reason": {
+              "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+            }
+          },
+          "additionalProperties": false
+        },
+        {
+          "type": "object",
+          "required": [
+            "status"
+          ],
+          "properties": {
+            "status": {
+              "const": "needs-review"
+            }
+          },
+          "additionalProperties": false
+        }
+      ]
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "url",
+          "publisherRelationship",
+          "sourceType"
+        ],
+        "properties": {
+          "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https?://"
+          },
+          "publisherRelationship": {
+            "$ref": "#/$defs/publisherRelationship"
+          },
+          "sourceType": {
+            "$ref": "#/$defs/sourceType"
+          },
+          "checked": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/productFieldPath"
+            },
+            "uniqueItems": true
+          },
+          "decisionChecks": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "$ref": "#/$defs/decisionCheck"
+            },
+            "uniqueItems": true
+          },
+          "note": {
+            "$ref": "../shared/shared-definitions.schema.json#/$defs/nonEmptyString"
+          }
+        },
+        "anyOf": [
+          {
+            "required": [
+              "checked"
+            ]
+          },
+          {
+            "required": [
+              "decisionChecks"
+            ]
+          }
+        ],
+        "additionalProperties": false
+      }
+    },
+    "notes": {
+      "$ref": "#/$defs/stringList"
+    },
+    "unresolved": {
+      "$ref": "#/$defs/stringList"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "decision": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "included",
+                  "excluded"
+                ]
+              }
+            },
+            "required": [
+              "status"
+            ]
+          }
+        },
+        "required": [
+          "decision"
+        ]
+      },
+      "then": {
+        "properties": {
+          "sources": {
+            "minItems": 1
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "decision": {
+            "properties": {
+              "status": {
+                "const": "needs-review"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          }
+        },
+        "required": [
+          "decision"
+        ]
+      },
+      "then": {
+        "required": [
+          "unresolved"
+        ],
+        "properties": {
+          "unresolved": {
+            "minItems": 1
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

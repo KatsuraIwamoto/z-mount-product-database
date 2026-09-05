@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "mr-ding-noxlux-dg-50mm-f1p2-z",
+  "subject": {
+    "manufacturerId": "mr-ding-studio",
+    "brandId": "mr-ding",
+    "name": "Noxlux DG 50/1.2 Z"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "mr-ding-noxlux-dg-50mm-f1p2-z"
+  },
+  "sources": [
+    {
+      "url": "https://mrdingstudio.com/products/mr-ding-noxlux-dg-50-1-2-for-nikon-z-manual-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.alternateNames",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "physical",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "physical.isRetractableForStorage",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization"
+      ]
+    }
+  ]
+}

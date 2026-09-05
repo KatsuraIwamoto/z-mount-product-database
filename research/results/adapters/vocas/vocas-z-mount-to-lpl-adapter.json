@@ -1,0 +1,35 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "vocas-z-mount-to-lpl-adapter",
+  "subject": {
+    "manufacturerId": "vocas",
+    "brandId": "vocas",
+    "name": "Vocas Z-mount to LPL adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "included",
+    "recordId": "vocas-z-mount-to-lpl-adapter"
+  },
+  "sources": [
+    {
+      "url": "https://www.vocas.com/vocas-z-mount-to-lpl-adapter/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.weightMeasurements",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ]
+}

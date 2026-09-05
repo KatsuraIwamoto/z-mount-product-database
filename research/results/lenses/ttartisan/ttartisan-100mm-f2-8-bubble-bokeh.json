@@ -1,0 +1,37 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "ttartisan-100mm-f2-8-bubble-bokeh",
+  "subject": {
+    "manufacturerId": "ttartisan",
+    "brandId": "ttartisan",
+    "name": "TTArtisan 100mm F2.8 Bubble Bokeh"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The M42/M-mount lens has no Nikon Z configuration or supplied Z adapter. TTArtisan's own M-to-Z adapter explicitly does not support the M42 version, leaving only generic adapters, so it remains excluded."
+  },
+  "sources": [
+    {
+      "url": "https://ttartisan.store/en-cn/products/m42",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://ttartisan.store/products/ttartisan-leica-m-lens-to-nikon-z-mount-camera-lens-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "mount.adapter"
+      ]
+    }
+  ]
+}

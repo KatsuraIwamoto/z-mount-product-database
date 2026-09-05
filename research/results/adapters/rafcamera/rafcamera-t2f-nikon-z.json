@@ -1,0 +1,25 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "rafcamera-t2f-nikon-z",
+  "subject": {
+    "manufacturerId": "rafcamera",
+    "brandId": "rafcamera",
+    "name": "T2 Female to Nikon Z Adapter"
+  },
+  "reviewedOn": "2026-09-02",
+  "decision": {
+    "status": "excluded",
+    "reason": "The official product is a 1 mm generic female T2 thread fitting and is not presented as a direct, registration-correct T-mount lens adapter."
+  },
+  "sources": [
+    {
+      "url": "https://rafcamera.com/adapter-t2f-to-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "physical.dimensionMeasurements"
+      ]
+    }
+  ]
+}
