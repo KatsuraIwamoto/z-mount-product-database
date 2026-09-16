@@ -8,8 +8,8 @@
   "license": "CC-BY-4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
-  "recordCount": 443,
-  "contentHash": "sha256:8d4f48fa0e42c3453dc94a83de241cc40a0ddd703b9d8adce28cb800252cfe31",
+  "recordCount": 445,
+  "contentHash": "sha256:7b33a5ac238f9361c58dea2b0417626c8ba0a28edbc0d4e43689a699092ec3fc",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -167,6 +167,9 @@
       },
       "wooden-camera": {
         "name": "Wooden Camera"
+      },
+      "yeenon": {
+        "name": "Guangzhou YEENON Photographic Equipment Co., Ltd."
       },
       "zhongyi-optics": {
         "name": "Zhongyi Optics"
@@ -331,6 +334,9 @@
       },
       "wooden-camera": {
         "name": "Wooden Camera"
+      },
+      "yeenon": {
+        "name": "YEENON"
       }
     },
     "mountSystems": {
@@ -16082,7 +16088,13 @@
       ],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 158,
+            "approximate": true,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": [
           {
             "types": [
@@ -16152,7 +16164,7 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -16161,7 +16173,15 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "dock",
+            "connectorType": "micro-usb",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -16207,7 +16227,7 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -16216,7 +16236,21 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "dock",
+            "connectorType": "micro-usb",
+            "purposes": [
+              "firmware-update"
+            ]
+          },
+          {
+            "method": "camera-body",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -16238,7 +16272,20 @@
         "announcementDate": null,
         "officialDesignations": null
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "https://www.megadap.com/cpbjd/etz21-pro/",
+          "pageFamilies": [
+            "global"
+          ],
+          "region": null,
+          "language": "zh",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "Megadap"
+          }
+        }
+      ],
       "mountConfigurations": [
         {
           "lensSideMountSystemId": "sony-e",
@@ -16262,10 +16309,16 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 44,
+            "approximate": false,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -16338,7 +16391,7 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -16357,7 +16410,15 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "camera-body",
+            "purposes": [
+              "firmware-update",
+              "configuration"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -16394,7 +16455,12 @@
         "cameraControlledAperture": false,
         "lensStabilizationCommunication": false,
         "manualFocusAssistance": true,
-        "metadataTransmission": null,
+        "metadataTransmission": {
+          "present": true,
+          "standards": [
+            "exif"
+          ]
+        },
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
@@ -18245,7 +18311,14 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "camera-body",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -18631,6 +18704,80 @@
       "conversionOptics": {
         "present": false
       }
+    },
+    {
+      "id": "mtf-services-panavision-to-nikon-z-mount-adaptor",
+      "identity": {
+        "manufacturerId": "mtf-services",
+        "brandId": "mtf-services",
+        "productName": "Panavision to Nikon Z mount adaptor",
+        "modelNumberOptions": null,
+        "alternateNames": null,
+        "variants": null
+      },
+      "lifecycle": {
+        "announcementDate": null,
+        "officialDesignations": null
+      },
+      "officialProductPages": [
+        {
+          "url": "https://mtfservices.com/products/panavision-to-nikon-z-mount-adaptor",
+          "pageFamilies": [
+            "global"
+          ],
+          "region": null,
+          "language": "en",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "MTF Services"
+          }
+        }
+      ],
+      "mountConfigurations": [
+        {
+          "lensSideMountSystemId": "panavision-pv",
+          "cameraSideMountSystemId": "nikon-z",
+          "lensRetention": null,
+          "lensRearProtrusionLimits": null
+        }
+      ],
+      "electronics": {
+        "electronicContacts": null,
+        "autofocus": null,
+        "cameraControlledAperture": null,
+        "lensStabilizationCommunication": null,
+        "manualFocusAssistance": null,
+        "metadataTransmission": null,
+        "lensPowerTransmission": null,
+        "recordingTriggerTransmission": null
+      },
+      "mechanisms": null,
+      "physical": {
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
+        "officialEnvironmentalProtectionClaims": null,
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4 inch"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
+      },
+      "electronicServices": null,
+      "conversionOptics": null
     },
     {
       "id": "mtf-services-pl-to-nikon-z-mount-adaptor",
@@ -27884,7 +28031,12 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "other",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -27961,7 +28113,7 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -27975,7 +28127,8 @@
             "method": "dock",
             "purposes": [
               "firmware-update"
-            ]
+            ],
+            "connectorType": "micro-usb"
           }
         ]
       },
@@ -28027,11 +28180,21 @@
         "cameraControlledAperture": false,
         "lensStabilizationCommunication": false,
         "manualFocusAssistance": true,
-        "metadataTransmission": null,
+        "metadataTransmission": {
+          "present": true,
+          "standards": [
+            "exif"
+          ]
+        },
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "other",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -28040,7 +28203,20 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "dock",
+            "purposes": [
+              "firmware-update"
+            ]
+          },
+          {
+            "method": "camera-body",
+            "purposes": [
+              "configuration"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -28077,7 +28253,12 @@
         "cameraControlledAperture": false,
         "lensStabilizationCommunication": false,
         "manualFocusAssistance": true,
-        "metadataTransmission": null,
+        "metadataTransmission": {
+          "present": true,
+          "standards": [
+            "exif"
+          ]
+        },
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
@@ -28095,7 +28276,14 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "dock",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -28145,7 +28333,12 @@
         "cameraControlledAperture": false,
         "lensStabilizationCommunication": false,
         "manualFocusAssistance": true,
-        "metadataTransmission": null,
+        "metadataTransmission": {
+          "present": true,
+          "standards": [
+            "exif"
+          ]
+        },
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
@@ -28168,7 +28361,8 @@
             "method": "dock",
             "purposes": [
               "firmware-update"
-            ]
+            ],
+            "connectorType": "micro-usb"
           },
           {
             "method": "camera-body",
@@ -29753,7 +29947,14 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "direct-usb",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -29843,7 +30044,20 @@
         "announcementDate": null,
         "officialDesignations": null
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "https://viltrox.com/products/viltrox-ef-z2-speed-booster",
+          "pageFamilies": [
+            "global"
+          ],
+          "region": null,
+          "language": "en",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "VILTROX"
+          }
+        }
+      ],
       "mountConfigurations": [
         {
           "lensSideMountSystemId": "canon-ef",
@@ -29872,13 +30086,36 @@
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": null
+        }
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "direct-usb",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
       },
-      "conversionOptics": null
+      "conversionOptics": {
+        "present": true,
+        "focalLengthMultiplier": 0.71,
+        "apertureChange": {
+          "direction": "brighter",
+          "stops": 1,
+          "relation": "exact"
+        },
+        "opticalConstruction": null,
+        "specialElements": null,
+        "coatings": null,
+        "supportedImageCircleDiameterMm": null,
+        "maximumSupportedAperture": null
+      }
     },
     {
       "id": "viltrox-nf-z",
@@ -29933,16 +30170,38 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "other",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 145,
+            "approximate": true,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": null
+        }
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "usb-c",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -30018,7 +30277,22 @@
         ],
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4 inch"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -30373,6 +30647,73 @@
           "present": true,
           "components": null
         }
+      },
+      "electronicServices": null,
+      "conversionOptics": {
+        "present": false
+      }
+    },
+    {
+      "id": "yeenon-lm-nz-m",
+      "identity": {
+        "manufacturerId": "yeenon",
+        "brandId": "yeenon",
+        "productName": "YEENON LM-NZ Leica M VM to Nikon Z camera Close Focus adapter Black（macro）",
+        "modelNumberOptions": [
+          "LM-NZ"
+        ],
+        "alternateNames": null,
+        "variants": null
+      },
+      "lifecycle": {
+        "announcementDate": null,
+        "officialDesignations": null
+      },
+      "officialProductPages": [
+        {
+          "url": "https://www.ebay.com/itm/404236342718",
+          "pageFamilies": [
+            "global"
+          ],
+          "region": null,
+          "language": "en",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "YEENON"
+          }
+        }
+      ],
+      "mountConfigurations": [
+        {
+          "lensSideMountSystemId": "leica-m",
+          "cameraSideMountSystemId": "nikon-z",
+          "lensRetention": null,
+          "lensRearProtrusionLimits": null
+        }
+      ],
+      "electronics": {
+        "electronicContacts": false,
+        "autofocus": false,
+        "cameraControlledAperture": false,
+        "lensStabilizationCommunication": false,
+        "manualFocusAssistance": false,
+        "metadataTransmission": {
+          "present": false
+        },
+        "lensPowerTransmission": false,
+        "recordingTriggerTransmission": false
+      },
+      "mechanisms": [
+        {
+          "type": "helicoid",
+          "conditions": {}
+        }
+      ],
+      "physical": {
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
+        "officialEnvironmentalProtectionClaims": null,
+        "tripodSupport": null
       },
       "electronicServices": null,
       "conversionOptics": {

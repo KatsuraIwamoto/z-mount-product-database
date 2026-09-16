@@ -298,7 +298,7 @@ Their canonical record structure differs from the structure for lenses and relat
     {
       "dataVersion": "2026.09.16",
       "datasetVariant": "full",
-      "recordCount": 443,
+      "recordCount": 445,
       "referenceData": {
         "manufacturers": {
           "nikon": { "name": "Nikon" }

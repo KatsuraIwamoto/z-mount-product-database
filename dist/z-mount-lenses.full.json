@@ -9,7 +9,7 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
   "recordCount": 606,
-  "contentHash": "sha256:72412d0349afc37139ccf49b7b252f9e2a1873504a1d0846d6c9d6ab4c0d6c3e",
+  "contentHash": "sha256:cc9ed86408f52c3ae1b6c0a97d66fd46b399b36b7fcaaf499b0eab3024b1688b",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -80413,7 +80413,12 @@
         "mountOwnerRelationship": null,
         "electronicContacts": {
           "present": true,
-          "metadataTransmission": null
+          "metadataTransmission": {
+            "present": true,
+            "standards": [
+              "exif"
+            ]
+          }
         }
       },
       "physical": {
@@ -80435,9 +80440,41 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 360,
+          "geared": true
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "clickBehavior": "switchable",
+          "geared": true
+        },
+        {
+          "type": "focus-mode-switch",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring-click-switch",
+          "quantity": 1
+        }
+      ],
       "accessories": null,
-      "electronicServices": null,
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": true,
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "usb-c",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
+      },
       "lens": {
         "focalLength": {
           "kind": "prime",
@@ -80467,7 +80504,26 @@
           },
           "controlMechanism": "electronic"
         },
-        "anglesOfView": null,
+        "anglesOfView": [
+          {
+            "format": "aps-c",
+            "orientation": "vertical",
+            "degrees": 38.974,
+            "conditions": {}
+          },
+          {
+            "format": "aps-c",
+            "orientation": "horizontal",
+            "degrees": 73.906,
+            "conditions": {}
+          },
+          {
+            "format": "aps-c",
+            "orientation": "diagonal",
+            "degrees": 78.324,
+            "conditions": {}
+          }
+        ],
         "coverage": {
           "format": "super-35"
         },
@@ -80475,7 +80531,14 @@
           "groups": 12,
           "elements": 16
         },
-        "specialElements": null,
+        "specialElements": [
+          {
+            "types": [
+              "aspherical"
+            ],
+            "quantity": 1
+          }
+        ],
         "coatings": null,
         "focus": {
           "autofocus": {
@@ -80575,7 +80638,17 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 189.6
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1
+        }
+      ],
       "accessories": null,
       "lens": {
         "focalLength": {
@@ -80712,7 +80785,18 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 191.2
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "clickBehavior": "declicked"
+        }
+      ],
       "accessories": null,
       "lens": {
         "focalLength": {
@@ -80821,7 +80905,12 @@
         "mountOwnerRelationship": null,
         "electronicContacts": {
           "present": true,
-          "metadataTransmission": null
+          "metadataTransmission": {
+            "present": true,
+            "standards": [
+              "exif"
+            ]
+          }
         }
       },
       "physical": {
@@ -80843,9 +80932,45 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 360,
+          "geared": true
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "clickBehavior": "switchable",
+          "geared": true
+        },
+        {
+          "type": "focus-mode-switch",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring-click-switch",
+          "quantity": 1
+        },
+        {
+          "type": "function-button",
+          "quantity": 1
+        }
+      ],
       "accessories": null,
-      "electronicServices": null,
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": true,
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "usb-c",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
+      },
       "lens": {
         "focalLength": {
           "kind": "prime",
@@ -80860,30 +80985,79 @@
                 "conditions": {}
               }
             ],
-            "minimumAperture": null,
+            "minimumAperture": [
+              {
+                "value": 22,
+                "conditions": {}
+              }
+            ],
             "effective": null
           },
-          "diaphragm": null,
+          "diaphragm": {
+            "present": true,
+            "bladeCount": 11,
+            "bladeShape": null
+          },
           "controlMechanism": "electronic"
         },
-        "anglesOfView": null,
+        "anglesOfView": [
+          {
+            "format": "aps-c",
+            "orientation": "vertical",
+            "degrees": 22.218,
+            "conditions": {}
+          },
+          {
+            "format": "aps-c",
+            "orientation": "horizontal",
+            "degrees": 43.754,
+            "conditions": {}
+          },
+          {
+            "format": "aps-c",
+            "orientation": "diagonal",
+            "degrees": 48.02,
+            "conditions": {}
+          }
+        ],
         "coverage": {
           "format": "super-35"
         },
-        "opticalConstruction": null,
-        "specialElements": null,
+        "opticalConstruction": {
+          "groups": 12,
+          "elements": 16
+        },
+        "specialElements": [
+          {
+            "types": [
+              "aspherical"
+            ],
+            "quantity": 1
+          }
+        ],
         "coatings": null,
         "focus": {
           "autofocus": {
             "present": true,
-            "motors": null
+            "motors": [
+              {
+                "type": "stepping-motor",
+                "quantity": null,
+                "officialName": "STM"
+              }
+            ]
           },
           "manualFocus": {
             "present": true,
             "mechanism": null
           },
           "opticalFocusingSystems": null,
-          "minimumFocusDistances": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.6,
+              "conditions": {}
+            }
+          ],
           "reproductionMagnifications": null,
           "officialFocusBehaviorClaims": []
         },
@@ -80960,7 +81134,16 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1
+        }
+      ],
       "accessories": null,
       "lens": {
         "focalLength": {
@@ -81075,7 +81258,18 @@
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
-        "officialEnvironmentalProtectionClaims": null,
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "dust-resistant",
+              "drip-resistant"
+            ],
+            "scope": {
+              "kind": "product"
+            },
+            "conditions": {}
+          }
+        ],
         "filterInterfaces": [
           {
             "type": "front-thread",
@@ -81091,9 +81285,45 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 136,
+          "geared": true
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "clickBehavior": "switchable",
+          "geared": true
+        },
+        {
+          "type": "focus-mode-switch",
+          "quantity": 1
+        },
+        {
+          "type": "function-button",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring-click-switch",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring-lock",
+          "quantity": 1
+        },
+        {
+          "type": "focus-distance-scale",
+          "quantity": 1
+        }
+      ],
       "accessories": null,
-      "electronicServices": null,
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": true,
+        "connections": null
+      },
       "lens": {
         "focalLength": {
           "kind": "prime",
@@ -81155,7 +81385,13 @@
         "focus": {
           "autofocus": {
             "present": true,
-            "motors": null
+            "motors": [
+              {
+                "type": "stepping-motor",
+                "quantity": null,
+                "officialName": "STM"
+              }
+            ]
           },
           "manualFocus": {
             "present": true,
@@ -81229,7 +81465,18 @@
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
-        "officialEnvironmentalProtectionClaims": null,
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "dust-resistant",
+              "drip-resistant"
+            ],
+            "scope": {
+              "kind": "product"
+            },
+            "conditions": {}
+          }
+        ],
         "filterInterfaces": [
           {
             "type": "front-thread",
@@ -81245,9 +81492,45 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 136,
+          "geared": true
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "clickBehavior": "switchable",
+          "geared": true
+        },
+        {
+          "type": "focus-mode-switch",
+          "quantity": 1
+        },
+        {
+          "type": "function-button",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring-click-switch",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring-lock",
+          "quantity": 1
+        },
+        {
+          "type": "focus-distance-scale",
+          "quantity": 1
+        }
+      ],
       "accessories": null,
-      "electronicServices": null,
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": true,
+        "connections": null
+      },
       "lens": {
         "focalLength": {
           "kind": "prime",
@@ -81304,12 +81587,25 @@
           "groups": 14,
           "elements": 18
         },
-        "specialElements": null,
+        "specialElements": [
+          {
+            "types": [
+              "aspherical"
+            ],
+            "quantity": 1
+          }
+        ],
         "coatings": null,
         "focus": {
           "autofocus": {
             "present": true,
-            "motors": null
+            "motors": [
+              {
+                "type": "stepping-motor",
+                "quantity": null,
+                "officialName": "STM"
+              }
+            ]
           },
           "manualFocus": {
             "present": true,
@@ -81383,7 +81679,18 @@
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
-        "officialEnvironmentalProtectionClaims": null,
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "dust-resistant",
+              "drip-resistant"
+            ],
+            "scope": {
+              "kind": "product"
+            },
+            "conditions": {}
+          }
+        ],
         "filterInterfaces": [
           {
             "type": "front-thread",
@@ -81399,9 +81706,45 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 136,
+          "geared": true
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "clickBehavior": "switchable",
+          "geared": true
+        },
+        {
+          "type": "focus-mode-switch",
+          "quantity": 1
+        },
+        {
+          "type": "function-button",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring-click-switch",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring-lock",
+          "quantity": 1
+        },
+        {
+          "type": "focus-distance-scale",
+          "quantity": 1
+        }
+      ],
       "accessories": null,
-      "electronicServices": null,
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": true,
+        "connections": null
+      },
       "lens": {
         "focalLength": {
           "kind": "prime",
@@ -81458,12 +81801,25 @@
           "groups": 13,
           "elements": 18
         },
-        "specialElements": null,
+        "specialElements": [
+          {
+            "types": [
+              "aspherical"
+            ],
+            "quantity": 1
+          }
+        ],
         "coatings": null,
         "focus": {
           "autofocus": {
             "present": true,
-            "motors": null
+            "motors": [
+              {
+                "type": "stepping-motor",
+                "quantity": null,
+                "officialName": "STM"
+              }
+            ]
           },
           "manualFocus": {
             "present": true,
@@ -81531,13 +81887,29 @@
         "mountOwnerRelationship": null,
         "electronicContacts": {
           "present": true,
-          "metadataTransmission": null
+          "metadataTransmission": {
+            "present": true,
+            "standards": [
+              "exif"
+            ]
+          }
         }
       },
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
-        "officialEnvironmentalProtectionClaims": null,
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "dust-resistant",
+              "drip-resistant"
+            ],
+            "scope": {
+              "kind": "product"
+            },
+            "conditions": {}
+          }
+        ],
         "filterInterfaces": [
           {
             "type": "front-thread",
@@ -81553,9 +81925,47 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 360
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "clickBehavior": "switchable"
+        },
+        {
+          "type": "focus-mode-switch",
+          "quantity": 1
+        },
+        {
+          "type": "function-button",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring-click-switch",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring-lock",
+          "quantity": 1
+        }
+      ],
       "accessories": null,
-      "electronicServices": null,
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": true,
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "usb-c",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
+      },
       "lens": {
         "focalLength": {
           "kind": "prime",
@@ -81611,8 +82021,45 @@
           "groups": 11,
           "elements": 16
         },
-        "specialElements": null,
-        "coatings": null,
+        "specialElements": [
+          {
+            "types": [
+              "aspherical"
+            ],
+            "quantity": 3
+          },
+          {
+            "types": [
+              "low-dispersion"
+            ],
+            "quantity": 2,
+            "officialName": "ED Glass"
+          },
+          {
+            "types": [
+              "low-dispersion"
+            ],
+            "quantity": 1,
+            "officialName": "SED Glass"
+          },
+          {
+            "types": [
+              "high-refractive-index"
+            ],
+            "quantity": 2,
+            "officialName": "HRI Glass"
+          }
+        ],
+        "coatings": [
+          {
+            "types": [
+              "surface-protective"
+            ],
+            "appliedTo": [
+              "front-element"
+            ]
+          }
+        ],
         "focus": {
           "autofocus": {
             "present": true,
@@ -81692,7 +82139,18 @@
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
-        "officialEnvironmentalProtectionClaims": null,
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "dust-resistant",
+              "drip-resistant"
+            ],
+            "scope": {
+              "kind": "product"
+            },
+            "conditions": {}
+          }
+        ],
         "filterInterfaces": [
           {
             "type": "front-thread",
@@ -81708,9 +82166,43 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 360
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "clickBehavior": "switchable"
+        },
+        {
+          "type": "focus-mode-switch",
+          "quantity": 1
+        },
+        {
+          "type": "function-button",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring-click-switch",
+          "quantity": 1
+        }
+      ],
       "accessories": null,
-      "electronicServices": null,
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": true,
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "usb-c",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
+      },
       "lens": {
         "focalLength": {
           "kind": "prime",
@@ -81766,8 +82258,38 @@
           "groups": 9,
           "elements": 14
         },
-        "specialElements": null,
-        "coatings": null,
+        "specialElements": [
+          {
+            "types": [
+              "aspherical"
+            ],
+            "quantity": 1
+          },
+          {
+            "types": [
+              "low-dispersion"
+            ],
+            "quantity": 2,
+            "officialName": "ED Glass"
+          },
+          {
+            "types": [
+              "high-refractive-index"
+            ],
+            "quantity": 3,
+            "officialName": "HRI Glass"
+          }
+        ],
+        "coatings": [
+          {
+            "types": [
+              "surface-protective"
+            ],
+            "appliedTo": [
+              "front-element"
+            ]
+          }
+        ],
         "focus": {
           "autofocus": {
             "present": true,
@@ -81862,7 +82384,19 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 120,
+          "geared": true
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "geared": true
+        }
+      ],
       "accessories": null,
       "lens": {
         "focalLength": {
@@ -81901,7 +82435,14 @@
           "groups": 13,
           "elements": 18
         },
-        "specialElements": null,
+        "specialElements": [
+          {
+            "types": [
+              "aspherical"
+            ],
+            "quantity": 1
+          }
+        ],
         "coatings": null,
         "focus": {
           "autofocus": {
@@ -81994,7 +82535,19 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 120,
+          "geared": true
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "geared": true
+        }
+      ],
       "accessories": null,
       "lens": {
         "focalLength": {
@@ -82010,18 +82563,37 @@
                 "conditions": {}
               }
             ],
-            "minimumAperture": null,
+            "minimumAperture": [
+              {
+                "value": 16,
+                "conditions": {}
+              }
+            ],
             "effective": null
           },
-          "diaphragm": null,
+          "diaphragm": {
+            "present": true,
+            "bladeCount": 10,
+            "bladeShape": null
+          },
           "controlMechanism": "mechanical"
         },
         "anglesOfView": null,
         "coverage": {
           "format": "full-frame"
         },
-        "opticalConstruction": null,
-        "specialElements": null,
+        "opticalConstruction": {
+          "groups": 12,
+          "elements": 17
+        },
+        "specialElements": [
+          {
+            "types": [
+              "aspherical"
+            ],
+            "quantity": 1
+          }
+        ],
         "coatings": null,
         "focus": {
           "autofocus": {
@@ -82032,7 +82604,12 @@
             "mechanism": "mechanical-coupled"
           },
           "opticalFocusingSystems": null,
-          "minimumFocusDistances": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.9,
+              "conditions": {}
+            }
+          ],
           "reproductionMagnifications": null,
           "officialFocusBehaviorClaims": []
         },
@@ -82109,7 +82686,19 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 120,
+          "geared": true
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "geared": true
+        }
+      ],
       "accessories": null,
       "lens": {
         "focalLength": {
@@ -82125,18 +82714,37 @@
                 "conditions": {}
               }
             ],
-            "minimumAperture": null,
+            "minimumAperture": [
+              {
+                "value": 16,
+                "conditions": {}
+              }
+            ],
             "effective": null
           },
-          "diaphragm": null,
+          "diaphragm": {
+            "present": true,
+            "bladeCount": 14,
+            "bladeShape": null
+          },
           "controlMechanism": "mechanical"
         },
         "anglesOfView": null,
         "coverage": {
           "format": "full-frame"
         },
-        "opticalConstruction": null,
-        "specialElements": null,
+        "opticalConstruction": {
+          "groups": 11,
+          "elements": 15
+        },
+        "specialElements": [
+          {
+            "types": [
+              "aspherical"
+            ],
+            "quantity": 1
+          }
+        ],
         "coatings": null,
         "focus": {
           "autofocus": {
@@ -82147,7 +82755,12 @@
             "mechanism": "mechanical-coupled"
           },
           "opticalFocusingSystems": null,
-          "minimumFocusDistances": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.9,
+              "conditions": {}
+            }
+          ],
           "reproductionMagnifications": null,
           "officialFocusBehaviorClaims": []
         },
@@ -82808,9 +83421,26 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 360
+        }
+      ],
       "accessories": null,
-      "electronicServices": null,
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": true,
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "usb-c",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
+      },
       "lens": {
         "focalLength": {
           "kind": "prime",
@@ -82986,9 +83616,26 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 360
+        }
+      ],
       "accessories": null,
-      "electronicServices": null,
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": true,
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "usb-c",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
+      },
       "lens": {
         "focalLength": {
           "kind": "prime",
@@ -83150,9 +83797,26 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 360
+        }
+      ],
       "accessories": null,
-      "electronicServices": null,
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": true,
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "usb-c",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
+      },
       "lens": {
         "focalLength": {
           "kind": "prime",
@@ -83321,9 +83985,26 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 360
+        }
+      ],
       "accessories": null,
-      "electronicServices": null,
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": true,
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "usb-c",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
+      },
       "lens": {
         "focalLength": {
           "kind": "prime",
@@ -83492,9 +84173,26 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 360
+        }
+      ],
       "accessories": null,
-      "electronicServices": null,
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": true,
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "usb-c",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
+      },
       "lens": {
         "focalLength": {
           "kind": "prime",
@@ -83643,7 +84341,19 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 100,
+          "geared": true
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "geared": true
+        }
+      ],
       "accessories": null,
       "lens": {
         "focalLength": {
@@ -83768,7 +84478,19 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 120,
+          "geared": true
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "geared": true
+        }
+      ],
       "accessories": null,
       "lens": {
         "focalLength": {
@@ -83860,7 +84582,7 @@
       },
       "officialProductPages": [
         {
-          "url": "https://store.sirui.com/products/sirui-venus-anamorphic-lens-kit",
+          "url": "https://store.sirui.com/products/venus-150mm-t2-9-1-6x-full-frame-anamorphic-lens",
           "pageFamilies": [
             "global",
             "usa"
@@ -83882,8 +84604,23 @@
         }
       },
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 88,
+            "lengthMm": 182,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 1404,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "filterInterfaces": [
           {
@@ -83901,7 +84638,19 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 153,
+          "geared": true
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "geared": true
+        }
+      ],
       "accessories": null,
       "lens": {
         "focalLength": {
@@ -83917,17 +84666,29 @@
                 "conditions": {}
               }
             ],
-            "minimumAperture": null,
+            "minimumAperture": [
+              {
+                "value": 16,
+                "conditions": {}
+              }
+            ],
             "effective": null
           },
-          "diaphragm": null,
+          "diaphragm": {
+            "present": true,
+            "bladeCount": 16,
+            "bladeShape": null
+          },
           "controlMechanism": "mechanical"
         },
         "anglesOfView": null,
         "coverage": {
           "format": "full-frame"
         },
-        "opticalConstruction": null,
+        "opticalConstruction": {
+          "groups": 11,
+          "elements": 16
+        },
         "specialElements": null,
         "coatings": null,
         "focus": {
@@ -83939,7 +84700,12 @@
             "mechanism": "mechanical-coupled"
           },
           "opticalFocusingSystems": null,
-          "minimumFocusDistances": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.58,
+              "conditions": {}
+            }
+          ],
           "reproductionMagnifications": null,
           "officialFocusBehaviorClaims": []
         },
@@ -84017,7 +84783,19 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 120,
+          "geared": true
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "geared": true
+        }
+      ],
       "accessories": null,
       "lens": {
         "focalLength": {
@@ -84150,7 +84928,19 @@
         "externalLengthDuringFocus": null,
         "isRetractableForStorage": null
       },
-      "controls": null,
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "rotationDegrees": 95.5,
+          "geared": true
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "geared": true
+        }
+      ],
       "accessories": null,
       "lens": {
         "focalLength": {

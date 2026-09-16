@@ -134,7 +134,14 @@
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "camera-body",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
   },
   "conversionOptics": {
     "present": false

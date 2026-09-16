@@ -6,7 +6,7 @@
     "brandId": "sirui",
     "name": "SIRUI Venus 50mm T2.9 1.6x Full-Frame Anamorphic Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "sirui-venus-50mm-t2-9-1-6x-full-frame-anamorphic-lens"
@@ -35,6 +35,9 @@
         "lens.focus",
         "lens.stabilization",
         "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
       ]
     },
     {
@@ -53,8 +56,23 @@
       "checked": [
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.aperture"
+        "lens.aperture",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0449/9344/6037/files/50mm_49037064-fddf-4ab5-b017-b208b839d29c.png?v=1762399400",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
+  ],
+  "unresolved": [
+    "What is the complete Nikon Z tripod-support component configuration, including the body thread and any supplied or optional foot?",
+    "Can production Nikon Z top, bottom, left, right and rear images establish complete exterior-control, tripod-support and contact coverage? Shared galleries include other mounts or do not identify the pictured mount.",
+    "What are the Nikon Z-specific length and weight, with measurement conditions? Values for other mounts in shared tables are not substituted.",
+    "How can separately specified horizontal and vertical reproduction magnifications be represented without losing orientation?"
   ]
 }

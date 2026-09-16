@@ -6,7 +6,7 @@
     "brandId": "techart",
     "name": "Contax G to Nikon Z Autofocus Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "techart-tzg-01"
@@ -39,6 +39,67 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000001727/techart/page1/recommend/",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "mechanisms",
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000001323/",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/27/17/1_000000001727.jpg?1678209903",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/27/17/17_000000001727.jpg?1678209903",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/27/17/19_000000001727.jpg?1678209903",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "electronics",
+        "conversionOptics"
+      ]
     }
+  ],
+  "notes": [
+    "A side dial controls manual focusing. The camera aperture setting selects one of ten focal-length values for Exif recording and body stabilization."
+  ],
+  "unresolved": [
+    "Can unobstructed front, rear and four-sided exterior views establish the complete control, connector and tripod-support arrangement for this generation?",
+    "Which official specification establishes electronic manual-focus confirmation or another adapter-provided manual-focus aid, separately from ordinary MF-mode compatibility?"
   ]
 }

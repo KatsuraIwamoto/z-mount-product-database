@@ -49,6 +49,10 @@ def test_review_catalog_contains_every_research_result_and_optional_record() -> 
     assert [source["url"] for source in sources] == [
         "https://store.sirui.com/products/sirui-aurora-series-85mm-full-frame-autofocus-lens",
         "https://store.sirui.com/collections/z-mount-nikon-1",
+        "https://store.sirui.com/pages/lens-firmware-download",
+        "https://sirui-jp.com/products/aurora-85-f1-4",
+        "https://cdn.shopify.com/s/files/1/0449/9344/6037/files/"
+        "2_ec7bdd70-c852-44f0-98d4-35964db2b3a6.jpg?v=1762397179",
     ]
     assert sources[0]["kind"] == "officialProductPage"
     assert sources[0]["description"] == (
@@ -56,7 +60,8 @@ def test_review_catalog_contains_every_research_result_and_optional_record() -> 
         "officialProductPages, mount, mount.electronicContacts, physical, "
         "physical.filterInterfaces, physical.tripodSupport, controls, accessories, "
         "lens.focalLength, lens.aperture, lens.anglesOfView, lens.coverage, "
-        "lens.opticalConstruction, lens.focus, lens.stabilization"
+        "lens.opticalConstruction, lens.focus, lens.stabilization, lens.specialElements, "
+        "physical.officialEnvironmentalProtectionClaims, lens.coatings · decision: availability"
     )
     assert sources[1]["kind"] == "researchSource"
 
@@ -71,7 +76,11 @@ def test_review_catalog_contains_every_research_result_and_optional_record() -> 
 
     needs_review = next(item for item in products if item["id"] == "caye-135mm-f2-5-iii")
     assert needs_review["status"] == "needs-review"
-    assert needs_review["sources"] == []
+    needs_review_sources = cast("list[JsonObject]", needs_review["sources"])
+    assert [source["url"] for source in needs_review_sources] == [
+        "https://www.photogear4fun.com/all-alternative-lenses-with-nikon-z-mount.html"
+    ]
+    assert needs_review_sources[0]["kind"] == "researchSource"
 
     adapter = next(
         item

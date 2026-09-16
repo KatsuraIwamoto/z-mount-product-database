@@ -69,7 +69,22 @@
     ],
     "tripodSupport": {
       "present": true,
-      "components": null
+      "components": [
+        {
+          "type": "foot",
+          "relationship": null,
+          "removable": true,
+          "interfaces": [
+            {
+              "type": "mounting-thread",
+              "threadDesignation": "1/4 inch"
+            }
+          ],
+          "modelNumberOptions": null,
+          "quantity": null,
+          "conditions": {}
+        }
+      ]
     }
   },
   "electronicServices": null,

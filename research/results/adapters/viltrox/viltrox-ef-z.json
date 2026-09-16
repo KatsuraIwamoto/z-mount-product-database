@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "EF-Z Auto Focus Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "viltrox-ef-z"
@@ -34,8 +34,14 @@
       "sourceType": "support-page",
       "checked": [
         "electronics",
-        "electronicServices"
+        "electronicServices",
+        "identity"
       ]
     }
+  ],
+  "unresolved": [
+    "Which camera-based manual-focus confirmation or assistance functions are supported, beyond the ability to use manual focus?",
+    "Can the removed official product page and exact EF-Z exterior images be recovered from a current accepted source? The separate EF-Z2 optical reducer is not a substitute.",
+    "Can complete top, bottom, left and right production views establish whether additional mechanisms are absent?"
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "NF-Z Auto Focus Mount Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "viltrox-nf-z"
@@ -24,7 +24,8 @@
         "electronics",
         "electronicServices",
         "conversionOptics",
-        "mechanisms"
+        "mechanisms",
+        "physical.weightMeasurements"
       ]
     },
     {
@@ -39,6 +40,53 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://viltrox.com/pages/nf-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "electronicServices",
+        "electronics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/NF-Z-702756.jpg?v=1722921099&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/products/5_055e6e6b-98cf-4b2f-9431-3fd1a4d54eb1.jpg?v=1714444656&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/products/4_f1b5aa02-d72b-4a6d-9522-06de283da334.jpg?v=1714444656&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mechanisms",
+        "electronicServices"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which camera-based manual-focus confirmation or assistance functions are supported, beyond the ability to use manual focus?",
+    "Which axes and measurement endpoints correspond to the official 79 × 71 × 35 mm size listing, and what is the tripod-thread designation?",
+    "Can complete top, bottom, left and right production views establish whether additional mechanisms are absent?"
+  ],
+  "notes": [
+    "Firmware 2.3.0 assigns the adapter switch to select either in-body or lens stabilization for compatible stabilized lenses; this switch is recorded as an other mechanism."
   ]
 }

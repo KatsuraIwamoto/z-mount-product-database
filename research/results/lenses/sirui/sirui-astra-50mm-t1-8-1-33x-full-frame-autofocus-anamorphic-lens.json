@@ -6,7 +6,7 @@
     "brandId": "sirui",
     "name": "SIRUI Astra 50mm T1.8 1.33x Full-Frame Autofocus Anamorphic Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "sirui-astra-50mm-t1-8-1-33x-full-frame-autofocus-anamorphic-lens"
@@ -35,7 +35,12 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.specialElements",
+        "physical.officialEnvironmentalProtectionClaims"
+      ],
+      "decisionChecks": [
+        "availability"
       ]
     },
     {
@@ -46,6 +51,36 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://store.sirui.com/pages/lens-firmware-download",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "mount",
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0449/9344/6037/files/CONSISTENT_IN_A_SET.jpg?v=1787916296",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which firmware-update connection and connector are specified for the Nikon Z version?",
+    "Can production Nikon Z top, bottom, left, right and rear images establish complete exterior-control, tripod-support and contact coverage? Shared galleries include other mounts or do not identify the pictured mount.",
+    "What are the Nikon Z-specific length and weight, with measurement conditions? Values for other mounts in shared tables are not substituted.",
+    "How can separately specified horizontal and vertical reproduction magnifications be represented without losing orientation?"
+  ],
+  "notes": [
+    "The manufacturer specifies four cylindrical elements for 50mm and 75mm, and five for 100mm. Horizontal and vertical reproduction ratios are distinct and are not flattened into a single magnification."
   ]
 }

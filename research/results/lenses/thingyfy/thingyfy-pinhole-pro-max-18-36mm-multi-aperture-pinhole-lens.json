@@ -6,7 +6,7 @@
     "brandId": "thingyfy",
     "name": "Thingyfy Pinhole Pro Max 18-36mm Multi-Aperture Pinhole Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
@@ -75,6 +75,7 @@
     }
   ],
   "unresolved": [
-    "Was the Nikon Z configuration commercially released or fulfilled to backers?"
+    "Was the Nikon Z configuration commercially released or fulfilled to backers?",
+    "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
   ]
 }

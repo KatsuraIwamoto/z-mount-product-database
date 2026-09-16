@@ -6,14 +6,14 @@
     "brandId": "gabale",
     "name": "Leica M to Nikon Z Close Focus Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
   "sources": [
     {
       "url": "https://www.ebay.com/itm/355805373557",
-      "publisherRelationship": "authorized-distributor",
+      "publisherRelationship": "retailer",
       "sourceType": "retailer-listing",
       "checked": [
         "identity",
@@ -48,6 +48,7 @@
     }
   ],
   "unresolved": [
-    "Can an exact manufacturer-, brand-, or authorized-distributor source be found that confirms the Gabale LM-Z as a released product and supports its canonical specifications?"
+    "Can an exact manufacturer-, brand-, or authorized-distributor source be found that confirms the Gabale LM-Z as a released product and supports its canonical specifications?",
+    "Is the seller of the exact LM-Z listing authorized by GABALE for this product?"
   ]
 }

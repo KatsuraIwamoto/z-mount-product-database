@@ -247,7 +247,7 @@ print(json.dumps(matches, ensure_ascii=False, indent=2))
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
       "recordCount": 606,
-      "contentHash": "sha256:72412d0349afc37139ccf49b7b252f9e2a1873504a1d0846d6c9d6ab4c0d6c3e"
+      "contentHash": "sha256:cc9ed86408f52c3ae1b6c0a97d66fd46b399b36b7fcaaf499b0eab3024b1688b"
     }
     ```
 
@@ -265,7 +265,7 @@ print(json.dumps(matches, ensure_ascii=False, indent=2))
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
       "recordCount": 606,
-      "contentHash": "sha256:b3ce90cc423c1718c2420493bd9231fb13e036ba52b5ffecbd23d28a4e0a829c"
+      "contentHash": "sha256:d75e81482a68ac201b4770a81c6aedfab55bce2c64c5978d8a81d04322379501"
     }
     ```
 
@@ -282,8 +282,8 @@ print(json.dumps(matches, ensure_ascii=False, indent=2))
       "license": "CC-BY-4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
-      "recordCount": 443,
-      "contentHash": "sha256:8d4f48fa0e42c3453dc94a83de241cc40a0ddd703b9d8adce28cb800252cfe31"
+      "recordCount": 445,
+      "contentHash": "sha256:7b33a5ac238f9361c58dea2b0417626c8ba0a28edbc0d4e43689a699092ec3fc"
     }
     ```
 

@@ -6,14 +6,14 @@
     "brandId": "boryoza",
     "name": "LM-NZ II Macro Close-up Lens Adapter for Leica M Lens to Nikon Z-Mount"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
   "sources": [
     {
       "url": "https://www.ebay.com/itm/187801115940",
-      "publisherRelationship": "authorized-retailer",
+      "publisherRelationship": "retailer",
       "sourceType": "retailer-listing",
       "checked": [
         "identity"
@@ -21,10 +21,20 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://en.boryoza.cn/download.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions"
+      ]
     }
   ],
   "unresolved": [
     "Confirm the official model/part identifiers and a manufacturer or authorized-distributor release source before creating a canonical record.",
-    "Determine whether LM-NZ II was superseded by LM-NZ III and whether an official lifecycle designation exists."
+    "Determine whether LM-NZ II was superseded by LM-NZ III and whether an official lifecycle designation exists.",
+    "Is the officially documented LM-NZ(ME)-II / LM-NZ MACRO II the exact product sold as LM-NZ II, and can its released Nikon Z configuration be verified?"
   ]
 }

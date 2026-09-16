@@ -1,0 +1,75 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "mtf-services-panavision-to-nikon-z-mount-adaptor",
+  "identity": {
+    "manufacturerId": "mtf-services",
+    "brandId": "mtf-services",
+    "productName": "Panavision to Nikon Z mount adaptor",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": null
+  },
+  "officialProductPages": [
+    {
+      "url": "https://mtfservices.com/products/panavision-to-nikon-z-mount-adaptor",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "MTF Services"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "panavision-pv",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": null,
+    "autofocus": null,
+    "cameraControlledAperture": null,
+    "lensStabilizationCommunication": null,
+    "manualFocusAssistance": null,
+    "metadataTransmission": null,
+    "lensPowerTransmission": null,
+    "recordingTriggerTransmission": null
+  },
+  "mechanisms": null,
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": {
+      "present": true,
+      "components": [
+        {
+          "type": "foot",
+          "relationship": null,
+          "removable": null,
+          "interfaces": [
+            {
+              "type": "mounting-thread",
+              "threadDesignation": "1/4 inch"
+            }
+          ],
+          "modelNumberOptions": null,
+          "quantity": null,
+          "conditions": {}
+        }
+      ]
+    }
+  },
+  "electronicServices": null,
+  "conversionOptics": null
+}

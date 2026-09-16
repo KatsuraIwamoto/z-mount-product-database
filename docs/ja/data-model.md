@@ -298,7 +298,7 @@ NIKKOR Z 24-70mm f/2.8 S IIでは、`lens`ブロックがこれに当たりま�
     {
       "dataVersion": "2026.09.16",
       "datasetVariant": "full",
-      "recordCount": 443,
+      "recordCount": 445,
       "referenceData": {
         "manufacturers": {
           "nikon": { "name": "Nikon" }

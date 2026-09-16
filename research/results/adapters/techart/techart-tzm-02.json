@@ -6,7 +6,7 @@
     "brandId": "techart",
     "name": "Leica M to Nikon Z Autofocus Adapter Version II"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "techart-tzm-02"
@@ -43,6 +43,53 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://techartpro.com/?page_id=5988",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://techartpro.com/wp-content/uploads/2023/01/User-Manual-TZM02.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "electronics",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://techartpro.com/wp-content/uploads/2023/01/Product-Image-TZM02-narrow-1.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions"
+      ]
+    },
+    {
+      "url": "https://techartpro.com/wp-content/uploads/2023/01/02_TZM02-Features-Highlight-1003x1024.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://techartpro.com/wp-content/uploads/2023/01/04_TZM02-Sleek-Design-1024x475.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mechanisms"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can unobstructed front, rear and four-sided exterior views establish the complete control, connector and tripod-support arrangement for this generation?",
+    "Which official specification establishes electronic manual-focus confirmation or another adapter-provided manual-focus aid, separately from ordinary MF-mode compatibility?"
   ]
 }

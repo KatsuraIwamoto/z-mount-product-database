@@ -6,12 +6,23 @@
     "brandId": "caye",
     "name": "CAYE 500mm F6.3"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
-  "sources": [],
+  "sources": [
+    {
+      "url": "https://www.photogear4fun.com/all-alternative-lenses-with-nikon-z-mount.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "technical-page",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    }
+  ],
   "unresolved": [
-    "Does the Nikon Z configuration attach directly or use a generic mount adapter, and which entity manufactures the product?"
+    "Does the Nikon Z configuration attach directly or use a generic mount adapter, and which entity manufactures the product?",
+    "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
   ]
 }

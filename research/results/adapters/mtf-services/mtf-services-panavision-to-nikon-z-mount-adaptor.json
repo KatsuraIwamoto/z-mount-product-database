@@ -4,11 +4,12 @@
   "subject": {
     "manufacturerId": "mtf-services",
     "brandId": "mtf-services",
-    "name": "Panavision to Nikon Z Mount Adaptor"
+    "name": "Panavision to Nikon Z mount adaptor"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-16",
   "decision": {
-    "status": "needs-review"
+    "status": "included",
+    "recordId": "mtf-services-panavision-to-nikon-z-mount-adaptor"
   },
   "sources": [
     {
@@ -49,9 +50,26 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://mtfservices.com/products/panavision-to-nikon-z-mount-adaptor",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "officialProductPages",
+        "mountConfigurations",
+        "physical.tripodSupport"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
     }
   ],
   "unresolved": [
-    "Can a manufacturer or authorized-distributor source confirm that the Panavision-to-Nikon Z adapter reached sale as a distinct MTF Services product?"
+    "Can exact Nikon Z configuration images show both mount faces and all four exterior sides to establish electronic contacts, conversion optics, and mechanisms?",
+    "What are the support foot attachment, removability, and complete tripod thread specification?",
+    "Is MTPVNIKZ an official model designation rather than a storefront SKU?"
   ]
 }

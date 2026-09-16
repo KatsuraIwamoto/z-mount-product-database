@@ -70,9 +70,26 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "rotationDegrees": 360
+    }
+  ],
   "accessories": null,
-  "electronicServices": null,
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "connectorType": "usb-c",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",

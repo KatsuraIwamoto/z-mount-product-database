@@ -6,7 +6,7 @@
     "brandId": "sirui",
     "name": "SIRUI Venus 135mm T2.9 1.8x Full-Frame Anamorphic Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "sirui-venus-135mm-t2-9-1-8x-full-frame-anamorphic-lens"
@@ -35,6 +35,9 @@
         "lens.focus",
         "lens.stabilization",
         "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
       ]
     },
     {
@@ -65,9 +68,34 @@
         "officialProductPages",
         "physical.filterInterfaces"
       ]
+    },
+    {
+      "url": "https://cdn.shopifycdn.net/s/files/1/0449/9344/6037/files/135mm_16.jpg?v=1675236459",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "physical.filterInterfaces",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0449/9344/6037/products/135.png?v=1762399660",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
   ],
   "unresolved": [
-    "What is the official front filter-thread diameter for the Nikon Z configuration?"
+    "What is the official front filter-thread diameter for the Nikon Z configuration?",
+    "How should the M58 x 0.75 entry in the general specification table be reconciled with M82 x 0.75 in the 135mm product specification image and 82 mm in its description?",
+    "What is the complete Nikon Z tripod-support component configuration, including the body thread and any supplied or optional foot?",
+    "Can production Nikon Z top, bottom, left, right and rear images establish complete exterior-control, tripod-support and contact coverage? Shared galleries include other mounts or do not identify the pictured mount.",
+    "What are the Nikon Z-specific length and weight, with measurement conditions? Values for other mounts in shared tables are not substituted.",
+    "How can separately specified horizontal and vertical reproduction magnifications be represented without losing orientation?"
   ]
 }

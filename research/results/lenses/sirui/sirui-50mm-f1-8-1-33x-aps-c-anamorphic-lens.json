@@ -6,7 +6,7 @@
     "brandId": "sirui",
     "name": "SIRUI 50mm F1.8 1.33x APS-C Anamorphic Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "excluded",
     "reason": "The current product has no Nikon Z configuration. SIRUI's official FAQ permits Nikon Z use through a general Sony E-to-Z adapter, but no Nikon Z adapter is supplied and no adapter dedicated to this lens is documented, so it remains excluded."
@@ -19,6 +19,9 @@
       "checked": [
         "identity",
         "mount"
+      ],
+      "decisionChecks": [
+        "inclusion-criteria"
       ]
     },
     {
@@ -37,6 +40,14 @@
       "checked": [
         "mount",
         "mount.adapter"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0449/9344/6037/files/1_67f29c6d-481c-4dfe-ae8f-5824d3a2d982.jpg?v=1762401741",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
   ]
