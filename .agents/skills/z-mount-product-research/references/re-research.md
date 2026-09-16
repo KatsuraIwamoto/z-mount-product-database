@@ -54,3 +54,12 @@ new facts, corrections or removals, and sources that could not be accessed. Keep
 logs and source comparisons out of research notes. Finish when the requested checks and
 concrete follow-ups are addressed, uncertainties are recorded, and required validation
 passes; filling every unknown field is not a completion condition.
+
+For multi-product work, complete review and updates product by product. If the work ends
+before all requested products are reviewed, distinguish completed, partially reviewed,
+and not-started products in the final report, with remaining work for partial reviews.
+These are report-only progress categories, not replacements for inclusion decisions.
+A review may be complete with documented unresolved questions when the requested checks
+and validation are finished. Do not advance `reviewedOn` for untouched products or where
+the required decision and evidence recheck is incomplete. This reporting convention is
+not a reason to stop before completing work that can still proceed.
