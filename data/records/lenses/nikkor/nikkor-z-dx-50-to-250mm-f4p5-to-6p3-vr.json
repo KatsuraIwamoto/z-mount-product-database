@@ -71,7 +71,10 @@
       {
         "maximumDiameterMm": 74,
         "lengthMm": 110,
-        "conditions": {}
+        "conditions": {
+          "state": "storage"
+        },
+        "approximate": true
       }
     ],
     "weightMeasurements": [
@@ -79,7 +82,8 @@
         "grams": 405,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": [
@@ -196,7 +200,26 @@
             }
           }
         ],
-        "minimumAperture": null,
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 50
+              }
+            }
+          },
+          {
+            "value": 32,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 250
+              }
+            }
+          }
+        ],
         "effective": null
       },
       "diaphragm": {

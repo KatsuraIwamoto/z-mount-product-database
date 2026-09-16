@@ -6,7 +6,7 @@
     "brandId": "cooke",
     "name": "AP3 50mm"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "cooke-ap3-50mm-t2-4-1-5x-full-frame-anamorphic-prime-lens"
@@ -99,17 +99,17 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "announcement",
       "checked": [
-        "mount"
+        "mount",
+        "lifecycle"
       ],
       "decisionChecks": [
-        "availability",
+        "release-status",
         "licensing"
       ]
     }
   ],
   "notes": [
-    "Cooke's specification sheet identifies the published length as an E-mount front-to-mount measurement and states that the published weight includes a lens mount.",
-    "Cooke's specification sheet defines minimum marked object distance as measured from the sensor plane."
+    "The specification sheet labels overall length as measured to the E-mount. The lenses are supplied with E-mount installed and support user-interchangeable mounts."
   ],
   "unresolved": [
     "What are the official overall length and weight for the Nikon Z-mount configuration?"

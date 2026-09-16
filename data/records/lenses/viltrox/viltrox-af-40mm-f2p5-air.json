@@ -6,7 +6,9 @@
     "manufacturerId": "viltrox",
     "brandId": "viltrox",
     "productName": "AF 40mm F2.5 Air",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "AF 40/2.5 Z"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -128,7 +130,8 @@
         "method": "direct-usb",
         "purposes": [
           "firmware-update"
-        ]
+        ],
+        "connectorType": "usb-c"
       }
     ]
   },

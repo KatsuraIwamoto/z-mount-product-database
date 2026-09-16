@@ -85,12 +85,38 @@
       },
       "controlMechanism": "mechanical"
     },
-    "anglesOfView": null,
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 114,
+        "conditions": {}
+      }
+    ],
     "coverage": {
       "format": "full-frame"
     },
     "opticalConstruction": null,
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 2
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 3
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 5
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {

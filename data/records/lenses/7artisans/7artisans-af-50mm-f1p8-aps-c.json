@@ -51,17 +51,33 @@
     }
   },
   "physical": {
-    "dimensionMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 67,
+        "lengthMm": 48,
+        "approximate": true,
+        "conditions": {}
+      }
+    ],
     "weightMeasurements": [
       {
         "grams": 180,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": null,
-    "filterInterfaces": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 58,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
     "tripodSupport": {
       "present": false
     },

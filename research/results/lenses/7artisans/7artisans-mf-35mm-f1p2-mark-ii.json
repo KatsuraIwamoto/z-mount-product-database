@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 35mm f/1.2 Mark II APS-C Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-35mm-f1p2-mark-ii"
@@ -33,7 +33,9 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.coatings",
+        "controls"
       ],
       "decisionChecks": [
         "availability"
@@ -64,6 +66,17 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/products/3512.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which minimum focus distance applies? The official description says 11 inches, while the product photograph has a 0.35 m nearest distance marking and the existing record is 0.35 m."
   ]
 }

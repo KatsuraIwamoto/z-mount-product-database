@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA Argus 28mm F1.2 FF"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "laowa-argus-28mm-f1-2-ff"
@@ -78,6 +78,15 @@
         "lens.stabilization",
         "physical.dimensionMeasurements",
         "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/Argus28mmF1.2_02.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
       ]
     }
   ],

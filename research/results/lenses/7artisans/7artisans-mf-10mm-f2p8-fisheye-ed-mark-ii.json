@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 10mm f/2.8 Mark II Full-frame Fisheye Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-10mm-f2p8-fisheye-ed-mark-ii"
@@ -63,6 +63,14 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/1_2b22d3ad-5e41-4177-a47f-2c8bbbc19d6a.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
   ]

@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "AF 40mm F2.5 Full-frame Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-af-40mm-f2-5-lite"
@@ -33,7 +33,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "controls"
       ],
       "decisionChecks": [
         "availability"

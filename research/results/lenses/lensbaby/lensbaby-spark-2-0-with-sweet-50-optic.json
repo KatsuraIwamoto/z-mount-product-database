@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Spark 2.0 with Sweet 50 Optic"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-spark-2-0-with-sweet-50-optic"
@@ -46,6 +46,23 @@
       "url": "https://lensbaby.com/blogs/creative-photography/product-round-up",
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "other",
+      "checked": [
+        "lens.aperture"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0279/1378/1386/products/Spark2_Sweet50_TiltS_Web.png?v=1637280718",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://www.focusnordic.com/products/photo/lenses/lensbaby-composer-lenses/lensbaby-sweet-50-optic",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
       "checked": [
         "lens.aperture"
       ]

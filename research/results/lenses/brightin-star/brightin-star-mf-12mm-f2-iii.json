@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "12mm F2.0 III APS-C Ultra-Wide Angle Manual Focus Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-12mm-f2-iii"
@@ -60,6 +60,15 @@
       "sourceType": "manual",
       "checked": [
         "physical.dimensionMeasurements"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0762/8587/0396/files/Nikon-Z-Mount_ffc9c6c5-7f9a-46f8-bc0f-0d33414d334b.jpg?v=1762666656",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
       ]
     }
   ],

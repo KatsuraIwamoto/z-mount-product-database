@@ -9,7 +9,7 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
   "recordCount": 445,
-  "contentHash": "sha256:7b33a5ac238f9361c58dea2b0417626c8ba0a28edbc0d4e43689a699092ec3fc",
+  "contentHash": "sha256:5759609c289de13160660b65b66349b139d99d02e7a7e0b9c4f33815e17a7e05",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -613,7 +613,20 @@
           }
         ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
@@ -763,7 +776,8 @@
             "variantId": "silver",
             "name": "Silver",
             "modelNumberOptions": [
-              "PL4IN1 SIL"
+              "PL4IN1 SIL",
+              "7A-PL-4IN1-S"
             ],
             "color": "Silver"
           },
@@ -771,7 +785,8 @@
             "variantId": "purple",
             "name": "Purple",
             "modelNumberOptions": [
-              "PL4IN1 PUR"
+              "PL4IN1 PUR",
+              "7A-PL-4IN1-P"
             ],
             "color": "Purple"
           }
@@ -5292,7 +5307,13 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "other",
+          "officialName": "L-Fn",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -6848,9 +6869,28 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "other",
+          "officialName": "Fn",
+          "conditions": {}
+        },
+        {
+          "type": "other",
+          "conditions": {}
+        }
+      ],
       "physical": {
-        "dimensionMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              83,
+              83,
+              38
+            ],
+            "conditions": {}
+          }
+        ],
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
@@ -8661,14 +8701,30 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              68,
+              68,
+              13
+            ],
+            "conditions": {}
+          }
+        ],
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "dock",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -12534,7 +12590,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Adapter for Contax Rangefinder RF Lens on Nikon Z Full-Frame Camera",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "CRF-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -12594,7 +12652,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Contax RF-NIK Z Simple Version",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "CRF-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -12603,6 +12663,18 @@
         "officialDesignations": []
       },
       "officialProductPages": [
+        {
+          "url": "https://kipon.com/product/contax-rf-nik-zsimple-version/",
+          "pageFamilies": [
+            "global"
+          ],
+          "region": null,
+          "language": "en",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "KIPON"
+          }
+        },
         {
           "url": "https://www.kipon.jp/products/contax-rf-nik-zsimple-version",
           "pageFamilies": [

@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "35mm F1.7 APS-C Manual Focus Prime Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-35mm-f1p7"
@@ -66,7 +66,5 @@
       ]
     }
   ],
-  "unresolved": [
-    "How many optical groups does the 35 mm F1.7 lens contain?"
-  ]
+  "unresolved": []
 }

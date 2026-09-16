@@ -62,7 +62,15 @@
         "conditions": {}
       }
     ],
-    "weightMeasurements": null,
+    "weightMeasurements": [
+      {
+        "grams": 1035,
+        "approximate": true,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
     "officialEnvironmentalProtectionClaims": [
       {
         "types": [

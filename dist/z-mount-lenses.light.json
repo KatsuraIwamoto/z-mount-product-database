@@ -9,7 +9,7 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
   "recordCount": 606,
-  "contentHash": "sha256:d75e81482a68ac201b4770a81c6aedfab55bce2c64c5978d8a81d04322379501",
+  "contentHash": "sha256:1a8e417780758c75f790884e471b9a43fbf3a9ce746596a91bf91b9b4cf48d8d",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -491,7 +491,8 @@
             "grams": 530,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -655,7 +656,12 @@
         "mountOwnerRelationship": null,
         "electronicContacts": {
           "present": true,
-          "metadataTransmission": null
+          "metadataTransmission": {
+            "present": true,
+            "standards": [
+              "exif"
+            ]
+          }
         }
       },
       "physical": {
@@ -744,7 +750,15 @@
             "conditions": {}
           }
         ],
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 1035,
+            "approximate": true,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
         "filterInterfaces": [
           {
             "type": "front-thread",
@@ -829,7 +843,12 @@
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
-        "filterInterfaces": null
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 62
+          }
+        ]
       },
       "lens": {
         "focalLength": {
@@ -900,16 +919,29 @@
         }
       },
       "physical": {
-        "dimensionMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 67,
+            "lengthMm": 48,
+            "approximate": true,
+            "conditions": {}
+          }
+        ],
         "weightMeasurements": [
           {
             "grams": 185,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
-        "filterInterfaces": null
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 58
+          }
+        ]
       },
       "lens": {
         "focalLength": {
@@ -1063,7 +1095,12 @@
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
-        "filterInterfaces": null
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 62
+          }
+        ]
       },
       "lens": {
         "focalLength": {
@@ -1134,16 +1171,29 @@
         }
       },
       "physical": {
-        "dimensionMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 67,
+            "lengthMm": 48,
+            "approximate": true,
+            "conditions": {}
+          }
+        ],
         "weightMeasurements": [
           {
             "grams": 185,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
-        "filterInterfaces": null
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 58
+          }
+        ]
       },
       "lens": {
         "focalLength": {
@@ -1387,16 +1437,29 @@
         }
       },
       "physical": {
-        "dimensionMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 67,
+            "lengthMm": 48,
+            "approximate": true,
+            "conditions": {}
+          }
+        ],
         "weightMeasurements": [
           {
             "grams": 180,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
-        "filterInterfaces": null
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 58
+          }
+        ]
       },
       "lens": {
         "focalLength": {
@@ -2376,7 +2439,12 @@
             }
           }
         ],
-        "filterInterfaces": null
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 52
+          }
+        ]
       },
       "lens": {
         "focalLength": {
@@ -35092,7 +35160,10 @@
           {
             "maximumDiameterMm": 70,
             "lengthMm": 32,
-            "conditions": {}
+            "conditions": {
+              "state": "storage"
+            },
+            "approximate": true
           }
         ],
         "weightMeasurements": [
@@ -35100,7 +35171,8 @@
             "grams": 135,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -35471,7 +35543,10 @@
           {
             "maximumDiameterMm": 74,
             "lengthMm": 110,
-            "conditions": {}
+            "conditions": {
+              "state": "storage"
+            },
+            "approximate": true
           }
         ],
         "weightMeasurements": [
@@ -35479,7 +35554,8 @@
             "grams": 405,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [

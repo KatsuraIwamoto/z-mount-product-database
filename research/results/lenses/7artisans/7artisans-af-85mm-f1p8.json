@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "AF 85mm F1.8 Full-frame Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-af-85mm-f1p8"
@@ -34,7 +34,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "physical.externalLengthDuringFocus"
       ],
       "decisionChecks": [
         "availability"

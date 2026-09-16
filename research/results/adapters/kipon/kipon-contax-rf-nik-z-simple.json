@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "Contax RF-NIK Z Simple Version"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "kipon-contax-rf-nik-z-simple"
@@ -23,14 +23,52 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
+        "officialProductPages",
+        "identity.modelNumberOptions"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://kipon.com/product/contax-rf-nik-zsimple-version/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
         "officialProductPages"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://img.kipon.com/uploads/2021/03/CRF-NZ-3.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://img.kipon.com/uploads/2021/03/CRF-NZ-5.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "electronics",
+        "conversionOptics"
+      ]
     }
   ],
   "unresolved": [
-    "Which manufacturer model identifier and Contax RF bayonet configuration distinguish this product from the other listed Contax RF-to-Nikon Z versions?"
+    "Do the two separately listed Nikon Z product pages identify the same CRF-N/Z outer-bayonet adapter, or distinct released products with a documented configuration difference?"
+  ],
+  "notes": [
+    "This adapter is specified for outer-bayonet Contax RF lenses with their own focusing ring."
   ]
 }

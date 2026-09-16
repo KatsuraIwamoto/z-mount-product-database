@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA Ranger 75-180mm T2.9 Cine Zoom"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "laowa-ranger-75-180mm-t2-9-cine-zoom"
@@ -79,9 +79,31 @@
         "lens.stabilization",
         "lens.opticalConstruction"
       ]
+    },
+    {
+      "url": "https://laowacine.com/wp-content/uploads/2025/03/Ranger-16-30-Product-Page_05_Spec.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/RangerFF_02.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
   ],
   "unresolved": [
-    "Confirm the optical element count of the 75–180 mm Nikon Z configuration."
+    "Confirm the optical element count of the 75–180 mm Nikon Z configuration.",
+    "What is the angle of view at 180 mm, and which measurement orientation applies?",
+    "Which mount configuration and attached components apply to the published dimensions and weight?"
   ]
 }

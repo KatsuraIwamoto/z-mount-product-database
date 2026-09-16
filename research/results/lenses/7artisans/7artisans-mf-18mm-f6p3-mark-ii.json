@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 18mm f/6.3 Mark II APS-C Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-18mm-f6p3-mark-ii"
@@ -73,6 +73,15 @@
         "physical.dimensionMeasurements",
         "lens.anglesOfView",
         "lens.opticalConstruction"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/15f620db4097ea3d7c8bef3af0ebda56.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "lens.anglesOfView"
       ]
     }
   ]

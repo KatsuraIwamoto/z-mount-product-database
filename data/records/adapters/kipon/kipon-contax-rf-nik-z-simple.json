@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Contax RF-NIK Z Simple Version",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "CRF-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -14,6 +16,18 @@
     "officialDesignations": []
   },
   "officialProductPages": [
+    {
+      "url": "https://kipon.com/product/contax-rf-nik-zsimple-version/",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "KIPON"
+      }
+    },
     {
       "url": "https://www.kipon.jp/products/contax-rf-nik-zsimple-version",
       "pageFamilies": [

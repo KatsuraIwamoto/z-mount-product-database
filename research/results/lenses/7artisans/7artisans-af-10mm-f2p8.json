@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "AF 10mm F2.8 Ultra Wide-angle APS-C Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-af-10mm-f2p8"
@@ -32,7 +32,9 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "controls",
+        "electronicServices"
       ],
       "decisionChecks": [
         "availability"

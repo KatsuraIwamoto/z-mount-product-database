@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 40mm F2.5 Air"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-40mm-f2p5-air"
@@ -40,7 +40,11 @@
         "lens.specialElements",
         "lens.coatings",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity"
+      ],
+      "decisionChecks": [
+        "availability"
       ]
     },
     {
@@ -64,13 +68,56 @@
     {
       "url": "https://viltrox.com/pages/af-40-2-5-z",
       "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices",
+        "identity"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_40mm_F2.5_Z_Manual.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "manual",
       "checked": [
+        "identity",
+        "mount",
+        "lens.aperture",
+        "lens.focus",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "accessories",
+        "identity.modelNumberOptions"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/3_5812af80-de3e-4f81-bfcf-a74c82ac0591-742254.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "lens.aperture"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/4_4d9664a7-2b50-4abf-ab9e-a92214841006-780316.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount.electronicContacts",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/40mm_F2.5_Z_detail.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount.electronicContacts",
         "electronicServices"
       ]
     }
   ],
   "unresolved": [
-    "What is the confirmed maximum aperture of the Nikon Z configuration?"
+    "What is the confirmed maximum aperture of the Nikon Z configuration, given the product-page maximum-aperture entry and the aperture range in the Nikon Z manual?"
   ]
 }

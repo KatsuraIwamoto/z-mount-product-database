@@ -250,7 +250,7 @@ The following examples omit `referenceData` and `products` or `adapters` and sho
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
       "recordCount": 606,
-      "contentHash": "sha256:cc9ed86408f52c3ae1b6c0a97d66fd46b399b36b7fcaaf499b0eab3024b1688b"
+      "contentHash": "sha256:3c5acd5353ff4d81b1eddffbc21fdc7b19fcdf9ebf6e92895b7a620c13e86275"
     }
     ```
 
@@ -268,7 +268,7 @@ The following examples omit `referenceData` and `products` or `adapters` and sho
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
       "recordCount": 606,
-      "contentHash": "sha256:d75e81482a68ac201b4770a81c6aedfab55bce2c64c5978d8a81d04322379501"
+      "contentHash": "sha256:1a8e417780758c75f790884e471b9a43fbf3a9ce746596a91bf91b9b4cf48d8d"
     }
     ```
 
@@ -286,7 +286,7 @@ The following examples omit `referenceData` and `products` or `adapters` and sho
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
       "recordCount": 445,
-      "contentHash": "sha256:7b33a5ac238f9361c58dea2b0417626c8ba0a28edbc0d4e43689a699092ec3fc"
+      "contentHash": "sha256:5759609c289de13160660b65b66349b139d99d02e7a7e0b9c4f33815e17a7e05"
     }
     ```
 

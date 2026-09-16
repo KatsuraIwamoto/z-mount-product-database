@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "Close Focus Adapter for Leica M to Nikon Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-m-z-close-focus"
@@ -26,5 +26,8 @@
         "officialProductPages"
       ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z front, rear and four-sided exterior images confirm the existing electronics, optical-path and mechanism assertions? The current UK gallery is shared across mounts; availability of an option does not identify the mount in its photograph."
   ]
 }

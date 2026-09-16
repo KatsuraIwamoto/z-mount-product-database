@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "MF 35mm F0.95 APS-C Portrait Prime Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-35mm-f0p95"
@@ -60,6 +60,15 @@
       "checked": [
         "lens.opticalConstruction",
         "lens.anglesOfView"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0762/8587/0396/files/35095-1.jpg?v=1781780423",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
       ]
     }
   ],

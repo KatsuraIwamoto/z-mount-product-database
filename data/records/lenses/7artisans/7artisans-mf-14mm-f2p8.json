@@ -64,7 +64,9 @@
         "type": "front-thread",
         "diameterMm": 77,
         "host": {
-          "kind": "product"
+          "kind": "accessory",
+          "category": "lens-hood",
+          "modelNumberOptions": null
         }
       }
     ],
@@ -137,7 +139,26 @@
       "groups": 9,
       "elements": 13
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 2
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 5
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 3
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {

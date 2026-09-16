@@ -6,7 +6,7 @@
     "brandId": "sg-image",
     "name": "SG-image AF 35mm F2.2 Full-Frame Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "sg-image-af-35mm-f2-2-full-frame-lens"
@@ -61,6 +61,15 @@
         "physical.weightMeasurements",
         "lens.aperture",
         "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/E5.jpg?v=1774428278&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
       ]
     }
   ],

@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "EF-NZ Autofocus Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-ef-nz"
@@ -47,8 +47,21 @@
         "identity",
         "conversionOptics",
         "mechanisms",
-        "physical.weightMeasurements"
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/pages/firmware-upgrade",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
       ]
     }
+  ],
+  "unresolved": [
+    "What connector type and firmware-update procedure apply to the port visible in the EF-NZ gallery, and is its tripod foot removable? Complete four-sided exterior coverage was not established."
   ]
 }

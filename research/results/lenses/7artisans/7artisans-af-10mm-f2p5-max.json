@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "AF 10mm F2.5 MAX Full-Frame Fisheye Lens"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-af-10mm-f2p5-max"
@@ -145,6 +145,16 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/1-Z.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
       ]
     }
   ],
