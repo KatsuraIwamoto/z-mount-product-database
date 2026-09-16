@@ -151,6 +151,9 @@ Update paired documents in the same pull request.
 A person must confirm that the explanations, procedures, code examples, and links match in both languages.
 `docs:build` can detect structural and link problems, but it does not confirm that the two editions have the same meaning.
 
+In bilingual notices such as `LICENSING.md` and directory `LICENSE` files, put each English heading and paragraph before its Japanese counterpart.
+Schemas, JSON keys, and data narratives are English-first.
+
 ## Compare evidence sources and data { #z-product-compare }
 
 Start the local server for `Z Product Compare` with `hatch run review`.
@@ -264,6 +267,31 @@ hatch run docs:build
 Run `clean` before `env prune`.
 If you run `hatch env prune` first, the following `hatch run clean` recreates the `default` environment.
 The next `hatch run` command recreates each required environment automatically.
+
+## Generation and release constraints {#generation-and-release}
+
+Generate the same distribution data from the same inputs. If a normal error or interruption occurs during an update, restore files already replaced, as described in the [basic change workflow](#workflow).
+The product records in each Full dataset must match their canonical records, with only the per-record `$schema` removed.
+Do not add an adapter Light distribution without separate approval.
+
+Build each Lens Light product record by retaining only the fields defined by the current schema from the corresponding Full record.
+Preserve product order, `id`, `productType`, common block names, and the product-type block name; retained values and types must match.
+Apply the [Lens Full and Lens Light rules](value-rules.md#lens-full-and-light) when retaining arrays and values.
+Do not change which fields and array entries Light retains unless a separately approved website migration requires it.
+
+Generate `referenceData` according to the [shared registry rules](data-model.md#shared-registries), using identical contents in Lens Full and Lens Light.
+Do not publish the two source registries as standalone release assets.
+Calculate `contentHash` according to the [distribution hash definition](use-data.md).
+Numbers included in the calculation must meet RFC 8785's I-JSON requirements; integers are limited to the inclusive range `-9007199254740991` through `9007199254740991`.
+
+Use JSON Schema Draft 2020-12.
+Define lens and adapter data structures separately; put only public definitions that are deliberately shared by both under `schemas/shared/`.
+Registry-only schemas belong under `schemas/internal/` and have no public `$id`.
+Both datasets use the same `schemaVersion` in `config/versions.json`, with public URL paths under `lenses/`, `adapters/`, or `shared/`.
+
+Before creating a release tag, make both documentation editions and every public versioned schema available at their respective URLs.
+Release verification checks schema availability and exact contents while excluding repository-only schemas under `schemas/internal/`.
+Use the same `YYYY.MM.DD` value without a `v` prefix for `dataVersion`, the Git tag, and the release date.
 
 ## Change a JSON Schema
 

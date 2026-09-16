@@ -356,7 +356,9 @@ Lenses and related optical products use mount-system IDs in `mount.systemId` and
 
 The two source registries support research, authoring, validation, and distribution generation.
 Before the first release, a source registry contains only entries referenced by canonical records or research results.
-Every research decision counts as manufacturer and brand usage; mount-system usage comes from canonical records.
+Manufacturer and brand usage includes references from research results with any decision: included, excluded, or needs review.
+Brand usage also includes brand IDs recorded in canonical alternate names.
+Mount-system usage comes from canonical records.
 Their structure is validated by repository-only JSON Schemas under `schemas/internal/`.
 They are not separate distribution files.
 Each distributed JSON instead embeds only the referenced entries in a root `referenceData` object.
@@ -364,7 +366,7 @@ For example, a consumer can resolve `product.identity.brandId` through `referenc
 Each `referenceData` entry is currently an object containing only `name`.
 This shape allows future display metadata to be added without replacing a string value with an object.
 
-Manufacturer, brand, and mount-system IDs remain fixed after their first publication, even if a display name changes.
+Manufacturer, brand, and mount-system IDs become fixed on their first appearance in an official GitHub Release asset, even if a display name later changes.
 Published IDs are not renamed or reused.
 If a published ID later becomes unreferenced, this stability rule takes precedence.
 When that first occurs, add a mechanism that retains and validates the published ID explicitly.

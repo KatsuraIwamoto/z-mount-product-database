@@ -234,7 +234,7 @@ Every major canonical field group containing an established value must be tracea
 Track `false` and an empty array as established values; do not require coverage for `null`, which remains unestablished.
 For a source whose URL is retained as an official product page, also record `officialProductPages`.
 Put release status, sale confirmation, licensing, and inclusion checks that have no canonical-record field under `decisionChecks`.
-Use `sources[].note` only when a short qualification is necessary.
+Use `sources[].note` only when the structured fields cannot preserve a source-specific fact needed to review the decision.
 
 Record values such as dimensions, weight, dates, and identifiers in the canonical record rather than duplicating them in `checked` or `sources[].note`.
 Under `checked`, do not descend to individual numeric leaves; choose a unit such as `lens.stabilization`, `electronics`, `physical.weightMeasurements`, or `controls` that still identifies the destination in the canonical record.
@@ -248,7 +248,7 @@ The distinction between `officialProductPages` in a canonical record and `source
 
 !!! warning "Do not retain research-process logs"
 
-    Do not record AI conversations, prompts, model names, or duplicated retrieval logs in research results.
+    Do not record AI conversations, prompts, model names, batch research tracking logs, duplicated retrieval logs, or guessed conclusions in research results.
     Retain only the conclusions, sources, and unresolved questions needed to review the decision again.
 
 ## File placement and JSON Schema
