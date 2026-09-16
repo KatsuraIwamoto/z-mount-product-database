@@ -136,36 +136,38 @@ The included example uses the Mount Adapter FTZ II, and the excluded and needs-r
 
 === "Needs review (`needs-review`)"
 
-    The SIRUI Saturn V2 Full-Frame Anamorphic Lens Series research result records a needs-review decision.
+    The NIKKOR Z CINEMA 50mm T1.9 VV research result records a needs-review decision.
 
-    Source: `research/results/lenses/sirui/sirui-saturn-v2-full-frame-anamorphic-lens-series.json`
+    Source: `research/results/lenses/nikkor/nikkor-z-cinema-50mm-t1-9-vv.json`
 
     ```json
     {
       "$schema": "../../../../schemas/lenses/research-result.schema.json",
-      "id": "sirui-saturn-v2-full-frame-anamorphic-lens-series",
+      "id": "nikkor-z-cinema-50mm-t1-9-vv",
       "subject": {
-        "manufacturerId": "sirui",
-        "brandId": "sirui",
-        "name": "SIRUI Saturn V2 Full-Frame Anamorphic Lens Series"
+        "manufacturerId": "nikon",
+        "brandId": "nikkor",
+        "name": "NIKKOR Z CINEMA 50mm T1.9 VV"
       },
-      "reviewedOn": "2026-09-02",
+      "reviewedOn": "2026-09-16",
       "decision": {
         "status": "needs-review"
       },
       "sources": [
         {
-          "url": "https://store.sirui.com/collections/z-mount-nikon-1",
+          "url": "https://www.nikon.com/company/news/2026/0908_02/",
           "publisherRelationship": "manufacturer-or-brand",
-          "sourceType": "collection",
+          "sourceType": "announcement",
           "checked": [
-            "mount"
+            "identity"
+          ],
+          "decisionChecks": [
+            "release-status"
           ]
         }
       ],
       "unresolved": [
-        "Has SIRUI published a product release announcement or confirmed sale or availability for the Saturn V2 series?",
-        "Has SIRUI announced or offered a Nikon Z configuration for the Saturn V2 series?"
+        "Has Nikon issued an official product release announcement or confirmed sale of the NIKKOR Z CINEMA 50mm T1.9 VV?"
       ]
     }
     ```

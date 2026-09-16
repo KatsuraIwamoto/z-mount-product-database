@@ -3,13 +3,13 @@
   "datasetName": "Z Mount Adapter Database",
   "datasetVariant": "full",
   "schemaVersion": "1.0.0",
-  "dataVersion": "2026.09.05",
+  "dataVersion": "2026.09.16",
   "creator": "Katsura Iwamoto",
   "license": "CC-BY-4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
-  "recordCount": 440,
-  "contentHash": "sha256:c24f59d42081331213273ea15395330746ff13e4e7511680608e2b01c0d7d20d",
+  "recordCount": 443,
+  "contentHash": "sha256:8d4f48fa0e42c3453dc94a83de241cc40a0ddd703b9d8adce28cb800252cfe31",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -44,6 +44,9 @@
       },
       "dzofilm": {
         "name": "DZOFILM"
+      },
+      "fotga": {
+        "name": "FOTGA"
       },
       "fotodiox": {
         "name": "Fotodiox, Inc."
@@ -199,6 +202,9 @@
       },
       "dzofilm": {
         "name": "DZOFILM"
+      },
+      "fotga": {
+        "name": "FOTGA"
       },
       "fotodiox": {
         "name": "Fotodiox"
@@ -4468,6 +4474,198 @@
           "present": true,
           "components": null
         }
+      },
+      "electronicServices": null,
+      "conversionOptics": {
+        "present": false
+      }
+    },
+    {
+      "id": "fotga-m42-nz",
+      "identity": {
+        "manufacturerId": "fotga",
+        "brandId": "fotga",
+        "productName": "Fotga M42-Nikon.Z Lens Mount Adapter Converter for 42mm M42 Lens to Nikon Z Mount Z8 Zf Zfc Z5 Z6 Z7 II Z6II Z7II Z9 Z50 Z30 Mirrorless DSLR Camera",
+        "modelNumberOptions": [
+          "M42-N/Z"
+        ],
+        "alternateNames": null,
+        "variants": null
+      },
+      "lifecycle": {
+        "announcementDate": null,
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://www.fotga.com/product/fotga-m42-nikon-z-lens-mount-adapter-converter-for-42mm-m42-lens-to-nikon-z-mount-z8-z5-z6-z7-ii-z6ii-z7ii-z9-z50-mirrorless-dslr-camera/",
+          "pageFamilies": [
+            "global"
+          ],
+          "region": null,
+          "language": "en",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "FOTGA"
+          }
+        }
+      ],
+      "mountConfigurations": [
+        {
+          "lensSideMountSystemId": "m42",
+          "cameraSideMountSystemId": "nikon-z",
+          "lensRetention": null,
+          "lensRearProtrusionLimits": null
+        }
+      ],
+      "electronics": {
+        "electronicContacts": false,
+        "autofocus": false,
+        "cameraControlledAperture": false,
+        "lensStabilizationCommunication": false,
+        "manualFocusAssistance": false,
+        "metadataTransmission": {
+          "present": false
+        },
+        "lensPowerTransmission": false,
+        "recordingTriggerTransmission": false
+      },
+      "mechanisms": [
+        {
+          "type": "rotation",
+          "movements": null,
+          "conditions": {}
+        }
+      ],
+      "physical": {
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
+        "officialEnvironmentalProtectionClaims": null,
+        "tripodSupport": null
+      },
+      "electronicServices": null,
+      "conversionOptics": {
+        "present": false
+      }
+    },
+    {
+      "id": "fotga-nikon-f-nz",
+      "identity": {
+        "manufacturerId": "fotga",
+        "brandId": "fotga",
+        "productName": "Fotga Lens Mount Adapter Converter for Nikon F Mount Lens to Nikon Z Mount Z8 Zf Zfc Z5 Z6 Z7 II Z6II Z7II Z9 Z50 Z30 Mirrorless DSLR Camera",
+        "modelNumberOptions": [
+          "NIKON-N/Z"
+        ],
+        "alternateNames": null,
+        "variants": null
+      },
+      "lifecycle": {
+        "announcementDate": null,
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://www.fotga.com/product/fotga-lens-mount-adapter-converter-for-nikon-f-mount-lens-to-nikon-z-mount-z8-zf-zfc-z5-z6-z7-ii-z6ii-z7ii-z9-z50-z30-mirrorless-dslr-camera/",
+          "pageFamilies": [
+            "global"
+          ],
+          "region": null,
+          "language": "en",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "FOTGA"
+          }
+        }
+      ],
+      "mountConfigurations": [
+        {
+          "lensSideMountSystemId": "nikon-f",
+          "cameraSideMountSystemId": "nikon-z",
+          "lensRetention": null,
+          "lensRearProtrusionLimits": null
+        }
+      ],
+      "electronics": {
+        "electronicContacts": false,
+        "autofocus": false,
+        "cameraControlledAperture": false,
+        "lensStabilizationCommunication": false,
+        "manualFocusAssistance": false,
+        "metadataTransmission": {
+          "present": false
+        },
+        "lensPowerTransmission": false,
+        "recordingTriggerTransmission": false
+      },
+      "mechanisms": null,
+      "physical": {
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
+        "officialEnvironmentalProtectionClaims": null,
+        "tripodSupport": null
+      },
+      "electronicServices": null,
+      "conversionOptics": {
+        "present": false
+      }
+    },
+    {
+      "id": "fotga-pk-nz",
+      "identity": {
+        "manufacturerId": "fotga",
+        "brandId": "fotga",
+        "productName": "Fotga PK-Nikon Z Lens Mount Adapter Converter for Pentax PK K Mount Lens to Nikon Z Mount Z8 Zf Zfc Z5 Z6 Z7 II Z6II Z7II Z9 Z50 Z30 Mirrorless DSLR Camera",
+        "modelNumberOptions": [
+          "PK-N/Z"
+        ],
+        "alternateNames": null,
+        "variants": null
+      },
+      "lifecycle": {
+        "announcementDate": null,
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://www.fotga.com/product/fotga-pk-nikon-z-lens-mount-adapter-converter-for-pentax-pk-k-mount-lens-to-nikon-z-mount-z8-zf-zfc-z5-z6-z7-ii-z6ii-z7ii-z9-z50-z30-mirrorless-dslr-camera/",
+          "pageFamilies": [
+            "global"
+          ],
+          "region": null,
+          "language": "en",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "FOTGA"
+          }
+        }
+      ],
+      "mountConfigurations": [
+        {
+          "lensSideMountSystemId": "pentax-k",
+          "cameraSideMountSystemId": "nikon-z",
+          "lensRetention": null,
+          "lensRearProtrusionLimits": null
+        }
+      ],
+      "electronics": {
+        "electronicContacts": false,
+        "autofocus": false,
+        "cameraControlledAperture": false,
+        "lensStabilizationCommunication": false,
+        "manualFocusAssistance": false,
+        "metadataTransmission": {
+          "present": false
+        },
+        "lensPowerTransmission": false,
+        "recordingTriggerTransmission": false
+      },
+      "mechanisms": null,
+      "physical": {
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
+        "officialEnvironmentalProtectionClaims": null,
+        "tripodSupport": null
       },
       "electronicServices": null,
       "conversionOptics": {

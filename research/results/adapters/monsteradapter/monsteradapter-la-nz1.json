@@ -6,7 +6,7 @@
     "brandId": "monsteradapter",
     "name": "LA-NZ1"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
@@ -19,6 +19,18 @@
         "identity",
         "mountConfigurations",
         "electronics"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://dc.watch.impress.co.jp/docs/news/2089450.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mountConfigurations"
       ],
       "decisionChecks": [
         "release-status"

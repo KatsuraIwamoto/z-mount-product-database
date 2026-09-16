@@ -2,11 +2,11 @@
   "$schema": "../../../../schemas/adapters/research-result.schema.json",
   "id": "fotga-m42-nz-tilt",
   "subject": {
-    "manufacturerId": null,
+    "manufacturerId": "fotga",
     "brandId": "fotga",
     "name": "M42 to Nikon Z Tilt Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
@@ -23,10 +23,18 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.fotga.com/pages/about_us/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "identity"
+      ]
     }
   ],
   "unresolved": [
-    "Which entity manufactures this branded product?",
-    "Can an official exact-product page, official catalog, or manufacturer-run storefront confirm the official product name and model number, and whether this is a distinct product or a variant of another adapter?"
+    "Can an official exact-product page, official catalog, or manufacturer-run storefront confirm the official product name and model number, and whether this is a distinct product or a variant of another adapter?",
+    "Does accepted exact-product evidence identify this tilt adapter as FOTGA rather than the jmt brand shown in the marketplace item specifics?"
   ]
 }

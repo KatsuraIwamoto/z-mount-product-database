@@ -2,13 +2,14 @@
   "$schema": "../../../../schemas/adapters/research-result.schema.json",
   "id": "fotga-pk-nz",
   "subject": {
-    "manufacturerId": null,
+    "manufacturerId": "fotga",
     "brandId": "fotga",
-    "name": "Pentax K to Nikon Z Adapter"
+    "name": "Fotga PK-Nikon Z Lens Mount Adapter Converter for Pentax PK K Mount Lens to Nikon Z Mount Z8 Zf Zfc Z5 Z6 Z7 II Z6II Z7II Z9 Z50 Z30 Mirrorless DSLR Camera"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
-    "status": "needs-review"
+    "status": "included",
+    "recordId": "fotga-pk-nz"
   },
   "sources": [
     {
@@ -22,10 +23,61 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.fotga.com/pages/about_us/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://www.fotga.com/product/fotga-pk-nikon-z-lens-mount-adapter-converter-for-pentax-pk-k-mount-lens-to-nikon-z-mount-z8-zf-zfc-z5-z6-z7-ii-z6ii-z7ii-z9-z50-z30-mirrorless-dslr-camera/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.fotga.com/wp-content/uploads/2024/01/4-2-800x800.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions"
+      ]
+    },
+    {
+      "url": "https://www.fotga.com/wp-content/uploads/2024/01/1-12-800x800.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://www.fotga.com/wp-content/uploads/2024/01/2-4-800x800.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
     }
   ],
   "unresolved": [
-    "Which entity manufactures this branded product?",
-    "Can an official exact-product page, official catalog, or manufacturer-run storefront confirm the official product name and model number, and whether this is a distinct product or a variant of another adapter?"
+    "Can accepted views establish the complete top, bottom, left, and right exterior, including any tripod interface or additional mechanism? The available official images leave part of the exterior unseen."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "funmount",
     "name": "EF-NZ Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
@@ -14,10 +14,9 @@
     {
       "url": "https://www.funmount.com/manual?_l=en",
       "publisherRelationship": "manufacturer-or-brand",
-      "sourceType": "manual",
+      "sourceType": "support-page",
       "checked": [
-        "identity",
-        "lifecycle"
+        "identity"
       ]
     }
   ],

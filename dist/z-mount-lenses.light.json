@@ -3,13 +3,13 @@
   "datasetName": "Z Mount Lens Database",
   "datasetVariant": "light",
   "schemaVersion": "1.0.0",
-  "dataVersion": "2026.09.05",
+  "dataVersion": "2026.09.16",
   "creator": "Katsura Iwamoto",
   "license": "CC-BY-4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
-  "recordCount": 603,
-  "contentHash": "sha256:012dfeb6ec037d7a3f2e386ebab9db1bb9c923bea4da7e37b4a14065184fd44a",
+  "recordCount": 606,
+  "contentHash": "sha256:b3ce90cc423c1718c2420493bd9231fb13e036ba52b5ffecbd23d28a4e0a829c",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -40981,6 +40981,228 @@
         "stabilization": {
           "present": false
         },
+        "specialized": {
+          "cinema": {},
+          "anamorphic": {}
+        }
+      }
+    },
+    {
+      "id": "sirui-saturn-v2-35mm-t2-9-1-6x-full-frame-anamorphic-lens",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "sirui",
+        "brandId": "sirui",
+        "productName": "SIRUI Saturn V2 35mm T2.9 1.6x Full-Frame Anamorphic Lens"
+      },
+      "lifecycle": {
+        "announcementDate": "2026-09-09",
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://store.sirui.com/products/saturn-v2-series-full-frame-anamorphic-cine-lens"
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": null,
+        "mountOwnerRelationship": null,
+        "electronicContacts": null
+      },
+      "physical": {
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 62
+          }
+        ]
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 35
+        },
+        "aperture": {
+          "fNumber": null,
+          "tNumber": {
+            "maximumAperture": [
+              {
+                "value": 2.9,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        "coverage": {
+          "format": "full-frame"
+        },
+        "focus": {
+          "autofocus": {
+            "present": false
+          },
+          "manualFocus": {
+            "present": true
+          },
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.9,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": null
+        },
+        "stabilization": null,
+        "specialized": {
+          "cinema": {},
+          "anamorphic": {}
+        }
+      }
+    },
+    {
+      "id": "sirui-saturn-v2-50mm-t2-9-1-6x-full-frame-anamorphic-lens",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "sirui",
+        "brandId": "sirui",
+        "productName": "SIRUI Saturn V2 50mm T2.9 1.6x Full-Frame Anamorphic Lens"
+      },
+      "lifecycle": {
+        "announcementDate": "2026-09-09",
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://store.sirui.com/products/saturn-v2-series-full-frame-anamorphic-cine-lens"
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": null,
+        "mountOwnerRelationship": null,
+        "electronicContacts": null
+      },
+      "physical": {
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 62
+          }
+        ]
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 50
+        },
+        "aperture": {
+          "fNumber": null,
+          "tNumber": {
+            "maximumAperture": [
+              {
+                "value": 2.9,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        "coverage": {
+          "format": "full-frame"
+        },
+        "focus": {
+          "autofocus": {
+            "present": false
+          },
+          "manualFocus": {
+            "present": true
+          },
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.9,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": null
+        },
+        "stabilization": null,
+        "specialized": {
+          "cinema": {},
+          "anamorphic": {}
+        }
+      }
+    },
+    {
+      "id": "sirui-saturn-v2-75mm-t2-9-1-6x-full-frame-anamorphic-lens",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "sirui",
+        "brandId": "sirui",
+        "productName": "SIRUI Saturn V2 75mm T2.9 1.6x Full-Frame Anamorphic Lens"
+      },
+      "lifecycle": {
+        "announcementDate": "2026-09-09",
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://store.sirui.com/products/saturn-v2-series-full-frame-anamorphic-cine-lens"
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": null,
+        "mountOwnerRelationship": null,
+        "electronicContacts": null
+      },
+      "physical": {
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 62
+          }
+        ]
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 75
+        },
+        "aperture": {
+          "fNumber": null,
+          "tNumber": {
+            "maximumAperture": [
+              {
+                "value": 2.9,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        "coverage": {
+          "format": "full-frame"
+        },
+        "focus": {
+          "autofocus": {
+            "present": false
+          },
+          "manualFocus": {
+            "present": true
+          },
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.9,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": null
+        },
+        "stabilization": null,
         "specialized": {
           "cinema": {},
           "anamorphic": {}

@@ -6,9 +6,10 @@
     "brandId": "sirui",
     "name": "SIRUI Saturn V2 Full-Frame Anamorphic Lens Series"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
-    "status": "needs-review"
+    "status": "excluded",
+    "reason": "This series-level candidate is represented by the separate Saturn V2 35mm, 50mm, and 75mm product records; it is not an additional optical product."
   },
   "sources": [
     {
@@ -34,10 +35,19 @@
       "checked": [
         "mount"
       ]
+    },
+    {
+      "url": "https://store.sirui.com/blogs/guides/sirui-saturn-v2-launch-a-full-frame-anamorphic-lens-for-horizontal-and-vertical-shooting",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status",
+        "inclusion-criteria"
+      ]
     }
-  ],
-  "unresolved": [
-    "Has SIRUI published a product release announcement or confirmed sale or availability for the Saturn V2 series?",
-    "Has SIRUI announced or offered a Nikon Z configuration for the Saturn V2 series?"
   ]
 }
