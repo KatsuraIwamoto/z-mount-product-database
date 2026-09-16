@@ -111,6 +111,20 @@ Do not derive a new representative value or range from multiple published values
 When a degrees-and-minutes value or a `1:n` ratio must be normalized to a single decimal number in the schema, round the converted result to six decimal places.
 Omit trailing zeroes from JSON numbers while preserving enough precision to recover the original notation at its published precision.
 
+## Recording official names {#official-names}
+
+Use `officialName` for a stable manufacturer- or brand-used designation.
+Prefer an official glossary, technology page, specification label, product heading, badge, or printed control label; sentence capitalization alone does not establish a name.
+Do not record sentence-only generic descriptions as names.
+Preserve stable published technical designations even when `type` or `types` represents the same class: normalized types support cross-brand grouping, while `officialName` preserves manufacturer terminology.
+For controls, omit ordinary component names that merely restate `type`; retain official labels that add product-specific meaning.
+
+Use the official English designation when an equivalent official English page exists; otherwise preserve the published designation without inventing a translation.
+Scope names to their brand and field; identical wording across brands does not establish the same technology.
+Within one brand and field, differences limited to case, spacing, punctuation, grammatical number, or a generic suffix do not create separate names. Use the most explicit stable official designation.
+Omit the name when official evidence does not establish one consistently.
+Remove `®` and `™`, which are not part of the lexical name, but retain symbols belonging to the designation itself, such as the asterisk in `T*`.
+
 ## Lens Full and Lens Light {#lens-full-and-light}
 
 Lens Light retains a subset of the values in Lens Full.
