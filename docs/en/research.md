@@ -219,6 +219,14 @@ Facts checked from product images
   Do not infer hidden construction, materials, dimensions, weight, electronic functions, environmental protection, compatibility, or release status from appearance.
   When an image of the complete mount face establishes that an adapter has no electronic contacts, record the related negative electronic-function values required by the adapter data structure.
 
+When inspecting exterior components in images, check at least four sides: top, bottom, left, and right. Four photographs of the same side do not provide four-sided coverage.
+Also inspect the front, mount face, covered areas, or other views relevant to the claim. If views are missing or blind spots remain, do not mark the entire exterior as checked or conclude that a component is absent.
+A clearly visible component's presence may be recorded within the area shown even when other views are unavailable.
+
+Shape, grooves, or scales alone do not establish movement, detachability, or purpose. Verify presence, movement, function, and inclusion in the package separately.
+Classifying a control requires evidence such as official operating instructions, a manual, or accepted images or video that establish its operation and function.
+Rotation alone does not identify an aperture or focus ring. Do not classify a component with an unknown function as decorative either.
+
 Research leads
 : Other retailers, reviews, news, and forums are leads for further research.
   Use only facts verified by an accepted source for an inclusion decision or product information.
@@ -242,6 +250,9 @@ Do not compare sources, allege an error, justify a value choice, or narrate the 
 
 When the checked sources do not establish a single value, do not choose one without evidence.
 Apply the normal [value states](value-rules.md#value-states) in the canonical record and state the evidence still needed as a neutral question under `unresolved`.
+When inclusion is established but an individual specification remains unknown, retain `included`, leave that field unestablished under the value rules, and record the necessary question under `unresolved`.
+Use `needs-review` when evidence needed for inclusion, such as product identity, release status, or the Nikon Z configuration, cannot be established.
+If human review does not provide accepted evidence, leave the fact unresolved.
 A deleted official product page alone does not establish that a product was discontinued.
 
 The distinction between `officialProductPages` in a canonical record and `sources` in a research result is explained under [URLs and sources](value-rules.md#urls).

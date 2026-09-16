@@ -24,6 +24,9 @@ read either edition, not both by default.
 - For independently marketed mount-conversion products, use
   [Adapter research](references/adapters.md).
 
+For image-based findings or ambiguous evidence that may need human review, use
+[Image inspection and uncertain findings](references/image-review.md).
+
 Read only the applicable reference and sections. A mixed request uses both routes
 for their respective products.
 
