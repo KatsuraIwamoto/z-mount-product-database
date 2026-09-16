@@ -24,31 +24,25 @@ read either edition, not both by default.
 - For independently marketed mount-conversion products, use
   [Adapter research](references/adapters.md).
 
-For image-based findings or ambiguous evidence that may need human review, use
-[Image inspection and uncertain findings](references/image-review.md).
+- When inspecting websites or confirming product names, model numbers, or URLs, use
+  [Website verification](references/web-review.md).
+- For an existing product or research candidate, use
+  [Re-research](references/re-research.md). Ordinary re-research starts with
+  `needs-review` decisions and `unresolved` questions, then checks existing facts.
+- For image-based findings or ambiguous evidence that may need human review, use
+  [Image inspection and uncertain findings](references/image-review.md).
 
 Read only the applicable reference and sections. A mixed request uses both routes
 for their respective products.
 
 ## Find evidence efficiently
 
-Start from the requested correction or the existing evidence gaps. For a new product,
-establish its identity, Nikon Z configuration, and release eligibility before building
-its record. For re-research, prioritize facts that affect the requested decision and
-sources likely to resolve several relevant fields; no fixed field order is required.
+For a new product, establish its identity, Nikon Z configuration, and release eligibility
+before building its record. Start with exact official product pages and primary documents;
+choose fallback sources under the evidence rules linked above.
 
-Start with exact official product pages and primary documents; choose fallback sources
-under the evidence rules linked above.
-
-On interactive manufacturer sites, inspect a representative rendered page when tabs,
-mount selectors, collapsed specifications, downloads, or image-based content affect
-the evidence. Expand relevant sections before treating their contents as unavailable.
-Reuse useful product, support, and store routes across the brand. Choose manuals,
-images, or video directly when they are the appropriate evidence for the fact.
-
-Before applying a page, manual, support file, or image, verify the marketed product,
-generation, and mount configuration it covers. A shared short name or a selectable
-Nikon Z option does not establish that a shared image depicts that configuration.
+For existing products, follow the bounded re-research route instead of repeating a new
+product investigation. Read additional references only when the finding requires them.
 
 Distinguish firmware-update capability, a USB connection, and an actually published
 firmware update. Publication requires an official update file or release entry;
