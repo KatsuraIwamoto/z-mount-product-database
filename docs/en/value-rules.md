@@ -111,6 +111,8 @@ Do not derive a new representative value or range from multiple published values
 When a degrees-and-minutes value or a `1:n` ratio must be normalized to a single decimal number in the schema, round the converted result to six decimal places.
 Omit trailing zeroes from JSON numbers while preserving enough precision to recover the original notation at its published precision.
 
+For mass, prefer officially published gram values and preserve their published decimals. If grams are unavailable, convert ounces or pounds using 1 oz = 28.349523125 g or 1 lb = 453.59237 g, then round to the nearest whole gram, with halves rounded up. Set `approximate: true` to indicate rounding during conversion, and retain the original value, unit, and conversion method in the research record. This flag does not imply a manufacturer-stated tolerance. Distinguish product mass from packaged or shipping mass.
+
 ## Recording official names {#official-names}
 
 Use `officialName` for a stable manufacturer- or brand-used designation.

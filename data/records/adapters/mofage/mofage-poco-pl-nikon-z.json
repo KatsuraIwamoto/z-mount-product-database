@@ -42,13 +42,30 @@
     {
       "type": "drop-in-filter",
       "conditions": {}
+    },
+    {
+      "type": "flange-focal-distance-adjustment",
+      "conditions": {}
     }
   ],
   "physical": {
     "dimensionMeasurements": null,
     "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
-    "tripodSupport": null
+    "tripodSupport": {
+      "present": true,
+      "components": [
+        {
+          "type": "foot",
+          "relationship": "supplied",
+          "removable": null,
+          "interfaces": null,
+          "modelNumberOptions": null,
+          "quantity": 1,
+          "conditions": {}
+        }
+      ]
+    }
   },
   "electronicServices": null,
   "conversionOptics": {

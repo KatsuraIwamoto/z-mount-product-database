@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "M42-NIK Z Macro Adapter with Helicoid",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "M42-N/Z M"
+    ],
     "alternateNames": null,
     "variants": null
   },

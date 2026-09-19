@@ -6,7 +6,8 @@
     "brandId": "shoten",
     "productName": "SHOTEN CY-NZ E Mount Adapter",
     "modelNumberOptions": [
-      "CY-NZ E"
+      "CY-NZ E",
+      "CY-NZ-E"
     ],
     "alternateNames": null,
     "variants": null
@@ -83,7 +84,8 @@
         "purposes": [
           "firmware-update",
           "configuration"
-        ]
+        ],
+        "connectorType": "other"
       }
     ]
   },

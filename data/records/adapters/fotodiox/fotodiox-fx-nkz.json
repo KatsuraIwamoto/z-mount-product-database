@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Fotodiox Lens Mount Adapter, Fuji X-Series Mirrorless Manual Focus Lenses to Nikon Z-Mount Mirrorless Cameras",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "FX-NKZ"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -49,8 +51,23 @@
   },
   "mechanisms": [],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          67,
+          67,
+          7
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 45,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

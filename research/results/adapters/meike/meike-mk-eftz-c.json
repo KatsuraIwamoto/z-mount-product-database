@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Drop-in Filter Auto-Focus Mount Adapter for Canon EF/EF-S Lenses to Nikon Z Cameras"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "meike-mk-eftz-c"
@@ -37,6 +37,50 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://meikeglobal.com/products/dron-in-filter-mount-adapter-ef-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "mechanisms",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/products/EFTZ-C__0001_2.jpg?v=1668846562&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/products/EFTZ-C__0002_3.jpg?v=1668846562&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/products/EFTZ-C__0000_1.jpg?v=1668846562&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mechanisms"
+      ]
     }
+  ],
+  "unresolved": [
+    "Confirm the connector type underneath the USB-marked cover shown in the official rear-view photograph."
   ]
 }

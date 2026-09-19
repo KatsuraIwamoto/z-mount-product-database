@@ -6,7 +6,7 @@
     "brandId": "haoge",
     "name": "Sony E to Nikon Z Manual Lens Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "haoge-nex-z"
@@ -37,6 +37,28 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0593/2403/9326/files/cdd858cecd31079556bd47a467752a71.jpg?v=1686819722",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0593/2403/9326/files/9954db659474a4495482151df88b4bf2.jpg?v=1686819732",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
       ]
     }
   ]

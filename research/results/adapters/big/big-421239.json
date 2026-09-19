@@ -6,7 +6,7 @@
     "brandId": "big",
     "name": "B.I.G. Objektivadapter M42 an Nikon Z"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "big-421239"
@@ -40,6 +40,24 @@
       "decisionChecks": [
         "availability",
         "release-status"
+      ]
+    },
+    {
+      "url": "https://www.big-photo.de/thumbnail/24/82/0e/1770904928/421239a-a02_800x800.jpg?ts=1770969128",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://www.big-photo.de/pdf/archiv/big-katalog/BIG-GESAMTKATALOG.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics"
       ]
     }
   ]

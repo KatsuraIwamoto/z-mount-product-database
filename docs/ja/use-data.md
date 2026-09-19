@@ -136,11 +136,11 @@ Gitブランチ上の`dist/`とリポジトリ直下の`PRODUCTS.md`は、配布
 
 ### 実際の出力
 
-データバージョン `2026.09.16` のレンズFull版では、どちらのコードも次の内容を表示します。
+データバージョン `2026.09.19` のレンズFull版では、どちらのコードも次の内容を表示します。
 
 ```json
 {
-  "dataVersion": "2026.09.16",
+  "dataVersion": "2026.09.19",
   "recordCount": 606,
   "firstProduct": {
     "id": "7artisans-24mm-f1-4",
@@ -231,7 +231,7 @@ print(json.dumps(matches, ensure_ascii=False, indent=2))
 
 各配布データのルートには、版、件数、ハッシュ値、ライセンスなどのメタデータがあります。
 プロジェクト全体の名称は「Z Mount Product Database」ですが、`datasetName` にはデータセットごとの名称が入ります。
-次の例は、データバージョン `2026.09.16` の各配布データから、`referenceData`と`products`または`adapters`を除いて抜き出したものです。
+次の例は、データバージョン `2026.09.19` の各配布データから、`referenceData`と`products`または`adapters`を除いて抜き出したものです。
 
 === "レンズFull版"
 
@@ -241,7 +241,7 @@ print(json.dumps(matches, ensure_ascii=False, indent=2))
       "datasetName": "Z Mount Lens Database",
       "datasetVariant": "full",
       "schemaVersion": "1.0.0",
-      "dataVersion": "2026.09.16",
+      "dataVersion": "2026.09.19",
       "creator": "Katsura Iwamoto",
       "license": "CC-BY-4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -259,7 +259,7 @@ print(json.dumps(matches, ensure_ascii=False, indent=2))
       "datasetName": "Z Mount Lens Database",
       "datasetVariant": "light",
       "schemaVersion": "1.0.0",
-      "dataVersion": "2026.09.16",
+      "dataVersion": "2026.09.19",
       "creator": "Katsura Iwamoto",
       "license": "CC-BY-4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
@@ -277,13 +277,13 @@ print(json.dumps(matches, ensure_ascii=False, indent=2))
       "datasetName": "Z Mount Adapter Database",
       "datasetVariant": "full",
       "schemaVersion": "1.0.0",
-      "dataVersion": "2026.09.16",
+      "dataVersion": "2026.09.19",
       "creator": "Katsura Iwamoto",
       "license": "CC-BY-4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
       "recordCount": 445,
-      "contentHash": "sha256:5759609c289de13160660b65b66349b139d99d02e7a7e0b9c4f33815e17a7e05"
+      "contentHash": "sha256:7459f1ac4108d9772bd6628e1d57d8f802f74f0145351cccf82e8d2d41faf55c"
     }
     ```
 

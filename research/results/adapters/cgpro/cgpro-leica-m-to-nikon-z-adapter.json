@@ -6,7 +6,7 @@
     "brandId": "cgpro",
     "name": "CGPro Leica M Lens Mount Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "cgpro-leica-m-to-nikon-z-adapter"
@@ -24,7 +24,26 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "mechanisms"
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1258/4351/files/LeicaM-NikonZ1DSC00241.jpg?v=1734309915",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1258/4351/files/LeicaM-NikonZ2DSC00243.jpg?v=1734309934",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
       ]
     }
   ]

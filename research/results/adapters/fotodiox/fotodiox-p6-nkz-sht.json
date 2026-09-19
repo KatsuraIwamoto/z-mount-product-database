@@ -6,7 +6,7 @@
     "brandId": "fotodiox",
     "name": "Fotodiox Pro Lens Mount Shift Adapter - Compatible With Pentacon 6 (Kiev 66) Mount Lens to Nikon Z-Mount Mirrorless Camera Body"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "fotodiox-p6-nkz-sht"
@@ -23,11 +23,24 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "identity.modelNumberOptions",
+        "physical.dimensionMeasurements"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/files/P6-NKZ-SHT-03.jpg?v=1701880573",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which product weight is correct? The official page lists 0.7 lb and 12.2 oz, which are not equivalent under ordinary rounding."
   ]
 }

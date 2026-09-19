@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Fotodiox Pro Lens Mount Adapter Compatible with Leica M Rangefinder Lenses to Nikon Z-Mount Mirrorless Camera Bodies",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "LM-NKZ-P"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -49,8 +51,23 @@
   },
   "mechanisms": [],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          100,
+          100,
+          53
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 329,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

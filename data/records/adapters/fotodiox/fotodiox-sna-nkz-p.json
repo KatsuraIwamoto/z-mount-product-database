@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Fotodiox Pro Lens Mount Adapter Compatible with Sony Alpha A-Mount (and Minolta AF) DSLR Lenses to Nikon Z-Mount Mirrorless Camera Bodies",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "SNA-NKZ-P"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -47,10 +49,30 @@
     "lensPowerTransmission": false,
     "recordingTriggerTransmission": false
   },
-  "mechanisms": [],
+  "mechanisms": [
+    {
+      "type": "aperture-ring",
+      "conditions": {}
+    }
+  ],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          100,
+          100,
+          53
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 329,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

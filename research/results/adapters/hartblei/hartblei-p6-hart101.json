@@ -6,7 +6,7 @@
     "brandId": "hartblei",
     "name": "Hartblei P6 Adapter for Pentacon Six lenses with tripod base (optional: for P6 & Kiev-88 lenses)"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "hartblei-p6-hart101"
@@ -31,5 +31,8 @@
         "availability"
       ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z-specific rear and four-sided product photographs establish the complete exterior? The official listing offers Nikon Z, but the inspected photographs show another camera-mount configuration or do not identify the rear mount."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "rafcamera",
     "name": "D-Mount Lens to Nikon Z Camera Mount Adapter, Raised Version"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "rafcamera-d-nikon-z-raised"
@@ -28,6 +28,36 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://rafcamera.com/media/catalog/product/cache/6305596479836c3bfef8b369c2d05576/d/-/d-mount-to-nikon-z_2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://rafcamera.com/media/catalog/product/cache/6305596479836c3bfef8b369c2d05576/d/-/d-mount-to-nikon-z_rear_2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://rafcamera.com/media/catalog/product/cache/6305596479836c3bfef8b369c2d05576/d/-/d-mount-to-nikon-z_drawing_2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements"
+      ]
     }
+  ],
+  "unresolved": [
+    "The product text gives the D-mount thread as 0.628 inch, whereas the manufacturer drawing specifies 0.625 inch. Confirm the intended thread diameter; the existing D-mount classification is retained."
   ]
 }

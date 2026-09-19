@@ -75,7 +75,12 @@
           "type": "foot",
           "relationship": null,
           "removable": true,
-          "interfaces": null,
+          "interfaces": [
+            {
+              "type": "mounting-thread",
+              "threadDesignation": "1/4 inch"
+            }
+          ],
           "modelNumberOptions": null,
           "quantity": null,
           "conditions": {}

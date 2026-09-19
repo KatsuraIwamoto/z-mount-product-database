@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "OM-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "OM-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

@@ -49,10 +49,21 @@
     "lensPowerTransmission": false,
     "recordingTriggerTransmission": false
   },
-  "mechanisms": [],
+  "mechanisms": [
+    {
+      "type": "other",
+      "conditions": {}
+    }
+  ],
   "physical": {
     "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "weightMeasurements": [
+      {
+        "grams": 99.2,
+        "approximate": false,
+        "conditions": {}
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

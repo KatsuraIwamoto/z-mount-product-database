@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "Baveyes HB-NIK Z 0.7x"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kipon-baveyes-hb-nik-z-0-7x"
@@ -27,6 +27,24 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://img.kipon.com/uploads/2021/03/HB-NIK-Z-0.7-2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://img.kipon.com/uploads/2021/03/HB-NIK-Z-0.7-scaled.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "conversionOptics"
       ]
     }
   ]

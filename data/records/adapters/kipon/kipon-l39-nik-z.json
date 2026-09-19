@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "L39-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "L39-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

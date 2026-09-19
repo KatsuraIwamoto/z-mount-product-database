@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Icarex 35S-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "ICA35S-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

@@ -6,7 +6,7 @@
     "brandId": "kippertie",
     "name": "Adapta Z/PL"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kippertie-adapta-z-pl"
@@ -29,6 +29,24 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://store.kippertie.com/wp-content/uploads/2025/02/zpl-adapta-rear-crop.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://store.kippertie.com/wp-content/uploads/2023/03/rfpl-foot-top-crop.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.tripodSupport"
       ]
     }
   ]

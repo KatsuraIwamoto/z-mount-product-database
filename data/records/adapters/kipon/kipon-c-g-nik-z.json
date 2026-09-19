@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Contax G-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "C/G-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

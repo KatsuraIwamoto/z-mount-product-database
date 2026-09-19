@@ -6,7 +6,7 @@
     "brandId": "vello",
     "name": "Lens Adapter for M42 Lens to Nikon Z-Mount Camera"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "vello-la-nz-m42"
@@ -22,7 +22,9 @@
         "lifecycle",
         "electronics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.weightMeasurements",
+        "conversionOptics"
       ]
     },
     {
@@ -34,6 +36,33 @@
         "mountConfigurations",
         "physical.weightMeasurements"
       ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/gradusgroup/data/14058/images/compressed/560x560/1-_la-nz-m42_main_view.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/gradusgroup/data/14058/images/compressed/560x560/2-_la-nz-m42_view_2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
     }
+  ],
+  "unresolved": [
+    "The official feature list says 1.4x Multi-Coated Focus Correction Lens, while the official gallery appears to show an open mechanical adapter. Confirm whether conversion optics are present and whether the 1.4x claim applies to LA-NZ-M42."
   ]
 }

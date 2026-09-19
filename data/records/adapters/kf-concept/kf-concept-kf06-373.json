@@ -50,7 +50,12 @@
     "lensPowerTransmission": false,
     "recordingTriggerTransmission": false
   },
-  "mechanisms": [],
+  "mechanisms": [
+    {
+      "type": "aperture-ring",
+      "conditions": {}
+    }
+  ],
   "physical": {
     "dimensionMeasurements": null,
     "weightMeasurements": null,

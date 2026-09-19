@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Contarex CRX-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "CRX-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

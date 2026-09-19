@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "ALPA-NIK Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kipon-alpa-nik-z"
@@ -27,6 +27,24 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://img.kipon.com/uploads/2021/03/ALPA-NZ-4.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://img.kipon.com/uploads/2021/03/ALPA-NZ-7.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "conversionOptics"
       ]
     }
   ]

@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Fotodiox Pro Lens Mount Adapter - Compatible with Miranda (MIR) SLR Lenses to Nikon Z-Mount Mirrorless Cameras",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "MIR-NKZ-P"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -49,8 +51,23 @@
   },
   "mechanisms": [],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          65,
+          65,
+          30
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 88,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

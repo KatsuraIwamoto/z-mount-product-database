@@ -53,7 +53,19 @@
   "physical": {
     "dimensionMeasurements": null,
     "weightMeasurements": null,
-    "officialEnvironmentalProtectionClaims": null,
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "dust-resistant",
+          "moisture-resistant"
+        ],
+        "scope": {
+          "kind": "component",
+          "component": "camera-side mount connection"
+        },
+        "conditions": {}
+      }
+    ],
     "tripodSupport": null
   },
   "electronicServices": null,

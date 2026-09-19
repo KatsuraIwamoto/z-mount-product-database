@@ -6,7 +6,7 @@
     "brandId": "c7adapters",
     "name": "LPL mount – Nikon Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "c7adapters-lpl-nikon-z"
@@ -31,6 +31,15 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://c7adapters.com/wp-content/uploads/2025/10/zoom_67618bd496b22.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical.tripodSupport"
       ]
     }
   ]

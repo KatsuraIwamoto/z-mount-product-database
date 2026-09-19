@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "Canon FD-NIK Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kipon-fd-nik-z"
@@ -28,6 +28,30 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://img.kipon.com/uploads/2021/03/FD-NZ-5.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://img.kipon.com/uploads/2021/03/FD-NZ-1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
     }
+  ],
+  "unresolved": [
+    "Confirm the function of the engraved LOCK/OPEN ring: the official description identifies an internal aperture-control pin but does not explicitly explain the ring operation."
   ]
 }

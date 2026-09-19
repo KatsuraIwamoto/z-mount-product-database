@@ -6,7 +6,7 @@
     "brandId": "kippertie",
     "name": "Adapta v2 Z/PL"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kippertie-adapta-v2-z-pl"
@@ -29,6 +29,32 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://store.kippertie.com/wp-content/uploads/2025/10/Adapta_v2_zpl_front.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mechanisms",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://store.kippertie.com/wp-content/uploads/2025/10/Adapta_v2_zpl_rear.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mechanisms",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://store.kippertie.com/wp-content/uploads/2025/09/Adapta_LC_support_foot_k.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.tripodSupport"
       ]
     }
   ]

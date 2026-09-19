@@ -62,7 +62,15 @@
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "dock",
+        "connectorType": "micro-usb",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
   },
   "conversionOptics": {
     "present": false

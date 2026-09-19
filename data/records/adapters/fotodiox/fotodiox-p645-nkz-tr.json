@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Fotodiox Pro TLT ROKR - Tilt / Shift Lens Mount Adapter Compatible with Pentax 645 (P645) Mount Lenses to Nikon Z-Mount Mirrorless Camera Body",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "P645-NKZ-TR"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -93,8 +95,23 @@
     }
   ],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          83,
+          83,
+          60
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 278,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

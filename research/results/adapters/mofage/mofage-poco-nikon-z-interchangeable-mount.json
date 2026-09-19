@@ -6,7 +6,7 @@
     "brandId": "mofage",
     "name": "Interchangeable mount for E/RF/L/Z/Kine (Z-Mount)"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "excluded",
     "reason": "Excluded because it is a replacement camera-side mount component that must be installed on a POCO adapter, not a complete interposed mount adapter."
@@ -22,6 +22,25 @@
       ],
       "decisionChecks": [
         "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://www.mofage.store/collections/frontpage/products/poco-ii-drop-in-filter-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity"
+      ],
+      "decisionChecks": [
+        "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://www.mofage.store/cdn/shop/files/Z.jpg?v=1712083464",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
   ]

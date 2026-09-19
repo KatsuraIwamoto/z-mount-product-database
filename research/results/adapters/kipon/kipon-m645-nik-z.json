@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "M645-NIK Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kipon-m645-nik-z"
@@ -27,6 +27,24 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://img.kipon.com/uploads/2021/03/M645-NZ-2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://img.kipon.com/uploads/2021/03/M645-NZ-1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mechanisms"
       ]
     }
   ]

@@ -11,7 +11,9 @@
       {
         "variantId": "pl-z",
         "name": "PL-Z",
-        "modelNumberOptions": null
+        "modelNumberOptions": [
+          "DZO-EXP2PL-Z"
+        ]
       }
     ]
   },

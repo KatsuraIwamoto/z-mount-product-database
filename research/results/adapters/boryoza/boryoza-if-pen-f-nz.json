@@ -6,7 +6,7 @@
     "brandId": "boryoza",
     "name": "IF·Pen F-NZ Chipped Focus Confirm Adapter Olympus Pen F Mount Lens Compatible with Nikon Z Camera"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "boryoza-if-pen-f-nz"
@@ -40,6 +40,14 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://admin.boryoza.net/api/storefront/production/media/175",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
   ]

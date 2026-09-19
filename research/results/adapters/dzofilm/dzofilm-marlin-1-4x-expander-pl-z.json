@@ -6,7 +6,7 @@
     "brandId": "dzofilm",
     "name": "Marlin 1.4x Expander"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "dzofilm-marlin-1-4x-expander-pl-z"
@@ -31,5 +31,8 @@
         "availability"
       ]
     }
+  ],
+  "unresolved": [
+    "Can exact Marlin 1.4x PL-Z front, rear and four-sided images or a manual confirm its support-foot and exterior details?"
   ]
 }

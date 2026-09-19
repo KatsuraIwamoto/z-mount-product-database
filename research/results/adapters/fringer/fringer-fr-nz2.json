@@ -6,7 +6,7 @@
     "brandId": "fringer",
     "name": "Fringer EF-NZ II"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "fringer-fr-nz2"
@@ -53,11 +53,28 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "manual",
       "checked": [
-        "electronicServices"
+        "electronicServices",
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://uploads.strikinglycdn.com/files/92fb6e18-ef12-4c8e-8148-80b52f06bb16/EFNZ%20Release%20notes.en.2.30.pdf?id=4379164&t=1773199061",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices",
+        "electronics"
       ]
     }
   ],
   "notes": [
     "Weather sealing is specified for use with weather-sealed cameras and lenses."
+  ],
+  "unresolved": [
+    "Does FR-NZ2 include a tripod support? The model-specific manual mentions an alloy tripod mount, but its component diagrams do not identify one and do not repeat the FR-NZ1 removable-foot instructions."
   ]
 }

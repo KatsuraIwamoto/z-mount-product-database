@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Leica VISO-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "VISO-NIKON Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "N/G-NIK Z M with Helicoid"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kipon-n-g-nik-z-m"
@@ -27,6 +27,24 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/6c6353_9187cc327e1a4edf9c57e155244e2779~mv2.jpg/v1/fit/w_1600,h_1600,q_90/file.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/6c6353_f7b87fb25a9a4668a30b61cf197aa793~mv2.jpg/v1/fit/w_1600,h_1600,q_90/file.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mechanisms"
       ]
     }
   ]

@@ -53,6 +53,11 @@
     {
       "type": "helicoid",
       "conditions": {}
+    },
+    {
+      "type": "rotation",
+      "conditions": {},
+      "movements": null
     }
   ],
   "physical": {
@@ -61,7 +66,21 @@
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": {
       "present": true,
-      "components": null
+      "components": [
+        {
+          "type": "foot",
+          "relationship": null,
+          "removable": null,
+          "interfaces": [
+            {
+              "type": "arca-compatible"
+            }
+          ],
+          "modelNumberOptions": null,
+          "quantity": null,
+          "conditions": {}
+        }
+      ]
     }
   },
   "electronicServices": null,

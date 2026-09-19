@@ -54,6 +54,11 @@
       "type": "shift",
       "conditions": {},
       "movements": null
+    },
+    {
+      "type": "rotation",
+      "conditions": {},
+      "movements": null
     }
   ],
   "physical": {
@@ -62,7 +67,21 @@
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": {
       "present": true,
-      "components": null
+      "components": [
+        {
+          "type": "foot",
+          "relationship": "supplied",
+          "removable": null,
+          "interfaces": [
+            {
+              "type": "other"
+            }
+          ],
+          "modelNumberOptions": null,
+          "quantity": 2,
+          "conditions": {}
+        }
+      ]
     }
   },
   "electronicServices": null,

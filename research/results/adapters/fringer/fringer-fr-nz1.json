@@ -6,7 +6,7 @@
     "brandId": "fringer",
     "name": "Fringer EF-NZ"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "fringer-fr-nz1"
@@ -32,6 +32,28 @@
       "sourceType": "support-page",
       "checked": [
         "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://uploads.strikinglycdn.com/files/c1bf3d14-0748-4d2c-8e6a-99860ef86c1e/efnz%20manual.en.1.50.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://uploads.strikinglycdn.com/files/92fb6e18-ef12-4c8e-8148-80b52f06bb16/EFNZ%20Release%20notes.en.2.30.pdf?id=4379164&t=1773199061",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices",
+        "electronics"
       ]
     }
   ]

@@ -62,7 +62,21 @@
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "dock",
+        "purposes": [
+          "firmware-update",
+          "configuration"
+        ]
+      },
+      {
+        "method": "camera-body",
+        "purposes": [
+          "configuration"
+        ]
+      }
+    ]
   },
   "conversionOptics": {
     "present": false

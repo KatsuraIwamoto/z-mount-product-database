@@ -6,7 +6,7 @@
     "brandId": "kf-concept",
     "name": "Contax G Lens to Nikon Z Mount Camera Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kf-concept-cgz"
@@ -36,6 +36,33 @@
         "electronics",
         "conversionOptics",
         "mechanisms"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/wp-content/uploads/KF-CGZ.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/wp-content/uploads/KF-CGZ-1.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/wp-content/uploads/KF-CGZ-2.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics"
       ]
     }
   ]

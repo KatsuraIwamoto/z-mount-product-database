@@ -6,7 +6,7 @@
     "brandId": "funmount",
     "name": "FM-MTZ MACRO Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "funmount-fm-mtz-macro"
@@ -38,6 +38,21 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://pro575dd5-pic13.ysjianzhan.cn/upload/utzj.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "mechanisms",
+        "electronicServices"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which adapter-side USB connector is supplied on FM-MTZ MACRO? The manual labels magnetic upgrade contacts, while its update instructions and product page specify a USB Type-C port; confirm whether these describe different hardware revisions."
   ]
 }

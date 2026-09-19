@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Hasselblad XPAN-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "XPAN-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

@@ -6,7 +6,7 @@
     "brandId": "funmount",
     "name": "FM-ETZ Electronic Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "funmount-fm-etz"
@@ -38,6 +38,20 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://pro575dd5-pic13.ysjianzhan.cn/upload/s2f3.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices"
+      ]
     }
+  ],
+  "notes": [
+    "The USB connection uses the supplied magnetic-contact cable; configuration is stored in files on the adapter."
   ]
 }

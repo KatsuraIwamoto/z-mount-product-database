@@ -6,7 +6,7 @@
     "brandId": "vello",
     "name": "Lens Adapter for Canon FD Lens to Nikon Z-Mount Camera"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "vello-la-nz-fd"
@@ -24,8 +24,36 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/gradusgroup/data/14059/images/compressed/560x560/1-_la-nz-fd_main_view.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/gradusgroup/data/14059/images/compressed/560x560/2-_la-nz-fd_view_2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
       ]
     }
+  ],
+  "unresolved": [
+    "Confirm the operation of the visible OPEN/LOCK ring; the product description does not distinguish aperture actuation from lens retention."
   ]
 }

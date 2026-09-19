@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "M42-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "M42-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

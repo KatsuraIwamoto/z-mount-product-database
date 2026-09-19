@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Minolta MD-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "MD-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

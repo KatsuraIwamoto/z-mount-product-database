@@ -6,7 +6,7 @@
     "brandId": "funmount",
     "name": "FM-EFTZ Pro Electronic Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "funmount-fm-eftz-pro"
@@ -37,6 +37,23 @@
       ],
       "decisionChecks": [
         "release-status"
+      ]
+    },
+    {
+      "url": "https://funmount.com/FM-EFTZ?_l=en",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "electronicServices",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://funmount.com/?_l=en",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "electronicServices"
       ]
     }
   ]

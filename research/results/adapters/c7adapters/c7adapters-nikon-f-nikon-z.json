@@ -6,7 +6,7 @@
     "brandId": "c7adapters",
     "name": "Nikon F – Nikon Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "c7adapters-nikon-f-nikon-z"
@@ -30,6 +30,15 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://c7adapters.com/wp-content/uploads/2025/10/zoom_641863e13841e.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical.tripodSupport"
       ]
     }
   ]

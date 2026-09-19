@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Fotodiox Pro Lens Adapter For Select Contax G Lenses to Nikon Z-Mount Cameras with Built-in Focus Control Dial",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "CG-NKZ-P"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -49,8 +51,23 @@
   },
   "mechanisms": [],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          28,
+          70,
+          70
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 99,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

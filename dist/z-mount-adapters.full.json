@@ -3,13 +3,13 @@
   "datasetName": "Z Mount Adapter Database",
   "datasetVariant": "full",
   "schemaVersion": "1.0.0",
-  "dataVersion": "2026.09.16",
+  "dataVersion": "2026.09.19",
   "creator": "Katsura Iwamoto",
   "license": "CC-BY-4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
   "recordCount": 445,
-  "contentHash": "sha256:5759609c289de13160660b65b66349b139d99d02e7a7e0b9c4f33815e17a7e05",
+  "contentHash": "sha256:7459f1ac4108d9772bd6628e1d57d8f802f74f0145351cccf82e8d2d41faf55c",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -911,7 +911,7 @@
       },
       "officialProductPages": [
         {
-          "url": "https://www.artralab.hk/products/leica-m-mount-nikon-z-mount-body",
+          "url": "https://artralab.com/products/leica-m-mount-nikon-z-mount-body",
           "pageFamilies": [
             "global"
           ],
@@ -978,7 +978,7 @@
       },
       "officialProductPages": [
         {
-          "url": "https://www.artralab.hk/products/nikon-f-mount-ai-g-nikon-z-mount-camera-body-adapter",
+          "url": "https://artralab.com/products/nikon-f-mount-ai-g-nikon-z-mount-camera-body-adapter",
           "pageFamilies": [
             "global"
           ],
@@ -1688,7 +1688,13 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "rotation",
+          "movements": null,
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -1763,7 +1769,21 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "dock",
+            "purposes": [
+              "firmware-update",
+              "configuration"
+            ]
+          },
+          {
+            "method": "camera-body",
+            "purposes": [
+              "configuration"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -1832,7 +1852,15 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "dock",
+            "connectorType": "micro-usb",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -1901,7 +1929,21 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "dock",
+            "connectorType": "micro-usb",
+            "purposes": [
+              "firmware-update"
+            ]
+          },
+          {
+            "method": "camera-body",
+            "purposes": [
+              "configuration"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -2030,7 +2072,12 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": null,
+      "mechanisms": [
+        {
+          "type": "aperture-ring",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -2168,7 +2215,12 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": null,
+      "mechanisms": [
+        {
+          "type": "aperture-ring",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -2287,7 +2339,9 @@
         {
           "lensSideMountSystemId": "m42",
           "cameraSideMountSystemId": "nikon-z",
-          "lensRetention": null,
+          "lensRetention": {
+            "type": "locking-ring"
+          },
           "lensRearProtrusionLimits": null
         }
       ],
@@ -2444,7 +2498,12 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": null,
+      "mechanisms": [
+        {
+          "type": "aperture-ring",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -2467,10 +2526,24 @@
         "productName": "IF·NF-NZ Chipped Focus Confirm Adapter Nikon F Mount Lens Compatible with Nikon Z Camera",
         "modelNumberOptions": [
           "IF-NF-NZ",
-          "FR10260EMB"
+          "FR10260EMB",
+          "NF-NZ"
         ],
         "alternateNames": null,
-        "variants": null
+        "variants": [
+          {
+            "variantId": "black",
+            "name": "Black",
+            "modelNumberOptions": null,
+            "color": "Black"
+          },
+          {
+            "variantId": "silver",
+            "name": "Silver",
+            "modelNumberOptions": null,
+            "color": "Silver"
+          }
+        ]
       },
       "lifecycle": {
         "announcementDate": null,
@@ -2720,7 +2793,12 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": null,
+      "mechanisms": [
+        {
+          "type": "aperture-ring",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -2789,7 +2867,12 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": null,
+      "mechanisms": [
+        {
+          "type": "aperture-ring",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -2815,7 +2898,20 @@
           "FS011960EXD"
         ],
         "alternateNames": null,
-        "variants": null
+        "variants": [
+          {
+            "variantId": "black",
+            "name": "Black",
+            "modelNumberOptions": null,
+            "color": "Black"
+          },
+          {
+            "variantId": "silver",
+            "name": "Silver",
+            "modelNumberOptions": null,
+            "color": "Silver"
+          }
+        ]
       },
       "lifecycle": {
         "announcementDate": null,
@@ -2858,7 +2954,12 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": null,
+      "mechanisms": [
+        {
+          "type": "helicoid",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -2867,7 +2968,22 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "other",
+            "connectorType": "other",
+            "purposes": [
+              "firmware-update",
+              "configuration"
+            ]
+          },
+          {
+            "method": "camera-body",
+            "purposes": [
+              "configuration"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -2936,7 +3052,22 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "other",
+            "connectorType": "other",
+            "purposes": [
+              "firmware-update",
+              "configuration"
+            ]
+          },
+          {
+            "method": "camera-body",
+            "purposes": [
+              "configuration"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -3046,6 +3177,12 @@
           "cameraSideMountSystemId": "nikon-z",
           "lensRetention": null,
           "lensRearProtrusionLimits": null
+        },
+        {
+          "lensSideMountSystemId": "bncr",
+          "cameraSideMountSystemId": "nikon-z",
+          "lensRetention": null,
+          "lensRearProtrusionLimits": null
         }
       ],
       "electronics": {
@@ -3067,7 +3204,22 @@
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4 inch"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -3142,7 +3294,12 @@
               "type": "foot",
               "relationship": null,
               "removable": null,
-              "interfaces": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4 inch"
+                }
+              ],
               "modelNumberOptions": null,
               "quantity": null,
               "conditions": {}
@@ -3205,14 +3362,34 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "flange-focal-distance-adjustment",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8 inch"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -3270,7 +3447,12 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "flange-focal-distance-adjustment",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -3332,14 +3514,34 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "flange-focal-distance-adjustment",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8 inch"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -3409,7 +3611,12 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "flange-focal-distance-adjustment",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": [
@@ -3435,7 +3642,26 @@
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4 inch"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8 inch"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -3510,7 +3736,12 @@
               "type": "foot",
               "relationship": null,
               "removable": null,
-              "interfaces": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8 inch"
+                }
+              ],
               "modelNumberOptions": null,
               "quantity": null,
               "conditions": {}
@@ -3580,14 +3811,34 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "flange-focal-distance-adjustment",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8 inch"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -3645,14 +3896,34 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "flange-focal-distance-adjustment",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8-16"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -3731,7 +4002,12 @@
               "type": "foot",
               "relationship": null,
               "removable": null,
-              "interfaces": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4 inch"
+                }
+              ],
               "modelNumberOptions": null,
               "quantity": null,
               "conditions": {}
@@ -3752,7 +4028,19 @@
         "productName": "Panavision – Nikon Z",
         "modelNumberOptions": null,
         "alternateNames": null,
-        "variants": null
+        "variants": [
+          {
+            "variantId": "silver-anodized-duralumin",
+            "name": "silver (Anodized Duralumin)",
+            "modelNumberOptions": null,
+            "color": "Silver"
+          },
+          {
+            "variantId": "stainless-steel",
+            "name": "stainless steel",
+            "modelNumberOptions": null
+          }
+        ]
       },
       "lifecycle": {
         "announcementDate": null,
@@ -3794,14 +4082,38 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "flange-focal-distance-adjustment",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4 inch"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8 inch"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -3885,7 +4197,12 @@
               "type": "foot",
               "relationship": null,
               "removable": true,
-              "interfaces": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4 inch"
+                }
+              ],
               "modelNumberOptions": null,
               "quantity": null,
               "conditions": {}
@@ -3974,7 +4291,16 @@
               "type": "foot",
               "relationship": null,
               "removable": null,
-              "interfaces": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4 inch"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8 inch"
+                }
+              ],
               "modelNumberOptions": null,
               "quantity": null,
               "conditions": {}
@@ -4075,7 +4401,9 @@
           {
             "variantId": "leica-m-nikon-z",
             "name": "Leica M - Nikon Z",
-            "modelNumberOptions": null
+            "modelNumberOptions": [
+              "LM-Z"
+            ]
           }
         ]
       },
@@ -4142,13 +4470,17 @@
           {
             "variantId": "silver",
             "name": "Silver",
-            "modelNumberOptions": null,
+            "modelNumberOptions": [
+              "CGP-PL-Z-S"
+            ],
             "color": "Silver"
           },
           {
             "variantId": "red",
             "name": "Red",
-            "modelNumberOptions": null,
+            "modelNumberOptions": [
+              "CGP-PL-Z-R"
+            ],
             "color": "Red"
           }
         ]
@@ -4200,7 +4532,22 @@
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4 inch"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -4250,14 +4597,44 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "lengthMm": 34,
+            "conditions": {}
+          }
+        ],
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4 inch"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "direct-usb",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -4326,7 +4703,9 @@
           {
             "variantId": "pl-z",
             "name": "PL-Z",
-            "modelNumberOptions": null
+            "modelNumberOptions": [
+              "DZO-EXP2PL-Z"
+            ]
           }
         ]
       },
@@ -4441,7 +4820,9 @@
           {
             "variantId": "pl-z",
             "name": "PL-Z",
-            "modelNumberOptions": null
+            "modelNumberOptions": [
+              "DZO-AD2PLZ"
+            ]
           }
         ]
       },
@@ -4489,11 +4870,47 @@
       "mechanisms": [],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 186,
+            "approximate": true,
+            "conditions": {
+              "variantId": "pl-z",
+              "componentStates": {
+                "tripodFoot": false
+              }
+            }
+          },
+          {
+            "grams": 200,
+            "approximate": true,
+            "conditions": {
+              "variantId": "pl-z",
+              "componentStates": {
+                "tripodFoot": true
+              }
+            }
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -4743,10 +5160,38 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              65,
+              78,
+              29
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 119,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -4806,7 +5251,20 @@
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -4863,8 +5321,23 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              66,
+              66,
+              18
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 45,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -4921,10 +5394,30 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "helicoid",
+          "conditions": {}
+        }
+      ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              64,
+              64,
+              27
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 105,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -4939,7 +5432,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Adapter For Select Contax G Lenses to Nikon Z-Mount Cameras with Built-in Focus Control Dial",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "CG-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -4983,8 +5478,23 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              28,
+              70,
+              70
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 99,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -4999,7 +5509,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox DLX Stretch Lens Adapter - Compatible with Contax/Yashica (CY) SLR Lens to Nikon Z-Mount Mirrorless Cameras with Macro Focusing Helicoid and Magnetic Drop-In Filters",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "CY-NKZ-DLXS"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -5053,7 +5565,13 @@
       ],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 224,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -5068,7 +5586,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter Compatible with Contax/Yashica (CY) SLR Lenses to Nikon Z-Mount Mirrorless Camera Bodies",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "CY-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -5112,10 +5632,38 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              100,
+              100,
+              53
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 329,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -5128,7 +5676,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Vizelex Cine ND Throttle Lens Mount Adapter from Fotodiox Pro Compatible with Canon EOS (EF / EF-S) D/SLR Lenses to Nikon Z-Mount Mirrorless Camera Body with Built-In Variable ND Filter (ND4-ND256)",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "EF-NKZ-CNDT"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -5177,8 +5727,23 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              69,
+              72,
+              33
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 147,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -5193,7 +5758,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox DLX Stretch Lens Adapter - Compatible with Canon EOS (EF / EF-S) D/SLR Lens to Nikon Z-Mount Mirrorless Cameras with Macro Focusing Helicoid and Magnetic Drop-In Filters",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "EF-NKZ-DLXS"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -5247,7 +5814,13 @@
       ],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 230,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -5342,7 +5915,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter Compatible with Canon EOS (EF / EF-S) D/SLR Lenses to Nikon Z-Mount Mirrorless Camera Bodies",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "EF-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -5386,10 +5961,38 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              100,
+              100,
+              53
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 329,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -5402,7 +6005,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Shift Adapter - Compatible With Bronica ETR Mount Lens to Nikon Z-Mount Mirrorless Camera Body",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "ETR-NKZ-SHT"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -5476,8 +6081,23 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              98,
+              80,
+              63
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 337,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -5492,7 +6112,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Vizelex Cine ND Throttle Lens Mount Adapter - Compatible with Canon FD & FL 35mm SLR lenses to Nikon Z-Mount Mirrorless Cameras with Built-In Variable ND Filter (2 to 8 Stops) from Fotodiox Pro",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "FD-NKZ-CNDT"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -5538,11 +6160,30 @@
         {
           "type": "other",
           "conditions": {}
+        },
+        {
+          "type": "aperture-ring",
+          "conditions": {}
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              66,
+              66,
+              32
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 136,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -5557,7 +6198,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox DLX Stretch Lens Adapter - Compatible with Canon FD & FL 35mm SLR Lens to Nikon Z-Mount Mirrorless Cameras with Macro Focusing Helicoid and Magnetic Drop-In Filters",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "FD-NKZ-DLXS"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -5607,11 +6250,21 @@
         {
           "type": "helicoid",
           "conditions": {}
+        },
+        {
+          "type": "aperture-ring",
+          "conditions": {}
         }
       ],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 215,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -5626,7 +6279,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter Compatible with Canon FD & FL 35mm SLR lenses to Nikon Z-Mount Mirrorless Camera Bodies",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "FD-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -5668,12 +6323,45 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "aperture-ring",
+          "conditions": {}
+        }
+      ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              100,
+              100,
+              53
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 329,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -5686,7 +6374,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter - Compatible with Fuji Fujica X (1970-80s 35mm Film Era SLR Lenses) to fit  Nikon Z-Mount Mirrorless Cameras",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "FUX-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -5730,10 +6420,38 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              62,
+              76,
+              32
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 108,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -5746,7 +6464,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Lens Mount Adapter, Fuji X-Series Mirrorless Manual Focus Lenses to Nikon Z-Mount Mirrorless Cameras",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "FX-NKZ"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -5790,8 +6510,23 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              67,
+              67,
+              7
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 45,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -5806,7 +6541,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter - Compatible with Fujica GL69 Mount Lens to Nikon Z-Mount Mirrorless Camera Systems",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "GL69-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -5848,12 +6585,45 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "other",
+          "conditions": {}
+        }
+      ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              92,
+              103,
+              53
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 397,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -5866,7 +6636,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter Compatible with Hasselblad V-Mount SLR Lenses to Nikon Z-Mount Mirrorless Camera Bodies",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "HBV-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -5910,10 +6682,38 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              100,
+              100,
+              53
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 329,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -5926,7 +6726,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Shift Adapter - Compatible With Hasselblad V-Mount SLR Lens to Nikon Z-Mount Mirrorless Cameras",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "HBV-NKZ-SHT"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -6016,7 +6818,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro TLT ROKR - Tilt / Shift Lens Mount Adapter Compatible with Hasselblad V-Mount SLR Lenses to Nikon Z-Mount Mirrorless Camera Body",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "HBV-NKZ-TR"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -6104,8 +6908,23 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              89,
+              86,
+              64
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 281,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -6120,7 +6939,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox DLX Stretch Lens Adapter - Compatible with Leica M Rangefinder Lens to Nikon Z-Mount Mirrorless Camera Body with Macro Focusing Helicoid",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "LM-NKZ-DLXS"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -6169,8 +6990,23 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              64,
+              64,
+              17
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 145,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -6185,7 +7021,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter Compatible with Leica M Rangefinder Lenses to Nikon Z-Mount Mirrorless Camera Bodies",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "LM-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -6229,8 +7067,23 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              100,
+              100,
+              53
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 329,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -6245,7 +7098,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro PRONTO Autofocus Adapter - Compatible with Leica M Mount Lenses to Nikon Z-Mount Mirrorless Cameras",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "LM-NKZ-PRN"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -6290,9 +7145,23 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "other",
+          "conditions": {}
+        }
+      ],
       "physical": {
-        "dimensionMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              65,
+              25,
+              80
+            ],
+            "conditions": {}
+          }
+        ],
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
@@ -6306,6 +7175,12 @@
               "firmware-update"
             ],
             "connectorType": "micro-usb"
+          },
+          {
+            "method": "camera-body",
+            "purposes": [
+              "configuration"
+            ]
           }
         ]
       },
@@ -6319,7 +7194,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter - Compatible with Arri LPL (Large Positive Lock) Mount Lenses to Nikon Z-Mount Mirrorless Cameras",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "LPL-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -6365,8 +7242,23 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              88,
+              102,
+              40
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 281,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -6381,7 +7273,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox DLX Stretch Lens Adapter - Compatible with Leica R SLR Lens to Nikon Z-Mount Mirrorless Cameras with Macro Focusing Helicoid and Magnetic Drop-In Filters",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "LR-NKZ-DLXS"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -6435,7 +7329,13 @@
       ],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 235,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -6450,7 +7350,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter Compatible with Leica R SLR Lenses to Nikon Z-Mount Mirrorless Camera Bodies",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "LR-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -6494,10 +7396,38 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              100,
+              100,
+              53
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 329,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -6510,7 +7440,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter Compatible with M42 Screw Mount SLR Lenses to Nikon Z-Mount Mirrorless Camera Bodies",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "M42-NKZ-P-V2"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -6554,8 +7486,23 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              100,
+              100,
+              53
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 329,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -6570,7 +7517,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Shift Adapter - Compatible With Mamiya 645 (M645) Mount Lens to Nikon Z-Mount Mirrorless Camera Body",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "M645-NKZ-SHT"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -6644,8 +7593,23 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              78,
+              100,
+              54
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 281,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -6660,7 +7624,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro TLT ROKR - Tilt / Shift Lens Mount Adapter Compatible with Mamiya 645 (M645) Mount Lenses to Nikon Z-Mount Mirrorless Camera Body",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "M645-NKZ-TR"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -6748,8 +7714,23 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              83,
+              83,
+              51
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 232,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -6764,7 +7745,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter Compatible with Mamiya 645 (M645) Mount AF/AF-D Lenses to Nikon Z-Mount Mirrorless Camera Bodies",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "M645a-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -6806,12 +7789,45 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "aperture-ring",
+          "conditions": {}
+        }
+      ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              76,
+              83,
+              52
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 224,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -6917,7 +7933,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Vizelex Cine ND Throttle Lens Mount Adapter - Compatible with Minolta Rokkor (SR / MD / MC) SLR Lenses to Nikon Z-Mount Mirrorless Cameras with Built-In Variable ND Filter (2 to 8 Stops) from Fotodiox Pro",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "MD-NKZ-CNDT"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -6966,8 +7984,23 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              66,
+              66,
+              33
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 136,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -6982,7 +8015,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox DLX Stretch Lens Adapter - Compatible with Minolta Rokkor (SR / MD / MC) SLR Lens to Nikon Z-Mount Mirrorless Cameras with Macro Focusing Helicoid and Magnetic Drop-In Filters",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "MD-NKZ-DLXS"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -7036,7 +8071,13 @@
       ],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 230,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -7051,7 +8092,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter Compatible with Minolta Rokkor (SR / MD / MC) SLR Lenses to Nikon Z-Mount Mirrorless Camera Bodies",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "MD-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -7095,10 +8138,38 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              100,
+              100,
+              53
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 329,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -7111,7 +8182,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter - Compatible with Miranda (MIR) SLR Lenses to Nikon Z-Mount Mirrorless Cameras",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "MIR-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -7155,8 +8228,23 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              65,
+              65,
+              30
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 88,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -7171,7 +8259,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Vizelex Cine ND Throttle Lens Mount Adapter Compatible with Nikon Nikkor F Mount G-Type D/SLR Lens to Nikon Z-Mount Mirrorless Camera Body with Built-In Variable ND Filter (2 to 8 Stops)",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "NKG-NKZ-CNDT"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -7224,8 +8314,23 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              64,
+              72,
+              37
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 142,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -7240,7 +8345,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox DLX Stretch Lens Adapter - Compatible with Nikon F Mount G-Type D/SLR Lens to Nikon Z-Mount Mirrorless Cameras with Macro Focusing Helicoid and Magnetic Drop-In Filters",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "NKG-NKZ-DLXS"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -7290,11 +8397,21 @@
         {
           "type": "helicoid",
           "conditions": {}
+        },
+        {
+          "type": "aperture-ring",
+          "conditions": {}
         }
       ],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 235,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -7309,7 +8426,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Adapter - Nikon F Mount G-Type Lenses to Nikon Z Mount Mirrorless Cameras",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "NKG-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -7351,10 +8470,30 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "aperture-ring",
+          "conditions": {}
+        }
+      ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              100,
+              100,
+              53
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 329,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -7369,7 +8508,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro TLT ROKR - Tilt / Shift Lens Mount Adapter Compatible with Nikon F Mount G-Type D/SLR Lenses to Nikon Z-Mount Mirrorless Camera Body",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "NKG-NKZ-TR"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -7454,11 +8595,30 @@
             ]
           },
           "conditions": {}
+        },
+        {
+          "type": "aperture-ring",
+          "conditions": {}
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              68,
+              68,
+              35
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 218,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -7473,7 +8633,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox DLX Stretch Lens Adapter - Compatible with Olympus Zuiko (OM) 35mm SLR Lens to Nikon Z-Mount Mirrorless Cameras with Macro Focusing Helicoid and Magnetic Drop-In Filters",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "OM-NKZ-DLXS"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -7527,7 +8689,13 @@
       ],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 232,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -7542,7 +8710,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter Compatible with Olympus Zuiko (OM) 35mm SLR Lenses to Nikon Z-Mount Mirrorless Camera Bodies",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "OM-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -7586,10 +8756,38 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              100,
+              100,
+              53
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 329,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -7602,7 +8800,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Shift Adapter - Compatible With Pentacon 6 (Kiev 66) Mount Lens to Nikon Z-Mount Mirrorless Camera Body",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "P6-NKZ-SHT"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -7676,7 +8876,16 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              98,
+              79,
+              67
+            ],
+            "conditions": {}
+          }
+        ],
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
@@ -7692,7 +8901,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter Compatible with Pentax 645 (P645) Mount SLR Lenses to Nikon Z-Mount Mirrorless Camera Bodies",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "P645-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -7736,10 +8947,38 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              100,
+              100,
+              53
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 329,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -7752,7 +8991,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Shift Adapter - Compatible With Pentax 645 (P645) Mount Lens to Nikon Z-Mount Mirrorless Camera Body",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "P645-NKZ-SHT"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -7826,8 +9067,23 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              99,
+              78,
+              59
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 335,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -7842,7 +9098,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro TLT ROKR - Tilt / Shift Lens Mount Adapter Compatible with Pentax 645 (P645) Mount Lenses to Nikon Z-Mount Mirrorless Camera Body",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "P645-NKZ-TR"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -7930,8 +9188,23 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              83,
+              83,
+              60
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 278,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -7946,7 +9219,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Shift Adapter - Compatible With Pentax 6x7 (P67, PK67) Mount SLR Lens to Nikon Z-Mount Mirrorless Cameras",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "P67-NKZ-SHT"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -8020,8 +9295,23 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              88,
+              105,
+              74
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 371,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -8036,7 +9326,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro TLT ROKR - Tilt / Shift Lens Mount Adapter Compatible with Pentax 6x7 (P67, PK67) Mount SLR Lenses to Nikon Z-Mount Mirrorless Camera Body",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "P67-NKZ-TR"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -8124,8 +9416,23 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              93,
+              90,
+              73
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 306,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -8140,7 +9447,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox DLX Stretch Lens Adapter - Compatible with Pentax K Auto Focus Mount (PK AF) DSLR Lens to Nikon Z-Mount Mirrorless Cameras with Macro Focusing Helicoid and Magnetic Drop-In Filters",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "PKAF-NKZ-DLXS"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -8190,11 +9499,21 @@
         {
           "type": "helicoid",
           "conditions": {}
+        },
+        {
+          "type": "aperture-ring",
+          "conditions": {}
         }
       ],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 221,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -8209,7 +9528,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter Compatible with Pentax K Auto Focus Mount (PK AF) DSLR Lenses to Nikon Z-Mount Mirrorless Camera Bodies",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "PKAF-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -8258,10 +9579,38 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              100,
+              100,
+              53
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 329,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -8274,7 +9623,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Vizelex Cine ND Throttle Lens Mount Adapter - Arri PL (Positive Lock) Mount Lens to Nikon Z-Mount Mirrorless Camera Body with Built-In Variable ND Filter (2 to 8 Stops)",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "PL-NKZ-CNDT"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -8332,9 +9683,28 @@
       ],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 275,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -8347,7 +9717,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter Compatible with Arri PL (Positive Lock) Mount Lenses to Nikon Z-Mount Mirrorless Camera Bodies",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "PL-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -8393,10 +9765,38 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              100,
+              100,
+              53
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 329,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -8409,7 +9809,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Lens Mount Adapter - Compatible with Olympus Pen F SLR Lenses to Nikon Z-Mount Mirrorless Cameras",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "PNF-NKZ"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -8453,8 +9855,23 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              65,
+              65,
+              18
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 65,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -8469,7 +9886,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter - Mamiya RB67/RZ67 Mount Lens to Nikon Z-Mount Mirrorless Camera Body with Built-In Focusing Helicoid",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "RBRZ-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -8518,10 +9937,38 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              93,
+              98,
+              94
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 454,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -8534,7 +9981,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Pro Lens Mount Adapter Compatible with Sony Alpha A-Mount (and Minolta AF) DSLR Lenses to Nikon Z-Mount Mirrorless Camera Bodies",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "SNA-NKZ-P"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -8576,10 +10025,30 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "aperture-ring",
+          "conditions": {}
+        }
+      ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              100,
+              100,
+              53
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 329,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -8594,7 +10063,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Lens Mount Adapter, Sony Alpha E-Mount Mirrorless Manual Focus Lenses to Nikon Z-Mount Mirrorless Cameras",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "SNE-NKZ"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -8638,8 +10109,23 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              71,
+              71,
+              7
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 51,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -8736,7 +10222,9 @@
         "manufacturerId": "fotodiox",
         "brandId": "fotodiox",
         "productName": "Fotodiox Lens Adapter - Compatible with T-Mount (T / T-2) Screw Mount SLR Lens to Nikon Z-Mount Mirrorless Cameras",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "T2-NKZ"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -8780,8 +10268,23 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              66,
+              66,
+              44
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 94,
+            "conditions": {},
+            "approximate": true
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -8835,11 +10338,38 @@
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": "supplied",
+              "removable": true,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "direct-usb",
+            "purposes": [
+              "firmware-update"
+            ],
+            "connectorType": "micro-usb"
+          },
+          {
+            "method": "camera-body",
+            "purposes": [
+              "configuration"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -8999,7 +10529,23 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "usb-c",
+            "purposes": [
+              "firmware-update",
+              "configuration"
+            ]
+          },
+          {
+            "method": "other",
+            "purposes": [
+              "configuration"
+            ],
+            "application": "Funmount Bluetooth configuration tool"
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -9067,7 +10613,16 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "other",
+            "purposes": [
+              "firmware-update",
+              "configuration"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -9080,7 +10635,8 @@
         "brandId": "funmount",
         "productName": "FM-ETZ Pro Electronic Mount Adapter",
         "modelNumberOptions": [
-          "FM-ETZ Pro"
+          "FM-ETZ Pro",
+          "FM-ETZ-P"
         ],
         "alternateNames": null,
         "variants": null
@@ -9129,13 +10685,38 @@
       "mechanisms": [],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
-        "officialEnvironmentalProtectionClaims": null,
+        "weightMeasurements": [
+          {
+            "grams": 46,
+            "approximate": true,
+            "conditions": {}
+          }
+        ],
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "dust-resistant",
+              "splash-resistant"
+            ],
+            "scope": {
+              "kind": "product"
+            },
+            "conditions": {}
+          }
+        ],
         "tripodSupport": null
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "other",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -9208,7 +10789,28 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "direct-usb",
+            "purposes": [
+              "firmware-update",
+              "configuration"
+            ]
+          },
+          {
+            "method": "camera-body",
+            "purposes": [
+              "configuration"
+            ]
+          },
+          {
+            "method": "other",
+            "purposes": [
+              "configuration"
+            ],
+            "application": "Funmount Bluetooth configuration tool"
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -9284,7 +10886,8 @@
         "brandId": "haoge",
         "productName": "Contax/Yashica to Nikon Z Manual Lens Mount Adapter",
         "modelNumberOptions": [
-          "CY-Z"
+          "CY-Z",
+          "CY-N.Z"
         ],
         "alternateNames": null,
         "variants": null
@@ -9346,7 +10949,8 @@
         "brandId": "haoge",
         "productName": "Canon FD to Nikon Z Manual Lens Mount Adapter",
         "modelNumberOptions": [
-          "FD-Z"
+          "FD-Z",
+          "FD-N.Z"
         ],
         "alternateNames": null,
         "variants": null
@@ -9408,7 +11012,8 @@
         "brandId": "haoge",
         "productName": "Leica M to Nikon Z Manual Lens Mount Adapter",
         "modelNumberOptions": [
-          "LM-Z"
+          "LM-Z",
+          "LM-N.Z"
         ],
         "alternateNames": null,
         "variants": null
@@ -9470,7 +11075,8 @@
         "brandId": "haoge",
         "productName": "Leica R to Nikon Z Manual Lens Mount Adapter",
         "modelNumberOptions": [
-          "LR-Z"
+          "LR-Z",
+          "LR-N.Z"
         ],
         "alternateNames": null,
         "variants": null
@@ -9532,7 +11138,8 @@
         "brandId": "haoge",
         "productName": "M42 to Nikon Z Manual Lens Mount Adapter",
         "modelNumberOptions": [
-          "M42-Z"
+          "M42-Z",
+          "M42-N.Z"
         ],
         "alternateNames": null,
         "variants": null
@@ -9594,7 +11201,8 @@
         "brandId": "haoge",
         "productName": "Minolta MD to Nikon Z Manual Lens Mount Adapter",
         "modelNumberOptions": [
-          "MD-Z"
+          "MD-Z",
+          "MD-N.Z"
         ],
         "alternateNames": null,
         "variants": null
@@ -9656,7 +11264,8 @@
         "brandId": "haoge",
         "productName": "Sony E to Nikon Z Manual Lens Mount Adapter",
         "modelNumberOptions": [
-          "NEX-Z"
+          "NEX-Z",
+          "NEX-N.Z"
         ],
         "alternateNames": null,
         "variants": null
@@ -9718,7 +11327,8 @@
         "brandId": "haoge",
         "productName": "Olympus OM to Nikon Z Manual Lens Mount Adapter",
         "modelNumberOptions": [
-          "OM-Z"
+          "OM-Z",
+          "OM-N.Z"
         ],
         "alternateNames": null,
         "variants": null
@@ -9780,7 +11390,8 @@
         "brandId": "haoge",
         "productName": "Pentax K to Nikon Z Manual Lens Mount Adapter",
         "modelNumberOptions": [
-          "PK-Z"
+          "PK-Z",
+          "PK-N.Z"
         ],
         "alternateNames": null,
         "variants": null
@@ -9955,7 +11566,31 @@
         {
           "type": "shift",
           "conditions": {},
-          "movements": null
+          "movements": {
+            "shiftMeasurements": [
+              {
+                "maximumFromNeutralMm": 12,
+                "totalRangeMm": null,
+                "directionality": null,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        {
+          "type": "rotation",
+          "conditions": {},
+          "movements": {
+            "rotationMeasurements": [
+              {
+                "scope": "movement-assembly",
+                "maximumFromNeutralDegrees": null,
+                "totalRangeDegrees": 360,
+                "directionality": null,
+                "conditions": {}
+              }
+            ]
+          }
         }
       ],
       "physical": {
@@ -9964,7 +11599,21 @@
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -10028,7 +11677,31 @@
         {
           "type": "shift",
           "conditions": {},
-          "movements": null
+          "movements": {
+            "shiftMeasurements": [
+              {
+                "maximumFromNeutralMm": 12,
+                "totalRangeMm": null,
+                "directionality": null,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        {
+          "type": "rotation",
+          "conditions": {},
+          "movements": {
+            "rotationMeasurements": [
+              {
+                "scope": "movement-assembly",
+                "maximumFromNeutralDegrees": null,
+                "totalRangeDegrees": 360,
+                "directionality": null,
+                "conditions": {}
+              }
+            ]
+          }
         }
       ],
       "physical": {
@@ -10037,7 +11710,21 @@
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -10101,7 +11788,31 @@
         {
           "type": "shift",
           "conditions": {},
-          "movements": null
+          "movements": {
+            "shiftMeasurements": [
+              {
+                "maximumFromNeutralMm": 12,
+                "totalRangeMm": null,
+                "directionality": null,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        {
+          "type": "rotation",
+          "conditions": {},
+          "movements": {
+            "rotationMeasurements": [
+              {
+                "scope": "movement-assembly",
+                "maximumFromNeutralDegrees": null,
+                "totalRangeDegrees": 360,
+                "directionality": null,
+                "conditions": {}
+              }
+            ]
+          }
         }
       ],
       "physical": {
@@ -10110,7 +11821,21 @@
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -10172,7 +11897,31 @@
         {
           "type": "tilt",
           "conditions": {},
-          "movements": null
+          "movements": {
+            "tiltMeasurements": [
+              {
+                "maximumFromNeutralDegrees": 8,
+                "totalRangeDegrees": null,
+                "directionality": null,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        {
+          "type": "rotation",
+          "conditions": {},
+          "movements": {
+            "rotationMeasurements": [
+              {
+                "scope": "movement-assembly",
+                "maximumFromNeutralDegrees": null,
+                "totalRangeDegrees": 360,
+                "directionality": null,
+                "conditions": {}
+              }
+            ]
+          }
         }
       ],
       "physical": {
@@ -10181,7 +11930,21 @@
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -10308,7 +12071,26 @@
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8 inch"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4 inch"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -10433,6 +12215,11 @@
           "type": "shift",
           "conditions": {},
           "movements": null
+        },
+        {
+          "type": "rotation",
+          "conditions": {},
+          "movements": null
         }
       ],
       "physical": {
@@ -10441,7 +12228,21 @@
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": "supplied",
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "other"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": 2,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -10503,6 +12304,11 @@
         {
           "type": "helicoid",
           "conditions": {}
+        },
+        {
+          "type": "rotation",
+          "conditions": {},
+          "movements": null
         }
       ],
       "physical": {
@@ -10511,7 +12317,21 @@
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -10647,7 +12467,31 @@
         {
           "type": "shift",
           "conditions": {},
-          "movements": null
+          "movements": {
+            "shiftMeasurements": [
+              {
+                "maximumFromNeutralMm": 12,
+                "totalRangeMm": null,
+                "directionality": null,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        {
+          "type": "rotation",
+          "conditions": {},
+          "movements": {
+            "rotationMeasurements": [
+              {
+                "scope": "movement-assembly",
+                "maximumFromNeutralDegrees": null,
+                "totalRangeDegrees": 360,
+                "directionality": null,
+                "conditions": {}
+              }
+            ]
+          }
         }
       ],
       "physical": {
@@ -10656,7 +12500,21 @@
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -10722,7 +12580,31 @@
         {
           "type": "shift",
           "conditions": {},
-          "movements": null
+          "movements": {
+            "shiftMeasurements": [
+              {
+                "maximumFromNeutralMm": 12,
+                "totalRangeMm": null,
+                "directionality": null,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        {
+          "type": "rotation",
+          "conditions": {},
+          "movements": {
+            "rotationMeasurements": [
+              {
+                "scope": "movement-assembly",
+                "maximumFromNeutralDegrees": null,
+                "totalRangeDegrees": 360,
+                "directionality": null,
+                "conditions": {}
+              }
+            ]
+          }
         }
       ],
       "physical": {
@@ -10731,7 +12613,21 @@
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -10810,6 +12706,21 @@
               }
             ]
           }
+        },
+        {
+          "type": "rotation",
+          "conditions": {},
+          "movements": {
+            "rotationMeasurements": [
+              {
+                "scope": "product",
+                "maximumFromNeutralDegrees": null,
+                "totalRangeDegrees": 360,
+                "directionality": null,
+                "conditions": {}
+              }
+            ]
+          }
         }
       ],
       "physical": {
@@ -10818,7 +12729,21 @@
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -10863,7 +12788,12 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": null,
+      "mechanisms": [
+        {
+          "type": "other",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -11421,7 +13351,12 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "aperture-ring",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -12137,7 +14072,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "ALPA-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "ALPA-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -12197,7 +14134,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Baveyes HB-NIK Z 0.7x",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "HB-N/Z 0.7x"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -12264,7 +14203,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Baveyes Mamiya 645-NIK Z 0.7x PRO Lock Version",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "M645-N/Z 0.7x PRO"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -12340,7 +14281,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Contax G-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "C/G-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -12405,7 +14348,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "C Mount-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "C-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -12465,7 +14410,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "C/Y-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "C/Y-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -12525,7 +14472,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "C/Y-NIK Z M with Helicoid",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "C/Y-N/Z M"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -12726,7 +14675,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Contarex CRX-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "CRX-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -12791,7 +14742,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Canon EOS-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "EF-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -12851,7 +14804,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Exakta-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "EXA-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -12911,7 +14866,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Canon FD-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "FD-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -12971,7 +14928,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Adapter for Four Thirds Mount Lens on Nikon Z Full-Frame Mirrorless Camera",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "4/3-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -13031,7 +14990,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "FUJI OX-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "FUJI OX-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -13091,7 +15052,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "HB-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "HB-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -13151,7 +15114,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Icarex 35S-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "ICA35S-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -13211,7 +15176,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Konica KAR-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "K/AR-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -13271,7 +15238,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "L/M-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "L/M-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -13331,7 +15300,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "L/M-NIK Z M with Helicoid",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "L/M-N/Z M"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -13396,7 +15367,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "L/R-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "L/R-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -13456,7 +15429,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "L/R-NIK Z M with Helicoid",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "L/R-N/Z M"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -13521,7 +15496,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "L39-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "L39-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -13667,7 +15644,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "LPL-NIK Z PRO Adapter",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "LPL-N/Z PRO"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -13729,7 +15708,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "M42-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "M42-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -13789,7 +15770,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "M42-NIK Z Macro Adapter with Helicoid",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "M42-N/Z M"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -13854,7 +15837,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "M645-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "M645-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -13914,7 +15899,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Minolta AF / Sony Alpha-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "MAF-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -13979,7 +15966,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Minolta MD-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "MD-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -14039,7 +16028,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "N/G-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "N/G-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -14104,7 +16095,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "N/G-NIK Z M with Helicoid",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "N/G-N/Z M"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -14173,7 +16166,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "NIK-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "NIK-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -14233,7 +16228,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "NIK-NIK Z M with Helicoid",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "NIK-N/Z M"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -14298,7 +16295,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "OM-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "OM-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -14358,7 +16357,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "OM-NIK Z M with Helicoid",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "OM-N/Z M"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -14423,7 +16424,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "P110-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "P110-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -14483,7 +16486,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "P645-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "P645-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -14543,7 +16548,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Praktica PB-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "PB-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -14603,7 +16610,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Olympus PEN-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "PEN-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -14663,7 +16672,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Pentax K-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "PK-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -14723,7 +16734,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "PL-NIK Z PRO Adapter",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "PL-N/Z PRO"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -14785,7 +16798,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Rollei QBM-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "QBM-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -14845,7 +16860,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "TILT NIK-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "TILT NIK-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -14935,7 +16952,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "KIPON Variable ND Cinema Kit for Nikon Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "E20130-E20068"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -15032,7 +17051,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "KIPON PL-Nikon Z Variable ND Adapter",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "E20130"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -15117,7 +17138,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Leica VISO-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "VISO-NIKON Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -15177,7 +17200,9 @@
         "manufacturerId": "kipon",
         "brandId": "kipon",
         "productName": "Hasselblad XPAN-NIK Z",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "XPAN-N/Z"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -15268,7 +17293,13 @@
           "lensRetention": {
             "type": "positive-lock"
           },
-          "lensRearProtrusionLimits": null
+          "lensRearProtrusionLimits": [
+            {
+              "maximumMm": 22,
+              "referencePlane": "mount-face",
+              "conditions": {}
+            }
+          ]
         }
       ],
       "electronics": {
@@ -15287,13 +17318,30 @@
         {
           "type": "drop-in-filter",
           "conditions": {}
+        },
+        {
+          "type": "flange-focal-distance-adjustment",
+          "conditions": {}
         }
       ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "support-bracket",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -15352,12 +17400,30 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "flange-focal-distance-adjustment",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "support-bracket",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -15416,14 +17482,47 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "flange-focal-distance-adjustment",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": "supplied",
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8-16"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": 1,
+              "conditions": {}
+            },
+            {
+              "type": "support-bracket",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -15468,7 +17567,13 @@
           "lensRetention": {
             "type": "positive-lock"
           },
-          "lensRearProtrusionLimits": null
+          "lensRearProtrusionLimits": [
+            {
+              "maximumMm": 22,
+              "referencePlane": "mount-face",
+              "conditions": {}
+            }
+          ]
         }
       ],
       "electronics": {
@@ -15495,7 +17600,35 @@
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": "supplied",
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8-16"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": 1,
+              "conditions": {}
+            },
+            {
+              "type": "support-bracket",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": null,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,
@@ -15555,8 +17688,19 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 69,
+            "lengthMm": 30.8,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 72,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -15615,10 +17759,27 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "rotation",
+          "movements": null,
+          "conditions": {}
+        }
+      ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 69,
+            "lengthMm": 34.3,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 94,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -15679,8 +17840,19 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 69,
+            "lengthMm": 34.8,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 91,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -15739,10 +17911,27 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "rotation",
+          "movements": null,
+          "conditions": {}
+        }
+      ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 69,
+            "lengthMm": 43.8,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 96,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -16575,7 +18764,7 @@
       "identity": {
         "manufacturerId": "meike",
         "brandId": "meike",
-        "productName": "0.71x Speed Booster Adapter for Canon EF/EF-S Lenses to Nikon Z Cameras",
+        "productName": "0.71x Speed Booster Adapter for Canon EF Lenses to Nikon Z Cameras",
         "modelNumberOptions": [
           "MK-EFTZ-071X",
           "MK-EFTZ-071X-C"
@@ -16613,19 +18802,36 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 69,
+            "unclassifiedDimensionsMm": [
+              24.6
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 164,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
       "electronicServices": {
-        "hasPublishedFirmwareUpdate": true,
+        "hasPublishedFirmwareUpdate": null,
         "connections": null
       },
       "conversionOptics": {
         "present": true,
         "focalLengthMultiplier": 0.71,
-        "apertureChange": null,
+        "apertureChange": {
+          "direction": "brighter",
+          "stops": 1,
+          "relation": "exact"
+        },
         "opticalConstruction": null,
         "specialElements": null,
         "coatings": null,
@@ -16686,7 +18892,12 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "other",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": [
           {
@@ -16701,12 +18912,31 @@
             "conditions": {}
           }
         ],
-        "officialEnvironmentalProtectionClaims": null,
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "dust-resistant",
+              "other"
+            ],
+            "scope": {
+              "kind": "product"
+            },
+            "conditions": {}
+          }
+        ],
         "tripodSupport": null
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "usb-c",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -16794,7 +19024,14 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "direct-usb",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -16818,7 +19055,7 @@
       },
       "officialProductPages": [
         {
-          "url": "https://meikeglobal.com/collections/bfcm-accessories/products/adapter-etz-for-sony-e-mount",
+          "url": "https://meikeglobal.com/products/adapter-etz-for-sony-e-mount",
           "pageFamilies": [
             "global"
           ],
@@ -16855,8 +19092,19 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 65.2,
+            "lengthMm": 2,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 44.2,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -16905,7 +19153,13 @@
           "lensRetention": {
             "type": "positive-lock"
           },
-          "lensRearProtrusionLimits": null
+          "lensRearProtrusionLimits": [
+            {
+              "maximumMm": 21,
+              "referencePlane": "mount-flange",
+              "conditions": {}
+            }
+          ]
         }
       ],
       "electronics": {
@@ -16927,8 +19181,22 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 106,
+            "unclassifiedDimensionsMm": [
+              84,
+              36.7
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 234,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -16991,13 +19259,25 @@
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
-        "officialEnvironmentalProtectionClaims": null,
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "dust-resistant",
+              "moisture-resistant"
+            ],
+            "scope": {
+              "kind": "component",
+              "component": "camera-side mount connection"
+            },
+            "conditions": {}
+          }
+        ],
         "tripodSupport": {
           "present": true,
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": true,
               "interfaces": [
                 {
@@ -17009,7 +19289,7 @@
                 }
               ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -17074,13 +19354,25 @@
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
-        "officialEnvironmentalProtectionClaims": null,
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "dust-resistant",
+              "moisture-resistant"
+            ],
+            "scope": {
+              "kind": "component",
+              "component": "camera-side mount connection"
+            },
+            "conditions": {}
+          }
+        ],
         "tripodSupport": {
           "present": true,
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": true,
               "interfaces": [
                 {
@@ -17092,7 +19384,7 @@
                 }
               ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -17157,7 +19449,19 @@
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
-        "officialEnvironmentalProtectionClaims": null,
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "dust-resistant",
+              "moisture-resistant"
+            ],
+            "scope": {
+              "kind": "component",
+              "component": "camera-side mount connection"
+            },
+            "conditions": {}
+          }
+        ],
         "tripodSupport": null
       },
       "electronicServices": null,
@@ -17219,13 +19523,25 @@
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
-        "officialEnvironmentalProtectionClaims": null,
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "dust-resistant",
+              "moisture-resistant"
+            ],
+            "scope": {
+              "kind": "component",
+              "component": "camera-side mount connection"
+            },
+            "conditions": {}
+          }
+        ],
         "tripodSupport": {
           "present": true,
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": true,
               "interfaces": [
                 {
@@ -17237,7 +19553,7 @@
                 }
               ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -17302,13 +19618,25 @@
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
-        "officialEnvironmentalProtectionClaims": null,
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "dust-resistant",
+              "moisture-resistant"
+            ],
+            "scope": {
+              "kind": "component",
+              "component": "camera-side mount connection"
+            },
+            "conditions": {}
+          }
+        ],
         "tripodSupport": {
           "present": true,
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": true,
               "interfaces": [
                 {
@@ -17320,7 +19648,7 @@
                 }
               ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -17410,11 +19738,19 @@
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": true,
-              "interfaces": null,
+              "interfaces": [
+                {
+                  "type": "arca-compatible"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": null
+                }
+              ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -17502,7 +19838,7 @@
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": true,
               "interfaces": [
                 {
@@ -17514,7 +19850,7 @@
                 }
               ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -17623,7 +19959,7 @@
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": true,
               "interfaces": [
                 {
@@ -17635,7 +19971,7 @@
                 }
               ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -17721,6 +20057,10 @@
         {
           "type": "flange-focal-distance-adjustment",
           "conditions": {}
+        },
+        {
+          "type": "aperture-ring",
+          "conditions": {}
         }
       ],
       "physical": {
@@ -17744,7 +20084,7 @@
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": true,
               "interfaces": [
                 {
@@ -17756,7 +20096,7 @@
                 }
               ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -17867,7 +20207,7 @@
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": true,
               "interfaces": [
                 {
@@ -17879,7 +20219,7 @@
                 }
               ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -18111,13 +20451,35 @@
         {
           "type": "drop-in-filter",
           "conditions": {}
+        },
+        {
+          "type": "flange-focal-distance-adjustment",
+          "conditions": {}
         }
       ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": null
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -18167,13 +20529,30 @@
         {
           "type": "drop-in-filter",
           "conditions": {}
+        },
+        {
+          "type": "flange-focal-distance-adjustment",
+          "conditions": {}
         }
       ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": "supplied",
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -18626,11 +21005,11 @@
           "components": [
             {
               "type": "support-bridge",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": null,
               "interfaces": null,
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -18901,12 +21280,39 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": null,
+      "mechanisms": [
+        {
+          "type": "flange-focal-distance-adjustment",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": "supplied",
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": 1,
+              "conditions": {}
+            },
+            {
+              "type": "support-bridge",
+              "relationship": "supplied",
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -19080,7 +21486,8 @@
         "brandId": "novoflex",
         "productName": "Adapter Nikon Z Camera to NOVOFLEX A-mount",
         "modelNumberOptions": [
-          "NIKZ/A"
+          "NIKZ/A",
+          "NIKZA"
         ],
         "alternateNames": null,
         "variants": null
@@ -19128,7 +21535,34 @@
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "collar-assembly",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8-16"
+                },
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": [
+                "ASTAT-RZ"
+              ],
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -19190,7 +21624,34 @@
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "collar-assembly",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8-16"
+                },
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": [
+                "ASTAT-RZ"
+              ],
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -19252,7 +21713,34 @@
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "collar-assembly",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8-16"
+                },
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": [
+                "ASTAT-RZ"
+              ],
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -19314,7 +21802,34 @@
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "collar-assembly",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8-16"
+                },
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": [
+                "ASTAT-RZ"
+              ],
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -19376,7 +21891,34 @@
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "collar-assembly",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8-16"
+                },
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": [
+                "ASTAT-RZ"
+              ],
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -19438,7 +21980,34 @@
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "collar-assembly",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8-16"
+                },
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": [
+                "ASTAT-RZ"
+              ],
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -19500,7 +22069,34 @@
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "collar-assembly",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8-16"
+                },
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": [
+                "ASTAT-RZ"
+              ],
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -19554,7 +22150,34 @@
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "collar-assembly",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8-16"
+                },
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": [
+                "ASTAT-RZ"
+              ],
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -19603,7 +22226,34 @@
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "collar-assembly",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8-16"
+                },
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": [
+                "ASTAT-RZ"
+              ],
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -19670,7 +22320,34 @@
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "collar-assembly",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8-16"
+                },
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": [
+                "ASTAT-RZ"
+              ],
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -19732,7 +22409,34 @@
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "collar-assembly",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8-16"
+                },
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": [
+                "ASTAT-RZ"
+              ],
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -19799,7 +22503,34 @@
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "collar-assembly",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8-16"
+                },
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": [
+                "ASTAT-RZ"
+              ],
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -19848,7 +22579,34 @@
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "collar-assembly",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8-16"
+                },
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": [
+                "ASTAT-RZ"
+              ],
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -23316,7 +26074,19 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 66,
+            "conditions": {}
+          },
+          {
+            "lengthMm": 1.53,
+            "conditions": {
+              "excludesProjections": true
+            },
+            "note": "Front surface to camera mounting flange; excludes the rear bayonet projection."
+          }
+        ],
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
@@ -23496,7 +26266,19 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 66,
+            "conditions": {}
+          },
+          {
+            "lengthMm": 5,
+            "conditions": {
+              "excludesProjections": true
+            },
+            "note": "Raised front edge to camera mounting flange; excludes the rear bayonet projection."
+          }
+        ],
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
@@ -23520,12 +26302,27 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "https://rafcamera.com/adapter-leica-l-to-nikon-z",
+          "pageFamilies": [
+            "global"
+          ],
+          "region": null,
+          "language": "en",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "RafCamera"
+          }
+        }
+      ],
       "mountConfigurations": [
         {
           "lensSideMountSystemId": "leica-l",
           "cameraSideMountSystemId": "nikon-z",
-          "lensRetention": null,
+          "lensRetention": {
+            "type": "other"
+          },
           "lensRearProtrusionLimits": null
         }
       ],
@@ -23645,7 +26442,9 @@
         {
           "lensSideMountSystemId": "oct-18",
           "cameraSideMountSystemId": "nikon-z",
-          "lensRetention": null,
+          "lensRetention": {
+            "type": "other"
+          },
           "lensRearProtrusionLimits": null
         }
       ],
@@ -23726,7 +26525,25 @@
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": null
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -23783,7 +26600,12 @@
       },
       "mechanisms": [],
       "physical": {
-        "dimensionMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 66,
+            "conditions": {}
+          }
+        ],
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
@@ -24806,7 +27628,7 @@
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": null,
               "interfaces": [
                 {
@@ -24814,7 +27636,7 @@
                 }
               ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -24891,7 +27713,7 @@
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": null,
               "interfaces": [
                 {
@@ -24899,7 +27721,7 @@
                 }
               ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -24979,7 +27801,8 @@
         "brandId": "shoten",
         "productName": "SHOTEN CEF-NZ E Mount Adapter",
         "modelNumberOptions": [
-          "CEF-NZ E"
+          "CEF-NZ E",
+          "CEF-NZ-E"
         ],
         "alternateNames": null,
         "variants": null
@@ -25056,7 +27879,8 @@
             "purposes": [
               "firmware-update",
               "configuration"
-            ]
+            ],
+            "connectorType": "other"
           }
         ]
       },
@@ -25114,7 +27938,12 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "other",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -25195,7 +28024,8 @@
         "brandId": "shoten",
         "productName": "SHOTEN CY-NZ E Mount Adapter",
         "modelNumberOptions": [
-          "CY-NZ E"
+          "CY-NZ E",
+          "CY-NZ-E"
         ],
         "alternateNames": null,
         "variants": null
@@ -25272,7 +28102,8 @@
             "purposes": [
               "firmware-update",
               "configuration"
-            ]
+            ],
+            "connectorType": "other"
           }
         ]
       },
@@ -25342,7 +28173,25 @@
           }
         ],
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "body-mounting-point",
+              "relationship": "integrated",
+              "removable": false,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": null
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -25393,11 +28242,21 @@
         "cameraControlledAperture": null,
         "lensStabilizationCommunication": null,
         "manualFocusAssistance": null,
-        "metadataTransmission": null,
+        "metadataTransmission": {
+          "present": true,
+          "standards": [
+            "exif"
+          ]
+        },
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "other",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": [
           {
@@ -25421,7 +28280,7 @@
         "tripodSupport": null
       },
       "electronicServices": {
-        "hasPublishedFirmwareUpdate": true,
+        "hasPublishedFirmwareUpdate": null,
         "connections": [
           {
             "method": "direct-usb",
@@ -29633,7 +32492,13 @@
       "mechanisms": [],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 122,
+            "approximate": false,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -29692,10 +32557,21 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "other",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 99.2,
+            "approximate": false,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -29757,7 +32633,13 @@
       "mechanisms": [],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 73.7,
+            "approximate": false,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -29780,7 +32662,12 @@
       },
       "lifecycle": {
         "announcementDate": null,
-        "officialDesignations": null
+        "officialDesignations": [
+          {
+            "type": "discontinued",
+            "observedOn": "2026-09-17"
+          }
+        ]
       },
       "officialProductPages": [
         {
@@ -29819,7 +32706,13 @@
       "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 113,
+            "approximate": false,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -29879,7 +32772,13 @@
       "mechanisms": [],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 110.6,
+            "approximate": false,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -29939,7 +32838,13 @@
       "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 121,
+            "approximate": false,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },

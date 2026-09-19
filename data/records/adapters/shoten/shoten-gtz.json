@@ -43,11 +43,21 @@
     "cameraControlledAperture": null,
     "lensStabilizationCommunication": null,
     "manualFocusAssistance": null,
-    "metadataTransmission": null,
+    "metadataTransmission": {
+      "present": true,
+      "standards": [
+        "exif"
+      ]
+    },
     "lensPowerTransmission": null,
     "recordingTriggerTransmission": null
   },
-  "mechanisms": [],
+  "mechanisms": [
+    {
+      "type": "other",
+      "conditions": {}
+    }
+  ],
   "physical": {
     "dimensionMeasurements": [
       {
@@ -71,7 +81,7 @@
     "tripodSupport": null
   },
   "electronicServices": {
-    "hasPublishedFirmwareUpdate": true,
+    "hasPublishedFirmwareUpdate": null,
     "connections": [
       {
         "method": "direct-usb",

@@ -6,7 +6,7 @@
     "brandId": "novoflex",
     "name": "Adapter Canon FD Lenses to Nikon Z Cameras"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "novoflex-nikz-can"
@@ -24,7 +24,26 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "mechanisms"
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.novoflex.de/en/Adapter-Collar-Mount-for-EOSR-and-NIKZ-Adapters/ASTAT-RZ",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.novoflex.de/media/ae/29/74/1717864475/NIKZ-CAN-Adapter_444972.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mechanisms",
+        "conversionOptics"
       ]
     }
   ]

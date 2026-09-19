@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Fotodiox Pro Lens Mount Adapter - Compatible with Fuji Fujica X (1970-80s 35mm Film Era SLR Lenses) to fit  Nikon Z-Mount Mirrorless Cameras",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "FUX-NKZ-P"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -49,10 +51,38 @@
   },
   "mechanisms": [],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          62,
+          76,
+          32
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 108,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
-    "tripodSupport": null
+    "tripodSupport": {
+      "present": true,
+      "components": [
+        {
+          "type": "foot",
+          "relationship": null,
+          "removable": null,
+          "interfaces": null,
+          "modelNumberOptions": null,
+          "quantity": null,
+          "conditions": {}
+        }
+      ]
+    }
   },
   "electronicServices": null,
   "conversionOptics": {

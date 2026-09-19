@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "Contarex CRX-NIK Z"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kipon-crx-nik-z"
@@ -27,6 +27,26 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://img.kipon.com/uploads/2021/03/CRX-NZ-4.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://img.kipon.com/uploads/2021/03/CRX-NZ-6.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "electronics",
+        "conversionOptics"
       ]
     }
   ]

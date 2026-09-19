@@ -6,7 +6,7 @@
     "brandId": "fotodiox",
     "name": "Vizelex Cine ND Throttle Lens Mount Adapter - Arri PL (Positive Lock) Mount Lens to Nikon Z-Mount Mirrorless Camera Body with Built-In Variable ND Filter (2 to 8 Stops)"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "fotodiox-pl-nkz-cndt"
@@ -23,11 +23,30 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "identity.modelNumberOptions",
+        "physical.weightMeasurements"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/products/PL-NikZ-Pro-NDThrtl-03.jpg?v=1551390505",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical.tripodSupport"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which product dimensions are correct? The inch and centimeter triplets in the official product specification are not equivalent.",
+    "Which variable-ND range applies to PL-NKZ-CNDT: the 2–8 stops in its product name and highlights, the 6-stop description, or the 1–10 stops in the specification table?",
+    "Does PL-NKZ-CNDT provide a separate lens-aperture control, as claimed in one highlight, or only the ND control and PL locking ring shown in its product images?"
+  ],
+  "notes": [
+    "Product mass is published as 9.7 oz in the official Product Dimensions row (not Shipping Dimensions). Converted using 1 oz = 28.349523125 g and rounded to the nearest gram; approximate marks the rounded conversion, not a manufacturer-stated tolerance."
   ]
 }

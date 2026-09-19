@@ -6,7 +6,7 @@
     "brandId": "vello",
     "name": "Auto Focus Extension Tube Set for Nikon Z-Mount Lenses"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "excluded",
     "reason": "This is a same-mount extension-tube set, not a product whose primary purpose is converting one interchangeable-lens mount to Nikon Z."
@@ -19,6 +19,14 @@
       "checked": [
         "identity",
         "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/gradusgroup/data/16873/images/compressed/560x560/11f_cWEdx1_1-_ext-nz.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
   ]

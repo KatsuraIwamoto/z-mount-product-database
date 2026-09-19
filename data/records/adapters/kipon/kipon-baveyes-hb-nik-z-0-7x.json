@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Baveyes HB-NIK Z 0.7x",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "HB-N/Z 0.7x"
+    ],
     "alternateNames": null,
     "variants": null
   },

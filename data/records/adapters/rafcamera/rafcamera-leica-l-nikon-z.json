@@ -13,12 +13,27 @@
     "announcementDate": null,
     "officialDesignations": []
   },
-  "officialProductPages": [],
+  "officialProductPages": [
+    {
+      "url": "https://rafcamera.com/adapter-leica-l-to-nikon-z",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "RafCamera"
+      }
+    }
+  ],
   "mountConfigurations": [
     {
       "lensSideMountSystemId": "leica-l",
       "cameraSideMountSystemId": "nikon-z",
-      "lensRetention": null,
+      "lensRetention": {
+        "type": "other"
+      },
       "lensRearProtrusionLimits": null
     }
   ],

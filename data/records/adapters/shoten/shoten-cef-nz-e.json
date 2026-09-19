@@ -6,7 +6,8 @@
     "brandId": "shoten",
     "productName": "SHOTEN CEF-NZ E Mount Adapter",
     "modelNumberOptions": [
-      "CEF-NZ E"
+      "CEF-NZ E",
+      "CEF-NZ-E"
     ],
     "alternateNames": null,
     "variants": null
@@ -83,7 +84,8 @@
         "purposes": [
           "firmware-update",
           "configuration"
-        ]
+        ],
+        "connectorType": "other"
       }
     ]
   },

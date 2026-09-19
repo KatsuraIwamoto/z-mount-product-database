@@ -61,7 +61,16 @@
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "direct-usb",
+        "connectorType": "other",
+        "purposes": [
+          "firmware-update",
+          "configuration"
+        ]
+      }
+    ]
   },
   "conversionOptics": {
     "present": false

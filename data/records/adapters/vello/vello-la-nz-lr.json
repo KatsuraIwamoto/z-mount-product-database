@@ -13,7 +13,12 @@
   },
   "lifecycle": {
     "announcementDate": null,
-    "officialDesignations": null
+    "officialDesignations": [
+      {
+        "type": "discontinued",
+        "observedOn": "2026-09-17"
+      }
+    ]
   },
   "officialProductPages": [
     {
@@ -52,7 +57,13 @@
   "mechanisms": null,
   "physical": {
     "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "weightMeasurements": [
+      {
+        "grams": 113,
+        "approximate": false,
+        "conditions": {}
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

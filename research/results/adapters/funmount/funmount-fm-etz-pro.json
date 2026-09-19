@@ -6,7 +6,7 @@
     "brandId": "funmount",
     "name": "FM-ETZ Pro Electronic Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "funmount-fm-etz-pro"
@@ -33,11 +33,36 @@
       "sourceType": "distributor-page",
       "checked": [
         "identity",
-        "lifecycle"
+        "lifecycle",
+        "identity.modelNumberOptions",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "electronicServices"
       ],
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/38/21/15_000000002138.jpg?1749005553=",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/38/21/3_000000002138.jpg?1749005553=",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics"
+      ]
     }
+  ],
+  "notes": [
+    "Firmware updating uses the supplied magnetic-contact USB cable."
   ]
 }

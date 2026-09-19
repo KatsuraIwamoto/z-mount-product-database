@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Vizelex Cine ND Throttle Lens Mount Adapter - Compatible with Minolta Rokkor (SR / MD / MC) SLR Lenses to Nikon Z-Mount Mirrorless Cameras with Built-In Variable ND Filter (2 to 8 Stops) from Fotodiox Pro",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "MD-NKZ-CNDT"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -54,8 +56,23 @@
     }
   ],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          66,
+          66,
+          33
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 136,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },
