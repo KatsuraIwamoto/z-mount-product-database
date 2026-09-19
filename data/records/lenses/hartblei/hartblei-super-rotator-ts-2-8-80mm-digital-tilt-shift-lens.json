@@ -52,11 +52,39 @@
         }
       }
     ],
-    "tripodSupport": null,
+    "tripodSupport": {
+      "present": true,
+      "components": [
+        {
+          "type": "support-bracket",
+          "relationship": null,
+          "removable": null,
+          "interfaces": null,
+          "modelNumberOptions": null,
+          "quantity": 1,
+          "conditions": {}
+        }
+      ]
+    },
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "geared": true
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "geared": true
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {

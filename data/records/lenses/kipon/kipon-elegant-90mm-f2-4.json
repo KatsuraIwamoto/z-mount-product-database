@@ -28,6 +28,18 @@
         "type": "manufacturer-or-brand",
         "name": "KIPON"
       }
+    },
+    {
+      "url": "https://www.kipon.jp/products/elegant-90mm-f2-4-for-nikon-z",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "KIPON"
+      }
     }
   ],
   "mount": {
@@ -72,7 +84,26 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "rotationDegrees": 90
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "rotationDegrees": 88
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -140,6 +171,12 @@
     "stabilization": {
       "present": false
     },
-    "specialized": {}
+    "specialized": {},
+    "imageCircleDiameters": [
+      {
+        "diameterMm": 44,
+        "conditions": {}
+      }
+    ]
   }
 }

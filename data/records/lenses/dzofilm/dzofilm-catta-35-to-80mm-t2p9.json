@@ -29,6 +29,18 @@
   },
   "officialProductPages": [
     {
+      "url": "https://dzofilm.com/lens/zoom/catta-zoom",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "CN",
+      "language": "zh",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "DZOFILM"
+      }
+    },
+    {
       "url": "https://dzofilm.com/en/lens/zoom/catta-zoom",
       "pageFamilies": [
         "global"
@@ -52,7 +64,7 @@
   "physical": {
     "dimensionMeasurements": [
       {
-        "maximumDiameterMm": 80,
+        "maximumDiameterMm": null,
         "lengthMm": 215.4,
         "conditions": {}
       }
@@ -62,7 +74,8 @@
         "grams": 1532,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": null,
@@ -76,7 +89,18 @@
       }
     ],
     "tripodSupport": {
-      "present": false
+      "present": true,
+      "components": [
+        {
+          "type": "foot",
+          "relationship": null,
+          "removable": null,
+          "interfaces": null,
+          "modelNumberOptions": null,
+          "quantity": 1,
+          "conditions": {}
+        }
+      ]
     },
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false,
@@ -103,6 +127,24 @@
       "quantity": 1,
       "rotationDegrees": 75,
       "geared": true
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "zoom-lever",
+      "quantity": 1
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Lock Ring of Mount"
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Release Button of Mount"
     }
   ],
   "accessories": null,
@@ -146,7 +188,15 @@
       "groups": 15,
       "elements": 20
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": null,
+        "officialName": "ED / Super ED"
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {
@@ -163,7 +213,28 @@
           "conditions": {}
         }
       ],
-      "reproductionMagnifications": null,
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.0657,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 35
+            }
+          }
+        },
+        {
+          "kind": "maximum",
+          "value": 0.146,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 80
+            }
+          }
+        }
+      ],
       "officialFocusBehaviorClaims": [
         {
           "type": "focus-breathing-suppressed",
@@ -184,6 +255,12 @@
     "zoom": {
       "drive": null,
       "opticalZoomingSystems": null
-    }
+    },
+    "imageCircleDiameters": [
+      {
+        "diameterMm": 43.5,
+        "conditions": {}
+      }
+    ]
   }
 }

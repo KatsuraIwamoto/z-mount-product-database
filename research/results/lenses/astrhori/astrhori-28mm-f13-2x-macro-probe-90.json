@@ -6,7 +6,7 @@
     "brandId": "astrhori",
     "name": "28mm F13 Full-frame 2X Macro Probe Lens 90° View"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "astrhori-28mm-f13-2x-macro-probe-90"
@@ -66,8 +66,45 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "image",
       "checked": [
-        "lens.opticalConstruction"
+        "lens.opticalConstruction",
+        "controls",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.cn/cdn/shop/files/4_0291e947-8c87-48ca-a078-351e650422ad.jpg?v=1701153004&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.cn/cdn/shop/files/8_df0f122c-5499-4773-95c2-34a940d38bb0.jpg?v=1701153004&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.officialEnvironmentalProtectionClaims"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.cn/cdn/shop/files/3_758baaae-0d32-46ca-863b-2fa05adc1c43.jpg?v=1701153004&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount",
+        "mount.electronicContacts"
       ]
     }
+  ],
+  "unresolved": [
+    "The official technical image labels closest focus distance as 0.8 CM, which is incompatible with a conventional sensor-plane minimum focus distance for this probe. Existing 0.48 m is retained pending clarification; the 0.8 cm figure is not silently reinterpreted as working distance.",
+    "The approximately 760 g specification does not identify mount, caps or probe-set configuration. Existing weight is retained with that qualification. The approximately 30 mm diameter describes the probe head rather than maximum barrel diameter, so it is not added as maximumDiameterMm.",
+    "Ten official gallery images and the enlarged technical table were reviewed. A rear view is explicitly labeled Nikon Z, while barrel/front views are generic or show Sony cameras. Complete Nikon Z top/bottom/left/right coverage and accessory inclusion remain unconfirmed.",
+    "The page lists Nikon Z but currently marks all variants sold out. This alone does not establish discontinuation. The direct-view tube is shown as interchangeable and in a combined set, but its relationship to the standalone 90-degree configuration remains unspecified."
   ]
 }

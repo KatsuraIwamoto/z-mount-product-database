@@ -6,7 +6,7 @@
     "brandId": "irix",
     "name": "Irix Cine 15mm T2.6"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "irix-cine-15mm-t2-6"
@@ -37,7 +37,12 @@
         "lens.coverage",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "physical.frontAccessoryInterface",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.imageCircleDiameters",
+        "accessories"
       ]
     },
     {
@@ -50,6 +55,19 @@
         "physical",
         "controls"
       ]
+    },
+    {
+      "url": "https://irixlens.com/new/wp-content/uploads/2020/04/Irix_Cine_15mm_T2.6_CA_7-1-2048x1279.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "mount.electronicContacts"
+      ]
     }
+  ],
+  "unresolved": [
+    "Shared front/side/rear renders are not identified as Nikon Z; full Z-specific four-direction coverage and contact status remain unconfirmed.",
+    "MMS magnetic filter compatibility is confirmed but not representable by the current filter-interface types. Optical group count, aperture click behavior and Neutrino coating function remain unspecified; filter coatings are not attributed to the lens."
   ]
 }

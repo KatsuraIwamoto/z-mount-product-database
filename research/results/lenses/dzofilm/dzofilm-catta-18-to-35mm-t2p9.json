@@ -6,7 +6,7 @@
     "brandId": "dzofilm",
     "name": "Catta Zoom 18-35mm T2.9"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "dzofilm-catta-18-to-35mm-t2p9"
@@ -38,8 +38,35 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.imageCircleDiameters"
+      ]
+    },
+    {
+      "url": "https://dzofilm.com/lens/zoom/catta-zoom",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "physical.weightMeasurements",
+        "physical.dimensionMeasurements",
+        "lens.imageCircleDiameters",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/images/fb/dzofilm_dzo_ff1835e_blk_18_35mm_t2_9_catta_ff_1745344.jpg",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "The official table specifies 80 mm as the front diameter, not maximum barrel diameter. The unsupported maximumDiameterMm is cleared to null while the 80 mm front accessory interface and Z-specific 215.4 mm length are retained. Masses are explicitly approximate on the current website; mount and attached-component mass conditions remain unstated.",
+    "A rear plug-in filter slot is explicitly described and pictured, but its filter diameter is not published in the inspected sources. The current drop-in schema requires a numeric filterDiameterMm, so the slot cannot be encoded without guessing; the 77 mm front thread remains recorded.",
+    "The inspected barrel photographs and mounting illustrations do not provide a complete Z-specific top/bottom/left/right and rear-mount set. The labeled Z replacement mount supports mount compatibility, but other-mount barrel views are not counted as Z exterior coverage. Aperture click behavior, coating specifications and a Z-specific package inventory remain unverified.",
+    "The 18-35 mm Sony E photograph from authorized retailer B&H supports the shared geared rings, focus scale and zoom lever only. Its numerical table mixes other focal lengths and is not used for specifications. The official linked manual covers only 35-80 and 70-135 mm; its support-base illustration and reproduction ratios are not transferred to 18-35 mm. The prior unsupported tripod-support absence is cleared to null. The Chinese ED/Super ED prose also refers to two lenses, so applicability to 18-35 mm remains unverified."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 10mm F2.8 Zero-D FF Autofocus"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-10mm-f2-8-zero-d-ff-autofocus"
@@ -61,7 +61,8 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages"
       ]
     },
     {
@@ -72,6 +73,71 @@
         "identity",
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://www.laowalens.com/camera-lens-80",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "mount",
+        "lens.aperture",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/files/20250805/FFII10mmF2.8C%26DDreamerguangjiaojingtoushuomingshu.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "lens.specialElements",
+        "lens.coatings",
+        "lens.aperture",
+        "mount.electronicContacts"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20231228/1jingtoutu.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20231228/1jingtoutu2.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/firmware-update",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/files/20251112/FF12mmF2.8C%26D-DreamernikangZgujiangengxinV0103.zip.zip",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
     }
+  ],
+  "unresolved": [
+    "Official AF and MF photographs and separate manual diagrams were inspected. Their controls differ; shared gallery filenames containing AF also depict MF products. Complete Nikon Z-specific four-direction/rear coverage remains unavailable.",
+    "Japan gives approximately 82 x 70.8 mm and 420 g with a mount-dependent caveat; China/manual give 82 x 72.8 mm and explicitly attribute 420 g to AF Sony E. Existing Z measurements are retained with the unresolved mount/version scope, not replaced by another mount value.",
+    "The optical diagram labels Ultra High Refraction Glass and FEC (Frog eye coating), but does not numerically specify the high-index element count or explain the coating function; quantity remains null and coating classification remains unconfirmed.",
+    "The 130.4-degree angle has no stated orientation. Supplied hood/caps, environmental protection, external length behavior and focus-ring response remain unconfirmed.",
+    "Japan confirms STM autofocus and the manual confirms Nikon Z shooting-information recording. China lists Nikon Z firmware v0110D; the 12mm V0103 update instructions explicitly state that 10mm and 12mm use the same camera-body/card update procedure."
   ]
 }

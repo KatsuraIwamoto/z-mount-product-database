@@ -6,7 +6,7 @@
     "brandId": "cheecar",
     "name": "Cheecar 25mm F1.7"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "cheecar-25mm-f1-7"
@@ -34,7 +34,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages"
       ]
     },
     {
@@ -49,6 +50,52 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2025/04/23/680845e1d8ab1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.coatings",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2025/04/23/680845e21e5dc.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2025/04/23/680845e2c5d76.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount",
+        "controls"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2025/04/23/680846d8a0f36.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "The September 20 review visually inspected the manufacturer gallery and all detail-image panels. Nikon Z fc-mounted front and top views establish the Z configuration; shared black/silver barrel views support focus and clicked aperture rings, distance and depth-of-field scales. A complete Z-specific top/bottom/left/right and rear-mount set was not available, so unseen-face absences and supplied accessories remain unverified.",
+    "The current specification image repeats 48 × 26.85 mm and approximately 150 g without identifying the mount or attached-component measurement conditions. Existing values are retained; Z-specific dimensions and mass conditions require clarification. The 57.4-degree angle has no stated orientation.",
+    "The optical diagram identifies three high-refractive-index elements and the specification explicitly states low-reflection multilayer coating. No official accessory inventory or exact announcement date was found. Black and silver Z-mounted products are pictured, but official variant names were not established."
   ]
 }

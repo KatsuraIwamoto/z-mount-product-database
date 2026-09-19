@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 12-24mm F5.6 Zoom Shift CF"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-12-24mm-f5-6-zoom-shift-cf"
@@ -60,8 +60,66 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "officialProductPages",
+        "physical.filterInterfaces",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/camera-lens-81",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "mount",
+        "lens.aperture",
+        "lens.specialElements",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20240708/zutu1.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.zoom"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20240708/zutu3.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.zoom"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20240708/zutu4.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.zoom"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20240708/zutu5.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.zoom"
       ]
     }
+  ],
+  "unresolved": [
+    "Four official China photographs including a bare rear view were visually inspected. Focus, zoom and aperture rings and a focus-distance scale are visible, but complete Nikon Z-specific four-direction coverage is unavailable. The functions of individual unlabeled shift/rotation controls, rotation travel and aperture click behavior require a matching manual.",
+    "China specifies 80 mm diameter x 98.91 mm length; Japan prints the dimensions in the opposite order and notes mount-dependent variation. Existing measurements are retained with this discrepancy and Z-specific scope unresolved. Approximately 575 g excludes caps in China and hood/caps in Japan; precise Z weight remains unconfirmed.",
+    "The China table also gives full-frame angles 121.9-84 degrees, while Japan identifies APS-C coverage. Those angles are not used to expand the coverage claim without clarification of shift and vignetting limits. Existing APS-C angles lack stated orientation.",
+    "Coating function, electronic contacts, environmental protection, external length behavior, supplied accessories and the focal length/conditions for 0.4x magnification remain unconfirmed. The official-site user experience article describes internal zoom but is not treated as a manufacturer specification. A matching manual was not found in the accessible index/search; the global product page was inaccessible."
   ]
 }

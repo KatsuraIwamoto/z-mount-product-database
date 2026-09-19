@@ -68,7 +68,21 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "rotationDegrees": 330,
+      "geared": true
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "declicked",
+      "rotationDegrees": 58.2,
+      "geared": true
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -105,6 +119,12 @@
         "orientation": null,
         "degrees": 38.4,
         "conditions": {}
+      },
+      {
+        "format": "aps-c",
+        "orientation": null,
+        "degrees": 24.3,
+        "conditions": {}
       }
     ],
     "coverage": {
@@ -115,7 +135,14 @@
       "elements": 14
     },
     "specialElements": null,
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false

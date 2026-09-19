@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "10mm F5.6 Pro APS-C Fisheye Manual Focus Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-10mm-f5p6-pro-fisheye"
@@ -32,7 +32,9 @@
         "lens.coverage",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "controls",
+        "identity.variants"
       ]
     },
     {
@@ -66,6 +68,25 @@
         "lens.anglesOfView",
         "lens.focus"
       ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/1056pro__20251218.jpg?v=1781942457&width=700",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus",
+        "lens.anglesOfView"
+      ]
     }
+  ],
+  "unresolved": [
+    "The Nikon Z diagram confirms approximately 53 × 22 mm and 116 g, but does not specify the length datum or cap/accessory measurement conditions.",
+    "Seven gallery images show shared barrel and Fujifilm-mounted views; complete Nikon Z top, bottom, left, right and rear coverage is unavailable. Hood attachment and filter compatibility remain unconfirmed."
   ]
 }

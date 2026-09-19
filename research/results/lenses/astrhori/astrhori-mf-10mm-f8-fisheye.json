@@ -6,7 +6,7 @@
     "brandId": "astrhori",
     "name": "MF 10mm F8 I APS-C Fisheye Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "astrhori-mf-10mm-f8-fisheye"
@@ -32,7 +32,10 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.specialElements",
+        "lens.coatings",
+        "controls"
       ],
       "decisionChecks": [
         "availability"
@@ -49,6 +52,20 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.astrhori.cn/cdn/shop/files/10mmF8I.png?v=1699518256&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "The current product title emphasizes Fuji X, but Nikon Z remains an explicit sold-out mount option and is included in the official specification graphic. Sold-out status does not by itself establish discontinuation.",
+    "Five gallery images and four description graphics were inspected, with the lower specification table enlarged. Front/side/capped views and Sony/Fuji mounted views are available; Nikon Z four-side and exposed-rear coverage remains unconfirmed.",
+    "The shared diagram gives approximately 58 mm diameter, 11 mm height and 80 g across numerous mounts without identifying the measurement configuration or Z-specific applicability. These values are not added to the currently unknown Nikon Z dimensions or weight.",
+    "Visible 0.3 and infinity labels indicate focusing direction and endpoints, but a calibrated distance scale is not established. Caps are pictured, but supplied status is not explicit."
   ]
 }

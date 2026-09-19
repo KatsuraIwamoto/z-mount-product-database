@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "MF 50mm F1.05 Full-Frame Prime Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-50mm-f1p05"
@@ -37,7 +37,8 @@
         "lens.specialElements",
         "lens.focus",
         "lens.stabilization",
-        "controls"
+        "controls",
+        "lens.coatings"
       ]
     },
     {
@@ -47,6 +48,40 @@
       "checked": [
         "identity"
       ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/6_85239761-920e-43a1-9921-1dc31926c10f.jpg?v=1770394554&width=1000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/9_e505faa2-1f2e-4a55-9393-efa3aa2224fe.jpg?v=1770394563&width=1600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.focus",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/50mmF1.05.png?v=1781941961&width=790",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "The Nikon Z specification diagram confirms approximately 70 × 84 mm and 632 g but does not specify the length datum or cap/accessory measurement conditions.",
+    "Seven gallery images and the enlarged packing infographic were inspected. The Nikon Z8-mounted image confirms upper/front-side controls, but complete Nikon Z bottom, both sides and exposed rear coverage remains unavailable. Counts of the stated HR and ED elements remain unconfirmed."
   ]
 }

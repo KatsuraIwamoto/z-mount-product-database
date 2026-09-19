@@ -75,7 +75,13 @@
     "externalLengthDuringFocus": "constant",
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "declicked"
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -105,7 +111,14 @@
       },
       "controlMechanism": "mechanical"
     },
-    "anglesOfView": null,
+    "anglesOfView": [
+      {
+        "format": "aps-c",
+        "orientation": null,
+        "degrees": 26.4,
+        "conditions": {}
+      }
+    ],
     "coverage": {
       "format": "aps-c"
     },

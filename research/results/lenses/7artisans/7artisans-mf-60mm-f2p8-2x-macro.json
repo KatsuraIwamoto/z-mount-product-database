@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 60mm f/2.8 Full-frame 2X Ultra-Macro Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-60mm-f2p8-2x-macro"
@@ -64,6 +64,44 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/files/3_4b1327f8-2fab-4e15-91ec-0197d4a61856.jpg?v=1726298981&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements",
+        "lens.opticalConstruction"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/files/4_542bbfb2-b4fb-48d9-b10f-9a0c678019c8.jpg?v=1726298981&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.focus",
+        "physical.externalLengthDuringFocus",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/files/5_1058f703-9128-480c-bda7-3eb735b6b49b.jpg?v=1726298981&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "controls",
+        "physical.filterInterfaces"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which accepted Nikon Z images establish the full rear mount, all four exterior sides, tripod interfaces and supplied hood configuration?",
+    "What are the Nikon Z dimensions and mass, distinguished from the approximately 550 g E-mount specification?"
   ]
 }

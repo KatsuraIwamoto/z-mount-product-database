@@ -6,7 +6,7 @@
     "brandId": "irix",
     "name": "Irix Cine 21mm T1.5"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "irix-cine-21mm-t1-5"
@@ -37,7 +37,9 @@
         "lens.coverage",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "physical.frontAccessoryInterface",
+        "accessories"
       ]
     },
     {
@@ -50,6 +52,20 @@
         "physical",
         "controls"
       ]
+    },
+    {
+      "url": "https://irixlens.com/new/wp-content/uploads/2022/01/Irix-Cine-21mm-T1.5-render-1-min-2048x1561.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.tripodSupport",
+        "physical.frontAccessoryInterface"
+      ]
     }
+  ],
+  "unresolved": [
+    "Shared front/side renders show geared rings, distance markings and a support foot but do not identify Nikon Z. Complete Z-specific four-direction imagery, electrical contacts and hood attachment relationship remain unconfirmed.",
+    "The product page does not state optical element/group counts, special-element composition, aperture click behavior or the function of the Neutrino coating label. Its coverage table says greater than full frame (43.3 mm), so an exact image-circle diameter is not inferred."
   ]
 }

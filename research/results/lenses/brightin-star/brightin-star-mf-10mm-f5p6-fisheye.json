@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "10mm F5.6 APS-C Fisheye Manual Focus Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-10mm-f5p6-fisheye"
@@ -41,6 +41,18 @@
         "identity",
         "lens.stabilization"
       ]
+    },
+    {
+      "url": "https://brightinstar.com/products/brightin-star-10mm-f5-6-ii-aps-c-fisheye-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "The historical manufacturer product URL now resolves to the storefront homepage. The current 10mm F5.6 II listing does not establish the original model identity or original Nikon Z physical specifications. Original-model specifications and complete Nikon Z image coverage could not be re-established from current accepted sources; published facts are retained pending product-specific evidence.",
+    "The historical 120 g measurement cannot presently be distinguished from mount-specific measurements of the II generation; the current II graphic assigns 120 g to Micro Four Thirds and 148 g to Nikon Z. This does not establish that the original record should be merged or that its mass should be changed."
   ]
 }

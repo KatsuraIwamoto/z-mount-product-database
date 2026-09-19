@@ -6,7 +6,7 @@
     "brandId": "irix",
     "name": "Irix Cine 150mm T3.0 Macro 1:1"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "irix-cine-150mm-t3-0-macro-1-1"
@@ -38,7 +38,11 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "physical.frontAccessoryInterface",
+        "lens.specialElements",
+        "lens.imageCircleDiameters",
+        "accessories"
       ]
     },
     {
@@ -51,6 +55,20 @@
         "physical",
         "controls"
       ]
+    },
+    {
+      "url": "https://irixlens.com/new/wp-content/uploads/2019/07/Irix_Cine_150mm_T3_Macro_11.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.frontAccessoryInterface",
+        "physical.filterInterfaces"
+      ]
     }
+  ],
+  "unresolved": [
+    "Shared front/side images confirm distance scales and 86 mm filter/95 mm front markings, but complete Z-specific four-direction imagery and electronic contacts remain unconfirmed.",
+    "Magnetic Mount System filter compatibility is explicitly confirmed but the current filter-interface schema has no magnetic type; only the separately specified 86 mm thread is encoded. Working distance, aperture click behavior and the function of the visible Neutrino coating label remain unconfirmed."
   ]
 }

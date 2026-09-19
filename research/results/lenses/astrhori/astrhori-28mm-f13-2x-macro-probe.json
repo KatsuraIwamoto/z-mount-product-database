@@ -6,7 +6,7 @@
     "brandId": "astrhori",
     "name": "28mm F13 Full-frame 2X Macro Probe Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "astrhori-28mm-f13-2x-macro-probe"
@@ -66,8 +66,42 @@
       "sourceType": "image",
       "checked": [
         "lens.opticalConstruction",
-        "lens.anglesOfView"
+        "lens.anglesOfView",
+        "lens.specialized",
+        "lens.focus",
+        "lens.aperture",
+        "lens.coverage"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.cn/cdn/shop/files/5_980b10bc-bd74-4200-9bae-9cdf295a9827.jpg?v=1699607969&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.officialEnvironmentalProtectionClaims"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.cn/cdn/shop/files/7_748bd0e9-c404-463a-add3-28a6e390c94b.jpg?v=1699607969&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.cn/cdn/shop/files/9_107f2746-086e-4ff4-8f18-cf45aef43923.jpg?v=1699607969&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "The gallery dimension graphic states 698 g and approximately 60 mm maximum diameter with 452 mm length but does not identify the illustrated mount. The existing length is retained; Nikon Z weight and maximum diameter remain unconfirmed.",
+    "Ten gallery images and the enlarged detailed specification were reviewed. Mounted views include Nikon D800 (F mount, not Z) and Sony E, and the last case image depicts the 90-degree head rather than this direct-view product. Nikon Z top/bottom/left/right and exposed rear coverage remains incomplete.",
+    "The package list includes three lens end covers and one lens cap without unambiguously identifying front, rear and inter-module covers. These are not assigned to frontCaps or rearCaps. The supplied hard case is explicit.",
+    "A front LED fill light with ten brightness levels is explicitly described, but the individual LED count is not confirmed; the schema requires a count, so integratedLights remains null."
   ]
 }

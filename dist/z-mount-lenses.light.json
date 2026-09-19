@@ -3,13 +3,13 @@
   "datasetName": "Z Mount Lens Database",
   "datasetVariant": "light",
   "schemaVersion": "1.0.0",
-  "dataVersion": "2026.09.19",
+  "dataVersion": "2026.09.20",
   "creator": "Katsura Iwamoto",
   "license": "CC-BY-4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
   "recordCount": 606,
-  "contentHash": "sha256:1a8e417780758c75f790884e471b9a43fbf3a9ce746596a91bf91b9b4cf48d8d",
+  "contentHash": "sha256:30403a31b37a00d38e589b64a68d8a8a470b56add78f73e2ff4c6e4c9d29d8a7",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -3429,7 +3429,12 @@
             }
           }
         ],
-        "filterInterfaces": null
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 52
+          }
+        ]
       },
       "lens": {
         "focalLength": {
@@ -3863,7 +3868,8 @@
             "grams": 408,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -4112,7 +4118,12 @@
             }
           }
         ],
-        "filterInterfaces": null
+        "filterInterfaces": [
+          {
+            "type": "rear-thread",
+            "diameterMm": 34
+          }
+        ]
       },
       "lens": {
         "focalLength": {
@@ -4611,12 +4622,29 @@
         "electronicContacts": null
       },
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "lengthMm": 116,
+            "conditions": {},
+            "maximumDiameterMm": null
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 700,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
         "filterInterfaces": [
           {
             "type": "front-thread",
             "diameterMm": 77
+          },
+          {
+            "type": "front-thread",
+            "diameterMm": 67
           }
         ]
       },
@@ -4646,8 +4674,19 @@
           "manualFocus": {
             "present": true
           },
-          "minimumFocusDistances": null,
-          "reproductionMagnifications": null
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.26,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.15,
+              "conditions": {}
+            }
+          ]
         },
         "stabilization": {
           "present": false
@@ -4743,12 +4782,29 @@
         "electronicContacts": null
       },
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "lengthMm": 115,
+            "conditions": {},
+            "maximumDiameterMm": null
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 678,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
         "filterInterfaces": [
           {
             "type": "front-thread",
             "diameterMm": 77
+          },
+          {
+            "type": "front-thread",
+            "diameterMm": 67
           }
         ]
       },
@@ -4778,8 +4834,19 @@
           "manualFocus": {
             "present": true
           },
-          "minimumFocusDistances": null,
-          "reproductionMagnifications": null
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.3,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.15,
+              "conditions": {}
+            }
+          ]
         },
         "stabilization": {
           "present": false
@@ -4809,12 +4876,29 @@
         "electronicContacts": null
       },
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "lengthMm": 111,
+            "conditions": {},
+            "maximumDiameterMm": null
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 668,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
         "filterInterfaces": [
           {
             "type": "front-thread",
             "diameterMm": 77
+          },
+          {
+            "type": "front-thread",
+            "diameterMm": 67
           }
         ]
       },
@@ -4844,8 +4928,19 @@
           "manualFocus": {
             "present": true
           },
-          "minimumFocusDistances": null,
-          "reproductionMagnifications": null
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.43,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.15,
+              "conditions": {}
+            }
+          ]
         },
         "stabilization": {
           "present": false
@@ -4875,12 +4970,29 @@
         "electronicContacts": null
       },
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "lengthMm": 116,
+            "conditions": {},
+            "maximumDiameterMm": null
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 780,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
         "filterInterfaces": [
           {
             "type": "front-thread",
             "diameterMm": 77
+          },
+          {
+            "type": "front-thread",
+            "diameterMm": 67
           }
         ]
       },
@@ -4910,8 +5022,19 @@
           "manualFocus": {
             "present": true
           },
-          "minimumFocusDistances": null,
-          "reproductionMagnifications": null
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.26,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.15,
+              "conditions": {}
+            }
+          ]
         },
         "stabilization": {
           "present": false
@@ -6851,7 +6974,8 @@
             "grams": 650,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -6929,7 +7053,12 @@
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
-        "filterInterfaces": null
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 62
+          }
+        ]
       },
       "lens": {
         "focalLength": {
@@ -7593,7 +7722,12 @@
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
-        "filterInterfaces": null
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 46
+          }
+        ]
       },
       "lens": {
         "focalLength": {
@@ -7808,7 +7942,15 @@
       },
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 277.5,
+            "conditions": {
+              "attachedComponents": []
+            },
+            "approximate": true
+          }
+        ],
         "filterInterfaces": []
       },
       "lens": {
@@ -7962,8 +8104,16 @@
       },
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
-        "filterInterfaces": null
+        "weightMeasurements": [
+          {
+            "grams": 333,
+            "conditions": {
+              "attachedComponents": []
+            },
+            "approximate": true
+          }
+        ],
+        "filterInterfaces": []
       },
       "lens": {
         "focalLength": {
@@ -8775,7 +8925,9 @@
           "autofocus": {
             "present": true
           },
-          "manualFocus": null,
+          "manualFocus": {
+            "present": true
+          },
           "minimumFocusDistances": [
             {
               "distanceM": 0.3,
@@ -10578,7 +10730,11 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "https://brightinstar.com.cn/collections/%E5%BE%AE%E8%A7%82%E4%B8%96%E7%95%8C/products/mf-60mm-f2-8-%E2%85%B1-%E5%85%A8%E7%94%BB%E5%B9%85"
+        }
+      ],
       "mount": {
         "systemId": "nikon-z",
         "replaceability": "fixed",
@@ -10600,10 +10756,16 @@
             "grams": 660,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
-        "filterInterfaces": null
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 67
+          }
+        ]
       },
       "lens": {
         "focalLength": {
@@ -10630,7 +10792,12 @@
           "manualFocus": {
             "present": true
           },
-          "minimumFocusDistances": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.182,
+              "conditions": {}
+            }
+          ],
           "reproductionMagnifications": [
             {
               "kind": "maximum",
@@ -10765,7 +10932,12 @@
             }
           }
         ],
-        "filterInterfaces": null
+        "filterInterfaces": [
+          {
+            "type": "rear-thread",
+            "diameterMm": 27
+          }
+        ]
       },
       "lens": {
         "focalLength": {
@@ -10900,7 +11072,11 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "http://cheecar.com/product-42292-37596-186625.html"
+        }
+      ],
       "mount": {
         "systemId": "nikon-z",
         "replaceability": "fixed",
@@ -10992,7 +11168,11 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "http://cheecar.com/product-42292-37595-119502.html"
+        }
+      ],
       "mount": {
         "systemId": "nikon-z",
         "replaceability": "fixed",
@@ -11073,7 +11253,11 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "http://cheecar.com/product-42292-37595-119496.html"
+        }
+      ],
       "mount": {
         "systemId": "nikon-z",
         "replaceability": "fixed",
@@ -11157,7 +11341,11 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "http://cheecar.com/product-42292-37595-183611.html"
+        }
+      ],
       "mount": {
         "systemId": "nikon-z",
         "replaceability": "fixed",
@@ -11241,7 +11429,11 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "http://cheecar.com/product-42292-37596-119435.html"
+        }
+      ],
       "mount": {
         "systemId": "nikon-z",
         "replaceability": "fixed",
@@ -11325,7 +11517,11 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "http://cheecar.com/product-42292-37595-186624.html"
+        }
+      ],
       "mount": {
         "systemId": "nikon-z",
         "replaceability": "fixed",
@@ -11409,7 +11605,11 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "http://cheecar.com/product-42292-37595-119497.html"
+        }
+      ],
       "mount": {
         "systemId": "nikon-z",
         "replaceability": "fixed",
@@ -11493,7 +11693,11 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "http://cheecar.com/product-42292-37596-119420.html"
+        }
+      ],
       "mount": {
         "systemId": "nikon-z",
         "replaceability": "fixed",
@@ -11571,7 +11775,11 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "http://cheecar.com/product-42292-37595-119500.html"
+        }
+      ],
       "mount": {
         "systemId": "nikon-z",
         "replaceability": "fixed",
@@ -11655,7 +11863,11 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "http://cheecar.com/product-42292-37595-119501.html"
+        }
+      ],
       "mount": {
         "systemId": "nikon-z",
         "replaceability": "fixed",
@@ -11739,7 +11951,11 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "http://cheecar.com/product-42292-37595-119499.html"
+        }
+      ],
       "mount": {
         "systemId": "nikon-z",
         "replaceability": "fixed",
@@ -11823,7 +12039,11 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "http://cheecar.com/product-42292-37596-119503.html"
+        }
+      ],
       "mount": {
         "systemId": "nikon-z",
         "replaceability": "fixed",
@@ -11915,7 +12135,11 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "http://cheecar.com/product-42292-37595-119498.html"
+        }
+      ],
       "mount": {
         "systemId": "nikon-z",
         "replaceability": "fixed",
@@ -12694,6 +12918,9 @@
       },
       "officialProductPages": [
         {
+          "url": "https://dzofilm.com/lens/zoom/catta-zoom"
+        },
+        {
           "url": "https://dzofilm.com/en/lens/zoom/catta-zoom"
         }
       ],
@@ -12708,7 +12935,7 @@
       "physical": {
         "dimensionMeasurements": [
           {
-            "maximumDiameterMm": 80,
+            "maximumDiameterMm": null,
             "lengthMm": 215.4,
             "conditions": {}
           }
@@ -12718,7 +12945,8 @@
             "grams": 1680,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -12787,6 +13015,9 @@
       },
       "officialProductPages": [
         {
+          "url": "https://dzofilm.com/lens/zoom/catta-zoom"
+        },
+        {
           "url": "https://dzofilm.com/en/lens/zoom/catta-zoom"
         }
       ],
@@ -12801,7 +13032,7 @@
       "physical": {
         "dimensionMeasurements": [
           {
-            "maximumDiameterMm": 80,
+            "maximumDiameterMm": null,
             "lengthMm": 215.4,
             "conditions": {}
           }
@@ -12811,7 +13042,8 @@
             "grams": 1532,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -12856,7 +13088,18 @@
               "conditions": {}
             }
           ],
-          "reproductionMagnifications": null
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.146,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 80
+                }
+              }
+            }
+          ]
         },
         "stabilization": {
           "present": false
@@ -12880,6 +13123,9 @@
       },
       "officialProductPages": [
         {
+          "url": "https://dzofilm.com/lens/zoom/catta-zoom"
+        },
+        {
           "url": "https://dzofilm.com/en/lens/zoom/catta-zoom"
         }
       ],
@@ -12894,7 +13140,7 @@
       "physical": {
         "dimensionMeasurements": [
           {
-            "maximumDiameterMm": 80,
+            "maximumDiameterMm": null,
             "lengthMm": 215.4,
             "conditions": {}
           }
@@ -12904,7 +13150,8 @@
             "grams": 1597,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -12949,7 +13196,18 @@
               "conditions": {}
             }
           ],
-          "reproductionMagnifications": null
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.214,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 135
+                }
+              }
+            }
+          ]
         },
         "stabilization": {
           "present": false
@@ -13030,12 +13288,7 @@
           "manualFocus": {
             "present": false
           },
-          "minimumFocusDistances": [
-            {
-              "distanceM": 0.8,
-              "conditions": {}
-            }
-          ],
+          "minimumFocusDistances": null,
           "reproductionMagnifications": null
         },
         "stabilization": {
@@ -13688,7 +13941,9 @@
           {
             "maximumDiameterMm": 95,
             "lengthMm": 133.5,
-            "conditions": {}
+            "conditions": {
+              "attachedComponents": []
+            }
           }
         ],
         "weightMeasurements": [
@@ -13771,7 +14026,9 @@
           {
             "maximumDiameterMm": 97,
             "lengthMm": 163,
-            "conditions": {}
+            "conditions": {
+              "attachedComponents": []
+            }
           }
         ],
         "weightMeasurements": [
@@ -13866,7 +14123,9 @@
           {
             "maximumDiameterMm": 95,
             "lengthMm": 119,
-            "conditions": {}
+            "conditions": {
+              "attachedComponents": []
+            }
           }
         ],
         "weightMeasurements": [
@@ -13954,7 +14213,9 @@
           {
             "maximumDiameterMm": 95,
             "lengthMm": 129,
-            "conditions": {}
+            "conditions": {
+              "attachedComponents": []
+            }
           }
         ],
         "weightMeasurements": [
@@ -14037,7 +14298,9 @@
           {
             "maximumDiameterMm": 97,
             "lengthMm": 135,
-            "conditions": {}
+            "conditions": {
+              "attachedComponents": []
+            }
           }
         ],
         "weightMeasurements": [
@@ -14125,7 +14388,9 @@
           {
             "maximumDiameterMm": 97,
             "lengthMm": 140,
-            "conditions": {}
+            "conditions": {
+              "attachedComponents": []
+            }
           }
         ],
         "weightMeasurements": [
@@ -14213,7 +14478,9 @@
           {
             "maximumDiameterMm": 97,
             "lengthMm": 141,
-            "conditions": {}
+            "conditions": {
+              "attachedComponents": []
+            }
           }
         ],
         "weightMeasurements": [
@@ -14287,6 +14554,9 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.kamlan.com.tw/page/product/show.aspx?lang=TW&num=63"
+        },
+        {
           "url": "https://www.sightron.co.jp/kamlan/55mmF1.4.html"
         }
       ],
@@ -14359,7 +14629,7 @@
       },
       "officialProductPages": [
         {
-          "url": "https://kasefilters.de/kase-reflex-150mm-af-spiegeltele-objektiv"
+          "url": "https://www.kasecn.com/products_detail/144.html"
         },
         {
           "url": "https://kasefilters.eu/kase-reflex-150mm-af-mirror-telephoto-lens"
@@ -14439,7 +14709,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.kasecn.com/products_detail/124.html"
+        },
+        {
           "url": "https://kasefilters.com/product/kase-85mm-f1-4-lens-auto-focus"
+        },
+        {
+          "url": "https://kaseoptics.com/products/kase-85mm-f1-4-autofocus-lens-for-nikon-z-mount"
         }
       ],
       "mount": {
@@ -14461,9 +14737,17 @@
         ],
         "weightMeasurements": [
           {
-            "grams": 580,
+            "grams": 638,
             "conditions": {
               "attachedComponents": []
+            }
+          },
+          {
+            "grams": 668,
+            "conditions": {
+              "attachedComponents": [
+                "lens-hood"
+              ]
             }
           }
         ],
@@ -14505,7 +14789,13 @@
               "conditions": {}
             }
           ],
-          "reproductionMagnifications": null
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.13,
+              "conditions": {}
+            }
+          ]
         },
         "stabilization": {
           "present": false
@@ -14527,7 +14817,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.kasecn.com/products_detail/55.html"
+        },
+        {
           "url": "https://kasefilters.com/product/kase-reflex-200mm-f5-6-lens"
+        },
+        {
+          "url": "https://kaseoptics.com/products/kase-200mm-f-5-6-mc-reflex-mirror-lens-nikon-z"
         }
       ],
       "mount": {
@@ -14541,7 +14837,12 @@
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
-        "filterInterfaces": null
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 67
+          }
+        ]
       },
       "lens": {
         "focalLength": {
@@ -14568,8 +14869,19 @@
           "manualFocus": {
             "present": true
           },
-          "minimumFocusDistances": null,
-          "reproductionMagnifications": null
+          "minimumFocusDistances": [
+            {
+              "distanceM": 2,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.11,
+              "conditions": {}
+            }
+          ]
         },
         "stabilization": {
           "present": false
@@ -14594,6 +14906,9 @@
       "officialProductPages": [
         {
           "url": "https://kipon.com/product/elegant-24mm-f2-4-for-nikon-z/"
+        },
+        {
+          "url": "https://www.kipon.jp/products/elegant-24mm-f2-4-for-nikon-z"
         }
       ],
       "mount": {
@@ -14683,6 +14998,9 @@
       "officialProductPages": [
         {
           "url": "https://kipon.com/product/2022-version-elegant-35mm-f2-4-for-nikon-z/"
+        },
+        {
+          "url": "https://www.kipon.jp/products/2022-version-elegant-35mm-f2-4-for-nikon-z"
         }
       ],
       "mount": {
@@ -14772,6 +15090,9 @@
       "officialProductPages": [
         {
           "url": "https://kipon.com/product/elegant-50mm-f2-4-for-nikon-z/"
+        },
+        {
+          "url": "https://www.kipon.jp/products/elegant-50mm-f2-4-for-nikon-z"
         }
       ],
       "mount": {
@@ -14861,6 +15182,9 @@
       "officialProductPages": [
         {
           "url": "https://kipon.com/product/elegant-75mm-f2-4-for-nikon-z/"
+        },
+        {
+          "url": "https://www.kipon.jp/products/elegant-75mm-f2-4-for-nikon-z"
         }
       ],
       "mount": {
@@ -14950,6 +15274,9 @@
       "officialProductPages": [
         {
           "url": "https://kipon.com/product/elegant-90mm-f2-4-for-nikon-z/"
+        },
+        {
+          "url": "https://www.kipon.jp/products/elegant-90mm-f2-4-for-nikon-z"
         }
       ],
       "mount": {
@@ -15039,6 +15366,9 @@
       "officialProductPages": [
         {
           "url": "https://kipon.com/product/ibelux-40mm-f0-85-nikon-z-mark3/"
+        },
+        {
+          "url": "https://www.kipon.jp/products/ibelux-40mm-f0-85-nikon-z-mark3"
         }
       ],
       "mount": {
@@ -15124,7 +15454,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-16"
+        },
+        {
           "url": "https://www.venuslens.net/product/laowa-10-18mm-f-4-5-5-6-fe-zoom/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/69d5c3d18c4a44eca1fa4c5e25b5a26c73aab37e.html"
         }
       ],
       "mount": {
@@ -15146,7 +15482,8 @@
             "grams": 496,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -15232,7 +15569,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-31"
+        },
+        {
           "url": "https://www.venuslens.net/product/laowa-100mm-f-2-8-2x-macro-apo/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/fb73cb930cc287264540a08115cc0359d8349f00.html"
         }
       ],
       "mount": {
@@ -15325,7 +15668,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-83"
+        },
+        {
           "url": "https://www.venuslens.net/product/laowa-100mm-f-2-8-tilt-shift-1x-macro/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/55.100mm-ts.html"
         }
       ],
       "mount": {
@@ -15348,7 +15697,8 @@
             "grams": 1215,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -15383,7 +15733,12 @@
           "manualFocus": {
             "present": true
           },
-          "minimumFocusDistances": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.32,
+              "conditions": {}
+            }
+          ],
           "reproductionMagnifications": [
             {
               "kind": "maximum",
@@ -15415,6 +15770,9 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-80"
+        },
+        {
           "url": "https://www.venuslens.net/product/laowa-10mm-f-2-8-ff-zero-d/"
         }
       ],
@@ -15429,7 +15787,8 @@
           {
             "maximumDiameterMm": 82,
             "lengthMm": 70.8,
-            "conditions": {}
+            "conditions": {},
+            "approximate": true
           }
         ],
         "weightMeasurements": [
@@ -15437,7 +15796,8 @@
             "grams": 420,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -15506,7 +15866,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-80"
+        },
+        {
           "url": "https://www.venuslens.net/product/laowa-10mm-f-2-8-ff-zero-d/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/c08887d66ba2754caf38c615e2de9a96d3f19afa.html"
         }
       ],
       "mount": {
@@ -15515,7 +15881,10 @@
         "mountOwnerRelationship": null,
         "electronicContacts": {
           "present": true,
-          "metadataTransmission": null
+          "metadataTransmission": {
+            "present": true,
+            "standards": null
+          }
         }
       },
       "physical": {
@@ -15523,7 +15892,8 @@
           {
             "maximumDiameterMm": 82,
             "lengthMm": 70.8,
-            "conditions": {}
+            "conditions": {},
+            "approximate": true
           }
         ],
         "weightMeasurements": [
@@ -15531,7 +15901,8 @@
             "grams": 420,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -15600,7 +15971,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-55"
+        },
+        {
           "url": "https://www.venuslens.net/product/laowa-10mm-f-4-cookie/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/5e9b4e884bfc847fd17a6cff829d637a7b55a9cf.html"
         }
       ],
       "mount": {
@@ -15693,7 +16070,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-24"
+        },
+        {
           "url": "https://www.venuslens.net/product/laowa-11mm-f-4-5-ff-rl/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/1977964e78305cf608bae66d0d541eca01664539.html"
         }
       ],
       "mount": {
@@ -15784,7 +16167,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-54"
+        },
+        {
           "url": "https://www.venuslens.net/product/laowa-12-24mm-f-5-6-zoom/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/83e5d4ac7029ead4f88ab7c2f9ac87f0066b64c9.html"
         }
       ],
       "mount": {
@@ -15880,7 +16269,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-81"
+        },
+        {
           "url": "https://www.venuslens.net/product/laowa-12-24mm-f-5-6-zoom-shift-cf/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/12-24mmf5.6-cf.html"
         }
       ],
       "mount": {
@@ -15902,7 +16297,8 @@
             "grams": 575,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -15976,7 +16372,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-89"
+        },
+        {
           "url": "https://www.venuslens.net/product/laowa-12mm-f-2-8-lite-zero-d-ff/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/12mmf2.8-lite.html"
         }
       ],
       "mount": {
@@ -16026,7 +16428,12 @@
           "manualFocus": {
             "present": true
           },
-          "minimumFocusDistances": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.14,
+              "conditions": {}
+            }
+          ],
           "reproductionMagnifications": [
             {
               "kind": "maximum",
@@ -16055,7 +16462,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-89"
+        },
+        {
           "url": "https://www.venuslens.net/product/laowa-12mm-f-2-8-lite-zero-d-ff/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/12mmf2.8-lite.html"
         }
       ],
       "mount": {
@@ -16115,7 +16528,12 @@
           "manualFocus": {
             "present": true
           },
-          "minimumFocusDistances": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.14,
+              "conditions": {}
+            }
+          ],
           "reproductionMagnifications": [
             {
               "kind": "maximum",
@@ -16144,7 +16562,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-40"
+        },
+        {
           "url": "https://www.venuslens.net/product/laowa-12mm-f2-8-zero-d/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/16eb1d1a077916619b6aa5ed90d187b998233313.html"
         }
       ],
       "mount": {
@@ -16166,7 +16590,8 @@
             "grams": 609,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": []
@@ -16230,7 +16655,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-25"
+        },
+        {
           "url": "https://www.venuslens.net/product/14mm-f4-ff-rl-zero-d/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/c694dd16db6e0699aa3fe7265aab1946dbf70dec.html"
         }
       ],
       "mount": {
@@ -16252,7 +16683,8 @@
             "grams": 228,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -16293,7 +16725,13 @@
               "conditions": {}
             }
           ],
-          "reproductionMagnifications": null
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.07,
+              "conditions": {}
+            }
+          ]
         },
         "stabilization": {
           "present": false

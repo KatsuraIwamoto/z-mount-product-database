@@ -6,7 +6,7 @@
     "brandId": "great-joy",
     "name": "Great Joy 60mm T2.9 1.33x Full-Frame Anamorphic Lens"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "great-joy-60mm-t2-9-1-33x-full-frame-anamorphic-lens"
@@ -64,8 +64,37 @@
         "physical.filterInterfaces",
         "controls",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "physical.tripodSupport",
+        "physical.frontAccessoryInterface",
+        "lens.anglesOfView"
+      ]
+    },
+    {
+      "url": "https://cdn.images.indiegogo.com/richtextimage/richtext/05a94d91-ad1a-41b7-bc44-86cb6e812b38.jpg",
+      "publisherRelationship": "crowdfunding-platform",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.frontAccessoryInterface",
+        "physical.filterInterfaces",
+        "lens.anglesOfView",
+        "lens.aperture",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.images.indiegogo.com/richtextimage/richtext/409e7cc7-432e-4ace-9d77-1e99c2e207c5.jpg",
+      "publisherRelationship": "crowdfunding-platform",
+      "sourceType": "image",
+      "checked": [
+        "physical.tripodSupport"
       ]
     }
+  ],
+  "unresolved": [
+    "The creator specification table lists E, F, RF and L under length/weight but Sony E, Canon RF, Nikon Z and L under available mounts. The F-labelled 124 mm/800 g row cannot safely be assigned to Nikon Z; Z dimensions and weight remain unknown.",
+    "The optical table states 13 elements in 10 groups + 1 and separately mentions a cover glass, leaving the total counting convention ambiguous; opticalConstruction remains null.",
+    "Shared barrel/front/support images and the official timeline confirm geared controls and distance scales but do not establish complete Z-specific four-direction coverage, electrical contacts or package accessories. The support is explicitly quarter-inch, without a stated thread pitch."
   ]
 }

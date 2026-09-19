@@ -6,7 +6,7 @@
     "brandId": "astrhori",
     "name": "MF 6.5mm F2 APS-C Fisheye Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "astrhori-mf-6p5mm-f2-fisheye"
@@ -32,7 +32,8 @@
         "lens.coverage",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "controls"
       ],
       "decisionChecks": [
         "availability"
@@ -68,6 +69,26 @@
         "lens.opticalConstruction",
         "lens.anglesOfView"
       ]
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000056.000135883.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "distributor-page",
+      "checked": [
+        "mount",
+        "physical.weightMeasurements",
+        "lens.specialElements",
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus",
+        "physical.filterInterfaces",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Ten manufacturer gallery images and distributor Z fc-mounted and Micro Four Thirds-mounted photographs were visually inspected. Z front/upper oblique is confirmed; Z rear, underside and complete side coverage remain unavailable. The long manufacturer specification image did not render.",
+    "The distributor explicitly specifies approximately 277.5 g for Nikon Z; attached-cap conditions are unspecified. The native gram decimal is retained. Its common 64 x 51 mm dimensions exclude mount and hood but are not explicitly Z-specific; dimensions remain unconfirmed.",
+    "Aperture click behavior was not established."
   ]
 }

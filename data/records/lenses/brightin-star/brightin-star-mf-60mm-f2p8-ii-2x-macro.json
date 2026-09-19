@@ -14,7 +14,20 @@
     "announcementDate": null,
     "officialDesignations": []
   },
-  "officialProductPages": [],
+  "officialProductPages": [
+    {
+      "url": "https://brightinstar.com.cn/collections/%E5%BE%AE%E8%A7%82%E4%B8%96%E7%95%8C/products/mf-60mm-f2-8-%E2%85%B1-%E5%85%A8%E7%94%BB%E5%B9%85",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "CN",
+      "language": "zh",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "BRIGHTIN STAR"
+      }
+    }
+  ],
   "mount": {
     "systemId": "nikon-z",
     "replaceability": "fixed",
@@ -36,19 +49,64 @@
         "grams": 660,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": null,
-    "filterInterfaces": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 67,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
     "tripodSupport": {
       "present": false
     },
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null,
+    "lensCases": null
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -72,7 +130,7 @@
       },
       "diaphragm": {
         "present": true,
-        "bladeCount": null,
+        "bladeCount": 10,
         "bladeShape": null
       },
       "controlMechanism": "mechanical"
@@ -85,8 +143,22 @@
       "groups": 7,
       "elements": 10
     },
-    "specialElements": null,
-    "coatings": null,
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 2
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false
@@ -96,7 +168,12 @@
         "mechanism": "mechanical-coupled"
       },
       "opticalFocusingSystems": null,
-      "minimumFocusDistances": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.182,
+          "conditions": {}
+        }
+      ],
       "reproductionMagnifications": [
         {
           "kind": "maximum",
@@ -111,7 +188,12 @@
     },
     "specialized": {
       "macro": {
-        "workingDistances": null
+        "workingDistances": [
+          {
+            "distanceM": 0.05,
+            "conditions": {}
+          }
+        ]
       }
     }
   }

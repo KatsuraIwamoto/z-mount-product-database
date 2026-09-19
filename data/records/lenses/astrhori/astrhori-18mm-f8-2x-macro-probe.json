@@ -40,7 +40,18 @@
   "physical": {
     "dimensionMeasurements": null,
     "weightMeasurements": null,
-    "officialEnvironmentalProtectionClaims": null,
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "waterproof"
+        ],
+        "scope": {
+          "kind": "component",
+          "component": "Front 20 cm of the probe barrel"
+        },
+        "conditions": {}
+      }
+    ],
     "filterInterfaces": null,
     "tripodSupport": {
       "present": false
@@ -48,8 +59,37 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "geared": true
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "geared": true
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": null,
+    "rearCaps": null,
+    "lensStraps": null,
+    "protectiveWraps": null,
+    "lensCases": [
+      {
+        "construction": "hard-case",
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ]
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -124,9 +164,22 @@
     },
     "specialized": {
       "macro": {
-        "workingDistances": null
+        "workingDistances": [
+          {
+            "distanceM": 0.005,
+            "conditions": {}
+          }
+        ]
       },
-      "probe": {}
+      "probe": {
+        "integratedLights": [
+          {
+            "type": "led",
+            "location": "Front of the probe barrel",
+            "quantity": 9
+          }
+        ]
+      }
     }
   }
 }

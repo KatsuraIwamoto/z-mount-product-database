@@ -73,8 +73,44 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null,
+    "lensCases": null
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -118,8 +154,36 @@
       "groups": 9,
       "elements": 13
     },
-    "specialElements": null,
-    "coatings": null,
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 2
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 5
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 3,
+        "officialName": "ED"
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null,
+        "officialName": "NANO MC Coating"
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false

@@ -6,7 +6,7 @@
     "brandId": "irix",
     "name": "Irix Cine 30mm T1.5"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "irix-cine-30mm-t1-5"
@@ -37,7 +37,10 @@
         "lens.coverage",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "physical.frontAccessoryInterface",
+        "lens.coatings",
+        "accessories"
       ]
     },
     {
@@ -50,6 +53,21 @@
         "physical",
         "controls"
       ]
+    },
+    {
+      "url": "https://irixlens.com/new/wp-content/uploads/2023/03/30mm-bez-oslony.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.frontAccessoryInterface",
+        "physical.filterInterfaces"
+      ]
     }
+  ],
+  "unresolved": [
+    "The prose calls 95 mm a filter-thread size, but the specification table, separate prose and barrel markings consistently distinguish an 86 mm filter thread from the 95 mm front outside diameter. Existing 86 mm is retained with the official copy conflict recorded.",
+    "Shared front/side renders do not establish Z-specific rear/contact details or complete four-direction coverage. Optical counts, special elements and aperture click behavior remain unspecified.",
+    "MMS magnetic compatibility is confirmed but cannot be represented by current filter-interface types. Coverage is greater than 43.3 mm, so no exact image-circle diameter is inferred. Neutrino coating is described as matching color reproduction across lenses; anti-reflective function is not inferred."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "gizmon",
     "name": "GIZMON Utulens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "gizmon-utulens-32mm-f16"
@@ -36,7 +36,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "accessories"
       ]
     },
     {
@@ -64,6 +65,31 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://gizmon.com/wp-content/uploads/2024/11/utulensset2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount",
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://gizmon.com/wp-content/uploads/2025/05/utlback2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount",
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "The shared 60 x 15 mm dimensions vary by mount and approximately 46 g lacks mount and attachment conditions. Existing generic values are retained; Z-specific measurements remain unconfirmed.",
+    "Shared front/oblique, exploded and rear images do not identify the Nikon Z configuration. Complete Z-specific four-direction coverage and the existing no-filter-interface assertion could not be independently confirmed.",
+    "The published 1 m to infinity focus range is retained, but no minimum distance is given for the documented technique of loosening the threaded lens unit for closer focus. This technique does not establish a dedicated focus ring."
   ]
 }

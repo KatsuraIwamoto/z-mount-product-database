@@ -22,13 +22,33 @@
     "electronicContacts": null
   },
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "lengthMm": 111,
+        "conditions": {},
+        "maximumDiameterMm": null
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 668,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "filterInterfaces": [
       {
         "type": "front-thread",
         "diameterMm": 77,
+        "host": {
+          "kind": "product"
+        }
+      },
+      {
+        "type": "front-thread",
+        "diameterMm": 67,
         "host": {
           "kind": "product"
         }
@@ -47,6 +67,15 @@
       "quantity": 1,
       "rotationDegrees": 300,
       "geared": true
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "geared": true
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
     }
   ],
   "accessories": null,
@@ -68,14 +97,21 @@
         "minimumAperture": null,
         "effective": null
       },
-      "diaphragm": null,
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 18,
+        "bladeShape": null
+      },
       "controlMechanism": "mechanical"
     },
     "anglesOfView": null,
     "coverage": {
       "format": "full-frame"
     },
-    "opticalConstruction": null,
+    "opticalConstruction": {
+      "elements": 14,
+      "groups": 11
+    },
     "specialElements": null,
     "coatings": [
       {
@@ -94,8 +130,19 @@
         "mechanism": "mechanical-coupled"
       },
       "opticalFocusingSystems": null,
-      "minimumFocusDistances": null,
-      "reproductionMagnifications": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.43,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.15,
+          "conditions": {}
+        }
+      ],
       "officialFocusBehaviorClaims": null
     },
     "stabilization": {
@@ -103,6 +150,12 @@
     },
     "specialized": {
       "cinema": {}
-    }
+    },
+    "imageCircleDiameters": [
+      {
+        "diameterMm": 43.3,
+        "conditions": {}
+      }
+    ]
   }
 }

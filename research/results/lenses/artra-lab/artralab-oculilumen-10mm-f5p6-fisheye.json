@@ -6,7 +6,7 @@
     "brandId": "artra-lab",
     "name": "OCULILUMEN 10mm F5.6 Fish eye (APS-C)"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "artralab-oculilumen-10mm-f5p6-fisheye"
@@ -35,7 +35,8 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.coatings"
       ]
     },
     {
@@ -46,6 +47,20 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://artralab.com/cdn/shop/products/WhatsAppImage2023-01-09at19.34.43_1_1080x.jpg?v=1673513754",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Resolve the internal official-source conflicts: table and graphic give 172 degrees while prose gives 180 degrees; table gives 6 elements in 5 groups while prose gives 8 elements. Existing table-based values are retained.",
+    "Confirm diaphragm construction and aperture operation: the table gives both maximum and minimum F5.6 yet lists 10 diaphragm blades. No aperture adjustment is established by the photographed exterior.",
+    "Obtain identifiable Nikon Z four-side and rear coverage. The available gallery shows Sony E-mounted and E-marked front/side views; it cannot establish Z-specific rear or underside details. Confirm supplied accessories, hood detachability, focusing operation and focus-related length behavior.",
+    "Confirm Nikon Z applicability and attached-component conditions for the shared 120 g mass and 54 × 32 mm dimensions."
   ]
 }

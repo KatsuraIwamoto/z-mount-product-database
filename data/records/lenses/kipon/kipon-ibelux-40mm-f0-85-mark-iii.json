@@ -28,6 +28,18 @@
         "type": "manufacturer-or-brand",
         "name": "KIPON"
       }
+    },
+    {
+      "url": "https://www.kipon.jp/products/ibelux-40mm-f0-85-nikon-z-mark3",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "KIPON"
+      }
     }
   ],
   "mount": {
@@ -63,7 +75,25 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "rotationDegrees": 270
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -121,7 +151,14 @@
       "elements": 10
     },
     "specialElements": null,
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false
@@ -149,6 +186,12 @@
     "stabilization": {
       "present": false
     },
-    "specialized": {}
+    "specialized": {},
+    "imageCircleDiameters": [
+      {
+        "diameterMm": 28.4,
+        "conditions": {}
+      }
+    ]
   }
 }

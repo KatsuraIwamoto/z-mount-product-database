@@ -6,7 +6,7 @@
     "brandId": "astrhori",
     "name": "MF 6mm F2.8 Full-frame Circular Fisheye Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "astrhori-mf-6mm-f2p8-circular-fisheye"
@@ -66,8 +66,17 @@
       "sourceType": "image",
       "checked": [
         "lens.opticalConstruction",
-        "lens.anglesOfView"
+        "lens.anglesOfView",
+        "controls",
+        "lens.aperture",
+        "lens.focus",
+        "lens.coverage"
       ]
     }
+  ],
+  "unresolved": [
+    "Ten gallery images and the enlarged specification graphic were inspected: generic front/side and exposed rear views plus Sony-mounted imagery; Nikon Z-specific top, bottom, left and right coverage remains incomplete.",
+    "The specification graphic explicitly labels approximately 340 g as Sony E. The 64.8 mm diameter / 61 mm length drawing does not establish Nikon Z applicability or measurement datum; Nikon Z weight and dimensions remain unconfirmed.",
+    "Aperture-ring click behavior and explicitly supplied accessories were not confirmed."
   ]
 }

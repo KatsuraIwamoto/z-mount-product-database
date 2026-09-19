@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 14mm F4 FF RL Zero-D"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-14mm-f4-ff-rl-zero-d"
@@ -60,8 +60,70 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/camera-lens-25",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "mount",
+        "lens.focus",
+        "lens.aperture",
+        "lens.specialElements",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/14mmF4_380_1.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/14mmF4_380_2.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/14mmF4_380_3.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/14mmF4_380_4.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/14mmF4_380_5.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Five official Japan photographs including bare rear views were visually inspected; the depicted Leica M-style version does not establish Nikon Z-specific rear/four-direction coverage. Focus/aperture rings and distance/depth-of-field scales are visible; the China Leica M-specific focus limiter is not assigned to Nikon Z.",
+    "The 58 x 59 mm and approximately 228 g values are generic and Japan explicitly notes mount variation. Existing Z measurements are retained pending Z-specific confirmation and accessory measurement conditions remain unresolved.",
+    "China separately lists a Light edition (camera-lens-79) and a DSLR edition (camera-lens-45); those versions are not used to replace original FF RL specifications. The original/Light Nikon Z relationship remains unresolved.",
+    "The 114-degree angle orientation, coatings, aperture click behavior, electronic contacts, environmental protection and external length behavior remain unconfirmed. Japan notes no hood for DL, but explicit Nikon Z hood/accessory supply remains unresolved. No matching original-edition manual was located and global product-page access returned 403."
   ]
 }

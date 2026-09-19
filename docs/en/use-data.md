@@ -136,11 +136,11 @@ The following examples read a downloaded or deployed Lens Full file and print th
 
 ### Actual output
 
-For Lens Full data version `2026.09.19`, both examples print:
+For Lens Full data version `2026.09.20`, both examples print:
 
 ```json
 {
-  "dataVersion": "2026.09.19",
+  "dataVersion": "2026.09.20",
   "recordCount": 606,
   "firstProduct": {
     "id": "7artisans-24mm-f1-4",
@@ -234,7 +234,7 @@ When a name changes, the `name` in `referenceData` changes without renaming or r
 
 Each distribution root includes metadata such as versions, record count, content hash, and license.
 The project as a whole is named "Z Mount Product Database," while `datasetName` contains the name of the individual dataset.
-The following examples omit `referenceData` and `products` or `adapters` and show the other root fields from each distribution at data version `2026.09.19`.
+The following examples omit `referenceData` and `products` or `adapters` and show the other root fields from each distribution at data version `2026.09.20`.
 
 === "Lens Full"
 
@@ -244,13 +244,13 @@ The following examples omit `referenceData` and `products` or `adapters` and sho
       "datasetName": "Z Mount Lens Database",
       "datasetVariant": "full",
       "schemaVersion": "1.0.0",
-      "dataVersion": "2026.09.19",
+      "dataVersion": "2026.09.20",
       "creator": "Katsura Iwamoto",
       "license": "CC-BY-4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
       "recordCount": 606,
-      "contentHash": "sha256:3c5acd5353ff4d81b1eddffbc21fdc7b19fcdf9ebf6e92895b7a620c13e86275"
+      "contentHash": "sha256:49ba0506780eb76bad653b9017fb4a649c05f1e68c8fd97c20f948114b6fb421"
     }
     ```
 
@@ -262,13 +262,13 @@ The following examples omit `referenceData` and `products` or `adapters` and sho
       "datasetName": "Z Mount Lens Database",
       "datasetVariant": "light",
       "schemaVersion": "1.0.0",
-      "dataVersion": "2026.09.19",
+      "dataVersion": "2026.09.20",
       "creator": "Katsura Iwamoto",
       "license": "CC-BY-4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
       "recordCount": 606,
-      "contentHash": "sha256:1a8e417780758c75f790884e471b9a43fbf3a9ce746596a91bf91b9b4cf48d8d"
+      "contentHash": "sha256:30403a31b37a00d38e589b64a68d8a8a470b56add78f73e2ff4c6e4c9d29d8a7"
     }
     ```
 
@@ -280,7 +280,7 @@ The following examples omit `referenceData` and `products` or `adapters` and sho
       "datasetName": "Z Mount Adapter Database",
       "datasetVariant": "full",
       "schemaVersion": "1.0.0",
-      "dataVersion": "2026.09.19",
+      "dataVersion": "2026.09.20",
       "creator": "Katsura Iwamoto",
       "license": "CC-BY-4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",

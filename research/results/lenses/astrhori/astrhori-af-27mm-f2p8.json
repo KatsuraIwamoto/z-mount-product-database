@@ -6,7 +6,7 @@
     "brandId": "astrhori",
     "name": "AF 27mm F2.8 APS-C Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "astrhori-af-27mm-f2p8"
@@ -33,7 +33,9 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity.variants",
+        "controls"
       ],
       "decisionChecks": [
         "availability"
@@ -80,7 +82,10 @@
       "checked": [
         "physical.dimensionMeasurements",
         "physical.weightMeasurements",
-        "lens.anglesOfView"
+        "lens.anglesOfView",
+        "lens.aperture",
+        "lens.focus",
+        "lens.opticalConstruction"
       ]
     },
     {
@@ -90,6 +95,22 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0698/5046/4568/files/7_291a612f-cffb-411e-9a18-ce1626029dcd.jpg?v=1752110809",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces",
+        "mount.electronicContacts"
+      ]
     }
+  ],
+  "unresolved": [
+    "The current shared E/X/Z gallery labels a de-clicked aperture ring while illustrating a Sony camera and its A exposure-mode dial. The Z-specific dimension diagram labels the external ring as a focus ring. A separate Nikon Z aperture ring and its click behavior are therefore not asserted from the shared graphic.",
+    "Eight gallery images and the enlarged current specification were reviewed. Explicit Z-marked black/titanium barrel views and a Z dimension diagram are present, with an oblique USB-port/rear view whose mount is not labeled. A complete Nikon Z four-side and exposed-rear set remains unavailable.",
+    "The Z-specific table confirms approximately 165 g and 67 x 43 mm; the diagram appears to include the projecting bayonet in the 43 mm span. Cap inclusion and the exact dimensional datum remain unspecified. Package-arrangement photographs alone do not establish supplied accessories."
   ]
 }

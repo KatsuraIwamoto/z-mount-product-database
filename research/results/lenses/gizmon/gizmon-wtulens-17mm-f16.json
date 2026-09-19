@@ -6,7 +6,7 @@
     "brandId": "gizmon",
     "name": "GIZMON Wtulens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "gizmon-wtulens-17mm-f16"
@@ -36,7 +36,9 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "accessories",
+        "lens.specialElements"
       ]
     },
     {
@@ -64,6 +66,30 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://gizmon.com/wp-content/uploads/2024/11/wtulensset.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories",
+        "mount",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://gizmon.com/wp-content/uploads/2025/05/utlback2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "The 60 x 15 mm dimensions explicitly vary by mount and approximately 46 g has no mount or attachment conditions. Existing generic values are retained; Z-specific measurements remain unconfirmed.",
+    "Complete Nikon Z-specific four-direction imagery and explicit filter-interface specifications remain unavailable. Shared rear/exploded views do not identify their mount.",
+    "The published focus range is retained, but the technique of loosening the threaded lens unit for closer focus has no specified minimum distance or dedicated focus ring."
   ]
 }

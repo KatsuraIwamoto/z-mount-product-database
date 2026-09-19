@@ -8,7 +8,20 @@
     "productName": "10mm F5.6 Pro APS-C Fisheye Manual Focus Lens",
     "modelNumberOptions": null,
     "alternateNames": null,
-    "variants": null
+    "variants": [
+      {
+        "variantId": "black",
+        "name": "Black",
+        "modelNumberOptions": null,
+        "color": "Black"
+      },
+      {
+        "variantId": "silver",
+        "name": "Sliver",
+        "modelNumberOptions": null,
+        "color": "Silver"
+      }
+    ]
   },
   "lifecycle": {
     "announcementDate": null,
@@ -63,8 +76,41 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "clicked"
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null,
+    "lensCases": null
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",

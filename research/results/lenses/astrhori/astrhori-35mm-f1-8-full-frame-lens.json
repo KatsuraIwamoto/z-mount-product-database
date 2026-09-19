@@ -6,7 +6,7 @@
     "brandId": "astrhori",
     "name": "AstrHori 35mm F1.8 Full-Frame Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "astrhori-35mm-f1-8-full-frame-lens"
@@ -56,11 +56,20 @@
         "physical.isRetractableForStorage",
         "lens.focalLength",
         "lens.aperture",
-        "lens.opticalConstruction"
+        "lens.opticalConstruction",
+        "controls",
+        "lens.coatings",
+        "accessories"
       ],
       "decisionChecks": [
         "availability"
       ]
     }
+  ],
+  "unresolved": [
+    "The distributor lists filter diameters as 52 mm / 58 mm without explaining their positions or attachment conditions. Product images show nested front threads, but the two interfaces cannot yet be mapped reliably to filterInterfaces.",
+    "The distributor text gives approximately 420 g and 0.29 m minimum focus distance, while its gallery specification graphic gives approximately 400 g and a closest-focusing-distance value of 35 mm. Existing text-backed values are retained pending clarification; the graphic is not silently corrected.",
+    "Eight of nine distributor gallery images were viewed, including a front/side/rear composite, a side with focus and aperture rings plus distance/depth-of-field scales, caps and sample photographs. The first image failed to render. Nikon Z is selectable, but the gallery does not identify the depicted rear mount as Z or provide complete four-side Z coverage.",
+    "The manufacturer detail page could not be read because navigation timed out; the authorized distributor supplied the accessible specification and image evidence."
   ]
 }

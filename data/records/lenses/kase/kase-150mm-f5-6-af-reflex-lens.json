@@ -25,15 +25,15 @@
   },
   "officialProductPages": [
     {
-      "url": "https://kasefilters.de/kase-reflex-150mm-af-spiegeltele-objektiv",
+      "url": "https://www.kasecn.com/products_detail/144.html",
       "pageFamilies": [
         "home-country"
       ],
-      "region": "DE",
-      "language": "de",
+      "region": "CN",
+      "language": "zh",
       "publisher": {
         "type": "manufacturer-or-brand",
-        "name": "Kase Filters"
+        "name": "Kase"
       }
     },
     {
@@ -77,9 +77,42 @@
     "isRetractableForStorage": false,
     "externalLengthDuringFocus": null
   },
-  "controls": null,
-  "accessories": null,
-  "electronicServices": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": null,
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "connectorType": "usb-c",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",

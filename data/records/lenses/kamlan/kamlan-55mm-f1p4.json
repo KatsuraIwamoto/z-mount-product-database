@@ -16,6 +16,18 @@
   },
   "officialProductPages": [
     {
+      "url": "https://www.kamlan.com.tw/page/product/show.aspx?lang=TW&num=63",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "TW",
+      "language": "zh",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "KamLan"
+      }
+    },
+    {
       "url": "https://www.sightron.co.jp/kamlan/55mmF1.4.html",
       "pageFamilies": [
         "japan"
@@ -53,7 +65,25 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "declicked"
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -87,7 +117,7 @@
     "anglesOfView": [
       {
         "format": "full-frame",
-        "orientation": null,
+        "orientation": "diagonal",
         "degrees": 40.5,
         "conditions": {}
       }

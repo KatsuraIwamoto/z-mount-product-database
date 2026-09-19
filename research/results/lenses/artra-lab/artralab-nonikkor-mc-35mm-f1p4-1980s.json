@@ -6,7 +6,7 @@
     "brandId": "artra-lab",
     "name": "NONIKKOR-MC 35mm F1.4 (Full Frame) 1980's"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "artralab-nonikkor-mc-35mm-f1p4-1980s"
@@ -34,7 +34,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.coatings"
       ]
     },
     {
@@ -45,6 +46,18 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://artralab.com/cdn/shop/products/image_b708eb39-e94f-42e7-b44a-6849292bc8fe_1080x.jpg?v=1700760868",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Confirm Nikon Z measurement conditions for the shared 285 g mass and 63 × 50 mm dimensions; the common drawing does not establish mount-specific length conditions.",
+    "Complete identifiable Nikon Z left/right and mount-face inspection. Official Z fc images show front, top and underside, but not every side or the exposed mount. Confirm ring operation and aperture click behavior, supplied accessories and focus-related length changes."
   ]
 }

@@ -16,6 +16,18 @@
   },
   "officialProductPages": [
     {
+      "url": "https://www.laowalens.com/camera-lens-31",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "CN",
+      "language": "zh",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Venus Optics"
+      }
+    },
+    {
       "url": "https://www.venuslens.net/product/laowa-100mm-f-2-8-2x-macro-apo/",
       "pageFamilies": [
         "global",
@@ -26,6 +38,18 @@
       "publisher": {
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
+      }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/fb73cb930cc287264540a08115cc0359d8349f00.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
       }
     }
   ],
@@ -67,7 +91,24 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -83,7 +124,12 @@
             "conditions": {}
           }
         ],
-        "minimumAperture": null,
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {}
+          }
+        ],
         "effective": null
       },
       "diaphragm": {
@@ -108,7 +154,15 @@
       "groups": 10,
       "elements": 12
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 2,
+        "officialName": "ED"
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {
@@ -139,7 +193,12 @@
     },
     "specialized": {
       "macro": {
-        "workingDistances": null
+        "workingDistances": [
+          {
+            "distanceM": 0.075,
+            "conditions": {}
+          }
+        ]
       }
     }
   }

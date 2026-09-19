@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 12mm F2.8 Lite Zero-D FF"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-12mm-f2-8-lite-zero-d-ff"
@@ -55,8 +55,39 @@
         "lens.anglesOfView",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/camera-lens-89",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "mount",
+        "lens.aperture",
+        "lens.specialElements",
+        "lens.coatings",
+        "lens.focus",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/12mmF2.8Lite_02%28MF%29.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "The Japan MF-labeled barrel photograph was visually inspected for focus/aperture rings and distance/depth-of-field scales. China gallery photographs depict AF, so they are not assigned to MF. A Nikon Z-specific MF rear view and complete four-direction coverage remain unavailable; click behavior and contacts remain unconfirmed.",
+    "China/Japan specify 77.2 x 78.6 mm and approximately 377 g for AF Sony E; China separately gives approximately 480 g for MF Canon RF. Existing Nikon Z measurements are retained pending Z-specific confirmation rather than replaced with another mount/version.",
+    "The 122-degree angle orientation, accessory supply, environmental sealing and external length behavior remain unconfirmed. The front water/dirt-repellent coating does not establish whole-lens weather sealing. No matching manual was located in the accessible index/search and the global page returned 403."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 10mm F2.8 Zero-D FF"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-10mm-f2-8-zero-d-ff"
@@ -59,6 +59,46 @@
         "lens.focus",
         "lens.stabilization"
       ]
+    },
+    {
+      "url": "https://www.laowalens.com/camera-lens-80",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "mount",
+        "lens.aperture",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/files/20250805/FFII10mmF2.8C%26DDreamerguangjiaojingtoushuomingshu.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "lens.specialElements",
+        "lens.coatings",
+        "lens.aperture",
+        "mount.electronicContacts"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20231228/1jingtoutu3.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces"
+      ]
     }
+  ],
+  "unresolved": [
+    "Official AF and MF photographs and separate manual diagrams were inspected. Their controls differ; shared gallery filenames containing AF also depict MF products. Complete Nikon Z-specific four-direction/rear coverage remains unavailable.",
+    "Japan gives approximately 82 x 70.8 mm and 420 g with a mount-dependent caveat; China/manual give 82 x 72.8 mm and explicitly attribute 420 g to AF Sony E. Existing Z measurements are retained with the unresolved mount/version scope, not replaced by another mount value.",
+    "The optical diagram labels Ultra High Refraction Glass and FEC (Frog eye coating), but does not numerically specify the high-index element count or explain the coating function; quantity remains null and coating classification remains unconfirmed.",
+    "The 130.4-degree angle has no stated orientation. Supplied hood/caps, environmental protection, external length behavior and focus-ring response remain unconfirmed.",
+    "China/manual explicitly list the Nikon Z manual-focus version with 14 blades. Japan currently lists Nikon Z only as autofocus, so its page is retained as shared research evidence rather than added as a canonical MF product page. Aperture click behavior remains unconfirmed."
   ]
 }

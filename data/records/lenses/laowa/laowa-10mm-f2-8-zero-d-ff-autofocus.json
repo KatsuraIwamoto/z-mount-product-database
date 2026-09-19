@@ -16,6 +16,18 @@
   },
   "officialProductPages": [
     {
+      "url": "https://www.laowalens.com/camera-lens-80",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "CN",
+      "language": "zh",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Venus Optics"
+      }
+    },
+    {
       "url": "https://www.venuslens.net/product/laowa-10mm-f-2-8-ff-zero-d/",
       "pageFamilies": [
         "global",
@@ -27,6 +39,18 @@
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/c08887d66ba2754caf38c615e2de9a96d3f19afa.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -35,7 +59,10 @@
     "mountOwnerRelationship": null,
     "electronicContacts": {
       "present": true,
-      "metadataTransmission": null
+      "metadataTransmission": {
+        "present": true,
+        "standards": null
+      }
     }
   },
   "physical": {
@@ -43,7 +70,8 @@
       {
         "maximumDiameterMm": 82,
         "lengthMm": 70.8,
-        "conditions": {}
+        "conditions": {},
+        "approximate": true
       }
     ],
     "weightMeasurements": [
@@ -51,7 +79,8 @@
         "grams": 420,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": null,
@@ -70,11 +99,27 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "camera-body",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
   },
   "lens": {
     "focalLength": {
@@ -89,7 +134,12 @@
             "conditions": {}
           }
         ],
-        "minimumAperture": null,
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {}
+          }
+        ],
         "effective": null
       },
       "diaphragm": {
@@ -128,13 +178,25 @@
         ],
         "quantity": 3,
         "officialName": "ED"
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": null,
+        "officialName": "Ultra High Refraction Glass"
       }
     ],
     "coatings": null,
     "focus": {
       "autofocus": {
         "present": true,
-        "motors": null
+        "motors": [
+          {
+            "type": "stepping-motor",
+            "quantity": null
+          }
+        ]
       },
       "manualFocus": {
         "present": true,

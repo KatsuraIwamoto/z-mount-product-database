@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 75mm f/1.4 Full-frame Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-75mm-f1p4"
@@ -89,6 +89,41 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/files/6_2cff0555-9bcd-4c00-b19b-bb1bda313e0d.jpg?v=1754966067&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements",
+        "lens.opticalConstruction"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/files/5_f28a99d3-b7f3-424f-b208-e9393c04494a.jpg?v=1754966067&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.weightMeasurements",
+        "lens.aperture",
+        "lens.focus",
+        "lens.anglesOfView",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/75mm_F1.4_739e30d9-5168-4203-aa02-c27c959ab48e.jpg?v=1755071080",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.dimensionMeasurements"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can official Nikon Z-specific images establish the complete rear and all four exterior sides, including tripod-support provisions and covered connectors? Nikon-mounted lifestyle examples do not expose every surface.",
+    "Under what attached-component and focus conditions are the approximately 408 g mass and 62 x 77 mm dimensions measured for Nikon Z?",
+    "Is the aperture ring clicked or de-clicked, does the lens extend during focusing, and which accessories are standard for the Nikon Z package?"
   ]
 }

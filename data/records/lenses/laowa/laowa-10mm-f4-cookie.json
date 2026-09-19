@@ -8,13 +8,38 @@
     "productName": "LAOWA 10mm F4 Cookie",
     "modelNumberOptions": null,
     "alternateNames": null,
-    "variants": null
+    "variants": [
+      {
+        "variantId": "black",
+        "name": "Black",
+        "modelNumberOptions": null,
+        "color": "Black"
+      },
+      {
+        "variantId": "silver",
+        "name": "Silver",
+        "modelNumberOptions": null,
+        "color": "Silver"
+      }
+    ]
   },
   "lifecycle": {
     "announcementDate": null,
     "officialDesignations": []
   },
   "officialProductPages": [
+    {
+      "url": "https://www.laowalens.com/camera-lens-55",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "CN",
+      "language": "zh",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Venus Optics"
+      }
+    },
     {
       "url": "https://www.venuslens.net/product/laowa-10mm-f-4-cookie/",
       "pageFamilies": [
@@ -26,6 +51,18 @@
       "publisher": {
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
+      }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/5e9b4e884bfc847fd17a6cff829d637a7b55a9cf.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
       }
     }
   ],
@@ -69,7 +106,24 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -85,7 +139,12 @@
             "conditions": {}
           }
         ],
-        "minimumAperture": null,
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {}
+          }
+        ],
         "effective": null
       },
       "diaphragm": {
@@ -117,6 +176,18 @@
         ],
         "quantity": 4,
         "officialName": "ED"
+      },
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 2
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 2
       }
     ],
     "coatings": null,

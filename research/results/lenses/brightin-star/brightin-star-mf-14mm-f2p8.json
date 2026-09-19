@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "MF 14mm F2.8 Full-Frame Ultra-Wide Angle Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-14mm-f2p8"
@@ -53,6 +53,37 @@
         "physical.weightMeasurements",
         "physical.filterInterfaces"
       ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/5_6f349e75-848f-4e38-96c4-6014a3dabfff.jpg?v=1781662308&width=1000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements",
+        "lens.coatings",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/1428__20260616_-_1.png?v=1781925774&width=700",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus",
+        "lens.anglesOfView"
+      ]
     }
+  ],
+  "unresolved": [
+    "The Nikon Z illustration confirms approximately 67 × 80 mm and 518 g, but does not specify the length datum or measurement accessory conditions.",
+    "Seven gallery images show shared front/opposing side and Sony-mounted views; the package photograph includes a rear view without an established Z identity. Complete Nikon Z directional coverage, aperture click behavior and hood attachment remain unconfirmed.",
+    "The manufacturer lists a supplied detachable filter holder for 82 mm filters. Its interface is represented under an accessory host; the holder itself is outside the current accessory categories."
   ]
 }

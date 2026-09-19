@@ -6,7 +6,7 @@
     "brandId": "artra-lab",
     "name": "NOCTY-NONIKKOR 50mm F1.2"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "artralab-nocty-nonikkor-50mm-f1p2"
@@ -34,7 +34,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.coatings"
       ]
     },
     {
@@ -45,6 +46,18 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://artralab.com/cdn/shop/files/IMG-20240810-WA0030_1080x.jpg?v=1723349894",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Obtain identifiable Nikon Z underside and rear views to complete exterior coverage; the gallery supplies Nikon Z f mounted front and upper-side views only. Confirm ring operation and aperture click behavior, supplied accessories and focus-related length changes. The hood is shown both attached and detached, but inclusion in the sales package is not established.",
+    "Confirm Nikon Z applicability and measurement conditions for the shared 560 g mass and 72 × 83 mm dimensions."
   ]
 }

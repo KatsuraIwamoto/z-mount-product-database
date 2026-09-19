@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "AF 35mm F1.8 Full-Frame Prime Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-af-35mm-f1p8"
@@ -36,7 +36,8 @@
         "lens.specialElements",
         "lens.focus",
         "lens.stabilization",
-        "controls"
+        "controls",
+        "physical.officialEnvironmentalProtectionClaims"
       ]
     },
     {
@@ -55,6 +56,24 @@
         "physical.dimensionMeasurements",
         "physical.weightMeasurements"
       ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/35___1.jpg?v=1781945901&width=750",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.aperture",
+        "lens.focus",
+        "lens.opticalConstruction",
+        "lens.anglesOfView"
+      ]
     }
+  ],
+  "unresolved": [
+    "The manufacturer explicitly states that the Nikon Z version has no physical aperture ring; shared Sony E photographs and stepless-aperture descriptions do not establish a Nikon Z aperture ring. Complete Nikon Z top, bottom, left, right and rear image coverage remains unavailable.",
+    "The Nikon Z diagram states approximately 75 × 90 mm and 430 g, but does not identify the length datum or cap/accessory measurement conditions. Standard hood and cap inclusion remains unconfirmed."
   ]
 }

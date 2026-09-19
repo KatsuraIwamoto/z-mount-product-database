@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 100mm F2.8 Tilt-Shift 1x Macro"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-100mm-f2-8-tilt-shift-1x-macro"
@@ -61,8 +61,79 @@
         "lens.focus",
         "lens.stabilization",
         "lens.specialized",
+        "physical.tripodSupport",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/camera-lens-83",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com.cn/Public/Uploads/uploadfile/files/20250905/FFIITS100mmF2.8Macro1Xjingtoushuomingshu.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "physical.tripodSupport",
+        "lens.imageCircleDiameters",
+        "lens.specialElements",
+        "lens.specialized",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20241008/shouyechanpinzhanshitu4.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20241008/shouyechanpinzhanshitu3-78.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20241008/shouyechanpinzhanshitu2-410.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20241008/57702f94d6f7773dbae620bf01b99ec.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
         "physical.tripodSupport"
       ]
     }
+  ],
+  "unresolved": [
+    "Four official front/side/rear gallery photographs and manual diagrams were inspected; the bare rear is not identified as Nikon Z, so complete Z-specific four-direction and contact confirmation remains unavailable.",
+    "China and the manual mark 1215 g as approximate and exclude front/rear caps, but hood and support inclusion in dimensions/weight is not separately itemized. Supplied support removability remains unconfirmed.",
+    "The manual and Japan specify 320 mm minimum focus distance; the Japanese introductory 27–33 cm sentence is shared with the 55 mm lens and is not the 100 mm specification.",
+    "The manual contains an isolated ±11 mm shift heading, conflicting with its repeated ±12 mm descriptions/table and Japan; retain ±12 mm. The manual identifies 90-degree shift-mechanism rotation and ±180-degree mount rotation; Japan has inconsistent tilt/shift naming in prose.",
+    "The 37-degree angle is not assigned a direction or shifted/unshifted image area; its existing full-frame classification needs clarification. Aperture click behavior, coating function and accessory package contents remain unconfirmed.",
+    "The global product page returned 403; Chinese/Japanese official pages and manufacturer manual were used."
   ]
 }
