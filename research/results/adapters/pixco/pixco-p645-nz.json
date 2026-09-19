@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "Pentax 645 to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-p645-nz"
@@ -37,6 +37,36 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/3_8f689b9b-6518-41d3-9aa3-80c40695aa70_800x.jpg?v=1613497761",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/2_2403b6a0-3380-4488-8696-4619a25591e2_800x.jpg?v=1613497761",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/1_196f881d-3ecc-4738-ac10-41f17aeca916_800x.jpg?v=1613497761",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does this adapter have any adjustment mechanism? Complete mount faces and circumferential views are not available."
   ]
 }

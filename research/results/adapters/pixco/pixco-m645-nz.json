@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "Mamiya 645 to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-m645-nz"
@@ -37,6 +37,47 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/2_4b7202be-74f2-49e0-910b-1d819085672f_800x.jpg?v=1613497762",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/1_6fc6f5cf-7719-4f58-a359-4df7b4f63b0c_800x.jpg?v=1613497762",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/5_4f8335df-37da-42ca-a1de-e390d40fd0d5_800x.jpg?v=1613497762",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/4_409252cd-1146-4f84-b776-22aeb8271f24_800x.jpg?v=1613497762",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does this adapter provide any user-operated adjustment mechanism beyond lens retention? The available description and images do not establish this."
   ]
 }

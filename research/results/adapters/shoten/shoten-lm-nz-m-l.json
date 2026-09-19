@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN LM-NZ M (L) Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "shoten-lm-nz-m-l"
@@ -40,6 +40,54 @@
       ],
       "decisionChecks": [
         "release-status"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/LM-NZ_M-3-e1639556564798.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/LM-NZ_ML-img.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/LM-NZ_ML-img2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/LM-NZ_M-2-e1639554684785.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/LM-NZ_M-4-e1639554594369.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
       ]
     }
   ]

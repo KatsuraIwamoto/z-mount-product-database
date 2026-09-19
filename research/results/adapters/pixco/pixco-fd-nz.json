@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "Canon FD to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-fd-nz"
@@ -37,6 +37,80 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/5_2796d892-5400-43a7-a7c4-779b84ca31f7_800x.jpg?v=1613497777",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/4_8dce6807-de43-4e0e-8256-0f41ca020e19_800x.jpg?v=1613497778",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/6_2dcdf055-4e96-4508-aa3b-fab71642fc37_800x.jpg?v=1613497778",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/2_cf3e8614-8560-42aa-a612-12078f5b7900_800x.jpg?v=1613497778",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/7_6afe0d0a-5d7f-45fe-8aad-77ce08711ff7_800x.jpg?v=1613497778",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/1_1cef35f7-4341-4dfa-bf25-8d4831288972_800x.jpg?v=1613497778",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/3_d1b96c6d-a207-40bc-b29d-e87ac3f6b04d_800x.jpg?v=1613497778",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "What movement and lens-aperture function does the OPEN/LOCK ring provide on this exact FD-to-Nikon Z adapter?"
   ]
 }

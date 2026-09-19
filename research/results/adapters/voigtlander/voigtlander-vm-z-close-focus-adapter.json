@@ -6,7 +6,7 @@
     "brandId": "voigtlander",
     "name": "VM-Z Close Focus Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "voigtlander-vm-z-close-focus-adapter"
@@ -34,7 +34,12 @@
       "sourceType": "product-page",
       "checked": [
         "identity",
-        "officialProductPages"
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "mechanisms",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
       ]
     },
     {
@@ -49,6 +54,23 @@
       "decisionChecks": [
         "availability",
         "release-status"
+      ]
+    },
+    {
+      "url": "https://www.cosina.co.jp/wp/wp-content/uploads/2021/09/VM_Z_CloseFocus--scaled.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://www.cosina.co.jp/wp/wp-content/uploads/2021/10/VM_Z_CloseFocus-top--scaled.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
       ]
     }
   ]

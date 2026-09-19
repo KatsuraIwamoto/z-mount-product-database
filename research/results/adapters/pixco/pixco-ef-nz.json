@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "Canon EF to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-ef-nz"
@@ -37,6 +37,70 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/1_a582aefb-e23d-4246-a19b-fce79e63842c_800x.jpg?v=1613497775",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/3_53dc9c9d-c8af-44db-a68f-3d6bb94b7cd7_800x.jpg?v=1613497775",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/4_90158d0a-5730-4e97-8b9a-d8a6916a08d1_800x.jpg?v=1613497775",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/5_50d89359-4790-47eb-b440-bb3adb599597_800x.jpg?v=1613497776",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/6_8bb80517-f6ef-4822-91c2-a0c74ec29900_800x.jpg?v=1613497776",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/2_7d26c5e4-24e3-4eab-8fd9-8561018207e4_800x.jpg?v=1613497776",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does this exact adapter provide any adjustment mechanism beyond lens attachment?"
   ]
 }

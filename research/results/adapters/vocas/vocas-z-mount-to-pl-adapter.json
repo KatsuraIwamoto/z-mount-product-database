@@ -6,7 +6,7 @@
     "brandId": "vocas",
     "name": "Vocas Z-mount to PL adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "vocas-z-mount-to-pl-adapter"
@@ -39,6 +39,49 @@
         "identity",
         "identity.modelNumberOptions"
       ]
+    },
+    {
+      "url": "https://media.vocas.com/media/catalog/product/0/9/0900-0090_vocas_z-mount_to_pl_adapter_grafisch.1.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://media.vocas.com/media/catalog/product/0/9/resized/894/0900-0090_vocas_z-mount_to_pl_adapter_grafisch.1.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://media.vocas.com/media/catalog/product/0/9/resized/894/0900-0090_vocas_z-mount_to_pl_adapter_grafisch.2.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://media.vocas.com/media/catalog/product/cache/8754008f821c5c54a1cb609552a5a7be/0/9/0900-0090_vocas_z-mount_to_pl_adapter_grafisch.3.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Is the lens locking ring adjustable beyond normal positive-lock operation, given that the description says adjustable but Additional Information says Adjustable lens lock: No?",
+    "Does model number 0900-0080 in the description refer to this product, or should it read 0900-0090 as in the SKU, item code and drawing title?"
   ]
 }

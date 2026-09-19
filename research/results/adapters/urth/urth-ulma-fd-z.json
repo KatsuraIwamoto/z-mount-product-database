@@ -6,7 +6,7 @@
     "brandId": "urth",
     "name": "Canon FD Lens Mount to Nikon Z Camera Mount"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "urth-ulma-fd-z"
@@ -28,6 +28,26 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://urth.co/cdn/shop/files/2.Urth-Lens-Mount-Adapter-FD-Z-New_1000x.jpg?v=1754625743",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://urth.co/cdn/shop/files/3.Urth-Lens-Mount-Adapter-FD-Z-New_1000x.jpg?v=1754625743",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
       ]
     }
   ]

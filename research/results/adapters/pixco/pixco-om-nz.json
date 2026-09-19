@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "Olympus OM to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-om-nz"
@@ -37,6 +37,27 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/4_b48be1bf-946c-48c3-8cb5-a55701326624_800x.jpg?v=1613497780",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/2_e3968fc8-53a3-48c0-a27e-f2fbe626ee4c_800x.jpg?v=1613497780",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does this adapter provide any adjustment mechanism? The available images do not expose the complete circumference."
   ]
 }

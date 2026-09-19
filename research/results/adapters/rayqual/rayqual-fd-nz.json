@@ -6,7 +6,7 @@
     "brandId": "rayqual",
     "name": "Canon FD Lens Mount Adapter for Nikon Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "rayqual-fd-nz"
@@ -31,9 +31,48 @@
         "lifecycle",
         "mountConfigurations",
         "electronics",
-        "conversionOptics",
-        "mechanisms"
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://www.rayqual.com/pic/gaikan/NFZ/FD-NZ.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://www.rayqual.com/pic/gaikan/NFZ/UP/FD-NZ_B.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://www.rayqual.com/pic/gaikan/NFZ/UP/FD-NZ_C.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://www.rayqual.com/pic/gaikan/NFZ/UP/FD-NZ_N.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
       ]
     }
+  ],
+  "unresolved": [
+    "What function does the arrow-marked lens-side ring perform on FD-NZ, and does the model have any additional operating mechanism?"
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "pholsy",
     "name": "PHOLSY FTZ Lens Mount Adapter Manual Focus Compatible with Nikon F Mount Lens to Nikon Z Mount Camera Body"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pholsy-ftz-f-nz"
@@ -22,7 +22,6 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "mechanisms",
         "officialProductPages"
       ],
       "decisionChecks": [
@@ -40,6 +39,40 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/AI-NZ.jpg?v=1728872551&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/QQ_20230421170329.jpg?v=1728872561&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/QQ_20230421170310.jpg?v=1728872564&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Do complete exterior views or operating instructions establish whether this model has any adjustment mechanism beyond its lens-mount connection?"
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "Micro Four Thirds to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-m43-nz"
@@ -36,6 +36,48 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/Pixco_Micro_43-Nikon_Z_Adapter_1_800x.jpg?v=1613498088",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/Pixco_Micro_43-Nikon_Z_Adapter_3_800x.jpg?v=1613498088",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/Pixco_Micro_43-Nikon_Z_Adapter_6_800x.jpg?v=1613498088",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/Pixco_Micro_43-Nikon_Z_Adapter_8_800x.jpg?v=1613498089",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
       ]
     }
   ]

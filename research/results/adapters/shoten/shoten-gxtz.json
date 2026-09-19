@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN GXTZ Mount Adapter"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "shoten-gxtz"
@@ -23,7 +23,6 @@
         "electronics",
         "electronicServices",
         "conversionOptics",
-        "mechanisms",
         "officialProductPages",
         "physical.weightMeasurements",
         "physical.dimensionMeasurements"
@@ -45,6 +44,65 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://stkb.co.jp/support.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/60/24/4_000000002460.jpg?1776922560",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/60/24/6_000000002460.jpg?1776922560",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/60/24/12_000000002460.jpg?1776922560",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/60/24/1_000000002460.jpg?1776922560",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://gigaplus.makeshop.jp/shotenkobo/img/shoten/SHOTEN-GXTZ.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "electronics",
+        "electronicServices"
+      ]
     }
+  ],
+  "unresolved": [
+    "Do complete exterior views or operating instructions establish the absence of adjustment mechanisms beyond the lens-release control?"
   ]
 }

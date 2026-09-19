@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "Nikon G to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-ng-nz"
@@ -37,6 +37,75 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/1_800x.png?v=1613499732",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/11_60507622-02b5-4a4d-9324-181a0d362519_800x.jpg?v=1613499732",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/12_22dc30da-a499-4d16-a2d0-3e137d145710_800x.jpg?v=1613499732",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/13_745a6cf8-c21c-4967-b1e6-c1fd5ece6d86_800x.jpg?v=1613499732",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/14_18bbcb0b-c919-45d6-8b83-0d9174fbddb9_800x.jpg?v=1613499732",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/15_090371cf-42a8-4c64-8427-065d9053853a_800x.jpg?v=1613499732",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/16_10916371-1f08-46a5-9eab-9bd29cc27427_800x.jpg?v=1613499733",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does the silver ring operate the lens aperture, and what movement or control procedure is specified for this exact Nikon G adapter? The product text and still images do not explicitly establish its function."
   ]
 }

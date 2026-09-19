@@ -6,7 +6,8 @@
     "brandId": "shoten",
     "productName": "SHOTEN LM-NZ M E Mount Adapter",
     "modelNumberOptions": [
-      "LM-NZ M E"
+      "LM-NZ-M-E-B",
+      "LM-NZ-M-E-S"
     ],
     "alternateNames": null,
     "variants": null
@@ -81,14 +82,15 @@
     "tripodSupport": null
   },
   "electronicServices": {
-    "hasPublishedFirmwareUpdate": true,
+    "hasPublishedFirmwareUpdate": null,
     "connections": [
       {
         "method": "direct-usb",
         "purposes": [
           "firmware-update",
           "configuration"
-        ]
+        ],
+        "connectorType": "other"
       }
     ]
   },

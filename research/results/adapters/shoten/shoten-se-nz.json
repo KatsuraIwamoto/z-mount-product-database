@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN SE-NZ Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "shoten-se-nz"
@@ -22,7 +22,6 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "mechanisms",
         "officialProductPages"
       ],
       "decisionChecks": [
@@ -42,6 +41,40 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/87/12/2_000000001287.jpg?1678209903",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/87/12/1_000000001287.jpg?1678209903",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/87/12/12_000000001287.jpg?1678209903",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Do complete exterior views or operating instructions establish the absence of adjustment mechanisms beyond the lens-release control?"
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "T2 to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-t2-nz"
@@ -37,6 +37,64 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/7_7bafb15d-a8e2-403e-ac3a-08fd2566a295_800x.jpg?v=1613497762",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/1_653e9502-04a5-475f-9d96-e99e879fa9dc_800x.jpg?v=1613497762",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/2_e469f9db-bd5d-4655-b22b-25c99195c369_800x.jpg?v=1613497763",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/4_30d03f2c-db56-443b-9c4e-69a20be06c9b_800x.jpg?v=1613497763",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/6_9d0d365c-42b4-4888-95c1-ba805b737194_800x.jpg?v=1613497763",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/8_011569d4-7e2f-4260-98d4-3ab5ff34e8a7_800x.jpg?v=1613497763",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does the screw-secured lens-side insert provide a user adjustment function on this exact adapter, and what operation is specified?"
   ]
 }

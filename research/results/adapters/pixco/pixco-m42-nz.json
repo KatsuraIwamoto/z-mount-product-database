@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "M42 to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-m42-nz"
@@ -37,6 +37,90 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/8_c2069d00-81fc-4e79-bc0c-f1d5bf937195_800x.jpg?v=1613497768",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/1_32715156-bf7b-4b93-9a1a-a906ceb81287_800x.jpg?v=1613497769",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/2_456f9a95-3b1a-4609-9fa7-bd43ecab4702_800x.jpg?v=1613497769",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/3_d44e0991-f7b2-42aa-9719-eff77c6a71d6_800x.jpg?v=1613497769",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/5_9adc3711-7bad-4b76-9485-6b88f0786cbe_800x.jpg?v=1613497769",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/6_8188467f-9394-448d-875f-d2e0902ad318_800x.jpg?v=1613497769",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/4_e32db2cd-b077-4ece-90d6-8551cded8235_800x.jpg?v=1613497769",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/7_2adce23d-c09b-429e-8d04-2ca3fe2e2e91_800x.jpg?v=1613497769",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does the screw-secured lens-side insert provide a user adjustment function on this exact adapter, and what operation is specified?"
   ]
 }

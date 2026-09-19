@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "Canon EF to Nikon Z Macro Focusing Helicoid Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-ef-nz-macro-helicoid"
@@ -36,6 +36,127 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/PixcoM42ScrewMountSLRLenstoNikonZMountCameraMacroFocusingHelicoidAdapter_2_800x.jpg?v=1613499570",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/PixcoM42ScrewMountSLRLenstoNikonZMountCameraMacroFocusingHelicoidAdapter_8_800x.jpg?v=1613499570",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/PixcoM42ScrewMountSLRLenstoNikonZMountCameraMacroFocusingHelicoidAdapter_9_800x.jpg?v=1613499570",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/PixcoM42ScrewMountSLRLenstoNikonZMountCameraMacroFocusingHelicoidAdapter_1_800x.jpg?v=1613499571",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/PixcoM42ScrewMountSLRLenstoNikonZMountCameraMacroFocusingHelicoidAdapter_7_800x.jpg?v=1613499571",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/PixcoM42ScrewMountSLRLenstoNikonZMountCameraMacroFocusingHelicoidAdapter_6_800x.jpg?v=1613499571",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/PixcoM42ScrewMountSLRLenstoNikonZMountCameraMacroFocusingHelicoidAdapter_3_800x.jpg?v=1613499571",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/PixcoM42ScrewMountSLRLenstoNikonZMountCameraMacroFocusingHelicoidAdapter_4_800x.jpg?v=1613499571",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/PixcoM42ScrewMountSLRLenstoNikonZMountCameraMacroFocusingHelicoidAdapter_5_800x.jpg?v=1613499571",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/PixcoM42ScrewMountSLRLenstoNikonZMountCameraMacroFocusingHelicoidAdapter_10_800x.jpg?v=1613499571",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/PixcoM42ScrewMountSLRLenstoNikonZMountCameraMacroFocusingHelicoidAdapter_11_800x.jpg?v=1613499571",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/PixcoM42ScrewMountSLRLenstoNikonZMountCameraMacroFocusingHelicoidAdapter_12_800x.jpg?v=1613499572",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
       ]
     }
   ]

@@ -6,7 +6,7 @@
     "brandId": "mitakon",
     "name": "Lens Turbo II"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "mitakon-lens-turbo-ii-nikon-z"
@@ -22,7 +22,9 @@
         "lifecycle",
         "electronics",
         "conversionOptics",
-        "officialProductPages"
+        "officialProductPages",
+        "mechanisms",
+        "physical.weightMeasurements"
       ],
       "decisionChecks": [
         "availability"
@@ -36,7 +38,8 @@
         "identity",
         "identity.modelNumberOptions",
         "electronics",
-        "conversionOptics"
+        "conversionOptics",
+        "physical.weightMeasurements"
       ],
       "decisionChecks": [
         "availability"
@@ -53,8 +56,53 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
+        "mechanisms",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.mitakon.com.tw/wp-content/uploads/2023/10/LNLTNZEF_02-1.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://www.mitakon.com.tw/wp-content/uploads/2023/10/LNLTNZEF_08.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://www.mitakon.com.tw/wp-content/uploads/2023/10/LNLTNZM42_09.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://www.mitakon.com.tw/wp-content/uploads/2023/04/LNLTNZNG_03.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
         "mechanisms"
       ]
     }
+  ],
+  "unresolved": [
+    "Which weight applies to each Nikon Z variant? The authorized distributor gives 233 g in shared prose but 227 g in the EF-Z and M42-Z specification tables.",
+    "Does the screw-secured M42 insert provide user adjustment, and are rear and complete circumferential views available for the Nikon F variant?"
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "urth",
     "name": "Canon (EF / EF-S) Lens Mount to Nikon Z Camera Mount (Electronic)"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "urth-ulmae-ef-z"
@@ -23,12 +23,35 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "mechanisms",
         "officialProductPages"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://urth.co/cdn/shop/files/2-Urth-Lens-Mount-Adapter-EF-Z_a74059f6-f6f0-45c7-b8bf-dfea2e4728bb_1000x.jpg?v=1754625234",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://urth.co/cdn/shop/files/3-Urth-Lens-Mount-Adapter-EF-Z_73c75c7b-aea7-4304-b0e7-a8956c9c706a_1000x.jpg?v=1754625234",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Do complete exterior views or model-specific operating instructions establish whether there are any adjustment mechanisms beyond the mounting controls?"
   ]
 }

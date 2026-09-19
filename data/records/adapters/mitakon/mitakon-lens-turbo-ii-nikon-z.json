@@ -87,7 +87,9 @@
   "mechanisms": [
     {
       "type": "aperture-ring",
-      "conditions": {}
+      "conditions": {
+        "variantId": "nikon-f-z"
+      }
     }
   ],
   "physical": {

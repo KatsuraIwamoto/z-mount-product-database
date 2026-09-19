@@ -9,7 +9,7 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
   "recordCount": 445,
-  "contentHash": "sha256:7459f1ac4108d9772bd6628e1d57d8f802f74f0145351cccf82e8d2d41faf55c",
+  "contentHash": "sha256:5e17dc365c921a236874e44001d2339cf2adebf369f560b72f3ec67cc1ed9f47",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -18138,7 +18138,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -20339,7 +20339,9 @@
       "mechanisms": [
         {
           "type": "aperture-ring",
-          "conditions": {}
+          "conditions": {
+            "variantId": "nikon-f-z"
+          }
         }
       ],
       "physical": {
@@ -20607,13 +20609,24 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
-        "dimensionMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              81.5,
+              76.5,
+              35.2
+            ],
+            "approximate": true,
+            "conditions": {}
+          }
+        ],
         "weightMeasurements": [
           {
             "grams": 192,
-            "conditions": {}
+            "conditions": {},
+            "approximate": true
           }
         ],
         "officialEnvironmentalProtectionClaims": null,
@@ -20621,7 +20634,15 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "direct-usb",
+            "purposes": [
+              "firmware-update"
+            ],
+            "connectorType": "usb-c"
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -21372,7 +21393,7 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": [
           {
@@ -21392,7 +21413,15 @@
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "direct-usb",
+            "purposes": [
+              "firmware-update"
+            ],
+            "connectorType": "other"
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -21450,7 +21479,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": [
@@ -22661,7 +22690,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -22721,7 +22750,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -22781,7 +22810,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -22841,7 +22870,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -22901,7 +22930,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -22961,7 +22990,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -23021,12 +23050,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [
-        {
-          "type": "aperture-ring",
-          "conditions": {}
-        }
-      ],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -23086,7 +23110,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -23146,7 +23170,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -23206,7 +23230,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -23266,7 +23290,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -23326,7 +23350,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -23386,7 +23410,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -23446,7 +23470,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -23506,7 +23530,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -23566,7 +23590,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -23626,7 +23650,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -23686,7 +23710,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -23746,12 +23770,30 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": null
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -23866,7 +23908,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -23883,7 +23925,7 @@
       "identity": {
         "manufacturerId": "pixco",
         "brandId": "pixco",
-        "productName": "Contax Rangefinder to Nikon Z Adapter",
+        "productName": "Contax/Yashica to Nikon Z Adapter",
         "modelNumberOptions": null,
         "alternateNames": null,
         "variants": null
@@ -23908,7 +23950,7 @@
       ],
       "mountConfigurations": [
         {
-          "lensSideMountSystemId": "contax-rangefinder",
+          "lensSideMountSystemId": "contax-yashica",
           "cameraSideMountSystemId": "nikon-z",
           "lensRetention": null,
           "lensRearProtrusionLimits": null
@@ -23986,7 +24028,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -24111,7 +24153,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -24236,7 +24278,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -24296,7 +24338,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -24356,7 +24398,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -24476,7 +24518,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -24536,7 +24578,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -24602,7 +24644,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -24662,7 +24704,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -24729,7 +24771,20 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "lengthMm": 11.92,
+            "approximate": true,
+            "conditions": {},
+            "note": "Shortest length, with the helicoid locked."
+          },
+          {
+            "lengthMm": 17.18,
+            "approximate": true,
+            "conditions": {},
+            "note": "Longest length, with the helicoid extended."
+          }
+        ],
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
@@ -24795,7 +24850,12 @@
       ],
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 105,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -24836,7 +24896,9 @@
         {
           "lensSideMountSystemId": "arri-lpl",
           "cameraSideMountSystemId": "nikon-z",
-          "lensRetention": null,
+          "lensRetention": {
+            "type": "positive-lock"
+          },
           "lensRearProtrusionLimits": null
         }
       ],
@@ -24852,7 +24914,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -24912,7 +24974,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -25037,7 +25099,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -25097,7 +25159,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -25342,7 +25404,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -25402,7 +25464,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -25462,12 +25524,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [
-        {
-          "type": "aperture-ring",
-          "conditions": {}
-        }
-      ],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -25527,7 +25584,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -25587,7 +25644,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -25647,7 +25704,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -25707,7 +25764,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -25767,12 +25824,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [
-        {
-          "type": "aperture-ring",
-          "conditions": {}
-        }
-      ],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -25832,7 +25884,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -25892,7 +25944,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -25952,7 +26004,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -26012,7 +26064,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -26622,7 +26674,8 @@
         "brandId": "rayqual",
         "productName": "ASA M37 Lens Mount Adapter for Nikon Z",
         "modelNumberOptions": [
-          "ASA M37-NZ"
+          "ASA M37-NZ",
+          "ASH M37-NZ"
         ],
         "alternateNames": null,
         "variants": null
@@ -26631,7 +26684,20 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "https://www.rayqual.com/ashm37_se.html",
+          "pageFamilies": [
+            "home-country"
+          ],
+          "region": "JP",
+          "language": "ja",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "RAYQUAL"
+          }
+        }
+      ],
       "mountConfigurations": [
         {
           "lensSideMountSystemId": "asa-m37",
@@ -26652,7 +26718,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -26701,7 +26767,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -26817,7 +26883,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -26866,7 +26932,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -26915,7 +26981,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -26943,7 +27009,20 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "https://www.rayqual.com/L39ADJ.html",
+          "pageFamilies": [
+            "home-country"
+          ],
+          "region": "JP",
+          "language": "ja",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "RAYQUAL"
+          }
+        }
+      ],
       "mountConfigurations": [
         {
           "lensSideMountSystemId": "leica-m39",
@@ -26964,7 +27043,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -27013,7 +27092,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -27062,7 +27141,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -27090,7 +27169,20 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "https://www.rayqual.com/M42ADJ.html",
+          "pageFamilies": [
+            "home-country"
+          ],
+          "region": "JP",
+          "language": "ja",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "RAYQUAL"
+          }
+        }
+      ],
       "mountConfigurations": [
         {
           "lensSideMountSystemId": "m42",
@@ -27111,7 +27203,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -27160,7 +27252,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -27209,7 +27301,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -27258,7 +27350,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -27307,7 +27399,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -27356,7 +27448,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -27384,7 +27476,20 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "https://www.rayqual.com/VISO.html",
+          "pageFamilies": [
+            "home-country"
+          ],
+          "region": "JP",
+          "language": "ja",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "RAYQUAL"
+          }
+        }
+      ],
       "mountConfigurations": [
         {
           "lensSideMountSystemId": "leica-visoflex",
@@ -27405,7 +27510,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -27464,13 +27569,19 @@
         "metadataTransmission": {
           "present": true,
           "standards": [
-            "exif"
+            "exif",
+            "cooke-i"
           ]
         },
-        "lensPowerTransmission": null,
-        "recordingTriggerTransmission": null
+        "lensPowerTransmission": true,
+        "recordingTriggerTransmission": true
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "flange-focal-distance-adjustment",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -27532,11 +27643,12 @@
         "metadataTransmission": {
           "present": true,
           "standards": [
-            "exif"
+            "exif",
+            "cooke-i"
           ]
         },
-        "lensPowerTransmission": null,
-        "recordingTriggerTransmission": null
+        "lensPowerTransmission": true,
+        "recordingTriggerTransmission": true
       },
       "mechanisms": [
         {
@@ -28336,14 +28448,19 @@
       "electronics": {
         "electronicContacts": true,
         "autofocus": true,
-        "cameraControlledAperture": null,
-        "lensStabilizationCommunication": null,
-        "manualFocusAssistance": null,
-        "metadataTransmission": null,
+        "cameraControlledAperture": true,
+        "lensStabilizationCommunication": true,
+        "manualFocusAssistance": true,
+        "metadataTransmission": {
+          "present": true,
+          "standards": [
+            "exif"
+          ]
+        },
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": [
           {
@@ -28431,7 +28548,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": [
@@ -28447,7 +28564,7 @@
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": null,
               "interfaces": [
                 {
@@ -28455,7 +28572,7 @@
                 }
               ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -28516,7 +28633,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": [
@@ -28532,7 +28649,7 @@
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": null,
               "interfaces": [
                 {
@@ -28540,7 +28657,7 @@
                 }
               ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -28601,7 +28718,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": [
@@ -28617,7 +28734,7 @@
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": null,
               "interfaces": [
                 {
@@ -28625,7 +28742,7 @@
                 }
               ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -28673,7 +28790,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -28738,7 +28855,7 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": [
           {
@@ -28769,7 +28886,8 @@
             "purposes": [
               "firmware-update",
               "configuration"
-            ]
+            ],
+            "connectorType": "other"
           }
         ]
       },
@@ -28828,7 +28946,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -28890,7 +29008,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": [
@@ -28915,7 +29033,8 @@
         "brandId": "shoten",
         "productName": "SHOTEN LM-NZ M E Mount Adapter",
         "modelNumberOptions": [
-          "LM-NZ M E"
+          "LM-NZ-M-E-B",
+          "LM-NZ-M-E-S"
         ],
         "alternateNames": null,
         "variants": null
@@ -28990,14 +29109,15 @@
         "tripodSupport": null
       },
       "electronicServices": {
-        "hasPublishedFirmwareUpdate": true,
+        "hasPublishedFirmwareUpdate": null,
         "connections": [
           {
             "method": "direct-usb",
             "purposes": [
               "firmware-update",
               "configuration"
-            ]
+            ],
+            "connectorType": "other"
           }
         ]
       },
@@ -29067,7 +29187,8 @@
         "brandId": "shoten",
         "productName": "SHOTEN LM-NZ M II Mount Adapter",
         "modelNumberOptions": [
-          "LM-NZ M II"
+          "LM-NZ-M-II-B",
+          "LM-NZ-M-II-S"
         ],
         "alternateNames": null,
         "variants": null
@@ -29237,7 +29358,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -29302,7 +29423,7 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": [
           {
@@ -29333,7 +29454,8 @@
             "purposes": [
               "firmware-update",
               "configuration"
-            ]
+            ],
+            "connectorType": "other"
           }
         ]
       },
@@ -29391,7 +29513,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -29456,7 +29578,7 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": [
           {
@@ -29487,7 +29609,8 @@
             "purposes": [
               "firmware-update",
               "configuration"
-            ]
+            ],
+            "connectorType": "other"
           }
         ]
       },
@@ -29545,7 +29668,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": [
@@ -29561,7 +29684,7 @@
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": null,
               "interfaces": [
                 {
@@ -29569,7 +29692,7 @@
                 }
               ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -29630,7 +29753,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -29695,7 +29818,7 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": [
           {
@@ -29726,7 +29849,8 @@
             "purposes": [
               "firmware-update",
               "configuration"
-            ]
+            ],
+            "connectorType": "other"
           }
         ]
       },
@@ -29784,7 +29908,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -29849,7 +29973,7 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": [
           {
@@ -29880,7 +30004,8 @@
             "purposes": [
               "firmware-update",
               "configuration"
-            ]
+            ],
+            "connectorType": "other"
           }
         ]
       },
@@ -30009,18 +30134,16 @@
         }
       ],
       "electronics": {
-        "electronicContacts": false,
-        "autofocus": false,
-        "cameraControlledAperture": false,
-        "lensStabilizationCommunication": false,
-        "manualFocusAssistance": false,
-        "metadataTransmission": {
-          "present": false
-        },
-        "lensPowerTransmission": false,
-        "recordingTriggerTransmission": false
+        "electronicContacts": null,
+        "autofocus": null,
+        "cameraControlledAperture": null,
+        "lensStabilizationCommunication": null,
+        "manualFocusAssistance": null,
+        "metadataTransmission": null,
+        "lensPowerTransmission": null,
+        "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": [
@@ -30091,7 +30214,7 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": [
           {
@@ -30122,7 +30245,8 @@
             "purposes": [
               "firmware-update",
               "configuration"
-            ]
+            ],
+            "connectorType": "other"
           }
         ]
       },
@@ -30180,7 +30304,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": [
@@ -30196,7 +30320,7 @@
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": null,
               "interfaces": [
                 {
@@ -30204,7 +30328,7 @@
                 }
               ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -30286,7 +30410,7 @@
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": null,
               "interfaces": [
                 {
@@ -30294,7 +30418,7 @@
                 }
               ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -30355,7 +30479,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": [
@@ -30371,7 +30495,7 @@
           "components": [
             {
               "type": "foot",
-              "relationship": null,
+              "relationship": "supplied",
               "removable": null,
               "interfaces": [
                 {
@@ -30379,7 +30503,7 @@
                 }
               ],
               "modelNumberOptions": null,
-              "quantity": null,
+              "quantity": 1,
               "conditions": {}
             }
           ]
@@ -30440,7 +30564,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -30505,7 +30629,7 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": [
           {
@@ -30536,7 +30660,8 @@
             "purposes": [
               "firmware-update",
               "configuration"
-            ]
+            ],
+            "connectorType": "other"
           }
         ]
       },
@@ -30583,12 +30708,30 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "foot",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": null
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -30623,18 +30766,16 @@
         }
       ],
       "electronics": {
-        "electronicContacts": false,
-        "autofocus": false,
-        "cameraControlledAperture": false,
-        "lensStabilizationCommunication": false,
-        "manualFocusAssistance": false,
-        "metadataTransmission": {
-          "present": false
-        },
-        "lensPowerTransmission": false,
-        "recordingTriggerTransmission": false
+        "electronicContacts": null,
+        "autofocus": null,
+        "cameraControlledAperture": null,
+        "lensStabilizationCommunication": null,
+        "manualFocusAssistance": null,
+        "metadataTransmission": null,
+        "lensPowerTransmission": null,
+        "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -30696,7 +30837,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -30749,14 +30890,19 @@
       "electronics": {
         "electronicContacts": true,
         "autofocus": true,
-        "cameraControlledAperture": null,
-        "lensStabilizationCommunication": null,
+        "cameraControlledAperture": true,
+        "lensStabilizationCommunication": true,
         "manualFocusAssistance": null,
-        "metadataTransmission": null,
+        "metadataTransmission": {
+          "present": true,
+          "standards": [
+            "exif"
+          ]
+        },
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": [
@@ -30834,12 +30980,39 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "flange-focal-distance-adjustment",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
         "officialEnvironmentalProtectionClaims": null,
-        "tripodSupport": null
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "collar-assembly",
+              "relationship": "optional",
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                },
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "3/8-16"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        }
       },
       "electronicServices": null,
       "conversionOptics": {
@@ -31320,7 +31493,7 @@
         "variants": null
       },
       "lifecycle": {
-        "announcementDate": "2025-12-26",
+        "announcementDate": "2025-07-21",
         "officialDesignations": []
       },
       "officialProductPages": [
@@ -31359,10 +31532,16 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 94,
+            "approximate": true,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -31424,7 +31603,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -31486,10 +31665,15 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 48.3,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
@@ -31538,16 +31722,35 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 65,
+            "lengthMm": 16,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 56,
+            "approximate": true,
+            "conditions": {}
+          }
+        ],
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": null
       },
       "electronicServices": {
         "hasPublishedFirmwareUpdate": true,
-        "connections": null
+        "connections": [
+          {
+            "method": "dock",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
       },
       "conversionOptics": {
         "present": false
@@ -31737,7 +31940,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -31799,7 +32002,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -31928,7 +32131,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -32057,7 +32260,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -32119,7 +32322,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -32181,7 +32384,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -32243,7 +32446,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -32305,7 +32508,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -32367,7 +32570,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -32427,7 +32630,7 @@
         "lensPowerTransmission": null,
         "recordingTriggerTransmission": null
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -33314,7 +33517,7 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": null,
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
@@ -33380,7 +33583,12 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "flange-focal-distance-adjustment",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": [
@@ -33449,7 +33657,12 @@
         "lensPowerTransmission": false,
         "recordingTriggerTransmission": false
       },
-      "mechanisms": [],
+      "mechanisms": [
+        {
+          "type": "flange-focal-distance-adjustment",
+          "conditions": {}
+        }
+      ],
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": [
@@ -33561,7 +33774,9 @@
         "manufacturerId": "wooden-camera",
         "brandId": "wooden-camera",
         "productName": "Nikon Z Mount to PL Mount Adapter (Pro)",
-        "modelNumberOptions": null,
+        "modelNumberOptions": [
+          "269000"
+        ],
         "alternateNames": null,
         "variants": null
       },
@@ -33612,7 +33827,16 @@
         }
       ],
       "physical": {
-        "dimensionMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              85.1,
+              81.8,
+              48
+            ],
+            "conditions": {}
+          }
+        ],
         "weightMeasurements": [
           {
             "grams": 251,
@@ -33622,7 +33846,31 @@
         "officialEnvironmentalProtectionClaims": null,
         "tripodSupport": {
           "present": true,
-          "components": null
+          "components": [
+            {
+              "type": "foot",
+              "relationship": "supplied",
+              "removable": true,
+              "interfaces": [
+                {
+                  "type": "mounting-thread",
+                  "threadDesignation": "1/4-20"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": 1,
+              "conditions": {}
+            },
+            {
+              "type": "support-bridge",
+              "relationship": "supplied",
+              "removable": true,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
         }
       },
       "electronicServices": null,

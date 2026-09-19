@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN PL-NZ-U Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "shoten-pl-nz-u"
@@ -20,9 +20,7 @@
         "identity",
         "lifecycle",
         "mountConfigurations",
-        "electronics",
-        "conversionOptics",
-        "mechanisms"
+        "conversionOptics"
       ],
       "decisionChecks": [
         "availability",
@@ -50,6 +48,44 @@
         "identity",
         "mountConfigurations"
       ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/PL-NZ-e1678700396457.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000001782",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/82/17/17_000000001782.jpg?1702445812",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/82/17/18_000000001782.jpg?1702445812",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations"
+      ]
     }
+  ],
+  "unresolved": [
+    "Do complete exterior views or operating instructions establish whether this model has adjustment mechanisms beyond its lens-retention and mount-connection parts?",
+    "Can an unobstructed camera-side mount view or exact-model documentation confirm the electronic-contact specification of PL-NZ-U?"
   ]
 }

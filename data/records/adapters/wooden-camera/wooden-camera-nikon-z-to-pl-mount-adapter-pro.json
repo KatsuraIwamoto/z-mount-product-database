@@ -5,7 +5,9 @@
     "manufacturerId": "wooden-camera",
     "brandId": "wooden-camera",
     "productName": "Nikon Z Mount to PL Mount Adapter (Pro)",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "269000"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -56,7 +58,16 @@
     }
   ],
   "physical": {
-    "dimensionMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          85.1,
+          81.8,
+          48
+        ],
+        "conditions": {}
+      }
+    ],
     "weightMeasurements": [
       {
         "grams": 251,
@@ -66,7 +77,31 @@
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": {
       "present": true,
-      "components": null
+      "components": [
+        {
+          "type": "foot",
+          "relationship": "supplied",
+          "removable": true,
+          "interfaces": [
+            {
+              "type": "mounting-thread",
+              "threadDesignation": "1/4-20"
+            }
+          ],
+          "modelNumberOptions": null,
+          "quantity": 1,
+          "conditions": {}
+        },
+        {
+          "type": "support-bridge",
+          "relationship": "supplied",
+          "removable": true,
+          "interfaces": null,
+          "modelNumberOptions": null,
+          "quantity": 1,
+          "conditions": {}
+        }
+      ]
     }
   },
   "electronicServices": null,

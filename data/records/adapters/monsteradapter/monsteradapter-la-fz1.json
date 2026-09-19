@@ -47,13 +47,24 @@
     "lensPowerTransmission": null,
     "recordingTriggerTransmission": null
   },
-  "mechanisms": [],
+  "mechanisms": null,
   "physical": {
-    "dimensionMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          81.5,
+          76.5,
+          35.2
+        ],
+        "approximate": true,
+        "conditions": {}
+      }
+    ],
     "weightMeasurements": [
       {
         "grams": 192,
-        "conditions": {}
+        "conditions": {},
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": null,
@@ -61,7 +72,15 @@
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "direct-usb",
+        "purposes": [
+          "firmware-update"
+        ],
+        "connectorType": "usb-c"
+      }
+    ]
   },
   "conversionOptics": {
     "present": false

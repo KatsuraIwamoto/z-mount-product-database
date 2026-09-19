@@ -6,7 +6,7 @@
     "brandId": "pholsy",
     "name": "PHOLSY Lens Mount Adapter Manual Focus Compatible with Tamron ADAPTALL-2 Mount Lens to Nikon Z Mount Camera Body"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pholsy-adaptall-nz"
@@ -22,7 +22,6 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "mechanisms",
         "officialProductPages"
       ],
       "decisionChecks": [
@@ -40,6 +39,40 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/TAM-NZ.jpg?v=1728874056&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/4-10_0000s_0002__81.jpg?v=1728874066&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/4-10_0000s_0001__79.jpg?v=1728874068&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Do complete exterior views or operating instructions establish whether this model has any adjustment mechanism beyond its lens-mount connection?"
   ]
 }

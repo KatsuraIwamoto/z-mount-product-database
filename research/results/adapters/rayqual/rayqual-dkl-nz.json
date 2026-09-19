@@ -6,7 +6,7 @@
     "brandId": "rayqual",
     "name": "DKL Lens Mount Adapter for Nikon Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "rayqual-dkl-nz"
@@ -41,7 +41,46 @@
         "lifecycle",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://www.rayqual.com/pic/gaikan/DKL/DKL-NZ.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://www.rayqual.com/pic/gaikan/DKL/UP/DKL-NZ_B.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://www.rayqual.com/pic/gaikan/DKL/UP/DKL-NZ_C.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://www.rayqual.com/pic/gaikan/DKL/UP/DKL-NZ_N.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
       ]
     }
   ]

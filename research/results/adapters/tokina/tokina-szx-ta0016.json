@@ -6,7 +6,7 @@
     "brandId": "tokina",
     "name": "SZX T-Mount Adapter for Nikon Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "tokina-szx-ta0016"
@@ -51,6 +51,17 @@
         "identity",
         "identity.modelNumberOptions"
       ]
+    },
+    {
+      "url": "https://www.tokina.cz/2574-large_default/tokina-mount-adapter-075-x-45-mm.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "Is the screw-secured ring user-adjustable, and are Z-specific rear and other-side views available to establish additional mechanisms?"
   ]
 }

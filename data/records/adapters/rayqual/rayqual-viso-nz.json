@@ -15,7 +15,20 @@
     "announcementDate": null,
     "officialDesignations": []
   },
-  "officialProductPages": [],
+  "officialProductPages": [
+    {
+      "url": "https://www.rayqual.com/VISO.html",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "RAYQUAL"
+      }
+    }
+  ],
   "mountConfigurations": [
     {
       "lensSideMountSystemId": "leica-visoflex",
@@ -36,7 +49,7 @@
     "lensPowerTransmission": false,
     "recordingTriggerTransmission": false
   },
-  "mechanisms": [],
+  "mechanisms": null,
   "physical": {
     "dimensionMeasurements": null,
     "weightMeasurements": null,

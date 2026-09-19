@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "Nikon S to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-ns-nz"
@@ -37,6 +37,66 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/files/IMG_9763_1_800x.png?v=1788925433",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/files/IMG_9766_1_800x.png?v=1788925433",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/files/IMG_9767_1_800x.png?v=1788925433",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/files/IMG_9768_1_800x.png?v=1788925433",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/files/dd615a9d73524b20842442ed824fdc42_6cb2ee13-125e-45b9-9d98-0e7f776cbd21_800x.png?v=1788925433",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/files/6aa70770d0396e299d8843468e28b594_10027d45-430b-44d4-b17d-d8d595e4c55d_800x.png?v=1788925433",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does the ribbed outer section provide an adjustment function beyond mounting? The published images do not establish movement or complete circumferential coverage."
   ]
 }

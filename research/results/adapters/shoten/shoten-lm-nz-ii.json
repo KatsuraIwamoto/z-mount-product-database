@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN LM-NZ II Mount Adapter"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "shoten-lm-nz-ii"
@@ -22,7 +22,6 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "mechanisms",
         "officialProductPages",
         "physical.weightMeasurements"
       ],
@@ -43,6 +42,47 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/66/13/6_000000001366.jpg?1678209903",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/66/13/8_000000001366.jpg?1678209903",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/66/13/5_000000001366.jpg?1678209903",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/66/13/7_000000001366.jpg?1678209903",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete exterior views or operating instructions establish whether this model has additional mechanisms beyond ordinary lens retention? The gallery does not fully expose the circumference."
   ]
 }

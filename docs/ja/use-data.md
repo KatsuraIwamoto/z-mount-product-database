@@ -283,7 +283,7 @@ print(json.dumps(matches, ensure_ascii=False, indent=2))
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
       "recordCount": 445,
-      "contentHash": "sha256:7459f1ac4108d9772bd6628e1d57d8f802f74f0145351cccf82e8d2d41faf55c"
+      "contentHash": "sha256:5e17dc365c921a236874e44001d2339cf2adebf369f560b72f3ec67cc1ed9f47"
     }
     ```
 

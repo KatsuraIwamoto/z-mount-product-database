@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN PL-NZ Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "shoten-pl-nz"
@@ -19,8 +19,7 @@
       "checked": [
         "identity",
         "lifecycle",
-        "mountConfigurations",
-        "mechanisms"
+        "mountConfigurations"
       ],
       "decisionChecks": [
         "availability",
@@ -41,6 +40,31 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/PL-N_Z-2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical.tripodSupport",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/PL-N_Z-1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "physical.tripodSupport"
+      ]
     }
+  ],
+  "unresolved": [
+    "Do complete exterior views or operating instructions establish whether this model has adjustment mechanisms beyond its lens-retention and mount-connection parts?"
   ]
 }

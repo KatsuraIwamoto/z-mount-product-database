@@ -6,7 +6,7 @@
     "brandId": "pholsy",
     "name": "PHOLSY Lens Mount Adapter Manual Focus Compatible with M42 42mm Mount Lens to Nikon Z Mount Camera Body"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pholsy-m42-nz"
@@ -22,7 +22,6 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "mechanisms",
         "officialProductPages"
       ],
       "decisionChecks": [
@@ -40,6 +39,40 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/M42-NZ.jpg?v=1728872450&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/4-10_0004s_0002__69.jpg?v=1728872460&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/m42-nz_7c1e6941-f7ba-4bc9-bf69-0f12bcd3844a.jpg?v=1728872462&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Do model-specific instructions establish an adjustment function for the screw-secured lens-side insert, and how is it operated?"
   ]
 }

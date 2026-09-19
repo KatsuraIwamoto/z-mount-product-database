@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN OOM-NZ Mount Adapter"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "shoten-oom-nz"
@@ -20,9 +20,7 @@
         "identity",
         "identity.modelNumberOptions",
         "mountConfigurations",
-        "electronics",
         "conversionOptics",
-        "mechanisms",
         "officialProductPages",
         "physical.weightMeasurements"
       ],
@@ -43,6 +41,38 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/37/18/2_000000001837.jpg?1678209903",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/37/18/3_000000001837.jpg?1678209903",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/37/18/1_000000001837.jpg?1678209903",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can a complete camera-side mount image or explicit electronic specifications establish the contact and electronic-function status of OOM-NZ, distinct from OOM-NZ E?",
+    "Can complete exterior views or operating instructions establish whether OOM-NZ has additional mechanisms? The published gallery does not cover the full circumference."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "pholsy",
     "name": "PHOLSY Lens Mount Adapter Manual Focus Compatible with M39 LTM 39mm Mount Lens to Nikon Z Mount Camera Body"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pholsy-m39-nz"
@@ -22,7 +22,6 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "mechanisms",
         "officialProductPages"
       ],
       "decisionChecks": [
@@ -40,6 +39,41 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/L39-NZ.jpg?v=1728872178&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/4-10_0002s_0002__75.jpg?v=1728872195&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/4-10_0002s_0001__73.jpg?v=1728872196&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Do model-specific instructions establish an adjustment function for the screw-secured lens-side insert, and how is it operated?"
   ]
 }
