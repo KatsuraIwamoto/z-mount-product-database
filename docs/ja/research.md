@@ -55,7 +55,7 @@
         "brandId": "nikon",
         "name": "Mount Adapter FTZ II"
       },
-      "reviewedOn": "2026-09-02",
+      "reviewedOn": "2026-09-16",
       "decision": {
         "status": "included",
         "recordId": "mount-adapter-ftz-ii"
@@ -138,7 +138,7 @@
 
     NIKKOR Z CINEMA 50mm T1.9 VVを例に、要確認とした調査結果データを説明します。
 
-    Source: `research/results/lenses/nikkor/nikkor-z-cinema-50mm-t1-9-vv.json`
+    参照元：`research/results/lenses/nikkor/nikkor-z-cinema-50mm-t1-9-vv.json`
 
     ```json
     {

@@ -55,7 +55,7 @@ The included example uses the Mount Adapter FTZ II, and the excluded and needs-r
         "brandId": "nikon",
         "name": "Mount Adapter FTZ II"
       },
-      "reviewedOn": "2026-09-02",
+      "reviewedOn": "2026-09-16",
       "decision": {
         "status": "included",
         "recordId": "mount-adapter-ftz-ii"
