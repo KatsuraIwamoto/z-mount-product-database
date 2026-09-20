@@ -69,7 +69,15 @@
   "accessories": null,
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "direct-usb",
+        "connectorType": "micro-usb",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
   },
   "lens": {
     "focalLength": {
@@ -114,12 +122,37 @@
       "groups": 6,
       "elements": 9
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 3
+      },
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 2
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 1
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {
         "present": true,
-        "motors": null
+        "motors": [
+          {
+            "type": "stepping-motor",
+            "quantity": null,
+            "officialName": "STM"
+          }
+        ]
       },
       "manualFocus": null,
       "opticalFocusingSystems": null,

@@ -48,6 +48,18 @@
         "type": "manufacturer-or-brand",
         "name": "LAOWA Cinema Lenses"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat/probezoom-macro.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -110,7 +122,8 @@
     ],
     "filterInterfaces": null,
     "tripodSupport": {
-      "present": false
+      "present": true,
+      "components": null
     },
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false,
@@ -131,6 +144,20 @@
       "type": "aperture-ring",
       "quantity": 1,
       "geared": true
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Backfocus Adjustment"
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Front Barrel Rotation"
     }
   ],
   "accessories": null,
@@ -248,7 +275,7 @@
       }
     },
     "zoom": {
-      "drive": null,
+      "drive": "manual",
       "opticalZoomingSystems": null
     },
     "imageCircleDiameters": [

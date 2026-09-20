@@ -63,12 +63,31 @@
     ],
     "tripodSupport": {
       "present": true,
-      "components": null
+      "components": [
+        {
+          "type": "collar-assembly",
+          "relationship": null,
+          "removable": null,
+          "interfaces": [
+            {
+              "type": "arca-compatible"
+            }
+          ],
+          "modelNumberOptions": null,
+          "quantity": 1,
+          "conditions": {}
+        }
+      ]
     },
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {

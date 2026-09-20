@@ -27,6 +27,18 @@
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/8-15mmf2.8-zf.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -64,6 +76,10 @@
       "type": "aperture-ring",
       "quantity": 1,
       "rotationDegrees": 42
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
     }
   ],
   "accessories": null,
@@ -173,7 +189,20 @@
       "groups": 9,
       "elements": 13
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 1
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 4
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {
@@ -227,7 +256,7 @@
       }
     },
     "zoom": {
-      "drive": null,
+      "drive": "manual",
       "opticalZoomingSystems": null
     }
   }

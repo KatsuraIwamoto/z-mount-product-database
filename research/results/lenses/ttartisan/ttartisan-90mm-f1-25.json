@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan 90mm F1.25"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-90mm-f1-25"
@@ -31,7 +31,9 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "accessories",
+        "controls"
       ]
     },
     {
@@ -53,7 +55,9 @@
         "mount",
         "physical.filterInterfaces",
         "lens.aperture",
-        "lens.focus"
+        "lens.focus",
+        "controls",
+        "lens.opticalConstruction"
       ]
     },
     {
@@ -80,6 +84,19 @@
         "physical.weightMeasurements",
         "lens.stabilization"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/1_45d54440-06c9-450c-b609-8655e067ebe4.jpg?v=1713859048&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can the manufacturer reconcile the current GFX/XCD store table (10 elements in 9 groups, 52 mm filter) with the multi-mount manual including Z (11 elements in 7 groups, 77 mm)? The existing Z optical/filter values follow the manual and are retained.",
+    "Can exact Nikon Z top/bottom/left/right and rear images reconfirm the existing negative tripod/contact/stabilization/retractability facts? Shared barrel images are not complete Z coverage."
   ]
 }

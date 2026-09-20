@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike AF 85mm F1.8 SE Mark II"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-af-85mm-f1-8-se-mark-ii"
@@ -51,6 +51,53 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/8518se__09_L.jpg?v=1762945468",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.aperture",
+        "lens.focus",
+        "lens.opticalConstruction"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/8518se__07.jpg?v=1762939728",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/8518se__06.jpg?v=1762939730",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "lens.focus",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/8518se__08_d4feffbb-774a-4140-ad15-4b9eb20a854e.jpg?v=1763536017",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronicServices",
+        "mount.electronicContacts"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z front, rear, opposite-side and underside photos complete the exterior survey? Current operating images show Sony bodies/shared rear detail; they do not establish absence of other controls or support parts.",
+    "Can operating documentation establish the ring function and manual-focus mechanism?",
+    "What accessories are included in the approximately 379 g Z mass and shared 76 x 100.2 mm dimensions?",
+    "Can the manufacturer clarify axis labels and the unusual full-frame 23.4/10.8/27.8-degree angle-of-view values before they are recorded?"
   ]
 }

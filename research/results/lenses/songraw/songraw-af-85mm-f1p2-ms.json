@@ -9,7 +9,7 @@
       "SongRaw AF 85mm F1.2 M-Simplify"
     ]
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "songraw-af-85mm-f1p2-ms"
@@ -93,6 +93,44 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://img.wanwang.xin/contents/sitefiles2071/10356549/images/176715161.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.opticalConstruction",
+        "physical.filterInterfaces",
+        "physical.weightMeasurements",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://img.wanwang.xin/contents/sitefiles2071/10356549/images/176710690.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://www.songraw.com/85qcb",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "physical"
+      ]
     }
+  ],
+  "unresolved": [
+    "2026-09-20: Manufacturer E/Z specification image reconfirms 18 elements/10 groups, 13 blades, STM, 0.85 m, 0.13x and no stabilization; adds F16, 29.1 degrees, internal focusing and approximately 1120 g. Mass attachment conditions unspecified. SA x1 abbreviation not expanded into a special-element type without a definition. Manufacturer operating close-ups identify AF/MF, FN and front hydrophobic anti-smudge coating. Full Z front/rear/opposite/underside coverage remains incomplete; some other official images returned 403. Existing by-wire mechanism and non-retractability require explicit operational corroboration."
   ]
 }

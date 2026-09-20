@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 90mm F2.2 EVO"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-90mm-f2p2-evo"
@@ -60,6 +60,19 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF90mmF2.2EVOZ-frontview.png?v=1780568012",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete Nikon Z directional photographs reconfirm existing negative tripod/stabilization/retractability facts? Z front-oblique was inspected; complete directional coverage remains unavailable. Firmware capability is explicit, but no product-specific published firmware release was established from the official support navigation; publication remains unknown."
   ]
 }

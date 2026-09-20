@@ -6,7 +6,7 @@
     "brandId": "voigtlander",
     "name": "NOKTON D23mm F1.2 Aspherical"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "voigtlander-nokton-d23mm-f1p2-aspherical"
@@ -99,6 +99,19 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://www.cosina.co.jp/wp/wp-content/uploads/2022/04/Z-D23_12-02-jgjtsxhgw.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete Nikon Z directional photographs reconfirm negative tripod/stabilization/retractability facts? An official Z front-oblique was inspected under the user-authorized simplified licensed-product review; complete directional coverage was not established."
   ]
 }

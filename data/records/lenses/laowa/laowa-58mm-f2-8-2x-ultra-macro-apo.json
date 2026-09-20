@@ -27,6 +27,18 @@
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/4c53c830e1f9d24327ea44009bb38e3893b66a56.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -36,23 +48,8 @@
     "electronicContacts": null
   },
   "physical": {
-    "dimensionMeasurements": [
-      {
-        "maximumDiameterMm": 74,
-        "lengthMm": 117,
-        "approximate": true,
-        "conditions": {}
-      }
-    ],
-    "weightMeasurements": [
-      {
-        "grams": 595,
-        "approximate": true,
-        "conditions": {
-          "attachedComponents": []
-        }
-      }
-    ],
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
     "filterInterfaces": [
       {
@@ -69,7 +66,24 @@
     "externalLengthDuringFocus": "constant",
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {

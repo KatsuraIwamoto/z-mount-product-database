@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 200mm F2 Autofocus Full-Frame Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-200mm-f2-autofocus-full-frame-lens"
@@ -60,7 +60,10 @@
         "lens.anglesOfView",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces"
       ]
     },
     {
@@ -71,6 +74,37 @@
         "identity",
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://www.laowa.jp/200mmf2af_01.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/200mmf2af_02.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com.cn/Public/Uploads/uploadfile/files/20251014/AF-FF-200mm-F2.0-C-Dreamershuomingshu.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "What measurement and configuration conditions explain approximately 1850 g in the manual versus approximately 1588 g on the Japan page, and what is the Nikon Z mass?",
+    "Can Nikon Z-specific views complete exterior coverage and confirm aperture click behavior?",
+    "Which connection method supports the recorded firmware update, and what special elements, coatings and supplied accessories are specified?"
   ]
 }

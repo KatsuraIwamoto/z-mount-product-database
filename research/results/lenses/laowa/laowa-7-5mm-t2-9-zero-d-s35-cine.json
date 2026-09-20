@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 7.5mm T2.9 Zero-D S35 Cine"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-7-5mm-t2-9-zero-d-s35-cine"
@@ -73,8 +73,40 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/380x380_7.5mmT2.9_01.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/380x380_7.5mmT2.9_02.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/380x380_7.5mmT2.9_03.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "What are Nikon Z-specific dimensions and mass for the measurements that vary by mount?",
+    "Can Nikon Z-specific views establish complete exterior coverage and supplied accessory contents?"
   ]
 }

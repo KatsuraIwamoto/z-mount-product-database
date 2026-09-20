@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike 50mm F1.7 Full-Frame Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-50mm-f1-7-full-frame-lens"
@@ -21,7 +21,15 @@
         "identity",
         "lifecycle",
         "mount",
-        "mount.electronicContacts"
+        "mount.electronicContacts",
+        "officialProductPages",
+        "lens.coatings",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "physical.filterInterfaces"
       ],
       "decisionChecks": [
         "availability"
@@ -70,6 +78,22 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/products/5017_c7c70b3f-3a4a-463c-9016-549ec249fd0b.jpg?v=1680402463&width=1042",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces",
+        "lens.coatings"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside photos complete the exterior survey and substantiate the existing tripod-support and retractability fields?",
+    "Can manufacturer operating documentation identify the focus and aperture rings and their click behavior?",
+    "Can a current primary source confirm the existing 12-blade count? The accessible specification text does not state it.",
+    "What are the Nikon Z dimensions, mass and supplied accessories? The Z-titled page explicitly labels its dimensions and package list for Sony E."
   ]
 }

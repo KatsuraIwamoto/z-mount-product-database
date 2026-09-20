@@ -6,7 +6,7 @@
     "brandId": "rollei",
     "name": "Rollei Lens AF 24mm F/1.8 Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "rollei-vaf-24mm-f1p8"
@@ -89,6 +89,63 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://downloads.rollei.com/download/rollei-objektiv-af-35-mm-f-1-8-z/?ind=1768815008827&filename=1768815010wpdm_BDA_VAF%2024-35-85mm.pdf&wpdmdl=3020",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "accessories",
+        "electronicServices",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.rollei.de/cdn/shop/files/11200_Rollei_AF_24mm_f_1.8Z_01.png?v=1768490200&width=1000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "physical",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.rollei.de/cdn/shop/files/11200_Rollei_AF_24mm_f_1.8Z_02.png?v=1768490200&width=1000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "physical",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.rollei.de/cdn/shop/files/11200_Rollei_AF_24mm_f_1.8Z_04.png?v=1768490200&width=2000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "physical",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can opposite-side/underside photographs complete the Z exterior survey? Z-labelled front-oblique and rear-oblique images and the mount-specific manual diagram were inspected.",
+    "Can primary operating documentation explicitly establish the retained electronic manual-focus mechanism and dimensional/mass accessory conditions?",
+    "The product page gives 96mm length but the Nikon Z manual table gives 92mm. The existing 96mm is retained pending manufacturer clarification.",
+    "The generic product description mentions an aperture ring and E-mount, but the Z table says no aperture ring and the Z-specific manual diagram/photos agree. No aperture ring is added."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "voigtlander",
     "name": "MACRO APO-ULTRON D35mm F2"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "voigtlander-macro-apo-ultron-d35mm-f2"
@@ -37,7 +37,8 @@
         "lens.focus",
         "lens.stabilization",
         "lens.specialized",
-        "officialProductPages"
+        "officialProductPages",
+        "lifecycle"
       ]
     },
     {
@@ -109,6 +110,20 @@
         "physical.externalLengthDuringFocus",
         "lens.focus"
       ]
+    },
+    {
+      "url": "https://www.cosina.co.jp/wp/wp-content/uploads/2022/09/D35_20_Z_01ertgfs.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete Nikon Z directional photographs reconfirm negative tripod/stabilization/retractability facts? Official hood-mounted front-oblique was inspected under the user-authorized simplified licensed-product review; complete directional coverage was not established."
   ]
 }

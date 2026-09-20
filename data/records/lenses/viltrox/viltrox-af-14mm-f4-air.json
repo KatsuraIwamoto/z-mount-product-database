@@ -96,7 +96,33 @@
     "isRetractableForStorage": false
   },
   "controls": null,
-  "accessories": null,
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1,
+        "construction": "soft-case"
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": null,
     "connections": [

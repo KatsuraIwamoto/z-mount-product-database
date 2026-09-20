@@ -98,6 +98,10 @@
     {
       "type": "focus-distance-scale",
       "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
     }
   ],
   "accessories": {

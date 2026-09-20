@@ -27,6 +27,18 @@
         "type": "manufacturer-or-brand",
         "name": "LAOWA Cinema Lenses"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat/ranger-s35.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -72,11 +84,15 @@
       }
     ],
     "tripodSupport": {
-      "present": false
+      "present": true,
+      "components": null
     },
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false,
-    "externalLengthDuringZoom": null
+    "externalLengthDuringZoom": null,
+    "frontAccessoryInterface": {
+      "outsideDiameterMm": 80
+    }
   },
   "controls": [
     {
@@ -214,7 +230,7 @@
       "cinema": {}
     },
     "zoom": {
-      "drive": null,
+      "drive": "manual",
       "opticalZoomingSystems": null
     }
   }

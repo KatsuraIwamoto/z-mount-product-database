@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike AF 85mm F1.8 Pro"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-af-85mm-f1-8-pro"
@@ -73,8 +73,57 @@
       "sourceType": "image",
       "checked": [
         "lens.specialElements",
-        "physical.weightMeasurements"
+        "physical.weightMeasurements",
+        "lens.anglesOfView"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/8518-pro-_-_2__01.jpg?v=1752032915",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/8518-pro-_-_2__03.jpg?v=1752032914",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/8518-pro-_-_3_01.jpg?v=1752032915",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/8518-pro-_-_3_02_12765eb0-d2e2-4e4d-bfbb-d8e2074e2f26.jpg?v=1752737553",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.coatings",
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/8518-pro-_-_3_04.jpg?v=1752032915",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount.electronicContacts",
+        "electronicServices"
       ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z opposite-side and underside photos complete the exterior survey and substantiate the existing tripod-support and retractability fields?",
+    "Can operating documentation identify the focus ring, aperture click behavior and camera-dependent settings for linear focus response?",
+    "What accessories are included in the approximately 395 g Z mass and 76 x 97 mm dimensions, and does the shared sealing claim apply to Nikon Z?",
+    "Does the firmware listed as 85mm F1.8 II on this Pro page apply to the Pro model?"
   ]
 }

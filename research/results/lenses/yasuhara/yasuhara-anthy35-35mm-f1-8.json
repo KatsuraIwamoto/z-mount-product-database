@@ -6,7 +6,7 @@
     "brandId": "yasuhara",
     "name": "Anthy35 35mm F1.8 Manual Wide Angle Minimal Distortion Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "yasuhara-anthy35-35mm-f1-8"
@@ -74,6 +74,25 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://yasuharausa.com/cdn/shop/products/Website_-_Anthy35-1_2MP_1732x.jpg?v=1569043411",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://yasuharausa.com/cdn/shop/products/Website_-_Anthy35-3_2MP_1732x.jpg?v=1569043411",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z-specific directional photographs establish the controls and reconfirm absent electronic contacts/tripod support and storage retractability? Shared front/rear-oblique gallery photographs were inspected, but their mount identity is not established; visible rings/scales are not promoted to Z-specific new facts. The integrated hood retracts, which does not establish retractability of the optical barrel."
   ]
 }

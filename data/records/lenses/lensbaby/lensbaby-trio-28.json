@@ -47,6 +47,14 @@
       "type": "other",
       "quantity": 1,
       "officialName": "Lens dial"
+    },
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
     }
   ],
   "accessories": null,

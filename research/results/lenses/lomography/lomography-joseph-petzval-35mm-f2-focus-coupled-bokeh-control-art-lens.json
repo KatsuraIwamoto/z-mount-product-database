@@ -6,7 +6,7 @@
     "brandId": "lomography",
     "name": "Lomography Joseph Petzval 35mm F2 Focus-Coupled Bokeh Control Art Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lomography-joseph-petzval-35mm-f2-focus-coupled-bokeh-control-art-lens"
@@ -31,7 +31,9 @@
         "lens.aperture",
         "lens.coverage",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "accessories",
+        "physical.dimensionMeasurements"
       ]
     },
     {
@@ -46,6 +48,18 @@
         "availability",
         "inclusion-criteria"
       ]
+    },
+    {
+      "url": "https://cdn.shop.lomography.com/media/catalog/product/cache/d48ee8365af56e523deee8f9725f2022/c/a/cashback-35_1__2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside photographs establish complete exterior coverage and electronic-contact status?",
+    "What are the Nikon Z-specific dimensions and mass, including accessory conditions?"
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 50mm F2 Air"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-50mm-f2-air"
@@ -40,7 +40,9 @@
         "lens.focus",
         "lens.stabilization",
         "lens.opticalConstruction",
-        "lens.aperture"
+        "lens.aperture",
+        "identity",
+        "physical"
       ]
     },
     {
@@ -88,6 +90,27 @@
         "lens.opticalConstruction",
         "physical.weightMeasurements"
       ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF50mmF2.0AirZ-14.png?v=1743642539",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_50mm_F2.0_Air_Z-4.jpg?v=1743132181",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can full Z directional images and operating text establish ring function and reconfirm existing negative tripod/stabilization/retractability facts? Actual Z front-oblique and Z package image were inspected; remaining directions are incomplete, and ribbing alone does not establish a functional ring."
   ]
 }

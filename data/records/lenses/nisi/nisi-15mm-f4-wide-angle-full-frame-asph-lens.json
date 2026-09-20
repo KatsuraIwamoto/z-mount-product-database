@@ -18,11 +18,10 @@
     {
       "url": "https://www.nisioptics.com/nisi-15mm-f4",
       "pageFamilies": [
-        "global",
-        "usa"
+        "home-country"
       ],
-      "region": null,
-      "language": "en",
+      "region": "CN",
+      "language": "zh",
       "publisher": {
         "type": "manufacturer-or-brand",
         "name": "NiSi"
@@ -36,8 +35,21 @@
     "electronicContacts": null
   },
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 75.6,
+        "lengthMm": 80.5,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 470,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "filterInterfaces": [
       {
@@ -54,8 +66,46 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": null,
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": null,
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": null,
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "electronicServices": null,
   "lens": {
     "focalLength": {
@@ -91,6 +141,12 @@
         "orientation": null,
         "degrees": 112,
         "conditions": {}
+      },
+      {
+        "format": "aps-c",
+        "orientation": null,
+        "degrees": 78,
+        "conditions": {}
       }
     ],
     "coverage": {
@@ -116,7 +172,21 @@
         "officialName": "ED"
       }
     ],
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null
+      },
+      {
+        "types": [
+          "surface-protective"
+        ],
+        "appliedTo": null,
+        "officialName": "hard surface coating"
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false

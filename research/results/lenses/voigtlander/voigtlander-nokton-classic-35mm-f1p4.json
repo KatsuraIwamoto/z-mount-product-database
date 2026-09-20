@@ -6,7 +6,7 @@
     "brandId": "voigtlander",
     "name": "NOKTON classic 35mm F1.4"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "voigtlander-nokton-classic-35mm-f1p4"
@@ -99,6 +99,19 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://www.cosina.co.jp/wp/wp-content/uploads/2026/06/Z-35_14-web01juwsd.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete Nikon Z directional photographs reconfirm negative tripod/stabilization/retractability facts? An official Z front-oblique was inspected under the user-authorized simplified licensed-product review; complete directional coverage was not established."
   ]
 }

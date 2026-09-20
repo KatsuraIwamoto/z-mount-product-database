@@ -6,7 +6,7 @@
     "brandId": "pergear",
     "name": "PERGEAR 100mm F2.8 2X Macro Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "pergear-100mm-f2-8-2x-macro-lens"
@@ -51,6 +51,22 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.pergear.com/cdn/shop/files/A1002486_new_com01_1_1600x.jpg?v=1730961350",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside images complete the exterior survey and verify contact/support/storage claims? The available shared product view is not a complete mount-specific survey.",
+    "Can operating documentation establish focus-ring operation and the measurement conditions for each mount?",
+    "Can primary operating documentation confirm the recorded rounded blade shape and numerical working distance?",
+    "The specifications label the angle of view with a Celsius symbol and the hood as 67mm. Can the manufacturer clarify these labels and the supplied hood relationship?"
   ]
 }

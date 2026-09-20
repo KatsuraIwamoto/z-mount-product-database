@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "AF 85mm F1.8 Neo Full-Frame Lens"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-af-85mm-f1-8-neo"
@@ -51,7 +51,8 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "lens.specialElements"
       ]
     },
     {
@@ -97,6 +98,20 @@
         "lens.stabilization",
         "identity.modelNumberOptions"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/SKU-Z_566836eb-c16d-46b2-a7e9-98519566af44.jpg?v=1787135257&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "mount"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z top/bottom/left/right and rear photographs reconfirm existing negative tripod/retractability facts? The inspected Z side photograph is incomplete directional coverage; the manufacturer explicitly removes focus/aperture rings and the Z dealer confirms no manual controls.",
+    "Can primary documentation specify the purpose of the rear-cap Type-C port and published Nikon Z firmware availability? The port alone does not establish firmware-update capability."
   ]
 }

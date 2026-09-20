@@ -6,7 +6,7 @@
     "brandId": "voigtlander",
     "name": "PORTRAIT HELIAR 75mm F1.8"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "voigtlander-portrait-heliar-75mm-f1p8"
@@ -122,6 +122,19 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://www.cosina.co.jp/wp/wp-content/uploads/2026/01/Z-75_18-web01-lkpe.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete Nikon Z directional photographs reconfirm negative tripod/stabilization/retractability facts? An official Z front-oblique was inspected under the user-authorized simplified licensed-product review; complete directional coverage was not established."
   ]
 }

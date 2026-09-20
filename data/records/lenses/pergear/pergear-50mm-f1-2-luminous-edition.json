@@ -8,7 +8,20 @@
     "productName": "PERGEAR 50mm F1.2 Luminous Edition",
     "modelNumberOptions": null,
     "alternateNames": null,
-    "variants": null
+    "variants": [
+      {
+        "variantId": "black",
+        "name": "Black",
+        "modelNumberOptions": null,
+        "color": "black"
+      },
+      {
+        "variantId": "silver",
+        "name": "Silver",
+        "modelNumberOptions": null,
+        "color": "silver"
+      }
+    ]
   },
   "lifecycle": {
     "announcementDate": "2025-12-01",
@@ -60,6 +73,14 @@
       "type": "aperture-ring",
       "quantity": 1,
       "clickBehavior": "declicked"
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
     }
   ],
   "accessories": null,

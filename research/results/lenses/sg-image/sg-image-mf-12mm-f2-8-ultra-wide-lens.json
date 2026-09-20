@@ -6,7 +6,7 @@
     "brandId": "sg-image",
     "name": "SG-image MF 12mm F2.8 Ultra-Wide Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "sg-image-mf-12mm-f2-8-ultra-wide-lens"
@@ -61,6 +61,17 @@
         "controls",
         "physical.filterInterfaces"
       ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/1_3b5ab1a7-3b9f-45ff-86d5-f90397c4a958.png?v=1757069898&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "2026-09-20: Official specification image includes Z and agrees with recorded optical and physical values. Shared lateral exterior shows distance and depth-of-field scales; Z-specific rear, opposite side and underside were not established. Manual-focus coupling, stabilization absence and measurement attachment conditions remain unconfirmed by operating documentation; existing values retained pending stronger evidence."
   ]
 }

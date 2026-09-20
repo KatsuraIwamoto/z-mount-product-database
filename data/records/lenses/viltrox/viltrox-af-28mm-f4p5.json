@@ -77,8 +77,8 @@
     "tripodSupport": {
       "present": false
     },
-    "externalLengthDuringFocus": null,
-    "isRetractableForStorage": true
+    "externalLengthDuringFocus": "constant",
+    "isRetractableForStorage": null
   },
   "controls": [
     {
@@ -108,7 +108,9 @@
         "method": "direct-usb",
         "purposes": [
           "firmware-update"
-        ]
+        ],
+        "connectorType": "usb-c",
+        "application": "Viltrox Lens App"
       }
     ]
   },
@@ -136,7 +138,7 @@
       "diaphragm": {
         "present": false
       },
-      "controlMechanism": "electronic"
+      "controlMechanism": null
     },
     "anglesOfView": [
       {

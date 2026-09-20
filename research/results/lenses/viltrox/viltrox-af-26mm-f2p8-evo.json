@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 26mm F2.8 EVO"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-26mm-f2p8-evo"
@@ -38,7 +38,9 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity",
+        "physical"
       ]
     },
     {
@@ -49,6 +51,36 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_26mm_F2.8_EVO_Z-_img3.jpg?v=1784016580",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.filterInterfaces",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_26mm_F2.8_EVO_Z-_img2.jpg?v=1784015634",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_26mm_F2.8_EVO_Z-Package_box.jpg?v=1786677868",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can the prior full specification table be recovered to reconfirm 69.4 x 25.8 mm, F16, seven aperture blades, 0.2x magnification and all-element focusing? The current Specs link resolves to the product page without that table, and the focused official-domain search found no table; prior values are retained.",
+    "Can full directional Z photographs reconfirm existing negative tripod/stabilization/retractability facts and determine aperture click behavior? Actual Z exploded hood/front, rear contacts/USB and package images do not cover every side. Firmware update capability is confirmed but no Z release entry was located."
   ]
 }

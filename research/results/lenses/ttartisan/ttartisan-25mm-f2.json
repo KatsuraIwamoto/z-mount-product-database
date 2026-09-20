@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan 25mm F2"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-25mm-f2"
@@ -46,7 +46,10 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "controls",
+        "accessories",
+        "lens.specialized"
       ]
     },
     {
@@ -59,6 +62,19 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/20230724164743.jpg?v=1690188553&width=493",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z top/bottom/left/right and rear views plus operating documentation reconfirm electronic-contact absence and existing negative tripod, stabilization and retractability facts? Shared barrel images establish visible scales, not a complete Z exterior inventory.",
+    "Can an official specification give Nikon Z weight separately from the shared multi-mount range and identify the included components?"
   ]
 }

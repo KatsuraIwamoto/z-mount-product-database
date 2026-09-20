@@ -79,8 +79,50 @@
     "externalLengthDuringFocus": "constant",
     "isRetractableForStorage": false
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "switchable"
+    },
+    {
+      "type": "aperture-ring-click-switch",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1,
+        "construction": "soft-case"
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": null,
     "connections": [

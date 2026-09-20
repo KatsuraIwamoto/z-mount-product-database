@@ -70,7 +70,27 @@
     "isRetractableForStorage": false
   },
   "controls": null,
-  "accessories": null,
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": null,
+    "rearCaps": null,
+    "lensCases": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1,
+        "construction": "soft-case"
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -115,7 +135,14 @@
       "elements": 12
     },
     "specialElements": null,
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false

@@ -55,7 +55,8 @@
         "grams": 710,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": [
@@ -176,7 +177,14 @@
       },
       "controlMechanism": "electronic"
     },
-    "anglesOfView": null,
+    "anglesOfView": [
+      {
+        "format": "aps-c",
+        "orientation": null,
+        "degrees": 21.35,
+        "conditions": {}
+      }
+    ],
     "coverage": {
       "format": "aps-c"
     },

@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan 50mm F2"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-50mm-f2"
@@ -46,7 +46,10 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "controls",
+        "accessories",
+        "lens.specialized"
       ]
     },
     {
@@ -59,6 +62,18 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/50mm-F2.jpg?v=1690188745&width=493",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z top/bottom/left/right and rear views plus operating documentation reconfirm contact absence and existing negative tripod/stabilization/retractability facts? Shared barrel views do not establish complete Z coverage."
   ]
 }

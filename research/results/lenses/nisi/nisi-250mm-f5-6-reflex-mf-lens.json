@@ -6,7 +6,7 @@
     "brandId": "nisi",
     "name": "NiSi 250mm F5.6 Reflex Lens Manual Focus"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "nisi-250mm-f5-6-reflex-mf-lens"
@@ -33,8 +33,25 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "accessories",
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://nisiopticsusa.com/wp-content/uploads/2024/06/Z-Mount-Main-1536x1536.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical",
+        "mount"
       ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z front, rear, opposite-side and underside views complete the exterior survey? Available images do not establish all contacts, support parts or storage mechanisms.",
+    "What mount and accessory conditions apply to the published dimensions and mass?"
   ]
 }

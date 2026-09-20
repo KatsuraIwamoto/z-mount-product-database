@@ -18,7 +18,7 @@
       {
         "type": "production-ended",
         "region": "JP",
-        "observedOn": "2026-09-02"
+        "observedOn": "2026-09-20"
       }
     ]
   },
@@ -66,6 +66,18 @@
       "type": "other",
       "quantity": 1,
       "officialName": "Effect slider"
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
     }
   ],
   "accessories": {
@@ -149,6 +161,15 @@
     "stabilization": {
       "present": false
     },
-    "specialized": {}
+    "specialized": {
+      "macro": {
+        "workingDistances": [
+          {
+            "distanceM": 0.1524,
+            "conditions": {}
+          }
+        ]
+      }
+    }
   }
 }

@@ -6,7 +6,7 @@
     "brandId": "sirui",
     "name": "SIRUI Vision Prime 150mm T4 1.5x Macro Full-Frame Cine Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "sirui-vision-prime-150mm-t4-1-5x-macro-full-frame-cine-lens"
@@ -39,7 +39,8 @@
         "lens.coatings",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.specialElements"
       ]
     },
     {
@@ -50,6 +51,18 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://store.sirui.com/cdn/shop/files/1_774ad355-2593-4113-918e-7ce8781472e6.png?v=1777259735&width=1214",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "2026-09-20: Current official six-model table and product-specific exterior inspected. Focus/aperture rings explicitly named by manufacturer; distance scales visible. Z-specific dimensions/mass and interchangeable Z mount verified. Shared lateral/front-oblique images do not establish Z rear/opposite side/underside; retained existing contact absence, tripod-support absence, mechanical coupling and stabilization absence pending stronger evidence. HD Nano Coating not repeated in current text; retained existing claim pending corroboration. Single-lens front/rear caps confirmed; generic strap purpose and kit-case inclusion for individual lenses not inferred."
   ]
 }

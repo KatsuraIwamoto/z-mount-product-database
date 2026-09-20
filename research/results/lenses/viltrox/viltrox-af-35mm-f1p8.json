@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 35mm F1.8"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-35mm-f1p8"
@@ -47,7 +47,8 @@
       "checked": [
         "physical.weightMeasurements",
         "electronicServices",
-        "lens.aperture"
+        "lens.aperture",
+        "controls"
       ]
     },
     {
@@ -70,6 +71,26 @@
         "lens.focus",
         "lens.stabilization"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_35mm_F1.8_Z_Manual.pdf?v=17101275752",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "controls",
+        "lens.aperture",
+        "lens.focus",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.coatings",
+        "lens.anglesOfView"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can current full directional Z photographs establish aperture click behavior and USB connector subtype and reconfirm existing negative tripod/stabilization/retractability facts? The old product URL is inaccessible; Z manual diagrams explicitly identify both rings and rear contacts/USB but do not provide full exterior views. The officialProductPages list remains empty rather than substituting the newer EVO lens page."
   ]
 }

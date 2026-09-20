@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 33mm F1.4"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-33mm-f1p4"
@@ -39,7 +39,9 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity",
+        "physical"
       ]
     },
     {
@@ -65,8 +67,22 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "manual",
       "checked": [
-        "electronicServices"
+        "electronicServices",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/APS-C-Z_-AF-33_1.4-Z.png?v=1719199138",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "identity",
+        "mount"
       ]
     }
+  ],
+  "unresolved": [
+    "Can Z-specific package and full directional photographs establish supplied accessories, aperture click behavior and reconfirm existing no-tripod/no-stabilization/non-retractable facts? The current Standard Accessories graphic depicts X-mount packaging, so it is not used to populate Z accessories. The Z front-oblique image and Z firmware notes establish rings but not click behavior."
   ]
 }

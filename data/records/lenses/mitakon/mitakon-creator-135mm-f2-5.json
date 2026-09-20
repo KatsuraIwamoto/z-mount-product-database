@@ -65,8 +65,38 @@
     "externalLengthDuringFocus": "constant",
     "isRetractableForStorage": false
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "integrated",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": null,
+    "rearCaps": null,
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "electronicServices": null,
   "lens": {
     "focalLength": {
@@ -111,7 +141,22 @@
       "groups": 7,
       "elements": 9
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 2,
+        "officialName": "Super ED"
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 2,
+        "officialName": "ultra-high refraction Index glass"
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {
@@ -140,7 +185,12 @@
           "conditions": {}
         }
       ],
-      "officialFocusBehaviorClaims": null
+      "officialFocusBehaviorClaims": [
+        {
+          "type": "focus-breathing-suppressed",
+          "conditions": {}
+        }
+      ]
     },
     "stabilization": {
       "present": false

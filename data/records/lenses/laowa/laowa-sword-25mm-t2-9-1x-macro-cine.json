@@ -85,9 +85,29 @@
       "present": false
     },
     "externalLengthDuringFocus": null,
-    "isRetractableForStorage": false
+    "isRetractableForStorage": false,
+    "frontAccessoryInterface": {
+      "outsideDiameterMm": 80
+    }
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "rotationDegrees": 100,
+      "geared": true
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "rotationDegrees": 40,
+      "geared": true
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {

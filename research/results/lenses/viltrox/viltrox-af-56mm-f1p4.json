@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 56mm F1.4"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-56mm-f1p4"
@@ -65,8 +65,22 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "manual",
       "checked": [
-        "electronicServices"
+        "electronicServices",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/APS-C-Z_-AF-56_1.4-Z-200616.png?v=1722921089&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Can full Nikon Z directional photographs reconfirm existing negative tripod/stabilization/retractability facts and the USB connector subtype? Actual Z front-oblique was inspected; full directional coverage remains unavailable. Aperture-ring click behavior is not inferred from 1/3 EV exposure increments. The product-page narrative says gear-type STM while its specification table says STM plus lead screw; the existing table-based motor detail is retained pending clarification."
   ]
 }

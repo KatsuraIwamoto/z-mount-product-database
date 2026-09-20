@@ -6,7 +6,7 @@
     "brandId": "nisi",
     "name": "NiSi 15mm F4 Wide Angle Full-Frame ASPH Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "nisi-15mm-f4-wide-angle-full-frame-asph-lens"
@@ -36,6 +36,51 @@
         "lens.focus",
         "lens.stabilization"
       ]
+    },
+    {
+      "url": "https://nisiopticsusa.com/product/nisi-15mm-f-4-sunstar-super-wide-angle-full-frame-asph-lens-nikon-z-mount/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.aperture",
+        "lens.focus",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.coatings",
+        "physical"
+      ]
+    },
+    {
+      "url": "https://nisiopticsusa.com/wp-content/uploads/2021/01/NiSi-15mm-F4-Manual.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "accessories",
+        "physical",
+        "lens.anglesOfView",
+        "lens.coatings",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://nisiopticsusa.com/wp-content/uploads/2021/01/NiSi-15mm-f4-Main-600x600.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z front, rear, opposite-side and underside views complete the exterior survey? Available images do not establish all contacts, support parts or storage mechanisms.",
+    "What mount and accessory conditions apply to the published dimensions and mass?",
+    "The US product URL remains readable in the search cache but currently redirects to an unavailable bundle page. What is its current official replacement?",
+    "Can operating documentation establish aperture ring operation and click behavior, and whether the described hood and caps are supplied?"
   ]
 }

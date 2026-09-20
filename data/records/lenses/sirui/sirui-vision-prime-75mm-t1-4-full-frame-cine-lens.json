@@ -80,8 +80,40 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -138,7 +170,29 @@
       "groups": 12,
       "elements": 16
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 1,
+        "officialName": "Aspherical Lens"
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 1,
+        "officialName": "ED Glass"
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 4,
+        "officialName": "HRI Glass"
+      }
+    ],
     "coatings": [
       {
         "types": [
@@ -170,7 +224,12 @@
           "conditions": {}
         }
       ],
-      "officialFocusBehaviorClaims": []
+      "officialFocusBehaviorClaims": [
+        {
+          "type": "focus-breathing-suppressed",
+          "conditions": {}
+        }
+      ]
     },
     "stabilization": {
       "present": false

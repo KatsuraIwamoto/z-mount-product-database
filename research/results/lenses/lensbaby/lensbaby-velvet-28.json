@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Velvet 28"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-velvet-28"
@@ -30,7 +30,8 @@
         "lens.coatings",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "lens.specialized"
       ]
     },
     {
@@ -53,6 +54,36 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://lensbaby.com/blogs/education/velvet-stepbystep-guide",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "lens.focus",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/blogs/creative-photography/photography-with-lensbaby-velvet-28",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/cdn/shop/products/Velvet28_DSLR_Straight_Web.png?v=1637280658&width=1569",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "What is the sensor-to-subject minimum focus distance? Manufacturer operating guidance measures the short focusing distance from the front of the lens.",
+    "What are the Nikon Z-specific dimensions and mass, and can Nikon Z rear/opposite-side/underside photographs complete the exterior survey?",
+    "Can an official f-number be assigned to the aperture-ring plus position beyond f/2.5, described as one-third stop brighter in the manufacturer-hosted article?"
   ]
 }

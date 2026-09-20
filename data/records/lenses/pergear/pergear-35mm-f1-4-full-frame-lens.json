@@ -38,7 +38,13 @@
     }
   },
   "physical": {
-    "dimensionMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 59.6,
+        "conditions": {},
+        "lengthMm": null
+      }
+    ],
     "weightMeasurements": [
       {
         "grams": 245,
@@ -60,9 +66,42 @@
       "type": "aperture-ring",
       "quantity": 1,
       "clickBehavior": "clicked"
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
     }
   ],
-  "accessories": null,
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",

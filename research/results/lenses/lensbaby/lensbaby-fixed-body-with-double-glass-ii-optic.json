@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Fixed Body with Double Glass II Optic"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-fixed-body-with-double-glass-ii-optic"
@@ -41,6 +41,28 @@
       "checked": [
         "lens.focus"
       ]
+    },
+    {
+      "url": "https://lensbaby.com/cdn/shop/files/FixedBody_DoubleGlass2.png?v=1744415661&width=3000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0279/1378/1386/files/DGII_UserGuide_2023_1.pdf?v=1690424280",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z-specific assembled dimensions and mass?",
+    "Can Nikon Z-specific front, rear, opposite-side and underside images and an operating guide establish complete exterior and ring-function coverage?",
+    "How should the fixed-body product description saying non-interchangeable be reconciled with its Optic Swap Compatible specification and the references to a Composer Pro II body?",
+    "What is the minimum focus distance with the fixed body, since the published 380 mm value explicitly applies to Composer lens bodies?"
   ]
 }

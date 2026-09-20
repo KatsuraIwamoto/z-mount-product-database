@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 15mm F5 Cookie FF"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-15mm-f5-cookie-ff"
@@ -58,8 +58,57 @@
         "lens.anglesOfView",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity.variants",
+        "officialProductPages",
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/camera-lens-84.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.variants",
+        "officialProductPages",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.specialElements",
+        "lens.aperture",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20241030/jingtouchanpinyexinde-220.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20241024/jingtouchanpinye3.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20241024/jingtouchanpinye4.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Which accepted operating instructions establish the visible ring function on the Nikon Z AE version?",
+    "What are Nikon Z-specific dimensions and mass, rather than M/E values?",
+    "Can Nikon Z-specific views establish complete exterior coverage?",
+    "What coatings, supplied accessories, external focus-length behavior and published Nikon Z firmware releases are documented?"
   ]
 }

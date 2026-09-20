@@ -151,7 +151,8 @@
         "method": "direct-usb",
         "purposes": [
           "firmware-update"
-        ]
+        ],
+        "connectorType": "usb-c"
       }
     ]
   },

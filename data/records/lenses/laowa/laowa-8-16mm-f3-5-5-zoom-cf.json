@@ -27,6 +27,18 @@
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/cab1e6580bc03c9b80d8dc87fb55be1e0eb65b48.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -54,7 +66,17 @@
       }
     ],
     "officialEnvironmentalProtectionClaims": null,
-    "filterInterfaces": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 86,
+        "host": {
+          "kind": "accessory",
+          "category": "other",
+          "modelNumberOptions": null
+        }
+      }
+    ],
     "tripodSupport": {
       "present": false
     },
@@ -73,6 +95,15 @@
     },
     {
       "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "switchable"
+    },
+    {
+      "type": "aperture-ring-click-switch",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
       "quantity": 1
     }
   ],
@@ -126,7 +157,7 @@
     "anglesOfView": [
       {
         "format": "aps-c",
-        "orientation": null,
+        "orientation": "diagonal",
         "degrees": 120.9,
         "conditions": {
           "focalLength": {
@@ -137,7 +168,7 @@
       },
       {
         "format": "aps-c",
-        "orientation": null,
+        "orientation": "diagonal",
         "degrees": 82.8,
         "conditions": {
           "focalLength": {
@@ -200,7 +231,7 @@
     },
     "specialized": {},
     "zoom": {
-      "drive": null,
+      "drive": "manual",
       "opticalZoomingSystems": null
     }
   }

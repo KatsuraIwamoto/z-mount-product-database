@@ -84,7 +84,32 @@
     "isRetractableForStorage": false
   },
   "controls": [],
-  "accessories": null,
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "electronicServices": null,
   "lens": {
     "focalLength": {
@@ -129,7 +154,20 @@
       "groups": 8,
       "elements": 12
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": null
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": null
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {

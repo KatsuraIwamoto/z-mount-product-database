@@ -43,8 +43,22 @@
     }
   },
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 70,
+        "lengthMm": 89.9,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 397,
+        "conditions": {
+          "attachedComponents": []
+        },
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": [],
     "filterInterfaces": [
       {
@@ -61,7 +75,16 @@
     "externalLengthDuringFocus": "constant",
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
@@ -102,7 +125,14 @@
       },
       "controlMechanism": "electronic"
     },
-    "anglesOfView": null,
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 74.6,
+        "conditions": {}
+      }
+    ],
     "coverage": {
       "format": "full-frame"
     },
@@ -124,6 +154,13 @@
         ],
         "quantity": 3,
         "officialName": "ED"
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 3,
+        "officialName": "High refractive lenses"
       }
     ],
     "coatings": [

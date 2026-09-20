@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 75mm F1.2 Pro"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-75mm-f1p2-pro"
@@ -38,7 +38,8 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.anglesOfView"
       ]
     },
     {
@@ -76,6 +77,19 @@
         "mount",
         "lens.anglesOfView"
       ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF75mm_F1.2_Z-330480.png?v=1722921101&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can full Nikon Z directional images reconfirm existing negative tripod/stabilization/retractability facts and USB connector subtype? Z front-oblique was inspected. The package image in the page body is E-mount and was not used as Z visual evidence; supplied accessories are explicitly listed in manufacturer text."
   ]
 }

@@ -9,7 +9,7 @@
       "SAMYANG MF 85mm F1.4 Z"
     ]
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "samyang-mf-85mm-f1p4-z"
@@ -45,7 +45,8 @@
         "lens.coatings",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "accessories"
       ],
       "decisionChecks": [
         "availability"
@@ -72,6 +73,71 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://rokinon.com/cdn/shop/products/85mm-f14-full-frame-telephoto-nikon-z-990871_1800x1800.jpg?v=1647618439",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "physical",
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://rokinon.com/cdn/shop/products/85mm-f14-full-frame-telephoto-nikon-z-744656_1800x1800.jpg?v=1647618439",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "physical",
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://rokinon.com/cdn/shop/products/85mm-f14-full-frame-telephoto-nikon-z-754414_1800x1800.jpg?v=1647618439",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "physical",
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://rokinon.com/cdn/shop/products/85mm-f14-full-frame-telephoto-nikon-z-554934_1800x1800.jpg?v=1647618439",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "physical",
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://rokinon.com/cdn/shop/products/85mm-f14-full-frame-telephoto-nikon-z-834034_1800x1800.jpg?v=1647618439",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "physical",
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can operating documentation establish aperture click behavior, manual focus mechanism and whether the removable hood is supplied? The linked manual PDF could not be retrieved during this review.",
+    "What accessory conditions apply to the published 740g and 78x102.7mm measurements?",
+    "Five Z photographs cover front, lateral and rear-oblique views including the contact-free rear mount; complete underside/opposite-side coverage remains unconfirmed."
   ]
 }

@@ -52,7 +52,16 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {

@@ -9,7 +9,7 @@
       "VILTROX AF 85mm F1.8"
     ]
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-85mm-f1p8-ii"
@@ -66,6 +66,47 @@
       "checked": [
         "lens.specialElements"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_85mm_F1.8_Z_Manual.pdf?v=1710129076",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "lens.coatings",
+        "controls",
+        "mount",
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus",
+        "physical.externalLengthDuringFocus"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/en-ca/products/viltrox-autofocus-85mm-z-lens-for-nikon-z-mirrorless",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lens.coatings",
+        "lens.specialElements",
+        "lens.opticalConstruction"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/85mmF1.8IIFullFrameZProductlist.jpg?v=1723707207&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which primary specification applies to the recorded II name? The official Z manual states540g and80x100mm without caps, whereas the current85mm EVO comparison labels85mm F1.8 II approximately484g. The legacy Z page title and Z body/manual omit II while image alt text and shared page body include it. Existing484g/name retained without silently choosing between these conflicting manufacturer sources; dimensions remain unknown.",
+    "The Z manual and Z page identify1ED and4 short-wavelength/high-transparency elements, but do not reconfirm the existing aspherical element. The shared FE Mark II source cannot establish a Z-specific aspherical claim; clarification remains necessary.",
+    "Can complete Nikon Z directional photographs reconfirm existing negative tripod/stabilization/retractability facts and USB connector subtype? Z package front-oblique and Z manual component/rear diagrams were inspected; complete directional coverage remains unavailable."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "mitakon",
     "name": "Mitakon Speedmaster 90mm f/1.5 Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "mitakon-speedmaster-90mm-f1-5"
@@ -35,7 +35,8 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.specialElements"
       ],
       "decisionChecks": [
         "availability"
@@ -51,6 +52,23 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://zyoptics.net/wp-content/uploads/2021/10/Mitakon-Speedmaster-90mm-F15-01.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical",
+        "mount"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside images complete the exterior survey, including contacts, support parts and storage retractability?",
+    "What accessory and mount conditions apply to the published mass and dimensions? Current shared specifications do not separately identify all Nikon Z measurement conditions.",
+    "Can operating documentation identify the two rings and aperture click behavior?",
+    "The APO description also mentions anomalous partial dispersion glass; does this describe the same two ED elements? No additional element is counted."
   ]
 }

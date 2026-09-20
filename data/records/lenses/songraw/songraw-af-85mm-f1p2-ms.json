@@ -47,7 +47,15 @@
   },
   "physical": {
     "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "weightMeasurements": [
+      {
+        "grams": 1120,
+        "approximate": true,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "filterInterfaces": [
       {
@@ -62,7 +70,16 @@
     "externalLengthDuringFocus": "constant",
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    },
+    {
+      "type": "function-button",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -78,7 +95,12 @@
             "conditions": {}
           }
         ],
-        "minimumAperture": null,
+        "minimumAperture": [
+          {
+            "value": 16,
+            "conditions": {}
+          }
+        ],
         "effective": null
       },
       "diaphragm": {
@@ -88,7 +110,14 @@
       },
       "controlMechanism": "electronic"
     },
-    "anglesOfView": null,
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 29.1,
+        "conditions": {}
+      }
+    ],
     "coverage": {
       "format": "full-frame"
     },
@@ -97,7 +126,14 @@
       "elements": 18
     },
     "specialElements": null,
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "surface-protective"
+        ],
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": true,
@@ -112,7 +148,12 @@
         "present": true,
         "mechanism": "electronic-by-wire"
       },
-      "opticalFocusingSystems": null,
+      "opticalFocusingSystems": [
+        {
+          "type": "internal-focusing",
+          "officialName": "Internal Focus System"
+        }
+      ],
       "minimumFocusDistances": [
         {
           "distanceM": 0.85,

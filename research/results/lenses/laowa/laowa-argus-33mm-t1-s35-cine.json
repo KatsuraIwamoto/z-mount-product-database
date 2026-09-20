@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA Argus 33mm T1 S35 Cine"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-argus-33mm-t1-s35-cine"
@@ -33,7 +33,11 @@
         "lens.aperture",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.focalLength",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.imageCircleDiameters"
       ],
       "decisionChecks": [
         "availability"
@@ -63,8 +67,47 @@
         "lens.anglesOfView",
         "lens.coverage",
         "lens.imageCircleDiameters",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "controls",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "physical.filterInterfaces",
+        "physical.frontAccessoryInterface",
+        "physical.externalLengthDuringFocus",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/ArgusT1_03_S35.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://laowacine.com/wp-content/uploads/2024/06/DSC_0880-700x467.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "http://laowacine.com/wp-content/uploads/2024/06/Argus-Cine_Lens-Support.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.tripodSupport"
       ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z-specific dimensional and weight measurement conditions?",
+    "Can Nikon Z-specific rear, opposite-side and underside images establish full exterior coverage and the support configuration?"
   ]
 }

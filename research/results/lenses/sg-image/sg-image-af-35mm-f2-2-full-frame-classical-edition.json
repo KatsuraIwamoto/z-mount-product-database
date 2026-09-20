@@ -6,7 +6,7 @@
     "brandId": "sg-image",
     "name": "SG-image AF 35mm F2.2 Full-Frame Classical Edition"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "sg-image-af-35mm-f2-2-full-frame-classical-edition"
@@ -61,6 +61,34 @@
         "lens.aperture",
         "physical.filterInterfaces"
       ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/5_98f07d89-f2b9-4d65-b95c-c9f4bfacb6b6.jpg?v=1782868721&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical",
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/7_150a8037-c962-41a7-b4f5-3ebbd992c377.jpg?v=1782868721&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical",
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Z-specific rear/opposite/underside photographs complete the exterior survey and establish update-port applicability? Shared lateral photographs with and without hood were inspected.",
+    "What mount and accessory conditions apply to the common 163g and 69x36.2mm specification?",
+    "The firmware page lists 35mm updates for E and L mounts only; Nikon Z firmware availability and USB-C applicability remain unconfirmed.",
+    "Can focus-ring operating mechanism and supplied cap details be confirmed?"
   ]
 }

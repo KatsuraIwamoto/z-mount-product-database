@@ -52,7 +52,17 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "other",
+      "officialName": "Lock control",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -132,6 +142,17 @@
     "stabilization": {
       "present": false
     },
-    "specialized": {}
+    "specialized": {
+      "movements": {
+        "tiltMeasurements": [
+          {
+            "maximumFromNeutralDegrees": 8.5,
+            "totalRangeDegrees": null,
+            "directionality": null,
+            "conditions": {}
+          }
+        ]
+      }
+    }
   }
 }

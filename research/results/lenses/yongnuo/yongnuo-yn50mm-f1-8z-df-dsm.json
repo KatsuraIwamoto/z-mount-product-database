@@ -6,7 +6,7 @@
     "brandId": "yongnuo",
     "name": "YONGNUO YN50mm F1.8Z DF DSM"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "yongnuo-yn50mm-f1-8z-df-dsm"
@@ -32,7 +32,9 @@
         "lens.aperture",
         "lens.coverage",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "physical.officialEnvironmentalProtectionClaims",
+        "electronicServices"
       ],
       "decisionChecks": [
         "availability"
@@ -76,7 +78,9 @@
         "lens.aperture",
         "lens.focus",
         "physical.filterInterfaces",
-        "lens.anglesOfView"
+        "lens.anglesOfView",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
       ]
     },
     {
@@ -97,6 +101,27 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://ueeshop.ly200-cdn.com/u_file/UPAU/UPAU946/2311/16/products/cc9e3e9b18.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://ueeshop.ly200-cdn.com/u_file/UPAU/UPAU946/2206/15/products/81ExU5ARH4L-4ac5.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete top, bottom, left, right and mount-face views establish any additional exterior components? The inspected views do not establish a complete inventory or component absence."
   ]
 }

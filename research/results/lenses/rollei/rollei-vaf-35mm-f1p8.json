@@ -6,7 +6,7 @@
     "brandId": "rollei",
     "name": "Rollei Lens AF 35mm F/1.8 Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "rollei-vaf-35mm-f1p8"
@@ -89,6 +89,52 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://downloads.rollei.com/download/rollei-objektiv-af-35-mm-f-1-8-z/?ind=1768815008827&filename=1768815010wpdm_BDA_VAF%2024-35-85mm.pdf&wpdmdl=3020",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "accessories",
+        "electronicServices",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.rollei.de/cdn/shop/files/11204_Rollei_AF_35mm_f1.8_Z_01.png?v=1768542472&width=1000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "physical",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.rollei.de/cdn/shop/files/11204_Rollei_AF_35mm_f1.8_Z_04.png?v=1768542472&width=2000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "physical",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can opposite-side/underside photographs complete the Z exterior survey? Z-labelled front-oblique and rear-oblique images and the mount-specific manual diagram were inspected.",
+    "Can primary operating documentation explicitly establish the retained electronic manual-focus mechanism and dimensional/mass accessory conditions?",
+    "The product table/description says an aperture ring is present, but Z-specific photographs and the manual diagram distinguish Sony FE with an aperture ring from Nikon Z without one. The aperture-ring entry is removed based on the mount-specific manual and photographs; manufacturer correction of the webpage remains desirable.",
+    "The manual transposes optical construction to 11 groups/8 elements, while the product page says 8 groups/11 elements and enumerates 11 special elements. Existing 8 groups/11 elements retained with this discrepancy explicit."
   ]
 }

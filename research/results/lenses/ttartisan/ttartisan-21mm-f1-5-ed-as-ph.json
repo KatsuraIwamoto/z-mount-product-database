@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan 21mm F1.5 ED AS.PH"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-21mm-f1-5-ed-as-ph"
@@ -27,7 +27,9 @@
         "lens.aperture",
         "lens.anglesOfView",
         "lens.opticalConstruction",
-        "lens.focus"
+        "lens.focus",
+        "controls",
+        "lens.specialElements"
       ]
     },
     {
@@ -48,7 +50,10 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "controls",
+        "accessories",
+        "lens.specialElements"
       ]
     },
     {
@@ -61,6 +66,19 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/21mm-F1.5E_7633a674-ccfe-4ab9-8a34-6d0090a9db75.jpg?v=1690187495&width=1445",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which Nikon Z weight and conditions apply: the official site states approximately 412 g, while the store states 422–458 g for multiple mounts? Does the shared 70 mm length apply to Z? Existing values are retained pending clarification. The site table says APS-C despite its full-frame heading; full-frame coverage is retained.",
+    "Can exact Nikon Z top/bottom/left/right and rear views plus operating evidence reconfirm electronic-contact absence and existing tripod, retractability and stabilization negatives? Inspected shared/E barrel views do not establish complete Z coverage or additional control functions."
   ]
 }

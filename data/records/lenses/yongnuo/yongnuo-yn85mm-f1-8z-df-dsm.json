@@ -16,7 +16,7 @@
   },
   "officialProductPages": [
     {
-      "url": "https://www.th.hkyongnuo.com/products/yn85mm-f18z-df-dsm",
+      "url": "https://th.hkyongnuo.com/products/yn85mm-f18z-df-dsm",
       "pageFamilies": [
         "global",
         "usa"
@@ -35,7 +35,12 @@
     "mountOwnerRelationship": null,
     "electronicContacts": {
       "present": true,
-      "metadataTransmission": null
+      "metadataTransmission": {
+        "present": true,
+        "standards": [
+          "exif"
+        ]
+      }
     }
   },
   "physical": {
@@ -55,7 +60,19 @@
         }
       }
     ],
-    "officialEnvironmentalProtectionClaims": null,
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "dust-resistant",
+          "waterproof"
+        ],
+        "scope": {
+          "kind": "component",
+          "component": "mount sealing rubber ring"
+        },
+        "conditions": {}
+      }
+    ],
     "filterInterfaces": [
       {
         "type": "front-thread",
@@ -69,8 +86,46 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "control-ring",
+      "quantity": 1
+    },
+    {
+      "type": "function-button",
+      "quantity": 1
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null,
+    "lensCases": null
+  },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": null,
     "connections": [
@@ -138,8 +193,24 @@
       "groups": 8,
       "elements": 9
     },
-    "specialElements": null,
-    "coatings": null,
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 1
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": [
+          "all-elements"
+        ]
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": true,

@@ -69,8 +69,26 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "optional",
+        "quantity": 1,
+        "modelNumberOptions": null
+      }
+    ],
+    "frontCaps": null,
+    "rearCaps": null,
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "electronicServices": null,
   "lens": {
     "focalLength": {
@@ -122,7 +140,10 @@
         "present": true,
         "motors": null
       },
-      "manualFocus": null,
+      "manualFocus": {
+        "present": true,
+        "mechanism": null
+      },
       "opticalFocusingSystems": null,
       "minimumFocusDistances": [
         {

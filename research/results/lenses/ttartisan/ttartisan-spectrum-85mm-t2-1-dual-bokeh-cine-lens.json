@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan Spectrum 85mm T2.1 Dual-Bokeh Cine Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-spectrum-85mm-t2-1-dual-bokeh-cine-lens"
@@ -48,7 +48,9 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "controls",
+        "accessories"
       ]
     },
     {
@@ -61,6 +63,20 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/85-Z_846b2304-2a47-45a2-8264-5ebe665bb155.jpg?v=1763724382&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "mount"
+      ]
     }
+  ],
+  "unresolved": [
+    "How should mode-dependent focus measurements be represented? The official table gives 0.6 m in Soft mode and 0.67 m in Bubble mode, while the current focus-condition schema has no bokeh-mode key; the values are not flattened into an unconditional distance. The Bubble/Soft selector is visible but its formal control name and mode-dependent focus throw remain unresolved.",
+    "Can exact Nikon Z top/bottom/left/right and rear photographs reconfirm existing negative contacts/tripod/retractability/stabilization facts? The Z side photograph does not provide complete directional coverage."
   ]
 }

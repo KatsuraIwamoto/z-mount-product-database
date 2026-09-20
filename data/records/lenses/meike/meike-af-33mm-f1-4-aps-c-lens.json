@@ -83,7 +83,8 @@
     },
     {
       "type": "aperture-ring",
-      "quantity": 1
+      "quantity": 1,
+      "clickBehavior": "clicked"
     },
     {
       "type": "focus-mode-switch",

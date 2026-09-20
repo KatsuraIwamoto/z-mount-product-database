@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 55mm F2.8 Tilt-Shift 1x Macro"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-55mm-f2-8-tilt-shift-1x-macro"
@@ -61,8 +61,81 @@
         "lens.focus",
         "lens.stabilization",
         "lens.specialized",
+        "physical.tripodSupport",
+        "officialProductPages",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/camera-lens-82",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "physical.weightMeasurements",
+        "physical.dimensionMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/55mmTiltShift.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/cats.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com.cn/Public/Uploads/uploadfile/files/20250905/FFIITS55mmF2.8Macro1Xjingtoushuomingshu.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "lens.specialElements",
+        "lens.imageCircleDiameters",
+        "lens.specialized",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20241008/shouyechanpinzhanshitu1.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20241008/shouyechanpinzhanshitu2.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20241008/shouyechanpinzhanshitu3.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
         "physical.tripodSupport"
       ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z-specific photographs establish complete exterior and rear-contact coverage beyond the shared photographs and manual diagrams?",
+    "What are the Nikon Z-specific dimension and mass conditions, including hood and support attachment?",
+    "Does the isolated ±11 mm manual heading need correction to match its repeated ±12 mm text and specification table?",
+    "What aperture click behavior, coating function and accessory contents beyond the supplied support are documented?"
   ]
 }

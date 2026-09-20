@@ -71,7 +71,22 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "response": "linear"
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "clicked"
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
@@ -148,7 +163,14 @@
         "officialName": "High-Refractive Index Element"
       }
     ],
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": true,

@@ -68,8 +68,36 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -114,7 +142,14 @@
       "elements": 6
     },
     "specialElements": null,
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false
@@ -136,6 +171,12 @@
     "stabilization": {
       "present": false
     },
-    "specialized": {}
+    "specialized": {},
+    "imageCircleDiameters": [
+      {
+        "diameterMm": 60,
+        "conditions": {}
+      }
+    ]
   }
 }

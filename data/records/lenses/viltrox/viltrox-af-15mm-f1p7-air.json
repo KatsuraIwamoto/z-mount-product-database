@@ -45,7 +45,7 @@
   "physical": {
     "dimensionMeasurements": [
       {
-        "maximumDiameterMm": 65,
+        "maximumDiameterMm": 68,
         "lengthMm": 58.5,
         "conditions": {}
       }
@@ -55,7 +55,8 @@
         "grams": 195,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": [
@@ -95,7 +96,8 @@
         "method": "direct-usb",
         "purposes": [
           "firmware-update"
-        ]
+        ],
+        "connectorType": "usb-c"
       }
     ]
   },

@@ -9,7 +9,7 @@
       "SZ SUPER TELE 500mm F8 Reflex MF"
     ]
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "tokina-sz-super-tele-500mm-f8-reflex-mf"
@@ -108,6 +108,19 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.kenko-tokina.co.jp/camera-lens/tokina/assets_c/2023/04/sz500mmf8mf_products2000s-thumb-500xauto-50222.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can accepted exact Nikon Z kit images and documentation reconfirm the supplied adapter identity, full front/rear/both-side exterior, electronic-contact absence and existing negative tripod/retractability facts? Current main pages omit Z from their mount lists; this omission does not itself overturn prior Z-kit evidence.",
+    "Can an accepted source specify the Nikon Z assembled dimensions? The current 310 g figure explicitly excludes the mount adapter, whereas the published length conditions are unspecified."
   ]
 }

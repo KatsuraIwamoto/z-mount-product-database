@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike 6.5mm Ultra Wide F2.0 Circular Fisheye Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-6-5mm-f2-fisheye-lens"
@@ -65,6 +65,21 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/products/1_265ebb46-46e1-4654-a4c1-277c9143b15e.jpg?v=1562035710&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can the manufacturer correct the 85 mm focal-length entry on the 6.5 mm page? The product name, image and circular-fisheye description identify 6.5 mm.",
+    "Do the shared 61 x 51.5 mm dimensions and 300 g mass apply to Nikon Z, and under what accessory conditions?",
+    "Can Nikon Z rear, opposite-side and underside photos complete the exterior survey and substantiate the existing tripod-support and retractability fields?",
+    "Can operating documentation explicitly identify the focus and aperture rings and their click behavior?"
   ]
 }

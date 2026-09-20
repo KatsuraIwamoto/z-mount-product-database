@@ -52,7 +52,20 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": {
     "lensHoods": [
       {
@@ -135,18 +148,28 @@
         "mechanism": null
       },
       "opticalFocusingSystems": null,
-      "minimumFocusDistances": [
+      "minimumFocusDistances": null,
+      "reproductionMagnifications": [
         {
-          "distanceM": 0.23,
+          "kind": "maximum",
+          "value": 0.5,
           "conditions": {}
         }
       ],
-      "reproductionMagnifications": null,
       "officialFocusBehaviorClaims": []
     },
     "stabilization": {
       "present": false
     },
-    "specialized": {}
+    "specialized": {
+      "macro": {
+        "workingDistances": [
+          {
+            "distanceM": 0.23,
+            "conditions": {}
+          }
+        ]
+      }
+    }
   }
 }

@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Fixed Body with Twist 60 Optic"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-fixed-body-with-twist-60-optic"
@@ -41,6 +41,34 @@
       "checked": [
         "lens.focus"
       ]
+    },
+    {
+      "url": "https://lensbaby.com/blogs/creative-photography/guide-composer-series-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "other",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/pages/faq-2",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "faq",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/cdn/shop/products/Twist60_Web.png?v=1637280460&width=1540",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z-specific assembled dimensions and mass?",
+    "Can Nikon Z-specific front, rear, opposite-side and underside images and an operating guide establish complete exterior and control coverage?"
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike AF 55mm F1.4 APS-C Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-af-55mm-f1-4-aps-c-lens"
@@ -35,7 +35,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "controls"
       ],
       "decisionChecks": [
         "availability"
@@ -61,6 +62,30 @@
         "lens.specialElements",
         "physical.weightMeasurements"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/5514_-_2_03.jpg?v=1753067624",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/5514_-_2_04.jpg?v=1753067624",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.coatings",
+        "lens.opticalConstruction",
+        "lens.specialElements"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z opposite-side and underside photos complete the exterior survey and substantiate the existing tripod-support and retractability fields?",
+    "Do the shared 66.5 x 76 mm dimensions and approximately 289 g mass apply to Nikon Z, and under what accessory conditions?",
+    "Can Nikon Z documentation establish the firmware-update connection and applicability of the dust/weather-resistant seal claim illustrated with shared mount imagery?"
   ]
 }

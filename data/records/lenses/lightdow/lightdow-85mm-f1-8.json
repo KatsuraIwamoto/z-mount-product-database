@@ -52,7 +52,20 @@
     "externalLengthDuringFocus": "constant",
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -67,7 +80,12 @@
             "conditions": {}
           }
         ],
-        "minimumAperture": null,
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {}
+          }
+        ],
         "effective": null
       },
       "diaphragm": {
@@ -82,8 +100,24 @@
       "format": "full-frame"
     },
     "opticalConstruction": null,
-    "specialElements": null,
-    "coatings": null,
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "officialName": "H-ASP",
+        "quantity": null
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "officialName": "UMC",
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false

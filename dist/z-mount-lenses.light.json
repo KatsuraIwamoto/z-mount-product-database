@@ -9,7 +9,7 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
   "recordCount": 606,
-  "contentHash": "sha256:30403a31b37a00d38e589b64a68d8a8a470b56add78f73e2ff4c6e4c9d29d8a7",
+  "contentHash": "sha256:ec2b054b7ab665dbce6d0836e0dd1f216274f63b4a67925bd12e6b59aa564d3a",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -16754,6 +16754,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/po-laowa-probe-zoom-15-24mm-t8-15-35mm-t12/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/probezoom-macro.html"
         }
       ],
       "mount": {
@@ -16873,6 +16876,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/po-laowa-probe-zoom-15-24mm-t8-15-35mm-t12/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/probezoom-macro.html"
         }
       ],
       "mount": {
@@ -17082,7 +17088,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-85.html"
+        },
+        {
           "url": "https://www.venuslens.net/product/laowa-15mm-f-4-5-0-5x-wide-angle-macro/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/15mmf4.5-0.5x.html"
         }
       ],
       "mount": {
@@ -17185,6 +17197,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/15mm-f-4-5-zero-d-shift/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/aa2b738c8fac2c15897edfed251a2c5b1aa5325e.html"
         }
       ],
       "mount": {
@@ -17206,7 +17221,8 @@
             "grams": 597,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": []
@@ -17267,6 +17283,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/15mm-f-4-5-zero-d-shift/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/fa954f9a4df41e8c813aaee07c560fc48ed31372.html"
         }
       ],
       "mount": {
@@ -17288,7 +17307,8 @@
             "grams": 597,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": []
@@ -17348,7 +17368,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-84.html"
+        },
+        {
           "url": "https://www.venuslens.net/product/laowa-15mm-f-5-cookie-ff/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/15mmf5-cookie.html"
         }
       ],
       "mount": {
@@ -17456,7 +17482,8 @@
             "grams": 540,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -17528,7 +17555,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-92"
+        },
+        {
           "url": "https://www.venuslens.net/product/laowa-17mm-f-4-zero-d-tilt-shift-shift/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/17mmf4-shift.html"
         }
       ],
       "mount": {
@@ -17623,7 +17656,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-92"
+        },
+        {
           "url": "https://www.venuslens.net/product/laowa-17mm-f-4-zero-d-tilt-shift-shift/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/17mmf4-ts.html"
         }
       ],
       "mount": {
@@ -17719,6 +17758,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/laowa-180mm-f-4-5-1-5x-ultra-macro-apo/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/180mmf4.5-um.html"
         }
       ],
       "mount": {
@@ -17813,6 +17855,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/laowa-200mm-f-2-af-ff/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/200mmf2af.html"
         }
       ],
       "mount": {
@@ -17839,8 +17884,8 @@
             "diameterMm": 105
           },
           {
-            "type": "rear-thread",
-            "diameterMm": 43
+            "type": "drop-in",
+            "filterDiameterMm": 43
           }
         ]
       },
@@ -17904,6 +17949,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/laowa-20mm-f-4-zero-d-shift/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/162af474d5b0a22d674e823dd648dd0fe8be5c97.html"
         }
       ],
       "mount": {
@@ -17999,6 +18047,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/laowa-24mm-f-14-2x-macro-probe/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/dcbd9acd85461a67491a1e3627e42c7e405bd7ca.html"
         }
       ],
       "mount": {
@@ -18020,7 +18071,8 @@
             "grams": 474,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": []
@@ -18089,6 +18141,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/laowa-25mm-f-2-8-2-5-5x-ultra-macro-2/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/bf5601f9105b21ad11d6fefaabb72c917e204fc8.html"
         }
       ],
       "mount": {
@@ -18180,6 +18235,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/the-laowa-35mm-f-2-8-zero-d-tilt-shift-0-5x-macro/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/35mmF2.8-tiltshift.html"
         }
       ],
       "mount": {
@@ -18276,6 +18334,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/4-5-10mm-f-2-8-cf-zoom-fisheye/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/4.5-10mmf2.8.html"
         }
       ],
       "mount": {
@@ -18297,7 +18358,8 @@
             "grams": 338,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": []
@@ -18367,6 +18429,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/laowa-4mm-f-2-8-mft/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/05a17726451511950b0e847d846af510e8153f47.html"
         }
       ],
       "mount": {
@@ -18376,21 +18441,8 @@
         "electronicContacts": null
       },
       "physical": {
-        "dimensionMeasurements": [
-          {
-            "maximumDiameterMm": 45.2,
-            "lengthMm": 25.5,
-            "conditions": {}
-          }
-        ],
-        "weightMeasurements": [
-          {
-            "grams": 135,
-            "conditions": {
-              "attachedComponents": []
-            }
-          }
-        ],
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
         "filterInterfaces": []
       },
       "lens": {
@@ -18424,7 +18476,13 @@
               "conditions": {}
             }
           ],
-          "reproductionMagnifications": null
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.11,
+              "conditions": {}
+            }
+          ]
         },
         "stabilization": {
           "present": false
@@ -18448,7 +18506,13 @@
       },
       "officialProductPages": [
         {
+          "url": "https://www.laowalens.com/camera-lens-82"
+        },
+        {
           "url": "https://www.venuslens.net/product/laowa-55mm-f-2-8-tilt-shift-1x-macro/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/55.100mm-ts.html"
         }
       ],
       "mount": {
@@ -18471,7 +18535,8 @@
             "grams": 1345,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -18544,6 +18609,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/5828-2x-ultra-macro-apo/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/4c53c830e1f9d24327ea44009bb38e3893b66a56.html"
         }
       ],
       "mount": {
@@ -18553,23 +18621,8 @@
         "electronicContacts": null
       },
       "physical": {
-        "dimensionMeasurements": [
-          {
-            "maximumDiameterMm": 74,
-            "lengthMm": 117,
-            "approximate": true,
-            "conditions": {}
-          }
-        ],
-        "weightMeasurements": [
-          {
-            "grams": 595,
-            "approximate": true,
-            "conditions": {
-              "attachedComponents": []
-            }
-          }
-        ],
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
         "filterInterfaces": [
           {
             "type": "front-thread",
@@ -18639,6 +18692,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/laowa-65mm-f-2-8-2x-ultra-macro-apo/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/ac956dc0209581301eb099a0628d17263659e6a2.html"
         }
       ],
       "mount": {
@@ -18660,7 +18716,8 @@
             "grams": 335,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -18732,6 +18789,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/laowa-65mm-t2-9-2x-macro-apo-cine-xz/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/f0029d5d35e6f9e276df218012b714a2505610b8.html"
         }
       ],
       "mount": {
@@ -18745,7 +18805,8 @@
           {
             "maximumDiameterMm": 84.8,
             "lengthMm": 103,
-            "conditions": {}
+            "conditions": {},
+            "approximate": true
           }
         ],
         "weightMeasurements": [
@@ -18753,7 +18814,8 @@
             "grams": 550,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -18827,6 +18889,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/laowa-7-5mm-t2-9-zero-d-s35-cine-z/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/9ec939a518282afa5f52b9e95e79efd084de003f.html"
         }
       ],
       "mount": {
@@ -18923,6 +18988,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/laowa-8-15mm-f-2-8-ff-zoom-fisheye-2/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/8-15mmf2.8-zf.html"
         }
       ],
       "mount": {
@@ -19003,6 +19071,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/laowa-8-16mm-f3-5-5-zoom-cf/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/cab1e6580bc03c9b80d8dc87fb55be1e0eb65b48.html"
         }
       ],
       "mount": {
@@ -19029,7 +19100,12 @@
             }
           }
         ],
-        "filterInterfaces": null
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 86
+          }
+        ]
       },
       "lens": {
         "focalLength": {
@@ -19108,6 +19184,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/laowa-85mm-f-5-6-2x-ultra-macro-apo/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/74c686f1efdf915e57b979f57c94336eb5746ce5.html"
         }
       ],
       "mount": {
@@ -19199,6 +19278,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/laowa-90mm-f-2-8-2x-macro-apo/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/4ce434d8128585914dcdd4bccd06ee16a959a2e5.html"
         }
       ],
       "mount": {
@@ -19208,23 +19290,8 @@
         "electronicContacts": null
       },
       "physical": {
-        "dimensionMeasurements": [
-          {
-            "maximumDiameterMm": 74,
-            "lengthMm": 120,
-            "approximate": true,
-            "conditions": {}
-          }
-        ],
-        "weightMeasurements": [
-          {
-            "grams": 619,
-            "approximate": true,
-            "conditions": {
-              "attachedComponents": []
-            }
-          }
-        ],
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
         "filterInterfaces": [
           {
             "type": "front-thread",
@@ -19289,6 +19356,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/9mm/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/3c472b96527fd176e6b403e6eaa21d225c85efc6.html"
         }
       ],
       "mount": {
@@ -19298,19 +19368,14 @@
         "electronicContacts": null
       },
       "physical": {
-        "dimensionMeasurements": [
-          {
-            "maximumDiameterMm": 60,
-            "lengthMm": 53,
-            "conditions": {}
-          }
-        ],
+        "dimensionMeasurements": null,
         "weightMeasurements": [
           {
             "grams": 215,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -19380,6 +19445,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/laowa-9mm-f-5-6-ff-rl/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/57d28803af8959a4b7a3c8437c0d855837cca00e.html"
         }
       ],
       "mount": {
@@ -19389,21 +19457,8 @@
         "electronicContacts": null
       },
       "physical": {
-        "dimensionMeasurements": [
-          {
-            "maximumDiameterMm": 62.4,
-            "lengthMm": 66,
-            "conditions": {}
-          }
-        ],
-        "weightMeasurements": [
-          {
-            "grams": 350,
-            "conditions": {
-              "attachedComponents": []
-            }
-          }
-        ],
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
         "filterInterfaces": []
       },
       "lens": {
@@ -19487,7 +19542,8 @@
             "grams": 247,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -19559,7 +19615,7 @@
       },
       "officialProductPages": [
         {
-          "url": "https://laowacine.com/product/laowa-aksen-ultra-macro-apo/"
+          "url": "https://laowalens.com/camera-lens-98"
         }
       ],
       "mount": {
@@ -19638,7 +19694,7 @@
       },
       "officialProductPages": [
         {
-          "url": "https://laowacine.com/product/laowa-aksen-ultra-macro-apo/"
+          "url": "https://laowalens.com/camera-lens-98"
         }
       ],
       "mount": {
@@ -19718,6 +19774,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-argus-t1-cine-series-s35/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/argus-T1.html"
         }
       ],
       "mount": {
@@ -19884,6 +19943,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-argus-t1-cine-series-s35/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/argus-T1.html"
         }
       ],
       "mount": {
@@ -20056,6 +20118,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-argus-t1-cine-series-ff/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/argus-T1.html"
         }
       ],
       "mount": {
@@ -20150,6 +20215,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/laowa-argus-33mm-f-0-95-cf-apo/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/7839ebf57335d77e528f1089b52dc0d82a84f429.html"
         }
       ],
       "mount": {
@@ -20171,7 +20239,8 @@
             "grams": 590,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -20212,7 +20281,13 @@
               "conditions": {}
             }
           ],
-          "reproductionMagnifications": null
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.125,
+              "conditions": {}
+            }
+          ]
         },
         "stabilization": {
           "present": false
@@ -20235,6 +20310,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-argus-t1-cine-series-s35/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/argus-T1.html"
         }
       ],
       "mount": {
@@ -20329,6 +20407,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/laowa-argus-35mm-f-0-95-ff/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/f802db3fbeb063f5c033a7a47a4c68622f2e18f7.html"
         }
       ],
       "mount": {
@@ -20422,6 +20503,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-argus-t1-cine-series-ff/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/argus-T1.html"
         }
       ],
       "mount": {
@@ -20516,6 +20600,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/argus-45mm-f-0-95-ff/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/3da0be1d92ea747b362f38ccb3ead7bb1349d67b.html"
         }
       ],
       "mount": {
@@ -20609,6 +20696,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-argus-t1-cine-series-ff/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/argus-T1.html"
         }
       ],
       "mount": {
@@ -20703,6 +20793,9 @@
       "officialProductPages": [
         {
           "url": "https://www.venuslens.net/product/laowa-aurogon-ff-10-50x-na0-5-supermicro-apo/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat1/668827f1b5d63610d94b628335272a150d3e651d.html"
         }
       ],
       "mount": {
@@ -20781,6 +20874,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-1-5x-nanomorph-27mm-t2-8-35mm-t2-4-50mm-t2-4/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/81d4307ac297ffbb45d8a2d0a695f0688bad2856.html"
         }
       ],
       "mount": {
@@ -20790,22 +20886,8 @@
         "electronicContacts": null
       },
       "physical": {
-        "dimensionMeasurements": [
-          {
-            "maximumDiameterMm": 60,
-            "lengthMm": null,
-            "conditions": {}
-          }
-        ],
-        "weightMeasurements": [
-          {
-            "grams": 313,
-            "approximate": true,
-            "conditions": {
-              "attachedComponents": []
-            }
-          }
-        ],
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
         "filterInterfaces": [
           {
             "type": "front-thread",
@@ -20954,6 +21036,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-1-5x-nanomorph-27mm-t2-8-35mm-t2-4-50mm-t2-4/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/81d4307ac297ffbb45d8a2d0a695f0688bad2856.html"
         }
       ],
       "mount": {
@@ -20963,22 +21048,8 @@
         "electronicContacts": null
       },
       "physical": {
-        "dimensionMeasurements": [
-          {
-            "maximumDiameterMm": 60,
-            "lengthMm": null,
-            "conditions": {}
-          }
-        ],
-        "weightMeasurements": [
-          {
-            "grams": 360,
-            "approximate": true,
-            "conditions": {
-              "attachedComponents": []
-            }
-          }
-        ],
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
         "filterInterfaces": [
           {
             "type": "front-thread",
@@ -21127,6 +21198,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-1-5x-nanomorph-27mm-t2-8-35mm-t2-4-50mm-t2-4/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/81d4307ac297ffbb45d8a2d0a695f0688bad2856.html"
         }
       ],
       "mount": {
@@ -21136,22 +21210,8 @@
         "electronicContacts": null
       },
       "physical": {
-        "dimensionMeasurements": [
-          {
-            "maximumDiameterMm": 60,
-            "lengthMm": null,
-            "conditions": {}
-          }
-        ],
-        "weightMeasurements": [
-          {
-            "grams": 390,
-            "approximate": true,
-            "conditions": {
-              "attachedComponents": []
-            }
-          }
-        ],
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
         "filterInterfaces": [
           {
             "type": "front-thread",
@@ -21300,6 +21360,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/nanomorph-1-5x-anamorphic-65mm-t2-4-80mm-t2-4/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/81d4307ac297ffbb45d8a2d0a695f0688bad2856.html"
         }
       ],
       "mount": {
@@ -21309,21 +21372,8 @@
         "electronicContacts": null
       },
       "physical": {
-        "dimensionMeasurements": [
-          {
-            "maximumDiameterMm": 67,
-            "lengthMm": 132,
-            "conditions": {}
-          }
-        ],
-        "weightMeasurements": [
-          {
-            "grams": 690,
-            "conditions": {
-              "attachedComponents": []
-            }
-          }
-        ],
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
         "filterInterfaces": [
           {
             "type": "front-thread",
@@ -21389,6 +21439,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/nanomorph-1-5x-anamorphic-65mm-t2-4-80mm-t2-4/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/81d4307ac297ffbb45d8a2d0a695f0688bad2856.html"
         }
       ],
       "mount": {
@@ -21398,21 +21451,8 @@
         "electronicContacts": null
       },
       "physical": {
-        "dimensionMeasurements": [
-          {
-            "maximumDiameterMm": 67,
-            "lengthMm": 141,
-            "conditions": {}
-          }
-        ],
-        "weightMeasurements": [
-          {
-            "grams": 710,
-            "conditions": {
-              "attachedComponents": []
-            }
-          }
-        ],
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
         "filterInterfaces": [
           {
             "type": "front-thread",
@@ -21561,6 +21601,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-ranger-compact-cine-zoom-series/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/6cabc04d3bd26955447f46b469bbb29d54ab62ef.html"
         }
       ],
       "mount": {
@@ -21666,6 +21709,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-ranger-compact-cine-zoom-series/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/6cabc04d3bd26955447f46b469bbb29d54ab62ef.html"
         }
       ],
       "mount": {
@@ -21771,6 +21817,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-ranger-compact-cine-zoom-series/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/6cabc04d3bd26955447f46b469bbb29d54ab62ef.html"
         }
       ],
       "mount": {
@@ -21876,6 +21925,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-ranger-compact-cine-zoom-series/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/6cabc04d3bd26955447f46b469bbb29d54ab62ef.html"
         }
       ],
       "mount": {
@@ -22191,6 +22243,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-ranger-s35-compact-cine-zoom-series/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/ranger-s35.html"
         }
       ],
       "mount": {
@@ -22298,6 +22353,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-ranger-s35-compact-cine-zoom-series/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/ranger-s35.html"
         }
       ],
       "mount": {
@@ -22405,6 +22463,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-ranger-s35-compact-cine-zoom-series/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/ranger-s35.html"
         }
       ],
       "mount": {
@@ -22512,6 +22573,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-ranger-s35-compact-cine-zoom-series/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/ranger-s35.html"
         }
       ],
       "mount": {
@@ -22619,6 +22683,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-ranger-s35-compact-cine-zoom-series/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/ranger-s35.html"
         }
       ],
       "mount": {
@@ -22726,6 +22793,9 @@
       "officialProductPages": [
         {
           "url": "https://laowacine.com/product/laowa-ranger-s35-compact-cine-zoom-series/"
+        },
+        {
+          "url": "https://www.laowa.jp/cat/ranger-s35.html"
         }
       ],
       "mount": {
@@ -24003,7 +24073,7 @@
           {
             "type": "production-ended",
             "region": "JP",
-            "observedOn": "2026-09-02"
+            "observedOn": "2026-09-20"
           }
         ]
       },
@@ -24061,7 +24131,9 @@
         "stabilization": {
           "present": false
         },
-        "specialized": {}
+        "specialized": {
+          "macro": {}
+        }
       }
     },
     {
@@ -24200,7 +24272,9 @@
         "stabilization": {
           "present": false
         },
-        "specialized": {}
+        "specialized": {
+          "movements": {}
+        }
       }
     },
     {
@@ -24272,7 +24346,9 @@
         "stabilization": {
           "present": false
         },
-        "specialized": {}
+        "specialized": {
+          "movements": {}
+        }
       }
     },
     {
@@ -24344,7 +24420,9 @@
         "stabilization": {
           "present": false
         },
-        "specialized": {}
+        "specialized": {
+          "movements": {}
+        }
       }
     },
     {
@@ -24488,7 +24566,9 @@
         "stabilization": {
           "present": false
         },
-        "specialized": {}
+        "specialized": {
+          "movements": {}
+        }
       }
     },
     {
@@ -24560,7 +24640,9 @@
         "stabilization": {
           "present": false
         },
-        "specialized": {}
+        "specialized": {
+          "movements": {}
+        }
       }
     },
     {
@@ -24632,7 +24714,9 @@
         "stabilization": {
           "present": false
         },
-        "specialized": {}
+        "specialized": {
+          "movements": {}
+        }
       }
     },
     {
@@ -24729,7 +24813,12 @@
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
-        "filterInterfaces": null
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 46
+          }
+        ]
       },
       "lens": {
         "focalLength": {
@@ -25344,7 +25433,8 @@
             "grams": 152,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": []
@@ -25445,7 +25535,9 @@
         "stabilization": {
           "present": false
         },
-        "specialized": {}
+        "specialized": {
+          "movements": {}
+        }
       }
     },
     {
@@ -25578,12 +25670,7 @@
           "manualFocus": {
             "present": true
           },
-          "minimumFocusDistances": [
-            {
-              "distanceM": 0.127,
-              "conditions": {}
-            }
-          ],
+          "minimumFocusDistances": null,
           "reproductionMagnifications": [
             {
               "kind": "maximum",
@@ -25595,7 +25682,9 @@
         "stabilization": {
           "present": false
         },
-        "specialized": {}
+        "specialized": {
+          "macro": {}
+        }
       }
     },
     {
@@ -25800,12 +25889,7 @@
           "manualFocus": {
             "present": true
           },
-          "minimumFocusDistances": [
-            {
-              "distanceM": 0.049,
-              "conditions": {}
-            }
-          ],
+          "minimumFocusDistances": null,
           "reproductionMagnifications": [
             {
               "kind": "maximum",
@@ -25817,7 +25901,9 @@
         "stabilization": {
           "present": false
         },
-        "specialized": {}
+        "specialized": {
+          "macro": {}
+        }
       }
     },
     {
@@ -25878,18 +25964,21 @@
           "manualFocus": {
             "present": true
           },
-          "minimumFocusDistances": [
+          "minimumFocusDistances": null,
+          "reproductionMagnifications": [
             {
-              "distanceM": 0.13,
+              "kind": "maximum",
+              "value": 0.5,
               "conditions": {}
             }
-          ],
-          "reproductionMagnifications": null
+          ]
         },
         "stabilization": {
           "present": false
         },
-        "specialized": {}
+        "specialized": {
+          "macro": {}
+        }
       }
     },
     {
@@ -25950,18 +26039,21 @@
           "manualFocus": {
             "present": true
           },
-          "minimumFocusDistances": [
+          "minimumFocusDistances": null,
+          "reproductionMagnifications": [
             {
-              "distanceM": 0.23,
+              "kind": "maximum",
+              "value": 0.5,
               "conditions": {}
             }
-          ],
-          "reproductionMagnifications": null
+          ]
         },
         "stabilization": {
           "present": false
         },
-        "specialized": {}
+        "specialized": {
+          "macro": {}
+        }
       }
     },
     {
@@ -26134,7 +26226,24 @@
         "electronicContacts": null
       },
       "physical": {
-        "dimensionMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 88,
+            "lengthMm": 154,
+            "conditions": {
+              "attachedComponents": []
+            }
+          },
+          {
+            "maximumDiameterMm": 88,
+            "lengthMm": 200,
+            "conditions": {
+              "attachedComponents": [
+                "lens-hood"
+              ]
+            }
+          }
+        ],
         "weightMeasurements": null,
         "filterInterfaces": [
           {
@@ -26168,7 +26277,12 @@
           "manualFocus": {
             "present": true
           },
-          "minimumFocusDistances": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 1.5,
+              "conditions": {}
+            }
+          ],
           "reproductionMagnifications": null
         },
         "stabilization": {
@@ -26629,7 +26743,12 @@
             }
           }
         ],
-        "filterInterfaces": null
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 77
+          }
+        ]
       },
       "lens": {
         "focalLength": {
@@ -27094,7 +27213,11 @@
         "announcementDate": null,
         "officialDesignations": []
       },
-      "officialProductPages": [],
+      "officialProductPages": [
+        {
+          "url": "https://meikeglobal.com/products/5017z"
+        }
+      ],
       "mount": {
         "systemId": "nikon-z",
         "replaceability": "fixed",
@@ -27521,7 +27644,12 @@
         "mountOwnerRelationship": null,
         "electronicContacts": {
           "present": true,
-          "metadataTransmission": null
+          "metadataTransmission": {
+            "present": true,
+            "standards": [
+              "exif"
+            ]
+          }
         }
       },
       "physical": {
@@ -28415,7 +28543,8 @@
             "grams": 735,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -28667,7 +28796,12 @@
         "mountOwnerRelationship": null,
         "electronicContacts": {
           "present": true,
-          "metadataTransmission": null
+          "metadataTransmission": {
+            "present": true,
+            "standards": [
+              "exif"
+            ]
+          }
         }
       },
       "physical": {
@@ -28725,7 +28859,13 @@
               "conditions": {}
             }
           ],
-          "reproductionMagnifications": null
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.11,
+              "conditions": {}
+            }
+          ]
         },
         "stabilization": {
           "present": false
@@ -28772,7 +28912,8 @@
             "grams": 379,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -29215,7 +29356,7 @@
         "productName": "Trioplan 100 f2.8 II"
       },
       "lifecycle": {
-        "announcementDate": null,
+        "announcementDate": "2022-02-24",
         "officialDesignations": []
       },
       "officialProductPages": [
@@ -36451,8 +36592,21 @@
         "electronicContacts": null
       },
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 75.6,
+            "lengthMm": 80.5,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 470,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
         "filterInterfaces": [
           {
             "type": "front-thread",
@@ -36711,7 +36865,8 @@
             "grams": 790,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -36887,7 +37042,8 @@
             "grams": 300,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": null
@@ -36969,7 +37125,8 @@
             "grams": 230,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": null
@@ -37284,7 +37441,8 @@
             "grams": 210,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -37359,7 +37517,13 @@
         }
       },
       "physical": {
-        "dimensionMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 59.6,
+            "conditions": {},
+            "lengthMm": null
+          }
+        ],
         "weightMeasurements": [
           {
             "grams": 245,
@@ -37523,7 +37687,8 @@
             "grams": 255,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -37606,7 +37771,8 @@
             "grams": 600,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -37701,7 +37867,8 @@
             "grams": 600,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -38794,7 +38961,9 @@
           "autofocus": {
             "present": true
           },
-          "manualFocus": null,
+          "manualFocus": {
+            "present": true
+          },
           "minimumFocusDistances": [
             {
               "distanceM": 0.35,
@@ -42890,8 +43059,21 @@
         }
       },
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 80,
+            "lengthMm": 109.2,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 611,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
         "filterInterfaces": [
           {
             "type": "front-thread",
@@ -42973,7 +43155,13 @@
         }
       },
       "physical": {
-        "dimensionMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 80,
+            "lengthMm": 104,
+            "conditions": {}
+          }
+        ],
         "weightMeasurements": [
           {
             "grams": 607,
@@ -43432,7 +43620,15 @@
       },
       "physical": {
         "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 1120,
+            "approximate": true,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
         "filterInterfaces": [
           {
             "type": "front-thread",
@@ -45827,7 +46023,7 @@
       "physical": {
         "dimensionMeasurements": null,
         "weightMeasurements": null,
-        "filterInterfaces": null
+        "filterInterfaces": []
       },
       "lens": {
         "focalLength": {
@@ -48156,7 +48352,8 @@
           {
             "maximumDiameterMm": 72,
             "lengthMm": 151,
-            "conditions": {}
+            "conditions": {},
+            "approximate": true
           }
         ],
         "weightMeasurements": [
@@ -48164,7 +48361,8 @@
             "grams": 855,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -48555,7 +48753,7 @@
       "physical": {
         "dimensionMeasurements": [
           {
-            "maximumDiameterMm": 65,
+            "maximumDiameterMm": 68,
             "lengthMm": 58.5,
             "conditions": {}
           }
@@ -48565,7 +48763,8 @@
             "grams": 195,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -48764,7 +48963,8 @@
             "grams": 173,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -48863,7 +49063,8 @@
             "grams": 300,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -49349,8 +49550,22 @@
         }
       },
       "physical": {
-        "dimensionMeasurements": null,
-        "weightMeasurements": null,
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 70,
+            "lengthMm": 89.9,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 397,
+            "conditions": {
+              "attachedComponents": []
+            },
+            "approximate": true
+          }
+        ],
         "filterInterfaces": [
           {
             "type": "front-thread",
@@ -49542,7 +49757,8 @@
             "grams": 310,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -49837,7 +50053,8 @@
             "grams": 370,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -50483,7 +50700,8 @@
             "grams": 595,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -50582,7 +50800,8 @@
             "grams": 320,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -50781,7 +51000,8 @@
             "grams": 710,
             "conditions": {
               "attachedComponents": []
-            }
+            },
+            "approximate": true
           }
         ],
         "filterInterfaces": [
@@ -51568,7 +51788,11 @@
         "magnification": 2,
         "apertureLossStops": 2,
         "supportsAutofocus": true,
-        "compatibleLensIds": null
+        "compatibleLensIds": [
+          "nikkor-z-400mm-f4p5-vr-s",
+          "nikkor-z-100-to-400mm-f4p5-to-5p6-vr-s",
+          "nikkor-z-70-to-200mm-f2p8-vr-s"
+        ]
       }
     },
     {
@@ -54534,7 +54758,7 @@
       },
       "officialProductPages": [
         {
-          "url": "https://www.th.hkyongnuo.com/products/yn85mm-f18z-df-dsm"
+          "url": "https://th.hkyongnuo.com/products/yn85mm-f18z-df-dsm"
         }
       ],
       "mount": {
@@ -54543,7 +54767,12 @@
         "mountOwnerRelationship": null,
         "electronicContacts": {
           "present": true,
-          "metadataTransmission": null
+          "metadataTransmission": {
+            "present": true,
+            "standards": [
+              "exif"
+            ]
+          }
         }
       },
       "physical": {
@@ -54801,7 +55030,9 @@
           {
             "maximumDiameterMm": 77,
             "lengthMm": 103,
-            "conditions": {}
+            "conditions": {
+              "attachedComponents": []
+            }
           }
         ],
         "weightMeasurements": [
@@ -54900,7 +55131,9 @@
           {
             "maximumDiameterMm": 77.4,
             "lengthMm": 102,
-            "conditions": {}
+            "conditions": {
+              "attachedComponents": []
+            }
           }
         ],
         "weightMeasurements": [
@@ -54999,7 +55232,9 @@
           {
             "maximumDiameterMm": 87.9,
             "lengthMm": 116,
-            "conditions": {}
+            "conditions": {
+              "attachedComponents": []
+            }
           }
         ],
         "weightMeasurements": [

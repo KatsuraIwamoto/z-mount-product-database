@@ -6,7 +6,7 @@
     "brandId": "nisi",
     "name": "NiSi 9mm F2.8 Sunstar Super Wide Angle ASPH Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "nisi-9mm-f2-8-sunstar-super-wide-angle-asph-lens"
@@ -49,8 +49,26 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "lens.specialElements",
+        "physical.officialEnvironmentalProtectionClaims"
+      ]
+    },
+    {
+      "url": "https://nisiopticsusa.com/wp-content/uploads/2022/09/NiSi-9mm-f2-8-Sunstar-Super-Wide-Angle-ASPH-Lens-1536x1536.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical"
       ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z front, rear, opposite-side and underside views complete the exterior survey? Available images do not establish all contacts, support parts or storage mechanisms.",
+    "What mount and accessory conditions apply to the published dimensions and mass?",
+    "Can operating documentation identify focus-ring operation? The image identifies scales but does not itself establish ring behavior.",
+    "The US page lists a packaged weight below the 364g lens mass; can the package entry be corrected? It is not used as lens mass."
   ]
 }

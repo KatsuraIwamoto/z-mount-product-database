@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 17mm F4 Zero-D Tilt-Shift"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-17mm-f4-zero-d-tilt-shift"
@@ -71,8 +71,59 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
+        "lens.specialized",
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/camera-lens-92",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "officialProductPages",
+        "lens.specialElements",
+        "physical.tripodSupport",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20251124/xijie.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20251124/xijie2.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com.cn/Public/Uploads/uploadfile/files/20250527/FFIITS17mmF4C-Dreamershuomingshu.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "lens.imageCircleDiameters",
         "lens.specialized"
       ]
     }
+  ],
+  "unresolved": [
+    "What are Nikon Z-specific dimensions and mass conditions, rather than the E-mount measurements in China?",
+    "Which image format and orientation explain the 126.2-degree China value and 104-degree Japan value?",
+    "Can Nikon Z-specific views establish complete exterior coverage, and which accessories and support interfaces are supplied?",
+    "What aperture click behavior is specified, and does 0.13x in the manual round the 0.131x Japan value?"
   ]
 }

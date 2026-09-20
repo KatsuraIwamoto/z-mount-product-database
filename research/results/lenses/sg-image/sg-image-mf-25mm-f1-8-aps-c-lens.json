@@ -6,7 +6,7 @@
     "brandId": "sg-image",
     "name": "SG-image MF 25mm F1.8 APS-C Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "sg-image-mf-25mm-f1-8-aps-c-lens"
@@ -61,6 +61,18 @@
         "controls",
         "physical.filterInterfaces"
       ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/Z-01_304e89f9-f170-432c-b698-32e932316d26.png?v=1755256286&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "2026-09-20: Official Z-mounted front-oblique image inspected and official specification image 25m.png agrees with recorded values. Rear, opposite side and underside remain unverified; do not infer absence of contacts or controls from the mounted photograph. Mechanical focus coupling, stabilization absence and measurement attachment conditions need explicit corroboration; retained existing values."
   ]
 }

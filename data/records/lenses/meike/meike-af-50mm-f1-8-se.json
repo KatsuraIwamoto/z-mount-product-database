@@ -62,7 +62,12 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
@@ -103,8 +108,29 @@
       "groups": 7,
       "elements": 11
     },
-    "specialElements": null,
-    "coatings": null,
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 1,
+        "officialName": "ED"
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 1
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": true,

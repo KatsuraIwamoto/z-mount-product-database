@@ -98,9 +98,26 @@
     {
       "type": "focus-distance-scale",
       "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
     }
   ],
-  "accessories": null,
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": null,
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": null,
+    "rearCaps": null,
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",

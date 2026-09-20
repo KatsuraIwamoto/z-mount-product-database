@@ -55,7 +55,8 @@
         "grams": 320,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": [],
@@ -74,7 +75,16 @@
     "externalLengthDuringFocus": "constant",
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,

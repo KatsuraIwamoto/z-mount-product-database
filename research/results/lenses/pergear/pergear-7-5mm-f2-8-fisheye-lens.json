@@ -6,7 +6,7 @@
     "brandId": "pergear",
     "name": "PERGEAR 7.5mm F2.8 Fisheye Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "pergear-7-5mm-f2-8-fisheye-lens"
@@ -32,7 +32,10 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "controls",
+        "lens.coatings",
+        "accessories"
       ]
     },
     {
@@ -45,6 +48,22 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.pergear.com/cdn/shop/products/1595144725701_1600x.png?v=1604025451",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "The official page lists 300g in the feature list and approximately 320g excluding caps/hood in specifications. Which applies to Nikon Z? Mass remains unset.",
+    "Can Nikon Z front/rear/opposite/underside images complete the exterior survey? The shared front-oblique image does not establish all contact/support/storage features.",
+    "Can operating documentation identify ring functions, aperture click behavior, hood relationship and dimensional conditions?",
+    "The 180-degree field is explicitly assigned to Sony/Fuji and 130 degrees to M4/3. Can Nikon Z field and fisheye image type be confirmed?"
   ]
 }

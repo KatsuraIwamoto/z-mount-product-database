@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Trio 28"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-trio-28"
@@ -14,7 +14,7 @@
   "sources": [
     {
       "url": "https://www.kenko-tokina.co.jp/newproducts/trio28_201612.html",
-      "publisherRelationship": "manufacturer-or-brand",
+      "publisherRelationship": "authorized-distributor",
       "sourceType": "announcement",
       "checked": [
         "productType",
@@ -31,7 +31,7 @@
     },
     {
       "url": "https://www.kenko-tokina.co.jp/camera-lens/lensbaby/stand-alone-lens/trio28_holidaykit.html",
-      "publisherRelationship": "manufacturer-or-brand",
+      "publisherRelationship": "authorized-distributor",
       "sourceType": "product-page",
       "checked": [
         "physical",
@@ -79,6 +79,19 @@
         "identity",
         "lens.focus"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0279/1378/1386/files/Trio_28.pdf?5459=",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "controls",
+        "lens.focus"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z-specific dimensions, mass and rear/opposite-side/underside photographs be confirmed? The manufacturer manual shows a Sony-mounted lens; the Japanese holiday-kit specifications list other mounts.",
+    "How should the three distinct Sweet, Velvet and Twist optical constructions be represented without flattening their different element/group counts?"
   ]
 }

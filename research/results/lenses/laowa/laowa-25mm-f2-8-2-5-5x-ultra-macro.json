@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 25mm F2.8 2.5-5x Ultra Macro"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-25mm-f2-8-2-5-5x-ultra-macro"
@@ -61,8 +61,64 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "officialProductPages",
+        "controls",
+        "lens.coatings",
+        "physical.externalLengthDuringFocus"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/2528_new.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/25mmf2.8_02.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/25mmf2.8_03.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/25mmf2.8_04.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com.cn/Ftp/FF%2025mm%20F2.8%20Ultra%20Macro%202.5-5X.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "lens.aperture",
+        "lens.focus",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.coatings"
       ]
     }
+  ],
+  "unresolved": [
+    "What aperture click behavior is specified?",
+    "Which focus-distance endpoints and magnification assignments are correct, given the different ranges in Japan prose and tables?",
+    "What are Nikon Z-specific dimensions and mass with attachment conditions?",
+    "Can Nikon Z-specific views establish complete exterior coverage, and what accessory contents are specified?",
+    "Is the low-dispersion element officially designated ED or UD for this version?"
   ]
 }

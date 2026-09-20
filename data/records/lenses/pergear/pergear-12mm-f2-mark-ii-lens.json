@@ -50,7 +50,8 @@
         "grams": 230,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": null,
@@ -61,7 +62,21 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "clicked"
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {

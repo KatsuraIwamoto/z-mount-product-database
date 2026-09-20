@@ -6,7 +6,7 @@
     "brandId": "lightdow",
     "name": "Lightdow EF 240mm F5.6 Reflex Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lightdow-240mm-f5-6-reflex-lens"
@@ -36,7 +36,8 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.specialElements"
       ]
     },
     {
@@ -50,6 +51,26 @@
         "controls",
         "lens.focus"
       ]
+    },
+    {
+      "url": "https://www.lightdow.com/cdn/shop/files/1_741a3fce-20b2-45e5-a191-faf9fa051000.jpg?v=1755828241&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.lightdow.com/cdn/shop/files/2_a1d78c1b-9b6c-4e6a-97a2-2877aeb4b451.jpg?v=1755828241&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Are the published 145 × 71 mm dimensions valid for the Nikon Z variant, and what are its mass and accessory conditions?",
+    "Can Nikon Z rear/opposite-side/underside photographs complete the exterior survey and confirm the existing tripod-support and retractability fields? The operating diagram identifies the RF version."
   ]
 }

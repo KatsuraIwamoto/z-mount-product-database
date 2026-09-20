@@ -66,7 +66,16 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -112,7 +121,22 @@
       "groups": 6,
       "elements": 9
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 2,
+        "officialName": "Extra-Low Dispersion"
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 1,
+        "officialName": "Ultra-High Refraction"
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {

@@ -27,6 +27,18 @@
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/7839ebf57335d77e528f1089b52dc0d82a84f429.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -48,7 +60,8 @@
         "grams": 590,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": null,
@@ -67,7 +80,25 @@
     "externalLengthDuringFocus": "constant",
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "declicked"
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -83,7 +114,12 @@
             "conditions": {}
           }
         ],
-        "minimumAperture": null,
+        "minimumAperture": [
+          {
+            "value": 11,
+            "conditions": {}
+          }
+        ],
         "effective": null
       },
       "diaphragm": {
@@ -152,7 +188,13 @@
           "conditions": {}
         }
       ],
-      "reproductionMagnifications": null,
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.125,
+          "conditions": {}
+        }
+      ],
       "officialFocusBehaviorClaims": [
         {
           "type": "focus-breathing-suppressed",

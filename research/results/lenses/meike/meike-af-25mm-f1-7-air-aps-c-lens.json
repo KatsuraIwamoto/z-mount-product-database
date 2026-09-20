@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike AF 25mm F1.7 Air APS-C Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-af-25mm-f1-7-air-aps-c-lens"
@@ -71,6 +71,45 @@
       "checked": [
         "controls"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/2517_14.jpg?v=1785379326",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/2517_09.png?v=1788230782",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/2517_11.jpg?v=1785379328",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "mount.electronicContacts"
+      ]
     }
+  ],
+  "unresolved": [
+    "Do the shared 65.5 x 59.2 mm dimensions and 170 g mass apply identically to Nikon Z, and what accessories are included?",
+    "Are both black and white finishes offered for Nikon Z? The shared graphic shows both without specifying their mounts.",
+    "Can Nikon Z front, opposite-side and underside images complete the exterior survey and substantiate the existing tripod-support and retractability fields?",
+    "Can operating documentation confirm the ring function, manual-focus mechanism and any firmware-update interface?"
   ]
 }

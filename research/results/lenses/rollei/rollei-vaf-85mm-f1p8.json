@@ -6,7 +6,7 @@
     "brandId": "rollei",
     "name": "Rollei Lens AF 85mm F/1.8 Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "rollei-vaf-85mm-f1p8"
@@ -110,12 +110,60 @@
       "sourceType": "support-page",
       "checked": [
         "identity",
-        "mount"
+        "mount",
+        "electronicServices"
       ],
       "decisionChecks": [
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://downloads.rollei.com/download/rollei-objektiv-af-35-mm-f-1-8-z/?ind=1768815008827&filename=1768815010wpdm_BDA_VAF%2024-35-85mm.pdf&wpdmdl=3020",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "accessories",
+        "electronicServices",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.rollei.de/cdn/shop/files/12042_Rollei85mm_F1.8_NikonZ_01_ef2b9527-b1a1-45c0-a1a4-c9968cd67638.png?v=1772636754&width=1000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "physical",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.rollei.de/cdn/shop/files/12042_Rollei85mm_F1.8_NikonZ_04_ca9d5a59-e893-4061-97f5-f6e29f09657a.png?v=1772636754&width=2000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "physical",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can opposite-side/underside photographs complete the Z exterior survey? Z-labelled front-oblique and rear-oblique images and the mount-specific manual diagram were inspected.",
+    "Can primary operating documentation explicitly establish the retained electronic manual-focus mechanism and dimensional/mass accessory conditions?",
+    "The Nikon Z manual specifies 497g but the product page says 477g. Existing 477g retained pending manufacturer clarification.",
+    "The manual distinguishes 0.11x in AF and 0.12x in MF; the existing overall maximum 0.12x is consistent, but is not an AF-specific value.",
+    "Can internal focusing and constant external length be reconfirmed by Z-specific primary operating evidence?"
   ]
 }

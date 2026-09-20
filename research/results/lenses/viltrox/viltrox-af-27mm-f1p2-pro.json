@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 27mm F1.2 Pro"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-27mm-f1p2-pro"
@@ -40,7 +40,9 @@
         "lens.specialElements",
         "lens.coatings",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity",
+        "physical"
       ]
     },
     {
@@ -66,8 +68,31 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "manual",
       "checked": [
-        "electronicServices"
+        "electronicServices",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/APS-C-Z_-AF-27mm-F1.2-Pro-Z.png?v=1719482491",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/27mm-f1.2-PC-17.jpg?v=1735811996",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Can a current detailed primary specification reconfirm the retained 1 aspherical / 2 ED / 5 HR element counts? The current text confirms 15 elements in 11 groups but its rendered optical animation does not label special-glass types.",
+    "Can full Nikon Z directional images reconfirm existing negative stabilization/tripod/retractability facts? Actual Z front-oblique and click-switch-side image were inspected, but rear and other directions remain incomplete."
   ]
 }

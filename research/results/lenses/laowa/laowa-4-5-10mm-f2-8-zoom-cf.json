@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 4.5-10mm F2.8 Zoom CF"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-4-5-10mm-f2-8-zoom-cf"
@@ -59,8 +59,50 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "officialProductPages",
+        "controls",
+        "lens.zoom",
+        "lens.imageCircleDiameters",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/4.5-10mmf2.8_zoomfisheye_01.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/4.5-10mmf2.8_zoomfisheye_02.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/files/20260326/LAOWACF4.5-10mmF2.8FISHEYEZOOMshuomingshu.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "lens.zoom",
+        "lens.aperture",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.opticalConstruction",
+        "physical.weightMeasurements",
+        "lens.anglesOfView"
       ]
     }
+  ],
+  "unresolved": [
+    "What are Nikon Z-specific dimensions and mass conditions?",
+    "Can Nikon Z-specific views establish complete exterior coverage, and what coatings and accessories are specified?",
+    "What mass and attachment conditions apply to Nikon Z: approximately 330 g or 338 g?",
+    "What aperture click behavior is specified?"
   ]
 }

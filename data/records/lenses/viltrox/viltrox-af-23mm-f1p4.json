@@ -68,7 +68,8 @@
         "grams": 300,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": [],
@@ -121,14 +122,14 @@
     ],
     "lensCases": [
       {
-        "construction": "soft-case",
         "relationship": "supplied",
         "modelNumberOptions": null,
-        "quantity": 1
+        "quantity": 1,
+        "construction": "soft-case"
       }
     ],
-    "lensStraps": [],
-    "protectiveWraps": []
+    "lensStraps": null,
+    "protectiveWraps": null
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
@@ -137,7 +138,8 @@
         "method": "direct-usb",
         "purposes": [
           "firmware-update"
-        ]
+        ],
+        "connectorType": "micro-usb"
       }
     ]
   },

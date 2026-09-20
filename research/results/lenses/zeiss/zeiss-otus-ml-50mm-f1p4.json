@@ -6,7 +6,7 @@
     "brandId": "zeiss",
     "name": "ZEISS Otus ML 1.4/50"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "zeiss-otus-ml-50mm-f1p4"
@@ -33,8 +33,13 @@
         "lens.aperture",
         "lens.coverage",
         "lens.specialElements",
-        "lens.focus"
-      ]
+        "lens.focus",
+        "lens.imageCircleDiameters",
+        "lens.opticalConstruction",
+        "lens.anglesOfView",
+        "lens.stabilization"
+      ],
+      "note": "The listed uncapped length is measured without lens caps."
     },
     {
       "url": "https://www.zeiss.com/photonics-and-optics/us/photography/products/lenses-for-mirrorless-system-cameras/otus-ml-lenses.html",
@@ -78,11 +83,18 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "mount.electronicContacts",
+        "lens.aperture",
+        "lens.coverage"
       ],
       "decisionChecks": [
         "availability"
-      ]
+      ],
+      "note": "The listed length is measured from the mount."
     },
     {
       "url": "https://petapixel.com/2026/06/16/exclusive-zeiss-refutes-rumors-cosina-developed-otus-ml-lenses/",
@@ -91,6 +103,19 @@
       "checked": [
         "identity"
       ]
+    },
+    {
+      "url": "https://www.cosina.co.jp/wp/wp-content/uploads/2025/02/Otus-ML-50-news-1.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can identified Nikon Z top, bottom, left, right and mount-face views recheck the complete exterior inventory and existing negative physical claims? The shared multi-mount image confirms the visible ring and scale layout only.",
+    "What measurement conditions explain the different angular fields and maximum diameters published by ZEISS and Cosina? Existing values remain pending clarification; Cosina explicitly measures length from the mount while ZEISS lists uncapped overall length."
   ]
 }

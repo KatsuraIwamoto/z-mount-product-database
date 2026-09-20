@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 28mm F1.8"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-28mm-f1p8"
@@ -63,7 +63,8 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "manual",
       "checked": [
-        "electronicServices"
+        "electronicServices",
+        "controls"
       ]
     },
     {
@@ -75,6 +76,37 @@
         "mount",
         "lens.anglesOfView"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_28mm_F1.8_Z_Manual.pdf?v=1710126206",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.focus",
+        "lens.specialElements",
+        "lens.opticalConstruction",
+        "controls",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF28mm_F1.8_Z-729136.png?v=1722921084&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete Nikon Z directional images establish aperture click behavior, USB connector subtype and reconfirm negative stabilization/tripod/retractability facts? Current product-page specifications and labelled function graphic explicitly show Sony E; Z front-oblique and Z manual diagram are available, but not every direction. The Z manual mislabels the aperture-ring pointer as Mounting Index; its aperture scale is visible on the Z image."
   ]
 }

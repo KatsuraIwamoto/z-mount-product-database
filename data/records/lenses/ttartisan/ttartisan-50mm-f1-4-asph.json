@@ -67,7 +67,25 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "clicked"
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -112,7 +130,27 @@
       "groups": 8,
       "elements": 10
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 1
+      },
+      {
+        "types": [
+          "other"
+        ],
+        "quantity": 1,
+        "officialName": "abnormal dispersion"
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 8
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {

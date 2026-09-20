@@ -69,8 +69,42 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -113,6 +147,24 @@
         "orientation": "diagonal",
         "degrees": 46.9,
         "conditions": {}
+      },
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 33.1,
+        "conditions": {}
+      },
+      {
+        "format": "aps-c",
+        "orientation": "horizontal",
+        "degrees": 25.8,
+        "conditions": {}
+      },
+      {
+        "format": "aps-c",
+        "orientation": "vertical",
+        "degrees": 17.4,
+        "conditions": {}
       }
     ],
     "coverage": {
@@ -123,7 +175,14 @@
       "elements": 12
     },
     "specialElements": null,
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false

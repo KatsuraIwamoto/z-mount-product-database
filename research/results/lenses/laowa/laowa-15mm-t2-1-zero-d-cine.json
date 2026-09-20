@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 15mm T2.1 Zero-D Cine"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-15mm-t2-1-zero-d-cine"
@@ -61,8 +61,51 @@
         "lens.anglesOfView",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "controls",
+        "lens.coatings",
+        "lens.imageCircleDiameters",
+        "physical.frontAccessoryInterface",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/15mmT2.1Cine_01.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/15mmT2.1Cine_02.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/15mmT2.1Cine_03.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/15mmT2.1Cine_04.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Which accessible official source reconfirms the Nikon Z offering, given that the current Japan page lists E/RF and the recorded global source is inaccessible?",
+    "What are Nikon Z-specific dimensions, mass and attachment conditions?",
+    "Can Nikon Z-specific views establish complete exterior coverage?",
+    "What are the supplied accessories, aperture click behavior, focus rotation and external focus-length behavior?"
   ]
 }

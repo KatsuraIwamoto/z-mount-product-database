@@ -59,7 +59,12 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    }
+  ],
   "accessories": {
     "lensHoods": null,
     "frontCaps": [

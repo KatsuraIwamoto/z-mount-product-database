@@ -6,7 +6,7 @@
     "brandId": "lightdow",
     "name": "Lightdow 85mm F1.8 Medium Telephoto Manual Focus Full Frame Portrait Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lightdow-85mm-f1-8"
@@ -33,8 +33,41 @@
         "lens.aperture",
         "lens.coverage",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.specialElements",
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0861/9628/9853/files/Lightdow_85mm_F1.8_Portrait_Lens_for_Canon_Nikon_Sony_01_dc595998-3dd1-4671-a565-71da3244b33a.jpg?v=1710814614",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.aperture"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0861/9628/9853/files/Lightdow_85mm_F1.8_Portrait_Lens_for_Canon_Nikon_Sony_02.jpg?v=1710814614",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.aperture"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0861/9628/9853/files/Lightdow_85mm_F1.8_Portrait_Lens_for_Canon_Nikon_Sony_12.jpg?v=1710814615",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.aperture"
       ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z-specific rear/opposite-side/underside photographs complete the exterior survey and confirm the existing tripod-support and retractability fields? The annotated diagram shows a DSLR mount.",
+    "What are the Nikon Z-specific dimensions, mass, filter thread and supplied accessories? The shared accessories photo does not identify the Nikon Z package."
   ]
 }

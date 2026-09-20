@@ -27,12 +27,25 @@
     "dimensionMeasurements": null,
     "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
-    "filterInterfaces": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 46,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
     "tripodSupport": null,
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -72,7 +85,7 @@
       "elements": 1
     },
     "specialElements": null,
-    "coatings": null,
+    "coatings": [],
     "focus": {
       "autofocus": {
         "present": false

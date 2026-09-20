@@ -6,7 +6,7 @@
     "brandId": "mitakon",
     "name": "Mitakon Speedmaster 50mm f/0.95 III"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "mitakon-speedmaster-50mm-f0-95-mark-iii"
@@ -35,7 +35,8 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.specialElements"
       ],
       "decisionChecks": [
         "availability"
@@ -51,6 +52,34 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://zyoptics.net/wp-content/uploads/2019/03/Mitakon50mmf095III-Richard-Wong-01-1024x769.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://zyoptics.net/wp-content/uploads/2019/03/DSC2572_VER-22.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical",
+        "mount"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside images complete the exterior survey, including contacts, support parts and storage retractability?",
+    "What accessory and mount conditions apply to the published mass and dimensions? Current shared specifications do not separately identify all Nikon Z measurement conditions.",
+    "The official highlights specify four ED elements, while the description specifies five UD elements. Which count applies to Nikon Z III?",
+    "Can operating documentation identify the focus ring explicitly?"
   ]
 }
