@@ -97,7 +97,8 @@
     },
     {
       "type": "aperture-ring",
-      "quantity": 1
+      "quantity": 1,
+      "clickBehavior": "switchable"
     },
     {
       "type": "function-button",
@@ -114,7 +115,39 @@
       "quantity": 1
     }
   ],
-  "accessories": null,
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1,
+        "construction": "soft-case"
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": null,
     "connections": [

@@ -6,7 +6,8 @@
     "brandId": "funmount",
     "productName": "FM-ETZ Pro Electronic Mount Adapter",
     "modelNumberOptions": [
-      "FM-ETZ Pro"
+      "FM-ETZ Pro",
+      "FM-ETZ-P"
     ],
     "alternateNames": null,
     "variants": null
@@ -55,13 +56,38 @@
   "mechanisms": [],
   "physical": {
     "dimensionMeasurements": null,
-    "weightMeasurements": null,
-    "officialEnvironmentalProtectionClaims": null,
+    "weightMeasurements": [
+      {
+        "grams": 46,
+        "approximate": true,
+        "conditions": {}
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "dust-resistant",
+          "splash-resistant"
+        ],
+        "scope": {
+          "kind": "product"
+        },
+        "conditions": {}
+      }
+    ],
     "tripodSupport": null
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "direct-usb",
+        "connectorType": "other",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
   },
   "conversionOptics": {
     "present": false

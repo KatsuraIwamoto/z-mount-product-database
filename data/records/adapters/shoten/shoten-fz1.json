@@ -61,7 +61,25 @@
       }
     ],
     "officialEnvironmentalProtectionClaims": null,
-    "tripodSupport": null
+    "tripodSupport": {
+      "present": true,
+      "components": [
+        {
+          "type": "body-mounting-point",
+          "relationship": "integrated",
+          "removable": false,
+          "interfaces": [
+            {
+              "type": "mounting-thread",
+              "threadDesignation": null
+            }
+          ],
+          "modelNumberOptions": null,
+          "quantity": 1,
+          "conditions": {}
+        }
+      ]
+    }
   },
   "electronicServices": null,
   "conversionOptics": {

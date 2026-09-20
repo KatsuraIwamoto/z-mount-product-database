@@ -58,9 +58,26 @@
       "type": "focus-ring",
       "quantity": 1,
       "rotationDegrees": 270
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
     }
   ],
-  "accessories": null,
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "integrated",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": null,
+    "rearCaps": null,
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "electronicServices": null,
   "lens": {
     "focalLength": {
@@ -97,7 +114,22 @@
       "elements": 6
     },
     "specialElements": null,
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "other"
+        ],
+        "appliedTo": null,
+        "officialName": "48-layer dielectric high-reflection coating"
+      },
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null,
+        "officialName": "ultra-low reflection coating"
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false

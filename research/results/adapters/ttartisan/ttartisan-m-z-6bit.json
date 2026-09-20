@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "M-Z 6Bit Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-m-z-6bit"
@@ -43,7 +43,9 @@
         "electronics",
         "electronicServices",
         "conversionOptics",
-        "mechanisms"
+        "mechanisms",
+        "physical.weightMeasurements",
+        "physical.dimensionMeasurements"
       ],
       "decisionChecks": [
         "release-status"
@@ -59,6 +61,72 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://en.ttartisan.com/?other/M-Z-6Bit.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/M-Z-6bit-e1667352886988.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/wp-content/uploads/M-Z-6bit-2-e1667353614889.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/wp-content/uploads/M-Z-6bit-e1667352886988.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/wp-content/uploads/M-Z-6bit-1-e1667352866890.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/wp-content/uploads/1200M-Z-6bit-3-e1667352895224.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/wp-content/uploads/1200M-Z-6bit-4-e1667352905513.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which USB connector type is used on the supplied firmware-update dock?",
+    "Are other-side and bottom views available to establish whether any additional mechanisms are present?"
   ]
 }

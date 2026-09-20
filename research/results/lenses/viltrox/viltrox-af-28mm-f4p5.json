@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 28mm F4.5"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-28mm-f4p5"
@@ -39,7 +39,9 @@
         "lens.specialElements",
         "lens.coatings",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity",
+        "physical"
       ]
     },
     {
@@ -67,6 +69,40 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_28-4.5_Z_Manual.pdf?v=1748413080",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "physical.externalLengthDuringFocus",
+        "lens.focus",
+        "lens.aperture"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF28mmF4.5Z-frontview.png?v=1748493504",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_28mm_F4.5_Z-img10.png?v=1748309506",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount",
+        "lens.aperture",
+        "electronicServices",
+        "lens.coatings"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does the storage operation actually retract the optical barrel? The documented slide lever opens/closes the integrated front cover; this alone does not prove a retractable storage barrel, so the prior true value is changed to unknown. Full Z side/bottom images are incomplete and existing no-tripod/no-stabilization facts are not newly inferred from those blind spots. Firmware support page offers application downloads and manual but no lens release entry; published-update status remains unknown."
   ]
 }

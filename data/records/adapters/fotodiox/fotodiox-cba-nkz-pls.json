@@ -47,10 +47,30 @@
     "lensPowerTransmission": false,
     "recordingTriggerTransmission": false
   },
-  "mechanisms": [],
+  "mechanisms": [
+    {
+      "type": "helicoid",
+      "conditions": {}
+    }
+  ],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          64,
+          64,
+          27
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 105,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

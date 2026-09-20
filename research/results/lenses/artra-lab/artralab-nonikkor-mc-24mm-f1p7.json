@@ -6,7 +6,7 @@
     "brandId": "artra-lab",
     "name": "NONIKKOR-MC 24mm F1.7 1980's (APS-C)"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "artralab-nonikkor-mc-24mm-f1p7"
@@ -34,7 +34,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.coatings"
       ]
     },
     {
@@ -45,6 +46,18 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://artralab.com/cdn/shop/files/WhatsAppImage2023-11-20at16.51.21_1080x.jpg?v=1700478466",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Confirm the published 33 mm length against the 27.6 mm dimension in the official drawing, including mount, datum and focus position; do not replace one with the other without establishing conditions. Also confirm attached components for the 210 g mass.",
+    "Complete identifiable Nikon Z rear and both-side coverage. The gallery includes Z fc mounted front/upper views and standalone front/underside obliques, as well as Fujifilm X views. Confirm ring operation and aperture click behavior, supplied accessories and focus-related length changes."
   ]
 }

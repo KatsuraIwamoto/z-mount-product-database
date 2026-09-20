@@ -6,7 +6,7 @@
     "brandId": "gizmon",
     "name": "GIZMON Miniature Tilt Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "gizmon-miniature-tilt-lens-50mm-f1p6"
@@ -63,6 +63,37 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://gizmon.com/wp-content/uploads/2021/11/tiltrange15-500x482.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://gizmon.com/wp-content/uploads/2024/03/nikonz50.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount",
+        "controls",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://gizmon.com/wp-content/uploads/2021/11/zu-500x375.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "The Nikon Z50-mounted front/oblique photograph confirms the three rings and 46 mm front marking. Shared diagrams show a different 43 mm version; Z-specific rear/opposite-side imagery and full four-direction coverage remain unavailable.",
+    "The official illustration names front and rear caps but does not establish a Z-specific supplied package. Aperture click behavior, coatings, special elements, measurement attachment conditions and external length during focus remain unspecified."
   ]
 }

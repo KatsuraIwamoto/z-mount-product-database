@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "7.5mm F2.8 APS-C Fisheye Manual Focus Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-7p5mm-f2p8-fisheye"
@@ -44,6 +44,18 @@
       "checked": [
         "identity"
       ]
+    },
+    {
+      "url": "https://brightinstar.com.cn/products/mf-7-5mm-f2-8-%E2%85%B2-%E5%8D%8A%E7%94%BB%E5%B9%85",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "The historical Nikon Z page redirects to the homepage; the alternate Sony-titled historical listing now returns a missing-page response. Its indexed manufacturer text still lists Nikon Z, 180 degrees, 11 elements in 9 groups and shared 62.3 × 57.5 mm / 260 g, but does not establish Nikon Z measurement conditions. Existing facts are retained.",
+    "The current Chinese MF 7.5mm F2.8 III page and its three detailed infographics were inspected. They describe 190-degree coverage, 0.15 m focus, five blades and a 27 mm rear filter, with Fuji X rear and mounted views. The manufacturer has not established that this III is identical to the unnumbered historical record, so its additional facts and images are not transferred. Complete images of the historical Nikon Z configuration remain unavailable."
   ]
 }

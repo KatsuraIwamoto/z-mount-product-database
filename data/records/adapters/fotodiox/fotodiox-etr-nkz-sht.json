@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Fotodiox Pro Lens Mount Shift Adapter - Compatible With Bronica ETR Mount Lens to Nikon Z-Mount Mirrorless Camera Body",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "ETR-NKZ-SHT"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -79,8 +81,23 @@
     }
   ],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          98,
+          80,
+          63
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 337,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

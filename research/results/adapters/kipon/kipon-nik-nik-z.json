@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "NIK-NIK Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kipon-nik-nik-z"
@@ -27,6 +27,24 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/6c6353_faf1ffd9833e4ca8beb2a8b8c9fd93a6~mv2.jpg/v1/fit/w_2000,h_2000,q_90/file.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/6c6353_0cb2acd465804912ba521499d5eaf8b5~mv2.jpg/v1/fit/w_2000,h_2000,q_90/file.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mechanisms"
       ]
     }
   ]

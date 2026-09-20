@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "C-Mount to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-c-nz"
@@ -36,6 +36,57 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/files/3_9197db1e-d233-46e5-846d-11c5c61c8301_800x.jpg?v=1730359582",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/files/4_d7f627fe-2ea6-4d75-9f01-ee89fabb6eb4_800x.jpg?v=1730359582",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/files/9_51b1c174-e574-477d-91b8-79dff6fda528_800x.jpg?v=1730359582",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/files/1_4859f6f9-0a75-4830-947e-f70e3b10cc8b_800x.jpg?v=1730359582",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/files/2_a51814dc-0b43-4143-a05c-4d34476f15a3_800x.jpg?v=1730359582",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
       ]
     }
   ]

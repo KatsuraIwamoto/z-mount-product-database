@@ -72,6 +72,15 @@
       "quantity": 1,
       "rotationDegrees": 200,
       "geared": true
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Rotation button"
     }
   ],
   "accessories": null,

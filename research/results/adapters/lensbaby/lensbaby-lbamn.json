@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Mount Adapter for Nikon Z"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-lbamn"
@@ -35,6 +35,18 @@
         "mountConfigurations",
         "conversionOptics"
       ]
+    },
+    {
+      "url": "https://lensbaby.com/cdn/shop/products/NikZ.png?v=1666153140&width=3000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does this Nikon Z adapter provide any adjustment mechanism beyond lens retention? The official gallery supplies only one matching front-oblique view."
   ]
 }

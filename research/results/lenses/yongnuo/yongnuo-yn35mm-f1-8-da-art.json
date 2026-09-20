@@ -6,7 +6,7 @@
     "brandId": "yongnuo",
     "name": "YONGNUO YN35mm F1.8 DA ART"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
@@ -58,10 +58,24 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://m.yongnuomall.com/sys-pd/161.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
     }
   ],
   "unresolved": [
     "Was the Nikon Z version officially announced for release or offered for sale?",
-    "Is there an official Nikon Z model number or exact-product page?"
+    "Is there an official Nikon Z model number or exact-product page?",
+    "Does the Z/E mount entry in the March 2026 catalog represent a released Z version of YN35mm F1.8 DA ART, and where is the exact Z model offered or formally launched?",
+    "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
   ]
 }

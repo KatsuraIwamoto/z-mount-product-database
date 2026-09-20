@@ -9,7 +9,7 @@
       "マウントアダプター FTZ II"
     ]
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "mount-adapter-ftz-ii"
@@ -114,6 +114,27 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://nij.nikon.com/cms/products/accessory/body/ftz_2/img/product_01.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/cms/products/accessory/body/ftz_2/img/product_02.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can accepted views of the complete top, bottom, left, and right exterior establish the absence of additional mechanisms? The inspected official rear and rear-oblique views do not cover all four sides.",
+    "Which official documentation explicitly confirms the recorded Exif metadata transmission?"
   ]
 }

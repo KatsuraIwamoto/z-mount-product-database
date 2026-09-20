@@ -6,7 +6,7 @@
     "brandId": "urth",
     "name": "Pentax K Lens Mount to Nikon Z Camera Mount"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "urth-ulma-k-z"
@@ -23,12 +23,34 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "mechanisms",
         "officialProductPages"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://urth.co/cdn/shop/files/2.Urth-Lens-Mount-Adapter-K-Z-New_1000x.jpg?v=1754625704",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://urth.co/cdn/shop/files/3.Urth-Lens-Mount-Adapter-K-Z-New_1000x.jpg?v=1754625704",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Do complete exterior views or model-specific operating instructions establish whether there are any adjustment mechanisms beyond the mounting controls?"
   ]
 }

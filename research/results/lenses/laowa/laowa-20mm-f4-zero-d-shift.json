@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 20mm F4 Zero-D Shift"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-20mm-f4-zero-d-shift"
@@ -62,8 +62,76 @@
         "lens.specialElements",
         "lens.focus",
         "lens.stabilization",
+        "lens.specialized",
+        "officialProductPages",
+        "controls",
+        "accessories",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/news/2022/07/shift-lens-support-for-15mm20mm-shift-lens.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "announcement",
+      "checked": [
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/380x380%20_20mmF4_01.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/380x380%20_20mmF4_02.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/380x380%20_20mmF4_03.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/380x380%20_20mmF4_04.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/380x380%20_20mmF4_05.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com.cn/Ftp/FF%20S%2020mm%20F4.0%20C-Dreamer.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
         "lens.specialized"
       ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z-specific dimensions and mass excluding hood and caps?",
+    "Can Nikon Z-specific views establish complete exterior coverage?",
+    "Which component classification and interfaces apply to the optional shift lens support, and which coatings or accessories beyond the supplied hood are documented?",
+    "What aperture click behavior is specified?"
   ]
 }

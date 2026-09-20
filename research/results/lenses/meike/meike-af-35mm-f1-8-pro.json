@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike AF 35mm F1.8 Pro"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-af-35mm-f1-8-pro"
@@ -59,8 +59,43 @@
       "sourceType": "image",
       "checked": [
         "lens.specialElements",
-        "physical.weightMeasurements"
+        "physical.weightMeasurements",
+        "lens.anglesOfView"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/3518_3_02.jpg?v=1753066379",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/3518_3_03.jpg?v=1753066378",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.coatings",
+        "lens.specialElements",
+        "lens.opticalConstruction"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/3518_4_01.jpg?v=1753066379",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount.electronicContacts",
+        "electronicServices",
+        "physical.filterInterfaces"
       ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside images complete the exterior survey and substantiate the existing tripod-support and retractability fields?",
+    "Can operating documentation explicitly identify the focus-ring function and aperture-ring click behavior?",
+    "Does the dust/moisture-resistant seal claim illustrated with E mount apply to Nikon Z?",
+    "What are the accessory conditions for approximately 404 g and the shared 74 x 93 mm dimensions?"
   ]
 }

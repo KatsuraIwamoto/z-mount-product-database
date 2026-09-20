@@ -6,7 +6,7 @@
     "brandId": "astrhori",
     "name": "MF 25mm F2.8 Full-frame Ultra Macro Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "astrhori-mf-25mm-f2p8-2-to-5x-ultra-macro"
@@ -59,12 +59,32 @@
       "checked": [
         "identity",
         "mount",
-        "lens.specialElements"
+        "lens.specialElements",
+        "accessories",
+        "lens.focus",
+        "lens.specialized",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "physical.filterInterfaces"
       ],
       "decisionChecks": [
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0698/5046/4568/files/a8ee372c0ee857795151c74cca2c44a2.jpg?v=1704875665",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.externalLengthDuringFocus"
+      ]
     }
+  ],
+  "unresolved": [
+    "Manufacturer images show a Nikon Z-mounted front oblique view, generic front/side views and an unidentified exposed rear mount; Nikon Z-specific top, bottom, left and right coverage remains incomplete.",
+    "Published dimensions and weight are not Nikon Z-specific: distributor lists 67 x 94 mm excluding mount and approximately 480 g varying by mount, whereas manufacturer drawings show 61 mm and 102/174 mm lengths. Nikon Z measurements remain unconfirmed.",
+    "Distributor minimum focus distances of 113/137.8/162/186.4 mm at 2/3/4/5x are retained as published; their measurement datum remains unspecified. Manufacturer working-distance prose rounds the lower endpoint to 4 cm, while the distributor specifies 37.5 mm at 2x."
   ]
 }

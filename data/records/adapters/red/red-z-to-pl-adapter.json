@@ -46,13 +46,19 @@
     "metadataTransmission": {
       "present": true,
       "standards": [
-        "exif"
+        "exif",
+        "cooke-i"
       ]
     },
-    "lensPowerTransmission": null,
-    "recordingTriggerTransmission": null
+    "lensPowerTransmission": true,
+    "recordingTriggerTransmission": true
   },
-  "mechanisms": [],
+  "mechanisms": [
+    {
+      "type": "flange-focal-distance-adjustment",
+      "conditions": {}
+    }
+  ],
   "physical": {
     "dimensionMeasurements": null,
     "weightMeasurements": null,

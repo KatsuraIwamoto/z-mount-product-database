@@ -6,7 +6,7 @@
     "brandId": "pergear",
     "name": "PERGEAR 10mm F8 Pancake Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "pergear-10mm-f8-pancake-lens"
@@ -52,6 +52,7 @@
     }
   ],
   "unresolved": [
-    "accessories: Confirm the package contents supplied with the Nikon Z configuration."
+    "accessories: Confirm the package contents supplied with the Nikon Z configuration.",
+    "Where are Nikon Z-specific exterior and mount-face images available for the 10mm F8 lens?"
   ]
 }

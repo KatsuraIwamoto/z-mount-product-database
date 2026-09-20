@@ -88,7 +88,14 @@
       },
       "controlMechanism": "mechanical"
     },
-    "anglesOfView": null,
+    "anglesOfView": [
+      {
+        "format": "aps-c",
+        "orientation": null,
+        "degrees": 76,
+        "conditions": {}
+      }
+    ],
     "coverage": {
       "format": "aps-c"
     },

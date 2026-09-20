@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan AF 35mm F1.8 II"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-af-35mm-f1-8-ii"
@@ -48,7 +48,9 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "lens.specialElements",
+        "accessories"
       ]
     },
     {
@@ -61,6 +63,19 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/1_f7c834cd-6e2c-45ef-b1d8-5d305ee3caa6.jpg?v=1747367070&width=493",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z directional photographs and operating instructions establish the full control inventory and reconfirm the existing negative tripod/retractability/stabilization facts? The shared barrel photograph does not provide complete Z coverage, and the store statement about supporting stabilization does not distinguish camera stabilization.",
+    "Which Nikon Z color configurations receive one versus two supplied hoods? The store says only silver receives two; no unconditional hood quantity or mount-specific mass is inferred from the multi-mount 176–193 g range."
   ]
 }

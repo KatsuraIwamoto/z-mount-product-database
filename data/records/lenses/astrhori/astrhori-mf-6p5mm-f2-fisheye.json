@@ -39,7 +39,15 @@
   },
   "physical": {
     "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "weightMeasurements": [
+      {
+        "grams": 277.5,
+        "conditions": {
+          "attachedComponents": []
+        },
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "filterInterfaces": [],
     "tripodSupport": {
@@ -48,8 +56,40 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null,
+    "lensCases": null
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -93,7 +133,21 @@
       "groups": 5,
       "elements": 6
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 2
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 2,
+        "officialName": "ED"
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {

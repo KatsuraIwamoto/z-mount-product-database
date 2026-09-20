@@ -6,7 +6,7 @@
     "brandId": "apsara",
     "name": "APSARA LUMIÈRE 100mm T1.4"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "apsara-lumiere-100mm-t1p4"
@@ -46,6 +46,24 @@
         "availability",
         "inclusion-criteria"
       ]
+    },
+    {
+      "url": "https://www.apsaralenses.com/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status",
+        "inclusion-criteria"
+      ]
     }
+  ],
+  "unresolved": [
+    "Confirm the release and Nikon Z availability of the 100mm T1.4: the current brand site marks it coming soon, whereas the earlier Simmod series description included it among offered focal lengths.",
+    "Obtain product-specific Nikon Z specifications and identifiable images covering all four sides and the rear. The earlier series page is no longer available as a live product listing; its shared photograph depicts a 24mm lens and cannot establish this product’s physical details. Existing published facts and ID are retained pending clarification."
   ]
 }

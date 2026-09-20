@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 120mm T2.9 Full-frame Macro 2X Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-120mm-t2p9-2x-macro-cine"
@@ -35,7 +35,8 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "physical.officialEnvironmentalProtectionClaims"
       ],
       "decisionChecks": [
         "availability"
@@ -63,6 +64,14 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/DSC0244.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
   ]

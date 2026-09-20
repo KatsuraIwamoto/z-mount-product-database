@@ -46,11 +46,12 @@
     "metadataTransmission": {
       "present": true,
       "standards": [
-        "exif"
+        "exif",
+        "cooke-i"
       ]
     },
-    "lensPowerTransmission": null,
-    "recordingTriggerTransmission": null
+    "lensPowerTransmission": true,
+    "recordingTriggerTransmission": true
   },
   "mechanisms": [
     {

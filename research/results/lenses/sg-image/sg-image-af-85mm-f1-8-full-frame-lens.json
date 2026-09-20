@@ -6,7 +6,7 @@
     "brandId": "sg-image",
     "name": "SG-image AF 85mm F1.8 Full-Frame Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "sg-image-af-85mm-f1-8-full-frame-lens"
@@ -48,6 +48,34 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/7.jpg?v=1765211847&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical",
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/2_d07b3456-a409-4ed3-8804-2f359f900abd.jpg?v=1765206698&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical",
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z-specific front, rear, opposite-side and underside photographs confirm the complete exterior and electronic-contact layout? Shared hood/lateral and rear-oblique photographs were inspected, but the mount shown is not unambiguously identified.",
+    "Can primary operating documentation establish the functions of the visible grooved and numbered rings, their click behavior, manual-focus capability and update connector? No control function is inferred from markings alone.",
+    "Does the published 380g apply to Nikon Z, and with which accessories?",
+    "Can Z-specific evidence establish the optical construction and additional specifications absent from the current manufacturer text?"
   ]
 }

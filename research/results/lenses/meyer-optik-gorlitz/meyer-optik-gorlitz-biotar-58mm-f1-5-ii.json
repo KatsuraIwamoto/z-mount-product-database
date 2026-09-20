@@ -6,7 +6,7 @@
     "brandId": "meyer-optik-gorlitz",
     "name": "Biotar 58 f1.5 II"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meyer-optik-gorlitz-biotar-58mm-f1-5-ii"
@@ -47,7 +47,9 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "officialProductPages"
+        "officialProductPages",
+        "accessories",
+        "lens.imageCircleDiameters"
       ]
     },
     {
@@ -56,12 +58,30 @@
       "sourceType": "faq",
       "checked": [
         "identity",
-        "mount"
+        "mount",
+        "mount.electronicContacts",
+        "lens.coverage",
+        "lens.focus"
       ],
       "decisionChecks": [
         "availability",
         "inclusion-criteria"
       ]
+    },
+    {
+      "url": "https://www.meyer-optik-goerlitz.com/media/image/60/5b/24/MOG_B58_II_01_spiegelung.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical.filterInterfaces"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z front, rear, opposite-side and underside images complete the exterior survey? Shared/other-mount manufacturer photos do not establish the absence of support parts or additional controls.",
+    "Can operating documentation confirm the two barrel-ring functions and aperture click behavior for this current model? Ring functions are not inferred solely from grooves and scales.",
+    "What are the Nikon Z-specific dimensions and mass, including accessory conditions? The product page supplies only cross-mount length and mass ranges."
   ]
 }

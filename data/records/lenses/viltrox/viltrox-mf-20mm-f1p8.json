@@ -78,6 +78,14 @@
     {
       "type": "aperture-ring",
       "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
     }
   ],
   "accessories": null,
@@ -106,7 +114,7 @@
       "diaphragm": {
         "present": true,
         "bladeCount": 14,
-        "bladeShape": null
+        "bladeShape": "rounded"
       },
       "controlMechanism": "mechanical"
     },

@@ -6,7 +6,7 @@
     "brandId": "big",
     "name": "B.I.G. Objektivadapter Minolta MD an Nikon Z"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "big-421245"
@@ -40,6 +40,24 @@
       "decisionChecks": [
         "availability",
         "release-status"
+      ]
+    },
+    {
+      "url": "https://www.big-photo.de/thumbnail/20/54/35/1770902116/421245a-a01_800x800.jpg?ts=1770902269",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://www.big-photo.de/pdf/archiv/big-katalog/BIG-GESAMTKATALOG.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics"
       ]
     }
   ]

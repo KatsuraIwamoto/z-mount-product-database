@@ -81,7 +81,24 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "rotationDegrees": 270,
+      "geared": true
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "geared": true,
+      "clickBehavior": "declicked"
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -167,7 +184,12 @@
         }
       ],
       "reproductionMagnifications": null,
-      "officialFocusBehaviorClaims": []
+      "officialFocusBehaviorClaims": [
+        {
+          "type": "focus-breathing-suppressed",
+          "conditions": {}
+        }
+      ]
     },
     "stabilization": {
       "present": false

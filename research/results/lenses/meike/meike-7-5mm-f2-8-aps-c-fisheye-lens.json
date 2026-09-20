@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike 7.5mm F2.8 APS-C Fisheye Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-7-5mm-f2-8-aps-c-fisheye-lens"
@@ -33,7 +33,9 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.coatings",
+        "accessories"
       ],
       "decisionChecks": [
         "availability"
@@ -50,6 +52,21 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/DSC01562.jpg?v=1754465972",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.aperture",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside photos complete the exterior survey and substantiate the existing tripod-support and retractability fields?",
+    "Can operating documentation explicitly identify the focus/aperture rings and their click behavior?",
+    "What are the Nikon Z dimensions and accessory conditions for the stated 260 g mass?"
   ]
 }

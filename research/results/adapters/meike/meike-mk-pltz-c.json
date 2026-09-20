@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Drop-in Filter Mount Adapter for PL Mount Cine Lens to Nikon Z Cameras"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "meike-mk-pltz-c"
@@ -24,7 +24,9 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "mechanisms"
+        "mechanisms",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
       ]
     },
     {
@@ -38,6 +40,25 @@
       "decisionChecks": [
         "availability",
         "release-status"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/products/1600X1600-PLTZ-C_-3.jpg?v=1699088920&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "mechanisms",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/QQ_20230814104612_480x480.jpg?v=1696472393",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations"
       ]
     }
   ]

@@ -6,7 +6,7 @@
     "brandId": "mofage",
     "name": "POCO Drop-In Filter Lens Mount Adapter Kit (PL to Nikon Z)"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "mofage-poco-pl-nikon-z"
@@ -70,6 +70,18 @@
       "checked": [
         "identity"
       ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/images/fb/mofage_s_z_poco_drop_in_filter_adapter_1775447.jpg",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "image",
+      "checked": [
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
     }
+  ],
+  "unresolved": [
+    "Confirm assembled Nikon Z-specific rear and side images and the thread specification of the visible support foot. The official original product page is unavailable; the FAQ gives a 24.5–25.5 mm rear clearance range without an unambiguous single limit."
   ]
 }

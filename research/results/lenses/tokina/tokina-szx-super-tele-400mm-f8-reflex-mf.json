@@ -6,7 +6,7 @@
     "brandId": "tokina",
     "name": "SZX SUPER TELE 400mm F8 Reflex MF"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "tokina-szx-super-tele-400mm-f8-reflex-mf"
@@ -96,6 +96,19 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://tokinalens.com/uploads/images/catalog/product/SZ/SZX_SUPER_TELE_400mm_F8_Reflex_MF/szx_400_02.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can accepted exact Nikon Z kit images and documentation reconfirm the supplied adapter identity, full front/rear/both-side exterior, electronic-contact absence and existing negative tripod/retractability facts? Current main pages omit Z from their mount lists; this omission does not itself overturn prior Z-kit evidence.",
+    "Does 355 g in the specification table include a mount adapter? Narrative text gives 340 g without adapter. No Nikon Z assembled weight is assigned from these differing conditions."
   ]
 }

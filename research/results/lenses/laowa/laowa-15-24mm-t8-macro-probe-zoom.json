@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 15-24mm T8 Macro Probe Zoom"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-15-24mm-t8-macro-probe-zoom"
@@ -64,8 +64,34 @@
         "lens.stabilization",
         "lens.specialized",
         "lens.opticalConstruction",
-        "lens.imageCircleDiameters"
+        "lens.imageCircleDiameters",
+        "officialProductPages",
+        "lens.zoom"
+      ]
+    },
+    {
+      "url": "http://laowacine.com/wp-content/uploads/2026/02/14_Probe-Zoom-Porduct-Page-Features_Professional-Cine-Housing-Visual-.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "http://laowacine.com/wp-content/uploads/2026/02/12_Probe-Zoom-Porduct-Page-Features_360-Front-Barrel-Rotation.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z-specific top, bottom, left, right and rear views confirm controls, contacts and covered areas for each fixed viewing configuration?",
+    "What are Nikon Z-specific dimensions, mass and attached-accessory conditions?",
+    "Which lens-support components and 1/4-inch holders are supplied with each viewing configuration?",
+    "How can the fixed variants and their viewing directions be represented without implying interchangeable heads?",
+    "Is the waterproof section 35 cm or 36 cm, as both lengths occur on the official page?"
   ]
 }

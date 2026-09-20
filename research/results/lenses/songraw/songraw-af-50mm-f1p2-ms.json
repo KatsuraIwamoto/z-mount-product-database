@@ -9,7 +9,7 @@
       "SongRaw AF 50mm F1.2 M-Simplify"
     ]
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "songraw-af-50mm-f1p2-ms"
@@ -106,6 +106,38 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://img.wanwang.xin/contents/sitefiles2071/10356549/images/176511096.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://songrawlens.com/cdn/shop/files/1_df076891-088e-42d8-9b02-ec9432a6fa35.png?v=1781763326&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "identity"
+      ]
+    },
+    {
+      "url": "https://www.songraw.com/szssrsysbyxgsgw_05132206_252",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "lens.coatings"
+      ]
     }
+  ],
+  "unresolved": [
+    "2026-09-20: Current manufacturer catalog identifies AF 501.2 Z MS and store offers Z MS. Shared front-oblique exterior plus manufacturer operation graphic inspected: AF/MF selector, function button and water/dirt-repellent front coating explicitly identified. No focus-ring function inferred solely from grooves. Z rear, opposite side and underside remain unverified. Several detailed manufacturer images returned 403; existing optical values, launch date, internal focus, by-wire mechanism and stabilization absence were not fully reconfirmed and remain pending accessible primary specification/manual evidence. About 800 g in shared comparison is not assigned to Z; mass/dimensions remain null."
   ]
 }

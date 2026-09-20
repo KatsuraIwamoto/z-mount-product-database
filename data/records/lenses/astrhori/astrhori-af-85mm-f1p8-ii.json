@@ -42,15 +42,65 @@
     "dimensionMeasurements": null,
     "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
-    "filterInterfaces": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 62,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
     "tripodSupport": {
       "present": false
     },
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    },
+    {
+      "type": "function-button",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null,
+    "lensCases": null
+  },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
     "connections": [
@@ -106,7 +156,21 @@
       "groups": 7,
       "elements": 10
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 2,
+        "officialName": "ED"
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 2
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {

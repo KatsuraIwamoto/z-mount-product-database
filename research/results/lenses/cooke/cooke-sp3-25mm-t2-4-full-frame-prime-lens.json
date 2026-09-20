@@ -6,7 +6,7 @@
     "brandId": "cooke",
     "name": "SP3 25mm"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "cooke-sp3-25mm-t2-4-full-frame-prime-lens"
@@ -80,19 +80,20 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "announcement",
       "checked": [
-        "mount"
+        "mount",
+        "lifecycle"
       ],
       "decisionChecks": [
-        "availability",
+        "release-status",
         "licensing"
       ]
     }
   ],
   "notes": [
-    "Cooke's specification sheet identifies the published length as an E-mount front-to-mount measurement and states that the published weight includes a lens mount.",
-    "Cooke's specification sheet defines minimum marked object distance as measured from the sensor plane."
+    "The specification sheet labels overall length as measured to the E-mount. The lenses are supplied with E-mount installed and support user-interchangeable mounts."
   ],
   "unresolved": [
-    "What are the official overall length and weight for the Nikon Z-mount configuration?"
+    "What are the official overall length and weight for the Nikon Z-mount configuration?",
+    "Which reference plane applies to the close-focus row on the product page, given the separately labelled minimum marked object distance and distance from lens front in the specification sheet?"
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "metabones",
     "name": "ARRI PL Lens to Nikon Z-mount T CINE Adapter S"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "metabones-mb-pl-nz-bt2"
@@ -26,6 +26,72 @@
         "conversionOptics",
         "mechanisms",
         "physical.officialEnvironmentalProtectionClaims",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.metabones.com/assets/p/mb_pl-nz-bt2_2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.metabones.com/assets/p/mb_pl-nz-bt2_3.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.metabones.com/assets/p/mb_pl-nz-bt2_4.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.metabones.com/assets/p/mb_pl-nz-bt2_5.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.metabones.com/assets/p/mb_pl-nz-bt2_6.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.metabones.com/assets/p/mb_pl-nz-bt2_7.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
         "physical.tripodSupport"
       ]
     }

@@ -6,7 +6,7 @@
     "brandId": "kiwifotos",
     "name": "Lens Mount Adapter for M42 Lenses to Nikon Z Body"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kiwifotos-lma-m42-nz"
@@ -24,7 +24,9 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
       ]
     },
     {

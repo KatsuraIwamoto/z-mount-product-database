@@ -6,7 +6,7 @@
     "brandId": "kf-concept",
     "name": "Contax C / Nikon S External-Bayonet Lens to Nikon Z Mount Camera Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kf-concept-cnrfz"
@@ -28,6 +28,33 @@
       "decisionChecks": [
         "availability",
         "release-status"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/wp-content/uploads/KF-CNRFZ.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/wp-content/uploads/KF-CNRFZ-4.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000001326",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "distributor-page",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations"
       ]
     }
   ]

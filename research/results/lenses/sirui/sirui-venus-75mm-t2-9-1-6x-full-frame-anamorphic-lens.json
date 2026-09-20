@@ -6,7 +6,7 @@
     "brandId": "sirui",
     "name": "SIRUI Venus 75mm T2.9 1.6x Full-Frame Anamorphic Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "sirui-venus-75mm-t2-9-1-6x-full-frame-anamorphic-lens"
@@ -53,8 +53,23 @@
       "checked": [
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.aperture"
+        "lens.aperture",
+        "controls",
+        "mount",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://cdn.shopifycdn.net/s/files/1/0449/9344/6037/files/Venus-1_02.jpg?v=1680232046",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "identity"
       ]
     }
+  ],
+  "unresolved": [
+    "2026-09-20: Official table reconfirms Z, 15 elements/13 groups, 10 blades, T2.9–16, 0.85 m, manual focus and 82 mm thread; explicit focus-ring rotation establishes ring function. Table gives cross-mount length 153.5–157.5 mm and mass 1365–1401 g without assigning Z, so these remain null. Shared series lateral images inspected, including 75 mm, but Z rear/opposite side/underside were not established. Existing contact absence, mechanical focus coupling and stabilization absence need stronger operating/Z-specific evidence. Product description lists RF/L/E while selector and specification table include Z. Directional maximum magnifications (vertical 1:10.15, horizontal 1:15.66) were not collapsed into an unqualified scalar."
   ]
 }

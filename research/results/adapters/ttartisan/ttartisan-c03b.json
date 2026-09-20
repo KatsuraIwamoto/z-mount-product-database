@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "Leica M Lens to Nikon Z Mount Camera Lens Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-c03b"
@@ -23,7 +23,8 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.weightMeasurements"
       ]
     },
     {
@@ -38,6 +39,126 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/1_8b11159a-dbdc-40cd-9ae5-3306d9cc432e.jpg?v=1712486161&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/2_40aec5e0-58f9-4152-ba90-635987ad71cf.jpg?v=1712486164&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/3_6ae13b5c-4511-40ea-adfc-21ecda1ec3f6.jpg?v=1712486163&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/4_03fecd69-31b2-416e-bf8e-2550d305c0ef.jpg?v=1712486162&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/5_7fd28712-2c24-4344-bd86-3ef9733b0254.jpg?v=1712486162&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0433/2224/5282/files/1_74e9074b-8877-4114-a3f6-00c9d562b0fa.jpg?v=1712485843",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0433/2224/5282/files/2_45d3b3f1-4add-4e85-b817-0e323bd39119.jpg?v=1712485843",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0433/2224/5282/files/3_a24c6fca-aba8-4737-a939-c4e8af539f5b.jpg?v=1712485842",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0433/2224/5282/files/4_7b83dd4f-ceb6-47bf-a5b6-d52e48e8f403.jpg?v=1712485842",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0433/2224/5282/files/5_5dcd0f56-1b22-460e-be78-4b471430bff5.jpg?v=1712485908",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0433/2224/5282/files/6_b922f768-9156-480a-92f5-171b0ea5a934.jpg?v=1712485842",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0433/2224/5282/files/8_d8b7bb70-e59b-4f0a-a655-6341491a2b8a.jpg?v=1712485842",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0433/2224/5282/files/7_48ab4631-43da-4ce1-a937-df00d614dd83.jpg?v=1712485842",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
     }
+  ],
+  "unresolved": [
+    "Are complete rear and four-sided views available to establish whether any additional mechanisms are present?"
   ]
 }

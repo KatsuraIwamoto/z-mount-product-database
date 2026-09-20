@@ -27,6 +27,18 @@
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/200mmf2af.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -57,8 +69,8 @@
         }
       },
       {
-        "type": "rear-thread",
-        "diameterMm": 43,
+        "type": "drop-in",
+        "filterDiameterMm": 43,
         "host": {
           "kind": "product"
         }
@@ -79,6 +91,24 @@
     {
       "type": "focus-mode-switch",
       "quantity": 1
+    },
+    {
+      "type": "function-button",
+      "quantity": 5
+    },
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "rotationDegrees": 49
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Lens bracket lock knob"
     }
   ],
   "accessories": null,

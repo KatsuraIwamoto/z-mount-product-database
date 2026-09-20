@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "KIPON ELEGANT 75mm F2.4 for Nikon Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "kipon-elegant-75mm-f2-4"
@@ -36,7 +36,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.imageCircleDiameters"
       ]
     },
     {
@@ -47,6 +48,37 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://www.kipon.jp/products/elegant-75mm-f2-4-for-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "identity",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://kipon.com/wp-content/uploads/2022/05/75a-scaled-700x467.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://kipon.com/wp-content/uploads/2022/05/75b-scaled-700x467.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "The 93 mm dimension is front-to-sensor at infinity, not mount-plane-to-front length; canonical length remains null. Weight accessory conditions are not itemized.",
+    "Official front/barrel images were inspected, but complete Nikon Z-specific four-direction and rear-contact coverage remains unavailable. Aperture click behavior, coating function, special elements and supplied accessories remain unconfirmed.",
+    "The full-frame 32.2-degree angle appears under a combined V/H/D heading without an explicit individual orientation. The Japanese product page confirms the product and mount but omits the detailed numerical table."
   ]
 }

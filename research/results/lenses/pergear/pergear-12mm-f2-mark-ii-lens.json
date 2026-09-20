@@ -6,7 +6,7 @@
     "brandId": "pergear",
     "name": "PERGEAR 12mm F2 Mark II Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "pergear-12mm-f2-mark-ii-lens"
@@ -33,7 +33,8 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "controls"
       ]
     },
     {
@@ -48,6 +49,22 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.pergear.com/cdn/shop/files/PERGEAR_2_1200x1500_1_1600x.jpg?v=1735032992",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside images complete the exterior survey and verify contact/support/storage claims? The available shared product view is not a complete mount-specific survey.",
+    "Can operating documentation establish focus-ring operation and the measurement conditions for each mount?",
+    "The product description and announcement both specify 0.18m in the feature section but approximately 20cm in the specification table. Which minimum focus distance applies? It remains unset.",
+    "Can primary documentation confirm the rounded-blade shape and front filter diameter/host for Mark II?"
   ]
 }

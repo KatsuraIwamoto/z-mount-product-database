@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Mount Adapter ETZ for Sony E Mount Lenses to Nikon Z Cameras"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "meike-mk-etz"
@@ -26,6 +26,61 @@
         "electronicServices",
         "conversionOptics",
         "mechanisms"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/products/adapter-etz-for-sony-e-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "officialProductPages",
+        "electronics",
+        "mountConfigurations",
+        "electronicServices",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/files/2_ETZ.jpg?v=1685600762&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "identity.modelNumberOptions"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/files/3_ETZ.jpg?v=1685600762&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "identity.modelNumberOptions"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/files/4_ETZ.jpg?v=1685600762&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "identity.modelNumberOptions"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/files/5_ETZ.jpg?v=1685600762&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "identity.modelNumberOptions"
       ]
     }
   ]

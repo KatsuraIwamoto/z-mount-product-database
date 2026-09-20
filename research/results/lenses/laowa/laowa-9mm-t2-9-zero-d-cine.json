@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 9mm T2.9 Zero-D Cine"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-9mm-t2-9-zero-d-cine"
@@ -71,8 +71,50 @@
         "lens.coverage",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.opticalConstruction",
+        "lens.imageCircleDiameters",
+        "lens.coatings",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/9mmT2.9_01.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/9mmT2.9_02.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/9mmT2.9_03.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/9mmT2.9_04.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "What are Nikon Z-specific dimensions and mass, including the meaning of the 54 mm size and 58 mm maximum diameter?",
+    "What sensor dimensions and orientation correspond to the 120-degree and 113-degree angle-of-view specifications?",
+    "Can an accessible Nikon Z product page and Z-specific images reconfirm the configuration and full exterior coverage?"
   ]
 }

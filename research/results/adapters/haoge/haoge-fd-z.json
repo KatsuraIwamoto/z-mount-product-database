@@ -6,7 +6,7 @@
     "brandId": "haoge",
     "name": "Canon FD to Nikon Z Manual Lens Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "haoge-fd-z"
@@ -37,6 +37,28 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0593/2403/9326/files/72838e6ee194bcf3201843970cfd668a.jpg?v=1686996821",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0593/2403/9326/files/67e2567af084cf6aaaffe4b5c11eb615.jpg?v=1686996828",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
       ]
     }
   ]

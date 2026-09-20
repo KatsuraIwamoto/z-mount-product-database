@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Twist 28"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-twist-28"
@@ -42,6 +42,20 @@
       "checked": [
         "lens.focus"
       ]
+    },
+    {
+      "url": "https://lensbaby.com/cdn/shop/files/T28.png?v=1774924162&width=1800",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces"
+      ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z-specific dimensions and the mount/accessory conditions of the published 140 g mass?",
+    "Does the stated 8-inch minimum focus distance use the sensor plane or lens front as its reference? The FAQ also loosely mentions around 9 inches.",
+    "Can Nikon Z rear, opposite-side and underside images plus an operating guide establish complete exterior coverage and the adjustment-ring function?"
   ]
 }

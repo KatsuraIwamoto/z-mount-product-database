@@ -6,7 +6,7 @@
     "brandId": "zeiss",
     "name": "ZEISS Otus ML 1.4/35"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "zeiss-otus-ml-35mm-f1p4"
@@ -31,8 +31,14 @@
         "lens.focalLength",
         "lens.aperture",
         "lens.specialElements",
-        "lens.focus"
-      ]
+        "lens.focus",
+        "lens.coverage",
+        "lens.imageCircleDiameters",
+        "lens.opticalConstruction",
+        "lens.anglesOfView",
+        "lens.stabilization"
+      ],
+      "note": "The listed uncapped length is measured without lens caps."
     },
     {
       "url": "https://www.zeiss.com/photonics-and-optics/us/photography/products/lenses-for-mirrorless-system-cameras/otus-ml-lenses.html",
@@ -76,11 +82,19 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "mount.electronicContacts",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.anglesOfView"
       ],
       "decisionChecks": [
         "availability"
-      ]
+      ],
+      "note": "The listed length is measured from the mount."
     },
     {
       "url": "https://petapixel.com/2026/06/16/exclusive-zeiss-refutes-rumors-cosina-developed-otus-ml-lenses/",
@@ -98,6 +112,20 @@
         "identity",
         "lens.anglesOfView"
       ]
+    },
+    {
+      "url": "https://www.cosina.co.jp/wp/wp-content/uploads/2026/02/Otus-ML-35-news-jkiwes.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can identified Nikon Z top, bottom, left, right and mount-face views recheck the complete exterior inventory and existing negative physical claims? The shared multi-mount image confirms the visible ring and scale layout only.",
+    "What measurement conditions explain the different angular fields and maximum diameters published by ZEISS and Cosina? Existing values remain pending clarification; Cosina explicitly measures length from the mount while ZEISS lists uncapped overall length.",
+    "Does the ZEISS model overview use focusing distance rather than free working distance for its 0.30 m label? The detailed specification separately lists a 0.20 m free working distance."
   ]
 }

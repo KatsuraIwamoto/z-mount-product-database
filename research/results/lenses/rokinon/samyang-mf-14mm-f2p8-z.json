@@ -9,7 +9,7 @@
       "SAMYANG MF 14mm F2.8 Z"
     ]
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "samyang-mf-14mm-f2p8-z"
@@ -73,6 +73,59 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://rokinon.com/cdn/shop/products/14mm-f28-full-frame-ultra-wide-angle-nikon-z-760613_1800x1800.jpg?v=1647618366",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "physical",
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://rokinon.com/cdn/shop/products/14mm-f28-full-frame-ultra-wide-angle-nikon-z-640445_1800x1800.jpg?v=1647618366",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "physical",
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://rokinon.com/cdn/shop/products/14mm-f28-full-frame-ultra-wide-angle-nikon-z-963935_1800x1800.jpg?v=1647618366",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "physical",
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://rokinon.com/cdn/shop/products/14mm-f28-full-frame-ultra-wide-angle-nikon-z-210429_1800x1800.jpg?v=1647618366",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "physical",
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "The compact feature summary contains a malformed length/weight string; the explicit specification table supports 124.1mm length and 810g. Accessory conditions remain unspecified.",
+    "Can the manual establish aperture click behavior and manual focus mechanism? Its linked PDF could not be retrieved during this review.",
+    "Front, lateral and rear-oblique Z product photographs were inspected, including the contact-free rear mount; complete underside/opposite-side coverage remains unconfirmed."
   ]
 }

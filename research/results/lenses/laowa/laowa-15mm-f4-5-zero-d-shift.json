@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 15mm F4.5 Zero-D Shift"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-15mm-f4-5-zero-d-shift"
@@ -61,8 +61,62 @@
         "lens.specialElements",
         "lens.focus",
         "lens.stabilization",
+        "lens.specialized",
+        "officialProductPages",
+        "controls",
+        "lens.imageCircleDiameters",
+        "lens.coatings",
+        "physical.tripodSupport",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/15mmF4_Shift_380_1.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/15mmF4_Shift_380_2.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/15mmF4_Shift_380_3.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/15mmF4_Shift_380_4.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com.cn/Public/Uploads/uploadfile/files/20240402/FFIIS15mmF4.5W-Dreamershuomingshu.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
         "lens.specialized"
       ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z-specific dimensions and mass with attachment conditions?",
+    "Which component type, mounting interfaces and model number identify the optional shift lens support?",
+    "Can Nikon Z-specific views establish complete exterior coverage, and which caps or hood are supplied?",
+    "What aperture click behavior is specified?",
+    "What measurement basis explains 600 g in the manual and approximately 597 g on the Japan page?"
   ]
 }

@@ -56,7 +56,16 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -99,7 +108,20 @@
       "groups": 5,
       "elements": 7
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 2
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 1
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {
@@ -124,7 +146,23 @@
     },
     "specialized": {
       "movements": {
-        "shiftMeasurements": null
+        "shiftMeasurements": [
+          {
+            "maximumFromNeutralMm": 6,
+            "totalRangeMm": 12,
+            "directionality": null,
+            "conditions": {}
+          }
+        ],
+        "rotationMeasurements": [
+          {
+            "scope": "movement-assembly",
+            "maximumFromNeutralDegrees": null,
+            "totalRangeDegrees": 360,
+            "directionality": null,
+            "conditions": {}
+          }
+        ]
       }
     }
   }

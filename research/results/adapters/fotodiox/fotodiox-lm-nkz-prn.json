@@ -6,7 +6,7 @@
     "brandId": "fotodiox",
     "name": "Fotodiox Pro PRONTO Autofocus Adapter - Compatible with Leica M Mount Lenses to Nikon Z-Mount Mirrorless Cameras"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "fotodiox-lm-nkz-prn"
@@ -24,7 +24,9 @@
         "conversionOptics",
         "mechanisms",
         "officialProductPages",
-        "electronicServices"
+        "electronicServices",
+        "physical.dimensionMeasurements",
+        "identity.modelNumberOptions"
       ],
       "decisionChecks": [
         "availability"
@@ -44,8 +46,21 @@
       "sourceType": "manual",
       "checked": [
         "electronics",
-        "electronicServices"
+        "electronicServices",
+        "mechanisms",
+        "identity"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/products/LM-NKZ-PRN-02a.jpg?v=1614378408",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
+  ],
+  "unresolved": [
+    "Which adapter weight applies to LM-NKZ-PRN: 136 g in its manual or 5.2 oz (about 147 g) on its product page?"
   ]
 }

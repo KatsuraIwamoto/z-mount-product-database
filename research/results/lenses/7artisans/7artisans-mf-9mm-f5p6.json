@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 9mm f/5.6 Full-frame Wide-angle Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-9mm-f5p6"
@@ -83,6 +83,33 @@
         "lens.opticalConstruction",
         "controls"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/9mm_5.61.jpg?v=1788145183",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements",
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus",
+        "physical.filterInterfaces",
+        "physical.weightMeasurements",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/files/7_b18c4d3e-4f03-4e21-b2e5-49ec8f0a1096.jpg?v=1731397030&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.filterInterfaces"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can official Nikon Z-specific images establish all four exterior sides, tripod interfaces, and any covered connectors, with the exact rear configuration positively identified?",
+    "What are the Nikon Z-specific dimensions and focus/hood measurement conditions for the illustrated 70 x 86 mm size, and does the external length change during focusing?",
+    "Is the petal hood removable or integrated, and which accessories are supplied with each Nikon Z ND64, ND1000, and dual-filter sales configuration, apart from promotional gifts?"
   ]
 }

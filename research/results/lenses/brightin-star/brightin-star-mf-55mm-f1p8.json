@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "55mm F1.8 Full Frame Manual Focus Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-55mm-f1p8"
@@ -64,6 +64,46 @@
         "lens.focus",
         "physical.filterInterfaces"
       ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/5518-1.jpg?v=1781784274&width=1000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/55mmF1.8__2.jpg?v=1762665926&width=1000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.focus",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/55mmF1.8__4.jpg?v=1770453980&width=1600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/5518__20250517_98189695-ff73-4417-880f-de50cba5e8df.jpg?v=1781944839&width=790",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "The shared gallery specification states approximately 440 g while the long infographic states approximately 380 g. Both give approximately 56 × 60 mm without a Nikon Z measurement condition. Nikon Z mass and dimensions remain unknown.",
+    "Five gallery images and the enlarged specification infographic were inspected, showing shared front and barrel views. Complete Nikon Z top, bottom, left, right and exposed rear coverage remains unavailable."
   ]
 }

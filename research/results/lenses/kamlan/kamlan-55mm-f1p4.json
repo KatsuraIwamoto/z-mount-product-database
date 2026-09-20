@@ -6,7 +6,7 @@
     "brandId": "kamlan",
     "name": "KamLan 55mm F1.4"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "kamlan-55mm-f1p4"
@@ -49,6 +49,32 @@
         "availability",
         "inclusion-criteria"
       ]
+    },
+    {
+      "url": "https://www.kamlan.com.tw/page/product/show.aspx?lang=TW&num=63",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.anglesOfView",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.kamlan.com.tw/upload/product/202310170852250.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "The Taiwanese product page lists F3.0–F22 and 8 groups/6 elements, conflicting with its F1.4 title and the Japanese authorized distributor specifications of F1.4–F16 and 6 groups/8 elements; retain the established Japanese specifications with the discrepancy explicit.",
+    "The published approximately 475 g and 76.5 × 60 mm are marked as varying by mount; Nikon Z-specific weight, dimension order and measurement conditions remain unconfirmed.",
+    "Official shared images show front/side views and a Sony-mounted version; complete Nikon Z four-direction coverage and electrical contacts remain unconfirmed. A hood is pictured but package inclusion is not established. Special-element quantity and coating function remain unconfirmed."
   ]
 }

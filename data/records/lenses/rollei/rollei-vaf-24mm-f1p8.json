@@ -157,7 +157,20 @@
       },
       "controlMechanism": "electronic"
     },
-    "anglesOfView": null,
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 83,
+        "conditions": {}
+      },
+      {
+        "format": "aps-c",
+        "orientation": null,
+        "degrees": 63,
+        "conditions": {}
+      }
+    ],
     "coverage": {
       "format": "full-frame"
     },

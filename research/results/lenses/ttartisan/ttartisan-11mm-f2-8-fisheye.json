@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan 11mm F2.8 Fisheye"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-11mm-f2-8-fisheye"
@@ -47,7 +47,10 @@
         "lens.focus",
         "lens.stabilization",
         "lens.specialized",
-        "officialProductPages"
+        "officialProductPages",
+        "controls",
+        "accessories",
+        "lens.specialElements"
       ]
     },
     {
@@ -60,6 +63,19 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/1954.jpg?v=1694588870&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z top/bottom/left/right and rear views plus operating evidence reconfirm electronic-contact absence and existing tripod, retractability and stabilization negatives? Shared gallery views do not establish a complete Z exterior survey.",
+    "Can the manufacturer specify Nikon Z weight and measurement conditions separately from the multi-mount weight range? No range endpoint is assigned to Z."
   ]
 }

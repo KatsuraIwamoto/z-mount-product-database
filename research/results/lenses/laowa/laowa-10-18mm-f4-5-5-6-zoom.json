@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 10-18mm F4.5-5.6 Zoom"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-10-18mm-f4-5-5-6-zoom"
@@ -60,8 +60,78 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/camera-lens-16",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "identity.modelNumberOptions",
+        "lens.aperture",
+        "lens.specialElements",
+        "lens.focus",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Ftp/FF%2010-18mm%20F4.5-5.6%20C-Dreamer.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "accessories",
+        "lens.anglesOfView",
+        "lens.zoom",
+        "mount.electronicContacts",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20210408/4-216.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20210331/2-4-824.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20210331/2-2-898.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20210331/2-3-49.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces"
       ]
     }
+  ],
+  "unresolved": [
+    "Four official shared front/side/rear photos and the manual diagrams were inspected, but no complete Nikon Z-specific set or identified Z rear was available; electronic contacts remain null.",
+    "The Chinese/global 70 x 90.9 mm and approximately 496 g specifications are not mount-resolved. Japan explicitly assigns 68 x 82 mm/492 g to Leica L and says dimensions and weight vary by mount; existing Z values are retained pending mount-specific confirmation, not replaced by L values. Accessory measurement conditions remain unitemized.",
+    "The supplied 37 mm rear filter and dimensional constraints (frame height at most 5.5 mm; glass 1.1 mm) are documented by Japan but cannot be represented as a supplied filter in the current accessory categories. Other supplied accessories and coating function remain unconfirmed.",
+    "The global product page presented a security verification screen during this review; Chinese/Japanese official pages and the manufacturer manual were used."
   ]
 }

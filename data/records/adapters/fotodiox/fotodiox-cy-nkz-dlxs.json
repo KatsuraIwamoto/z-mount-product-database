@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Fotodiox DLX Stretch Lens Adapter - Compatible with Contax/Yashica (CY) SLR Lens to Nikon Z-Mount Mirrorless Cameras with Macro Focusing Helicoid and Magnetic Drop-In Filters",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "CY-NKZ-DLXS"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -59,7 +61,13 @@
   ],
   "physical": {
     "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "weightMeasurements": [
+      {
+        "grams": 224,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

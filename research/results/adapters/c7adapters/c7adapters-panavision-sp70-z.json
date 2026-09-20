@@ -6,7 +6,7 @@
     "brandId": "c7adapters",
     "name": "Panavision SP70 – Z-mount"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "c7adapters-panavision-sp70-z"
@@ -30,6 +30,15 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://c7adapters.com/wp-content/uploads/2026/01/Panavision_SP70_PV70_lens_adapter_c7adapters_Nikon_Z-mount_Nikon_ZR.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical.tripodSupport"
       ]
     }
   ]

@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "MF 35mm F1.4 Full-Frame Prime Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-35mm-f1p4"
@@ -32,7 +32,9 @@
         "lens.aperture",
         "lens.coverage",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "controls",
+        "identity.variants"
       ]
     },
     {
@@ -68,6 +70,25 @@
         "lens.focus",
         "physical.filterInterfaces"
       ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/MF_35mm_F1.4.png?v=1781932971&width=790",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus",
+        "lens.anglesOfView"
+      ]
     }
+  ],
+  "unresolved": [
+    "The Nikon Z diagram confirms approximately 64 × 43 mm and 224 g; the headline 218 g applies to Sony E/Fujifilm X in the diagram. Length datum and cap/accessory measurement conditions remain unspecified.",
+    "Ten gallery images and the enlarged specification infographic were inspected, including black/silver front and side views and Fujifilm/Sony-mounted lenses. Complete Nikon Z top, bottom, left, right and rear coverage remains unavailable."
   ]
 }

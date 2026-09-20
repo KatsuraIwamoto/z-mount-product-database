@@ -6,7 +6,7 @@
     "brandId": "fotodiox",
     "name": "Fotodiox DLX Stretch Lens Adapter - Compatible with Contax/Yashica (CY) SLR Lens to Nikon Z-Mount Mirrorless Cameras with Macro Focusing Helicoid and Magnetic Drop-In Filters"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "fotodiox-cy-nkz-dlxs"
@@ -23,11 +23,27 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.weightMeasurements",
+        "identity.modelNumberOptions"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/files/CY-NKZ-DLXS-02b.jpg?v=1769791022",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which product dimensions are correct? The official specification lists 3.5 x 3.5 x 1.8 inches, but the accompanying centimeter values are not equivalent."
+  ],
+  "notes": [
+    "Product mass is published as 7.9 oz in the official Product Dimensions row (not Shipping Dimensions). Converted using 1 oz = 28.349523125 g and rounded to the nearest gram; approximate marks the rounded conversion, not a manufacturer-stated tolerance."
   ]
 }

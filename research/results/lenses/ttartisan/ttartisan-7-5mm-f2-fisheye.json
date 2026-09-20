@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan 7.5mm F2 Fisheye"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-7-5mm-f2-fisheye"
@@ -47,7 +47,9 @@
         "lens.focus",
         "lens.stabilization",
         "lens.specialized",
-        "officialProductPages"
+        "officialProductPages",
+        "controls",
+        "accessories"
       ]
     },
     {
@@ -60,6 +62,19 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/1_E-EOSM-X-M43.jpg?v=1775897996&width=493",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "How should circular full-frame output using the supplied Circular Fisheye Ring be represented when the manufacturer explicitly excludes the silver version and exact Nikon Z color configurations need confirmation? The existing APS-C diagonal mode remains recorded.",
+    "Can exact Nikon Z top/bottom/left/right and rear views plus operating documentation reconfirm contact absence and existing negative tripod/stabilization/retractability facts? Shared barrel views do not establish complete Z coverage."
   ]
 }

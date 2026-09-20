@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "N/G-NIK Z M with Helicoid",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "N/G-N/Z M"
+    ],
     "alternateNames": null,
     "variants": null
   },

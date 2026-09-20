@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike 10mm F2 APS-C Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-10mm-f2-aps-c-lens"
@@ -37,6 +37,31 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/DSC00392.jpg?v=1753929705",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces",
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/DSC00399.jpg?v=1753940255",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces",
+        "lens.coatings"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can a manufacturer operating diagram explicitly identify the focus and aperture rings and their click behavior? The available photos establish engraved distance and depth-of-field scales.",
+    "Can Nikon Z rear, opposite-side and underside images complete the exterior survey and confirm the existing tripod-support and retractability fields?",
+    "What are the Nikon Z mass accessory conditions and dimensions? The published mass has no explicit cap/hood condition."
   ]
 }

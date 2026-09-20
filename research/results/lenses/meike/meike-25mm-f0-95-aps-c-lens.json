@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike 25mm F0.95 APS-C Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-25mm-f0-95-aps-c-lens"
@@ -33,7 +33,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "accessories"
       ],
       "decisionChecks": [
         "availability"
@@ -50,6 +51,19 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/DSC02949.jpg?v=1756885968",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can a manufacturer operating diagram explicitly identify the focus and aperture rings and their click behavior? The available photos establish engraved distance and depth-of-field scales.",
+    "Can Nikon Z rear, opposite-side and underside images complete the exterior survey and confirm the existing tripod-support and retractability fields?",
+    "What are the Nikon Z mass accessory conditions and dimensions? The published mass has no explicit cap/hood condition."
   ]
 }

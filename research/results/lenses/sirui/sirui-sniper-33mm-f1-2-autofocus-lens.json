@@ -6,7 +6,7 @@
     "brandId": "sirui",
     "name": "SIRUI Sniper 33mm F1.2 Autofocus Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "sirui-sniper-33mm-f1-2-autofocus-lens"
@@ -30,7 +30,11 @@
         "lens.aperture",
         "lens.coverage",
         "lens.opticalConstruction",
-        "lens.focus"
+        "lens.focus",
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability"
       ]
     },
     {
@@ -66,6 +70,54 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://store.sirui.com/pages/lens-firmware-download",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "mount",
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.sirui.com/cf/sniper-series?lang=en-us",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "controls",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0449/9344/6037/files/7_282b16ce-93d8-44eb-9172-7b74f1132162.jpg?v=1762398294",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0449/9344/6037/files/1_62a359a7-9477-4aa6-a196-912de2f86202.jpg?v=1762398309",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can the Z-marked rear USB-C photograph be matched to this focal length, and can all four exterior sides establish complete control and tripod-support coverage?"
   ]
 }

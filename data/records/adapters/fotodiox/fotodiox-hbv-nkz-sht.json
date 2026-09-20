@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Fotodiox Pro Lens Mount Shift Adapter - Compatible With Hasselblad V-Mount SLR Lens to Nikon Z-Mount Mirrorless Cameras",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "HBV-NKZ-SHT"
+    ],
     "alternateNames": null,
     "variants": null
   },

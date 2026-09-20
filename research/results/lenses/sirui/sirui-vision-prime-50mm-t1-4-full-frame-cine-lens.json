@@ -6,7 +6,7 @@
     "brandId": "sirui",
     "name": "SIRUI Vision Prime 50mm T1.4 Full-Frame Cine Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "sirui-vision-prime-50mm-t1-4-full-frame-cine-lens"
@@ -57,7 +57,11 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.coatings",
-        "lens.focus"
+        "lens.focus",
+        "lens.specialElements",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims"
       ]
     },
     {
@@ -68,6 +72,18 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://store.sirui.com/cdn/shop/files/5_59d4ddee-4511-408b-936a-288f74a6f275.jpg?v=1762396528&width=1500",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "2026-09-20: Current official six-model table and product-specific exterior inspected. Focus/aperture rings explicitly named by manufacturer; distance scales visible. Z-specific dimensions/mass and interchangeable Z mount verified. Shared lateral/front-oblique images do not establish Z rear/opposite side/underside; retained existing contact absence, tripod-support absence, mechanical coupling and stabilization absence pending stronger evidence. HD Nano Coating not repeated in current text; retained existing claim pending corroboration. Single-lens front/rear caps confirmed; generic strap purpose and kit-case inclusion for individual lenses not inferred. Current shared special-element table conflicts with existing record: no aspherical/4 ED/3 HRI versus existing 3 aspherical/4 HRI. No revision explanation found; existing values retained with explicit conflict rather than silently replaced."
   ]
 }

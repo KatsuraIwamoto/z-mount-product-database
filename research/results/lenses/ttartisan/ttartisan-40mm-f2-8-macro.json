@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan 40mm F2.8 Macro"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-40mm-f2-8-macro"
@@ -47,7 +47,10 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "controls",
+        "accessories",
+        "lens.specialElements"
       ]
     },
     {
@@ -60,6 +63,18 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/1_576e018c-2df7-4069-870e-d6bf6118a545.jpg?v=1716169799&width=493",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z top/bottom/left/right and rear views plus operating documentation establish full exterior coverage, electronic-contact absence and existing stabilization/retractability facts? Shared side views were inspected without inferring unseen controls or absence."
   ]
 }

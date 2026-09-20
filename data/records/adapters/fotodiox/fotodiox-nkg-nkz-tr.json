@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Fotodiox Pro TLT ROKR - Tilt / Shift Lens Mount Adapter Compatible with Nikon F Mount G-Type D/SLR Lenses to Nikon Z-Mount Mirrorless Camera Body",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "NKG-NKZ-TR"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -90,11 +92,30 @@
         ]
       },
       "conditions": {}
+    },
+    {
+      "type": "aperture-ring",
+      "conditions": {}
     }
   ],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          68,
+          68,
+          35
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 218,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

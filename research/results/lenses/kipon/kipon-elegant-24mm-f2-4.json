@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "KIPON ELEGANT 24mm F2.4 for Nikon Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "kipon-elegant-24mm-f2-4"
@@ -36,8 +36,47 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.imageCircleDiameters"
+      ]
+    },
+    {
+      "url": "https://www.kipon.jp/products/elegant-24mm-f2-4-for-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.opticalConstruction",
+        "lens.imageCircleDiameters",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://kipon.com/wp-content/uploads/2022/05/24a-scaled-700x467.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://kipon.com/wp-content/uploads/2022/05/24mm-EOS-RNIK-Z-3-scaled-700x467.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces"
       ]
     }
+  ],
+  "unresolved": [
+    "The 87 mm length is explicitly measured from lens front to sensor at infinity, not from the mounting plane; canonical lens length remains null. Weight accessories are not itemized.",
+    "The Japanese page translates the optical construction as 8 groups/7 elements, conflicting with the English lenses/groups 8/7 table; retain 8 elements/7 groups and record the apparent transposition.",
+    "The three official product images show front/side details shared with the EOS R/Nikon Z listing but no rear-contact face or complete four-direction coverage. Aperture click behavior, coatings, special elements and supplied accessories remain unconfirmed.",
+    "The full-frame 84-degree angle appears under a combined V/H/D heading without an explicit individual orientation; no orientation is inferred."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "c7adapters",
     "name": "BNC – Nikon Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "c7adapters-bnc-nikon-z"
@@ -30,6 +30,15 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://c7adapters.com/wp-content/uploads/2026/08/BNCR_lens_adapter_Nikon_Z-mount_Z9_camera-scaled.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical.tripodSupport"
       ]
     }
   ]

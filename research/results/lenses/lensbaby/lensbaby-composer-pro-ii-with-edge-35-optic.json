@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Composer Pro II with Edge 35 Optic"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-composer-pro-ii-with-edge-35-optic"
@@ -41,6 +41,55 @@
       "checked": [
         "lens.focus"
       ]
+    },
+    {
+      "url": "https://lensbaby.com/products/edge-35-optic",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "lens.aperture",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/blogs/creative-photography/guide-composer-series-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "other",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0279/1378/1386/products/CPII_Tilt_Edge35_Web.png?v=1637280595",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.aperture",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/pages/faq-2",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "faq",
+      "checked": [
+        "controls",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0279/1378/1386/files/Composer_Pro_II.pdf?5459=",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Why does the combined-product table say fixed f/3.5 when the Edge 35 optic specification states f/3.5–f/22, its barrel is marked through f/22 and the operating guide describes aperture adjustment?",
+    "What are the Nikon Z-specific assembled dimensions and mass?",
+    "Can Nikon Z-specific rear, opposite-side and underside images establish complete exterior and control coverage?"
   ]
 }

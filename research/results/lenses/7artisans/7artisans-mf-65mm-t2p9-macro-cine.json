@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 65mm T2.9 Full Frame Macro Cine Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-65mm-t2p9-macro-cine"
@@ -52,6 +52,36 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/65mm_T2.9_e803f15c-40dc-48d5-9040-be02375d9a10.jpg?v=1755079413",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.anglesOfView",
+        "lens.coatings",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.aperture"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/files/6_7bb1e2d5-8ad9-43ff-bff5-e4f8bbfd0bbf.jpg?v=1755311834&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.aperture",
+        "lens.focus",
+        "physical.filterInterfaces",
+        "lens.opticalConstruction"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can official Nikon Z-specific images establish the complete front, rear, top, bottom, left, and right surfaces, including covered connectors and tripod-support provisions? The current gallery includes Sony and Canon mounted examples and rear images without a clear Z identification.",
+    "What are the Nikon Z-specific dimensions and weight, with measurement conditions? The published approximately 858 g value is explicitly for Sony E.",
+    "What standard accessories accompany the Nikon Z lens, and does its external length change during focusing?"
   ]
 }

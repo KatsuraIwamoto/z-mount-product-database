@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN LM-NZ M E Mount Adapter"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "shoten-lm-nz-m-e"
@@ -45,6 +45,98 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://stkb.co.jp/support.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/92/28/6_000000002892.jpg?1779431577",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://gigaplus.makeshop.jp/shotenkobo/img/shoten/SHOTEN-LM-NZ-M-E.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/92/28/7_000000002892.jpg?1779431577",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/92/28/8_000000002892.jpg?1779431577",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/92/28/9_000000002892.jpg?1779431577",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/92/28/14_000000002892.jpg?1779431577",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/92/28/15_000000002892.jpg?1779431577",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/92/28/18_000000002892.jpg?1779431577",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mechanisms"
+      ]
     }
+  ],
+  "unresolved": [
+    "Where is the official released firmware or explicit firmware applicability statement for LM-NZ M E, distinct from LM-NZ E?"
+  ],
+  "notes": [
+    "EXIF values come from user-configurable lens profiles; the recorded aperture does not track the physical lens aperture."
   ]
 }

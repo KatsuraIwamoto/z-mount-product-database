@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 10mm f/3.5 APS-C Ultra Wide Angle Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-10mm-f3p5"
@@ -34,7 +34,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "controls"
       ],
       "decisionChecks": [
         "availability"
@@ -65,6 +66,17 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/1_100370ab-b46b-48f9-b31d-de49c820d547.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which weight and measurement conditions apply to the Nikon Z version? The official page gives 130 g in its description but its specification table identifies 125.5 g as E mount without caps."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 65mm T2.9 2x Macro APO Cine"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-65mm-t2-9-2x-macro-apo-cine"
@@ -72,8 +72,80 @@
         "lens.specialElements",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "officialProductPages",
+        "physical.externalLengthDuringFocus",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/LAOWA65mmT2.9_600x600.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalenses.ca/product/laowa-65mm-t2-9-2x-macro-apo-cine/",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "lens.specialized",
+        "lens.focus",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowalenses.ca/wp-content/uploads/2023/02/Laow_65mm_T2-_-2X_Macro_APO_Cine_2.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalenses.ca/wp-content/uploads/2023/02/Laow_65mm_T2-_-2X_Macro_APO_Cine_3.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalenses.ca/wp-content/uploads/2023/02/Laow_65mm_T2-_-2X_Macro_APO_Cine_4.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalenses.ca/wp-content/uploads/2023/02/Laow_65mm_T2-_-2X_Macro_APO_Cine_5.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalenses.ca/wp-content/uploads/2023/02/Laow_65mm_T2-_-2X_Macro_APO_Cine_6.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Is the minimum working distance 7 cm or 8 cm for the Nikon Z version?",
+    "What are Nikon Z-specific dimensions and mass with attachment conditions?",
+    "Can Nikon Z-specific views establish complete exterior coverage, and is the photographed protective case supplied in all Nikon Z packages?"
   ]
 }

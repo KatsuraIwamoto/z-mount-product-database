@@ -9,7 +9,7 @@
       "マウントアダプター FTZ"
     ]
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "mount-adapter-ftz"
@@ -108,6 +108,27 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://downloadcenter.nikonimglib.com/en/download/fw/360.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/cms/products/accessory/body/ftz/img/index/product_01.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "electronics",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete top, bottom, left and right exterior images confirm the absence of additional mechanisms and show the tripod-thread specification?"
   ]
 }

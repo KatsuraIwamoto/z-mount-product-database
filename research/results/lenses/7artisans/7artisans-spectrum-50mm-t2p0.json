@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 50mm T2.0 Full Frame Cine Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "7artisans-spectrum-50mm-t2p0"
@@ -56,6 +56,33 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/e5dce7a921778a8288ab8cefc6f6ad93_095310dc-4fa4-44d1-bdd1-6fc4c1e383e3.jpg?v=1774428668",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.focus",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.anglesOfView"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/products/7_a53972bd-6474-470c-aa2e-7cbe906523db.png?v=1697439276&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "mount"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can official Nikon Z-specific images establish the complete rear and underside, including tripod-support provisions and any covered connectors? The available product and mounted images do not expose every surface.",
+    "Which focus and attached-component conditions apply to the Nikon Z dimensions and mass, does length change during focusing, and which accessories are standard with the individual Nikon Z lens rather than the three-lens set?"
   ]
 }

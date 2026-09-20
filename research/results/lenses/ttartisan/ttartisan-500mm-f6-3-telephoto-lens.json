@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan 500mm F6.3 Telephoto Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-500mm-f6-3-telephoto-lens"
@@ -46,7 +46,10 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "controls",
+        "accessories",
+        "lens.specialElements"
       ]
     },
     {
@@ -59,6 +62,19 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/1_4ed67626-e247-4109-a1b4-632d07370dca.webp?v=1713177000&width=493",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z top/bottom/left/right and rear views plus operating documentation establish full exterior coverage, electronic-contact absence and existing stabilization/retractability facts? Shared side views were inspected without inferring unseen controls or absence.",
+    "Can official operating instructions establish tripod collar detachability and the function/application of the stated MC multi-layer coatings? Can the Nikon Z weight be separated from the 1564–1617 g multi-mount range?"
   ]
 }

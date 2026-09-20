@@ -6,7 +6,7 @@
     "brandId": "c7adapters",
     "name": "Leica M – Z mount"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "c7adapters-leica-m-z"
@@ -25,10 +25,20 @@
         "mechanisms",
         "physical.dimensionMeasurements",
         "physical.weightMeasurements",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.tripodSupport"
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://c7adapters.com/wp-content/uploads/2026/01/Leica_M_adapter_Z_mount_shimmable_c7adapters.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical.tripodSupport"
       ]
     }
   ]

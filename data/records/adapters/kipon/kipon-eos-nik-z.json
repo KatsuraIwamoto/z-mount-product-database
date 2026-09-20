@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Canon EOS-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "EF-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

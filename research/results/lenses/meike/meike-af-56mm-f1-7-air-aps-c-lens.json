@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike AF 56mm F1.7 Air APS-C Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-af-56mm-f1-7-air-aps-c-lens"
@@ -45,6 +45,33 @@
       "checked": [
         "controls"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/5617_--_2_07.jpg?v=1775804105",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/5617_--_2_05.jpg?v=1775804105",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z-specific dimensions and mass be established? The current specification image explicitly identifies E mount, so its 66.5 x 59.2 mm and approximately 190 g are not transferred.",
+    "Are both black and white finishes offered for Nikon Z? The shared graphic does not distinguish mounts.",
+    "Can Nikon Z front, opposite-side and underside photos complete the exterior survey and substantiate existing tripod-support and retractability fields?",
+    "Can operating documentation establish the manual ring function and mechanism?",
+    "Can an official source explicitly label the orientations of the three recorded APS-C angles? The current graphic lists 23.2, 15.6 and 27.8 degrees without orientation labels."
   ]
 }

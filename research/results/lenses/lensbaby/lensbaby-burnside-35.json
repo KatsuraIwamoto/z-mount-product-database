@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Burnside 35"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-burnside-35"
@@ -33,7 +33,7 @@
     },
     {
       "url": "https://www.kenko-tokina.co.jp/newproducts/burnside35_201802.html",
-      "publisherRelationship": "manufacturer-or-brand",
+      "publisherRelationship": "authorized-distributor",
       "sourceType": "announcement",
       "checked": [
         "identity",
@@ -79,6 +79,45 @@
         "lens.focalLength",
         "lens.aperture"
       ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/lit_files/704190.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "lens.specialized",
+        "controls",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.kenko-tokina.co.jp/camera-lens/mt-images/burnside35_mil.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.kenko-tokina.co.jp/camera-lens/mt-images/burnside35_effectslider.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0279/1378/1386/files/Burnside_35.pdf?5459=",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "controls",
+        "lens.focus"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z-specific front, rear, opposite-side and underside images establish complete exterior coverage?",
+    "What are the Nikon Z-specific dimensions, mass and sensor-to-subject minimum focusing distance?"
   ]
 }

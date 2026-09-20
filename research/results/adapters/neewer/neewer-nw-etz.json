@@ -6,7 +6,7 @@
     "brandId": "neewer",
     "name": "NW-ETZ Camera Autofocus Adapter Ring for Nikon"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "neewer-nw-etz"
@@ -29,6 +29,92 @@
         "physical.dimensionMeasurements",
         "physical.weightMeasurements"
       ]
+    },
+    {
+      "url": "https://neewer.com/cdn/shop/files/1_3369544f-f9e7-4ad2-8fc3-0c66f37e8c60.jpg?v=1703143159&width=1600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://support.neewer.com/firmware_update",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://neewer.com/cdn/shop/files/10103068_1.jpg?v=1713774476&width=1600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://neewer.com/cdn/shop/files/3_fbf14f16-9927-41ec-a9d2-c0fe38b05536.jpg?v=1713774476&width=1600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://neewer.com/cdn/shop/files/10103068_3.jpg?v=1713774476&width=1600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://neewer.com/cdn/shop/files/5_a7c56759-ab3e-4bc7-9753-16d0c759f84e.jpg?v=1713774476&width=1600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://neewer.com/cdn/shop/files/6_4c4f4f79-026d-4b1d-848f-67b8871419dd.jpg?v=1713774476&width=1600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://neewer.com/cdn/shop/files/7_87b2579c-3972-4153-9b03-b18b5a6e1d0b.jpg?v=1713774476&width=1600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://neewer.com/cdn/shop/files/8_43b74719-d29f-45d1-aa27-bf6d30c02891.jpg?v=1713774476&width=1600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
     }
+  ],
+  "unresolved": [
+    "Are any additional mechanisms present on the circumference not fully exposed in the NW-ETZ product images?"
   ]
 }

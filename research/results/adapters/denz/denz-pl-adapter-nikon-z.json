@@ -6,7 +6,7 @@
     "brandId": "denz",
     "name": "PL-Adapter for Nikon Z-mount cameras"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "denz-pl-adapter-nikon-z"
@@ -24,6 +24,30 @@
         "conversionOptics",
         "mechanisms"
       ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1672324-REG/denz_c0100303_pl_adapter_for_nikon.html/overview",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/images/fb/denz_c0100303_pl_adapter_for_nikon_1672324.jpg",
+      "publisherRelationship": "retailer",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z rear and four-sided photographs or a product-specific manual establish the complete exterior, electronic-contact and mechanism details?"
   ]
 }

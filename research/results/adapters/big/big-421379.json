@@ -6,7 +6,7 @@
     "brandId": "big",
     "name": "B.I.G. T2-Adapter für Nikon Z"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "big-421379"
@@ -36,6 +36,14 @@
       "checked": [
         "identity",
         "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://www.big-photo.de/thumbnail/62/b1/0c/1770904850/421379a-a01_800x800.jpg?ts=1770911604",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
   ]

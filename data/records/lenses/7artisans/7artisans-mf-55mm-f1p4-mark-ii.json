@@ -60,14 +60,40 @@
       }
     ],
     "officialEnvironmentalProtectionClaims": null,
-    "filterInterfaces": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 52,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
     "tripodSupport": {
       "present": false
     },
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "declicked"
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -97,7 +123,14 @@
       },
       "controlMechanism": "mechanical"
     },
-    "anglesOfView": null,
+    "anglesOfView": [
+      {
+        "format": "aps-c",
+        "orientation": null,
+        "degrees": 29.5,
+        "conditions": {}
+      }
+    ],
     "coverage": {
       "format": "aps-c"
     },

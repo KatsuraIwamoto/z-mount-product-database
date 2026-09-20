@@ -6,7 +6,7 @@
     "brandId": "dzofilm",
     "name": "Octopus II"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "dzofilm-octopus-ii-pl-z"
@@ -33,10 +33,29 @@
       "sourceType": "retailer-listing",
       "checked": [
         "identity.variants",
-        "mountConfigurations"
+        "mountConfigurations",
+        "physical.tripodSupport",
+        "physical.weightMeasurements"
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0697/2162/0646/files/Octopus_PL-Z_2.png?v=1781070972",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0697/2162/0646/files/20260820-140156.png?v=1787205764",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.weightMeasurements"
       ]
     }
   ]

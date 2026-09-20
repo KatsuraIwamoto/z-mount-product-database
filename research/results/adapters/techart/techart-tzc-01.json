@@ -6,7 +6,7 @@
     "brandId": "techart",
     "name": "Canon EF to Nikon Z Autofocus Adapter"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "techart-tzc-01"
@@ -39,6 +39,33 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://techartpro.com/wp-content/uploads/2019/12/IMG_7290.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "electronics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://techartpro.com/wp-content/uploads/2019/12/IMG_7293.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "electronics",
+        "mechanisms"
+      ]
     }
+  ],
+  "notes": [
+    "A function button stores the current focus distance and recalls it with a subsequent press."
+  ],
+  "unresolved": [
+    "Can unobstructed front, rear and four-sided exterior views establish the complete control, connector and tripod-support arrangement for this generation?",
+    "Which official specification establishes electronic manual-focus confirmation or another adapter-provided manual-focus aid, separately from ordinary MF-mode compatibility?"
   ]
 }

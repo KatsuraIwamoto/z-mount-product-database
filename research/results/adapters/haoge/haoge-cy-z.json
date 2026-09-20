@@ -6,7 +6,7 @@
     "brandId": "haoge",
     "name": "Contax/Yashica to Nikon Z Manual Lens Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "haoge-cy-z"
@@ -37,6 +37,28 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0593/2403/9326/files/a41dd6c9039774128dc7b0b5ae6f7bc7.jpg?v=1689672797",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0593/2403/9326/files/2c603cfc635e0c54b86c226a56f7c690.jpg?v=1689672805",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
       ]
     }
   ]

@@ -47,7 +47,7 @@
     "lensPowerTransmission": null,
     "recordingTriggerTransmission": null
   },
-  "mechanisms": [],
+  "mechanisms": null,
   "physical": {
     "dimensionMeasurements": null,
     "weightMeasurements": null,

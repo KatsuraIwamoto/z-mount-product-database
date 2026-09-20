@@ -6,7 +6,7 @@
     "brandId": "cheecar",
     "name": "Cheecar 10mm F5.6 Fisheye"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "cheecar-10mm-f5-6-fisheye"
@@ -36,8 +36,22 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2021/09/13/613efcb6a892b.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "The current manufacturer table reconfirms CL-Mil1056N, fixed F5.6, 6 elements in 5 groups, 172 degrees, 0.2 m minimum focus, APS-C coverage and Nikon Z compatibility. Its 54 × 30 mm and 100 g are shared across mounts without cap or length conditions; existing measurements are retained pending Z-specific evidence.",
+    "Two product-image files were inspected and show the same front-oblique view with focus ring and distance scale. Complete Nikon Z top, bottom, left, right and exposed rear coverage remains unavailable. The hood-shaped front rim does not establish an integrated accessory, and the table uses an unexplained dash for hood/filter entries.",
+    "MC multilayer coating is named without its function, treated surfaces or a specific coating designation. These details and supplied accessories remain unknown. The listed 2021 market-entry year is not an exact announcement date."
   ]
 }

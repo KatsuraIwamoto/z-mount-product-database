@@ -21,9 +21,20 @@
   },
   "officialProductPages": [
     {
+      "url": "https://www.kasecn.com/products_detail/55.html",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "CN",
+      "language": "zh",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Kase"
+      }
+    },
+    {
       "url": "https://kasefilters.com/product/kase-reflex-200mm-f5-6-lens",
       "pageFamilies": [
-        "home-country",
         "global"
       ],
       "region": "GB",
@@ -31,6 +42,18 @@
       "publisher": {
         "type": "manufacturer-or-brand",
         "name": "Kase Filters"
+      }
+    },
+    {
+      "url": "https://kaseoptics.com/products/kase-200mm-f-5-6-mc-reflex-mirror-lens-nikon-z",
+      "pageFamilies": [
+        "usa"
+      ],
+      "region": "US",
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Kase Optics"
       }
     }
   ],
@@ -46,15 +69,46 @@
     "dimensionMeasurements": null,
     "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
-    "filterInterfaces": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 67,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
     "tripodSupport": {
       "present": false
     },
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": null,
+    "rearCaps": null,
+    "lensCases": [
+      {
+        "construction": "soft-case",
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -81,13 +135,38 @@
       },
       "controlMechanism": "mechanical"
     },
-    "anglesOfView": null,
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 12.3,
+        "conditions": {}
+      }
+    ],
     "coverage": {
       "format": "full-frame"
     },
-    "opticalConstruction": null,
+    "opticalConstruction": {
+      "elements": 6,
+      "groups": 5
+    },
     "specialElements": null,
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "officialName": "多层减反光增透膜",
+        "appliedTo": null
+      },
+      {
+        "types": [
+          "other"
+        ],
+        "officialName": "纳米超高反射介质膜",
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false
@@ -97,8 +176,19 @@
         "mechanism": null
       },
       "opticalFocusingSystems": null,
-      "minimumFocusDistances": null,
-      "reproductionMagnifications": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 2,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.11,
+          "conditions": {}
+        }
+      ],
       "officialFocusBehaviorClaims": null
     },
     "stabilization": {

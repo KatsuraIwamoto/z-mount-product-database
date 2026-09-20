@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "Pentax DA to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-pentax-da-nz"
@@ -37,6 +37,56 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/4_05169e10-de6e-4f89-bb1f-7337552c4dd5_800x.jpg?v=1613497764",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/1_de58cbee-e2cf-432b-863b-91fe17cae412_800x.jpg?v=1613497765",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/3_987683e3-9cce-4e52-ab62-6703df3861c1_800x.jpg?v=1613497765",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/5_2dfefe9b-211e-44eb-9515-d81a2ec542d1_800x.jpg?v=1613497765",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/2_bf9a53e7-3597-4d23-bbf8-e1b948c36ef4_800x.jpg?v=1613497765",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does the silver ring control lens aperture, and what operation is specified for this exact Pentax (A) adapter?"
   ]
 }

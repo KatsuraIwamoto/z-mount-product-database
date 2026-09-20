@@ -6,7 +6,7 @@
     "brandId": "caye",
     "name": "CAYE 10mm F8 Fisheye Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
@@ -22,6 +22,7 @@
     }
   ],
   "unresolved": [
-    "Which entity manufactures the product, and is the Nikon Z configuration directly mountable?"
+    "Which entity manufactures the product, and is the Nikon Z configuration directly mountable?",
+    "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
   ]
 }

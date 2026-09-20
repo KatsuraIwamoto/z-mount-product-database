@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Canon FD-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "FD-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Vizelex Cine ND Throttle Lens Mount Adapter Compatible with Nikon Nikkor F Mount G-Type D/SLR Lens to Nikon Z-Mount Mirrorless Camera Body with Built-In Variable ND Filter (2 to 8 Stops)",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "NKG-NKZ-CNDT"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -58,8 +60,23 @@
     }
   ],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          64,
+          72,
+          37
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 142,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

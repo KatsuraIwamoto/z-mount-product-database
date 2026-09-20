@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan 50mm F0.95"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-50mm-f0-95"
@@ -47,7 +47,10 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "controls",
+        "accessories",
+        "lens.specialElements"
       ]
     },
     {
@@ -60,6 +63,18 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/APS-C-50mmF0.95.jpg?v=1690189019&width=493",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z top/bottom/left/right and rear views plus operating documentation establish full exterior coverage, electronic-contact absence and existing stabilization/retractability facts? Shared side views were inspected without inferring unseen controls or absence."
   ]
 }

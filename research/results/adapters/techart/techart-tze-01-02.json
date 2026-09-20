@@ -6,7 +6,7 @@
     "brandId": "techart",
     "name": "Sony E to Nikon Z Autofocus Adapter"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "techart-tze-01-02"
@@ -37,6 +37,37 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://techartpro.com/?page_id=3983",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://techartpro.com/wp-content/uploads/2019/05/K1_8539-1-scaled.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://techartpro.com/wp-content/uploads/2019/05/K1_8542-1-scaled.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact-generation top, bottom, left and right images verify the complete exterior arrangement for both TZE-01 and TZE-02?",
+    "Can unobstructed front, rear and four-sided exterior views establish the complete control, connector and tripod-support arrangement for this generation?",
+    "Which official specification establishes electronic manual-focus confirmation or another adapter-provided manual-focus aid, separately from ordinary MF-mode compatibility?"
   ]
 }

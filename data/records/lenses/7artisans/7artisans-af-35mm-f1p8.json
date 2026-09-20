@@ -54,14 +54,33 @@
     "dimensionMeasurements": null,
     "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
-    "filterInterfaces": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 62,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
     "tripodSupport": {
       "present": false
     },
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "declicked"
+    },
+    {
+      "type": "function-button",
+      "quantity": 1,
+      "officialName": "FN"
+    }
+  ],
   "accessories": null,
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
@@ -95,7 +114,14 @@
       },
       "controlMechanism": "electronic"
     },
-    "anglesOfView": null,
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 64,
+        "conditions": {}
+      }
+    ],
     "coverage": {
       "format": "full-frame"
     },
@@ -130,7 +156,13 @@
     "focus": {
       "autofocus": {
         "present": true,
-        "motors": null
+        "motors": [
+          {
+            "type": "stepping-motor",
+            "quantity": null,
+            "officialName": "STM"
+          }
+        ]
       },
       "manualFocus": {
         "present": true,

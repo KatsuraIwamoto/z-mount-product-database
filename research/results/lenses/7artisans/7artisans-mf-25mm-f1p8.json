@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 25mm f/1.8 APS-C Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-25mm-f1p8"
@@ -64,6 +64,17 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/1_b51269b6-c730-4fd2-a32b-0e9f33b732ad.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which dimensions and weight apply to the Nikon Z configuration? The current page shares older specification imagery listing E/FX/EOS-M/M43 and a 143 g illustration, without identifying Z measurement conditions."
   ]
 }

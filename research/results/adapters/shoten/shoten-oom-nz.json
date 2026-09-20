@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN OOM-NZ Mount Adapter"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "shoten-oom-nz"
@@ -20,9 +20,7 @@
         "identity",
         "identity.modelNumberOptions",
         "mountConfigurations",
-        "electronics",
         "conversionOptics",
-        "mechanisms",
         "officialProductPages",
         "physical.weightMeasurements"
       ],
@@ -43,6 +41,51 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/37/18/2_000000001837.jpg?1678209903",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/37/18/3_000000001837.jpg?1678209903",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/37/18/1_000000001837.jpg?1678209903",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://www.amazon.co.jp/dp/B0BSQR9HVK",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics"
+      ],
+      "note": "The SHOTEN OOM-NZ listing, sold by Shoten Kobo, specifies manual focusing and states that electronic lens control is unavailable."
     }
+  ],
+  "unresolved": [
+    "Can complete exterior views or operating instructions establish whether OOM-NZ has additional mechanisms? The published gallery does not cover the full circumference."
+  ],
+  "notes": [
+    "Electronic contacts and the related contact-dependent electronic functions are recorded as absent based on the Amazon Japan OOM-NZ product description stating that electronic lens control is unavailable. This editorial conclusion was approved by the maintainer on 2026-09-20."
   ]
 }

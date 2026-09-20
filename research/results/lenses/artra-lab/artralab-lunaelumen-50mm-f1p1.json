@@ -6,7 +6,7 @@
     "brandId": "artra-lab",
     "name": "50mm F1.1 LUNAELUMEN"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "artralab-lunaelumen-50mm-f1p1"
@@ -45,6 +45,18 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://artralab.com/cdn/shop/products/Moment-App-20221004173559598_b634614f-d19a-412f-bf2a-67c9774a9ae2_1080x.jpg?v=1665862131",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Obtain identifiable Nikon Z underside, opposite-side and rear views. The four gallery images show a custom front ring and nearly the same side with and without a cap; they do not provide four-sided coverage. Confirm ring operation and aperture click behavior, supplied accessories and focus-related length changes.",
+    "Confirm Nikon Z applicability and attached-component/focus conditions for the shared 418 g mass and 62.9 × 67.88 mm dimensions."
   ]
 }

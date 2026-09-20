@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "KIPON PL-Nikon Z Variable ND Adapter"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kipon-variable-nd-pl-nik-z"
@@ -52,7 +52,8 @@
         "identity",
         "officialProductPages",
         "mountConfigurations",
-        "mechanisms"
+        "mechanisms",
+        "identity.modelNumberOptions"
       ]
     },
     {
@@ -63,5 +64,8 @@
         "electronics"
       ]
     }
+  ],
+  "unresolved": [
+    "Obtain product-specific Nikon Z photographs showing front, rear, sides, filter interface and support attachment. The Japan product image shows a PL-S/E adapter; historical EF-MFT and EF-S/E ND images on the global page do not establish the Nikon Z construction."
   ]
 }

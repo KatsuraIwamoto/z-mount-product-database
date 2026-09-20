@@ -76,9 +76,41 @@
       "type": "aperture-ring",
       "quantity": 1,
       "clickBehavior": "declicked"
+    },
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "rotationDegrees": 160
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
     }
   ],
-  "accessories": null,
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null,
+    "lensCases": null
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -122,8 +154,23 @@
       "groups": 7,
       "elements": 10
     },
-    "specialElements": null,
-    "coatings": null,
+    "specialElements": [
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 1
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null,
+        "officialName": "IMC"
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false

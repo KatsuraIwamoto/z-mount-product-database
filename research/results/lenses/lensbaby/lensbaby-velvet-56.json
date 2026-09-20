@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Velvet 56"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-velvet-56"
@@ -30,7 +30,8 @@
         "lens.coatings",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "lens.specialized"
       ]
     },
     {
@@ -53,6 +54,37 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://lensbaby.com/blogs/education/velvet-stepbystep-guide",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "lens.focus",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0279/1378/1386/files/Velvet_56_and_85.pdf?5459=",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "lens.focus",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/cdn/shop/products/Velvet56_DSLR_Straight_Web.png?v=1637280348&width=1443",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "What is the sensor-to-subject minimum focus distance? Manufacturer operating guidance measures the short focusing distance from the front of the lens.",
+    "What are the Nikon Z-specific dimensions and mass, and can Nikon Z rear/opposite-side/underside photographs complete the exterior survey?"
   ]
 }

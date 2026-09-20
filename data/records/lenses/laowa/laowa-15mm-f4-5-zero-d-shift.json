@@ -27,6 +27,18 @@
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/aa2b738c8fac2c15897edfed251a2c5b1aa5325e.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -48,18 +60,52 @@
         "grams": 597,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": null,
     "filterInterfaces": [],
     "tripodSupport": {
-      "present": false
+      "present": true,
+      "components": null
     },
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Shift ring"
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Shift lock knob"
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Rotation lock release button"
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -75,7 +121,12 @@
             "conditions": {}
           }
         ],
-        "minimumAperture": null,
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {}
+          }
+        ],
         "effective": null
       },
       "diaphragm": {
@@ -107,9 +158,23 @@
         ],
         "quantity": 2,
         "officialName": "Aspherical"
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 3,
+        "officialName": "ED"
       }
     ],
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false
@@ -144,13 +209,19 @@
         "rotationMeasurements": [
           {
             "scope": "movement-assembly",
-            "maximumFromNeutralDegrees": null,
+            "maximumFromNeutralDegrees": 180,
             "totalRangeDegrees": 360,
-            "directionality": null,
+            "directionality": "bidirectional",
             "conditions": {}
           }
         ]
       }
-    }
+    },
+    "imageCircleDiameters": [
+      {
+        "diameterMm": 65,
+        "conditions": {}
+      }
+    ]
   }
 }

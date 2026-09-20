@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN B.SQ-NZ-U Mount Adapter"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "shoten-b-sq-nz-u"
@@ -43,6 +43,39 @@
       "decisionChecks": [
         "availability",
         "release-status"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/61/20/1_000000002061.jpg?1716274881",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/61/20/3_000000002061.jpg?1716274881",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/61/20/4_000000002061.jpg?1716274881",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "physical.tripodSupport"
       ]
     }
   ]

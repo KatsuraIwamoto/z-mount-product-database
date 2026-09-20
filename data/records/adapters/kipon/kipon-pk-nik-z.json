@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Pentax K-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "PK-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

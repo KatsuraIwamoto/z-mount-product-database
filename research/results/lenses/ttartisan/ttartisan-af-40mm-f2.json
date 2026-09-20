@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan AF 40mm F2"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-af-40mm-f2"
@@ -47,7 +47,10 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "lens.specialElements",
+        "controls",
+        "accessories"
       ]
     },
     {
@@ -79,6 +82,18 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/1_d786fd18-b4ed-4e54-92e1-02b826987ef0.jpg?v=1754617534&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z directional photographs and operating instructions establish the remaining ring functions and reconfirm existing negative tripod/retractability/stabilization facts? The shared side photograph does not provide full Z coverage; the 166–176 g multi-mount range is not assigned to Z."
   ]
 }

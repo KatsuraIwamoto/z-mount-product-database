@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA Sword 15mm T4.1 1x Macro Cine"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-sword-15mm-t4-1-1x-macro-cine"
@@ -35,7 +35,9 @@
         "lens.imageCircleDiameters",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.specialized"
+        "lens.specialized",
+        "physical.frontAccessoryInterface",
+        "lens.focalLength"
       ],
       "decisionChecks": [
         "availability"
@@ -70,6 +72,40 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://www.laowa.jp/Sword_siyou_2.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "mount.adapter",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.frontAccessoryInterface",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.imageCircleDiameters",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/Sword_02.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "What are the dimensions and mass with the dedicated Nikon Z bayonet attached, and what mount conditions apply to the published measurements?",
+    "Can Nikon Z-configured rear, opposite-side and underside images establish complete exterior coverage and the lens-support configuration?"
   ]
 }

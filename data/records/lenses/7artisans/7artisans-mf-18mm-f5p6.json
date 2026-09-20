@@ -123,7 +123,22 @@
       "groups": 5,
       "elements": 7
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 2,
+        "officialName": "ED"
+      },
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 1,
+        "officialName": "ASPH"
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {

@@ -31,7 +31,9 @@
     {
       "lensSideMountSystemId": "oct-18",
       "cameraSideMountSystemId": "nikon-z",
-      "lensRetention": null,
+      "lensRetention": {
+        "type": "other"
+      },
       "lensRearProtrusionLimits": null
     }
   ],

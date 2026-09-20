@@ -6,7 +6,7 @@
     "brandId": "artra-lab",
     "name": "OCULILUMEN 7.5mm F2.8 Fish eye (APS-C)"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "artralab-oculilumen-7p5mm-f2p8-fisheye"
@@ -35,7 +35,10 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.specialElements",
+        "lens.coatings",
+        "identity.variants"
       ]
     },
     {
@@ -46,6 +49,27 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0491/3787/7141/files/IMG-20230710-WA0009.jpg?v=1688921895",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://artralab.com/cdn/shop/products/WhatsAppImage2023-01-09at17.31.46_1080x.jpg?v=1673514589",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Complete identifiable Nikon Z four-side and rear coverage. The gallery includes a silver Z fc mounted front/upper view, X-marked standalone views and cap-on black/silver views; none establishes every Z side. Confirm ring operation and aperture click behavior, hood detachability, supplied accessories and focus-related length changes.",
+    "Confirm Nikon Z applicability and attached-component conditions for the shared 320 g mass and 61 × 54 mm dimensions.",
+    "The official silver-color selector is spelled Sliver; that published option name is retained while the visibly silver color is normalized separately."
   ]
 }

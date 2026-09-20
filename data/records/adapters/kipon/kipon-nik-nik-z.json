@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "NIK-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "NIK-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan AF 56mm F1.8"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-af-56mm-f1-8"
@@ -47,7 +47,9 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "lens.specialElements",
+        "accessories"
       ]
     },
     {
@@ -73,6 +75,19 @@
         "lens.opticalConstruction",
         "lens.focus"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/1_a9032302-fd97-45f6-aa5b-208375f3a45d.jpg?v=1729223200&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can the manufacturer resolve the 0.8 m minimum focus distance in its global specification table versus 0.5 m in the same page narrative and current store table? The previously sourced 0.8 m is retained pending clarification.",
+    "Can exact Nikon Z directional photographs and operating instructions establish remaining ring functions and reconfirm existing negative tripod/retractability/stabilization facts? The shared side photographs do not provide full Z coverage; no Z mass is inferred from the 233–245 g range."
   ]
 }

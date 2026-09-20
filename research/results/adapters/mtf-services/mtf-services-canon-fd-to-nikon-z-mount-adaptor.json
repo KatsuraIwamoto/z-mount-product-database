@@ -6,7 +6,7 @@
     "brandId": "mtf-services",
     "name": "Canon FD to Nikon Z Mount Adaptor"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "mtf-services-canon-fd-to-nikon-z-mount-adaptor"
@@ -23,8 +23,22 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://mtfservices.com/cdn/shop/files/CanFDtoCanonRfront.jpg?v=1730030825&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "mechanisms",
+        "physical.tripodSupport"
       ]
     }
+  ],
+  "unresolved": [
+    "Confirm Nikon Z-specific front and rear photographs; the current official product image filename identifies Canon R and does not show an identifiable Z mount."
   ]
 }

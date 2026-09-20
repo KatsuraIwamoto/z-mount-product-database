@@ -6,7 +6,7 @@
     "brandId": "boryoza",
     "name": "BORYOZA GF-NZ Auto Focus Adapter Compatible with Fujifilm G Mount Lens to Nikon Z Mount Cameras"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "boryoza-gf-nz"
@@ -40,6 +40,31 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://admin.boryoza.net/api/storefront/production/media/216",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://boryoza.net/downloads/GF-NZ/GF-NZ%20User%20Manual%20260513.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "electronicServices",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://boryoza.net/en/firmware",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
       ]
     }
   ]

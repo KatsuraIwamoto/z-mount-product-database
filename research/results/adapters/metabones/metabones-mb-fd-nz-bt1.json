@@ -6,7 +6,7 @@
     "brandId": "metabones",
     "name": "Canon FD Lens to Nikon Z-mount T Adapter"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "metabones-mb-fd-nz-bt1"
@@ -25,8 +25,34 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
+        "physical.tripodSupport",
+        "physical.officialEnvironmentalProtectionClaims"
+      ]
+    },
+    {
+      "url": "https://www.metabones.com/assets/p/mb_fd-nz-bt1_a.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.metabones.com/assets/p/mb_fd-nz-bt1_b.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
         "physical.tripodSupport"
       ]
     }
+  ],
+  "unresolved": [
+    "Confirm the function of the knurled ring immediately behind the FD lens mount; the current product description does not explain its operation."
   ]
 }

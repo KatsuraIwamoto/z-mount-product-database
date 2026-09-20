@@ -42,7 +42,18 @@
   "physical": {
     "dimensionMeasurements": null,
     "weightMeasurements": null,
-    "officialEnvironmentalProtectionClaims": null,
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "dust-resistant",
+          "splash-resistant"
+        ],
+        "scope": {
+          "kind": "product"
+        },
+        "conditions": {}
+      }
+    ],
     "filterInterfaces": [
       {
         "type": "front-thread",

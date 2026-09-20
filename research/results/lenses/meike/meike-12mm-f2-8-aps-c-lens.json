@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike 12mm F2.8 APS-C Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-12mm-f2-8-aps-c-lens"
@@ -34,11 +34,27 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.coatings",
+        "accessories"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/products/1_d1604262-ff37-4cb8-8f8b-bfd3f3e3b210.jpg?v=1561977576&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.filterInterfaces",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "The official page gives both 3.94 inches and 15 cm as minimum focusing distance. Which value applies to the Nikon Z version?",
+    "Do the shared 78 x 65.8 mm dimensions and 360 g mass specifically apply to Nikon Z, and with what accessories attached?",
+    "Can manufacturer operating documentation identify the focus and aperture rings and their click behavior, and Nikon Z rear, opposite-side and underside photos complete the exterior survey and substantiate the existing tripod-support and retractability fields?"
   ]
 }

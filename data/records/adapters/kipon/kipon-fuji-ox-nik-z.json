@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "FUJI OX-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "FUJI OX-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

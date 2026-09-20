@@ -6,7 +6,7 @@
     "brandId": "artra-lab",
     "name": "Nikon F Mount AI-G Lens to Nikon Z Mount Camera Body Adapter"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "artra-lab-alnfaigz"
@@ -35,6 +35,29 @@
         "identity",
         "identity.modelNumberOptions",
         "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://artralab.com/products/nikon-f-mount-ai-g-nikon-z-mount-camera-body-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "officialProductPages",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://artralab.com/cdn/shop/products/image_0910892c-4106-468c-a619-8a0971a98839.jpg?v=1643814554",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
   ]

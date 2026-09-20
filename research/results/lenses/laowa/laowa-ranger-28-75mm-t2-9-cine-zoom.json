@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA Ranger 28-75mm T2.9 Cine Zoom"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-ranger-28-75mm-t2-9-cine-zoom"
@@ -33,7 +33,12 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.specialized"
+        "lens.specialized",
+        "physical.frontAccessoryInterface",
+        "lens.focalLength",
+        "lens.imageCircleDiameters",
+        "lens.zoom",
+        "accessories"
       ],
       "decisionChecks": [
         "availability"
@@ -76,8 +81,76 @@
         "lens.focalLength",
         "lens.anglesOfView",
         "lens.imageCircleDiameters",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "mount.adapter",
+        "controls",
+        "physical.tripodSupport",
+        "physical.frontAccessoryInterface",
+        "physical.filterInterfaces",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.zoom",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://laowacine.com/wp-content/uploads/2025/03/Ranger-16-30-Product-Page_05_Spec.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.anglesOfView",
+        "lens.focus",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://laowacine.com/wp-content/uploads/2023/06/Ranger-16-30mm6-700x467.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://laowacine.com/wp-content/uploads/2023/06/Ranger-16-30mm9-700x467.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "http://laowacine.com/wp-content/uploads/2023/06/Laowa-Ranger_05_Back-Focus-Adjust-2-1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "http://laowacine.com/wp-content/uploads/2023/06/F_Supporting-Thread-Tips-1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "http://laowacine.com/wp-content/uploads/2023/06/MicrosoftTeams-image-3.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
       ]
     }
+  ],
+  "unresolved": [
+    "What are the dimensions and mass with the dedicated Nikon Z bayonet attached, and what mount and attachment conditions apply to the published measurements?",
+    "Can Nikon Z-configured rear, opposite-side and underside images establish complete exterior coverage?",
+    "Is the 28 mm angle of view 75.3 degrees or 75.4 degrees, and what orientation and sensor dimensions apply?"
   ]
 }

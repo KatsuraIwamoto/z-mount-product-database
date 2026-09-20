@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 35mm F1.7 Air"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-35mm-f1p7-air"
@@ -40,7 +40,9 @@
         "lens.specialElements",
         "lens.coatings",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity",
+        "physical"
       ]
     },
     {
@@ -66,8 +68,31 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "manual",
       "checked": [
-        "electronicServices"
+        "electronicServices",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/35mmF1.7Zfrontview-699833.png?v=1734608051",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/35mm_F1.7_Z-17.png?v=1734422919",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
       ]
     }
+  ],
+  "unresolved": [
+    "Which length is intended in the generic narrative? The Z specification table says 56.4 mm while lightweight text says 54.7 mm without a mount qualifier; retain the explicitly Z-tabulated 56.4 mm.",
+    "Can complete Z directional images reconfirm existing negative stabilization/tripod/retractability facts? Z front-oblique and Z package list were inspected but do not cover every side/rear."
   ]
 }

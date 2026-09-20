@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "C/Y-NIK Z M with Helicoid"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kipon-c-y-nik-z-m"
@@ -27,6 +27,26 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/6c6353_f5b02125bc08441896ef0095549b47c2~mv2.jpg/v1/fit/w_2000,h_2000,q_90/file.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/6c6353_5a5e9619141c4c5bb3f9d0f3468c3002~mv2.jpg/v1/fit/w_2000,h_2000,q_90/file.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "electronics",
+        "conversionOptics"
       ]
     }
   ]

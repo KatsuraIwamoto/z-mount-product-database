@@ -6,7 +6,7 @@
     "brandId": "sg-image",
     "name": "SG-image MF 50mm F1.4 APS-C Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "sg-image-mf-50mm-f1-4-aps-c-lens"
@@ -61,6 +61,17 @@
         "controls",
         "physical.filterInterfaces"
       ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/50mm_1.4.png?v=1757067530&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "2026-09-20: Official 504.png specification image includes Z and matches existing values; shared lateral and M43-mounted front-oblique photos inspected. Distance/depth-of-field scales are visible. Z-specific rear, opposite side and underside not established. Existing mechanical focus coupling, stabilization absence and measurement attachment conditions require explicit corroboration."
   ]
 }

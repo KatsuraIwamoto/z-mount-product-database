@@ -6,7 +6,7 @@
     "brandId": "fotodiox",
     "name": "RhinoCam Vertex Rotating Stitching Adapter, Compatible with Bronica ETR Mount SLR Lens to Nikon Z-Mount Mirrorless Cameras"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "excluded",
     "reason": "The product is primarily a stitching or view-camera positioning system rather than a direct interchangeable-lens mount converter."
@@ -22,6 +22,14 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/products/RC-Vrtx-ETR-NKZ-03.jpg?v=1615237006",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
   ]

@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike AF 33mm F1.4 APS-C Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-af-33mm-f1-4-aps-c-lens"
@@ -86,6 +86,20 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/3314_-_2_04.jpg?v=1752136626",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can a manufacturer operating document explicitly confirm the existing focus-ring function and manual-focus mechanism?",
+    "Can front, opposite-side and underside Nikon Z views complete the exterior survey and substantiate the existing tripod-support and retractability fields?",
+    "What are the accessory conditions for approximately 314 g and the shared 66.5 x 82 mm dimensions?",
+    "Does the dust-and-moisture-resistant seal claim illustrated with X mount also apply to Nikon Z? A red mount seal is visible in the Z rear image."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "dzofilm",
     "name": "Catta Zoom 35-80mm T2.9"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "dzofilm-catta-35-to-80mm-t2p9"
@@ -38,8 +38,49 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.imageCircleDiameters"
+      ]
+    },
+    {
+      "url": "https://dzofilm.com/lens/zoom/catta-zoom",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "physical.weightMeasurements",
+        "physical.dimensionMeasurements",
+        "lens.imageCircleDiameters",
+        "mount",
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "https://dzofilm.oss-cn-shenzhen.aliyuncs.com/dzofilm/PDF/CATTA%20ZOOM-Instructions.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "physical.tripodSupport",
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces",
+        "lens.focus",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://framerusercontent.com/images/V3KLhmnwlxtUIiY0rfJl9oZr0.png?width=1920&height=1080",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "The official table specifies 80 mm as the front diameter, not maximum barrel diameter. The unsupported maximumDiameterMm is cleared to null while the 80 mm front accessory interface and Z-specific 215.4 mm length are retained. Masses are explicitly approximate on the current website; mount and attached-component mass conditions remain unstated.",
+    "A rear plug-in filter slot is explicitly described and pictured, but its filter diameter is not published in the inspected sources. The current drop-in schema requires a numeric filterDiameterMm, so the slot cannot be encoded without guessing; the 77 mm front thread remains recorded.",
+    "The inspected barrel photographs and mounting illustrations do not provide a complete Z-specific top/bottom/left/right and rear-mount set. The labeled Z replacement mount supports mount compatibility, but other-mount barrel views are not counted as Z exterior coverage. Aperture click behavior, coating specifications and a Z-specific package inventory remain unverified.",
+    "The official manual identifies a support base, correcting the former tripodSupport.present=false. Its supplied/optional relationship, removability and thread specification are not established. The manual names front and rear caps but is not an explicit packing inventory. ED/Super ED elements are claimed without counts. The official store product link redirects to the homepage."
   ]
 }

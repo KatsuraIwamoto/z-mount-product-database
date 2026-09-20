@@ -6,7 +6,7 @@
     "brandId": "mitakon",
     "name": "Mitakon Speedmaster 20mm f/0.95"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "mitakon-speedmaster-20mm-f0-95"
@@ -51,6 +51,34 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://zyoptics.net/wp-content/uploads/2024/07/Mitakon-Speedmaster-20mm095_KV-FB.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://zyoptics.net/wp-content/uploads/2024/07/Copy-of-A7R02119-1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical",
+        "mount"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside images complete the exterior survey, including contacts, support parts and storage retractability?",
+    "What accessory and mount conditions apply to the published mass and dimensions? Current shared specifications do not separately identify all Nikon Z measurement conditions.",
+    "Can operating documentation confirm the ring functions, aperture click behavior and rounded-blade claim?",
+    "The front inscription includes ASPH; can the manufacturer identify the aspherical element specification before it is recorded?"
   ]
 }

@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "HB-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "HB-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

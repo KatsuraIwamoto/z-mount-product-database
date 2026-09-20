@@ -6,7 +6,7 @@
     "brandId": "yongnuo",
     "name": "YONGNUO YN16mm F1.8S DA DSM"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "yongnuo-yn16mm-f1-8z-da-dsm"
@@ -22,7 +22,13 @@
         "controls",
         "accessories",
         "lens.focus",
-        "physical.filterInterfaces"
+        "physical.filterInterfaces",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.coverage"
+      ],
+      "decisionChecks": [
+        "availability"
       ]
     },
     {
@@ -59,6 +65,17 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://img.website.xin/contents/sitefiles3602/18013329/images/6682311.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which dimensions, mass, controls and firmware apply specifically to the Nikon Z configuration listed in the official catalogue, and where are identifiable Z-mount exterior views? The individual product page and firmware identify the S configuration; the catalogue combines Z/E in one column."
   ]
 }

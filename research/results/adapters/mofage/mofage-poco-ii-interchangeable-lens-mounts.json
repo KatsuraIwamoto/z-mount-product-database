@@ -6,7 +6,7 @@
     "brandId": "mofage",
     "name": "POCO II interchangeable lens mounts"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "excluded",
     "reason": "Excluded because these are replacement front-mount modules for POCO II, not complete interposed mount adapters."
@@ -21,6 +21,25 @@
       ],
       "decisionChecks": [
         "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://www.mofage.store/collections/frontpage/products/poco-ii-drop-in-filter-adapter",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity"
+      ],
+      "decisionChecks": [
+        "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://www.mofage.store/cdn/shop/files/exp_EF.png?v=1780483217",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
   ]

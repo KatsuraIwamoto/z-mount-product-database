@@ -6,7 +6,7 @@
     "brandId": "sirui",
     "name": "SIRUI Venus 150mm T2.9 1.6x Full-Frame Anamorphic Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "sirui-venus-150mm-t2-9-1-6x-full-frame-anamorphic-lens"
@@ -35,6 +35,9 @@
         "lens.focus",
         "lens.stabilization",
         "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
       ]
     },
     {
@@ -45,6 +48,66 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://store.sirui.com/pages/lens-spec-table",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "specification",
+      "checked": [
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://store.sirui.com/products/venus-150mm-t2-9-1-6x-full-frame-anamorphic-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "physical.filterInterfaces",
+        "controls",
+        "physical",
+        "officialProductPages"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://cdn.shopifycdn.net/s/files/1/0449/9344/6037/files/150_04_03.jpg?v=1690446306",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical",
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus",
+        "controls",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0449/9344/6037/files/150_1680_1000_1800x1800_cd026a85-6d0f-433c-a69e-1809eb8681a0.jpg?v=1762399410",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "notes": [
+    "The 150mm specification image explicitly gives Nikon Z length 182 mm and weight 1404 g with lens caps excluded; maximum diameter is 88 mm. Its 1:4.16 horizontal and 1:2.61 vertical magnifications remain distinct."
+  ],
+  "unresolved": [
+    "What is the complete Nikon Z tripod-support component configuration, including the body thread and any supplied or optional foot?",
+    "Can production Nikon Z top, bottom, left, right and rear images establish complete exterior-control, tripod-support and contact coverage? Shared galleries include other mounts or do not identify the pictured mount.",
+    "How can separately specified horizontal and vertical reproduction magnifications be represented without losing orientation?"
   ]
 }

@@ -52,7 +52,12 @@
     "lensPowerTransmission": null,
     "recordingTriggerTransmission": null
   },
-  "mechanisms": [],
+  "mechanisms": [
+    {
+      "type": "other",
+      "conditions": {}
+    }
+  ],
   "physical": {
     "dimensionMeasurements": [
       {
@@ -67,12 +72,31 @@
         "conditions": {}
       }
     ],
-    "officialEnvironmentalProtectionClaims": null,
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "dust-resistant",
+          "other"
+        ],
+        "scope": {
+          "kind": "product"
+        },
+        "conditions": {}
+      }
+    ],
     "tripodSupport": null
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "direct-usb",
+        "connectorType": "usb-c",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
   },
   "conversionOptics": {
     "present": false

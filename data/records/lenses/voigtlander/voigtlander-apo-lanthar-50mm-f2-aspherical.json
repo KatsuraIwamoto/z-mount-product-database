@@ -87,6 +87,14 @@
     {
       "type": "aperture-ring",
       "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
     }
   ],
   "accessories": {
@@ -148,7 +156,7 @@
       {
         "format": "full-frame",
         "orientation": "diagonal",
-        "degrees": 46.5,
+        "degrees": 45.6,
         "conditions": {}
       }
     ],

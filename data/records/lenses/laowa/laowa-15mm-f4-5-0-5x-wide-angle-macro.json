@@ -16,6 +16,18 @@
   },
   "officialProductPages": [
     {
+      "url": "https://www.laowalens.com/camera-lens-85.html",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "CN",
+      "language": "zh",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "LAOWA"
+      }
+    },
+    {
       "url": "https://www.venuslens.net/product/laowa-15mm-f-4-5-0-5x-wide-angle-macro/",
       "pageFamilies": [
         "global",
@@ -26,6 +38,18 @@
       "publisher": {
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
+      }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/15mmf4.5-0.5x.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
       }
     }
   ],
@@ -76,7 +100,20 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {

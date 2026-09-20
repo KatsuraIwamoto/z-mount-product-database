@@ -6,7 +6,7 @@
     "brandId": "mitakon",
     "name": "Mitakon Speedmaster 50mm T1.0 S35 Cine Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "mitakon-speedmaster-50mm-t1-0-s35-cine-lens"
@@ -62,6 +62,44 @@
         "physical.filterInterfaces",
         "controls"
       ]
+    },
+    {
+      "url": "https://zyoptics.net/wp-content/uploads/2023/08/01_Mitakon-Speedmaster-Super-35_Key-Visual.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://zyoptics.net/wp-content/uploads/2023/08/04_Mitakon-Speedmaster-Super-35_Long-Focus-Throw.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://zyoptics.net/wp-content/uploads/2023/08/08_Mitakon-Speedmaster-Super-35_Unified-Gear-Position.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical",
+        "mount"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside images complete the exterior survey, including contacts, support parts and storage retractability?",
+    "What accessory and mount conditions apply to the published mass and dimensions? Current shared specifications do not separately identify all Nikon Z measurement conditions.",
+    "The page headline says hard case included, while the descriptive section limits the premium storage box to a full set purchase; is an individual-lens hard case supplied?"
   ]
 }

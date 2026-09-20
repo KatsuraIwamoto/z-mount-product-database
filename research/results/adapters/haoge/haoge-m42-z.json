@@ -6,7 +6,7 @@
     "brandId": "haoge",
     "name": "M42 to Nikon Z Manual Lens Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "haoge-m42-z"
@@ -37,6 +37,28 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0593/2403/9326/files/75f8a05d9031ef6a87a8e4646c4e112b.jpg?v=1689672897",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0593/2403/9326/files/8a9e6522b5dd838fed576e2a6863560d.jpg?v=1689672900",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
       ]
     }
   ]

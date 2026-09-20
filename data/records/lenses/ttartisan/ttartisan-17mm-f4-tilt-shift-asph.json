@@ -52,15 +52,54 @@
     "dimensionMeasurements": null,
     "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
-    "filterInterfaces": null,
+    "filterInterfaces": [],
     "tripodSupport": {
       "present": false
     },
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "clicked"
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -104,7 +143,20 @@
       "groups": 11,
       "elements": 17
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 2
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 6
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {
@@ -129,8 +181,22 @@
     },
     "specialized": {
       "movements": {
-        "tiltMeasurements": null,
-        "shiftMeasurements": null,
+        "tiltMeasurements": [
+          {
+            "maximumFromNeutralDegrees": 8,
+            "totalRangeDegrees": 16,
+            "directionality": "bidirectional",
+            "conditions": {}
+          }
+        ],
+        "shiftMeasurements": [
+          {
+            "maximumFromNeutralMm": 8,
+            "totalRangeMm": 16,
+            "directionality": "bidirectional",
+            "conditions": {}
+          }
+        ],
         "rotationMeasurements": [
           {
             "scope": "movement-assembly",

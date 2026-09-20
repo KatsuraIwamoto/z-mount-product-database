@@ -6,7 +6,7 @@
     "brandId": "c7adapters",
     "name": "Panavision – Nikon Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "c7adapters-panavision-nikon-z"
@@ -26,10 +26,20 @@
         "physical.dimensionMeasurements",
         "physical.weightMeasurements",
         "physical.tripodSupport",
-        "officialProductPages"
+        "officialProductPages",
+        "identity.variants"
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://c7adapters.com/wp-content/uploads/2025/10/zoom_68b077419bf92.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical.tripodSupport"
       ]
     }
   ]

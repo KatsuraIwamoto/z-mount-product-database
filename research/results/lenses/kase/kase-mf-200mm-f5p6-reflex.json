@@ -6,7 +6,7 @@
     "brandId": "kase",
     "name": "Kase Reflex 200mm F5.6"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "kase-mf-200mm-f5p6-reflex"
@@ -33,7 +33,8 @@
         "lens.coverage",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "accessories"
       ]
     },
     {
@@ -60,6 +61,61 @@
         "availability",
         "inclusion-criteria"
       ]
+    },
+    {
+      "url": "https://www.kasecn.com/products_detail/55.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "identity",
+        "mount",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.anglesOfView",
+        "lens.focus",
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://kaseoptics.com/products/kase-200mm-f-5-6-mc-reflex-mirror-lens-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "identity",
+        "mount",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://kaseoptics.com/cdn/shop/files/1117180104.jpg?v=1716266339&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://kaseoptics.com/cdn/shop/files/1117180104a.jpg?v=1716266339&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Nikon Z-specific dimensions, weight and measurement conditions remain unpublished in the reviewed eligible pages. The 12.3-degree angle orientation is unspecified.",
+    "Official Z-marked front/side and accessories images were inspected, but the rear mount is capped; complete four-direction and electronic-contact inspection remains unavailable. The existing no-contact classification is retained.",
+    "Front/rear caps and a hood are pictured, but their supply relationship is not explicitly established by reviewed text; the protective bag is explicitly supplied and visually confirmed as soft. Coating application surfaces are unspecified.",
+    "The previous kasestore.com product URL no longer returned usable product text. The Chinese and US official product pages provide current corroboration."
   ]
 }

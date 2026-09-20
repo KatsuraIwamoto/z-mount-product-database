@@ -48,7 +48,18 @@
         }
       }
     ],
-    "officialEnvironmentalProtectionClaims": null,
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "waterproof"
+        ],
+        "scope": {
+          "kind": "component",
+          "component": "Front 25 cm of the probe barrel"
+        },
+        "conditions": {}
+      }
+    ],
     "filterInterfaces": null,
     "tripodSupport": {
       "present": false
@@ -56,7 +67,23 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "geared": true
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "geared": true,
+      "clickBehavior": "declicked"
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -86,7 +113,14 @@
       },
       "controlMechanism": "mechanical"
     },
-    "anglesOfView": null,
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 75,
+        "conditions": {}
+      }
+    ],
     "coverage": {
       "format": "full-frame"
     },
@@ -127,7 +161,25 @@
       "macro": {
         "workingDistances": null
       },
-      "probe": {}
+      "probe": {
+        "integratedLights": [
+          {
+            "type": "led",
+            "location": "Around the front-facing optical opening of the 90-degree probe head",
+            "quantity": 12
+          }
+        ],
+        "viewConfigurations": [
+          {
+            "directionDegrees": 90,
+            "relationship": "supplied"
+          },
+          {
+            "directionDegrees": 0,
+            "relationship": null
+          }
+        ]
+      }
     }
   }
 }

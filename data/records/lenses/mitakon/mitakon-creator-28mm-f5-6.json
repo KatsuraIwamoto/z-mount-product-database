@@ -8,7 +8,20 @@
     "productName": "Mitakon Creator 28mm f/5.6 Lens",
     "modelNumberOptions": null,
     "alternateNames": null,
-    "variants": null
+    "variants": [
+      {
+        "variantId": "black",
+        "name": "Black",
+        "modelNumberOptions": null,
+        "color": "black"
+      },
+      {
+        "variantId": "silver",
+        "name": "Silver",
+        "modelNumberOptions": null,
+        "color": "silver"
+      }
+    ]
   },
   "lifecycle": {
     "announcementDate": "2023-03-28",
@@ -74,8 +87,30 @@
     "externalLengthDuringFocus": "constant",
     "isRetractableForStorage": false
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": null,
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": null,
+    "rearCaps": null,
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -119,7 +154,15 @@
       "groups": 7,
       "elements": 8
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 1,
+        "officialName": "Extra-Low Dispersion"
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {

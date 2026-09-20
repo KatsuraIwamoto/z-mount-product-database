@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Olympus PEN-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "PEN-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

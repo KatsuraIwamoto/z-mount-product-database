@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN CFD-NZ Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "shoten-cfd-nz"
@@ -42,6 +42,53 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/47/12/10_000000001247.jpg?1678209903",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/47/12/2_000000001247.jpg?1678209903",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/47/12/3_000000001247.jpg?1678209903",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/47/12/1_000000001247.jpg?1678209903",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
     }
+  ],
+  "unresolved": [
+    "Official images show a separate lens-side ring marked R/A/L; its exact operating role is not explained by the reviewed product text. Recorded as other without an inferred aperture-control or retention function."
   ]
 }

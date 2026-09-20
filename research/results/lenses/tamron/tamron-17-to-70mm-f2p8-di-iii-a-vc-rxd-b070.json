@@ -6,7 +6,7 @@
     "brandId": "tamron",
     "name": "17-70mm F/2.8 Di III-A VC RXD"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "tamron-17-to-70mm-f2p8-di-iii-a-vc-rxd-b070"
@@ -220,6 +220,14 @@
       "sourceType": "technical-page",
       "checked": [
         "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/news/news_file/file/b070z.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
   ]

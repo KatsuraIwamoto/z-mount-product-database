@@ -6,7 +6,7 @@
     "brandId": "mtf-services",
     "name": "B4 2/3\" to Nikon Z mount package"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "mtf-services-b4-to-nikon-z-mount-package"
@@ -38,6 +38,29 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://mtfservices.com/cdn/shop/files/B4SEMFRONT.jpg?v=1764071904&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://mtfservices.com/cdn/shop/files/B4SEMKIT.jpg?v=1764071904&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
     }
+  ],
+  "unresolved": [
+    "Confirm a Nikon Z-specific rear or assembled-package photograph; the official gallery uses B4SEM-named images without an identifiable Z rear mount."
   ]
 }

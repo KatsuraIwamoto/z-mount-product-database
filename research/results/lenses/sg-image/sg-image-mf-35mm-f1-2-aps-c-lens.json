@@ -6,7 +6,7 @@
     "brandId": "sg-image",
     "name": "SG-image MF 35mm F1.2 APS-C Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "sg-image-mf-35mm-f1-2-aps-c-lens"
@@ -61,6 +61,27 @@
         "controls",
         "physical.filterInterfaces"
       ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/3000-Z-13.png?v=1755877823&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/35_1.2.png?v=1755877823&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "mount"
+      ]
     }
+  ],
+  "unresolved": [
+    "2026-09-20: Official Z-mounted front-oblique and shared lateral photographs inspected; distance and depth-of-field scales visible. Official 351.png specification image agrees with existing optical/physical values. Z-specific rear, opposite side and underside were not established. Existing focus coupling, stabilization absence and physical measurement attachment conditions require explicit corroboration."
   ]
 }

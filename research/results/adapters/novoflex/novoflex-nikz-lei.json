@@ -6,7 +6,7 @@
     "brandId": "novoflex",
     "name": "Adapter M39 Lenses to Nikon Z Cameras"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "novoflex-nikz-lei"
@@ -24,7 +24,26 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "mechanisms"
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.novoflex.de/en/Adapter-Collar-Mount-for-EOSR-and-NIKZ-Adapters/ASTAT-RZ",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.novoflex.de/media/18/b5/12/1717864476/NIKZ-LEI-Adapter_503248.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mechanisms",
+        "conversionOptics"
       ]
     }
   ]

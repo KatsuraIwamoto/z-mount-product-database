@@ -6,7 +6,7 @@
     "brandId": "sg-image",
     "name": "SG-image MF 7.5mm F2.8 Fisheye Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "sg-image-mf-7-5mm-f2-8-fisheye-lens"
@@ -62,6 +62,27 @@
         "controls",
         "physical.filterInterfaces"
       ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/19.png?v=1755141051&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical"
+      ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/20.png?v=1755141051&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical"
+      ]
     }
+  ],
+  "unresolved": [
+    "2026-09-20: Official specification image 7.5.png includes Z and agrees with recorded values. Shared lateral and front-oblique images show distance/depth-of-field scales and hood; hood attachment type not inferred. Z-specific rear, opposite side and underside not established. Existing mechanical focus coupling and stabilization absence require explicit corroboration; dimensions/mass attachment conditions remain unspecified."
   ]
 }

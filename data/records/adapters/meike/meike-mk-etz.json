@@ -17,7 +17,7 @@
   },
   "officialProductPages": [
     {
-      "url": "https://meikeglobal.com/collections/bfcm-accessories/products/adapter-etz-for-sony-e-mount",
+      "url": "https://meikeglobal.com/products/adapter-etz-for-sony-e-mount",
       "pageFamilies": [
         "global"
       ],
@@ -54,8 +54,19 @@
   },
   "mechanisms": [],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 65.2,
+        "lengthMm": 2,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 44.2,
+        "conditions": {}
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

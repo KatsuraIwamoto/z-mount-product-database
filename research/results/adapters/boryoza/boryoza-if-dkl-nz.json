@@ -6,7 +6,7 @@
     "brandId": "boryoza",
     "name": "IF·DKL-NZ Chipped Focus Confirm Adapter Voigtländer Bessamatic/Deckel DKL Mount Lens Compatible with Nikon Z Camera"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "boryoza-if-dkl-nz"
@@ -40,6 +40,23 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://admin.boryoza.net/api/storefront/production/media/70",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://admin.boryoza.net/api/storefront/production/media/71",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mechanisms"
       ]
     }
   ]

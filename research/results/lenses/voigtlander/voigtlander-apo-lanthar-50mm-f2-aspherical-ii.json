@@ -6,7 +6,7 @@
     "brandId": "voigtlander",
     "name": "APO-LANTHAR 50mm F2 Aspherical II"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "voigtlander-apo-lanthar-50mm-f2-aspherical-ii"
@@ -120,6 +120,20 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://www.cosina.co.jp/wp/wp-content/uploads/2024/10/Z-50_20-APO-II-01-kjhgt.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete Nikon Z directional photographs reconfirm negative tripod/stabilization/retractability facts? Official Z hood-mounted front-oblique was inspected; it does not provide full directional coverage."
   ]
 }

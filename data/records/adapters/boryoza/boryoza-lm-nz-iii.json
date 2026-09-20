@@ -10,7 +10,20 @@
       "FS011960EXD"
     ],
     "alternateNames": null,
-    "variants": null
+    "variants": [
+      {
+        "variantId": "black",
+        "name": "Black",
+        "modelNumberOptions": null,
+        "color": "Black"
+      },
+      {
+        "variantId": "silver",
+        "name": "Silver",
+        "modelNumberOptions": null,
+        "color": "Silver"
+      }
+    ]
   },
   "lifecycle": {
     "announcementDate": null,
@@ -53,7 +66,12 @@
     "lensPowerTransmission": null,
     "recordingTriggerTransmission": null
   },
-  "mechanisms": null,
+  "mechanisms": [
+    {
+      "type": "helicoid",
+      "conditions": {}
+    }
+  ],
   "physical": {
     "dimensionMeasurements": null,
     "weightMeasurements": null,
@@ -62,7 +80,22 @@
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "other",
+        "connectorType": "other",
+        "purposes": [
+          "firmware-update",
+          "configuration"
+        ]
+      },
+      {
+        "method": "camera-body",
+        "purposes": [
+          "configuration"
+        ]
+      }
+    ]
   },
   "conversionOptics": {
     "present": false

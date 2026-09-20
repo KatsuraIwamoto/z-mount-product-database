@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Auto-Focus Mount Adapter for Canon EF/EF-S Lenses to Nikon Z Cameras"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "meike-mk-eftz-b"
@@ -26,7 +26,8 @@
         "conversionOptics",
         "mechanisms",
         "physical.dimensionMeasurements",
-        "physical.weightMeasurements"
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims"
       ]
     },
     {
@@ -40,6 +41,40 @@
       "decisionChecks": [
         "availability",
         "release-status"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/pages/firmware-upgrade",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/products/DSC08572.jpg?v=1668061117&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronicServices",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/products/DSC08573.jpg?v=1668061117&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/products/EFTZ_B__0006_07.jpg?v=1668061117&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mechanisms"
       ]
     }
   ]

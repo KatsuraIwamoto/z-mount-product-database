@@ -6,7 +6,7 @@
     "brandId": "cheecar",
     "name": "Cheecar 50mm F1.8"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "cheecar-50mm-f1-8"
@@ -35,8 +35,38 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2021/09/13/613efcad7de4f.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2021/09/13/613efcaed1508.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2021/09/13/613efcaf8ff5e.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions"
       ]
     }
+  ],
+  "unresolved": [
+    "The September 20 review rechecked the official specification table, single side-view product photograph, dimensional drawing and MTF graphic. Focus and aperture rings and distance/depth-of-field scales are visible, but the pictured mount is unidentified. Z-specific top/bottom/left/right and rear-mount coverage remains incomplete; click behavior and supplied accessories are not established.",
+    "The table labels 48 × 58 mm as L × W and the drawing shows 48 mm axial length including the bayonet and 57.5 mm diameter, conflicting with the existing 48 mm maximum diameter and 58 mm length. The depicted mount is unspecified, so existing dimensions are retained pending Z-specific clarification. The 221 g mass lacks component conditions.",
+    "The table model number is CC-Mil5018N whereas the MTF graphic reads CL-Mil5018N. The existing table-based model number is retained pending clarification. MC multilayer coating does not establish its functional classification, and the 43 mm hood entry does not establish accessory relationship. The 2019 market year is not an exact announcement date."
   ]
 }

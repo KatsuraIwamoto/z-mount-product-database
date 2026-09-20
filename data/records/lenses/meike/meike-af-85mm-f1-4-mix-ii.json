@@ -8,7 +8,26 @@
     "productName": "Meike AF 85mm F1.4 MIX II",
     "modelNumberOptions": null,
     "alternateNames": null,
-    "variants": null
+    "variants": [
+      {
+        "variantId": "black",
+        "name": "Black",
+        "color": "Black",
+        "modelNumberOptions": null
+      },
+      {
+        "variantId": "white",
+        "name": "White",
+        "color": "White",
+        "modelNumberOptions": null
+      },
+      {
+        "variantId": "black-and-white",
+        "name": "Black and White",
+        "color": "Black and White",
+        "modelNumberOptions": null
+      }
+    ]
   },
   "lifecycle": {
     "announcementDate": null,
@@ -69,9 +88,42 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "switchable"
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    },
+    {
+      "type": "function-button",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring-click-switch",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring-lock",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
-  "electronicServices": null,
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": null,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "connectorType": "usb-c",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",

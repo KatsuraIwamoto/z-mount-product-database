@@ -83,8 +83,44 @@
     "isRetractableForStorage": false
   },
   "controls": null,
-  "accessories": null,
-  "electronicServices": null,
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": null,
+    "connections": [
+      {
+        "method": "dock",
+        "connectorType": "usb-c",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -128,12 +164,31 @@
       "groups": 10,
       "elements": 14
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 2
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 3
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {
         "present": true,
-        "motors": null
+        "motors": [
+          {
+            "type": "stepping-motor",
+            "quantity": null,
+            "officialName": "STM"
+          }
+        ]
       },
       "manualFocus": null,
       "opticalFocusingSystems": null,

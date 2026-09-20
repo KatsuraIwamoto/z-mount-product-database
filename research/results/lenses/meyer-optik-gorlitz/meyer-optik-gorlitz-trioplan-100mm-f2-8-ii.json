@@ -6,7 +6,7 @@
     "brandId": "meyer-optik-gorlitz",
     "name": "Trioplan 100 f2.8 II"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meyer-optik-gorlitz-trioplan-100mm-f2-8-ii"
@@ -47,7 +47,9 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "officialProductPages"
+        "officialProductPages",
+        "accessories",
+        "lens.imageCircleDiameters"
       ]
     },
     {
@@ -56,12 +58,51 @@
       "sourceType": "faq",
       "checked": [
         "identity",
-        "mount"
+        "mount",
+        "mount.electronicContacts",
+        "lens.coverage",
+        "lens.focus"
       ],
       "decisionChecks": [
         "availability",
         "inclusion-criteria"
       ]
+    },
+    {
+      "url": "https://www.meyer-optik-goerlitz.com/media/image/34/15/c0/Trioplan-100-II-Canontgvkz2u9qCjna.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.meyer-optik-goerlitz.com/media/image/69/d5/03/Trioplan-100-II-TopMX3SSQNniocFA.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.meyer-optik-goerlitz.com/de/news/meyer-optik-goerlitz-trioplan-100-ii-fuer-neue-anschluesse-verfuegbar",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mount"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z front, rear, opposite-side and underside images complete the exterior survey? Shared/other-mount manufacturer photos do not establish the absence of support parts or additional controls.",
+    "Can operating documentation confirm the two barrel-ring functions and aperture click behavior for this current model? Ring functions are not inferred solely from grooves and scales.",
+    "What are the Nikon Z-specific dimensions and mass, including accessory conditions? The product page supplies only cross-mount length and mass ranges.",
+    "Can the manufacturer specify the coating type/function beyond the generic coating statement?"
   ]
 }

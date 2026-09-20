@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike AF 85mm F1.8"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-af-85mm-f1-8"
@@ -35,7 +35,9 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.coatings",
+        "accessories"
       ],
       "decisionChecks": [
         "availability"
@@ -52,6 +54,44 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/products/009_9b856cf7-be95-479a-b52e-fc7c37fe47fa.jpg?v=1724835108&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical.filterInterfaces",
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://cdn.shopifycdn.net/s/files/1/0251/3508/7676/files/DSCF2086_217dd9ca-1aed-4c03-acd0-32dc16e0f62b_1024x1024.jpg?v=1655981349",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical.filterInterfaces",
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/8518-mix_03_-480-3.jpg?v=1718173508",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical.filterInterfaces",
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside images complete the exterior survey and substantiate existing tripod-support/retractability facts? The package photo identifies an E-mount manual.",
+    "Can operating documentation identify the barrel ring and switch functions for the Nikon Z version?",
+    "Can the manufacturer clarify the horizontal 16-degree and vertical 24-degree angle-of-view entries, which appear transposed? The existing diagonal 28.5-degree value is retained."
   ]
 }

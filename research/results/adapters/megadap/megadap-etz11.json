@@ -6,7 +6,7 @@
     "brandId": "megadap",
     "name": "Sony E to Nikon Z Autofocus Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "megadap-etz11"
@@ -37,6 +37,54 @@
       "checked": [
         "identity"
       ]
+    },
+    {
+      "url": "https://megadap.net/etz11-firmware/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "electronicServices",
+        "electronics"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000097.000071960.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://prtimes.jp/i/71960/97/resize/d71960-97-eae1b38284ebee67ea24-0.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://prtimes.jp/i/71960/97/resize/d71960-97-52e176bf16eb3c8445c7-2.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can unobstructed four-sided exterior views establish the complete mechanism, connector and tripod-support arrangement?"
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 14mm F4 Air"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-14mm-f4-air"
@@ -60,6 +60,40 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_14mm_F4.0_Air_Z-detail2.jpg?v=1764310197",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_14mm_F4.0_Air_Z-front_view.png?v=1768385381",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "controls",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_14mm_F4.0_Air_Z-rear_view.png?v=1764310197&width=1440",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "controls",
+        "electronicServices"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can the full Z specification table be restored or supplied to reconfirm the existing 68 x 58.4 mm dimensions, F16 minimum aperture, seven blades and 0.23x magnification? The current Z page and its Specs link expose narrative/optical data but not these table cells; existing values are retained.",
+    "Can an operating diagram and complete top/bottom/left/right views establish ring function and reconfirm existing negative tripod/retractability/stabilization facts? Front/rear oblique Z views were inspected. The package image lists a Z lens and caps/bag but shows an FE box, so hood inclusion is not inferred solely from that picture."
   ]
 }

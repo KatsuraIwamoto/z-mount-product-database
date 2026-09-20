@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "LPL-NIK Z PRO Adapter",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "LPL-N/Z PRO"
+    ],
     "alternateNames": null,
     "variants": null
   },

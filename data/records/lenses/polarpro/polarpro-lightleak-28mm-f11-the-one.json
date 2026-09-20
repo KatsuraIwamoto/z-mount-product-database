@@ -77,7 +77,26 @@
       "officialName": "Adjustable light leak ring"
     }
   ],
-  "accessories": null,
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "quantity": 1,
+        "modelNumberOptions": null
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "quantity": 1,
+        "modelNumberOptions": null
+      }
+    ],
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",

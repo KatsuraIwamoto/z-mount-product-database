@@ -6,7 +6,7 @@
     "brandId": "metabones",
     "name": "ARRI PL Lens to Nikon Z-mount T CINE Speed Booster ULTRA 0.71x"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "metabones-mb-sppl-nz-bt1"
@@ -28,6 +28,61 @@
         "physical.officialEnvironmentalProtectionClaims",
         "physical.tripodSupport"
       ]
+    },
+    {
+      "url": "https://www.metabones.com/article/of/infinity-adjustment-speed-booster-only",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://www.metabones.com/assets/p/mb_sppl-nz-bt1_2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.metabones.com/assets/p/mb_sppl-nz-bt1_3.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.metabones.com/assets/p/mb_sppl-nz-bt1_4.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.metabones.com/assets/p/mb_sppl-nz-bt1_5.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
     }
+  ],
+  "unresolved": [
+    "Confirm a generally applicable rear-protrusion limit or a structured representation of the lens exception: the official 14.5 mm flange limit explicitly excludes CP.2/CP.3 lenses and cannot be recorded as an unconditional limit."
   ]
 }

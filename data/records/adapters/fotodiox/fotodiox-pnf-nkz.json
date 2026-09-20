@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Fotodiox Lens Mount Adapter - Compatible with Olympus Pen F SLR Lenses to Nikon Z-Mount Mirrorless Cameras",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "PNF-NKZ"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -49,8 +51,23 @@
   },
   "mechanisms": [],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          65,
+          65,
+          18
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 65,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

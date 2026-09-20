@@ -6,7 +6,7 @@
     "brandId": "sg-image",
     "name": "SG-image Chasing the Wind 75mm T1.4 Full-Frame Cine Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "sg-image-chasing-the-wind-75mm-t1-4-full-frame-cine-lens"
@@ -58,6 +58,22 @@
         "lens.focus",
         "lens.anglesOfView"
       ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/5_4a546d89-5fb2-4f7b-9d4f-12d0d1893a1f.png?v=1757519822&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Z-specific front, rear, opposite-side and underside photographs establish the complete exterior, contacts and support features? The inspected lateral photograph is not mount-labelled.",
+    "The common cine specification image lists E/L mounts only. Existing common optical specifications are retained, but Nikon Z applicability should be explicitly corroborated; its 830g, 91.2x92mm and 82mm filter specifications are not added to the Z record.",
+    "Can Z-specific operating documentation confirm aperture-ring click behavior, ring functions, gear interfaces and the existing mechanical manual-focus mechanism? The E/L chart states stepless aperture and gear transmission, but is not explicit about Z.",
+    "Can Nikon Z package contents be confirmed?"
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Composer Pro II with Sweet 80 Optic"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-composer-pro-ii-with-sweet-80-optic"
@@ -31,7 +31,8 @@
         "lens.coatings",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "lens.specialized"
       ]
     },
     {
@@ -41,6 +42,45 @@
       "checked": [
         "lens.focus"
       ]
+    },
+    {
+      "url": "https://lensbaby.com/blogs/creative-photography/guide-composer-series-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "other",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/cdn/shop/products/CPII_Sweet80_Tilt_Web.png?v=1637280531&width=1675",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/pages/faq-2",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "faq",
+      "checked": [
+        "controls",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0279/1378/1386/files/Composer_Pro_II.pdf?5459=",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z-specific assembled dimensions and mass?",
+    "Can Nikon Z-specific rear, opposite-side and underside images establish complete exterior and control coverage?",
+    "Does the FAQ reference to a legacy Sweet 80 minimum focus distance of 15 inches describe a different optic or close-focus setting from the current 560 mm specification?"
   ]
 }

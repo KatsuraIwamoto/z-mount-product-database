@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "Magic Shift Converter (MSC)"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "laowa-magic-shift-converter-z"
@@ -38,5 +38,8 @@
         "officialProductPages"
       ]
     }
+  ],
+  "unresolved": [
+    "Are complete exterior and rear-mount views available for each Nikon Z variant? The Japanese gallery depicts the Sony-mount family configuration."
   ]
 }

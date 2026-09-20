@@ -6,7 +6,7 @@
     "brandId": "artra-lab",
     "name": "LATALUMEN 12mm F2 Wide Angle (APS-C)"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "artralab-latalumen-12mm-f2"
@@ -33,7 +33,10 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.specialElements",
+        "lens.coatings",
+        "controls"
       ]
     },
     {
@@ -44,6 +47,30 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://artralab.com/cdn/shop/products/WhatsAppImage2023-01-09at19.44.09_1080x.jpg?v=1673511790",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://artralab.com/cdn/shop/products/WhatsAppImage2023-01-09at19.44.09_3_1080x.jpg?v=1673511790",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.filterInterfaces"
+      ]
     }
+  ],
+  "unresolved": [
+    "Resolve conflicting official descriptions: specification table gives a 97-degree angle of view and 10 diaphragm blades, while prose gives 99 degrees and 9 blades. The existing 10-blade value is retained; angle of view remains unrecorded pending clarification.",
+    "The filter specification and pictured Nikon Z lens marking give 62 mm, while one prose sentence says 67 mm; confirm the prose error before treating the specification as unambiguous.",
+    "Obtain identifiable Nikon Z underside, opposite-side and rear views to complete exterior inspection. Confirm ring operation, aperture click behavior, hood detachability, supplied accessories and focus-related length changes. The gallery includes Sony E images and unrelated recommended products.",
+    "Confirm the mount and attached-component conditions for the published 275 g mass and 66 × 59.5 mm dimensions."
   ]
 }

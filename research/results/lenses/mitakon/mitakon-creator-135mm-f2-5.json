@@ -6,7 +6,7 @@
     "brandId": "mitakon",
     "name": "Mitakon Creator 135mm f/2.5 Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "mitakon-creator-135mm-f2-5"
@@ -36,7 +36,9 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.specialElements",
+        "accessories"
       ],
       "decisionChecks": [
         "availability"
@@ -52,6 +54,23 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://zyoptics.net/wp-content/uploads/2021/09/01_Mitakon-Creator-135mm-f2.5_CoreViusal.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical",
+        "mount"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside images complete the exterior survey, including contacts, support parts and storage retractability?",
+    "What accessory and mount conditions apply to the published mass and dimensions? Current shared specifications do not separately identify all Nikon Z measurement conditions.",
+    "Can a working instruction manual confirm aperture click behavior? The product-page manual link did not retrieve a manual.",
+    "The page lists package weight 1.45 lb below lens weight 1.86 lb/845 g; can the packaging entry be corrected? The lens mass is retained."
   ]
 }

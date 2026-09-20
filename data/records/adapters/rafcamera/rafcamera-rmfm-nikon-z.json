@@ -49,7 +49,12 @@
   },
   "mechanisms": [],
   "physical": {
-    "dimensionMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 66,
+        "conditions": {}
+      }
+    ],
     "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null

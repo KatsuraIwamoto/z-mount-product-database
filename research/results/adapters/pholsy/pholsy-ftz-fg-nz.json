@@ -6,7 +6,7 @@
     "brandId": "pholsy",
     "name": "PHOLSY FTZ Lens Mount Adapter Manual Focus Compatible with Nikon F (G) Mount Lens to Nikon Z Mount Camera Body"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pholsy-ftz-fg-nz"
@@ -22,7 +22,6 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "mechanisms",
         "officialProductPages"
       ],
       "decisionChecks": [
@@ -40,6 +39,40 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/NG-NZ.jpg?v=1728874153&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/4-11_0005s_0002__31.jpg?v=1728874164&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/4-11_0005s_0001__33.jpg?v=1728874166&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "What movement and lens-aperture function does the OPEN/LOCK ring provide on this exact Nikon F (G)-to-Nikon Z model?"
   ]
 }

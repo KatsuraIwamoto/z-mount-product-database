@@ -103,7 +103,8 @@
     },
     {
       "type": "aperture-ring",
-      "quantity": 1
+      "quantity": 1,
+      "clickBehavior": "switchable"
     },
     {
       "type": "focus-mode-switch",
@@ -113,6 +114,10 @@
       "type": "function-button",
       "quantity": 1,
       "officialName": "Focus lock button"
+    },
+    {
+      "type": "aperture-ring-click-switch",
+      "quantity": 1
     }
   ],
   "accessories": null,
@@ -123,7 +128,8 @@
         "method": "direct-usb",
         "purposes": [
           "firmware-update"
-        ]
+        ],
+        "connectorType": "usb-c"
       }
     ]
   },

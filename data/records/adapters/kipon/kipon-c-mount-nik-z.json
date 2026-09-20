@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "C Mount-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "C-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

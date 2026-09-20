@@ -54,8 +54,39 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "quantity": 1,
+        "modelNumberOptions": null
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "quantity": 1,
+        "modelNumberOptions": null
+      }
+    ],
+    "lensCases": [
+      {
+        "relationship": "supplied",
+        "quantity": 1,
+        "modelNumberOptions": null,
+        "construction": "soft-case"
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -93,7 +124,15 @@
       "elements": 9
     },
     "specialElements": null,
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null,
+        "officialName": "Multi-MC Layer Coating"
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false

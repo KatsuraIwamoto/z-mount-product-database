@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA Nanomorph 42mm T2.9 1.5x LF"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "laowa-nanomorph-42mm-t2-9-1-5x-lf"
@@ -90,6 +90,15 @@
       "sourceType": "product-page",
       "checked": [
         "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://laowacine.com/wp-content/uploads/2024/11/Nanomorph-LF_Unified-Gear-Position.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
       ]
     }
   ],

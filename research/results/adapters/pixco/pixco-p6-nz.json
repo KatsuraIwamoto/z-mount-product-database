@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "Pentacon Six to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-p6-nz"
@@ -37,6 +37,60 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/1_9b39b875-6340-4005-8364-a4819a0aed9d_800x.jpg?v=1613497747",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/2_c47bb95c-8cdb-497a-aafc-402310c1da65_800x.jpg?v=1613497747",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/6_d71051a2-6cbd-4571-83fc-0f716bf4133f_800x.jpg?v=1613497748",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/8_e81febce-651c-4776-b177-adddc5bab61a_800x.jpg?v=1613497748",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/9_3dc2c6b3-b053-4ac3-a628-a1167655f08e_800x.jpg?v=1613497748",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does this adapter provide any adjustment beyond lens retention? The front ribbed ring and screws alone do not establish an additional user-operated mechanism."
   ]
 }

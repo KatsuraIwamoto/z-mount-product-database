@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "60mm F2.8 II 2X Macro Manual Focus Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-60mm-f2p8-ii-2x-macro"
@@ -43,6 +43,62 @@
       "checked": [
         "identity"
       ]
+    },
+    {
+      "url": "https://brightinstar.com.cn/collections/%E5%BE%AE%E8%A7%82%E4%B8%96%E7%95%8C/products/mf-60mm-f2-8-%E2%85%B1-%E5%85%A8%E7%94%BB%E5%B9%85",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "officialProductPages",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com.cn/cdn/shop/files/6028_1.webp?v=1755323671",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus",
+        "lens.specialized",
+        "physical.filterInterfaces",
+        "physical.weightMeasurements",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com.cn/cdn/shop/files/6028_3.webp?v=1755323672",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.coatings",
+        "accessories",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com.cn/cdn/shop/files/6028_4.webp?v=1755323671",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.coverage",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com.cn/cdn/shop/files/1_8d403183-0904-4aff-8677-e89fffd2452c.jpg?v=1784708114",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements"
+      ]
     }
+  ],
+  "unresolved": [
+    "The Chinese official page identifies the II as full-frame at macro distances but explicitly warns of mechanically obscured edges at distant focus and recommends crop mode. The existing APS-C coverage is retained because the unconditional coverage field cannot express this focus-dependent limit; a blanket full-frame claim would omit the manufacturer warning.",
+    "The Chinese diagram gives approximately 72 × 118 mm and 660 g without a Nikon Z measurement condition, whereas the existing record gives 68 × 118 mm. The prior dimensions and mass are retained, with the published approximation added to mass, pending Nikon Z-specific measurements and cap/length datum clarification.",
+    "Seven gallery images and all four detail infographics were inspected. Shared barrel/front views show rings and scales, but complete Nikon Z top, bottom, left, right and exposed rear coverage, aperture click behavior and focus travel remain unconfirmed."
   ]
 }

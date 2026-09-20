@@ -98,6 +98,10 @@
     {
       "type": "focus-ring",
       "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
     }
   ],
   "accessories": {
@@ -140,7 +144,7 @@
       "diaphragm": {
         "present": false
       },
-      "controlMechanism": "mechanical"
+      "controlMechanism": null
     },
     "anglesOfView": [
       {

@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 8-15mm F2.8 FF Zoom Fisheye"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-8-15mm-f2-8-ff-zoom-fisheye"
@@ -50,7 +50,12 @@
       "checked": [
         "mount",
         "physical",
-        "controls"
+        "controls",
+        "lens.zoom",
+        "lens.anglesOfView",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.opticalConstruction"
       ]
     },
     {
@@ -69,7 +74,10 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
       ]
     },
     {
@@ -80,6 +88,26 @@
         "identity",
         "lens.specialElements"
       ]
+    },
+    {
+      "url": "https://www.laowa.jp/8-15mmF2.8_Fisheye_1.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/8-15mmF2.8_Fisheye_2.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "What are Nikon Z-specific dimensions and mass rather than the RF measurements?",
+    "Can Nikon Z-specific front, rear and four-sided views establish complete exterior coverage and supplied accessories?"
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan AF 23mm F1.8"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-af-23mm-f1-8"
@@ -48,7 +48,9 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "controls",
+        "accessories"
       ]
     },
     {
@@ -74,6 +76,18 @@
         "lens.opticalConstruction",
         "lens.focus"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/1_3ef41ece-8f75-4013-8fec-9756877a0701.jpg?v=1736732558&width=493",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z top/bottom/left/right and rear images and operating instructions establish the full control inventory and reconfirm the existing negative tripod/retractability/stabilization facts? Grooved rings alone do not establish manual-focus function."
   ]
 }

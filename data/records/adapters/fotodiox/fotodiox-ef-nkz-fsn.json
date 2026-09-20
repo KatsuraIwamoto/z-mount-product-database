@@ -50,7 +50,13 @@
     "lensPowerTransmission": null,
     "recordingTriggerTransmission": null
   },
-  "mechanisms": [],
+  "mechanisms": [
+    {
+      "type": "other",
+      "officialName": "L-Fn",
+      "conditions": {}
+    }
+  ],
   "physical": {
     "dimensionMeasurements": null,
     "weightMeasurements": null,

@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 25mm f/0.95 APS-C Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-25mm-f0p95"
@@ -63,6 +63,34 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000001749/ct1423/page1/order/",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "lens.aperture",
+        "lens.specialElements",
+        "controls",
+        "physical.filterInterfaces",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/25mm_F0.95_b7771d9a-5a8c-44ae-ab43-6bcedf2951fa.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "lens.aperture",
+        "physical.filterInterfaces",
+        "controls",
+        "lens.anglesOfView"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which dimensions and weight apply specifically to Nikon Z? The official graphic labels 582 g as E mount; the distributor gives mount-dependent ranges of 62–66 × 92–97 mm excluding the mount and 585–615 g without assigning Z values."
   ]
 }

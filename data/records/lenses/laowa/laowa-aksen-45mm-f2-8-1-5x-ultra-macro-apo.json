@@ -16,12 +16,12 @@
   },
   "officialProductPages": [
     {
-      "url": "https://laowacine.com/product/laowa-aksen-ultra-macro-apo/",
+      "url": "https://laowalens.com/camera-lens-98",
       "pageFamilies": [
-        "global"
+        "home-country"
       ],
-      "region": null,
-      "language": "en",
+      "region": "CN",
+      "language": "zh-CN",
       "publisher": {
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
@@ -48,7 +48,8 @@
     "officialEnvironmentalProtectionClaims": null,
     "filterInterfaces": null,
     "tripodSupport": {
-      "present": false
+      "present": true,
+      "components": null
     },
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
@@ -123,12 +124,7 @@
           "conditions": {}
         }
       ],
-      "officialFocusBehaviorClaims": [
-        {
-          "type": "parfocal",
-          "conditions": {}
-        }
-      ]
+      "officialFocusBehaviorClaims": null
     },
     "stabilization": {
       "present": false

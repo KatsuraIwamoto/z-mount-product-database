@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 85mm F1.4 Pro"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-85mm-f1p4-pro"
@@ -68,6 +68,19 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_85mm_F1.4_Pro_Z_-_front_view.png?v=1763636572",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete Nikon Z directional photographs reconfirm existing negative tripod/stabilization/retractability facts and USB connector subtype? Actual Z front-oblique was inspected. The shared rear-port graphic does not establish the Z version and was excluded as Z-specific evidence. The product body says approximately800g while its explicit Z table says approximately835g bare; retained the Z-specific835g."
   ]
 }

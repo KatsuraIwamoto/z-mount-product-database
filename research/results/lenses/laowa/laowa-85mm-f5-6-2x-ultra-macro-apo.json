@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 85mm F5.6 2x Ultra Macro APO"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-85mm-f5-6-2x-ultra-macro-apo"
@@ -61,8 +61,57 @@
         "lens.specialElements",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "officialProductPages",
+        "physical.externalLengthDuringFocus",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/85mmF5.6_macro_380x380.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/85mmF5.6_macro2_380x380.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/85mmF5.6_macro3_380x380.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/files/20251009/MiniFF85mmF5.6Macro2beifangdaweijujingtoushuomingshu.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "lens.aperture",
+        "lens.focus",
+        "lens.specialized",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
       ]
     }
+  ],
+  "unresolved": [
+    "What are Nikon Z-specific dimensions and mass with attachment conditions rather than the Leica M measurements?",
+    "Is minimum working distance 6.9 cm or approximately 9 cm for the Nikon Z version, and what reference surface is used?",
+    "Can Nikon Z-specific views establish complete exterior coverage, and what aperture click behavior and supplied accessory contents are documented?"
   ]
 }

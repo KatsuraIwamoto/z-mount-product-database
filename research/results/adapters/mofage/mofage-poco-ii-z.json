@@ -6,7 +6,7 @@
     "brandId": "mofage",
     "name": "POCO II Drop-In Filter Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "mofage-poco-ii-z"
@@ -83,6 +83,36 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.mofage.store/cdn/shop/files/POCO_PL_-_Front_and_Back.png?v=1780483233",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.mofage.store/cdn/shop/files/POCO_EF_-_Front_and_Back.png?v=1780483246",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.mofage.store/cdn/shop/files/exp_EF.png?v=1780483217",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
     }
+  ],
+  "unresolved": [
+    "Confirm the EF lens-retention mechanism and complete assembled Nikon Z-specific rear/side photographs; the current official gallery uses shared interchangeable-mount illustrations."
   ]
 }

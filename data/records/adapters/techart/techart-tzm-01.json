@@ -30,7 +30,12 @@
     "cameraControlledAperture": false,
     "lensStabilizationCommunication": false,
     "manualFocusAssistance": true,
-    "metadataTransmission": null,
+    "metadataTransmission": {
+      "present": true,
+      "standards": [
+        "exif"
+      ]
+    },
     "lensPowerTransmission": null,
     "recordingTriggerTransmission": null
   },
@@ -48,7 +53,14 @@
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "dock",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
   },
   "conversionOptics": {
     "present": false

@@ -4,7 +4,7 @@
   "identity": {
     "manufacturerId": "meike",
     "brandId": "meike",
-    "productName": "0.71x Speed Booster Adapter for Canon EF/EF-S Lenses to Nikon Z Cameras",
+    "productName": "0.71x Speed Booster Adapter for Canon EF Lenses to Nikon Z Cameras",
     "modelNumberOptions": [
       "MK-EFTZ-071X",
       "MK-EFTZ-071X-C"
@@ -42,19 +42,36 @@
   },
   "mechanisms": [],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 69,
+        "unclassifiedDimensionsMm": [
+          24.6
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 164,
+        "conditions": {}
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },
   "electronicServices": {
-    "hasPublishedFirmwareUpdate": true,
+    "hasPublishedFirmwareUpdate": null,
     "connections": null
   },
   "conversionOptics": {
     "present": true,
     "focalLengthMultiplier": 0.71,
-    "apertureChange": null,
+    "apertureChange": {
+      "direction": "brighter",
+      "stops": 1,
+      "relation": "exact"
+    },
     "opticalConstruction": null,
     "specialElements": null,
     "coatings": null,

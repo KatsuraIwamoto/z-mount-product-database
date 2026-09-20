@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "MF 60mm F2.8 2X APS-C Macro Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-60mm-f2p8-2x-macro"
@@ -54,6 +54,38 @@
         "physical.dimensionMeasurements",
         "physical.weightMeasurements"
       ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/6028APS-C.png?v=1781941858&width=790",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "controls",
+        "lens.specialElements",
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/6028_-1.jpg?v=1781784427&width=1000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/8_9c2488e8-acec-412f-9ffc-603c5f556f6e.jpg?v=1770394794&width=1000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "The product-page prose describes a declicked aperture, while the current long infographic says Clicked Aperture and half-stop increments. The existing declicked value is retained pending clarification; switchability is not established.",
+    "Seven gallery images and the long specification infographic were inspected. Sony-mounted and shared front/barrel views do not establish complete Nikon Z top, bottom, left, right and exposed rear coverage. The Z-specific chart reconfirms approximately 73 × 113 mm and 735 g, but does not state cap conditions or the length datum."
   ]
 }

@@ -27,6 +27,18 @@
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/57d28803af8959a4b7a3c8437c0d855837cca00e.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -36,21 +48,8 @@
     "electronicContacts": null
   },
   "physical": {
-    "dimensionMeasurements": [
-      {
-        "maximumDiameterMm": 62.4,
-        "lengthMm": 66,
-        "conditions": {}
-      }
-    ],
-    "weightMeasurements": [
-      {
-        "grams": 350,
-        "conditions": {
-          "attachedComponents": []
-        }
-      }
-    ],
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
     "filterInterfaces": [],
     "tripodSupport": {
@@ -66,6 +65,14 @@
     },
     {
       "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
       "quantity": 1
     }
   ],
@@ -128,6 +135,12 @@
         ],
         "quantity": 2,
         "officialName": "ED"
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 1
       }
     ],
     "coatings": null,

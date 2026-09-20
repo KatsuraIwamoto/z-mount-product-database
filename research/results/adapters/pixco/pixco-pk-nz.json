@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "Pentax K to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-pk-nz"
@@ -37,6 +37,64 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/6_74a63354-cbc8-44f1-84b3-0c5ad6a1d837_800x.jpg?v=1613497743",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/1_9318ab3b-6551-41d1-8c9d-cc9c0a4926f9_800x.jpg?v=1613497744",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/5_4fb76b5f-3a90-485d-86df-7d9bdd308363_800x.jpg?v=1613497744",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/4_b9f6b7fb-008f-49f5-b98b-2082587a785b_800x.jpg?v=1613497744",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/2_ccc2aa5a-0768-4142-a10d-5af138ef6a80_800x.jpg?v=1613497745",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/IMG_9078_800x.JPG?v=1613497745",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does this adapter provide any adjustment mechanism beyond lens retention? The published views do not expose the full circumference."
   ]
 }

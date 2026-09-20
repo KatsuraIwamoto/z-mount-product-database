@@ -6,7 +6,7 @@
     "brandId": "fotodiox",
     "name": "Fotodiox Pro Lens Adapter For Select Contax G Lenses to Nikon Z-Mount Cameras with Built-in Focus Control Dial"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "fotodiox-cg-nkz-p"
@@ -23,11 +23,25 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.weightMeasurements",
+        "physical.dimensionMeasurements",
+        "identity.modelNumberOptions"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/products/CG-NKZ-P-03.jpg?v=1636647717",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "notes": [
+    "Product mass is published as 3.5 oz in the official Product Dimensions row (not Shipping Dimensions). Converted using 1 oz = 28.349523125 g and rounded to the nearest gram; approximate marks the rounded conversion, not a manufacturer-stated tolerance."
   ]
 }

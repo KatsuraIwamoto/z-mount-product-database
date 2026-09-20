@@ -6,7 +6,7 @@
     "brandId": "cheecar",
     "name": "Cheecar 7.5mm F2.8 Fisheye"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "cheecar-7-5mm-f2-8-fisheye"
@@ -35,8 +35,34 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "officialProductPages",
+        "identity.modelNumberOptions"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2021/09/13/613efca982bd2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.aperture",
+        "accessories"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2021/09/13/613efcab2fd78.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements"
       ]
     }
+  ],
+  "unresolved": [
+    "Official front-oblique and side photographs show focus and aperture rings, a distance scale and a petal-shaped hood, but do not identify the mount. Complete Z-specific top/bottom/left/right and rear-mount coverage remains unavailable. Hood wording 自带 does not clearly distinguish integrated from supplied detachable status, and click behavior is unstated.",
+    "The specification table states minimum aperture F16 while both product photographs show an F22 ring marking. The existing F16 value is retained pending clarification of the pictured configuration.",
+    "The table labels 61 × 60 mm as L × W and its drawing shows 61 mm axial length including the bayonet and 60 mm diameter, contrary to the existing 61 mm maximum-diameter/60 mm length assignment. The depicted mount is unspecified, so existing dimensions are retained pending Z-specific clarification; 295 g mass conditions are also unstated.",
+    "The filter entry is a dash rather than an explicit statement ruling out every filter interface; the existing empty array is retained pending rear-interface confirmation. MC multilayer coating has no stated functional classification. The 180-degree angle orientation, exact announcement date within the 2020 market year, and official Z color variants remain unestablished."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike AF 24mm F1.4 MIX"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-af-24mm-f1-4-mix"
@@ -94,5 +94,11 @@
         "lens.specialElements"
       ]
     }
+  ],
+  "unresolved": [
+    "The official APS-C angle graphic labels H/V/D as 52.8/61.9/36.2 degrees, placing the diagonal below the vertical angle. Can the manufacturer clarify the ordering?",
+    "Can a manufacturer operating document confirm the focus-ring function and aperture click behavior?",
+    "Can Nikon Z front, rear and underside images complete the exterior survey and substantiate the existing tripod-support and retractability fields?",
+    "What are the accessory conditions for the approximately 560 g Z mass and shared 79 x 107 mm dimensions?"
   ]
 }

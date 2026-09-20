@@ -55,7 +55,7 @@ flowchart LR
 
 NIKKOR Z 24-70mm f/2.8 S IIを例に、調査結果データ、収録製品データ、配布データのつながりを示します。
 このページに掲載するJSONは、実際のファイルから説明に必要な項目や配列の要素だけを抜き出したもので、いずれも完全なファイルではありません。
-配布データの例は、データバージョン `2026.09.05` の内容を固定して掲載しています。
+配布データの例は、データバージョン `2026.09.20` の内容を固定して掲載しています。
 参照元として示す `dist/` の現行ファイルは更新されるため、掲載値と異なる場合があります。
 
 === "調査結果データ"
@@ -129,9 +129,9 @@ NIKKOR Z 24-70mm f/2.8 S IIを例に、調査結果データ、収録製品デ�
 
     ```json
     {
-      "dataVersion": "2026.09.05",
+      "dataVersion": "2026.09.20",
       "datasetVariant": "full",
-      "recordCount": 603,
+      "recordCount": 606,
       "referenceData": {
         "manufacturers": {
           "nikon": { "name": "Nikon" }
@@ -296,9 +296,9 @@ NIKKOR Z 24-70mm f/2.8 S IIでは、`lens`ブロックがこれに当たりま�
 
     ```json
     {
-      "dataVersion": "2026.09.05",
+      "dataVersion": "2026.09.20",
       "datasetVariant": "full",
-      "recordCount": 440,
+      "recordCount": 445,
       "referenceData": {
         "manufacturers": {
           "nikon": { "name": "Nikon" }

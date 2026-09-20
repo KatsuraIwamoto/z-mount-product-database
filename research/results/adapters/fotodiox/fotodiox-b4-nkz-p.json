@@ -6,7 +6,7 @@
     "brandId": "fotodiox",
     "name": "Fotodiox Pro Lens Adapter Compatible with B4 (2/3\") ENG Cine Lens to fit Nikon Z-Mount Mirrorless Cameras"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "fotodiox-b4-nkz-p"
@@ -23,11 +23,24 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.tripodSupport"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/files/B4-NKZ-P-04.jpg?v=1731711421",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical.tripodSupport"
+      ]
     }
+  ],
+  "unresolved": [
+    "Do the listed product dimensions and weight apply to the Nikon Z version, given that the specification table identifies the camera mount as Fujifilm X?"
   ]
 }

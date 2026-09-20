@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 75mm F1.8 EVO"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-75mm-f1p8-evo"
@@ -60,6 +60,27 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF75mmF1.8EVOZ-frontview.png?v=1780567727",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_75mm_F1.8_EVO_Z-img31.jpg?v=1780653697",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can full Nikon Z directional photographs reconfirm existing negative tripod/stabilization/retractability facts? Z front-oblique and CLICK ON/OFF detail were inspected; full directional coverage is incomplete. Firmware capability is explicit, but no product-specific published firmware release was established from the official support navigation; publication remains unknown."
   ]
 }

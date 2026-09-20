@@ -6,7 +6,7 @@
     "brandId": "astrhori",
     "name": "MF 50mm F2.0 Full-frame Portrait Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "astrhori-mf-50mm-f2"
@@ -65,6 +65,7 @@
   ],
   "unresolved": [
     "What are the published dimensions and weight of the Nikon Z configuration?",
-    "What is the confirmed minimum aperture of this lens?"
+    "What is the confirmed minimum aperture of this lens?",
+    "What maximum aperture applies at the unmarked aperture-ring position of the Nikon Z version?"
   ]
 }

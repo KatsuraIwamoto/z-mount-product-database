@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "2022 Version KIPON ELEGANT 35mm F2.4 for Nikon Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "kipon-elegant-35mm-f2-4"
@@ -36,7 +36,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.imageCircleDiameters"
       ]
     },
     {
@@ -47,6 +48,50 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://www.kipon.jp/products/2022-version-elegant-35mm-f2-4-for-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.imageCircleDiameters",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://kipon.com/wp-content/uploads/2022/05/2022-Version-35mm-NZ-1-700x700.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://kipon.com/wp-content/uploads/2022/05/2022-Version-35mm-NZ-3-700x700.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://kipon.com/wp-content/uploads/2022/05/2022-Version-35mm-NZ-2-700x700.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "The English 60 mm dimension is front-to-sensor at infinity, while the Japanese translation says mount-to-sensor; neither establishes the usual mount-plane-to-front lens length, which remains null. Weight accessories are not itemized.",
+    "Official images show the 2022 lens mounted on Nikon Z from front/side angles, with and without its supplied hood; the rear-contact face and complete four-direction coverage remain unavailable.",
+    "Aperture click behavior, coating function, special elements and front/rear cap supply remain unconfirmed. The full-frame 63.4-degree angle appears under a combined V/H/D heading without an explicit individual orientation."
   ]
 }

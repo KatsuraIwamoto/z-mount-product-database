@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Obscura 16"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-obscura-16"
@@ -37,7 +37,7 @@
     },
     {
       "url": "https://www.kenko-tokina.co.jp/newproducts/obscura_news202111.html",
-      "publisherRelationship": "manufacturer-or-brand",
+      "publisherRelationship": "authorized-distributor",
       "sourceType": "announcement",
       "checked": [
         "identity",
@@ -61,6 +61,28 @@
         "pinhole.focalLength",
         "pinhole.imagingModes"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0279/1378/1386/files/Obscura_UserGuide_2021.pdf?v=1625169779",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "pinhole.imagingModes",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.kenko-tokina.co.jp/camera-lens/assets_c/2021/10/obscura16_products2000-thumb-500xauto-42933.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z-specific dimensions and mass measurement conditions? The distributor lists dimensions only for Micro Four Thirds and approximately 152 g without a mount-specific condition.",
+    "Can Nikon Z front, rear, opposite-side and underside photographs and a named selector description complete the exterior-control survey? The distributor image shows a shared mirrorless side view; the manual illustrates the separate Optic Swap version.",
+    "Does the Japanese production-ended notice apply to Nikon Z? The distributor page lists other mounts only."
   ]
 }

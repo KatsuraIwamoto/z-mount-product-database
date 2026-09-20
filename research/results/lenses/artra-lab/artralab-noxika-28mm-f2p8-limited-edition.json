@@ -6,7 +6,7 @@
     "brandId": "artra-lab",
     "name": "NOXIKA 28mm F2.8 Nikon Z Limited Edition (Qty 200)"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "artralab-noxika-28mm-f2p8-limited-edition"
@@ -34,7 +34,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.coatings"
       ]
     },
     {
@@ -45,6 +46,19 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://artralab.com/cdn/shop/files/WhatsAppImage2025-06-25at17.35.40_1_1080x.jpg?v=1750844559",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Resolve dimensional differences between the table (63 mm diameter, 28 mm length) and official drawing (67.5 mm outer diameter, 24 mm axial dimension); confirm reference planes and accessory/focus conditions before changing existing values. Confirm attached components for the 180 g mass.",
+    "Confirm the optical construction: the table explicitly states 9 elements in 3 groups, while the unnumbered sectional drawing does not unambiguously substantiate those counts.",
+    "Complete exposed Nikon Z mount-face and full side coverage. Numerous Z f mounted close-ups show most of the barrel but leave parts hidden. Confirm ring operation, aperture click behavior and focus-related length changes. The front attachment is shown detached, but supplied-accessory status is not explicitly established."
   ]
 }

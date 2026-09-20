@@ -36,7 +36,12 @@
     "lensPowerTransmission": false,
     "recordingTriggerTransmission": false
   },
-  "mechanisms": null,
+  "mechanisms": [
+    {
+      "type": "other",
+      "conditions": {}
+    }
+  ],
   "physical": {
     "dimensionMeasurements": null,
     "weightMeasurements": null,

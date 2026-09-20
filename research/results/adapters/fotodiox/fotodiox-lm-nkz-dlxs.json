@@ -6,7 +6,7 @@
     "brandId": "fotodiox",
     "name": "Fotodiox DLX Stretch Lens Adapter - Compatible with Leica M Rangefinder Lens to Nikon Z-Mount Mirrorless Camera Body with Macro Focusing Helicoid"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "fotodiox-lm-nkz-dlxs"
@@ -23,11 +23,25 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "identity.modelNumberOptions"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/products/LM-NKZ-DLXS-03.jpg?v=1675361259",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "notes": [
+    "Product mass is published as 5.1 oz in the official Product Dimensions row (not Shipping Dimensions). Converted using 1 oz = 28.349523125 g and rounded to the nearest gram; approximate marks the rounded conversion, not a manufacturer-stated tolerance."
   ]
 }

@@ -1,0 +1,63 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "fotga-pk-nz",
+  "identity": {
+    "manufacturerId": "fotga",
+    "brandId": "fotga",
+    "productName": "Fotga PK-Nikon Z Lens Mount Adapter Converter for Pentax PK K Mount Lens to Nikon Z Mount Z8 Zf Zfc Z5 Z6 Z7 II Z6II Z7II Z9 Z50 Z30 Mirrorless DSLR Camera",
+    "modelNumberOptions": [
+      "PK-N/Z"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.fotga.com/product/fotga-pk-nikon-z-lens-mount-adapter-converter-for-pentax-pk-k-mount-lens-to-nikon-z-mount-z8-zf-zfc-z5-z6-z7-ii-z6ii-z7ii-z9-z50-z30-mirrorless-dslr-camera/",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "FOTGA"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "pentax-k",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": null,
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": false
+  }
+}

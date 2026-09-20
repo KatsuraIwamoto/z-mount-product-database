@@ -6,7 +6,7 @@
     "brandId": "artra-lab",
     "name": "ARTOLUMEN 60mm F2.8 2X Macro (Full Frame)"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "artralab-artolumen-60mm-f2p8-2x-macro"
@@ -44,6 +44,15 @@
       "checked": [
         "identity",
         "mount"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0594/7142/9805/products/WhatsAppImage2023-01-09at20.14.28.jpg?v=1673508677",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
       ]
     }
   ],

@@ -6,7 +6,7 @@
     "brandId": "thypoch",
     "name": "Simera 28mm f/1.4 Z/M/E/RF/X Mount Full-Frame Manual Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "thypoch-simera-28mm-f1p4"
@@ -54,7 +54,8 @@
         "lens.coverage",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "mount.electronicContacts"
       ],
       "decisionChecks": [
         "availability"
@@ -71,6 +72,37 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://store.thypoch.com/cdn/shop/files/Simera-28mm-f-1.4-Z-M-E-RF-X-Mount-Full-Frame-Manual-Lens-Thypoch-15968216.png?v=1776306833&width=713",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://framerusercontent.com/images/rPfJCg7GXGCxNUged2AkpF6zhyU.webp?height=752&width=1120",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://store.thypoch.com/cdn/shop/files/Simera-35mm-f-1.4-Z-M-E-RF-Mount-Full-Frame-Manual-Lens-Thypoch-15967172.png?v=1776306803&width=713",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can the manufacturer clarify the horizontal/vertical/diagonal angle-of-view headings? The displayed value order is inconsistent with those headings; existing values were retained without assigning new orientations.",
+    "Does the stated 54 mm front diameter also establish maximum barrel diameter, and what accessories are excluded from the Nikon Z weight and length figures?",
+    "Can exact Nikon Z front, rear and both-side images establish all controls and the existing negative tripod/stabilization/retractability facts? Viewed close-ups show shared or M configurations; the multi-mount mounted image does not provide a complete Z survey."
   ]
 }

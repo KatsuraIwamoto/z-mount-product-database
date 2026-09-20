@@ -4,9 +4,9 @@
   "subject": {
     "manufacturerId": "meike",
     "brandId": "meike",
-    "name": "0.71x Speed Booster Adapter for Canon EF/EF-S Lenses to Nikon Z Cameras"
+    "name": "0.71x Speed Booster Adapter for Canon EF Lenses to Nikon Z Cameras"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "meike-mk-eftz-071x"
@@ -49,6 +49,43 @@
         "mountConfigurations",
         "conversionOptics"
       ]
+    },
+    {
+      "url": "https://meikeglobal.com/en-jp/collections/extension-tube/products/speedbooster",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "electronicServices",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/pages/firmware-upgrade",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/cdn-cgi/image/fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/meike_mk_eftz_071x_0_71x_speedbooster_adapter_for_1701187818_1793196.jpg",
+      "publisherRelationship": "retailer",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms"
+      ]
     }
+  ],
+  "unresolved": [
+    "Locate a published firmware file explicitly for MK-EFTZ-071X; the current official firmware listing and shared product page identify MK-EFTR-071X only.",
+    "Confirm the Z-specific control layout and function of the CDAF/PDAF switch in the retailer image; the official shared gallery shows E/RF variants."
   ]
 }

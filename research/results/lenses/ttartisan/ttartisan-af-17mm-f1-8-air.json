@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan AF 17mm F1.8 Air"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-af-17mm-f1-8-air"
@@ -46,7 +46,10 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "controls",
+        "accessories",
+        "electronicServices"
       ]
     },
     {
@@ -78,11 +81,26 @@
       "checked": [
         "mount",
         "physical.dimensionMeasurements",
-        "physical.weightMeasurements"
+        "physical.weightMeasurements",
+        "electronicServices",
+        "lens.specialElements",
+        "accessories"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/SKU-Z_ae51ebae-4b62-49f3-94b1-dfd8940b2461.jpg?v=1783652255&width=1445",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z top/bottom/left/right and rear images and operating instructions establish the full control inventory and reconfirm the existing negative tripod/retractability/stabilization facts? Grooved rings alone do not establish manual-focus function."
   ]
 }

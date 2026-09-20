@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 6mm f/2.0 APS-C Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-6mm-f2"
@@ -74,6 +74,34 @@
         "lens.opticalConstruction",
         "controls"
       ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/files/7_2d5537d1-ec7c-46f7-ab88-5322e6b96567.jpg?v=1765949726&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "controls",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/files/1_97ccec06-55bc-4bd1-ade4-b89ad5a4b100.jpg?v=1786514767&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can official Nikon Z-specific images establish the full rear and all four exterior sides, including tripod interfaces and any covered connectors? The currently accessible rear photograph is not clearly identified as Nikon Z.",
+    "Is the visible petal hood integrated or removable, what accessories are supplied with the Nikon Z version, and does its length change during focusing?"
   ]
 }

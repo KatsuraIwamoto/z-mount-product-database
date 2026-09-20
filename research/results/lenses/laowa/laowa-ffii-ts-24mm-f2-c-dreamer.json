@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA FFII TS 24mm F2 C-Dreamer"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
@@ -70,6 +70,7 @@
   ],
   "unresolved": [
     "Is there an official release announcement or confirmed sale or availability for the Nikon Z configuration?",
-    "Which official aperture specification applies to the released product?"
+    "Which official aperture specification applies to the released product?",
+    "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "Minolta MD/MC to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-md-nz"
@@ -37,6 +37,48 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/1_85c5eb92-3b3d-4c3b-8e0b-596f3c56a0fa_800x.jpg?v=1613497772",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/2_85969cb1-cc30-4907-9952-841fc6c7a33e_800x.jpg?v=1613497772",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/5_49413e5b-3651-49b0-a44f-3fc450ae4aa6_800x.jpg?v=1613497772",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/6_55070f83-aca6-42d9-a6d8-d84722b53c0a_800x.jpg?v=1613497772",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does this adapter provide any adjustment mechanism beyond lens retention? The published views do not cover the full circumference."
   ]
 }

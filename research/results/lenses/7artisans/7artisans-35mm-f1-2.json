@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "7Artisans 35mm F1.2"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-35mm-f1-2"
@@ -50,7 +50,7 @@
     },
     {
       "url": "https://www.bhphotovideo.com/c/product/1595884-REG/7artisans_photoelectric_a805b_35mm_f_1_2_lens_for.html",
-      "publisherRelationship": "retailer",
+      "publisherRelationship": "authorized-retailer",
       "sourceType": "retailer-listing",
       "checked": [
         "identity",

@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Composer Pro II with Twist 60 Optic"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-composer-pro-ii-with-twist-60-optic"
@@ -41,6 +41,52 @@
       "checked": [
         "lens.focus"
       ]
+    },
+    {
+      "url": "https://lensbaby.com/blogs/creative-photography/guide-composer-series-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "other",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/pages/faq-2",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "faq",
+      "checked": [
+        "controls",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/cdn/shop/files/DSC06472_6102c5e2-1e7c-41d1-a941-e189f6eafa33.png?v=1689812517&width=2904",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/cdn/shop/files/DSC06469_e4acc5ec-3307-4746-bde4-8582981653cd.png?v=1689812523&width=2589",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0279/1378/1386/files/Composer_Pro_II.pdf?5459=",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Why does the product introduction state 20 inches to infinity while its specification table states a 460 mm / 18 inch minimum focus distance?",
+    "What are the Nikon Z-specific assembled dimensions and mass?",
+    "Can Nikon Z-specific rear, opposite-side and underside images establish complete exterior and control coverage?"
   ]
 }

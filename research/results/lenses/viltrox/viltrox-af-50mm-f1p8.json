@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 50mm F1.8"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-50mm-f1p8"
@@ -47,7 +47,8 @@
       "checked": [
         "electronicServices",
         "lens.aperture",
-        "lens.stabilization"
+        "lens.stabilization",
+        "controls"
       ]
     },
     {
@@ -58,8 +59,34 @@
         "identity",
         "mount",
         "physical.externalLengthDuringFocus",
-        "lens.coverage"
+        "lens.coverage",
+        "physical",
+        "lens.aperture",
+        "lens.focus",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.coatings",
+        "lens.anglesOfView",
+        "lens.stabilization",
+        "controls",
+        "accessories",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/cdn-cgi/image/fit=scale-down,width=500,quality=95/https://www.bhphotovideo.com/images/images500x500/viltrox_af_50_1_8_z_af_50mm_f_1_8_z_1639423256_1678083.jpg",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "What standardized special-element category matches the dealer wording two high transparent elements? It is not silently converted to high-refractive-index glass without primary clarification.",
+    "Can full Nikon Z directional images and primary documentation establish blade count, aperture click behavior, weather protection, tripod support and retractability? The official product URL remains inaccessible and the inspected authorized-dealer Z side image does not cover all directions.",
+    "Can manufacturer/authorized-distributor evidence confirm dealer-only specifications and supplied accessories (70 x 89.9 mm, 390 g, 55 mm filter, 47.6 degrees, 11/10 optics, 1 ED/2 ASP/nano coating, 0.55 m/0.1x, micro-USB and supplied hood/caps)? Authorized-retailer descriptive text is not accepted for these facts; these new values are not populated. Only the visually established rings and existing officially supported facts are retained."
   ]
 }

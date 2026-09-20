@@ -6,7 +6,7 @@
     "brandId": "megadap",
     "name": "Sony E to Nikon Z Autofocus Adapter ETZ21"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "megadap-etz21"
@@ -37,6 +37,63 @@
       "checked": [
         "identity"
       ]
+    },
+    {
+      "url": "https://megadap.net/etz21-firmware/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "electronicServices",
+        "electronics"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.megadap.com/xzzx/etz21-pro-%E5%9B%BA%E4%BB%B6%EF%BC%9Amlz_etz21pp0206/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronics",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/file/ETZ21_Pro_Pro%2B.pdf",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000167.000071960.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://prcdn.freetls.fastly.net/release_image/71960/167/71960-167-1ddc79a6bb97a1f89713f4ca5a42ae5c-1200x1200.jpg?auto=webp&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "electronics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does this generation support camera-menu focal-length configuration for lenses without electronic contacts, and under which firmware versions?",
+    "Can unobstructed four-sided exterior views establish the complete mechanism, connector and tripod-support arrangement?",
+    "Can an unobstructed rear view confirm the optical path and camera-side contacts for this generation?"
   ]
 }

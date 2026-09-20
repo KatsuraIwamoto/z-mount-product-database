@@ -34,11 +34,44 @@
         }
       }
     ],
-    "tripodSupport": null,
+    "tripodSupport": {
+      "present": true,
+      "components": [
+        {
+          "type": "body-mounting-point",
+          "relationship": "integrated",
+          "removable": false,
+          "interfaces": null,
+          "modelNumberOptions": null,
+          "quantity": 1,
+          "conditions": {}
+        }
+      ]
+    },
     "externalLengthDuringFocus": null,
-    "isRetractableForStorage": null
+    "isRetractableForStorage": null,
+    "frontAccessoryInterface": {
+      "outsideDiameterMm": 70.2
+    }
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "rotationDegrees": 196,
+      "geared": true
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "rotationDegrees": 87,
+      "geared": true
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -69,7 +102,20 @@
       },
       "controlMechanism": "mechanical"
     },
-    "anglesOfView": null,
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": "horizontal",
+        "degrees": 45.2,
+        "conditions": {}
+      },
+      {
+        "format": "full-frame",
+        "orientation": "vertical",
+        "degrees": 22.7,
+        "conditions": {}
+      }
+    ],
     "coverage": {
       "format": "full-frame"
     },
@@ -92,7 +138,12 @@
         }
       ],
       "reproductionMagnifications": null,
-      "officialFocusBehaviorClaims": null
+      "officialFocusBehaviorClaims": [
+        {
+          "type": "focus-breathing-suppressed",
+          "conditions": {}
+        }
+      ]
     },
     "stabilization": {
       "present": false

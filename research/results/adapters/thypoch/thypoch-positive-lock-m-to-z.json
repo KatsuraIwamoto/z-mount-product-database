@@ -6,7 +6,7 @@
     "brandId": "thypoch",
     "name": "Positive-Lock M Lens Adapter for Nikon Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "thypoch-positive-lock-m-to-z"
@@ -38,6 +38,54 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://store.thypoch.com/cdn/shop/files/Thypoch-M-Lens-Mount-Adapter-Auto-Lock-Thypoch-15982047.png?v=1776306989",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://thypoch.com/en/newsroom/111",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://dzofilm.oss-cn-shenzhen.aliyuncs.com/thypoch/upload/M%20Mount%20Positive%20Lock%20Adapter-User%27s%20Manual%E4%B8%A8Thypoch.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "mountConfigurations",
+        "mechanisms",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://store.thypoch.com/cdn/shop/files/Thypoch-M-Lens-Mount-Adapter-Auto-Lock-Thypoch-15982292.jpg?v=1776306981&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://store.thypoch.com/cdn/shop/files/Thypoch-M-Lens-Mount-Adapter-Auto-Lock-Thypoch-15982047.png?v=1776306989&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
     }
+  ],
+  "unresolved": [
+    "Are Z-specific rear and four-sided views available to establish whether any mechanisms other than lens retention are present?"
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 35mm F1.2 LAB"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-35mm-f1p2-lab"
@@ -40,7 +40,8 @@
         "lens.specialElements",
         "lens.coatings",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity"
       ]
     },
     {
@@ -60,6 +61,40 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_35mm_F1.2_LAB_Z_-img12.jpg?v=1765793100",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_35mm_F1.2_LAB_Z_-Camera_map.png?v=1765784009",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_35mm_F1.2_LAB_Z_-Side_monitoring.png?v=1765869890",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can the prior complete Z specification table be recovered to reconfirm 89.2 x 123.5 mm, approximately 970 g, F16, eleven blades, 64.2 degrees, 0.17x, internal/dual-floating focusing and 2025-12-17 announcement date? The current product text and live browser Specs control did not expose that table. Existing facts are retained pending direct reconfirmation.",
+    "Can full Z directional photographs reconfirm existing negative tripod/stabilization/retractability facts and separately identify the forward ribbed ring? Actual Z mounted front-oblique, rear-oblique and multifunction-ring close-up images were inspected; remaining blind spots do not establish absence."
   ]
 }

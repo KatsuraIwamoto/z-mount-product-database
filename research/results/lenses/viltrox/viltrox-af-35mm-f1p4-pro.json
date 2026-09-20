@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 35mm F1.4 Pro"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
@@ -49,9 +49,33 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://viltrox.com/collections/pro-series",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/collections/z-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
     }
   ],
   "unresolved": [
-    "Has Viltrox officially announced the release of or begun selling a Nikon Z configuration of this product?"
+    "Has Viltrox officially announced the release of or begun selling a Nikon Z configuration of this product?",
+    "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
   ]
 }

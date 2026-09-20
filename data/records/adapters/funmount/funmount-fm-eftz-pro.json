@@ -61,7 +61,23 @@
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "direct-usb",
+        "connectorType": "usb-c",
+        "purposes": [
+          "firmware-update",
+          "configuration"
+        ]
+      },
+      {
+        "method": "other",
+        "purposes": [
+          "configuration"
+        ],
+        "application": "Funmount Bluetooth configuration tool"
+      }
+    ]
   },
   "conversionOptics": {
     "present": false

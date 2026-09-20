@@ -15,7 +15,20 @@
     "announcementDate": null,
     "officialDesignations": null
   },
-  "officialProductPages": [],
+  "officialProductPages": [
+    {
+      "url": "https://viltrox.com/products/viltrox-ef-z2-speed-booster",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "VILTROX"
+      }
+    }
+  ],
   "mountConfigurations": [
     {
       "lensSideMountSystemId": "canon-ef",
@@ -44,11 +57,34 @@
     "dimensionMeasurements": null,
     "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
-    "tripodSupport": null
+    "tripodSupport": {
+      "present": true,
+      "components": null
+    }
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "direct-usb",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
   },
-  "conversionOptics": null
+  "conversionOptics": {
+    "present": true,
+    "focalLengthMultiplier": 0.71,
+    "apertureChange": {
+      "direction": "brighter",
+      "stops": 1,
+      "relation": "exact"
+    },
+    "opticalConstruction": null,
+    "specialElements": null,
+    "coatings": null,
+    "supportedImageCircleDiameterMm": null,
+    "maximumSupportedAperture": null
+  }
 }

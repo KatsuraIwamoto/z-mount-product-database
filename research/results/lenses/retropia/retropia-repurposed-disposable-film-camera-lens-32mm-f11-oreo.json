@@ -6,7 +6,7 @@
     "brandId": "retropia",
     "name": "Retropia® Repurposed Disposable Film Camera Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "retropia-repurposed-disposable-film-camera-lens-32mm-f11-oreo"
@@ -52,6 +52,21 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://retro-pia.com/cdn/shop/files/58b3196b-ca01-49e0-b4d9-d76a620e762d.jpg?v=1768948699&width=1280",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z-specific rear, side and underside photographs establish the complete exterior? The inspected front/camera-mounted promotional photographs show a Sony body and do not establish Z-specific contacts or mount details.",
+    "The manufacturer groups Nikon Z with approximately 32mm, fixed approximately f11 and infinity focus sharp beyond 1.5m. The 1.5m description is not an adjustable minimum focus distance.",
+    "Can Nikon Z mass, dimensions and package contents be established from primary evidence?"
   ]
 }

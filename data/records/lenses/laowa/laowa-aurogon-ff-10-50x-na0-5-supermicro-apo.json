@@ -27,6 +27,18 @@
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/668827f1b5d63610d94b628335272a150d3e651d.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -41,7 +53,18 @@
     "officialEnvironmentalProtectionClaims": null,
     "filterInterfaces": null,
     "tripodSupport": {
-      "present": false
+      "present": true,
+      "components": [
+        {
+          "type": "collar-assembly",
+          "relationship": "optional",
+          "removable": true,
+          "interfaces": null,
+          "modelNumberOptions": null,
+          "quantity": null,
+          "conditions": {}
+        }
+      ]
     },
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false

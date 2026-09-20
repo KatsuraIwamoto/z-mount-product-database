@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan 17mm F4 Tilt-Shift ASPH."
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-17mm-f4-tilt-shift-asph"
@@ -46,7 +46,11 @@
         "lens.focus",
         "lens.stabilization",
         "lens.specialized",
-        "officialProductPages"
+        "officialProductPages",
+        "controls",
+        "accessories",
+        "lens.specialElements",
+        "physical.filterInterfaces"
       ]
     },
     {
@@ -59,6 +63,19 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/SKU-E_64d0076e-1506-4c4f-8997-039c74ff7da7.jpg?v=1760062557&width=493",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "How can the published restriction that tilt and shift cannot be used simultaneously be represented with the movement measurements? The published approximately 64 mm image circle also has no approximation flag in this field.",
+    "Can exact Nikon Z top/bottom/left/right and rear views plus operating evidence reconfirm electronic-contact absence and existing tripod, retractability and stabilization negatives? Inspected shared/E barrel views do not establish complete Z coverage or additional control functions."
   ]
 }

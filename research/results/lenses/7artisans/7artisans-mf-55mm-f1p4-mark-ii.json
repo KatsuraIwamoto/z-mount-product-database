@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 55mm f/1.4 Mark II APS-C Lens"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-55mm-f1p4-mark-ii"
@@ -72,6 +72,46 @@
         "mount",
         "lens.anglesOfView"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/55_1.4.jpg?v=1639466666",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "physical.weightMeasurements",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/products/15_519ce77b-0d14-4109-a47a-a4f9bda1c71c.jpg?v=1666174088&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount",
+        "physical.filterInterfaces",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/products/16.jpg?v=1666174088&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which accepted views establish the Nikon Z rear mount and bottom exterior, including tripod interfaces and any covered connectors?",
+    "Does the published 358 g mass exclude caps and other accessories for the Nikon Z version?",
+    "Which accessories are included with the standard Nikon Z package rather than offered as promotional gifts?"
   ]
 }

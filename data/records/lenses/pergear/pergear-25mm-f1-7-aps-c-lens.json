@@ -69,8 +69,54 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "clicked"
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "quantity": 1,
+        "modelNumberOptions": null
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "quantity": 1,
+        "modelNumberOptions": null
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "quantity": 1,
+        "modelNumberOptions": null
+      }
+    ],
+    "lensCases": [
+      {
+        "relationship": "supplied",
+        "quantity": 1,
+        "modelNumberOptions": null,
+        "construction": "soft-case"
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -115,7 +161,15 @@
       "elements": 7
     },
     "specialElements": null,
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null,
+        "officialName": "Low-reflection multi-layer coating"
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false

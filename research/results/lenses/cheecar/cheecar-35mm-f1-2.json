@@ -6,7 +6,7 @@
     "brandId": "cheecar",
     "name": "Cheecar 35mm F1.2"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "cheecar-35mm-f1-2"
@@ -34,8 +34,26 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "identity.modelNumberOptions"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2021/09/13/613efca895159.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.aperture",
+        "accessories"
       ]
     }
+  ],
+  "unresolved": [
+    "The September 20 review rechecked the official specification table and its single capped side-view image. The image establishes focus and aperture rings and distance/depth-of-field scales, but does not identify the mount; no Z-specific four-direction or exposed rear-mount views were available. Click behavior and supplied-cap status cannot be established from this photograph.",
+    "The table lists minimum aperture F16, whereas the official product image has an F22 aperture-ring marking. The existing F16 value is retained pending clarification of the pictured configuration.",
+    "The dimension table labels 48 × 58 mm as L × W, which conflicts with the existing maximum-diameter/length assignment. The 221 g mass and dimensions lack explicit Z and attached-component conditions. Existing values are retained rather than silently reversing dimensions. The angle orientation is unstated.",
+    "MC multilayer coating is named without an explicit coating function, so coatings remain unclassified. The 43 mm hood entry does not establish supplied, optional or integrated status. The 2020 market year is not an exact announcement date."
   ]
 }

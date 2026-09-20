@@ -6,7 +6,7 @@
     "brandId": "cheecar",
     "name": "Cheecar 35mm F1.6 Mark II"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "cheecar-35mm-f1-6-mark-ii"
@@ -35,8 +35,46 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2025/12/09/69377f672731c.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.coatings",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.aperture",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2025/12/09/69377f674a2f5.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2025/12/09/69377f6975c9d.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount",
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "The September 20 review inspected the manufacturer gallery and all detail panels, including Nikon Z fc-mounted front/top views. Focus and clicked aperture rings, distance/depth-of-field scales and low-reflection multilayer coating are established. No complete Z-specific four-direction or rear-mount view set or official package inventory was available.",
+    "The current specification image states approximately 145 g, while the introductory text says 170 g. The existing 145 g value is retained pending clarification; 48 × 26.85 mm and both masses lack explicit mount/component measurement conditions.",
+    "The optical diagram appears to color two elements as high-refractive-index glass and one as ED, whereas the existing record has one high-index and one ED element. No explicit count text resolves this discrepancy, so the existing special-element counts are retained for clarification.",
+    "The minimum-focus table and introduction state 0.28 m, while a detail panel states 0.3 m. The existing 0.28 m value is retained; the 44-degree angle orientation and official Z color-variant names remain unspecified."
   ]
 }

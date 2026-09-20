@@ -6,7 +6,7 @@
     "brandId": "opteka",
     "name": "Opteka 650-1300mm High Definition Telephoto Zoom Lens"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
@@ -76,6 +76,7 @@
     }
   ],
   "unresolved": [
-    "Was an Opteka-branded Nikon Z package of this lens sold by Opteka or an authorized distributor, with the T-mount adapter for Nikon Z supplied as part of that package?"
+    "Was an Opteka-branded Nikon Z package of this lens sold by Opteka or an authorized distributor, with the T-mount adapter for Nikon Z supplied as part of that package?",
+    "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
   ]
 }

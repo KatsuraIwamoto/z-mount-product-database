@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Adapter for Contax Rangefinder RF Lens on Nikon Z Full-Frame Camera",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "CRF-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

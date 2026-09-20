@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Baveyes Mamiya 645-NIK Z 0.7x PRO Lock Version",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "M645-N/Z 0.7x PRO"
+    ],
     "alternateNames": null,
     "variants": null
   },

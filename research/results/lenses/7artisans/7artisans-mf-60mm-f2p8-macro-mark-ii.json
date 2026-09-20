@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 60mm f/2.8 Mark II APS-C Macro Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-60mm-f2p8-macro-mark-ii"
@@ -78,6 +78,26 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/60_2.8_6285fa4f-4fb1-4756-83e9-dc35b3bc361c.jpg?v=1645610907",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.stabilization",
+        "physical.weightMeasurements",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can official Nikon Z-specific images establish the complete rear and top, bottom, left, and right surfaces, including controls, covered connectors, and tripod-support provisions? The currently accessible gallery includes Sony E and Fujifilm X examples.",
+    "Does the published 339 g specification apply to the Nikon Z version without caps or other attached components, and what are its Nikon Z-specific dimensions?",
+    "Which accessories are included with the individual Nikon Z lens as standard?"
   ]
 }

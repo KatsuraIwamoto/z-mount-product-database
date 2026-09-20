@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "MF 11mm F2.8 II Full-Frame Fisheye Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-11mm-f2p8-ii-fisheye"
@@ -56,6 +56,25 @@
         "physical.dimensionMeasurements",
         "physical.weightMeasurements"
       ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/11mmF2.8_b9b1f3b8-be6e-49de-aff7-b3a4a6f5fce9.jpg?v=1776844795&width=700",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.aperture",
+        "lens.anglesOfView"
+      ]
     }
+  ],
+  "unresolved": [
+    "The Nikon Z diagram specifies approximately 71 × 85 mm and 575 g, whereas the 550 g headline is Sony E-specific. Length datum and cap/accessory measurement conditions remain unspecified.",
+    "The gallery includes Sony E rear and mounted views plus shared barrel images. Complete Nikon Z directional views and the hood attachment mechanism remain unconfirmed."
   ]
 }

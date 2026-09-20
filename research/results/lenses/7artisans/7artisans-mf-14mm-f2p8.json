@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 14mm f/2.8 Full-frame Wide Angle Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-14mm-f2p8"
@@ -33,7 +33,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.specialElements"
       ],
       "decisionChecks": [
         "availability"
@@ -72,6 +73,14 @@
       "checked": [
         "lens.focus",
         "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/1_ff8b51fd-8b29-4799-985c-362a665bfd82.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
   ]

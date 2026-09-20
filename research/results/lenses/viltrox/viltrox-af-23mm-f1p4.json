@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 23mm F1.4"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-23mm-f1p4"
@@ -41,7 +41,9 @@
         "lens.specialElements",
         "lens.coatings",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity",
+        "physical"
       ]
     },
     {
@@ -67,8 +69,22 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "manual",
       "checked": [
-        "electronicServices"
+        "electronicServices",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/APS-C-Z_-AF-23_1.4-Z.png?v=1719197935",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "mount"
       ]
     }
+  ],
+  "unresolved": [
+    "Can full Nikon Z directional photographs reconfirm existing negative stabilization/tripod/retractability facts and determine aperture click behavior? The actual Z front-oblique photograph shows the aperture scale, while the shared rear/USB detail depicts X-mount; missing Z angles are not treated as proof of absent controls."
   ]
 }

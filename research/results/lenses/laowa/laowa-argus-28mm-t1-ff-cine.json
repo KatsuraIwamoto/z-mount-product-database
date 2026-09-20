@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA Argus 28mm T1 FF Cine"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-argus-28mm-t1-ff-cine"
@@ -30,7 +30,14 @@
         "physical.isRetractableForStorage",
         "physical.frontAccessoryInterface",
         "lens.coverage",
-        "lens.specialized"
+        "lens.specialized",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.imageCircleDiameters",
+        "lens.opticalConstruction",
+        "lens.focus"
       ],
       "decisionChecks": [
         "availability"
@@ -64,8 +71,44 @@
         "lens.imageCircleDiameters",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "physical.filterInterfaces",
+        "physical.frontAccessoryInterface",
+        "physical.externalLengthDuringFocus",
+        "lens.coverage"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/ArgusT1_02_FF_.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://laowacine.com/wp-content/uploads/2024/06/VE2810_MOOD_010-scaled.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "http://laowacine.com/wp-content/uploads/2024/06/Argus-Cine_Lens-Support.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.tripodSupport"
       ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z-specific dimensional and weight measurement conditions?",
+    "Can Nikon Z-specific rear, opposite-side and underside images establish full exterior coverage and the support configuration?"
   ]
 }

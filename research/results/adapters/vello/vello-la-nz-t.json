@@ -6,7 +6,7 @@
     "brandId": "vello",
     "name": "T-Mount Lens to Nikon Z-Mount Camera Lens Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "vello-la-nz-t"
@@ -21,7 +21,8 @@
         "identity.modelNumberOptions",
         "mountConfigurations",
         "electronics",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.weightMeasurements"
       ]
     },
     {
@@ -35,6 +36,28 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/gradusgroup/data/20423/images/compressed/560x560/1-azRQaK9_1-_la-nz-t_main.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/gradusgroup/data/20423/images/compressed/560x560/lOA4gBnXYF_2-_la-nz-t.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
       ]
     }
   ]

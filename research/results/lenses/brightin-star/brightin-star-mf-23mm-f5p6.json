@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "23mm F5.6 Full Frame Manual Focus Prime Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-23mm-f5p6"
@@ -66,6 +66,49 @@
         "physical.filterInterfaces",
         "physical.dimensionMeasurements"
       ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/23mm_F5.6.webp?v=1781944954&width=700",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/2356-1.jpg?v=1781774912&width=2000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/23mmF5.6__2.jpg?v=1770454156&width=1600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.anglesOfView",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/8_31443c66-c6c1-4de3-ac5c-757a5cfe6399.jpg?v=1772182571&width=1600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "The page summary advertises 10 cm close focusing, but the specification graphics give 0.24 m. The published 0.24 m minimum focus distance is retained; the 10 cm statement lacks a measurement datum or configuration explanation.",
+    "The manufacturer gives Z dimensions 63 × 30.9 mm, but the shared approximately 280 g mass lacks a Nikon Z condition. Length measurement datum and Z mass remain unconfirmed.",
+    "Six gallery images and the enlarged specification infographic were inspected, including shared front, rear and barrel views, but complete Nikon Z directional image coverage remains unavailable."
   ]
 }

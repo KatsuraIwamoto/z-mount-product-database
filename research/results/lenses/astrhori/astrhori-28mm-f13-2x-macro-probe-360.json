@@ -6,7 +6,7 @@
     "brandId": "astrhori",
     "name": "28mm F13 Full-frame 2X Macro Probe Lens 360° View"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "astrhori-28mm-f13-2x-macro-probe-360"
@@ -55,8 +55,29 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "image",
       "checked": [
-        "physical.dimensionMeasurements"
+        "physical.dimensionMeasurements",
+        "controls",
+        "physical.officialEnvironmentalProtectionClaims",
+        "lens.specialized",
+        "lens.aperture",
+        "lens.focus",
+        "lens.opticalConstruction",
+        "lens.anglesOfView"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.cn/cdn/shop/files/6_a078720a-db83-4e90-ab81-f28b4dbd3763.jpg?v=1716885337&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialized"
       ]
     }
+  ],
+  "unresolved": [
+    "The product page offers 360-degree, direct-view and combined sets. Official diagrams show interchangeable 90-degree and direct-view probe tubes, but the supplied versus optional relationship for each configuration is not unambiguously established for the Nikon Z listing.",
+    "The official diagram states approximately 760 g without specifying mount, attached components or probe configuration. Nikon Z weight is not populated from this undifferentiated figure.",
+    "Official gallery and feature diagrams were visually reviewed: front probe face, multiple oblique barrel views, detached modules and partial rear mount are visible, but no complete top/bottom/left/right set or exposed rear clearly identified as Nikon Z was established. Accessory inclusion and caps remain unconfirmed.",
+    "An integrated LED fill light and magnification markings are visible and labeled, but the LED count is not confirmed and the schema requires a count; the LED entry remains null."
   ]
 }

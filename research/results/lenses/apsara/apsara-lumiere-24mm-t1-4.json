@@ -6,7 +6,7 @@
     "brandId": "apsara",
     "name": "APSARA LUMIÈRE 24mm T1.4"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "apsara-lumiere-24mm-t1-4"
@@ -47,12 +47,20 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "specification",
       "checked": [
-        "lens.coverage"
+        "lens.coverage",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.imageCircleDiameters",
+        "lens.focus",
+        "controls",
+        "physical.weightMeasurements",
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces"
       ]
     },
     {
       "url": "https://www.bhphotovideo.com/c/product/1912587-REG/simmod_apsara_lumiere_24_nikon_z_mount_apsara_lumiere_lens_nikon.html",
-      "publisherRelationship": "retailer",
+      "publisherRelationship": "authorized-retailer",
       "sourceType": "retailer-listing",
       "checked": [
         "identity",
@@ -60,7 +68,12 @@
         "physical",
         "controls",
         "lens.coverage",
-        "lens.focus"
+        "lens.focus",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.imageCircleDiameters",
+        "physical.filterInterfaces",
+        "accessories"
       ]
     },
     {
@@ -88,5 +101,11 @@
         "inclusion-criteria"
       ]
     }
+  ],
+  "unresolved": [
+    "Can images of the released Nikon Z configuration establish the rear and all four exterior sides, covered connectors, and the complete illumination-control layout? The accessible Nikon Z retailer photograph shows one side with the rear cap attached.",
+    "Is mount interchangeability intended for user replacement or service, and does external length change during focusing?",
+    "What attached-component conditions apply to the 700 g mass and 116 mm length? The official imperial weight does not agree with its gram value; the Nikon Z dealer listing also states 700 g.",
+    "Confirm minimum aperture and supplied accessories from manufacturer or distributor evidence; retailer specifications and package lists alone are not accepted for those values."
   ]
 }

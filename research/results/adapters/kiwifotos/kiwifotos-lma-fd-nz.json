@@ -6,7 +6,7 @@
     "brandId": "kiwifotos",
     "name": "Lens Mount Adapter for Canon FD Lenses to Nikon Z Body"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kiwifotos-lma-fd-nz"
@@ -24,7 +24,9 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
       ]
     },
     {
@@ -36,5 +38,8 @@
         "mountConfigurations"
       ]
     }
+  ],
+  "unresolved": [
+    "Confirm the function of the OFF/ON ring shown in the official product photographs; the product description does not explain its operation."
   ]
 }

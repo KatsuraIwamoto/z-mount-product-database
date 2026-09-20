@@ -62,7 +62,21 @@
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "dock",
+        "connectorType": "micro-usb",
+        "purposes": [
+          "firmware-update"
+        ]
+      },
+      {
+        "method": "camera-body",
+        "purposes": [
+          "configuration"
+        ]
+      }
+    ]
   },
   "conversionOptics": {
     "present": false

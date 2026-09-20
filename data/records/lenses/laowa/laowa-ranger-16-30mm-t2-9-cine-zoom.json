@@ -27,6 +27,18 @@
         "type": "manufacturer-or-brand",
         "name": "LAOWA Cinema Lenses"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat/6cabc04d3bd26955447f46b469bbb29d54ab62ef.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -70,7 +82,8 @@
       }
     ],
     "tripodSupport": {
-      "present": false
+      "present": true,
+      "components": null
     },
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false,
@@ -101,6 +114,11 @@
     {
       "type": "focus-distance-scale",
       "quantity": 1
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Backfocus Adjustment"
     }
   ],
   "accessories": null,
@@ -216,7 +234,7 @@
       "cinema": {}
     },
     "zoom": {
-      "drive": null,
+      "drive": "manual",
       "opticalZoomingSystems": null
     }
   }

@@ -16,6 +16,18 @@
   },
   "officialProductPages": [
     {
+      "url": "https://www.laowalens.com/camera-lens-80",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "CN",
+      "language": "zh",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Venus Optics"
+      }
+    },
+    {
       "url": "https://www.venuslens.net/product/laowa-10mm-f-2-8-ff-zero-d/",
       "pageFamilies": [
         "global",
@@ -40,7 +52,8 @@
       {
         "maximumDiameterMm": 82,
         "lengthMm": 70.8,
-        "conditions": {}
+        "conditions": {},
+        "approximate": true
       }
     ],
     "weightMeasurements": [
@@ -48,7 +61,8 @@
         "grams": 420,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": null,
@@ -67,7 +81,24 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -83,7 +114,12 @@
             "conditions": {}
           }
         ],
-        "minimumAperture": null,
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {}
+          }
+        ],
         "effective": null
       },
       "diaphragm": {
@@ -122,6 +158,13 @@
         ],
         "quantity": 3,
         "officialName": "ED"
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": null,
+        "officialName": "Ultra High Refraction Glass"
       }
     ],
     "coatings": null,

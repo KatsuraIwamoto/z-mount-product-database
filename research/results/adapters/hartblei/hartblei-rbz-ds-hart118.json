@@ -6,7 +6,7 @@
     "brandId": "hartblei",
     "name": "Hartblei RBZ-DS Dual Shift Adapter Parallax-Free"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "hartblei-rbz-ds-hart118"
@@ -31,5 +31,12 @@
         "availability"
       ]
     }
+  ],
+  "notes": [
+    "The supplied small and large tripod bases are specified as NOVOFLEX UniQ/C compatible."
+  ],
+  "unresolved": [
+    "Does the stated 20 x 20 mm X/Y shift describe total travel or maximum displacement from neutral on each axis?",
+    "Can Nikon Z-specific rear and four-sided product photographs establish the complete exterior? The official listing offers Nikon Z, but the inspected photographs show another camera-mount configuration or do not identify the rear mount."
   ]
 }

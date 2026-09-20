@@ -1,0 +1,193 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "sirui-saturn-v2-50mm-t2-9-1-6x-full-frame-anamorphic-lens",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "sirui",
+    "brandId": "sirui",
+    "productName": "SIRUI Saturn V2 50mm T2.9 1.6x Full-Frame Anamorphic Lens",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2026-09-09",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://store.sirui.com/products/saturn-v2-series-full-frame-anamorphic-cine-lens",
+      "pageFamilies": [
+        "global",
+        "usa"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "SIRUI"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": null,
+    "mountOwnerRelationship": null,
+    "electronicContacts": null
+  },
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 62,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": null,
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": null
+  },
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "rotationDegrees": 120,
+      "geared": true
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "declicked",
+      "geared": true
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Horizontal/Vertical Switch"
+    }
+  ],
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": [
+      {
+        "construction": "soft-case",
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 50
+    },
+    "aperture": {
+      "fNumber": null,
+      "tNumber": {
+        "maximumAperture": [
+          {
+            "value": 2.9,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 16,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 10,
+        "bladeShape": null
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": null,
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 12,
+      "elements": 17
+    },
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 1
+      },
+      {
+        "types": [
+          "other"
+        ],
+        "officialName": "Cylindrical Lens",
+        "quantity": 5
+      }
+    ],
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": null
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.9,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": null,
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {
+      "cinema": {},
+      "anamorphic": {
+        "squeezeRatios": [
+          {
+            "value": 1.6,
+            "conditions": {}
+          }
+        ]
+      }
+    },
+    "imageCircleDiameters": [
+      {
+        "diameterMm": 45,
+        "conditions": {}
+      }
+    ]
+  }
+}

@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA AF 35mm F2.8 1X APO Macro"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
@@ -40,6 +40,7 @@
   ],
   "unresolved": [
     "Has LAOWA issued an official product release announcement or begun sales for this product?",
-    "Has LAOWA announced a Nikon Z configuration?"
+    "Has LAOWA announced a Nikon Z configuration?",
+    "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
   ]
 }

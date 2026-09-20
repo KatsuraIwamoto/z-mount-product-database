@@ -6,7 +6,7 @@
     "brandId": "irix",
     "name": "Irix Cine 65mm T1.5"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "irix-cine-65mm-t1-5"
@@ -38,7 +38,11 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "physical.frontAccessoryInterface",
+        "lens.specialElements",
+        "lens.coatings",
+        "accessories"
       ]
     },
     {
@@ -51,6 +55,38 @@
         "physical",
         "controls"
       ]
+    },
+    {
+      "url": "https://irixlens.com/new/wp-content/uploads/2023/11/65-mm_bok.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "mount.electronicContacts"
+      ]
+    },
+    {
+      "url": "https://irixlens.com/new/wp-content/uploads/2023/11/65mm_back_diagonal.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "mount.electronicContacts"
+      ]
+    },
+    {
+      "url": "https://irixlens.com/new/wp-content/uploads/2023/11/65mm_front.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "mount.electronicContacts"
+      ]
     }
+  ],
+  "unresolved": [
+    "The shared product images do not establish complete Nikon Z-specific four-direction coverage or electrical contacts. Aperture click behavior remains unconfirmed.",
+    "The current product specification and distance scale support a minimum focus distance of 0.6 m, while the 2024 catalogue lists 0.5 m; retain 0.6 m with this conflict explicit.",
+    "Coverage is stated as greater than full frame (43.3 mm), not an exact image-circle diameter. MMS magnetic filter compatibility is confirmed but not representable by the current filter-interface types."
   ]
 }

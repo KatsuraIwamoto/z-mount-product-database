@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 12mm F2.8 Zero-D"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-12mm-f2-8-zero-d"
@@ -60,8 +60,75 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "accessories",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/camera-lens-40",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "mount",
+        "lens.aperture",
+        "lens.coatings",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/files/20251030/FF12mmF2.8D-Dreamerchaoguangjiaojingtoushuomingshu.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "lens.aperture",
+        "lens.coatings",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20210402/4-480.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20210402/2-4-728.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20210402/2-3.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20210402/2-1.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Four official China barrel/front photographs in black and silver and the manual diagrams were visually inspected; they do not establish Nikon Z-specific color availability or complete rear/four-direction coverage. Click behavior and Nikon Z contacts remain unconfirmed; the manual primarily describes DSLR mounts.",
+    "Japan/manual give approximately 74.8 x 82.2 mm and 609 g with mount variation/hood exclusion. China now gives approximately 82.2 x 74.8 mm for EF, 82.2 x 115 mm for RF, and 590 g for EF. Existing Z 75 x 83 mm and approximately 609 g are retained pending mount-specific reconciliation rather than adopting other-mount values.",
+    "Japan gives 122.96 degrees while China/manual give 121.96 degrees; the existing 121.96-degree value is retained with the discrepancy and orientation unresolved.",
+    "China describes a dedicated holder for 100 mm square filters and a 95 mm circular CPL; the manual says no filter thread. Existing empty filterInterfaces remains because the accessory interface mechanism is not established for the schema.",
+    "The supplied hood is explicit in Japan; cap/case supply, environmental protection, external length behavior and precise main/auxiliary focusing-group classification remain unconfirmed. Global product-page access returned 403."
   ]
 }

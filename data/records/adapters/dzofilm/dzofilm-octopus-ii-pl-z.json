@@ -11,7 +11,9 @@
       {
         "variantId": "pl-z",
         "name": "PL-Z",
-        "modelNumberOptions": null
+        "modelNumberOptions": [
+          "DZO-AD2PLZ"
+        ]
       }
     ]
   },
@@ -59,11 +61,47 @@
   "mechanisms": [],
   "physical": {
     "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "weightMeasurements": [
+      {
+        "grams": 186,
+        "approximate": true,
+        "conditions": {
+          "variantId": "pl-z",
+          "componentStates": {
+            "tripodFoot": false
+          }
+        }
+      },
+      {
+        "grams": 200,
+        "approximate": true,
+        "conditions": {
+          "variantId": "pl-z",
+          "componentStates": {
+            "tripodFoot": true
+          }
+        }
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": {
       "present": true,
-      "components": null
+      "components": [
+        {
+          "type": "foot",
+          "relationship": null,
+          "removable": true,
+          "interfaces": [
+            {
+              "type": "mounting-thread",
+              "threadDesignation": "1/4-20"
+            }
+          ],
+          "modelNumberOptions": null,
+          "quantity": null,
+          "conditions": {}
+        }
+      ]
     }
   },
   "electronicServices": null,

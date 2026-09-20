@@ -6,7 +6,7 @@
     "brandId": "voigtlander",
     "name": "SUPER WIDE-HELIAR 15mm F4.5 Aspherical"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "voigtlander-super-wide-heliar-15mm-f4p5-aspherical"
@@ -120,6 +120,19 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://www.cosina.co.jp/wp/wp-content/uploads/2023/01/Z-15_45_01kjhuy.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete Nikon Z directional photographs reconfirm negative tripod/stabilization/retractability facts? An official Z front-oblique was inspected under the user-authorized simplified licensed-product review; complete directional coverage was not established."
   ]
 }

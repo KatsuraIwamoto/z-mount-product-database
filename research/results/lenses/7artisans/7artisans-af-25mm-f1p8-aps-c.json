@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "AF 25mm F1.8 APS-C Lens"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-af-25mm-f1p8-aps-c"
@@ -58,7 +58,13 @@
       "sourceType": "announcement",
       "checked": [
         "identity.modelNumberOptions",
-        "mount"
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces",
+        "physical.weightMeasurements",
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus"
       ],
       "decisionChecks": [
         "availability"

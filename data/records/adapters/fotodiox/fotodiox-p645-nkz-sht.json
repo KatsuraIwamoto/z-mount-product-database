@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Fotodiox Pro Lens Mount Shift Adapter - Compatible With Pentax 645 (P645) Mount Lens to Nikon Z-Mount Mirrorless Camera Body",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "P645-NKZ-SHT"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -79,8 +81,23 @@
     }
   ],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          99,
+          78,
+          59
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 335,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

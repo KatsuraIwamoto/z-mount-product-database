@@ -6,7 +6,7 @@
     "brandId": "simmod",
     "name": "Simmod ARRI LPL to Nikon Z-Mount Cine Pro Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "simmod-arri-lpl-to-nikon-z-cine-pro-adapter"
@@ -23,7 +23,84 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/d640cb_9e63e9bee479401abcc7d4aabc67454d~mv2.jpg/v1/fit/w_960,h_960,q_90,enc_avif,quality_auto/d640cb_9e63e9bee479401abcc7d4aabc67454d~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/d640cb_e510f2d06c81417f978bad54d2a12abc~mv2.jpg/v1/fit/w_960,h_960,q_90,enc_avif,quality_auto/d640cb_e510f2d06c81417f978bad54d2a12abc~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/d640cb_45002010d915485fa17bc225950a9b5e~mv2.jpg/v1/fit/w_960,h_960,q_90,enc_avif,quality_auto/d640cb_45002010d915485fa17bc225950a9b5e~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/d640cb_3392c44b867f4c76b404d87cb9583fea~mv2.jpg/v1/fit/w_960,h_960,q_90,enc_avif,quality_auto/d640cb_3392c44b867f4c76b404d87cb9583fea~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/d640cb_b92cd65672fe4ccfbce95d2fc895de0d~mv2.jpg/v1/fit/w_960,h_960,q_90,enc_avif,quality_auto/d640cb_b92cd65672fe4ccfbce95d2fc895de0d~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/d640cb_89bc2b619a734bd9a8d6aad81bf30ce9~mv2.jpg/v1/fit/w_960,h_960,q_90,enc_avif,quality_auto/d640cb_89bc2b619a734bd9a8d6aad81bf30ce9~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/d640cb_1bb42b6429ec4dcebb66aed34afd68e7~mv2.jpg/v1/fit/w_960,h_960,q_90,enc_avif,quality_auto/d640cb_1bb42b6429ec4dcebb66aed34afd68e7~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/d640cb_8fe1cd2ddcc4416f8e43efc40f3dab9b~mv2.jpg/v1/fit/w_960,h_960,q_90,enc_avif,quality_auto/d640cb_8fe1cd2ddcc4416f8e43efc40f3dab9b~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/d640cb_3636c713300a469e9d6509953083cbfc~mv2.jpg/v1/fit/w_960,h_960,q_90,enc_avif,quality_auto/d640cb_3636c713300a469e9d6509953083cbfc~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
   ]

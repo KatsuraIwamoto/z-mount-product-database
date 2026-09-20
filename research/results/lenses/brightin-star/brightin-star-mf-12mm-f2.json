@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "12mm F2.0 APS-C Ultra Wide-Angle Manual Focus Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-12mm-f2"
@@ -42,6 +42,18 @@
       "checked": [
         "identity"
       ]
+    },
+    {
+      "url": "https://brightinstar.com/products/brightin-star-12mm-f2-0-iii-ultra-wide-angle-big-aperture-aps-c-cameras-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "The historical manufacturer product page now redirects to the storefront homepage. Current manufacturer search results identify the separately recorded 12mm F2.0 III; they do not establish original-generation Nikon Z specifications or images. Published original-model measurements are retained pending product-specific evidence.",
+    "Original-model minimum aperture, optical construction, controls, accessories and complete Nikon Z directional image coverage remain unconfirmed from accessible accepted sources."
   ]
 }

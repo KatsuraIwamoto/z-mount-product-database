@@ -6,7 +6,7 @@
     "brandId": "artra-lab",
     "name": "LATALUMEN 14mm F2.8 V2"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "artralab-latalumen-14mm-f2p8-v2"
@@ -35,7 +35,8 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "controls"
+        "controls",
+        "lens.coatings"
       ]
     },
     {
@@ -73,5 +74,10 @@
         "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Confirm the scope of the generic weather-resistant claim; no specific dust or water protection rating or construction is established.",
+    "Obtain Nikon Z-specific underside, opposite-side and complete mount-face views. The official gallery mixes Nikon Z and Canon RF mounted views with a standalone rear view whose mount is not identified. Confirm aperture click behavior, hood/filter-holder detachability, supplied accessories and focus-related length changes.",
+    "Confirm Nikon Z applicability and measurement conditions for the shared 547 g mass and 68.2 × 78 mm dimensions."
   ]
 }

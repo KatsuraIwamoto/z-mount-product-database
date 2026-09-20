@@ -75,7 +75,25 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "declicked"
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -145,7 +163,16 @@
     },
     "specialized": {
       "movements": {
-        "tiltMeasurements": null
+        "tiltMeasurements": null,
+        "rotationMeasurements": [
+          {
+            "scope": "movement-assembly",
+            "maximumFromNeutralDegrees": null,
+            "totalRangeDegrees": 360,
+            "directionality": null,
+            "conditions": {}
+          }
+        ]
       }
     }
   }

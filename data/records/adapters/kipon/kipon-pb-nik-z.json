@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Praktica PB-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "PB-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

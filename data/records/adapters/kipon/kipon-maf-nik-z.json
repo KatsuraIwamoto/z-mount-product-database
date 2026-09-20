@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Minolta AF / Sony Alpha-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "MAF-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

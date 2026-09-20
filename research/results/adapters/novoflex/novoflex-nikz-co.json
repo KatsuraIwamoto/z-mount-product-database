@@ -6,7 +6,7 @@
     "brandId": "novoflex",
     "name": "Adapter M42x1 Lenses to Nikon Z Cameras"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "novoflex-nikz-co"
@@ -24,7 +24,26 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "mechanisms"
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.novoflex.de/en/Adapter-Collar-Mount-for-EOSR-and-NIKZ-Adapters/ASTAT-RZ",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.novoflex.de/media/56/98/97/1717864475/NIKZ-CO-Adapter_589658.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mechanisms",
+        "conversionOptics"
       ]
     }
   ]

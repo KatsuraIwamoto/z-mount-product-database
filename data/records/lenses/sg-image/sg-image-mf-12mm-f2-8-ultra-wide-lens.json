@@ -63,6 +63,14 @@
       "type": "aperture-ring",
       "quantity": 1,
       "clickBehavior": "clicked"
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
     }
   ],
   "accessories": null,

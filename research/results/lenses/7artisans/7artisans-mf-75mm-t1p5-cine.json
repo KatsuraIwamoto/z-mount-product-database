@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 75mm T1.5 Full Frame Cine Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-75mm-t1p5-cine"
@@ -74,6 +74,27 @@
         "lens.anglesOfView",
         "controls"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/T1.jpg?v=1781683709",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "physical.filterInterfaces",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which accepted Nikon Z views establish the front, rear and four-sided exterior, including tripod interfaces and covered connectors?",
+    "What are the dimensions and mass of the Nikon Z configuration, distinguished from the E-mount measurements?",
+    "Which caps and protective wrap are supplied with the individual Nikon Z lens rather than the multi-lens set?"
   ]
 }

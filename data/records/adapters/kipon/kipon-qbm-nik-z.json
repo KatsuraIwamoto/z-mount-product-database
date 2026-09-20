@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Rollei QBM-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "QBM-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

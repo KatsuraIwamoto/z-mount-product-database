@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 10mm F4 Cookie"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-10mm-f4-cookie"
@@ -60,8 +60,61 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/camera-lens-55",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "identity",
+        "mount",
+        "lens.aperture",
+        "lens.specialElements",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "identity.variants"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20220718/1jingtoutuN.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/10mmF4_02.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/10mmF4_03.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/10mmF4_04.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Four official photographs were visually inspected: the China black-barrel view and Japan barrel/front and mounted camera views. These shared images do not establish complete Nikon Z-specific rear/four-direction coverage. China alternate gallery image navigation failed; Japan photographs were successfully inspected instead.",
+    "Japan explicitly attributes approximately 59.8 x 25 mm and 130 g to Fuji X and says other mounts vary. China supplies the same generic measurements excluding front/rear caps; existing Z values are retained with unresolved mount scope.",
+    "The 109.3-degree angle orientation, aperture click behavior, coating function, electronic contacts, supplied accessories, environmental protection and external length behavior remain unconfirmed. The global product page and China manual index were inaccessible."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 35mm F1.8 EVO"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-35mm-f1p8-evo"
@@ -40,7 +40,9 @@
         "lens.specialElements",
         "lens.coatings",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity",
+        "physical"
       ]
     },
     {
@@ -66,7 +68,11 @@
       "publisherRelationship": "authorized-distributor",
       "sourceType": "announcement",
       "checked": [
-        "mount"
+        "mount",
+        "physical",
+        "lens.aperture",
+        "lens.coatings",
+        "controls"
       ]
     },
     {
@@ -84,6 +90,20 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_35mm_F1.8_II_EVO_Z-_front_view.png?v=1776153240",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can a current detailed Z specification reconfirm the retained 0.15x maximum magnification? Current global narrative and Japanese distributor table omit that value.",
+    "Can complete Z directional images reconfirm negative tripod/stabilization/retractability facts? Actual Z front-oblique and shared click-switch close-up were inspected; full directions remain incomplete. Japanese official distributor uses AF 35mm F1.8 II EVO while global title omits II; retain the existing global productName pending name normalization."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "artra-lab",
     "name": "NONIKKOR-MC 11mm F1.8 (APS-C)"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "artralab-nonikkor-mc-11mm-f1p8"
@@ -33,7 +33,10 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "controls",
+        "lens.specialElements",
+        "lens.coatings"
       ]
     },
     {
@@ -44,6 +47,20 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0491/3787/7141/files/WhatsAppImage2024-10-24at18.17.23.jpg?v=1730089258",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Resolve the official angle-of-view conflict: the specification table states 97 degrees while prose states 105 degrees.",
+    "Confirm whether the 62 mm filter thread is on the lens body or the pictured removable front attachment; the specification does not identify the host.",
+    "Obtain identifiable Nikon Z underside and opposite-side views to complete exterior coverage; gallery front, oblique and rear images do not cover all four sides. Confirm aperture-ring operation/click behavior, hood attachment, supplied accessories and focus-related length changes.",
+    "Confirm the Nikon Z applicability and attached-component conditions of the published 350 g mass and 66 × 55.48 mm dimensions. The dimensional drawing also labels 66.09 mm without explaining the difference from the table."
   ]
 }

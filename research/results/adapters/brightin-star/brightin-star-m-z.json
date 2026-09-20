@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "28mm F2.8 Lens Adapter Ring"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-m-z"
@@ -28,6 +28,15 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/M_Z_22dcf140-3b79-4ad8-9992-277fd892abd9.jpg?v=1762666406&width=800",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
       ]
     }
   ]

@@ -6,7 +6,7 @@
     "brandId": "astrhori",
     "name": "AstrHori AF 85mm F1.8 Full-Frame Lens"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "astrhori-af-85mm-f1-8-full-frame-lens"
@@ -99,6 +99,37 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000016.000135883.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "distributor-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mount",
+        "mount.electronicContacts",
+        "physical.weightMeasurements",
+        "physical.dimensionMeasurements",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.coatings",
+        "controls",
+        "accessories",
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ],
+      "note": "The 94 mm length excludes the mount; weight is approximately 650 g with attached components unspecified."
     }
+  ],
+  "unresolved": [
+    "The former distributor store product URL returns 404. The distributor-authored 2024-06-14 announcement remains accessible and confirms the original Nikon Z model; a missing listing alone is not evidence of discontinuation.",
+    "Seven release images were visually inspected, including front/side, rear USB/electronic contacts and Nikon Z mounted views. Complete top/bottom/left/right coverage is not available. The exact USB connector subtype is not established from the oblique rear image.",
+    "The weight is explicitly approximate, but cap/hood inclusion in the measurement is unspecified. The source explicitly excludes the mount from its 94 mm length."
   ]
 }

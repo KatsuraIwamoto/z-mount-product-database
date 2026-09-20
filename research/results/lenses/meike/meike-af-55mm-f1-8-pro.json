@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike AF 55mm F1.8 Pro"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-af-55mm-f1-8-pro"
@@ -61,6 +61,40 @@
         "lens.specialElements",
         "physical.weightMeasurements"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/5518-_-_3_01.jpg?v=1753095472",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/5518-_-_3_02.jpg?v=1753095472",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements",
+        "lens.coatings",
+        "lens.opticalConstruction"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/5518-_-_3_03.jpg?v=1753095472",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount.electronicContacts",
+        "electronicServices",
+        "physical.filterInterfaces"
+      ]
     }
+  ],
+  "unresolved": [
+    "The optical diagram labels a separate orange element ED aspherical, while its text and specification table state one ED element. Does the ED count include the aspherical element or is there an additional ED-aspherical element?",
+    "Can Nikon Z opposite-side and underside images complete the exterior survey and substantiate the existing tripod-support and retractability fields?",
+    "Can operating documentation establish the focus-ring function, aperture click behavior, and Nikon Z applicability of the seal claim illustrated on E mount?",
+    "What are the accessory conditions for the Nikon Z 74 x 92 mm and approximately 370 g measurements?"
   ]
 }
