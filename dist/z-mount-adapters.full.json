@@ -9,7 +9,7 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
   "recordCount": 445,
-  "contentHash": "sha256:5e17dc365c921a236874e44001d2339cf2adebf369f560b72f3ec67cc1ed9f47",
+  "contentHash": "sha256:ff0a4625b994ff834b0d23a445659307e7cb90fbaae49125a0df6fbfe46810b2",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -21214,14 +21214,16 @@
         }
       ],
       "electronics": {
-        "electronicContacts": null,
-        "autofocus": null,
-        "cameraControlledAperture": null,
-        "lensStabilizationCommunication": null,
-        "manualFocusAssistance": null,
-        "metadataTransmission": null,
-        "lensPowerTransmission": null,
-        "recordingTriggerTransmission": null
+        "electronicContacts": false,
+        "autofocus": false,
+        "cameraControlledAperture": false,
+        "lensStabilizationCommunication": false,
+        "manualFocusAssistance": false,
+        "metadataTransmission": {
+          "present": false
+        },
+        "lensPowerTransmission": false,
+        "recordingTriggerTransmission": false
       },
       "mechanisms": null,
       "physical": {
@@ -30134,14 +30136,16 @@
         }
       ],
       "electronics": {
-        "electronicContacts": null,
-        "autofocus": null,
-        "cameraControlledAperture": null,
-        "lensStabilizationCommunication": null,
-        "manualFocusAssistance": null,
-        "metadataTransmission": null,
-        "lensPowerTransmission": null,
-        "recordingTriggerTransmission": null
+        "electronicContacts": false,
+        "autofocus": false,
+        "cameraControlledAperture": false,
+        "lensStabilizationCommunication": false,
+        "manualFocusAssistance": false,
+        "metadataTransmission": {
+          "present": false
+        },
+        "lensPowerTransmission": false,
+        "recordingTriggerTransmission": false
       },
       "mechanisms": null,
       "physical": {
@@ -30766,14 +30770,16 @@
         }
       ],
       "electronics": {
-        "electronicContacts": null,
-        "autofocus": null,
-        "cameraControlledAperture": null,
-        "lensStabilizationCommunication": null,
-        "manualFocusAssistance": null,
-        "metadataTransmission": null,
-        "lensPowerTransmission": null,
-        "recordingTriggerTransmission": null
+        "electronicContacts": false,
+        "autofocus": false,
+        "cameraControlledAperture": false,
+        "lensStabilizationCommunication": false,
+        "manualFocusAssistance": false,
+        "metadataTransmission": {
+          "present": false
+        },
+        "lensPowerTransmission": false,
+        "recordingTriggerTransmission": false
       },
       "mechanisms": null,
       "physical": {

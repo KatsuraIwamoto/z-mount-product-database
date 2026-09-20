@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN PL-NZ-U Mount Adapter"
   },
-  "reviewedOn": "2026-09-19",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "shoten-pl-nz-u"
@@ -80,12 +80,12 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "image",
       "checked": [
-        "mountConfigurations"
+        "mountConfigurations",
+        "electronics"
       ]
     }
   ],
   "unresolved": [
-    "Do complete exterior views or operating instructions establish whether this model has adjustment mechanisms beyond its lens-retention and mount-connection parts?",
-    "Can an unobstructed camera-side mount view or exact-model documentation confirm the electronic-contact specification of PL-NZ-U?"
+    "Do complete exterior views or operating instructions establish whether this model has adjustment mechanisms beyond its lens-retention and mount-connection parts?"
   ]
 }

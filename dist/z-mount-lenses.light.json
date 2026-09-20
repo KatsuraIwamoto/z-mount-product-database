@@ -9,7 +9,7 @@
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
   "recordCount": 606,
-  "contentHash": "sha256:ec2b054b7ab665dbce6d0836e0dd1f216274f63b4a67925bd12e6b59aa564d3a",
+  "contentHash": "sha256:3f556454b62a3be2fdd56ef2685ec36436d3e8d7f5d098038bda8ac16c55fb4d",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -41767,7 +41767,9 @@
           ],
           "reproductionMagnifications": null
         },
-        "stabilization": null,
+        "stabilization": {
+          "present": false
+        },
         "specialized": {
           "cinema": {},
           "anamorphic": {}
@@ -41841,7 +41843,9 @@
           ],
           "reproductionMagnifications": null
         },
-        "stabilization": null,
+        "stabilization": {
+          "present": false
+        },
         "specialized": {
           "cinema": {},
           "anamorphic": {}
@@ -41915,7 +41919,9 @@
           ],
           "reproductionMagnifications": null
         },
-        "stabilization": null,
+        "stabilization": {
+          "present": false
+        },
         "specialized": {
           "cinema": {},
           "anamorphic": {}

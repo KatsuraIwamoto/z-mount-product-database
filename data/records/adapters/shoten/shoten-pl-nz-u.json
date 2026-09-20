@@ -27,14 +27,16 @@
     }
   ],
   "electronics": {
-    "electronicContacts": null,
-    "autofocus": null,
-    "cameraControlledAperture": null,
-    "lensStabilizationCommunication": null,
-    "manualFocusAssistance": null,
-    "metadataTransmission": null,
-    "lensPowerTransmission": null,
-    "recordingTriggerTransmission": null
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
   },
   "mechanisms": null,
   "physical": {

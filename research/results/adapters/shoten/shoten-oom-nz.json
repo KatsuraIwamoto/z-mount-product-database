@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN OOM-NZ Mount Adapter"
   },
-  "reviewedOn": "2026-09-19",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "shoten-oom-nz"
@@ -69,10 +69,23 @@
         "mountConfigurations",
         "conversionOptics"
       ]
+    },
+    {
+      "url": "https://www.amazon.co.jp/dp/B0BSQR9HVK",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics"
+      ],
+      "note": "The SHOTEN OOM-NZ listing, sold by Shoten Kobo, specifies manual focusing and states that electronic lens control is unavailable."
     }
   ],
   "unresolved": [
-    "Can a complete camera-side mount image or explicit electronic specifications establish the contact and electronic-function status of OOM-NZ, distinct from OOM-NZ E?",
     "Can complete exterior views or operating instructions establish whether OOM-NZ has additional mechanisms? The published gallery does not cover the full circumference."
+  ],
+  "notes": [
+    "Electronic contacts and the related contact-dependent electronic functions are recorded as absent based on the Amazon Japan OOM-NZ product description stating that electronic lens control is unavailable. This editorial conclusion was approved by the maintainer on 2026-09-20."
   ]
 }

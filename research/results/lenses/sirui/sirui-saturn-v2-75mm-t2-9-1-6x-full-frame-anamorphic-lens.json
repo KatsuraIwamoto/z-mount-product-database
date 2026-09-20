@@ -6,7 +6,7 @@
     "brandId": "sirui",
     "name": "SIRUI Saturn V2 75mm T2.9 1.6x Full-Frame Anamorphic Lens"
   },
-  "reviewedOn": "2026-09-16",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "sirui-saturn-v2-75mm-t2-9-1-6x-full-frame-anamorphic-lens"
@@ -31,7 +31,8 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.stabilization"
       ],
       "decisionChecks": [
         "release-status"
@@ -58,7 +59,8 @@
     }
   ],
   "notes": [
-    "The series supports horizontal and vertical anamorphic shooting through a 90-degree barrel rotation and locking switch."
+    "The series supports horizontal and vertical anamorphic shooting through a 90-degree barrel rotation and locking switch.",
+    "Human editorial decision on 2026-09-20: in-lens optical stabilization is recorded as absent because the official product page does not list this feature. This is a maintainer-approved inference, not an explicit manufacturer statement."
   ],
   "unresolved": [
     "What are the published dimensions and weight of the Nikon Z configuration, excluding lens caps?",

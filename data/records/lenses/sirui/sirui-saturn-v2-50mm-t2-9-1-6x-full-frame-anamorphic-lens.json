@@ -169,7 +169,9 @@
       "reproductionMagnifications": null,
       "officialFocusBehaviorClaims": null
     },
-    "stabilization": null,
+    "stabilization": {
+      "present": false
+    },
     "specialized": {
       "cinema": {},
       "anamorphic": {
