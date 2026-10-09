@@ -1,0 +1,28 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "sirui-ironstar-100mm-1-5x-full-frame-anamorphic-cine-lens",
+  "subject": {
+    "manufacturerId": "sirui",
+    "brandId": "sirui",
+    "name": "SIRUI IronStar 100mm 1.5x Full-Frame Anamorphic Cine Lens"
+  },
+  "reviewedOn": "2026-10-09",
+  "decision": {
+    "status": "excluded",
+    "reason": "The official product page offers user-interchangeable PL and EF mounts, without a directly mountable Nikon Z configuration."
+  },
+  "sources": [
+    {
+      "url": "https://store.sirui.com/products/sirui-ironstar-75-100-135mm-t1-9-1-5x-full-frame-anamorphic-cine-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "inclusion-criteria"
+      ]
+    }
+  ]
+}

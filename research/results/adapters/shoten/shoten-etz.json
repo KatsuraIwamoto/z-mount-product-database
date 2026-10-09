@@ -1,0 +1,78 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "shoten-etz",
+  "subject": {
+    "manufacturerId": "shoten-kobo",
+    "brandId": "shoten",
+    "name": "SHOTEN ETZ"
+  },
+  "reviewedOn": "2026-10-09",
+  "decision": {
+    "status": "included",
+    "recordId": "shoten-etz"
+  },
+  "sources": [
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000003713/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000727.000071960.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mountConfigurations",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ],
+      "decisionChecks": [
+        "release-status",
+        "availability"
+      ]
+    },
+    {
+      "url": "https://gigaplus.makeshop.jp/shotenkobo/img/shoten/SHOTEN-ETZ.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "electronics",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/13/37/2_000000003713.jpg?1789606979",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    }
+  ],
+  "notes": [
+    "For lenses without electronic contacts, ten lens-information presets can be configured; camera-displayed and recorded aperture values are limited to F1 through F5.6.",
+    "The manual instructs users to enable either lens stabilization or camera-body stabilization separately.",
+    "The supplied cable connects to the adapter through magnetic contacts and to the computer through USB-A."
+  ],
+  "unresolved": [
+    "Has an official firmware update file or release entry for SHOTEN ETZ been published?",
+    "Can complete exterior views or operating instructions establish whether the adapter has any adjustment mechanisms beyond its release and function controls?"
+  ]
+}

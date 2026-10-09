@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "sigma-50-to-120mm-f2p8-dc-os-contemporary",
+  "subject": {
+    "manufacturerId": "sigma",
+    "brandId": "sigma",
+    "name": "50-120mm F2.8 DC OS | Contemporary"
+  },
+  "reviewedOn": "2026-10-09",
+  "decision": {
+    "status": "excluded",
+    "reason": "The official product page lists Canon RF, Fujifilm X, and Sony E configurations; no directly mountable Nikon Z configuration is offered."
+  },
+  "sources": [
+    {
+      "url": "https://www.sigma-global.com/en/lenses/c026_50_120_28/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "inclusion-criteria",
+        "availability"
+      ]
+    }
+  ]
+}

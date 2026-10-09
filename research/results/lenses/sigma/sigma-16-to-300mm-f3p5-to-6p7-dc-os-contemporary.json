@@ -1,0 +1,99 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "sigma-16-to-300mm-f3p5-to-6p7-dc-os-contemporary",
+  "sources": [
+    {
+      "url": "https://www.sigma-global.com/en/news/2026/10/08/012346/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "mount",
+        "mount.electronicContacts",
+        "lens.focalLength",
+        "lens.coverage",
+        "lens.focus",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "release-status",
+        "licensing"
+      ]
+    },
+    {
+      "url": "https://www.sigma-global.com/en/lenses/c025_16_300_35_67/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.filterInterfaces",
+        "physical.externalLengthDuringZoom",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.coatings",
+        "lens.focus",
+        "lens.zoom",
+        "lens.stabilization",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://www.sigma-global.com/lenses/c025_16_300_35_67_product_img01.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.externalLengthDuringZoom"
+      ]
+    },
+    {
+      "url": "https://www.sigma-global.com/lenses/c025_16_300_35_67_product_img04.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.externalLengthDuringZoom"
+      ]
+    },
+    {
+      "url": "https://www.sigma-global.com/en/news/images/14_PPhoto_16_300_35_67_dc_os_026_Zmt_representative.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
+    }
+  ],
+  "subject": {
+    "manufacturerId": "sigma",
+    "brandId": "sigma",
+    "name": "16-300mm F3.5-6.7 DC OS | Contemporary"
+  },
+  "reviewedOn": "2026-10-09",
+  "decision": {
+    "status": "included",
+    "recordId": "sigma-16-to-300mm-f3p5-to-6p7-dc-os-contemporary"
+  },
+  "notes": [
+    "The Nikon Z release is scheduled for November 5, 2026.",
+    "The product page limits USB DOCK UD-11 compatibility to L-Mount."
+  ],
+  "unresolved": [
+    "Can Nikon Z documentation establish the aperture control and manual-focus mechanisms, focusing system, external length during focusing, storage retractability, and tripod support?",
+    "Does the advertised mount-conversion service apply to the Nikon Z configuration?",
+    "What firmware-update or configuration connections are supported for Nikon Z, and has a Nikon Z firmware update been published?"
+  ]
+}

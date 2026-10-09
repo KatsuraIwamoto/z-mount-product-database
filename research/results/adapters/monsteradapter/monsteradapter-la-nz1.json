@@ -6,7 +6,7 @@
     "brandId": "monsteradapter",
     "name": "LA-NZ1"
   },
-  "reviewedOn": "2026-09-16",
+  "reviewedOn": "2026-10-09",
   "decision": {
     "status": "needs-review"
   },
@@ -34,6 +34,14 @@
       ],
       "decisionChecks": [
         "release-status"
+      ]
+    },
+    {
+      "url": "https://www.monsteradapter.com/collections/frontpage",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "decisionChecks": [
+        "availability"
       ]
     }
   ],

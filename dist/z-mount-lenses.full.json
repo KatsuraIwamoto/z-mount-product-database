@@ -3,13 +3,13 @@
   "datasetName": "Z Mount Lens Database",
   "datasetVariant": "full",
   "schemaVersion": "1.0.0",
-  "dataVersion": "2026.09.20",
+  "dataVersion": "2026.10.09",
   "creator": "Katsura Iwamoto",
   "license": "CC-BY-4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
-  "recordCount": 606,
-  "contentHash": "sha256:1f69d5b81f3b68f00c4884d0c5cf44590d4805ec9e70277277a0797dac000790",
+  "recordCount": 611,
+  "contentHash": "sha256:484f0751db150132ce33d3aae7c31f75e5b7a2386c21211432c1051a3f8a50fd",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -16866,6 +16866,119 @@
             ]
           }
         }
+      }
+    },
+    {
+      "id": "brightin-star-50mm-f2-tri-sight",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "brightin-star",
+        "brandId": "brightin-star",
+        "productName": "BRIGHTIN STAR MF 50mm F2.0 TRI-SIGHT Full-Frame Art Lens",
+        "modelNumberOptions": null,
+        "alternateNames": null,
+        "variants": null
+      },
+      "lifecycle": {
+        "announcementDate": null,
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://brightinstar.com/products/50mm-f2-tri-sight-full-frame-art-lens",
+          "pageFamilies": [
+            "global"
+          ],
+          "region": null,
+          "language": "en",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "Brightin Star"
+          }
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": null,
+        "electronicContacts": {
+          "present": false
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
+        "officialEnvironmentalProtectionClaims": null,
+        "filterInterfaces": null,
+        "tripodSupport": null,
+        "externalLengthDuringFocus": null,
+        "isRetractableForStorage": null
+      },
+      "controls": null,
+      "accessories": {
+        "lensHoods": [
+          {
+            "relationship": "integrated",
+            "modelNumberOptions": null,
+            "quantity": 1
+          }
+        ],
+        "frontCaps": null,
+        "rearCaps": null,
+        "lensCases": null,
+        "lensStraps": null,
+        "protectiveWraps": null
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 50
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 2,
+                "conditions": {}
+              }
+            ],
+            "minimumAperture": null,
+            "effective": null
+          },
+          "diaphragm": {
+            "present": true,
+            "bladeCount": null,
+            "bladeShape": null
+          },
+          "controlMechanism": "mechanical"
+        },
+        "anglesOfView": null,
+        "coverage": {
+          "format": "full-frame"
+        },
+        "opticalConstruction": {
+          "groups": 6,
+          "elements": 7
+        },
+        "specialElements": null,
+        "coatings": null,
+        "focus": {
+          "autofocus": {
+            "present": false
+          },
+          "manualFocus": {
+            "present": true,
+            "mechanism": "mechanical-coupled"
+          },
+          "opticalFocusingSystems": null,
+          "minimumFocusDistances": null,
+          "reproductionMagnifications": null,
+          "officialFocusBehaviorClaims": null
+        },
+        "stabilization": {
+          "present": false
+        },
+        "specialized": {}
       }
     },
     {
@@ -40836,6 +40949,182 @@
       }
     },
     {
+      "id": "laowa-af-35mm-f2-8-1x-apo-macro",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "venus-optics",
+        "brandId": "laowa",
+        "productName": "ACRIS 35mm f/2.8 1X Macro APO",
+        "modelNumberOptions": null,
+        "alternateNames": null,
+        "variants": null
+      },
+      "lifecycle": {
+        "announcementDate": null,
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://www.venuslens.net/product/acris-35mm-f-2-8-1x-macro-apo/",
+          "pageFamilies": [
+            "global"
+          ],
+          "region": null,
+          "language": "en",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "Laowa"
+          }
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": null,
+        "electronicContacts": {
+          "present": true,
+          "metadataTransmission": null
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 570,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "weather-resistant"
+            ],
+            "scope": {
+              "kind": "product"
+            },
+            "conditions": {}
+          }
+        ],
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 72,
+            "host": {
+              "kind": "product"
+            }
+          }
+        ],
+        "tripodSupport": null,
+        "externalLengthDuringFocus": null,
+        "isRetractableForStorage": null
+      },
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1
+        },
+        {
+          "type": "focus-distance-scale",
+          "quantity": 1
+        },
+        {
+          "type": "depth-of-field-scale",
+          "quantity": 1
+        }
+      ],
+      "accessories": null,
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 35
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 2.8,
+                "conditions": {}
+              }
+            ],
+            "minimumAperture": [
+              {
+                "value": 22,
+                "conditions": {}
+              }
+            ],
+            "effective": null
+          },
+          "diaphragm": {
+            "present": true,
+            "bladeCount": 9,
+            "bladeShape": null
+          },
+          "controlMechanism": null
+        },
+        "anglesOfView": [
+          {
+            "format": "full-frame",
+            "orientation": null,
+            "degrees": 63.4,
+            "conditions": {}
+          }
+        ],
+        "coverage": {
+          "format": "full-frame"
+        },
+        "opticalConstruction": {
+          "groups": 10,
+          "elements": 13
+        },
+        "specialElements": null,
+        "coatings": null,
+        "focus": {
+          "autofocus": {
+            "present": true,
+            "motors": null
+          },
+          "manualFocus": {
+            "present": true,
+            "mechanism": null
+          },
+          "opticalFocusingSystems": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.18,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 1,
+              "conditions": {}
+            }
+          ],
+          "officialFocusBehaviorClaims": null
+        },
+        "stabilization": {
+          "present": false
+        },
+        "specialized": {
+          "macro": {
+            "workingDistances": [
+              {
+                "distanceM": 0.0486,
+                "conditions": {}
+              }
+            ]
+          }
+        }
+      },
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": null,
+        "connections": null
+      }
+    },
+    {
       "id": "laowa-aksen-17-5mm-f1-7-5-10x-ultra-macro-apo",
       "productType": "lens",
       "identity": {
@@ -43433,6 +43722,257 @@
             ]
           }
         }
+      }
+    },
+    {
+      "id": "laowa-ffii-ts-24mm-f2-c-dreamer",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "venus-optics",
+        "brandId": "laowa",
+        "productName": "FFⅡ TS 24mm F2 C-Dreamer",
+        "modelNumberOptions": null,
+        "alternateNames": null,
+        "variants": null
+      },
+      "lifecycle": {
+        "announcementDate": null,
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://www.laowalens.com.cn/camera-lens-101",
+          "pageFamilies": [
+            "home-country"
+          ],
+          "region": "CN",
+          "language": "zh-CN",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "Laowa"
+          }
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": null,
+        "electronicContacts": null
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": null,
+            "lengthMm": 119,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 860,
+            "approximate": true,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "officialEnvironmentalProtectionClaims": null,
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 77,
+            "host": {
+              "kind": "product"
+            }
+          }
+        ],
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "other",
+              "relationship": "integrated",
+              "removable": null,
+              "interfaces": null,
+              "modelNumberOptions": null,
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        },
+        "externalLengthDuringFocus": null,
+        "isRetractableForStorage": null
+      },
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1
+        },
+        {
+          "type": "focus-distance-scale",
+          "quantity": 1
+        },
+        {
+          "type": "depth-of-field-scale",
+          "quantity": 1
+        },
+        {
+          "type": "other",
+          "quantity": 1,
+          "officialName": "holder lock knob"
+        },
+        {
+          "type": "other",
+          "quantity": 1,
+          "officialName": "tilt knob"
+        },
+        {
+          "type": "other",
+          "quantity": 1,
+          "officialName": "tilt lock knob"
+        },
+        {
+          "type": "other",
+          "quantity": 1,
+          "officialName": "shift knob"
+        },
+        {
+          "type": "other",
+          "quantity": 1,
+          "officialName": "Shift lock knob"
+        },
+        {
+          "type": "other",
+          "quantity": 1,
+          "officialName": "mount rotation knob"
+        }
+      ],
+      "accessories": null,
+      "electronicServices": null,
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 24
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 2,
+                "conditions": {}
+              }
+            ],
+            "minimumAperture": [
+              {
+                "value": 22,
+                "conditions": {}
+              }
+            ],
+            "effective": null
+          },
+          "diaphragm": {
+            "present": true,
+            "bladeCount": 14,
+            "bladeShape": null
+          },
+          "controlMechanism": "mechanical"
+        },
+        "anglesOfView": [
+          {
+            "format": "full-frame",
+            "orientation": null,
+            "degrees": 108.8,
+            "conditions": {}
+          }
+        ],
+        "coverage": {
+          "format": "full-frame"
+        },
+        "opticalConstruction": null,
+        "specialElements": [
+          {
+            "types": [
+              "aspherical"
+            ],
+            "officialName": "Glass Aspherical",
+            "quantity": 2
+          },
+          {
+            "types": [
+              "low-dispersion"
+            ],
+            "officialName": "ED",
+            "quantity": null
+          },
+          {
+            "types": [
+              "high-refractive-index"
+            ],
+            "officialName": "Ultra High Refraction Glass",
+            "quantity": null
+          }
+        ],
+        "coatings": null,
+        "focus": {
+          "autofocus": {
+            "present": false
+          },
+          "manualFocus": {
+            "present": true,
+            "mechanism": null
+          },
+          "opticalFocusingSystems": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.25,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": null,
+          "officialFocusBehaviorClaims": null
+        },
+        "stabilization": {
+          "present": false
+        },
+        "specialized": {
+          "movements": {
+            "tiltMeasurements": [
+              {
+                "maximumFromNeutralDegrees": 10,
+                "totalRangeDegrees": 20,
+                "directionality": "bidirectional",
+                "conditions": {}
+              }
+            ],
+            "shiftMeasurements": [
+              {
+                "maximumFromNeutralMm": 12,
+                "totalRangeMm": 24,
+                "directionality": "bidirectional",
+                "conditions": {}
+              }
+            ],
+            "rotationMeasurements": [
+              {
+                "scope": "mount-interface",
+                "maximumFromNeutralDegrees": 180,
+                "totalRangeDegrees": 360,
+                "directionality": "bidirectional",
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        "imageCircleDiameters": [
+          {
+            "diameterMm": 67,
+            "conditions": {}
+          }
+        ]
       }
     },
     {
@@ -89218,6 +89758,390 @@
       }
     },
     {
+      "id": "sigma-16-to-300mm-f3p5-to-6p7-dc-os-contemporary",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "sigma",
+        "brandId": "sigma",
+        "productName": "16-300mm F3.5-6.7 DC OS | Contemporary",
+        "modelNumberOptions": null,
+        "alternateNames": null,
+        "variants": null
+      },
+      "lifecycle": {
+        "announcementDate": "2026-10-08",
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://www.sigma-global.com/en/lenses/c025_16_300_35_67/",
+          "pageFamilies": [
+            "global"
+          ],
+          "region": null,
+          "language": "en",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "Sigma"
+          }
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": null,
+        "mountOwnerRelationship": "officially-licensed",
+        "electronicContacts": {
+          "present": true,
+          "metadataTransmission": null
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 73.8,
+            "lengthMm": 125.4,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 630,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "dust-resistant",
+              "splash-resistant"
+            ],
+            "scope": {
+              "kind": "product"
+            },
+            "conditions": {}
+          }
+        ],
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 67,
+            "host": {
+              "kind": "product"
+            }
+          }
+        ],
+        "tripodSupport": null,
+        "externalLengthDuringFocus": null,
+        "isRetractableForStorage": null,
+        "externalLengthDuringZoom": "variable"
+      },
+      "controls": [
+        {
+          "type": "zoom-ring",
+          "quantity": 1
+        },
+        {
+          "type": "focus-ring",
+          "quantity": 1
+        },
+        {
+          "type": "zoom-lock",
+          "quantity": 1
+        }
+      ],
+      "accessories": {
+        "lensHoods": [
+          {
+            "relationship": "supplied",
+            "modelNumberOptions": [
+              "LH706-03"
+            ],
+            "quantity": 1
+          }
+        ],
+        "frontCaps": [
+          {
+            "relationship": "supplied",
+            "modelNumberOptions": [
+              "LCF-67 IV"
+            ],
+            "quantity": 1
+          }
+        ],
+        "rearCaps": [
+          {
+            "relationship": "supplied",
+            "modelNumberOptions": [
+              "LCR III"
+            ],
+            "quantity": 1
+          }
+        ],
+        "lensCases": [
+          {
+            "relationship": "supplied",
+            "modelNumberOptions": null,
+            "quantity": 1,
+            "construction": "soft-case"
+          }
+        ],
+        "lensStraps": null,
+        "protectiveWraps": null
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "zoom",
+          "rangeMm": {
+            "minimum": 16,
+            "maximum": 300
+          }
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 3.5,
+                "conditions": {
+                  "focalLength": {
+                    "kind": "point",
+                    "millimeters": 16
+                  }
+                }
+              },
+              {
+                "value": 6.7,
+                "conditions": {
+                  "focalLength": {
+                    "kind": "point",
+                    "millimeters": 300
+                  }
+                }
+              }
+            ],
+            "minimumAperture": [
+              {
+                "value": 22,
+                "conditions": {
+                  "focalLength": {
+                    "kind": "point",
+                    "millimeters": 16
+                  }
+                }
+              },
+              {
+                "value": 45,
+                "conditions": {
+                  "focalLength": {
+                    "kind": "point",
+                    "millimeters": 300
+                  }
+                }
+              }
+            ],
+            "effective": null
+          },
+          "diaphragm": {
+            "present": true,
+            "bladeCount": 9,
+            "bladeShape": "rounded"
+          },
+          "controlMechanism": null
+        },
+        "anglesOfView": [
+          {
+            "format": "aps-c",
+            "orientation": null,
+            "degrees": 83.2,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 16
+              }
+            }
+          },
+          {
+            "format": "aps-c",
+            "orientation": null,
+            "degrees": 5.4,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 300
+              }
+            }
+          }
+        ],
+        "coverage": {
+          "format": "aps-c"
+        },
+        "opticalConstruction": {
+          "groups": 14,
+          "elements": 20
+        },
+        "specialElements": [
+          {
+            "types": [
+              "low-dispersion"
+            ],
+            "officialName": "FLD glass",
+            "quantity": 1
+          },
+          {
+            "types": [
+              "low-dispersion"
+            ],
+            "officialName": "SLD glass",
+            "quantity": 4
+          },
+          {
+            "types": [
+              "aspherical"
+            ],
+            "officialName": "Aspherical lens",
+            "quantity": 4
+          },
+          {
+            "types": [
+              "high-refractive-index"
+            ],
+            "quantity": null
+          }
+        ],
+        "coatings": [
+          {
+            "types": [
+              "surface-protective"
+            ],
+            "appliedTo": [
+              "front-element"
+            ]
+          }
+        ],
+        "focus": {
+          "autofocus": {
+            "present": true,
+            "motors": [
+              {
+                "type": "linear-motor",
+                "quantity": null,
+                "officialName": "HLA (High-response Linear Actuator)"
+              }
+            ]
+          },
+          "manualFocus": {
+            "present": true,
+            "mechanism": null
+          },
+          "opticalFocusingSystems": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.17,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 16
+                }
+              }
+            },
+            {
+              "distanceM": 1.05,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 300
+                }
+              }
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.333333,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 16
+                }
+              }
+            },
+            {
+              "kind": "maximum",
+              "value": 0.5,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 70
+                }
+              }
+            },
+            {
+              "kind": "maximum",
+              "value": 0.25,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 300
+                }
+              }
+            }
+          ],
+          "officialFocusBehaviorClaims": [
+            {
+              "type": "focus-breathing-suppressed",
+              "conditions": {
+                "focalLength": {
+                  "kind": "range",
+                  "minimumMm": 16,
+                  "maximumMm": 300
+                }
+              }
+            }
+          ]
+        },
+        "stabilization": {
+          "present": true,
+          "officialName": "OS2",
+          "ratings": [
+            {
+              "stops": 6,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 16
+                },
+                "imageFormat": "aps-c",
+                "configuration": "unspecified",
+                "standard": "CIPA"
+              }
+            },
+            {
+              "stops": 4.5,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 300
+                },
+                "imageFormat": "aps-c",
+                "configuration": "unspecified",
+                "standard": "CIPA"
+              }
+            }
+          ]
+        },
+        "specialized": {},
+        "zoom": {
+          "drive": "manual",
+          "opticalZoomingSystems": null
+        }
+      },
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": null,
+        "connections": null
+      }
+    },
+    {
       "id": "sigma-16mm-f1p4-dc-dn-contemporary",
       "productType": "lens",
       "identity": {
@@ -98716,6 +99640,312 @@
           "drive": null,
           "opticalZoomingSystems": null
         }
+      }
+    },
+    {
+      "id": "tamron-20-to-40mm-f2p8-di-iii-vxd-a062",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "tamron",
+        "brandId": "tamron",
+        "productName": "20-40mm F/2.8 Di III VXD",
+        "modelNumberOptions": [
+          "A062"
+        ],
+        "alternateNames": null,
+        "variants": null
+      },
+      "lifecycle": {
+        "announcementDate": "2026-10-08",
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://www.tamron.com/global/consumer/lenses/a062/",
+          "pageFamilies": [
+            "global"
+          ],
+          "region": null,
+          "language": "en",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "Tamron"
+          }
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": "officially-licensed",
+        "electronicContacts": {
+          "present": true,
+          "metadataTransmission": null
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 74.4,
+            "lengthMm": 88.7,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 380,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "moisture-resistant"
+            ],
+            "scope": {
+              "kind": "product"
+            },
+            "conditions": {}
+          }
+        ],
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 67,
+            "host": {
+              "kind": "product"
+            }
+          }
+        ],
+        "tripodSupport": null,
+        "externalLengthDuringFocus": null,
+        "isRetractableForStorage": null,
+        "externalLengthDuringZoom": null
+      },
+      "controls": [
+        {
+          "type": "zoom-ring",
+          "quantity": 1,
+          "rotationDegrees": 65
+        },
+        {
+          "type": "focus-ring",
+          "quantity": 1
+        }
+      ],
+      "accessories": {
+        "lensHoods": [
+          {
+            "relationship": "supplied",
+            "modelNumberOptions": null,
+            "quantity": 1
+          }
+        ],
+        "frontCaps": [
+          {
+            "relationship": "supplied",
+            "modelNumberOptions": null,
+            "quantity": 1
+          }
+        ],
+        "rearCaps": [
+          {
+            "relationship": "supplied",
+            "modelNumberOptions": null,
+            "quantity": 1
+          }
+        ],
+        "lensCases": null,
+        "lensStraps": null,
+        "protectiveWraps": null
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "zoom",
+          "rangeMm": {
+            "minimum": 20,
+            "maximum": 40
+          }
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 2.8,
+                "conditions": {}
+              }
+            ],
+            "minimumAperture": [
+              {
+                "value": 22,
+                "conditions": {}
+              }
+            ],
+            "effective": null
+          },
+          "diaphragm": {
+            "present": true,
+            "bladeCount": 9,
+            "bladeShape": "rounded"
+          },
+          "controlMechanism": null
+        },
+        "anglesOfView": [
+          {
+            "format": "full-frame",
+            "orientation": "diagonal",
+            "degrees": 94.5,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 20
+              }
+            }
+          },
+          {
+            "format": "full-frame",
+            "orientation": "diagonal",
+            "degrees": 56.816667,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 40
+              }
+            }
+          }
+        ],
+        "coverage": {
+          "format": "full-frame"
+        },
+        "opticalConstruction": {
+          "groups": 11,
+          "elements": 12
+        },
+        "specialElements": [
+          {
+            "types": [
+              "low-dispersion"
+            ],
+            "officialName": "LD (Low Dispersion) lens elements",
+            "quantity": 4
+          },
+          {
+            "types": [
+              "aspherical"
+            ],
+            "officialName": "GM (Glass Molded Aspherical) lens elements",
+            "quantity": 2
+          },
+          {
+            "types": [
+              "aspherical"
+            ],
+            "officialName": "Hybrid aspherical lens",
+            "quantity": 1
+          }
+        ],
+        "coatings": [
+          {
+            "types": [
+              "anti-reflective"
+            ],
+            "officialName": "BBAR-G2 (Broad-Band Anti-Reflection Generation 2) Coating",
+            "appliedTo": null
+          },
+          {
+            "types": [
+              "surface-protective"
+            ],
+            "officialName": "Fluorine Coating",
+            "appliedTo": [
+              "front-element"
+            ]
+          }
+        ],
+        "focus": {
+          "autofocus": {
+            "present": true,
+            "motors": [
+              {
+                "type": "voice-coil-motor",
+                "quantity": null,
+                "officialName": "VXD (Voice-coil eXtreme-torque Drive)"
+              }
+            ]
+          },
+          "manualFocus": {
+            "present": true,
+            "mechanism": null
+          },
+          "opticalFocusingSystems": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.17,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 20
+                }
+              }
+            },
+            {
+              "distanceM": 0.29,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 40
+                }
+              }
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.263158,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 20
+                }
+              }
+            },
+            {
+              "kind": "maximum",
+              "value": 0.196078,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 40
+                }
+              }
+            }
+          ],
+          "officialFocusBehaviorClaims": null
+        },
+        "stabilization": {
+          "present": false
+        },
+        "specialized": {},
+        "zoom": {
+          "drive": "manual",
+          "opticalZoomingSystems": null
+        }
+      },
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": null,
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "usb-c",
+            "purposes": [
+              "firmware-update",
+              "configuration",
+              "tethered-control"
+            ],
+            "application": "TAMRON Lens Utility"
+          }
+        ]
       }
     },
     {

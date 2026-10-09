@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan 100mm F2.8 Bubble Bokeh"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-10-09",
   "decision": {
     "status": "excluded",
     "reason": "The M42/M-mount lens has no Nikon Z configuration or supplied Z adapter. TTArtisan's own M-to-Z adapter explicitly does not support the M42 version, leaving only generic adapters, so it remains excluded."

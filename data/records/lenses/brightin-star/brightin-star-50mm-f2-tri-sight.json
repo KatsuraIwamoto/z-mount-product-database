@@ -1,0 +1,114 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "brightin-star-50mm-f2-tri-sight",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "brightin-star",
+    "brandId": "brightin-star",
+    "productName": "BRIGHTIN STAR MF 50mm F2.0 TRI-SIGHT Full-Frame Art Lens",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://brightinstar.com/products/50mm-f2-tri-sight-full-frame-art-lens",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Brightin Star"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": false
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": null,
+    "tripodSupport": null,
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": null
+  },
+  "controls": null,
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "integrated",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": null,
+    "rearCaps": null,
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 50
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 2,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": null,
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": null,
+        "bladeShape": null
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": null,
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 6,
+      "elements": 7
+    },
+    "specialElements": null,
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "mechanical-coupled"
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": null,
+      "reproductionMagnifications": null,
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}

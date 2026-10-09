@@ -55,7 +55,7 @@ flowchart LR
 
 The following example shows how the research result, canonical record, and distribution entry for the NIKKOR Z 24-70mm f/2.8 S II relate to one another.
 Each JSON example contains only the fields and array entries needed for the explanation and is not a complete file.
-The distribution example is fixed to data version `2026.09.20`.
+The distribution example is fixed to data version `2026.10.09`.
 The current file under `dist/` may contain different values because it is updated over time.
 
 === "Research result"
@@ -129,9 +129,9 @@ The current file under `dist/` may contain different values because it is update
 
     ```json
     {
-      "dataVersion": "2026.09.20",
+      "dataVersion": "2026.10.09",
       "datasetVariant": "full",
-      "recordCount": 606,
+      "recordCount": 611,
       "referenceData": {
         "manufacturers": {
           "nikon": { "name": "Nikon" }
@@ -296,9 +296,9 @@ Their canonical record structure differs from the structure for lenses and relat
 
     ```json
     {
-      "dataVersion": "2026.09.20",
+      "dataVersion": "2026.10.09",
       "datasetVariant": "full",
-      "recordCount": 445,
+      "recordCount": 447,
       "referenceData": {
         "manufacturers": {
           "nikon": { "name": "Nikon" }

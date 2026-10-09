@@ -3,13 +3,13 @@
   "datasetName": "Z Mount Adapter Database",
   "datasetVariant": "full",
   "schemaVersion": "1.0.0",
-  "dataVersion": "2026.09.20",
+  "dataVersion": "2026.10.09",
   "creator": "Katsura Iwamoto",
   "license": "CC-BY-4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
-  "recordCount": 445,
-  "contentHash": "sha256:ff0a4625b994ff834b0d23a445659307e7cb90fbaae49125a0df6fbfe46810b2",
+  "recordCount": 447,
+  "contentHash": "sha256:84a64958d2fc3aa73642e7a907bba516c8b94883768166de7c5e874c7fda1a32",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -21430,6 +21430,105 @@
       }
     },
     {
+      "id": "neewer-nw-etz-pro",
+      "identity": {
+        "manufacturerId": "neewer",
+        "brandId": "neewer",
+        "productName": "NW-ETZ PRO",
+        "modelNumberOptions": [
+          "NW-ETZ PRO"
+        ],
+        "alternateNames": null,
+        "variants": null
+      },
+      "lifecycle": {
+        "announcementDate": null,
+        "officialDesignations": null
+      },
+      "officialProductPages": [
+        {
+          "url": "https://item.rakuten.co.jp/neewer-store/b0ct26lwcw/",
+          "pageFamilies": [
+            "japan"
+          ],
+          "region": "JP",
+          "language": "ja",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "NEEWER"
+          }
+        }
+      ],
+      "mountConfigurations": [
+        {
+          "lensSideMountSystemId": "sony-e",
+          "cameraSideMountSystemId": "nikon-z",
+          "lensRetention": null,
+          "lensRearProtrusionLimits": null
+        }
+      ],
+      "electronics": {
+        "electronicContacts": true,
+        "autofocus": true,
+        "cameraControlledAperture": true,
+        "lensStabilizationCommunication": true,
+        "manualFocusAssistance": true,
+        "metadataTransmission": {
+          "present": true,
+          "standards": [
+            "exif"
+          ]
+        },
+        "lensPowerTransmission": null,
+        "recordingTriggerTransmission": null
+      },
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": null,
+        "connections": [
+          {
+            "method": "direct-usb",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
+      },
+      "conversionOptics": {
+        "present": false
+      },
+      "mechanisms": null,
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "unclassifiedDimensionsMm": [
+              67,
+              7.5
+            ],
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 45,
+            "conditions": {}
+          }
+        ],
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "dust-resistant",
+              "other"
+            ],
+            "scope": {
+              "kind": "product"
+            },
+            "conditions": {}
+          }
+        ],
+        "tripodSupport": null
+      }
+    },
+    {
       "id": "nisi-athena-pl-z-adapter",
       "identity": {
         "manufacturerId": "nisi",
@@ -28223,6 +28322,96 @@
       },
       "conversionOptics": {
         "present": false
+      }
+    },
+    {
+      "id": "shoten-etz",
+      "identity": {
+        "manufacturerId": "shoten-kobo",
+        "brandId": "shoten",
+        "productName": "SHOTEN ETZ",
+        "modelNumberOptions": [
+          "ETZ"
+        ],
+        "alternateNames": null,
+        "variants": null
+      },
+      "lifecycle": {
+        "announcementDate": "2026-10-02",
+        "officialDesignations": null
+      },
+      "officialProductPages": [
+        {
+          "url": "https://www.stkb.jp/shopdetail/000000003713/",
+          "pageFamilies": [
+            "home-country"
+          ],
+          "region": "JP",
+          "language": "ja",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "SHOTEN"
+          }
+        }
+      ],
+      "mountConfigurations": [
+        {
+          "lensSideMountSystemId": "sony-e",
+          "cameraSideMountSystemId": "nikon-z",
+          "lensRetention": null,
+          "lensRearProtrusionLimits": null
+        }
+      ],
+      "electronics": {
+        "electronicContacts": true,
+        "autofocus": true,
+        "cameraControlledAperture": true,
+        "lensStabilizationCommunication": true,
+        "manualFocusAssistance": true,
+        "metadataTransmission": {
+          "present": true,
+          "standards": [
+            "exif"
+          ]
+        },
+        "lensPowerTransmission": null,
+        "recordingTriggerTransmission": null
+      },
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": null,
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "other",
+            "purposes": [
+              "firmware-update",
+              "configuration"
+            ]
+          }
+        ]
+      },
+      "conversionOptics": {
+        "present": false
+      },
+      "mechanisms": null,
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 68,
+            "lengthMm": 3,
+            "approximate": true,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 42,
+            "approximate": true,
+            "conditions": {}
+          }
+        ],
+        "officialEnvironmentalProtectionClaims": null,
+        "tripodSupport": null
       }
     },
     {

@@ -6,7 +6,7 @@
     "brandId": "novoflex",
     "name": "Reversing Adapter Nikon Z-Mount"
   },
-  "reviewedOn": "2026-09-19",
+  "reviewedOn": "2026-10-09",
   "decision": {
     "status": "excluded",
     "reason": "This is a reversing adapter that attaches a lens by its filter thread for macro photography, a product class explicitly outside the mount-adapter dataset."
