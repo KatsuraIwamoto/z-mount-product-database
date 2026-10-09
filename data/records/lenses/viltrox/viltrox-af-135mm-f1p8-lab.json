@@ -88,8 +88,9 @@
   },
   "controls": [
     {
-      "type": "function-ring",
-      "quantity": 1
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "switchable"
     },
     {
       "type": "function-button",
@@ -104,6 +105,18 @@
       "type": "information-display",
       "quantity": 1,
       "officialName": "Mini screen"
+    },
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring-click-switch",
+      "quantity": 1
     }
   ],
   "accessories": {
@@ -130,14 +143,14 @@
     ],
     "lensCases": [
       {
-        "construction": "soft-case",
         "relationship": "supplied",
         "modelNumberOptions": null,
-        "quantity": 1
+        "quantity": 1,
+        "construction": "soft-case"
       }
     ],
-    "lensStraps": [],
-    "protectiveWraps": []
+    "lensStraps": null,
+    "protectiveWraps": null
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
@@ -146,7 +159,8 @@
         "method": "direct-usb",
         "purposes": [
           "firmware-update"
-        ]
+        ],
+        "connectorType": "usb-c"
       }
     ]
   },
@@ -244,6 +258,10 @@
         {
           "type": "internal-focusing",
           "officialName": "Internal focus"
+        },
+        {
+          "type": "floating",
+          "officialName": "Dual Floating Focus System"
         }
       ],
       "minimumFocusDistances": [

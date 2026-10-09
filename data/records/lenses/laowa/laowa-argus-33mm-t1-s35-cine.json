@@ -27,6 +27,18 @@
         "type": "manufacturer-or-brand",
         "name": "LAOWA Cinema Lenses"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat/argus-T1.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -62,7 +74,8 @@
       }
     ],
     "tripodSupport": {
-      "present": false
+      "present": true,
+      "components": null
     },
     "externalLengthDuringFocus": "constant",
     "isRetractableForStorage": false,
@@ -169,7 +182,12 @@
           "conditions": {}
         }
       ],
-      "officialFocusBehaviorClaims": null
+      "officialFocusBehaviorClaims": [
+        {
+          "type": "focus-breathing-suppressed",
+          "conditions": {}
+        }
+      ]
     },
     "stabilization": {
       "present": false

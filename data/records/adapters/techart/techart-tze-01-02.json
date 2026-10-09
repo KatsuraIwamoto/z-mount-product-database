@@ -53,7 +53,7 @@
     "lensPowerTransmission": null,
     "recordingTriggerTransmission": null
   },
-  "mechanisms": [],
+  "mechanisms": null,
   "physical": {
     "dimensionMeasurements": null,
     "weightMeasurements": null,
@@ -67,7 +67,8 @@
         "method": "dock",
         "purposes": [
           "firmware-update"
-        ]
+        ],
+        "connectorType": "micro-usb"
       }
     ]
   },

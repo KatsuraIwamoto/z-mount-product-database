@@ -6,7 +6,7 @@
     "brandId": "astrhori",
     "name": "AstrHori 18mm F8 Full-Frame Shift Lens"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "astrhori-18mm-f8-full-frame-shift-lens"
@@ -84,11 +84,30 @@
       "checked": [
         "identity",
         "mount",
-        "physical.dimensionMeasurements"
+        "physical.dimensionMeasurements",
+        "lens.specialized",
+        "accessories",
+        "lens.focus",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
       ],
       "decisionChecks": [
         "availability"
+      ],
+      "note": "Full-frame coverage is specified for unshifted use; the shift function is specified for APS-C mode. Dimensions exclude the mount section, and the approximate mass varies by mount."
+    },
+    {
+      "url": "https://2ndfocus.com/cdn/shop/files/file_803e8bea-5d03-41d5-be1a-5322715cab48.jpg?v=1725618854&width=1946",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Obtain Nikon Z-specific mass and measurement conditions: the distributor explicitly states that approximately 165 g varies by mount, while dimensions exclude the mount section. Existing published values are retained pending clarification.",
+    "Complete Nikon Z underside, both-side and exposed mount-face inspection. The Z5 mounted view establishes the Z configuration, but standalone rear and shifted-state photographs do not identify their mount. Confirm focus-ring operation and focus-related length changes.",
+    "The current movement-condition fields do not encode the stated APS-C restriction for shifted use; retain that qualification with the source evidence."
   ]
 }

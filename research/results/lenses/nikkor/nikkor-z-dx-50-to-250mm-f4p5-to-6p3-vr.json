@@ -6,7 +6,7 @@
     "brandId": "nikkor",
     "name": "NIKKOR Z DX 50-250mm f/4.5-6.3 VR"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "nikkor-z-dx-50-to-250mm-f4p5-to-6p3-vr"
@@ -98,7 +98,11 @@
         "controls",
         "accessories",
         "lens.specialElements",
-        "lens.focus"
+        "lens.focus",
+        "lens.aperture",
+        "mount.electronicContacts",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
       ]
     },
     {
@@ -126,8 +130,5 @@
         "lens.coatings"
       ]
     }
-  ],
-  "unresolved": [
-    "Confirm the minimum f-number at each end of the zoom range for this product."
   ]
 }

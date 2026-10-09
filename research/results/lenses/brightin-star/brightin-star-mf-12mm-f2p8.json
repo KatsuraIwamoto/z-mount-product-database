@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "12mm F2.8 Full Frame Ultra Wide Angle Manual Focus Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-12mm-f2p8"
@@ -63,6 +63,23 @@
         "lens.anglesOfView",
         "lens.focus"
       ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/1228_1ee814c4-f533-47fc-9aeb-555093e2a29b.jpg?v=1781943408&width=700",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories",
+        "lens.specialElements",
+        "lens.coatings",
+        "physical.filterInterfaces"
+      ]
     }
+  ],
+  "unresolved": [
+    "The manufacturer describes a screw-in rear filter, a supplied Natural Night filter and a 3 cm filter diameter, but does not establish whether 3 cm is the thread diameter. The current rear-thread field requires a confirmed diameter, so filterInterfaces remains unknown. The supplied filter is outside the current accessory categories.",
+    "The shared size illustration shows approximately 96.6 mm length but labels dimensions as diameter 96.9 mm × length 101.7 mm and weight approximately 550 g without a Nikon Z condition. Nikon Z dimensions and mass remain unconfirmed.",
+    "Six gallery images show Sony-mounted lenses, a shared rear and front/side views. Complete Nikon Z directional image coverage and hood attachment mechanism remain unconfirmed."
   ]
 }

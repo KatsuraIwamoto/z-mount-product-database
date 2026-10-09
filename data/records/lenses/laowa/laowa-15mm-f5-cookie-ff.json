@@ -8,13 +8,36 @@
     "productName": "LAOWA 15mm F5 Cookie FF",
     "modelNumberOptions": null,
     "alternateNames": null,
-    "variants": null
+    "variants": [
+      {
+        "variantId": "black",
+        "name": "Black",
+        "modelNumberOptions": null
+      },
+      {
+        "variantId": "silver",
+        "name": "Silver",
+        "modelNumberOptions": null
+      }
+    ]
   },
   "lifecycle": {
     "announcementDate": null,
     "officialDesignations": []
   },
   "officialProductPages": [
+    {
+      "url": "https://www.laowalens.com/camera-lens-84.html",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "CN",
+      "language": "zh",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "LAOWA"
+      }
+    },
     {
       "url": "https://www.venuslens.net/product/laowa-15mm-f-5-cookie-ff/",
       "pageFamilies": [
@@ -26,6 +49,18 @@
       "publisher": {
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
+      }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/15mmf5-cookie.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
       }
     }
   ],
@@ -62,7 +97,16 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -108,7 +152,27 @@
       "groups": 9,
       "elements": 13
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 2
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 4,
+        "officialName": "ED"
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 3
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {

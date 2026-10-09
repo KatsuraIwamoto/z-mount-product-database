@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "Adapter for Four Thirds Mount Lens on Nikon Z Full-Frame Mirrorless Camera"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kipon-four-thirds-nik-z"
@@ -27,6 +27,26 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/6c6353_6a78e7f43e62497a90f31f9a410440cb~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/6c6353_19be3bba1b5949c39eb48903f9c42543~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "electronics",
+        "conversionOptics"
       ]
     }
   ]

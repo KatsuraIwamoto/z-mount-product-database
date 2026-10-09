@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "Leica M-M 2x Extender Adapter Kit for Nikon Z"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kipon-leica-m-2x-nik-z"
@@ -34,6 +34,15 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "product-page",
       "checked": [
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/6c6353_e751515ffadd4a58a3db452aee5ffea9~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
         "conversionOptics"
       ]
     }

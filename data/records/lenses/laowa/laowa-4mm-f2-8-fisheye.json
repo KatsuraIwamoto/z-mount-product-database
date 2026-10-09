@@ -27,6 +27,18 @@
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/05a17726451511950b0e847d846af510e8153f47.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -36,21 +48,8 @@
     "electronicContacts": null
   },
   "physical": {
-    "dimensionMeasurements": [
-      {
-        "maximumDiameterMm": 45.2,
-        "lengthMm": 25.5,
-        "conditions": {}
-      }
-    ],
-    "weightMeasurements": [
-      {
-        "grams": 135,
-        "conditions": {
-          "attachedComponents": []
-        }
-      }
-    ],
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
     "filterInterfaces": [],
     "tripodSupport": {
@@ -59,7 +58,29 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Thumb lever"
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -106,7 +127,25 @@
       "elements": 7
     },
     "specialElements": null,
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": [
+          "all-elements"
+        ]
+      },
+      {
+        "types": [
+          "surface-protective"
+        ],
+        "appliedTo": [
+          "front-element"
+        ],
+        "officialName": "Frog Eye Coating"
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false
@@ -122,7 +161,13 @@
           "conditions": {}
         }
       ],
-      "reproductionMagnifications": null,
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.11,
+          "conditions": {}
+        }
+      ],
       "officialFocusBehaviorClaims": null
     },
     "stabilization": {

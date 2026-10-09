@@ -6,7 +6,7 @@
     "brandId": "pergear",
     "name": "PERGEAR 50mm F1.4 Full-Frame Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "pergear-50mm-f1-4-full-frame-lens"
@@ -50,6 +50,38 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0076/0171/7300/files/A__08.jpg?v=1785469067",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.aperture",
+        "lens.opticalConstruction"
+      ]
+    },
+    {
+      "url": "https://www.pergear.com/cdn/shop/files/8_607257ef-d381-4d8c-a90f-f00fbfa37022_1600x.jpg?v=1785478535",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.aperture",
+        "lens.opticalConstruction"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside views complete the survey of contacts, support parts and storage mechanisms?",
+    "What mount and accessory conditions apply to the common dimensional and mass specifications?"
   ]
 }

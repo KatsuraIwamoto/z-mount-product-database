@@ -6,7 +6,7 @@
     "brandId": "lightdow",
     "name": "Lightdow 420-800mm F8.3-16 Telephoto Zoom Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
@@ -66,6 +66,8 @@
   ],
   "unresolved": [
     "Was a Lightdow-branded Nikon Z T2-adapter package actually sold by Lightdow or an authorized distributor, or are the marketplace bundles seller-assembled?",
-    "Can a manufacturer identifier or sealed retail package explicitly including the Nikon Z adapter be verified?"
+    "Can a manufacturer identifier or sealed retail package explicitly including the Nikon Z adapter be verified?",
+    "Can an official released Nikon Z package be documented separately from the Canon EF/RF, Nikon F and Sony E packages on the manufacturer store?",
+    "Can accepted-source production images identify the exact Nikon Z package and its dedicated adapter?"
   ]
 }

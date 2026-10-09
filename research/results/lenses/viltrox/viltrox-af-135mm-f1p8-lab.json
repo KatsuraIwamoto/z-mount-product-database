@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 135mm F1.8 LAB"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-135mm-f1p8-lab"
@@ -76,6 +76,60 @@
       "checked": [
         "lens.focus"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/135mm_F1.7_Z_-7.jpg?v=1742291394",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "mount.electronicContacts",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF135mmF1.8LABZ-frontview_2_1440x1440.png?v=1742396910",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF135mmF1.8LABZ-frontview2_1440x1440.png?v=1742396910",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF135mmF1.8LABZ-frontview3_1440x1440.png?v=1742396910",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF135mmF1.8LABZ-frontview4_1440x1440.png?v=1742396910",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "mount"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Viltrox reconcile the 1235 g figure in its Z launch blog comparison with approximately 1265 g bare-lens weight in the Z-specific product table? The latter existing value is retained.",
+    "Can an exact bottom-side view complete directional coverage and reconfirm existing negative tripod/retractability/stabilization facts? Front/side/rear oblique photographs and the Z control diagram were inspected. The diagram identifies the previously generic multifunction ring as an aperture ring; no duplicate physical ring is added."
   ]
 }

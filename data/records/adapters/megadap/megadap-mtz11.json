@@ -30,7 +30,12 @@
     "cameraControlledAperture": false,
     "lensStabilizationCommunication": false,
     "manualFocusAssistance": true,
-    "metadataTransmission": null,
+    "metadataTransmission": {
+      "present": true,
+      "standards": [
+        "exif"
+      ]
+    },
     "lensPowerTransmission": null,
     "recordingTriggerTransmission": null
   },

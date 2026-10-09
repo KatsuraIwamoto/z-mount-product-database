@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "9mm F5.6 Full Frame Ultra Wide Angle Manual Focus Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-9mm-f5p6"
@@ -64,6 +64,15 @@
         "physical.filterInterfaces",
         "lens.anglesOfView",
         "lens.opticalConstruction"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0762/8587/0396/files/956_7ed643a7-6886-4321-b088-142edda8e069.jpg?v=1762666121",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
       ]
     }
   ],

@@ -6,7 +6,7 @@
     "brandId": "fotodiox",
     "name": "Fotodiox Pro Lens Mount Adapter Compatible with Olympus Zuiko (OM) 35mm SLR Lenses to Nikon Z-Mount Mirrorless Camera Bodies"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "fotodiox-om-nkz-p"
@@ -23,11 +23,26 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "identity.modelNumberOptions",
+        "physical.weightMeasurements",
+        "physical.dimensionMeasurements"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/products/OM-NikZ-PRO-03.jpg?v=1551221597",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical.tripodSupport"
+      ]
     }
+  ],
+  "notes": [
+    "Product mass is published as 11.6 oz in the official Product Dimensions row (not Shipping Dimensions). Converted using 1 oz = 28.349523125 g and rounded to the nearest gram; approximate marks the rounded conversion, not a manufacturer-stated tolerance."
   ]
 }

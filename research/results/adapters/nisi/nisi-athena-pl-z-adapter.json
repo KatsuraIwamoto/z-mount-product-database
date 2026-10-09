@@ -6,7 +6,7 @@
     "brandId": "nisi",
     "name": "NiSi ATHENA PL-Z Adapter for PL Mount Lenses to Z Mount Cameras"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "nisi-athena-pl-z-adapter"
@@ -42,6 +42,27 @@
         "mountConfigurations",
         "electronics"
       ]
+    },
+    {
+      "url": "https://nisiopticsusa.com/wp-content/uploads/2024/03/PL-Z-1500-2-1-708x708.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://nisiopticsusa.com/wp-content/uploads/2024/03/PL-Z-1500-2-1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
     }
+  ],
+  "unresolved": [
+    "Are Z-mount-specific rear and four-sided images available to establish any additional mechanisms and the bottom support interface?",
+    "Does the Z-mount version include the same tripod foot and threaded interface shown in the shared E-mount gallery?"
   ]
 }

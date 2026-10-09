@@ -6,7 +6,7 @@
     "brandId": "vello",
     "name": "Lens Adapter for Leica R Lens to Nikon Z Mount Camera"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "vello-la-nz-lr"
@@ -21,7 +21,9 @@
         "identity.modelNumberOptions",
         "mountConfigurations",
         "electronics",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.weightMeasurements",
+        "lifecycle"
       ],
       "decisionChecks": [
         "release-status"
@@ -38,6 +40,28 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/gradusgroup/data/14053/images/compressed/560x560/1-_la-nz-lr_main_view.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/gradusgroup/data/14053/images/compressed/560x560/2-_la-nz-lr_view_2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
       ]
     }
   ]

@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 8-16mm F3.5-5 Zoom CF"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-8-16mm-f3-5-5-zoom-cf"
@@ -50,7 +50,10 @@
       "checked": [
         "mount",
         "physical",
-        "controls"
+        "controls",
+        "lens.zoom",
+        "lens.anglesOfView",
+        "physical.filterInterfaces"
       ]
     },
     {
@@ -69,8 +72,51 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "controls",
+        "lens.zoom",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/LAOWA8-16mm_700x700.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/LAOWA8-16mm_700x700_2.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/LAOWA8-16mm_700x700_3.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/LAOWA8-16mm_700x700_4.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Is the Filter Adapter Ring supplied, and does it have an official model number?",
+    "What are Nikon Z-specific dimensions and mass for the mount-dependent measurements?",
+    "Can Nikon Z-specific rear and four-sided views establish complete exterior coverage?"
   ]
 }

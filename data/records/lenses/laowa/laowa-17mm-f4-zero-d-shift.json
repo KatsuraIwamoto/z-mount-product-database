@@ -16,6 +16,18 @@
   },
   "officialProductPages": [
     {
+      "url": "https://www.laowalens.com/camera-lens-92",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "CN",
+      "language": "zh",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Venus Optics"
+      }
+    },
+    {
       "url": "https://www.venuslens.net/product/laowa-17mm-f-4-zero-d-tilt-shift-shift/",
       "pageFamilies": [
         "global",
@@ -26,6 +38,18 @@
       "publisher": {
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
+      }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/17mmf4-shift.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
       }
     }
   ],
@@ -70,7 +94,44 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Shift ring"
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Shift ring locking screw"
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Mount rotation release button"
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "shift bracket locking screw"
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -116,7 +177,26 @@
       "groups": 12,
       "elements": 18
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 2
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 4
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 5
+      }
+    ],
     "coatings": [
       {
         "types": [
@@ -167,14 +247,20 @@
         ],
         "rotationMeasurements": [
           {
-            "scope": "movement-assembly",
-            "maximumFromNeutralDegrees": null,
+            "scope": "mount-interface",
+            "maximumFromNeutralDegrees": 180,
             "totalRangeDegrees": 360,
-            "directionality": null,
+            "directionality": "bidirectional",
             "conditions": {}
           }
         ]
       }
-    }
+    },
+    "imageCircleDiameters": [
+      {
+        "diameterMm": 67,
+        "conditions": {}
+      }
+    ]
   }
 }

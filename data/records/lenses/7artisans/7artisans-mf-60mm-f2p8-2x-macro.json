@@ -65,10 +65,20 @@
     "tripodSupport": {
       "present": false
     },
-    "externalLengthDuringFocus": null,
+    "externalLengthDuringFocus": "constant",
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "clicked"
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -125,7 +135,21 @@
       "groups": 12,
       "elements": 14
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "officialName": "ED",
+        "quantity": 2
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 2
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {
@@ -135,7 +159,11 @@
         "present": true,
         "mechanism": "mechanical-coupled"
       },
-      "opticalFocusingSystems": null,
+      "opticalFocusingSystems": [
+        {
+          "type": "internal-focusing"
+        }
+      ],
       "minimumFocusDistances": [
         {
           "distanceM": 0.17,

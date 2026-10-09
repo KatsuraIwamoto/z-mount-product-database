@@ -6,7 +6,7 @@
     "brandId": "sg-image",
     "name": "SG-image AF 35mm F1.4 APS-C Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
@@ -85,6 +85,7 @@
     }
   ],
   "unresolved": [
-    "Has an official Nikon Z release announcement or confirmed Nikon Z sale or availability been published?"
+    "Has an official Nikon Z release announcement or confirmed Nikon Z sale or availability been published?",
+    "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
   ]
 }

@@ -27,6 +27,18 @@
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/4.5-10mmf2.8.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -48,7 +60,8 @@
         "grams": 338,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": null,
@@ -60,7 +73,27 @@
     "isRetractableForStorage": false,
     "externalLengthDuringZoom": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "rotationDegrees": 77
+    },
+    {
+      "type": "zoom-ring",
+      "quantity": 1,
+      "rotationDegrees": 75
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "rotationDegrees": 42
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -94,7 +127,30 @@
       },
       "controlMechanism": "mechanical"
     },
-    "anglesOfView": null,
+    "anglesOfView": [
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 180,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 4.5
+          }
+        }
+      },
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 175,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 10
+          }
+        }
+      }
+    ],
     "coverage": {
       "format": "aps-c"
     },
@@ -102,7 +158,20 @@
       "groups": 9,
       "elements": 13
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 1
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 4
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {
@@ -161,8 +230,14 @@
       }
     },
     "zoom": {
-      "drive": null,
+      "drive": "manual",
       "opticalZoomingSystems": null
-    }
+    },
+    "imageCircleDiameters": [
+      {
+        "diameterMm": 29,
+        "conditions": {}
+      }
+    ]
   }
 }

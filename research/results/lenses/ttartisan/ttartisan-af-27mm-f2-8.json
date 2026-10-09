@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan AF 27mm F2.8"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-af-27mm-f2-8"
@@ -47,7 +47,9 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "controls",
+        "accessories"
       ]
     },
     {
@@ -79,6 +81,27 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://ttartisan.com/?nikon-z-mount%2F145.html=",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/EN-_-X.jpg?v=1735616117&width=493",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does the store statement about supporting image stabilization refer to camera stabilization rather than an optical lens unit? The existing absence of lens stabilization is retained pending explicit clarification.",
+    "Can exact Nikon Z top/bottom/left/right and rear images and operating instructions establish the full control inventory and reconfirm the existing negative tripod/retractability/stabilization facts? Grooved rings alone do not establish manual-focus function."
   ]
 }

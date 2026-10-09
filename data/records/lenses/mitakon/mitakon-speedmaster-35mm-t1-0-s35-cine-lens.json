@@ -78,6 +78,10 @@
       "rotationDegrees": 60,
       "clickBehavior": "declicked",
       "geared": true
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
     }
   ],
   "accessories": null,

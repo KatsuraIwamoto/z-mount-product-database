@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "KIPON IBELUX 40mm F0.85 Nikon Z Mark III"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "kipon-ibelux-40mm-f0-85-mark-iii"
@@ -35,7 +35,9 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "physical.weightMeasurements",
+        "lens.imageCircleDiameters"
       ]
     },
     {
@@ -54,8 +56,58 @@
       "checked": [
         "identity",
         "physical",
-        "lens.focus"
+        "lens.focus",
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://www.kipon.jp/products/ibelux-40mm-f0-85-nikon-z-mark3",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.imageCircleDiameters",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://kipon.com/wp-content/uploads/2021/03/IBELUX-MARK-3-1-700x700.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://kipon.com/wp-content/uploads/2021/03/IBELUX-MARK-3-2-700x700.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://kipon.com/wp-content/uploads/2021/03/IBELUX-MARK-3-3-700x700.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://kipon.com/wp-content/uploads/2021/03/IBELUX-MARK-3-6-700x700.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "The global product page gives 1150 g in its technical table but 1200 g in Specifications; Japan repeats 1150 g. Weight remains null pending resolution of this official-source conflict.",
+    "Four official product photographs cover front, sides and rear, but the bare rear is not identified as Nikon Z. Complete Z-specific four-direction and contact confirmation remains unavailable.",
+    "The 128 mm length and 74 mm diameter have unspecified accessory/focus conditions. Hood appearance does not establish integration, removability or package inclusion. Aperture click behavior, special-element types and supplied accessories remain unconfirmed."
   ]
 }

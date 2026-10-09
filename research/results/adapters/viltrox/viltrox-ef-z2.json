@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "EF-Z2 0.71x Mount Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "viltrox-ef-z2"
@@ -34,6 +34,47 @@
         "mountConfigurations",
         "conversionOptics"
       ]
+    },
+    {
+      "url": "https://viltrox.com/products/viltrox-ef-z2-speed-booster",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/products/1_710fcd13-6d4d-46c4-a4be-8a27ea351da2.jpg?v=1714444316&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "electronicServices",
+        "conversionOptics",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/EF-Z2-466031.jpg?v=1722921095&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "physical.tripodSupport"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which camera-based manual-focus confirmation or assistance functions are supported, beyond the ability to use manual focus?",
+    "What are the exact USB connector type, tripod-foot attachment and mounting-thread designation?",
+    "Can complete top, bottom, left and right production views establish whether additional mechanisms are absent?"
   ]
 }

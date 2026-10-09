@@ -6,7 +6,7 @@
     "brandId": "cheecar",
     "name": "Cheecar 60mm F2.8 Mark II 2:1 Macro"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "cheecar-60mm-f2-8-mark-ii-2-1-macro"
@@ -36,8 +36,61 @@
         "lens.specialElements",
         "lens.focus",
         "lens.stabilization",
+        "lens.specialized",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2023/05/17/6464c4f55492f.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2023/05/17/6464cc268ef6c.gif",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements",
+        "lens.opticalConstruction"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2023/05/17/6464cc2998f00.gif",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
         "lens.specialized"
       ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2023/05/17/6464cc2d9e1e6.gif",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.coatings",
+        "lens.focus",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2023/05/17/6464cc2d05edd.gif",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.coverage"
+      ]
     }
+  ],
+  "unresolved": [
+    "The September 20 review inspected the official product image and all detail panels. Shared capped side views establish focus and aperture rings and a distance scale; the specification explicitly states a stepless aperture ring and low-reflection multilayer coating. A Z-specific four-direction and exposed rear-mount set was unavailable. Pictured caps are not sufficient to establish supplied status.",
+    "The manufacturer explicitly describes full-frame coverage but warns of slight vignetting near infinity; this limitation is recorded without treating ordinary vignetting alone as proof of a smaller supported format.",
+    "The official text and diagram explicitly specify five high-index elements, correcting the former two-element value, together with two ED elements. The closest working distance is explicitly 5 cm, separately from the 18.5 cm minimum focus distance.",
+    "The specification repeats 89 × 117 mm and approximately 600 g without Z-specific or attached-component conditions; existing values are retained pending clarification. The existing ten-blade count was not restated in the current material. Angle orientation, exact announcement date and accessory inventory remain unverified."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "cgpro",
     "name": "CGPro PL-Z Arri PL to NIKON Z Mount Adapter For Z6/Z7"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "cgpro-pl-z-mount-adapter"
@@ -29,6 +29,51 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1258/4351/files/DSC01024c_c3cec789-55ff-4f37-8e3e-773eeb80b84f.jpg?v=1749622896",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1258/4351/files/DSC01027c.jpg?v=1749622896",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1258/4351/files/533492-6_ffcfc07a-a9e8-4aa3-b884-2021ffa11f24.jpg?v=1749622896",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1258/4351/files/DSC01026c_ea682896-e6f6-485b-a412-3700953a64a5.jpg?v=1749622896",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1258/4351/files/538901-1.jpg?v=1749622896",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
       ]
     }
   ]

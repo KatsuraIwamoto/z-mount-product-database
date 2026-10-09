@@ -98,7 +98,7 @@
       "format": "aps-c"
     },
     "opticalConstruction": {
-      "groups": null,
+      "groups": 4,
       "elements": 6
     },
     "specialElements": null,

@@ -6,7 +6,7 @@
     "brandId": "sirui",
     "name": "SIRUI Saturn 75mm T2.9 1.6x Full-Frame Carbon-Fiber Anamorphic Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "sirui-saturn-75mm-t2-9-1-6x-full-frame-carbon-fiber-anamorphic-lens"
@@ -34,7 +34,11 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.specialElements"
+      ],
+      "decisionChecks": [
+        "availability"
       ]
     },
     {
@@ -45,6 +49,30 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0449/9344/6037/files/752d0a1af97809ba8bcd6984e5d68889_c95ec237-5f67-4406-8eda-0efe6592a540.jpg?v=1772609412",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0449/9344/6037/files/1_66b1d9df-efbf-4c71-8155-dad33ad3132a.jpg?v=1773905916",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can production Nikon Z top, bottom, left, right and rear images establish complete exterior-control, tripod-support and contact coverage? Shared galleries include other mounts or do not identify the pictured mount.",
+    "What are the Nikon Z-specific length and weight, with measurement conditions? Values for other mounts in shared tables are not substituted.",
+    "How can separately specified horizontal and vertical reproduction magnifications be represented without losing orientation?"
   ]
 }

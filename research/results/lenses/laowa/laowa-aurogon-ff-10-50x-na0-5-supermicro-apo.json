@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA Aurogon FF 10-50x NA0.5 Supermicro APO"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-aurogon-ff-10-50x-na0-5-supermicro-apo"
@@ -56,8 +56,75 @@
         "lifecycle",
         "mount",
         "lens.focalLength",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "physical.tripodSupport",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/AurogonFF10-50x_01.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/AurogonFF10-50x_02.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/AurogonFF10-50x_03.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/AurogonFF10-50x_04.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/AurogonFF10-50x_05.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/AurogonFF10-50x_06.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.venuslens.net/wp-content/uploads/2023/09/Aurogon-FF-10-50x_Lens_tube_DSC09994-copy-scaled.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.tripodSupport"
       ]
     }
+  ],
+  "unresolved": [
+    "What are the complete assembled Nikon Z dimensions and mass for each magnification configuration, rather than separate objective and tube measurements?",
+    "What operation and detents apply to the numerical-aperture adjustment ring, and is its lower limit 0.1 or 0.15?",
+    "Can Nikon Z-specific rear and opposite-side images establish full exterior coverage?"
   ]
 }

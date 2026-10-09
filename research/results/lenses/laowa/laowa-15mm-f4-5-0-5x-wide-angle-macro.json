@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 15mm F4.5 0.5x Wide-Angle Macro"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-15mm-f4-5-0-5x-wide-angle-macro"
@@ -62,8 +62,72 @@
         "lens.specialElements",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/camera-lens-85.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "officialProductPages",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20250512/1jingtoutu-838.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20250512/2jingtoutu-8.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20250512/3jingtoutu.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20250512/4jingtoutu.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com.cn/Public/Uploads/uploadfile/files/20250619/FF15mmF4.5WideAngleMACRO2Xshuomingshu.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z dimensions and mass conditions, given the differing F/E assignments of the shared dimensions in China and Japan?",
+    "Can Nikon Z-specific views establish complete exterior coverage and unseen controls or contacts?",
+    "What are the coating specifications, supplied accessory contents and external-length behavior?",
+    "Why does the manual aperture paragraph restrict CPU data to EF while its AE table and current Japan page include Nikon Z?"
   ]
 }

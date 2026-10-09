@@ -6,7 +6,7 @@
     "brandId": "pergear",
     "name": "PERGEAR 12mm F2 Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "pergear-12mm-f2-lens"
@@ -20,7 +20,16 @@
         "productType",
         "identity",
         "mount",
-        "physical.weightMeasurements"
+        "physical.weightMeasurements",
+        "lifecycle",
+        "physical.dimensionMeasurements",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.anglesOfView"
       ],
       "decisionChecks": [
         "availability"
@@ -47,6 +56,21 @@
         "lens.focus",
         "lens.stabilization"
       ]
+    },
+    {
+      "url": "https://www.pergear.com/cdn/shop/articles/pergear_12mm_f2_800x.jpg?v=1605254067",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside images complete the exterior survey and verify contact/support/storage claims? The available shared product view is not a complete mount-specific survey.",
+    "Can operating documentation establish focus-ring operation and the measurement conditions for each mount?",
+    "The former product URL now describes the Mark II. Can an original-generation manual identify ring functions/click behavior and filter-interface location? The original announcement photo shows 62mm lettering but does not establish the interface host."
   ]
 }

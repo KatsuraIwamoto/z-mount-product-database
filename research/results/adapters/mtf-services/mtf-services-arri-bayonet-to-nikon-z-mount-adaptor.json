@@ -6,7 +6,7 @@
     "brandId": "mtf-services",
     "name": "Arri Bayonet to Nikon Z Mount Adaptor"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "mtf-services-arri-bayonet-to-nikon-z-mount-adaptor"
@@ -22,7 +22,8 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.tripodSupport"
       ]
     },
     {
@@ -36,6 +37,26 @@
       "decisionChecks": [
         "availability",
         "release-status"
+      ]
+    },
+    {
+      "url": "https://mtfservices.com/cdn/shop/files/ABfront.jpg?v=1729849758&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://mtfservices.com/cdn/shop/files/ABback.jpg?v=1729849758&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "mechanisms",
+        "physical.tripodSupport"
       ]
     }
   ]

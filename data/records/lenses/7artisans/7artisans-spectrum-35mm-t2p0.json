@@ -93,6 +93,10 @@
       "quantity": 1,
       "clickBehavior": "declicked",
       "geared": true
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
     }
   ],
   "accessories": null,
@@ -177,7 +181,12 @@
         }
       ],
       "reproductionMagnifications": null,
-      "officialFocusBehaviorClaims": []
+      "officialFocusBehaviorClaims": [
+        {
+          "type": "focus-breathing-suppressed",
+          "conditions": {}
+        }
+      ]
     },
     "stabilization": {
       "present": false

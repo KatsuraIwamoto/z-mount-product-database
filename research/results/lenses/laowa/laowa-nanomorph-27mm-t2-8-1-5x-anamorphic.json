@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA Nanomorph 27mm T2.8 1.5x Anamorphic"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-nanomorph-27mm-t2-8-1-5x-anamorphic"
@@ -74,8 +74,49 @@
         "lens.coverage",
         "lens.imageCircleDiameters",
         "lens.stabilization",
-        "physical.dimensionMeasurements"
+        "physical.dimensionMeasurements",
+        "officialProductPages",
+        "controls",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized",
+        "physical.frontAccessoryInterface",
+        "identity.variants"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/932272e9d00b756cd3a0e85a2ec4b3976178b5fc.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/nanomorph_04.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/nanomorph_03.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z-specific dimensions and mass? The Japanese specification identifies the listed mirrorless values as Sony E measurements.",
+    "What image-circle diameter is specified independently of the rectangular coverage dimensions?",
+    "Can Nikon Z-specific rear, opposite-side and underside images establish complete exterior coverage?",
+    "What are the supplied accessories for an individual lens, distinct from the multi-lens bundle?",
+    "Does the mirrorless lens have a built-in back-focus adjustment or compatible lens support?"
   ]
 }

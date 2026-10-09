@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Vizelex Cine ND Throttle Lens Mount Adapter from Fotodiox Pro Compatible with Canon EOS (EF / EF-S) D/SLR Lenses to Nikon Z-Mount Mirrorless Camera Body with Built-In Variable ND Filter (ND4-ND256)",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "EF-NKZ-CNDT"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -54,8 +56,23 @@
     }
   ],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          69,
+          72,
+          33
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 147,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

@@ -12,7 +12,8 @@
         "variantId": "silver",
         "name": "Silver",
         "modelNumberOptions": [
-          "PL4IN1 SIL"
+          "PL4IN1 SIL",
+          "7A-PL-4IN1-S"
         ],
         "color": "Silver"
       },
@@ -20,7 +21,8 @@
         "variantId": "purple",
         "name": "Purple",
         "modelNumberOptions": [
-          "PL4IN1 PUR"
+          "PL4IN1 PUR",
+          "7A-PL-4IN1-P"
         ],
         "color": "Purple"
       }

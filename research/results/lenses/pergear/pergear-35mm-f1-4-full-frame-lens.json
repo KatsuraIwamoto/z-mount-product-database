@@ -6,7 +6,7 @@
     "brandId": "pergear",
     "name": "PERGEAR 35mm F1.4 Full-Frame Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "pergear-35mm-f1-4-full-frame-lens"
@@ -34,7 +34,8 @@
         "lens.opticalConstruction",
         "lens.coatings",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "accessories"
       ]
     },
     {
@@ -43,11 +44,30 @@
       "sourceType": "announcement",
       "checked": [
         "identity",
-        "mount"
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.opticalConstruction"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.pergear.com/cdn/shop/products/A2000702_new_com01_1600x.jpg?v=1668494146",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside images complete the survey of contacts, support and storage features?",
+    "Can operating documentation establish focus-ring operation and mount/accessory measurement conditions?",
+    "The launch announcement gives height 4.9 without a unit; length remains unset. Its 43mm hood statement is not treated as a verified lens filter interface.",
+    "Can the existing rounded-blade claim and Nikon Z availability of both Black and Silver options be independently confirmed?"
   ]
 }

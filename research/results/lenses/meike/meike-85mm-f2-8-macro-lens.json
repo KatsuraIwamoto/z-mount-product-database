@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike 85mm F2.8 Macro Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-85mm-f2-8-macro-lens"
@@ -35,11 +35,30 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.coatings",
+        "accessories"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/products/8528_89e46a3e-3304-4ee5-9c16-e31add7a4292.jpg?v=1598508966&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces",
+        "lens.coatings"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside photos complete the exterior survey and substantiate the existing tripod-support and retractability fields?",
+    "Can operating documentation explicitly identify the focus/aperture rings and their click behavior?",
+    "The official page describes weight as around 500 g but lists 580 g in its specifications. Which figure and accessory conditions apply to Nikon Z?",
+    "What are the measurement conditions for 64 x 115 mm, and how does the separately described macro ring operate?",
+    "Can a detailed optical diagram confirm the aspherical-element claim in the page heading and its quantity?"
   ]
 }

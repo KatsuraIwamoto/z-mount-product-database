@@ -44,11 +44,38 @@
     "dimensionMeasurements": null,
     "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
-    "tripodSupport": null
+    "tripodSupport": {
+      "present": true,
+      "components": [
+        {
+          "type": "foot",
+          "relationship": "supplied",
+          "removable": true,
+          "interfaces": null,
+          "modelNumberOptions": null,
+          "quantity": null,
+          "conditions": {}
+        }
+      ]
+    }
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "direct-usb",
+        "purposes": [
+          "firmware-update"
+        ],
+        "connectorType": "micro-usb"
+      },
+      {
+        "method": "camera-body",
+        "purposes": [
+          "configuration"
+        ]
+      }
+    ]
   },
   "conversionOptics": {
     "present": false

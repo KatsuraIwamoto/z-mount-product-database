@@ -18,10 +18,10 @@
     {
       "url": "https://www.nisioptics.com/9mm-f28",
       "pageFamilies": [
-        "global"
+        "home-country"
       ],
-      "region": null,
-      "language": "en",
+      "region": "CN",
+      "language": "zh",
       "publisher": {
         "type": "manufacturer-or-brand",
         "name": "NiSi"
@@ -68,7 +68,8 @@
           "weather-resistant"
         ],
         "scope": {
-          "kind": "product"
+          "kind": "component",
+          "component": "lens mount seal"
         },
         "conditions": {}
       }
@@ -88,7 +89,21 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "declicked"
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -134,7 +149,22 @@
       "groups": 12,
       "elements": 14
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 2,
+        "officialName": "double-sided aspherical"
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 4,
+        "officialName": "extra-low dispersion"
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {

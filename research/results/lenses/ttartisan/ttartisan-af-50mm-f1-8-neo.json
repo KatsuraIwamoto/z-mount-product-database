@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan AF 50mm F1.8 Neo"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-af-50mm-f1-8-neo"
@@ -46,7 +46,11 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "lens.specialElements",
+        "controls",
+        "accessories",
+        "electronicServices"
       ]
     },
     {
@@ -91,6 +95,18 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/SKU-E_15b3b488-3a04-4359-85aa-913a9c735cfb.jpg?v=1783044342&width=493",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z directional photographs establish the full control inventory and reconfirm existing negative tripod/retractability/stabilization facts? The maker explicitly removes focus/aperture rings, so barrel grooves are not a focus ring; the inspected E image is not full Z coverage. No Z-specific value is inferred from the 156–167 g range."
   ]
 }

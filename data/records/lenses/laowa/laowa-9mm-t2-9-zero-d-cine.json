@@ -48,7 +48,8 @@
         "grams": 247,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": null,
@@ -81,6 +82,10 @@
     },
     {
       "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
       "quantity": 1
     }
   ],
@@ -132,7 +137,10 @@
     "coverage": {
       "format": "super-35"
     },
-    "opticalConstruction": null,
+    "opticalConstruction": {
+      "groups": 10,
+      "elements": 15
+    },
     "specialElements": [
       {
         "types": [
@@ -149,7 +157,17 @@
         "officialName": "ED"
       }
     ],
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "surface-protective"
+        ],
+        "appliedTo": [
+          "front-element"
+        ],
+        "officialName": "Frog Eye Coating"
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false
@@ -179,6 +197,12 @@
     },
     "specialized": {
       "cinema": {}
-    }
+    },
+    "imageCircleDiameters": [
+      {
+        "diameterMm": 29,
+        "conditions": {}
+      }
+    ]
   }
 }

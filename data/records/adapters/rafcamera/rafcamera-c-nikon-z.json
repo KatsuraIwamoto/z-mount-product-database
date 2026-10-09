@@ -49,7 +49,19 @@
   },
   "mechanisms": [],
   "physical": {
-    "dimensionMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 66,
+        "conditions": {}
+      },
+      {
+        "lengthMm": 1.53,
+        "conditions": {
+          "excludesProjections": true
+        },
+        "note": "Front surface to camera mounting flange; excludes the rear bayonet projection."
+      }
+    ],
     "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null

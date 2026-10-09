@@ -62,9 +62,33 @@
       "type": "aperture-ring",
       "quantity": 1,
       "clickBehavior": "declicked"
+    },
+    {
+      "type": "other",
+      "officialName": "Spherical aberration control knob",
+      "quantity": 1
     }
   ],
-  "accessories": null,
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "electronicServices": null,
   "lens": {
     "focalLength": {
@@ -100,7 +124,14 @@
     },
     "opticalConstruction": null,
     "specialElements": null,
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false

@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 20mm F2.8 Air"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-20mm-f2p8-air"
@@ -40,7 +40,8 @@
         "lens.specialElements",
         "lens.coatings",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "physical"
       ]
     },
     {
@@ -68,6 +69,20 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/20mmF2.8FullFrameZProductlist.jpg?v=1723703953&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "accessories",
+        "mount"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z-specific full directional images and control documentation establish ring operation, USB connector subtype and reconfirm negative stabilization/tripod/retractability facts? The current detail graphic depicts a white Sony E version; its connector cannot alone establish the Z connector subtype. The Z package photograph and front detail were inspected; controls remain unknown.",
+    "Does the advertised limited white edition apply to Nikon Z? Current white images show Sony E and cannot establish a Z color variant."
   ]
 }

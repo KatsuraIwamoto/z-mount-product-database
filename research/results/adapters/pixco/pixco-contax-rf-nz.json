@@ -4,9 +4,9 @@
   "subject": {
     "manufacturerId": "pixco",
     "brandId": "pixco",
-    "name": "Contax Rangefinder to Nikon Z Adapter"
+    "name": "Contax/Yashica to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-contax-rf-nz"
@@ -37,6 +37,52 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/8_858ec6df-8801-4538-a098-e0f975d4d6f5_800x.jpg?v=1613497769",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/7_21e4e0ea-419e-45ee-99b7-5693c62a2e95_800x.jpg?v=1613497770",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/1_f24afc6f-9258-4035-a5cf-fad543909c64_800x.jpg?v=1613497770",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/9_49e4e472-cda0-4f5f-bf0c-d9b04763faec_800x.jpg?v=1613497770",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/9_51daf5e0-396e-40e9-91d0-782854fe7564_800x.jpg?v=1613497771",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
     }
-  ]
+  ],
+  "unresolved": []
 }

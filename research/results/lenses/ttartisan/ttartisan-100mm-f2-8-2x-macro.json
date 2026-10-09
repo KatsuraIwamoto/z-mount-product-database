@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan 100mm F2.8 2x Macro"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-100mm-f2-8-2x-macro"
@@ -48,7 +48,10 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "controls",
+        "accessories",
+        "lens.specialElements"
       ]
     },
     {
@@ -61,6 +64,29 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/1_76422df3-5734-40e0-80f1-464e1eb289e0.jpg?v=1725001302&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/3_11b14790-1b3f-4c69-80ac-92c4a6c64b90.jpg?v=1724990968&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z top/bottom/left/right and rear views plus operating evidence reconfirm electronic-contact absence and existing tripod, retractability and stabilization negatives? Shared gallery views do not establish a complete Z exterior survey.",
+    "Can the manufacturer specify Nikon Z weight and measurement conditions separately from the multi-mount weight range? No range endpoint is assigned to Z."
   ]
 }

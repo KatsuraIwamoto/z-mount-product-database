@@ -6,7 +6,7 @@
     "brandId": "megadap",
     "name": "Leica M to Nikon Z Autofocus Adapter"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "megadap-mtz11"
@@ -29,7 +29,7 @@
     {
       "url": "https://megadap.net/manual/",
       "publisherRelationship": "manufacturer-or-brand",
-      "sourceType": "manual",
+      "sourceType": "support-page",
       "checked": [
         "identity",
         "lifecycle"
@@ -37,6 +37,54 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://megadap.net/mtz11-firmware/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "electronicServices",
+        "electronics"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/?p=15444",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/wp-content/uploads/MTZ11-4589457585002-1-e1607670606957.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/info/wp-content/uploads/MTZ11-4589457585002-3-e1607670735214.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can unobstructed four-sided exterior views establish the complete mechanism, connector and tripod-support arrangement?"
   ]
 }

@@ -52,7 +52,21 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Locking ring"
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -134,6 +148,17 @@
     "stabilization": {
       "present": false
     },
-    "specialized": {}
+    "specialized": {
+      "movements": {
+        "tiltMeasurements": [
+          {
+            "maximumFromNeutralDegrees": 15,
+            "totalRangeDegrees": null,
+            "directionality": "bidirectional",
+            "conditions": {}
+          }
+        ]
+      }
+    }
   }
 }

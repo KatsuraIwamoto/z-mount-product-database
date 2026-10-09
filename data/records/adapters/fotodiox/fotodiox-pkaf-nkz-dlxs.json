@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Fotodiox DLX Stretch Lens Adapter - Compatible with Pentax K Auto Focus Mount (PK AF) DSLR Lens to Nikon Z-Mount Mirrorless Cameras with Macro Focusing Helicoid and Magnetic Drop-In Filters",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "PKAF-NKZ-DLXS"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -55,11 +57,21 @@
     {
       "type": "helicoid",
       "conditions": {}
+    },
+    {
+      "type": "aperture-ring",
+      "conditions": {}
     }
   ],
   "physical": {
     "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "weightMeasurements": [
+      {
+        "grams": 221,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

@@ -6,7 +6,7 @@
     "brandId": "pergear",
     "name": "PERGEAR 50mm F1.2 Luminous Edition"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "pergear-50mm-f1-2-luminous-edition"
@@ -32,7 +32,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity.variants"
       ]
     },
     {
@@ -46,6 +47,21 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.pergear.com/cdn/shop/files/main_1600x.jpg?v=1764582516",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside images complete the survey of contacts, support and storage features?",
+    "Can operating documentation establish focus-ring operation and mount/accessory measurement conditions?",
+    "The aperture scale ends at 16 in the image; can a specification or manual confirm the minimum aperture before it is added?"
   ]
 }

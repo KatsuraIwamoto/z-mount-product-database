@@ -52,14 +52,30 @@
   },
   "mechanisms": [],
   "physical": {
-    "dimensionMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          68,
+          68,
+          13
+        ],
+        "conditions": {}
+      }
+    ],
     "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "dock",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
   },
   "conversionOptics": {
     "present": false

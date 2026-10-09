@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 24mm F14 2x Macro Probe"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-24mm-f14-2x-macro-probe"
@@ -61,8 +61,68 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "officialProductPages",
+        "controls",
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/24mmF14MP02.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/24mmF14MP03.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/24mmF14MP04.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/24mmF14MP05.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/24mmF14MP06.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com.cn/Public/Uploads/uploadfile/files/20250826/FF24mmF14SpecialMacro2Xtezhongweijujingtoushuomingshu.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "lens.aperture",
+        "lens.coatings",
+        "lens.specialized",
+        "physical.weightMeasurements"
       ]
     }
+  ],
+  "unresolved": [
+    "What are Nikon Z-specific dimensions and mass with attachment conditions?",
+    "Can Nikon Z-specific views complete exterior coverage beyond the shared photographs and manual diagram?",
+    "What accessories beyond the documented LED power cable are supplied?"
   ]
 }

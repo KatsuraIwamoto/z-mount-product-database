@@ -113,7 +113,8 @@
     },
     {
       "type": "aperture-ring",
-      "quantity": 1
+      "quantity": 1,
+      "clickBehavior": "switchable"
     },
     {
       "type": "function-button",

@@ -6,7 +6,7 @@
     "brandId": "yasuhara",
     "name": "Nanoha 5X Super Macro Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "yasuhara-nanoha-5x-super-macro-lens"
@@ -48,6 +48,34 @@
       "checked": [
         "identity"
       ]
+    },
+    {
+      "url": "https://yasuharausa.com/cdn/shop/files/Nanoha5x_lens_1500x.jpg?v=1762525644",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://yasuharausa.com/cdn/shop/products/nanoha_6_2000x.png?v=1724955634",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://yasuharausa.com/cdn/shop/products/nanoha_5_2000x.png?v=1724955634",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can a Nikon Z-specific specification sheet and directional photographs reconfirm the existing coverage/optical construction and negative contacts/tripod/stabilization/retractability facts? The official seller explicitly offers Nikon Z, but specification tables cover Sony E and Micro Four Thirds only; generic front/side/LED photographs and a Sony-mounted view do not establish Z-specific physical facts. Dimensions/weight remain unknown.",
+    "The manufacturer describes11–19mm focusing range, while the Sony table labels0.43in/19mm minimum focus distance, an inconsistent unit pairing and ambiguous reference plane. Do not treat this as a sensor-plane minimum focus distance or assign a Z working distance without clarification. The removable three-LED lighting module is described and visible but its Z-specific configuration and schema mapping remain unestablished."
   ]
 }

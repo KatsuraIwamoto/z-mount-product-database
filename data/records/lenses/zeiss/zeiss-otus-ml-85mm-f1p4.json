@@ -47,7 +47,9 @@
       {
         "maximumDiameterMm": 87.9,
         "lengthMm": 116,
-        "conditions": {}
+        "conditions": {
+          "attachedComponents": []
+        }
       }
     ],
     "weightMeasurements": [
@@ -228,7 +230,13 @@
     "stabilization": {
       "present": false
     },
-    "specialized": {}
+    "specialized": {},
+    "imageCircleDiameters": [
+      {
+        "diameterMm": 43,
+        "conditions": {}
+      }
+    ]
   },
   "electronicServices": null
 }

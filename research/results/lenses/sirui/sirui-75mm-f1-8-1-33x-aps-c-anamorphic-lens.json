@@ -6,7 +6,7 @@
     "brandId": "sirui",
     "name": "SIRUI 75mm F1.8 1.33x APS-C Anamorphic Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "sirui-75mm-f1-8-1-33x-aps-c-anamorphic-lens"
@@ -35,6 +35,9 @@
         "lens.focus",
         "lens.stabilization",
         "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
       ]
     },
     {
@@ -53,8 +56,22 @@
       "checked": [
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.aperture"
+        "lens.aperture",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0449/9344/6037/files/1_b9605e50-8d84-4f99-bc4e-593220ba2dba.jpg?v=1762401387",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
+  ],
+  "unresolved": [
+    "Can production Nikon Z top, bottom, left, right and rear images establish complete exterior-control, tripod-support and contact coverage? Shared galleries include other mounts or do not identify the pictured mount.",
+    "What are the Nikon Z-specific length and weight, with measurement conditions? Values for other mounts in shared tables are not substituted.",
+    "How can separately specified horizontal and vertical reproduction magnifications be represented without losing orientation?"
   ]
 }

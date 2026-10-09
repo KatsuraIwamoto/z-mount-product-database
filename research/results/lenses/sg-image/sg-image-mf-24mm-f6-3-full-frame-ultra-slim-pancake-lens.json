@@ -6,7 +6,7 @@
     "brandId": "sg-image",
     "name": "SG-image MF 24mm F6.3 Full-Frame Ultra-Slim Pancake Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "sg-image-mf-24mm-f6-3-full-frame-ultra-slim-pancake-lens"
@@ -59,6 +59,15 @@
         "physical.weightMeasurements",
         "lens.aperture",
         "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/800_-01.png?v=1757125454&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
       ]
     }
   ],

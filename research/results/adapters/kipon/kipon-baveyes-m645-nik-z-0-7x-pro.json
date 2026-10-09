@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "Baveyes Mamiya 645-NIK Z 0.7x PRO Lock Version"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kipon-baveyes-m645-nik-z-0-7x-pro"
@@ -27,6 +27,42 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/6c6353_8d3430dce96b468d81012715dd73e673~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/6c6353_05dd1fb4734d4376afb363468802e495~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/6c6353_66a43284b4844b6abae2e898bd68546f~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/6c6353_95580ffbd30e406d8f3ac5c5cf4b5d75~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "conversionOptics"
       ]
     }
   ]

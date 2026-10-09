@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "Tilt-Shift 100mm F2.8 2X Macro"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-tilt-shift-100mm-f2-8-2x-macro"
@@ -47,7 +47,10 @@
       "checked": [
         "mount",
         "physical.dimensionMeasurements",
-        "physical.weightMeasurements"
+        "physical.weightMeasurements",
+        "lens.specialized",
+        "lens.focus",
+        "physical.externalLengthDuringFocus"
       ],
       "decisionChecks": [
         "availability"
@@ -64,6 +67,19 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/1_3d23e2e9-3562-4186-b968-d4b1892c1790.jpg?v=1690191991&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can the manufacturer reconcile its multi-mount 695–845 g store range with the Japanese distributor Z-specific approximately 855 g figure? The existing Z-specific figure is retained with its approximation qualifier.",
+    "Can exact Nikon Z directional images and an operating diagram establish movement-control names/rotation range and reconfirm existing negative contacts/tripod/retractability/stabilization facts? The shared side comparison image is incomplete Z coverage."
   ]
 }

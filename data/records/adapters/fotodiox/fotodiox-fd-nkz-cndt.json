@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Vizelex Cine ND Throttle Lens Mount Adapter - Compatible with Canon FD & FL 35mm SLR lenses to Nikon Z-Mount Mirrorless Cameras with Built-In Variable ND Filter (2 to 8 Stops) from Fotodiox Pro",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "FD-NKZ-CNDT"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -51,11 +53,30 @@
     {
       "type": "other",
       "conditions": {}
+    },
+    {
+      "type": "aperture-ring",
+      "conditions": {}
     }
   ],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          66,
+          66,
+          32
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 136,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

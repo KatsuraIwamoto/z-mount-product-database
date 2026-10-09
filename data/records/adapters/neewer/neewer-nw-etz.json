@@ -52,7 +52,7 @@
     "lensPowerTransmission": null,
     "recordingTriggerTransmission": null
   },
-  "mechanisms": [],
+  "mechanisms": null,
   "physical": {
     "dimensionMeasurements": [
       {
@@ -72,7 +72,15 @@
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "direct-usb",
+        "purposes": [
+          "firmware-update"
+        ],
+        "connectorType": "other"
+      }
+    ]
   },
   "conversionOptics": {
     "present": false

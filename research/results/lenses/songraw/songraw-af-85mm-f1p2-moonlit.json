@@ -6,7 +6,7 @@
     "brandId": "songraw",
     "name": "SongRaw AF 85mm F1.2 Moonlit"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
@@ -62,6 +62,7 @@
   ],
   "unresolved": [
     "Was the Nikon Z version officially released or offered for sale?",
-    "Did an official source state that the MS product replaced the Moonlit product?"
+    "Did an official source state that the MS product replaced the Moonlit product?",
+    "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
   ]
 }

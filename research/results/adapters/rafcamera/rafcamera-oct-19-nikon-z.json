@@ -6,7 +6,7 @@
     "brandId": "rafcamera",
     "name": "OCT-19 Lens to Nikon Z Camera Mount Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "rafcamera-oct-19-nikon-z"
@@ -24,6 +24,28 @@
         "conversionOptics",
         "mechanisms",
         "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://rafcamera.com/media/catalog/product/cache/6305596479836c3bfef8b369c2d05576/o/c/oct-19-to-nikon-z.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://rafcamera.com/media/catalog/product/cache/6305596479836c3bfef8b369c2d05576/o/c/oct-19-to-nikon-z_rear.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics",
+        "physical.tripodSupport"
       ]
     }
   ]

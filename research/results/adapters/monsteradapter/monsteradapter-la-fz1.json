@@ -6,7 +6,7 @@
     "brandId": "monsteradapter",
     "name": "Nikon F-mount Lenses to Nikon Z-mount Cameras Adapter with AF Motor Built-in"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "monsteradapter-la-fz1"
@@ -26,7 +26,8 @@
         "electronicServices",
         "conversionOptics",
         "mechanisms",
-        "physical.weightMeasurements"
+        "physical.weightMeasurements",
+        "physical.dimensionMeasurements"
       ],
       "decisionChecks": [
         "release-status"
@@ -43,6 +44,46 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://www.monsteradapter.com/cdn/shop/files/16fac0b65c443cef93f7c93380dea35b_7d0f43f8-07fc-40c3-b468-5e44810eac88_580x.jpg?v=1762652300",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://www.monsteradapter.com/cdn/shop/files/fbff22464da59a627bbb51d42bd68b9d_1024x1024@2x.jpg?v=1762652300",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://www.monsteradapter.com/cdn/shop/files/3c809109e72c6e96a753ea158dc10c53_1024x1024@2x.jpg?v=1762652300",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "electronics",
+        "electronicServices",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0595/3460/6494/files/DSC01198.jpg?v=1762652657",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronicServices"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does this adapter provide any additional adjustment mechanism beyond its documented electronic AF/MF operation? The bottom and full outer circumference are not fully shown."
   ]
 }

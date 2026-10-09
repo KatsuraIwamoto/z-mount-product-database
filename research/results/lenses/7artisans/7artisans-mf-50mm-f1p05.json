@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 50mm f/1.05 Full-frame Lens"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-50mm-f1p05"
@@ -74,6 +74,23 @@
         "mount",
         "physical.dimensionMeasurements"
       ]
+    },
+    {
+      "url": "https://www.7artisans.com/prod_view.aspx?id=396&nid=3&typeid=103",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.specialElements"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which accessible official product page or manual confirms the Nikon Z configuration and its current specifications after the former store pages stopped showing the product?",
+    "Is the minimum aperture of the Nikon Z version f/16 or f/22?",
+    "Which accepted Nikon Z images or control diagrams establish the front, rear and four-sided exterior, controls, tripod interfaces and focus-extension behavior?"
   ]
 }

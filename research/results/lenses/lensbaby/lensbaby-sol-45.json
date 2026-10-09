@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Sol 45"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-sol-45"
@@ -30,7 +30,8 @@
         "lens.coatings",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "lens.specialized"
       ]
     },
     {
@@ -53,6 +54,42 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://lensbaby.com/blogs/creative-photography/sol-45-22-step-by-step",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/blogs/creative-photography/manual-lens-explained",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/cdn/shop/products/Sol45_hero-Tilted.png?v=1637280586&width=935",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/cdn/shop/products/Sol45_hero-Straight-HighRes.jpg?v=1637280587&width=2044",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z-specific front, rear, opposite-side and underside images establish complete exterior coverage, including the number and arrangement of the Bokeh Blades?",
+    "What are the Nikon Z-specific dimensions and mass?"
   ]
 }

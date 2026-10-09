@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 9mm F2.8 Air"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-9mm-f2p8-air"
@@ -60,6 +60,19 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_9mm_F2.8_Air_Z-front_view.png?v=1758323176",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete Nikon Z directional images and functional documentation establish the focus-ring function and reconfirm existing negative tripod/stabilization/retractability facts? Actual Z front-oblique was inspected; ribbing alone is not treated as proof of function. Firmware capability is explicit but no Z-specific release was established in official support navigation.",
+    "The generic feature heading says175g while the explicit Z table says approximately190g; retained the Z-specific190g."
   ]
 }

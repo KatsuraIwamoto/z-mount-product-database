@@ -55,7 +55,7 @@ The included example uses the Mount Adapter FTZ II, and the excluded and needs-r
         "brandId": "nikon",
         "name": "Mount Adapter FTZ II"
       },
-      "reviewedOn": "2026-09-02",
+      "reviewedOn": "2026-09-16",
       "decision": {
         "status": "included",
         "recordId": "mount-adapter-ftz-ii"
@@ -136,36 +136,38 @@ The included example uses the Mount Adapter FTZ II, and the excluded and needs-r
 
 === "Needs review (`needs-review`)"
 
-    The SIRUI Saturn V2 Full-Frame Anamorphic Lens Series research result records a needs-review decision.
+    The NIKKOR Z CINEMA 50mm T1.9 VV research result records a needs-review decision.
 
-    Source: `research/results/lenses/sirui/sirui-saturn-v2-full-frame-anamorphic-lens-series.json`
+    Source: `research/results/lenses/nikkor/nikkor-z-cinema-50mm-t1-9-vv.json`
 
     ```json
     {
       "$schema": "../../../../schemas/lenses/research-result.schema.json",
-      "id": "sirui-saturn-v2-full-frame-anamorphic-lens-series",
+      "id": "nikkor-z-cinema-50mm-t1-9-vv",
       "subject": {
-        "manufacturerId": "sirui",
-        "brandId": "sirui",
-        "name": "SIRUI Saturn V2 Full-Frame Anamorphic Lens Series"
+        "manufacturerId": "nikon",
+        "brandId": "nikkor",
+        "name": "NIKKOR Z CINEMA 50mm T1.9 VV"
       },
-      "reviewedOn": "2026-09-02",
+      "reviewedOn": "2026-09-16",
       "decision": {
         "status": "needs-review"
       },
       "sources": [
         {
-          "url": "https://store.sirui.com/collections/z-mount-nikon-1",
+          "url": "https://www.nikon.com/company/news/2026/0908_02/",
           "publisherRelationship": "manufacturer-or-brand",
-          "sourceType": "collection",
+          "sourceType": "announcement",
           "checked": [
-            "mount"
+            "identity"
+          ],
+          "decisionChecks": [
+            "release-status"
           ]
         }
       ],
       "unresolved": [
-        "Has SIRUI published a product release announcement or confirmed sale or availability for the Saturn V2 series?",
-        "Has SIRUI announced or offered a Nikon Z configuration for the Saturn V2 series?"
+        "Has Nikon issued an official product release announcement or confirmed sale of the NIKKOR Z CINEMA 50mm T1.9 VV?"
       ]
     }
     ```
@@ -219,6 +221,14 @@ Facts checked from product images
   Do not infer hidden construction, materials, dimensions, weight, electronic functions, environmental protection, compatibility, or release status from appearance.
   When an image of the complete mount face establishes that an adapter has no electronic contacts, record the related negative electronic-function values required by the adapter data structure.
 
+When inspecting exterior components in images, check at least four sides: top, bottom, left, and right. Four photographs of the same side do not provide four-sided coverage.
+Also inspect the front, mount face, covered areas, or other views relevant to the claim. If views are missing or blind spots remain, do not mark the entire exterior as checked or conclude that a component is absent.
+A clearly visible component's presence may be recorded within the area shown even when other views are unavailable.
+
+Shape, grooves, or scales alone do not establish movement, detachability, or purpose. Verify presence, movement, function, and inclusion in the package separately.
+Classifying a control requires evidence such as official operating instructions, a manual, or accepted images or video that establish its operation and function.
+Rotation alone does not identify an aperture or focus ring. Do not classify a component with an unknown function as decorative either.
+
 Research leads
 : Other retailers, reviews, news, and forums are leads for further research.
   Use only facts verified by an accepted source for an inclusion decision or product information.
@@ -234,7 +244,7 @@ Every major canonical field group containing an established value must be tracea
 Track `false` and an empty array as established values; do not require coverage for `null`, which remains unestablished.
 For a source whose URL is retained as an official product page, also record `officialProductPages`.
 Put release status, sale confirmation, licensing, and inclusion checks that have no canonical-record field under `decisionChecks`.
-Use `sources[].note` only when a short qualification is necessary.
+Use `sources[].note` only when the structured fields cannot preserve a source-specific fact needed to review the decision.
 
 Record values such as dimensions, weight, dates, and identifiers in the canonical record rather than duplicating them in `checked` or `sources[].note`.
 Under `checked`, do not descend to individual numeric leaves; choose a unit such as `lens.stabilization`, `electronics`, `physical.weightMeasurements`, or `controls` that still identifies the destination in the canonical record.
@@ -242,13 +252,16 @@ Do not compare sources, allege an error, justify a value choice, or narrate the 
 
 When the checked sources do not establish a single value, do not choose one without evidence.
 Apply the normal [value states](value-rules.md#value-states) in the canonical record and state the evidence still needed as a neutral question under `unresolved`.
+When inclusion is established but an individual specification remains unknown, retain `included`, leave that field unestablished under the value rules, and record the necessary question under `unresolved`.
+Use `needs-review` when evidence needed for inclusion, such as product identity, release status, or the Nikon Z configuration, cannot be established.
+If human review does not provide accepted evidence, leave the fact unresolved.
 A deleted official product page alone does not establish that a product was discontinued.
 
 The distinction between `officialProductPages` in a canonical record and `sources` in a research result is explained under [URLs and sources](value-rules.md#urls).
 
 !!! warning "Do not retain research-process logs"
 
-    Do not record AI conversations, prompts, model names, or duplicated retrieval logs in research results.
+    Do not record AI conversations, prompts, model names, batch research tracking logs, duplicated retrieval logs, or guessed conclusions in research results.
     Retain only the conclusions, sources, and unresolved questions needed to review the decision again.
 
 ## File placement and JSON Schema

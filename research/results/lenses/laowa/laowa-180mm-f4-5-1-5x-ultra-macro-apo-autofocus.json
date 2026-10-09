@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 180mm F4.5 1.5x Ultra Macro APO Autofocus"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-180mm-f4-5-1-5x-ultra-macro-apo-autofocus"
@@ -61,8 +61,62 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "officialProductPages",
+        "controls",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/180mmF4.5_1.5x_01.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/180mmF4.5_1.5x_02.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/180mmF4.5_1.5x_03.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/180mmF4.5_1.5x_04.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/180mmF4.5_1.5x_05.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "electronicServices"
       ]
     }
+  ],
+  "unresolved": [
+    "What are Nikon Z-specific length and mass, rather than EF/E values?",
+    "Can Nikon Z-specific views establish complete exterior coverage?",
+    "Which special elements, coatings and accessory contents, including the tripod collar, are officially specified for Nikon Z?",
+    "Has a Nikon Z firmware release been published for the documented USB-C update connection?"
   ]
 }

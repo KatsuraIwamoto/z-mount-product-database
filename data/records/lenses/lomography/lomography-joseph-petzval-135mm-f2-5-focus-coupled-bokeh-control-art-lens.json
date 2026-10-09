@@ -35,7 +35,24 @@
     "electronicContacts": null
   },
   "physical": {
-    "dimensionMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 88,
+        "lengthMm": 154,
+        "conditions": {
+          "attachedComponents": []
+        }
+      },
+      {
+        "maximumDiameterMm": 88,
+        "lengthMm": 200,
+        "conditions": {
+          "attachedComponents": [
+            "lens-hood"
+          ]
+        }
+      }
+    ],
     "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
     "filterInterfaces": [
@@ -64,10 +81,42 @@
     {
       "type": "aperture-ring",
       "quantity": 1,
-      "geared": true
+      "geared": true,
+      "clickBehavior": "declicked"
+    },
+    {
+      "type": "other",
+      "officialName": "Bokeh control ring",
+      "quantity": 1
     }
   ],
-  "accessories": null,
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1,
+        "construction": "soft-case"
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "electronicServices": null,
   "lens": {
     "focalLength": {
@@ -103,7 +152,14 @@
     },
     "opticalConstruction": null,
     "specialElements": null,
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false
@@ -113,7 +169,12 @@
         "mechanism": "mechanical-coupled"
       },
       "opticalFocusingSystems": null,
-      "minimumFocusDistances": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 1.5,
+          "conditions": {}
+        }
+      ],
       "reproductionMagnifications": null,
       "officialFocusBehaviorClaims": null
     },

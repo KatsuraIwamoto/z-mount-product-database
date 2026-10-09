@@ -6,7 +6,7 @@
     "brandId": "funleader",
     "name": "CAPLENS 18mm f/8.0 for Street Photography"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "funleader-caplens-18mm-f8"
@@ -48,6 +48,37 @@
         "lens.focus",
         "officialProductPages"
       ]
+    },
+    {
+      "url": "https://myfunleader.com/cdn/shop/products/nikon_5342df78-95f6-49c5-a85c-456ef13fdadd.jpg?v=1755108581&width=823",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://myfunleader.com/cdn/shop/products/1_d041473f-6038-416e-b424-26548fbf1870.jpg?v=1663735617&width=823",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount.electronicContacts",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://myfunleader.com/cdn/shop/products/b04a70ae01f04036e17b97cf0b12c47c.jpg?v=1663735617&width=823",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "The official 0.8 m to infinity statement describes depth of field for a fixed-focus lens, not a minimum focusing distance; the former minimumFocusDistances value has been removed. The fixed focus setting itself is not specified.",
+    "The Nikon Z7-mounted front view confirms Z compatibility, but shared front, side and rear images do not identify their mount. Complete Z-specific four-direction coverage, maximum diameter and weight measurement conditions remain unconfirmed.",
+    "The package image shows a zipped case but does not establish its construction classification or Z-specific package contents. The linked specification infographic is unavailable; the previously recorded six-element/five-group construction could not be freshly corroborated."
   ]
 }

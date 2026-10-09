@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 15mm F1.7 Air"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-15mm-f1p7-air"
@@ -68,6 +68,32 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_15-1.7_Z_User_Manual.pdf.pdf?v=1754041165",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.aperture",
+        "lens.focus",
+        "lens.opticalConstruction",
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_15mm_F1.7_Air_Z-front_view.png?v=1753967398",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Viltrox explain the 180 g shared narrative on the Z product page? The Z heading and dedicated Z manual specify approximately 195 g. The manual also gives 68 x 58.5 mm, correcting the previously recorded 65 mm diameter that could not be reconfirmed.",
+    "Can a labeled control diagram and complete exact-Z directional views establish ring function and reconfirm existing negative tripod/retractability/stabilization facts? The Z front/side photograph and operating illustrations are not complete directional coverage."
   ]
 }

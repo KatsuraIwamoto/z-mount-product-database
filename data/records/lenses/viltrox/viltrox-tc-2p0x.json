@@ -112,6 +112,10 @@
       }
     ],
     "coatings": null,
-    "compatibleLensIds": null
+    "compatibleLensIds": [
+      "nikkor-z-400mm-f4p5-vr-s",
+      "nikkor-z-100-to-400mm-f4p5-to-5p6-vr-s",
+      "nikkor-z-70-to-200mm-f2p8-vr-s"
+    ]
   }
 }

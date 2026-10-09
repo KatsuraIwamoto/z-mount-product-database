@@ -6,7 +6,7 @@
     "brandId": "fotodiox",
     "name": "Fotodiox Pro TLT ROKR - Tilt / Shift Lens Mount Adapter Compatible with Mamiya 645 (M645) Mount Lenses to Nikon Z-Mount Mirrorless Camera Body"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "fotodiox-m645-nkz-tr"
@@ -23,11 +23,25 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "identity.modelNumberOptions",
+        "physical.weightMeasurements",
+        "physical.dimensionMeasurements"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/products/M645-NKZ-TLTROKR-03.jpg?v=1563464354",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "notes": [
+    "Product mass is published as 8.2 oz in the official Product Dimensions row (not Shipping Dimensions). Converted using 1 oz = 28.349523125 g and rounded to the nearest gram; approximate marks the rounded conversion, not a manufacturer-stated tolerance."
   ]
 }

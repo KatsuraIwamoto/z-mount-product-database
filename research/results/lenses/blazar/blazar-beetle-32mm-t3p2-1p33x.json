@@ -6,7 +6,7 @@
     "brandId": "blazar",
     "name": "Beetle 32mm T3.2 1.33X Full Frame Anamorphic Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "blazar-beetle-32mm-t3p2-1p33x"
@@ -45,6 +45,19 @@
       "checked": [
         "identity"
       ]
+    },
+    {
+      "url": "https://store.blazarlens.com/cdn/shop/files/32mm5.png?v=1759026842&width=1920",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Six manufacturer product views show front/rear obliques and opposing barrel views, focus gear, distance scales and rotation button, but do not identify the photographed mount as Nikon Z; complete Z-specific four-side coverage is unconfirmed.",
+    "The manufacturer specifies a 90-degree rotation button for horizontal/vertical anamorphic orientation. This is not a tilt/shift movement; only the control is represented in the current schema.",
+    "The 286 g specification has no mount or attached-cap qualifier. The published value is retained; Nikon Z-specific measurement conditions, overall dimensions and supplied accessories remain unconfirmed."
   ]
 }

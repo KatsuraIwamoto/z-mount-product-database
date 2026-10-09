@@ -6,7 +6,7 @@
     "brandId": "rayqual",
     "name": "Contax/Yashica Lens Mount Adapter for Nikon Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "rayqual-cy-nz"
@@ -31,9 +31,48 @@
         "lifecycle",
         "mountConfigurations",
         "electronics",
-        "conversionOptics",
-        "mechanisms"
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://www.rayqual.com/pic/gaikan/NFZ/CY-NZ.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://www.rayqual.com/pic/gaikan/NFZ/UP/CY-NFZ_B.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://www.rayqual.com/pic/gaikan/NFZ/UP/CY-NFZ_C.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://www.rayqual.com/pic/gaikan/NFZ/UP/CY-NFZ_N.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
       ]
     }
+  ],
+  "unresolved": [
+    "Can model-specific operating documentation or complete exterior views establish whether this adapter has any additional mechanism beyond ordinary lens retention? The published oblique views do not cover the full circumference."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "pergear",
     "name": "PERGEAR 25mm F1.7 APS-C Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "pergear-25mm-f1-7-aps-c-lens"
@@ -34,8 +34,26 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "controls",
+        "lens.coatings",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.pergear.com/cdn/shop/files/Pergear25mmF1.7-_-_8_1600x.jpg?v=1737517966",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical"
       ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside views complete the exterior survey, including contact/support/storage claims?",
+    "Can operating documentation identify the focus-ring operation and all mount/accessory conditions for measurements?",
+    "Can primary documentation confirm the existing rounded-blade shape? The current table specifies ten blades without describing their shape."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 25mm F1.7 Air"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-25mm-f1p7-air"
@@ -40,7 +40,9 @@
         "lens.specialElements",
         "lens.coatings",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity",
+        "physical"
       ]
     },
     {
@@ -68,6 +70,27 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF25mmF1.7Z8_f02ff988-cb8a-43aa-b012-af493494b169.png?v=1741071094",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_25mm_F1.7_Z-List.jpg?v=1740540620",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Z directional photographs and an operating description determine ring function and reconfirm negative stabilization/tripod/retractability facts? Actual Z front-oblique and Z package list were inspected, but full directional coverage is incomplete; ribbing alone does not establish a functional ring."
   ]
 }

@@ -60,11 +60,16 @@
             "conditions": {}
           }
         ],
-        "minimumAperture": null,
+        "minimumAperture": [
+          {
+            "value": 6.3,
+            "conditions": {}
+          }
+        ],
         "effective": null
       },
       "diaphragm": null,
-      "controlMechanism": "mechanical"
+      "controlMechanism": null
     },
     "anglesOfView": null,
     "coverage": {

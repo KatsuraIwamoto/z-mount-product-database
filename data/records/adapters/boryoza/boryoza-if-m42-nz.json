@@ -34,7 +34,9 @@
     {
       "lensSideMountSystemId": "m42",
       "cameraSideMountSystemId": "nikon-z",
-      "lensRetention": null,
+      "lensRetention": {
+        "type": "locking-ring"
+      },
       "lensRearProtrusionLimits": null
     }
   ],

@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Fotodiox Pro Lens Mount Shift Adapter - Compatible With Mamiya 645 (M645) Mount Lens to Nikon Z-Mount Mirrorless Camera Body",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "M645-NKZ-SHT"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -79,8 +81,23 @@
     }
   ],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          78,
+          100,
+          54
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 281,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

@@ -8,7 +8,20 @@
     "productName": "OCULILUMEN 7.5mm F2.8 Fish eye (APS-C)",
     "modelNumberOptions": null,
     "alternateNames": null,
-    "variants": null
+    "variants": [
+      {
+        "variantId": "black",
+        "name": "Black",
+        "modelNumberOptions": null,
+        "color": "Black"
+      },
+      {
+        "variantId": "silver",
+        "name": "Sliver",
+        "modelNumberOptions": null,
+        "color": "Silver"
+      }
+    ]
   },
   "lifecycle": {
     "announcementDate": null,
@@ -61,7 +74,12 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -106,8 +124,30 @@
       "groups": 8,
       "elements": 9
     },
-    "specialElements": null,
-    "coatings": null,
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": null
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": null
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective",
+          "spectral-control"
+        ],
+        "officialName": "UMC",
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false

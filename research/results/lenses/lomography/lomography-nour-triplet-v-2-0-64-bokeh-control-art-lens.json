@@ -6,7 +6,7 @@
     "brandId": "lomography",
     "name": "Lomography Nour Triplet V 2.0/64 Bokeh Control Art Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lomography-nour-triplet-v-2-0-64-bokeh-control-art-lens"
@@ -31,7 +31,9 @@
         "lens.aperture",
         "lens.coverage",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.coatings",
+        "accessories"
       ]
     },
     {
@@ -46,6 +48,19 @@
         "availability",
         "inclusion-criteria"
       ]
+    },
+    {
+      "url": "https://cdn.shop.lomography.com/media/catalog/product/cache/d48ee8365af56e523deee8f9725f2022/n/o/nour-triplet-lens-brass_lens-with-lid-and-aperture-plates_on-grey_3.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside images complete the exterior survey and confirm the existing tripod-support and retractability fields?",
+    "What are the Nikon Z dimensions, mass and measurement conditions for each finish?"
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "boryoza",
     "name": "BORYOZA FX-NZ Auto Focus Adapter Compatible with Fujifilm X Mount Lens to Nikon Z Mount Cameras"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "boryoza-fx-nz"
@@ -40,6 +40,31 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://admin.boryoza.net/api/storefront/production/media/201",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://boryoza.net/downloads/FX-NZ/FX-NZ%20UserManual20260626.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "electronicServices",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://boryoza.net/en/firmware",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
       ]
     }
   ]

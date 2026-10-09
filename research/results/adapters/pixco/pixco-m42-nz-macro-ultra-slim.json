@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "M42 to Nikon Z Ultra-Slim Adapter (Macro)"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-m42-nz-macro-ultra-slim"
@@ -36,6 +36,57 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/3_3b99ece2-a796-4dfc-9e49-76752818531a_800x.jpg?v=1613497749",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/1_f7cb6c6f-4398-4b74-84c5-3962a8155495_800x.jpg?v=1613497749",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/2_6cf0de20-1acb-4aae-aa61-fa8d2dd9fdbe_800x.jpg?v=1613497749",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/4_f9563cde-bc40-40fe-b4cc-f7f0ddb20c01_800x.jpg?v=1613497749",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/5_0d2e7693-5e80-4a39-bb23-5760b1ef3e0d_800x.jpg?v=1613497749",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
       ]
     }
   ]

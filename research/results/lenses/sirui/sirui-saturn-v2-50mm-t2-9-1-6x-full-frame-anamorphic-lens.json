@@ -1,0 +1,70 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "sirui-saturn-v2-50mm-t2-9-1-6x-full-frame-anamorphic-lens",
+  "subject": {
+    "manufacturerId": "sirui",
+    "brandId": "sirui",
+    "name": "SIRUI Saturn V2 50mm T2.9 1.6x Full-Frame Anamorphic Lens"
+  },
+  "reviewedOn": "2026-09-20",
+  "decision": {
+    "status": "included",
+    "recordId": "sirui-saturn-v2-50mm-t2-9-1-6x-full-frame-anamorphic-lens"
+  },
+  "sources": [
+    {
+      "url": "https://store.sirui.com/products/saturn-v2-series-full-frame-anamorphic-cine-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "physical.filterInterfaces",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.imageCircleDiameters",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "lens.specialized",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://store.sirui.com/blogs/guides/sirui-saturn-v2-launch-a-full-frame-anamorphic-lens-for-horizontal-and-vertical-shooting",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mount",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ],
+  "notes": [
+    "The series supports horizontal and vertical anamorphic shooting through a 90-degree barrel rotation and locking switch.",
+    "Human editorial decision on 2026-09-20: in-lens optical stabilization is recorded as absent because the official product page does not list this feature. This is a maintainer-approved inference, not an explicit manufacturer statement."
+  ],
+  "unresolved": [
+    "What are the published dimensions and weight of the Nikon Z configuration, excluding lens caps?",
+    "Which accepted images show the Nikon Z configuration from all four exterior sides and the complete mount face, establishing its external components and electronic contacts?",
+    "What do the greater-than signs in the published horizontal magnification and diagonal angle-of-view entries signify, and which shooting orientation applies to these measurements?"
+  ]
+}

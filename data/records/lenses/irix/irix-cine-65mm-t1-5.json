@@ -40,7 +40,9 @@
       {
         "maximumDiameterMm": 97,
         "lengthMm": 141,
-        "conditions": {}
+        "conditions": {
+          "attachedComponents": []
+        }
       }
     ],
     "weightMeasurements": [
@@ -54,7 +56,9 @@
     "officialEnvironmentalProtectionClaims": [
       {
         "types": [
-          "other"
+          "weather-resistant",
+          "dust-resistant",
+          "moisture-resistant"
         ],
         "scope": {
           "kind": "product"
@@ -76,17 +80,20 @@
       "components": [
         {
           "type": "foot",
-          "relationship": null,
+          "relationship": "supplied",
           "removable": true,
           "interfaces": null,
           "modelNumberOptions": null,
-          "quantity": null,
+          "quantity": 1,
           "conditions": {}
         }
       ]
     },
     "externalLengthDuringFocus": "constant",
-    "isRetractableForStorage": false
+    "isRetractableForStorage": false,
+    "frontAccessoryInterface": {
+      "outsideDiameterMm": 95
+    }
   },
   "controls": [
     {
@@ -100,9 +107,32 @@
       "quantity": 1,
       "rotationDegrees": 75,
       "geared": true
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
     }
   ],
-  "accessories": null,
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "electronicServices": null,
   "lens": {
     "focalLength": {
@@ -148,8 +178,38 @@
       "groups": 9,
       "elements": 12
     },
-    "specialElements": null,
-    "coatings": null,
+    "specialElements": [
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "officialName": "HR",
+        "quantity": 2
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "officialName": "ED",
+        "quantity": 2
+      },
+      {
+        "types": [
+          "aspherical"
+        ],
+        "officialName": "ASP",
+        "quantity": 1
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "spectral-control"
+        ],
+        "officialName": "Neutrino",
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false
@@ -171,7 +231,12 @@
         }
       ],
       "reproductionMagnifications": null,
-      "officialFocusBehaviorClaims": null
+      "officialFocusBehaviorClaims": [
+        {
+          "type": "focus-breathing-suppressed",
+          "conditions": {}
+        }
+      ]
     },
     "stabilization": {
       "present": false

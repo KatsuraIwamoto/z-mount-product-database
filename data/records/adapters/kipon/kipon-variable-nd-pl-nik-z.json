@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "KIPON PL-Nikon Z Variable ND Adapter",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "E20130"
+    ],
     "alternateNames": null,
     "variants": null
   },

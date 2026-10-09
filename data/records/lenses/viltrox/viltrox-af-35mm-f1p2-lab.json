@@ -88,7 +88,8 @@
   "controls": [
     {
       "type": "function-ring",
-      "quantity": 1
+      "quantity": 1,
+      "clickBehavior": "switchable"
     },
     {
       "type": "function-button",

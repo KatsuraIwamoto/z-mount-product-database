@@ -6,7 +6,7 @@
     "brandId": "astrhori",
     "name": "MF 18mm F5.6 APS-C Shift Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "astrhori-mf-18mm-f5p6-shift"
@@ -58,6 +58,26 @@
       "checked": [
         "lens.anglesOfView"
       ]
+    },
+    {
+      "url": "https://www.astrhori.cn/cdn/shop/files/7_9a4c8984-7da5-45f1-80da-92da261fec80.jpg?v=1758014335&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.specialElements",
+        "lens.specialized",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "physical.filterInterfaces"
+      ]
     }
+  ],
+  "unresolved": [
+    "Seven official gallery images were reviewed, including shifted/unshifted barrel views and the labeled optical/mechanism diagram; the long feature graphic was only overviewed. Sony-mounted and generic views do not establish a complete Nikon Z top/bottom/left/right and exposed-rear image set.",
+    "The approximately 63 x 36 mm specification explicitly identifies Sony E. The 169 g claim accompanies a Sony E mounted image without a Nikon Z-specific measurement. Nikon Z dimensions and weight remain unconfirmed.",
+    "The diagram establishes a focus ring, distance scale, plus/minus 6 mm shift and 360-degree rotation; the exact control type for the shift/rotation mechanisms and supplied caps are not independently established."
   ]
 }

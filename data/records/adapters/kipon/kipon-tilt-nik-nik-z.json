@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "TILT NIK-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "TILT NIK-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

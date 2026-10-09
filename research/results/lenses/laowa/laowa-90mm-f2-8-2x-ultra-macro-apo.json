@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 90mm F2.8 2x Ultra Macro APO"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-90mm-f2-8-2x-ultra-macro-apo"
@@ -62,8 +62,65 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.externalLengthDuringFocus"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/90mmF2.8_380x380.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/90mmF2.8_380x380_2.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/90mmF2.8_380x380_3.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/90mmF2.8_380x380_4.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com.cn/Public/Uploads/uploadfile/files/20260114/FF90mmF2.8CA-DreamerMacro2Xshuomingshu.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "lens.aperture",
+        "lens.focus",
+        "lens.specialized",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
       ]
     }
+  ],
+  "unresolved": [
+    "What are Nikon Z-specific dimensions and mass with attachment conditions, given the RF measurements and the 574 g manual figure?",
+    "Is minimum focus distance 205 mm or 183 mm, and is the stated approximately 7 cm working distance applicable to this version?",
+    "Can Nikon Z-specific views establish complete exterior coverage, and what aperture click behavior and supplied accessory contents are documented?"
   ]
 }

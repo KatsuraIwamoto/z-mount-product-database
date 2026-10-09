@@ -53,6 +53,10 @@
     {
       "type": "flange-focal-distance-adjustment",
       "conditions": {}
+    },
+    {
+      "type": "aperture-ring",
+      "conditions": {}
     }
   ],
   "physical": {
@@ -76,7 +80,7 @@
       "components": [
         {
           "type": "foot",
-          "relationship": null,
+          "relationship": "supplied",
           "removable": true,
           "interfaces": [
             {
@@ -88,7 +92,7 @@
             }
           ],
           "modelNumberOptions": null,
-          "quantity": null,
+          "quantity": 1,
           "conditions": {}
         }
       ]

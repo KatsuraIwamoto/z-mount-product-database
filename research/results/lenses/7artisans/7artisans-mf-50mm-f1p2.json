@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 50mm f/1.2 APS-C Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-50mm-f1p2"
@@ -63,6 +63,45 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/files/5_4fb1a26c-7520-4559-9cbb-e92ba7c52e9c.jpg?v=1766396467&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "physical.filterInterfaces",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/files/4_ac217c65-babb-47bb-9108-539fbd1e2c04.jpg?v=1765780187&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/files/6_582c7f8d-2232-443a-8ecf-b90b3cd2663c.jpg?v=1766396467&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z version dimensions and mass, including the hood and focus positions used for the measurements?",
+    "Which accepted views establish the Nikon Z rear mount and all four exterior sides, including tripod interfaces and any covered connectors?"
   ]
 }

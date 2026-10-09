@@ -6,7 +6,7 @@
     "brandId": "astrhori",
     "name": "MF 50mm F1.4 Full-frame Tilt Lens"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "astrhori-mf-50mm-f1p4-tilt"
@@ -31,7 +31,9 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "controls",
+        "lens.coatings"
       ],
       "decisionChecks": [
         "availability"
@@ -58,6 +60,29 @@
         "mount",
         "physical.dimensionMeasurements"
       ]
+    },
+    {
+      "url": "https://www.astrhori.cn/cdn/shop/products/F43E7281-7BBD-4da8-A888-4334D0F46EF4.png?v=1699608401&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.cn/cdn/shop/products/4_66c4879a-4eda-4868-9e74-e13292d0e18b.jpg?v=1699608401&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "mount"
+      ]
     }
+  ],
+  "unresolved": [
+    "Manufacturer gallery reviewed includes a Nikon Z-mounted top view, generic barrel/front views and multiple other mounts; exposed Z rear, underside and both sides are not established.",
+    "The graphic says tilt up and down 15 degrees without distinguishing total travel from maximum displacement from neutral; tilt amount remains unencoded.",
+    "The generic 50 mm diameter / 70 mm height illustration does not identify the Nikon Z variant or measurement datum. Nikon Z dimensions and weight remain unconfirmed.",
+    "Front and rear caps appear in a package photograph, but explicit supplied-accessory text and aperture click behavior were not established."
   ]
 }

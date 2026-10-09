@@ -6,7 +6,7 @@
     "brandId": "novoflex",
     "name": "Adapter Minolta MD/MC Lenses to Nikon Z Cameras"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "novoflex-nikz-min-md"
@@ -23,8 +23,42 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "mechanisms"
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.novoflex.de/en/Adapter-Collar-Mount-for-EOSR-and-NIKZ-Adapters/ASTAT-RZ",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://cdn11.bigcommerce.com/s-namp81u7xj/images/stencil/1000x1000/products/1106/283643/mt0foiuwt2h6otxbmpry__44794.1669013891.jpg?c=1",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mechanisms",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://novoflexus.com/adapter-nikon-z-mount-camera-body-to-minolta-mc-md-lenses/",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "physical.weightMeasurements",
+        "physical.dimensionMeasurements"
       ]
     }
+  ],
+  "unresolved": [
+    "Confirm product weight and dimensions against corrected specifications: the US distributor lists inconsistent pound/kilogram weights and a zero-inch depth alongside a nonzero centimetre depth."
   ]
 }

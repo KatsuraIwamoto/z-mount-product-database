@@ -15,7 +15,20 @@
     "announcementDate": null,
     "officialDesignations": null
   },
-  "officialProductPages": [],
+  "officialProductPages": [
+    {
+      "url": "https://www.megadap.com/cpbjd/etz21-pro/",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "zh",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Megadap"
+      }
+    }
+  ],
   "mountConfigurations": [
     {
       "lensSideMountSystemId": "sony-e",
@@ -39,10 +52,16 @@
     "lensPowerTransmission": null,
     "recordingTriggerTransmission": null
   },
-  "mechanisms": [],
+  "mechanisms": null,
   "physical": {
     "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "weightMeasurements": [
+      {
+        "grams": 44,
+        "approximate": false,
+        "conditions": {}
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

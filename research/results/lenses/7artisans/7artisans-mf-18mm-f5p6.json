@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 18mm f/5.6 Full-frame Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-18mm-f5p6"
@@ -32,7 +32,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.specialElements"
       ],
       "decisionChecks": [
         "availability"
@@ -62,6 +63,14 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/41_13bb0882-c39f-455d-85de-bf775c79ad1d.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
   ]

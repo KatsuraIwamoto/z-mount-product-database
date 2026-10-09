@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "MF 20mm F1.8"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-mf-20mm-f1p8"
@@ -75,8 +75,25 @@
         "lens.anglesOfView",
         "lens.imageCircleDiameters",
         "lens.focus",
-        "physical.externalLengthDuringFocus"
+        "physical.externalLengthDuringFocus",
+        "controls",
+        "lens.aperture",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/MF20mmF1.8Z-Mount-481663.jpg?v=1722921097&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Can full Nikon Z directional photographs reconfirm existing negative tripod/retractability facts and establish whether electrical contacts are absent? Z front view and manual component diagram were inspected; a generic installation paragraph mentions contacts while its EXIF table is blank, so contact presence remains unknown. The82mm filter interface requires the supplied filter holder rather than a bare-lens thread."
   ]
 }

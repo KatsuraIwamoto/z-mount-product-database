@@ -2,16 +2,17 @@
   "$schema": "../../../../schemas/adapters/research-result.schema.json",
   "id": "fotga-m42-nz",
   "subject": {
-    "manufacturerId": null,
+    "manufacturerId": "fotga",
     "brandId": "fotga",
-    "name": "M42 to Nikon Z Adapter",
+    "name": "Fotga M42-Nikon.Z Lens Mount Adapter Converter for 42mm M42 Lens to Nikon Z Mount Z8 Zf Zfc Z5 Z6 Z7 II Z6II Z7II Z9 Z50 Z30 Mirrorless DSLR Camera",
     "aliases": [
       "M42-NZ"
     ]
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
-    "status": "needs-review"
+    "status": "included",
+    "recordId": "fotga-m42-nz"
   },
   "sources": [
     {
@@ -33,10 +34,63 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.fotga.com/pages/about_us/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://www.fotga.com/product/fotga-m42-nikon-z-lens-mount-adapter-converter-for-42mm-m42-lens-to-nikon-z-mount-z8-z5-z6-z7-ii-z6ii-z7ii-z9-z50-mirrorless-dslr-camera/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "mechanisms"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.fotga.com/wp-content/uploads/2023/08/10-3-800x800.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions"
+      ]
+    },
+    {
+      "url": "https://www.fotga.com/wp-content/uploads/2023/08/3-8-800x800.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://www.fotga.com/wp-content/uploads/2023/08/8-%E5%89%AF%E6%9C%AC-800x800.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
     }
   ],
   "unresolved": [
-    "Which entity manufactures this branded product?",
-    "Can an official exact-product page, official catalog, or manufacturer-run storefront confirm the official product name and model number, and whether this is a distinct product or a variant of another adapter?"
+    "Can accepted views establish the complete top, bottom, left, and right exterior, including any tripod interface or additional mechanism? The available official images leave part of the exterior unseen.",
+    "What rotation range is permitted when the silver lens-side ring is adjusted after loosening its locking screws?"
   ]
 }

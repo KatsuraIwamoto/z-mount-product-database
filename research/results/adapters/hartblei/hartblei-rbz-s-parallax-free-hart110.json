@@ -6,7 +6,7 @@
     "brandId": "hartblei",
     "name": "Hartblei RBZ-S Parallax Free Shift Adapter for Mamiya RB / RZ 67 Lenses"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "hartblei-rbz-s-parallax-free-hart110"
@@ -31,5 +31,8 @@
         "availability"
       ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z-specific rear and four-sided product photographs establish the complete exterior? The official listing offers Nikon Z, but the inspected photographs show another camera-mount configuration or do not identify the rear mount."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN LM-NZ Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "shoten-lm-nz"
@@ -21,8 +21,7 @@
         "lifecycle",
         "mountConfigurations",
         "electronics",
-        "conversionOptics",
-        "mechanisms"
+        "conversionOptics"
       ],
       "decisionChecks": [
         "availability",
@@ -41,6 +40,47 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/2018/10/LM-NZ-2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/2018/10/LM-NZ_img.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/2018/10/LM-NZ-3.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/2018/10/LM-NZ-1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete exterior views or operating documentation establish whether the original LM-NZ has additional mechanisms? The official announcement images do not fully cover the circumference."
   ]
 }

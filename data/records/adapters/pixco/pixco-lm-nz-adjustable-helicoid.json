@@ -54,7 +54,20 @@
     }
   ],
   "physical": {
-    "dimensionMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "lengthMm": 11.92,
+        "approximate": true,
+        "conditions": {},
+        "note": "Shortest length, with the helicoid locked."
+      },
+      {
+        "lengthMm": 17.18,
+        "approximate": true,
+        "conditions": {},
+        "note": "Longest length, with the helicoid extended."
+      }
+    ],
     "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null

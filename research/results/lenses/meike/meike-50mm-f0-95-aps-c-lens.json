@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike 50mm F0.95 APS-C Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-50mm-f0-95-aps-c-lens"
@@ -50,6 +50,19 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/files/50mm-F0.95.jpg?v=1724831338&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can a manufacturer operating diagram explicitly identify the focus and aperture rings and their click behavior? The available photos establish engraved distance and depth-of-field scales.",
+    "Can Nikon Z rear, opposite-side and underside images complete the exterior survey and confirm the existing tripod-support and retractability fields?",
+    "What are the Nikon Z mass accessory conditions and dimensions? The published mass has no explicit cap/hood condition."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "Rollei QBM to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-qbm-nz"
@@ -37,6 +37,47 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/3_aff1ab1f-38ad-4393-9132-fe5e322c8f44_800x.jpg?v=1613497751",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/6_c3e97d87-220e-46b8-af65-9e14c72eef54_800x.jpg?v=1613497751",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/7_f18ef1c9-dca4-4b4c-8114-57664d58a200_800x.jpg?v=1613497751",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/1_09461482-3036-4330-a678-f04e3dd15f9f_800x.jpg?v=1613497751",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does this adapter provide any adjustment mechanism beyond lens retention? Full circumferential coverage is unavailable."
   ]
 }

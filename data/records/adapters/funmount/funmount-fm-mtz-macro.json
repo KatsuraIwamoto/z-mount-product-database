@@ -66,7 +66,28 @@
   },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
-    "connections": null
+    "connections": [
+      {
+        "method": "direct-usb",
+        "purposes": [
+          "firmware-update",
+          "configuration"
+        ]
+      },
+      {
+        "method": "camera-body",
+        "purposes": [
+          "configuration"
+        ]
+      },
+      {
+        "method": "other",
+        "purposes": [
+          "configuration"
+        ],
+        "application": "Funmount Bluetooth configuration tool"
+      }
+    ]
   },
   "conversionOptics": {
     "present": false

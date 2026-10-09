@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 16mm F1.8"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-16mm-f1p8"
@@ -40,7 +40,9 @@
         "lens.specialElements",
         "lens.coatings",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity",
+        "physical"
       ]
     },
     {
@@ -76,6 +78,35 @@
       "checked": [
         "lens.specialElements"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_16-1.8_Z_ManuaL.pdf?v=1751420701",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "physical",
+        "controls",
+        "mount",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF16mm_F1.8_Z-924956.png?v=1770356872&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "mount"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which Nikon Z dimensions and mass are current? The Z manual specifies 85.2 x 105 mm and approximately 565 g (excluding caps and hood), while the current Z product table gives 85.2 x 103 mm and approximately 550 g. Existing product-page values are retained pending reconciliation.",
+    "Can complete Nikon Z top/bottom/left/right and rear photographs reconfirm existing negative stabilization/tripod/retractability facts? Actual Z front-oblique photograph and manual diagram cover controls and rear contacts, but not every direction."
   ]
 }

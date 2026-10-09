@@ -69,7 +69,8 @@
     {
       "type": "aperture-ring",
       "quantity": 1,
-      "rotationDegrees": 66.9
+      "rotationDegrees": 66.9,
+      "geared": true
     }
   ],
   "accessories": null,

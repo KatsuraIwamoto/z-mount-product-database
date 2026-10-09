@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike AF 85mm F1.4 MIX II"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-af-85mm-f1-4-mix-ii"
@@ -31,7 +31,8 @@
         "lens.aperture",
         "lens.coverage",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity.variants"
       ],
       "decisionChecks": [
         "availability"
@@ -77,6 +78,38 @@
         "lens.opticalConstruction",
         "lens.anglesOfView"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/85mm-F1.4_---_-_11.jpg?v=1779352187",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/85mm-F1.4_---_-_12.jpg?v=1779352187",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/85mm-F1.4_---_-_13.jpg?v=1779352187",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronicServices",
+        "mount.electronicContacts",
+        "physical.filterInterfaces"
+      ]
     }
+  ],
+  "unresolved": [
+    "Do the shared 85 x 110 mm dimensions apply to Nikon Z, and what accessories are included in its 656 g mass?",
+    "Can Nikon Z opposite-side and underside photos complete the exterior survey and substantiate the existing tripod-support and retractability fields?",
+    "Can operating documentation explicitly identify the manual focus ring and its response?",
+    "Does compatibility with magnetic filters require an optional magnetic adapter, or does the lens itself include a magnetic filter interface?"
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN LM-NZ M EX Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "shoten-lm-nz-m-ex"
@@ -40,6 +40,65 @@
       ],
       "decisionChecks": [
         "release-status"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/LM-NZ-MEXB-2-1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/LM-NZ-MEXB-img.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/LM-NZ-MEXB-1-1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/LM-NZ-MEXB-3.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/LM-NZ-MEXS-1-1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/info/wp-content/uploads/LM-NZ-MEXS-2-1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
       ]
     }
   ]

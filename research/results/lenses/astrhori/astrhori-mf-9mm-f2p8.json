@@ -6,7 +6,7 @@
     "brandId": "astrhori",
     "name": "MF 9mm F2.8 Ultra Wide-angle APS-C Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "astrhori-mf-9mm-f2p8"
@@ -66,6 +66,42 @@
         "lens.opticalConstruction",
         "lens.anglesOfView"
       ]
+    },
+    {
+      "url": "https://prtimes.jp/main/html/rd/p/000000092.000135883.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "distributor-page",
+      "checked": [
+        "mount",
+        "physical.weightMeasurements",
+        "lens.specialElements",
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus",
+        "physical.filterInterfaces",
+        "accessories",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.cn/cdn/shop/files/7_13a68cac-9566-4fd6-8010-0484e63a542e.jpg?v=1766649327&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.cn/cdn/shop/files/z.jpg?v=1762329436&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Twelve manufacturer gallery images reviewed, including Z fc-mounted views and the Nikon Z-specific barrel image. The exposed rear image is not identified as Z; bottom, both sides and Z rear coverage remain incomplete.",
+    "The distributor explicitly specifies approximately 333 g for Nikon Z with unspecified cap conditions. Its common approximately 62 x 61 mm dimensions exclude the mount but do not identify a Z-specific measurement; dimensions remain unconfirmed."
   ]
 }

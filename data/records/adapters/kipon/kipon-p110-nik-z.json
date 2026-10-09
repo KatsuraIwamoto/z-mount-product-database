@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "P110-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "P110-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

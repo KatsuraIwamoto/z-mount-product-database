@@ -6,7 +6,7 @@
     "brandId": "kase",
     "name": "85mm F1.4 Auto-Focus Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "kase-af-85mm-f1p4"
@@ -51,6 +51,83 @@
         "availability",
         "inclusion-criteria"
       ]
+    },
+    {
+      "url": "https://www.kasecn.com/products_detail/124.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "identity",
+        "mount",
+        "physical.weightMeasurements",
+        "controls",
+        "lens.specialElements",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://kaseoptics.com/products/kase-85mm-f1-4-autofocus-lens-for-nikon-z-mount",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "accessories",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://www.kasecn.com/Download_detail/2.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://kaseoptics.com/cdn/shop/files/NikonZ_withpackaging.jpg?v=1751518807&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://kaseoptics.com/cdn/shop/files/NikonZ.jpg?v=1751518807&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://kaseoptics.com/cdn/shop/files/NikonZ_2.jpg?v=1751518807&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://kaseoptics.com/cdn/shop/files/DSC_1516.jpg?v=1751518807&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "The Chinese mount-specific table gives Nikon Z weight as 638 g (668 g with hood); the previously recorded 580 g belongs to Sony E, explicitly labelled on the US page.",
+    "The US Nikon Z page lists 82 × 99 mm, but nearby text retains Sony E weight and shared specifications; the existing dimensions are retained pending independent Z-specific dimensional confirmation.",
+    "Official Z-labelled front/side/hood and package images were inspected, but complete rear-contact and four-direction coverage remains unavailable. The UK package lists one magnetic cap while the US package explicitly lists two front caps; two are also shown in the Z package image.",
+    "Magnetic filter compatibility is not representable by current filter-interface types. Coating type and application scope remain unconfirmed."
   ]
 }

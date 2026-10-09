@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 4mm F2.8 Fisheye"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-4mm-f2-8-fisheye"
@@ -60,8 +60,69 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "officialProductPages",
+        "controls",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/de6b33cd0bbcdb9154ecc433a65526d8929a1997.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/90ad3e116dade2fcc5b56cf3980285bf02e5cce9.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/e4be68826f01553226b68e5364e9e85624334dd6.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/3cb5d522c1f18cd8cfa805f43d03c973b4622825.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/2b6285e9a9cea05a974b04c7679c4d3bf6fc21d1.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com.cn/Public/Uploads/uploadfile/files/20251009/CF%204mm%20F2.8%20210%C2%B0%20Circular%20Fisheye%20%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "lens.coatings",
+        "lens.focus",
+        "lens.aperture"
       ]
     }
+  ],
+  "unresolved": [
+    "What are Nikon Z-specific dimensions and mass, rather than the explicitly MFT measurements?",
+    "What aperture click behavior is specified for the Nikon Z version?",
+    "Can Nikon Z-specific views establish complete exterior coverage?",
+    "What special elements, external focus-length behavior and supplied accessories are documented?"
   ]
 }

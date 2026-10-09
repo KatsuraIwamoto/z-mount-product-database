@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 56mm F1.7 Air"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-56mm-f1p7-air"
@@ -65,7 +65,8 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "manual",
       "checked": [
-        "electronicServices"
+        "electronicServices",
+        "controls"
       ]
     },
     {
@@ -76,6 +77,30 @@
         "lens.opticalConstruction",
         "physical.weightMeasurements"
       ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/56mmF1.7APS-CZProductlist.jpg?v=1723706375&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories",
+        "identity",
+        "mount",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF56mm_F1.7_Z-917847.png?v=1722921093&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete Nikon Z directional images reconfirm negative tripod/stabilization/retractability facts and USB connector subtype? Actual Z front-oblique and Z package photograph were inspected; full directional coverage remains unavailable. Existing 4 ED/3 HR special-element counts were not restated in the current readable product-page text and are retained pending primary reconfirmation."
   ]
 }

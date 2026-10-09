@@ -8,7 +8,8 @@ This page explains what is in scope and how inclusion decisions are made.
 
 ## Confirming inclusion {#inclusion-criteria}
 
-A candidate product is included based on a product release announcement or confirmed sale.
+Include a candidate only after an official product release announcement or confirmed sale or availability.
+Use the official product release-announcement date for `lifecycle.announcementDate`, never a development-announcement date.
 If only a development announcement is available, the candidate remains a `needs-review` research result until a product release announcement or sale can be confirmed.
 
 Inclusion means that a product release announcement or sale was confirmed in the past.
@@ -29,7 +30,8 @@ The same verification standards apply to every manufacturer and brand.
 - Teleconverters
 - Pinholes
 
-Products that attach through a Z-mount adapter are included only in these cases:
+Include products offered by the manufacturer for direct attachment to the Nikon Z mount, including products that use the manufacturer's own interchangeable rear mount.
+Products that attach through an adapter qualify only when the manufacturer officially offers the Nikon Z configuration in one of these forms:
 
 - The Z-mount adapter is supplied with the product
 - The product uses a Z-mount adapter dedicated to that lens or product series
@@ -47,6 +49,10 @@ Products that differ only in color or package contents are not recorded separate
 ### Included {#adapter-included}
 
 Products whose primary purpose is adapting another interchangeable-lens mount to the Nikon Z mount are included in a dataset separate from lenses and related optical products.
+
+Use one record for the same marketed product; put selectable mount configurations and other officially named options in variants.
+The initial scope covers basic product information, mount combinations, electronic functions, optics, mechanisms, and physical characteristics such as dimensions and weight.
+It does not include large compatibility matrices for combinations of lenses, cameras, and firmware.
 
 ### Excluded {#adapter-excluded}
 

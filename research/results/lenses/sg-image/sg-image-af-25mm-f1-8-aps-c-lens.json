@@ -6,7 +6,7 @@
     "brandId": "sg-image",
     "name": "SG-image AF 25mm F1.8 APS-C Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "sg-image-af-25mm-f1-8-aps-c-lens"
@@ -61,6 +61,15 @@
         "physical.weightMeasurements",
         "lens.aperture",
         "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/259055cac18bc2ff902e5a600b9c3c29.png?v=1757069024&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
       ]
     }
   ],

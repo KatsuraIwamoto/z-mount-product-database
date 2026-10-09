@@ -6,7 +6,7 @@
     "brandId": "sirui",
     "name": "SIRUI Vision Prime 75mm T1.4 Full-Frame Cine Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "sirui-vision-prime-75mm-t1-4-full-frame-cine-lens"
@@ -39,7 +39,8 @@
         "lens.coatings",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.specialElements"
       ]
     },
     {
@@ -50,6 +51,18 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://store.sirui.com/cdn/shop/files/1_774ad355-2593-4113-918e-7ce8781472e6.png?v=1777259735&width=1214",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "2026-09-20: Current official six-model table and product-specific exterior inspected. Focus/aperture rings explicitly named by manufacturer; distance scales visible. Z-specific dimensions/mass and interchangeable Z mount verified. Shared lateral/front-oblique images do not establish Z rear/opposite side/underside; retained existing contact absence, tripod-support absence, mechanical coupling and stabilization absence pending stronger evidence. HD Nano Coating not repeated in current text; retained existing claim pending corroboration. Single-lens front/rear caps confirmed; generic strap purpose and kit-case inclusion for individual lenses not inferred. Official vertical/horizontal FOV labels appear reversed in magnitude; retained published labels without silently swapping. Key-features summary also swaps 15/75 maximum T values; detailed model table and barrel markings agree with retained T1.6/T1.4."
   ]
 }

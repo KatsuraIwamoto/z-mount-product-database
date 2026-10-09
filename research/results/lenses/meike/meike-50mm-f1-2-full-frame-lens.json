@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike 50mm F1.2 Full-Frame Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-50mm-f1-2-full-frame-lens"
@@ -34,11 +34,28 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "controls",
+        "accessories",
+        "lens.coatings"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/DSC01405.jpg?v=1754275952",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can a manufacturer operating diagram explicitly identify the aperture ring and its click behavior?",
+    "Can Nikon Z front, rear, opposite-side and underside images complete the exterior survey and substantiate the existing tripod-support and retractability fields?",
+    "Do the published 72 mm length and 620 g mass specifically describe the Nikon Z version, and what accessories are included in those measurements?"
   ]
 }

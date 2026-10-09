@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "Sony A to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-sony-a-nz"
@@ -37,6 +37,47 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/5_71f0f3d4-97ab-4c4a-9ab6-36165df7e97f_800x.jpg?v=1613497764",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/4_dd9f7594-8555-4609-ae1a-335bbcb256cc_800x.jpg?v=1613497764",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/3_748a330f-b816-4e01-bc85-1c1ca474ca36_800x.jpg?v=1613497764",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/6_135016af-c822-4fe8-a0f3-bcd223f20fa9_800x.jpg?v=1613497764",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
     }
+  ],
+  "unresolved": [
+    "What function and operation are specified for the OPEN/LOCK ring on this exact Sony A adapter? Does it actuate the lens aperture?"
   ]
 }

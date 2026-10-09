@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "Contax G to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-cg-nz"
@@ -37,6 +37,60 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/files/5_c740d00e-e6dd-4767-a7d7-6131b30ec00d_800x.jpg?v=1756891845",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/files/6_98e025e8-85ba-4252-a6a1-12f70a44c92e_800x.jpg?v=1756891845",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/files/7_f0c6dcd3-1244-45ef-a92a-21336ceebb8c_800x.jpg?v=1756891627",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/files/8_3765596a-17c1-4891-8031-bbabe1fca926_800x.jpg?v=1756891627",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/files/9_412fd968-0cc1-4c5b-be44-d977199804cf_800x.jpg?v=1756891627",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "What movement and focusing function does the silver ring provide on this exact Contax G-to-Nikon Z adapter?"
   ]
 }

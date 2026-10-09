@@ -6,7 +6,7 @@
     "brandId": "pergear",
     "name": "PERGEAR 60mm F2.8 Mark II 2X Macro Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "pergear-60mm-f2-8-mark-ii-2x-macro-lens"
@@ -35,8 +35,28 @@
         "lens.specialElements",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "controls",
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://www.pergear.com/cdn/shop/products/A2000326_new_gallery3_1600x.jpg?v=1626675059",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical",
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside views complete the survey of contacts, support parts and storage mechanisms?",
+    "What mount and accessory conditions apply to the common dimensional and mass specifications?",
+    "The current MK2 page still serves an unmarked gallery photograph also resembling the original version. Can generation-specific Nikon Z images establish all exterior details?",
+    "The specification table states f2.8–16, but the infinity-vignetting note mentions f22. Can the minimum aperture and recorded rounded blade shape be confirmed?",
+    "Which sensor format, axis and focus conditions explain the unassigned 22.6–43.6-degree field-of-view range?",
+    "The manufacturer warns of dark edges at infinity on full frame, especially stopped down; can the conditions be stated quantitatively? Full-frame designation does not imply absence of this limitation."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 11mm F4.5 FF RL"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-11mm-f4-5-ff-rl"
@@ -60,8 +60,63 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/camera-lens-24",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "mount",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/a365917ecc64ffd1eab8bb516cd5f1bb73abe9ed.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/2ca9401bbad27205ecce16e4e2e145bb83e1aa16.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/d35fb4ece8ee56ba782d9fd47900511c25459fd7.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/2eadac972a781b50d9700c4a2a14b001ec0f5706.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Four official Japan photographs including a bare rear view were visually inspected, but depict a shared Leica M-style version rather than verified Nikon Z-specific four-direction coverage. Focus/aperture rings and distance/depth-of-field scales are visible; the Leica M-specific 0.7 m focus limiter is not assigned to Nikon Z.",
+    "Japan explicitly attributes 63.5 x 58 mm and 254 g to Leica M with mount-dependent variation; China repeats those generic values. Existing Z measurements are retained pending Nikon Z-specific confirmation.",
+    "China separately lists an 11mm F4.5 Light edition (camera-lens-78). Its 65 x 56 mm and DL-specific 206 g do not establish replacements for this original product. The relationship between original and Light Nikon Z editions remains unresolved.",
+    "The 126-degree angle orientation, aperture click behavior, coating function, electronic contacts, environmental protection and external length behavior remain unconfirmed. Hood shape is visible and Japan notes no hood for DL, but Nikon Z hood integration/supply and other accessories need explicit confirmation. The global page was inaccessible; the discovered Light manual was not applied to this original edition."
   ]
 }

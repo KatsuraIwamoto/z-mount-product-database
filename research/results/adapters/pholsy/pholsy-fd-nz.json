@@ -6,7 +6,7 @@
     "brandId": "pholsy",
     "name": "PHOLSY Lens Mount Adapter Manual Focus Compatible with Canon FD FL Mount Lens to Nikon Z Mount Camera Body"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pholsy-fd-nz"
@@ -40,6 +40,47 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopifycdn.net/s/files/1/0693/8322/5576/files/PHOLSY_Lens_Mount_Adapter.pdf?v=1717556073",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/FD-NZ.jpg?v=1728872800&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/4-11_0011s_0001__14.jpg?v=1728872810&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pholsy.com/cdn/shop/files/4-11_0011s_0002__13.jpg?v=1728872812&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "What function does the OPEN/LOCK ring perform on this model: lens retention, aperture actuation, or another operation?"
   ]
 }

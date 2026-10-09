@@ -6,7 +6,7 @@
     "brandId": "boryoza",
     "name": "LM-NZ III Chipped Focus Confirm Macro Adapter Compatible with Leica M-Mount Lens to Nikon Z Camera"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "boryoza-lm-nz-iii"
@@ -24,7 +24,8 @@
         "mountConfigurations",
         "electronics",
         "electronicServices",
-        "conversionOptics"
+        "conversionOptics",
+        "identity.variants"
       ],
       "decisionChecks": [
         "availability"
@@ -52,6 +53,32 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://admin.boryoza.net/api/storefront/production/media/258",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://boryoza.net/downloads/LM-NZ%20MACRO%20III/LM-NZ%20%28ME%29%20III%20Focus%20Confirmation%20Macro%20User%20Manual.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "electronicServices",
+        "electronics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://boryoza.net/en/firmware",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
       ]
     }
   ]

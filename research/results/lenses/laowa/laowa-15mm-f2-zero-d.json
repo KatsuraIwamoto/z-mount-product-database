@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 15mm F2 Zero-D"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "laowa-15mm-f2-zero-d"
@@ -62,9 +62,18 @@
         "lens.focus",
         "lens.stabilization"
       ]
+    },
+    {
+      "url": "https://www.laowa.jp/LAOWA-15mm-f2-02-thumb.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
   ],
   "unresolved": [
-    "Confirm the diaphragm blade count of the Nikon Z configuration."
+    "Confirm the diaphragm blade count of the Nikon Z configuration.",
+    "Which dimensions and weight are specified for the Nikon Z configuration?"
   ]
 }

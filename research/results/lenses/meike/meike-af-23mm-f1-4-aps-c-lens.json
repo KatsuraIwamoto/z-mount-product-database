@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike AF 23mm F1.4 APS-C Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-af-23mm-f1-4-aps-c-lens"
@@ -77,6 +77,51 @@
         "lens.opticalConstruction",
         "physical.weightMeasurements"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/2314__01_69db4fce-eb17-4791-8302-9a6cfb51a944.jpg?v=1766133502",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.alternateNames",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/2314__10_536befa4-5b04-4557-bd0a-36abe2226b7e.jpg?v=1766133501",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount.electronicContacts",
+        "electronicServices",
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/2314__12_d2e529bb-f1b8-461b-8517-3263ed6d8667.jpg?v=1766133501",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/2314__13_05a05e01-60b7-4485-a46c-4d1f828004a1.jpg?v=1766133501",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does the shared 66.5 x 81 mm measurement apply to Nikon Z, and what accessories are included in its approximately 302 g mass?",
+    "Which orientations correspond to the three APS-C angles 55.1, 38.2 and 64.1 degrees? The official graphic does not label them.",
+    "Can Nikon Z opposite-side and underside photos complete the exterior survey and substantiate existing tripod-support and retractability fields? The detail collage illustrates a shared mount.",
+    "Can operating documentation identify the manual-control ring function and mechanism?"
   ]
 }

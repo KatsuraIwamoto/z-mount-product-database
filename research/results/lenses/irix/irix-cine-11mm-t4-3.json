@@ -6,7 +6,7 @@
     "brandId": "irix",
     "name": "Irix Cine 11mm T4.3"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "irix-cine-11mm-t4-3"
@@ -37,7 +37,12 @@
         "lens.coverage",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "physical.frontAccessoryInterface",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.imageCircleDiameters",
+        "accessories"
       ]
     },
     {
@@ -50,6 +55,29 @@
         "physical",
         "controls"
       ]
+    },
+    {
+      "url": "https://irixlens.com/new/wp-content/uploads/2024/09/Irix-11mm-Cine-T4.3-IL-C11-CA.24-2048x1536.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.tripodSupport",
+        "physical.frontAccessoryInterface"
+      ]
+    },
+    {
+      "url": "https://irixlens.com/cine-lenses/cine-lenses-150mm/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "physical.filterInterfaces"
+      ]
     }
+  ],
+  "unresolved": [
+    "Shared front/side renders show distance markings and a support foot, but do not identify the Nikon Z rear mount; complete Z-specific four-direction coverage and electronic contact status remain unconfirmed.",
+    "The 11 mm page includes a generic Magnetic Mount System claim, but the 150 mm Macro page explicitly excludes 11 mm and 21 mm from MMS compatibility. No front filter thread is specified; the empty filterInterfaces list is retained with this official copy conflict noted.",
+    "The optical group count and coating function are not stated in the reopened product text. Neutrino coating is visible on the barrel, but its function is not inferred from the label."
   ]
 }

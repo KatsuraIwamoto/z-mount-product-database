@@ -6,7 +6,7 @@
     "brandId": "voigtlander",
     "name": "APO-LANTHAR 28mm F2 Aspherical"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "voigtlander-apo-lanthar-28mm-f2-aspherical"
@@ -120,6 +120,20 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://www.cosina.co.jp/wp/wp-content/uploads/2025/11/Z-28_20-01-ikws.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete Nikon Z directional photographs reconfirm negative tripod/stabilization/retractability facts? The official Z hood-mounted front-oblique was inspected; it does not provide full directional coverage."
   ]
 }

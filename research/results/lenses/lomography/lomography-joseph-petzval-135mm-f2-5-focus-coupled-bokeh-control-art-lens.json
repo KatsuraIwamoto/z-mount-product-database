@@ -6,7 +6,7 @@
     "brandId": "lomography",
     "name": "Lomography Joseph Petzval 135mm F2.5 Focus-Coupled Bokeh Control Art Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lomography-joseph-petzval-135mm-f2-5-focus-coupled-bokeh-control-art-lens"
@@ -31,7 +31,10 @@
         "lens.aperture",
         "lens.coverage",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "accessories",
+        "physical.dimensionMeasurements",
+        "lens.coatings"
       ]
     },
     {
@@ -46,6 +49,26 @@
         "availability",
         "inclusion-criteria"
       ]
+    },
+    {
+      "url": "https://cdn.shop.lomography.com/media/catalog/product/cache/d48ee8365af56e523deee8f9725f2022/c/i/cine-mood-prduct-shot-side-grey_2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shop.lomography.com/media/catalog/product/cache/d48ee8365af56e523deee8f9725f2022/c/i/cine-mood-prduct-shot-back-grey_1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "How is the secondary 67 mm standard-filter interface positioned and hosted relative to the 77 mm thread? The manufacturer excludes step-up rings from the 67 mm interface.",
+    "Can Nikon Z mount-face and underside images establish complete exterior coverage and electronic-contact status?"
   ]
 }

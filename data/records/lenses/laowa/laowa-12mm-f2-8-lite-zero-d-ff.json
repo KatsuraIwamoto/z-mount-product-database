@@ -16,6 +16,18 @@
   },
   "officialProductPages": [
     {
+      "url": "https://www.laowalens.com/camera-lens-89",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "CN",
+      "language": "zh",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Venus Optics"
+      }
+    },
+    {
       "url": "https://www.venuslens.net/product/laowa-12mm-f-2-8-lite-zero-d-ff/",
       "pageFamilies": [
         "global",
@@ -26,6 +38,18 @@
       "publisher": {
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
+      }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/12mmf2.8-lite.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
       }
     }
   ],
@@ -60,7 +84,24 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -106,8 +147,32 @@
       "groups": 9,
       "elements": 16
     },
-    "specialElements": null,
-    "coatings": null,
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 2
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 4,
+        "officialName": "ED"
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "surface-protective"
+        ],
+        "officialName": "蛙眼镀膜",
+        "appliedTo": [
+          "front-element"
+        ]
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false
@@ -117,7 +182,12 @@
         "mechanism": "mechanical-coupled"
       },
       "opticalFocusingSystems": null,
-      "minimumFocusDistances": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.14,
+          "conditions": {}
+        }
+      ],
       "reproductionMagnifications": [
         {
           "kind": "maximum",

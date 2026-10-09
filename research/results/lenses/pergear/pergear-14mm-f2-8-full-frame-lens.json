@@ -6,7 +6,7 @@
     "brandId": "pergear",
     "name": "PERGEAR 14mm F2.8 Full-Frame Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "pergear-14mm-f2-8-full-frame-lens"
@@ -56,11 +56,30 @@
       "checked": [
         "mount",
         "physical.dimensionMeasurements",
-        "physical.weightMeasurements"
+        "physical.weightMeasurements",
+        "controls",
+        "lens.specialElements"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://prcdn.freetls.fastly.net/release_image/70183/236/70183-236-24a408edfbbb5ed1e25acfa2b2127155-1000x1000.jpg?auto=webp&fit=bounds&format=jpeg&height=1350&quality=85%2C65&width=1950",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside views complete the exterior survey, including contact/support/storage claims?",
+    "Can operating documentation identify the focus-ring operation and all mount/accessory conditions for measurements?",
+    "The original global announcement gives 550g and 66x54.6mm, while the Japanese launch release gives 500g and 66x87mm. Which measurements apply to Nikon Z? Values remain unset.",
+    "The global announcement calls the treatment reflection multi-layer coating. Can its functional coating classification be clarified?",
+    "The current product URL describes the II generation. Can an original manual confirm the 82mm filter interface host and original hood package relationship?"
   ]
 }

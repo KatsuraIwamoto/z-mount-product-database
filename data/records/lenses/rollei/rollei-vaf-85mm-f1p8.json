@@ -161,6 +161,12 @@
         "orientation": null,
         "degrees": 28.5,
         "conditions": {}
+      },
+      {
+        "format": "aps-c",
+        "orientation": null,
+        "degrees": 19,
+        "conditions": {}
       }
     ],
     "coverage": {

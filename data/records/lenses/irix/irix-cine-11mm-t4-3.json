@@ -40,7 +40,9 @@
       {
         "maximumDiameterMm": 95,
         "lengthMm": 133.5,
-        "conditions": {}
+        "conditions": {
+          "attachedComponents": []
+        }
       }
     ],
     "weightMeasurements": [
@@ -54,7 +56,9 @@
     "officialEnvironmentalProtectionClaims": [
       {
         "types": [
-          "other"
+          "weather-resistant",
+          "dust-resistant",
+          "moisture-resistant"
         ],
         "scope": {
           "kind": "product"
@@ -68,17 +72,20 @@
       "components": [
         {
           "type": "foot",
-          "relationship": null,
+          "relationship": "supplied",
           "removable": true,
           "interfaces": null,
           "modelNumberOptions": null,
-          "quantity": null,
+          "quantity": 1,
           "conditions": {}
         }
       ]
     },
     "externalLengthDuringFocus": "constant",
-    "isRetractableForStorage": false
+    "isRetractableForStorage": false,
+    "frontAccessoryInterface": {
+      "outsideDiameterMm": 95
+    }
   },
   "controls": [
     {
@@ -92,9 +99,32 @@
       "quantity": 1,
       "rotationDegrees": 75,
       "geared": true
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
     }
   ],
-  "accessories": null,
+  "accessories": {
+    "lensHoods": null,
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "electronicServices": null,
   "lens": {
     "focalLength": {
@@ -136,8 +166,33 @@
     "coverage": {
       "format": "full-frame"
     },
-    "opticalConstruction": null,
-    "specialElements": null,
+    "opticalConstruction": {
+      "elements": 16,
+      "groups": null
+    },
+    "specialElements": [
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "officialName": "HR",
+        "quantity": 4
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "officialName": "ED",
+        "quantity": 2
+      },
+      {
+        "types": [
+          "aspherical"
+        ],
+        "officialName": "ASP",
+        "quantity": 3
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {
@@ -160,13 +215,24 @@
         }
       ],
       "reproductionMagnifications": null,
-      "officialFocusBehaviorClaims": null
+      "officialFocusBehaviorClaims": [
+        {
+          "type": "focus-breathing-suppressed",
+          "conditions": {}
+        }
+      ]
     },
     "stabilization": {
       "present": false
     },
     "specialized": {
       "cinema": {}
-    }
+    },
+    "imageCircleDiameters": [
+      {
+        "diameterMm": 43.3,
+        "conditions": {}
+      }
+    ]
   }
 }

@@ -6,7 +6,7 @@
     "brandId": "fotodiox",
     "name": "Fotodiox Pro Fusion Adapter, Smart AF Adapter - Compatible with Canon EOS (EF / EF-S) D/SLR Lenses to Nikon Z-Mount Mirrorless Cameras with Full Automated Functions"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "fotodiox-ef-nkz-fsn"
@@ -37,9 +37,58 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/files/EF-NKZ-FSN-Manual.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "mechanisms",
+        "electronicServices",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/products/EF-NKZ-FSN-01.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/products/EF-NKZ-FSN-02.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "electronics",
+        "conversionOptics",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/products/EF-NKZ-FSN-03.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "electronics",
+        "conversionOptics"
+      ]
     }
   ],
   "unresolved": [
-    "Is lens-based image stabilization supported by the released EF-NKZ-FSN firmware?"
+    "Is lens-based image stabilization supported by the released EF-NKZ-FSN firmware?",
+    "Which firmware-update connector applies to the released adapter, given the Micro USB designation in the manual and the USB Mini Upgrade Port marking in the official photograph?",
+    "What measurement conditions account for the adapter length and weight published in the manual and the product-page dimensions and imperial weight?"
+  ],
+  "notes": [
+    "The L-Fn button can be assigned camera functions through the Nikon camera custom-controls menu."
   ]
 }

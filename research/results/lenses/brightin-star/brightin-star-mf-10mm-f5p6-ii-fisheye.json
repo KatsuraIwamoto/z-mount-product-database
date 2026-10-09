@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "MF 10mm F5.6 II APS-C Fisheye Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-10mm-f5p6-ii-fisheye"
@@ -63,6 +63,26 @@
         "lens.opticalConstruction",
         "lens.focus"
       ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/10mmF5.6.png?v=1781926050&width=700",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "identity.variants",
+        "accessories",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.aperture",
+        "lens.anglesOfView"
+      ]
     }
+  ],
+  "unresolved": [
+    "The Nikon Z diagram gives approximately 64 × 35 mm and 148 g; the 132 g headline applies to Sony E in the same diagram. Length datum and cap/accessory measurement conditions remain unspecified.",
+    "The gallery shows Fujifilm-mounted lenses and shared barrel views, with a Nikon Z-specific dimension illustration but no complete Nikon Z top, bottom, left, right and rear coverage. The hood attachment mechanism and filter compatibility remain unconfirmed."
   ]
 }

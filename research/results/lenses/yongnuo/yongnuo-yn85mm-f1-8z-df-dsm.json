@@ -6,7 +6,7 @@
     "brandId": "yongnuo",
     "name": "YONGNUO YN85mm F1.8Z DF DSM"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "yongnuo-yn85mm-f1-8z-df-dsm"
@@ -53,6 +53,53 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://th.hkyongnuo.com/products/yn85mm-f18z-df-dsm",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "officialProductPages",
+        "controls",
+        "physical.officialEnvironmentalProtectionClaims",
+        "electronicServices",
+        "mount.electronicContacts",
+        "lens.specialElements",
+        "lens.coatings",
+        "accessories",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://ueeshop.ly200-cdn.com/u_file/UPAU/UPAU946/2311/16/products/0ea4088919.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://ueeshop.ly200-cdn.com/u_file/UPAU/UPAU946/2204/25/products/800-800-15-d4c7.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete top, bottom, left, right and mount-face views establish any additional exterior components? The inspected views do not establish a complete inventory or component absence.",
+    "Which diameter and length apply to this Z lens: 67 × 88 mm in the official specification table or approximately 68 × 89 mm in the same page description? Can the manufacturer clarify the measurement basis?",
+    "What degree of water protection is specified for the mount sealing ring? The page calls the ring waterproof but explicitly says the mount is not completely waterproof."
   ]
 }

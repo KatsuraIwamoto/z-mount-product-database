@@ -6,7 +6,7 @@
     "brandId": "megadap",
     "name": "Canon EF to Nikon Z Autofocus Adapter"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "megadap-eftz21"
@@ -37,7 +37,49 @@
         "identity",
         "electronics",
         "electronicServices"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000002018",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.stkb.co.jp/file/Megadap-EFTZ21.pdf",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "manual",
+      "checked": [
+        "electronics",
+        "mechanisms",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://megadap.net/wp-content/uploads/2024/04/ETZ21_03-1-1-1-600x630.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://megadap.net/wp-content/uploads/2024/04/DSC06610-scaled-600x400.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mechanisms"
       ]
     }
+  ],
+  "unresolved": [
+    "Can unobstructed rear and four-sided exterior views establish the complete control, connector and tripod-support arrangement?"
   ]
 }

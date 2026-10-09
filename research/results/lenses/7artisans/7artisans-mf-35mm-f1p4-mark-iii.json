@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 35mm f/1.4 III Full-frame Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-35mm-f1p4-mark-iii"
@@ -33,7 +33,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.coatings"
       ],
       "decisionChecks": [
         "availability"
@@ -64,6 +65,17 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/351.4-_MTF.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which image format and orientation apply to the stated 42-degree angle of view? The shared official table labels the lens full frame but does not identify the angle measurement format; the existing record assigns APS-C."
   ]
 }

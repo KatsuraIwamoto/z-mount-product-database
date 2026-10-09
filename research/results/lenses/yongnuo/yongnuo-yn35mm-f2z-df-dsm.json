@@ -6,7 +6,7 @@
     "brandId": "yongnuo",
     "name": "YONGNUO YN35mm F2Z DF DSM"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "yongnuo-yn35mm-f2z-df-dsm"
@@ -32,7 +32,9 @@
         "lens.aperture",
         "lens.coverage",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "physical.officialEnvironmentalProtectionClaims",
+        "electronicServices"
       ],
       "decisionChecks": [
         "availability"
@@ -81,6 +83,36 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://ueeshop.ly200-cdn.com/u_file/UPAU/UPAU946/2311/16/products/44011a601b.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://ueeshop.ly200-cdn.com/u_file/UPAU/UPAU946/2211/04/products/2-800-7216.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://ueeshop.ly200-cdn.com/u_file/UPAU/UPAU946/2210/31/products/1-9e19.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount.electronicContacts",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can complete top, bottom, left, right and mount-face views establish any additional exterior components? The inspected views do not establish a complete inventory or component absence."
   ]
 }

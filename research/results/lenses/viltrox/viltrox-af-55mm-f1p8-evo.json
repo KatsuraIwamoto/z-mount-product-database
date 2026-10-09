@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 55mm F1.8 EVO"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-55mm-f1p8-evo"
@@ -40,7 +40,9 @@
         "lens.specialElements",
         "lens.coatings",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity",
+        "physical"
       ]
     },
     {
@@ -68,6 +70,34 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_55_1.8_EVO_Z_User_Manual_V4.pdf?v=1778743088",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.aperture",
+        "lens.focus",
+        "lens.anglesOfView",
+        "lens.coatings",
+        "controls",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_55mm_F1.8_II_EVO_Z_-_front_view.png?v=1776245717",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can full Nikon Z directional photographs reconfirm existing negative tripod/stabilization/retractability facts? Actual Z front-oblique and Z manual component diagram were inspected; complete directional coverage remains unavailable. The shared click-switch photograph on the page is also used for the 35mm EVO and is not treated as an independent Z-specific view."
   ]
 }

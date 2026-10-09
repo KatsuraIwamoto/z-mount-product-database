@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan 50mm F1.4 ASPH."
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-50mm-f1-4-asph"
@@ -27,7 +27,9 @@
         "lens.anglesOfView",
         "lens.coverage",
         "lens.opticalConstruction",
-        "lens.focus"
+        "lens.focus",
+        "controls",
+        "lens.specialElements"
       ]
     },
     {
@@ -46,7 +48,10 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "controls",
+        "accessories",
+        "lens.specialized"
       ]
     },
     {
@@ -59,6 +64,19 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/5014.jpg?v=1724398872&width=493",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can the manufacturer correct the store dimensions of 68 cm by 57 cm and identify the Nikon Z dimensions? No assumed millimeter correction is recorded.",
+    "Can exact Nikon Z top/bottom/left/right and rear views plus operating documentation reconfirm contact absence and existing negative tripod/stabilization/retractability facts? Shared barrel views do not establish complete Z coverage."
   ]
 }

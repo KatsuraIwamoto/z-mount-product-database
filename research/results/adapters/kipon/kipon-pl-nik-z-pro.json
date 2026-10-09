@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "PL-NIK Z PRO Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kipon-pl-nik-z-pro"
@@ -27,6 +27,26 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://img.kipon.com/PL-NZ-5/PL-NZ-2-1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mechanisms",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://img.kipon.com/PL-NZ-5/PL-NZ-4-1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mechanisms",
+        "mountConfigurations"
       ]
     }
   ]

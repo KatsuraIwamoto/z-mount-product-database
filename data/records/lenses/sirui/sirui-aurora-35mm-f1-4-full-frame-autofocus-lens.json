@@ -35,13 +35,29 @@
     "mountOwnerRelationship": null,
     "electronicContacts": {
       "present": true,
-      "metadataTransmission": null
+      "metadataTransmission": {
+        "present": true,
+        "standards": [
+          "exif"
+        ]
+      }
     }
   },
   "physical": {
     "dimensionMeasurements": null,
     "weightMeasurements": null,
-    "officialEnvironmentalProtectionClaims": null,
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "dust-resistant",
+          "drip-resistant"
+        ],
+        "scope": {
+          "kind": "product"
+        },
+        "conditions": {}
+      }
+    ],
     "filterInterfaces": [
       {
         "type": "front-thread",
@@ -57,9 +73,47 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "rotationDegrees": 360
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "switchable"
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    },
+    {
+      "type": "function-button",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring-click-switch",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring-lock",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
-  "electronicServices": null,
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "connectorType": "usb-c",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -115,8 +169,45 @@
       "groups": 11,
       "elements": 16
     },
-    "specialElements": null,
-    "coatings": null,
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 3
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 2,
+        "officialName": "ED Glass"
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 1,
+        "officialName": "SED Glass"
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 2,
+        "officialName": "HRI Glass"
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "surface-protective"
+        ],
+        "appliedTo": [
+          "front-element"
+        ]
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": true,

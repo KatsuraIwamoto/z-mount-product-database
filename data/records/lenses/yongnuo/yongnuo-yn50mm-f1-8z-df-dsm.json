@@ -68,7 +68,19 @@
         }
       }
     ],
-    "officialEnvironmentalProtectionClaims": null,
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "dust-resistant",
+          "waterproof"
+        ],
+        "scope": {
+          "kind": "component",
+          "component": "mount sealing rubber ring"
+        },
+        "conditions": {}
+      }
+    ],
     "filterInterfaces": [
       {
         "type": "front-thread",
@@ -82,7 +94,16 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "control-ring",
+      "quantity": 1
+    },
+    {
+      "type": "function-button",
+      "quantity": 2
+    }
+  ],
   "accessories": null,
   "electronicServices": {
     "hasPublishedFirmwareUpdate": null,

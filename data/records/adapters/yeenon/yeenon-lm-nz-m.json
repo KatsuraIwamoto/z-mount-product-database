@@ -1,0 +1,68 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "yeenon-lm-nz-m",
+  "identity": {
+    "manufacturerId": "yeenon",
+    "brandId": "yeenon",
+    "productName": "YEENON LM-NZ Leica M VM to Nikon Z camera Close Focus adapter Black（macro）",
+    "modelNumberOptions": [
+      "LM-NZ"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": null
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.ebay.com/itm/404236342718",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "YEENON"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "leica-m",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": [
+    {
+      "type": "helicoid",
+      "conditions": {}
+    }
+  ],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": false
+  }
+}

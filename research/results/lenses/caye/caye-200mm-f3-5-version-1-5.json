@@ -6,7 +6,7 @@
     "brandId": "caye",
     "name": "CAYE 200mm F3.5 Version 1.5"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
@@ -25,6 +25,7 @@
     }
   ],
   "unresolved": [
-    "Which entity manufactures the product, and which official specifications apply to the Nikon Z configuration?"
+    "Which entity manufactures the product, and which official specifications apply to the Nikon Z configuration?",
+    "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
   ]
 }

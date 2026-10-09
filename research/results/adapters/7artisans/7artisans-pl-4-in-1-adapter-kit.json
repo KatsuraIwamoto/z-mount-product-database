@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "PL Lens Adapter Kit 4-in-1"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-pl-4-in-1-adapter-kit"
@@ -41,8 +41,13 @@
       "publisherRelationship": "authorized-distributor",
       "sourceType": "distributor-page",
       "checked": [
-        "mechanisms"
+        "mechanisms",
+        "identity.variants",
+        "mountConfigurations"
       ]
     }
+  ],
+  "unresolved": [
+    "What dimensions and weight apply to the assembled Nikon Z configuration? The Japanese listing identifies 163 g as E mount, while the current B.I.G. catalog gives 173 g and 95 x 44 mm without assigning a mount configuration."
   ]
 }

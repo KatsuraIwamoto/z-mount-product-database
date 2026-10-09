@@ -46,7 +46,18 @@
   "physical": {
     "dimensionMeasurements": null,
     "weightMeasurements": null,
-    "officialEnvironmentalProtectionClaims": null,
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "weather-resistant"
+        ],
+        "scope": {
+          "kind": "component",
+          "component": "Mount"
+        },
+        "conditions": {}
+      }
+    ],
     "filterInterfaces": [
       {
         "type": "front-thread",
@@ -70,9 +81,26 @@
     {
       "type": "function-button",
       "quantity": 1
+    },
+    {
+      "type": "focus-ring",
+      "quantity": 1
     }
   ],
-  "accessories": null,
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": null,
+    "rearCaps": null,
+    "lensStraps": null,
+    "protectiveWraps": null,
+    "lensCases": null
+  },
   "electronicServices": {
     "hasPublishedFirmwareUpdate": true,
     "connections": [

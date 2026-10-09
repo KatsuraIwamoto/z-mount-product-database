@@ -6,7 +6,7 @@
     "brandId": "songraw",
     "name": "Z-Mount AF 50mm F1.2 Moonlit Full Frame Autofocus Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "songraw-af-50mm-f1p2-moonlit"
@@ -82,6 +82,45 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://songrawlens.com/cdn/shop/files/z_uv.png?v=1785223132&width=713",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://img.wanwang.xin/contents/sitefiles2071/10356549/images/176663824.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://img.wanwang.xin/contents/sitefiles2071/10356549/images/176663829.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.songraw.com/50moonlit",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "2026-09-20: Manufacturer catalog and current store confirm Z Moonlit. Z-labeled lateral image shows aperture ring and CLICK ON/OFF switch; manufacturer operating graphic identifies click switching. Shared E exterior also shows AF/MF and function button, but those controls were not newly asserted for Z without its opposite-side view. Z rear/underside/opposite side remain unverified. Several manufacturer detailed specification images returned 403 and store long-form images were not legible at available display scale, so existing numerical/optical, environmental, firmware, focus-mechanism and stabilization claims are retained as not fully reconfirmed rather than guessed or erased. Official comparison gives about 900 g without mount assignment; existing Z mass is retained pending Z-specific confirmation. Manufacturer packing image confirms hood, caps and soft pouch; bundled promotional UV filter does not establish permanent inclusion."
   ]
 }

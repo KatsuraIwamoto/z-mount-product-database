@@ -6,7 +6,7 @@
     "brandId": "mr-ding",
     "name": "Noxlux DG 50/1.2 Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "mr-ding-noxlux-dg-50mm-f1p2-z"
@@ -35,8 +35,50 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.specialElements",
+        "lens.coatings",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://mrdingstudio.com/cdn/shop/files/ALP02164.jpg?v=1763708962",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "physical"
+      ]
+    },
+    {
+      "url": "https://mrdingstudio.com/cdn/shop/files/ALP02153.jpg?v=1763708962",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "physical"
+      ]
+    },
+    {
+      "url": "https://mrdingstudio.com/cdn/shop/files/ALP02248.jpg?v=1763708962",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "physical"
       ]
     }
+  ],
+  "unresolved": [
+    "Can opposite-side and underside Nikon Z images complete the exterior survey? Front/rear oblique and camera-mounted top images were inspected.",
+    "Can operating documentation identify the ring functions and aperture click behavior? Visible distance and depth-of-field scales alone do not establish operation.",
+    "What accessory conditions apply to the 470 g mass, and is the supplied Round Case a soft or hard case?",
+    "The introductory paragraph describes 35mm F1.8, whereas the product title, specifications and images identify 50mm F1.2. Can the manufacturer correct the introduction? Electronic focus confirmation does not by itself confirm metadata transmission."
   ]
 }

@@ -55,7 +55,8 @@
         "grams": 595,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": [
@@ -103,7 +104,8 @@
     },
     {
       "type": "aperture-ring",
-      "quantity": 1
+      "quantity": 1,
+      "clickBehavior": "switchable"
     },
     {
       "type": "function-button",
@@ -208,6 +210,13 @@
         "appliedTo": [
           "front-element"
         ]
+      },
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "officialName": "HD Nano multilayer coating",
+        "appliedTo": null
       }
     ],
     "focus": {

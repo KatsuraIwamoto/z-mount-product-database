@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 24mm F1.8"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-24mm-f1p8"
@@ -39,7 +39,9 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity",
+        "physical"
       ]
     },
     {
@@ -65,8 +67,39 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "manual",
       "checked": [
-        "electronicServices"
+        "electronicServices",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF24mm_F1.8_Z-661615.png?v=1722921084&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "identity",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/12_1634d046-2ec1-4212-8f84-aac824ee28f0.jpg?v=1711591535&width=1500",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronicServices",
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/products/7_7198ee2e-026c-4543-96ca-4d933effff5c.jpg?v=1719813956&width=1500",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
       ]
     }
+  ],
+  "unresolved": [
+    "Can complete Nikon Z directional images reconfirm existing negative stabilization/tripod/retractability facts and aperture click behavior? Z bare-lens front-oblique, package and Nikon-mounted/rear detail images were inspected; full side/bottom coverage is incomplete. The 1/3 EV aperture setting table alone does not establish mechanical click behavior."
   ]
 }

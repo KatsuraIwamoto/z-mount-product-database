@@ -6,7 +6,7 @@
     "brandId": "vello",
     "name": "Canon EF/EF-S Lens to Nikon Z-Mount Camera Lens Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "vello-la-nz-cef"
@@ -33,7 +33,9 @@
         "identity.modelNumberOptions",
         "mountConfigurations",
         "electronics",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.weightMeasurements",
+        "lifecycle"
       ]
     },
     {
@@ -49,6 +51,28 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/gradusgroup/data/14054/images/compressed/560x560/1-_la-nz-cef_main_view.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/gradusgroup/data/14054/images/compressed/560x560/2-_la-nz-cef_view_2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
       ]
     }
   ]

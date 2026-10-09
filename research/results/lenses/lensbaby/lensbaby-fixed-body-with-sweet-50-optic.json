@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Fixed Body with Sweet 50 Optic"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-fixed-body-with-sweet-50-optic"
@@ -73,6 +73,27 @@
         "lens.focus",
         "lens.stabilization"
       ]
+    },
+    {
+      "url": "https://lensbaby.com/blogs/creative-photography/guide-composer-series-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "other",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/cdn/shop/files/FixedBody_Sweet50.png?v=1744421208&width=2000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z-specific assembled dimensions and mass?",
+    "Can Nikon Z-specific front, rear, opposite-side and underside images and an operating guide establish complete exterior and control coverage?",
+    "How should the fixed-body product description saying non-interchangeable be reconciled with its Optic Swap Compatible specification and the references to a Composer Pro II body?"
   ]
 }

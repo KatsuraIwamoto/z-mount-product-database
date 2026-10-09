@@ -6,7 +6,7 @@
     "brandId": "sg-image",
     "name": "SG-image AF 55mm F1.8 Full-Frame Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "sg-image-af-55mm-f1-8-full-frame-lens"
@@ -61,6 +61,23 @@
         "lens.aperture",
         "physical.filterInterfaces"
       ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/10df10e33f51f214ddd2996389658ca6_274e300a-8209-4454-8b8e-9882e668a19c.png?v=1757069653&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical",
+        "controls",
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Z-specific front/rear/opposite/underside photographs establish exterior features and package contents? The inspected shared lateral hood image and Fujifilm-mounted photograph are not complete Z coverage.",
+    "Can operating documentation identify the visible ring function, manual-focus capability/mechanism and update connector? Grooves alone are not used to assign a control function.",
+    "What mount/accessory conditions apply to the common approximately 365g and 69x78mm specifications?",
+    "The specification image says automatic aperture, not an explicit physical aperture ring; no aperture-ring entry is inferred."
   ]
 }

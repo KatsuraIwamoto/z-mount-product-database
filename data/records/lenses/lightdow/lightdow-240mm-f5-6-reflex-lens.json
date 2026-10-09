@@ -67,7 +67,16 @@
     "isRetractableForStorage": false,
     "externalLengthDuringFocus": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -103,7 +112,14 @@
       "elements": 6,
       "groups": 3
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 1
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {

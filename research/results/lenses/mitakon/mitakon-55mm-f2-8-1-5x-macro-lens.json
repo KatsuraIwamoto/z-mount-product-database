@@ -6,7 +6,7 @@
     "brandId": "mitakon",
     "name": "Mitakon 55mm f/2.8 1-5X Macro Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "mitakon-55mm-f2-8-1-5x-macro-lens"
@@ -52,6 +52,36 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://zyoptics.net/wp-content/uploads/2025/08/20250815_KV_Mitakon-55mm-1920x1080-01.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://zyoptics.net/wp-content/uploads/2025/08/20250811_Robust-Lens-Housing_Lenus-Housing.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "physical",
+        "mount"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside images complete the exterior survey, including contacts, support parts and storage retractability?",
+    "What accessory and mount conditions apply to the published mass and dimensions? Current shared specifications do not separately identify all Nikon Z measurement conditions.",
+    "Can operating documentation identify the magnification/focus and aperture controls and their click behavior?",
+    "Can the manufacturer confirm aperture minimum, rounded blade shape and exact Z-specific dimensions? Shared dimensions are 67 x 87 mm at 1x and 67 x 162 mm at 5x.",
+    "Which image format and axis apply to the 13.7-degree (1x) and 5.6-degree (5x) angles of view?",
+    "The manufacturer explicitly includes a front LED light; what is its model and power interface? The current accessory fields do not encode this item."
   ]
 }

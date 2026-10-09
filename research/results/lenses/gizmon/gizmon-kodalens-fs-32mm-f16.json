@@ -6,7 +6,7 @@
     "brandId": "gizmon",
     "name": "GIZMON Kodalens FS"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "gizmon-kodalens-fs-32mm-f16"
@@ -37,7 +37,8 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "accessories"
       ]
     },
     {
@@ -63,6 +64,29 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://www.gizmoshop.jp/cdn/shop/files/500.jpg?v=1776716768&width=600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://www.gizmoshop.jp/cdn/shop/files/un.jpg?v=1776752465&width=600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount",
+        "mount.electronicContacts"
+      ]
     }
+  ],
+  "unresolved": [
+    "The 60 x 15 mm dimensions explicitly vary with mount and the approximately 46 g weight has no mount or attachment conditions. Existing generic measurements are retained; Nikon Z-specific measurements remain unconfirmed.",
+    "Shared front/oblique, rear and exploded images do not identify Nikon Z; full Z-specific four-direction coverage remains unavailable. The threaded lens unit can be loosened for closer focus, but this is not evidence of a dedicated focus ring or a stated minimum distance for that adjustment.",
+    "The detail page lists a pouch while the store package list omits it. Pouch inclusion remains unresolved. The supplied lens cap is confirmed; no filter-interface specification was found to independently corroborate the existing empty list."
   ]
 }

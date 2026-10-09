@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 12mm f/2.8 Mark II APS-C Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-12mm-f2p8-mark-ii"
@@ -50,6 +50,15 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/files/24_408e26e8-5ea0-4878-a0ad-eced88ae4825.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "lens.focus"
       ]
     }
   ],

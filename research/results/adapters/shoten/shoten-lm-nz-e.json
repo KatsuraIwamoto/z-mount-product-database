@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN LM-NZ E Mount Adapter"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "shoten-lm-nz-e"
@@ -23,7 +23,6 @@
         "electronics",
         "electronicServices",
         "conversionOptics",
-        "mechanisms",
         "officialProductPages",
         "physical.weightMeasurements",
         "physical.dimensionMeasurements"
@@ -45,6 +44,60 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://stkb.co.jp/support.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/32/24/4_000000002432.jpg?1774315725",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://gigaplus.makeshop.jp/shotenkobo/img/shoten/SHOTEN_E-series_MountAdapter_for_Nikon_Z.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "electronics",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/32/24/1_000000002432.jpg?1774315725",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/32/24/2_000000002432.jpg?1774315725",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Do complete exterior views or model-specific operating instructions establish whether this adapter has any adjustment mechanism beyond the lens-release control?"
+  ],
+  "notes": [
+    "EXIF lens information is configured in the adapter; the E-series manual distinguishes the camera-set EXIF aperture from the manually selected lens aperture."
   ]
 }

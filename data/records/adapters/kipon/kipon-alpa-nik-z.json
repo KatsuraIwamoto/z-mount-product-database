@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "ALPA-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "ALPA-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

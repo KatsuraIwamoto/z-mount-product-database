@@ -6,7 +6,7 @@
     "brandId": "vello",
     "name": "Lens Adapter for Leica M Lens to Nikon Z-Mount Camera"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "vello-la-nz-lm"
@@ -24,7 +24,8 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "physical.weightMeasurements"
       ]
     },
     {
@@ -34,6 +35,28 @@
       "checked": [
         "identity",
         "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/gradusgroup/data/14052/images/compressed/560x560/1-_la-nx-lm_main_view.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://s3.amazonaws.com/gradusgroup/data/14052/images/compressed/560x560/2-_la-nz-lm_view_2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
       ]
     }
   ]

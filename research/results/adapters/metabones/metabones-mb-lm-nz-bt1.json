@@ -6,7 +6,7 @@
     "brandId": "metabones",
     "name": "Leica M Lens to Nikon Z-mount T Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "metabones-mb-lm-nz-bt1"
@@ -24,7 +24,30 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "mechanisms"
+        "mechanisms",
+        "physical.officialEnvironmentalProtectionClaims"
+      ]
+    },
+    {
+      "url": "https://www.metabones.com/assets/p/mb_lm-nz-bt1_a.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.metabones.com/assets/p/mb_lm-nz-bt1_b.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport"
       ]
     }
   ]

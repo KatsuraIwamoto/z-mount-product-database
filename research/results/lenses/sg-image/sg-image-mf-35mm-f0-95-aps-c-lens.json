@@ -6,7 +6,7 @@
     "brandId": "sg-image",
     "name": "SG-image MF 35mm F0.95 APS-C Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "sg-image-mf-35mm-f0-95-aps-c-lens"
@@ -61,6 +61,17 @@
         "controls",
         "physical.filterInterfaces"
       ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/35_0.95.png?v=1755256773&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "2026-09-20: Official page confirms Z option, APS-C coverage and manual focus; specification image 350.png agrees with recorded optical and physical values. Shared lateral exterior visibly shows distance and depth-of-field scales. Rear, opposite side and underside for Z were not established. Existing mechanical focus coupling and stabilization absence need explicit operating corroboration; attachment conditions for dimensions/mass remain unspecified."
   ]
 }

@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "AF 85mm F1.8 Full-Frame Portrait Prime Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-af-85mm-f1p8"
@@ -34,7 +34,8 @@
         "lens.specialElements",
         "lens.focus",
         "lens.stabilization",
-        "controls"
+        "controls",
+        "physical.officialEnvironmentalProtectionClaims"
       ]
     },
     {
@@ -68,6 +69,25 @@
         "lens.focus",
         "physical.filterInterfaces"
       ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/AF8518.jpg?v=1781927330&width=700",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories",
+        "physical.officialEnvironmentalProtectionClaims",
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.focus",
+        "physical.filterInterfaces"
+      ]
     }
+  ],
+  "unresolved": [
+    "The shared gallery shows a Sony E rear mount and Sony-mounted lens; complete Nikon Z directional image coverage remains unavailable. The shared stepless aperture-ring description has not been independently established for the Nikon Z configuration.",
+    "The shared approximately 79 × 89 mm diagram does not identify a Nikon Z measurement. Nikon Z dimensions and mass remain unknown. The illustrated coating is called multilayer double-resistant coating without an unambiguous coating-function classification."
   ]
 }

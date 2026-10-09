@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 56mm F1.2 Pro"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-56mm-f1p2-pro"
@@ -68,6 +68,46 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_56mm_F1.2_Pro_Z_User_Manual.pdf?v=1787732378",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.externalLengthDuringFocus",
+        "physical.filterInterfaces",
+        "lens.aperture",
+        "lens.focus",
+        "lens.anglesOfView",
+        "lens.coatings",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "controls",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_56mm_F1.2_Pro_Z-Front_view2.png?v=1767149762",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/AF_56mm_F1.2_Pro_-img15.jpg?v=1756458706",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can full Nikon Z directional photographs reconfirm existing negative tripod/stabilization/retractability facts? Z front-oblique, shared CLICK-switch detail and Z manual component diagram were inspected; complete directional coverage remains unavailable."
   ]
 }

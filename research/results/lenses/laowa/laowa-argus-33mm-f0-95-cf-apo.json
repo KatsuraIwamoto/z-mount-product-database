@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA Argus 33mm F0.95 CF APO"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-argus-33mm-f0-95-cf-apo"
@@ -32,7 +32,8 @@
         "lens.aperture",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.specialElements"
       ],
       "decisionChecks": [
         "availability"
@@ -62,8 +63,52 @@
         "lens.anglesOfView",
         "lens.coverage",
         "lens.specialElements",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "controls",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/Argus33mm_01.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/Argus33mm_02.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/Argus33mm_03.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/Argus33mm_04.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z-specific dimensions and mass, which the distributor states vary by mount?",
+    "Can Nikon Z-specific rear, opposite-side and underside images establish full exterior coverage?"
   ]
 }

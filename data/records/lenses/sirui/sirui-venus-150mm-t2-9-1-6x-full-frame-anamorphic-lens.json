@@ -16,7 +16,7 @@
   },
   "officialProductPages": [
     {
-      "url": "https://store.sirui.com/products/sirui-venus-anamorphic-lens-kit",
+      "url": "https://store.sirui.com/products/venus-150mm-t2-9-1-6x-full-frame-anamorphic-lens",
       "pageFamilies": [
         "global",
         "usa"
@@ -38,8 +38,23 @@
     }
   },
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 88,
+        "lengthMm": 182,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 1404,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "filterInterfaces": [
       {
@@ -57,7 +72,19 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "rotationDegrees": 153,
+      "geared": true
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "geared": true
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -73,17 +100,29 @@
             "conditions": {}
           }
         ],
-        "minimumAperture": null,
+        "minimumAperture": [
+          {
+            "value": 16,
+            "conditions": {}
+          }
+        ],
         "effective": null
       },
-      "diaphragm": null,
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 16,
+        "bladeShape": null
+      },
       "controlMechanism": "mechanical"
     },
     "anglesOfView": null,
     "coverage": {
       "format": "full-frame"
     },
-    "opticalConstruction": null,
+    "opticalConstruction": {
+      "groups": 11,
+      "elements": 16
+    },
     "specialElements": null,
     "coatings": null,
     "focus": {
@@ -95,7 +134,12 @@
         "mechanism": "mechanical-coupled"
       },
       "opticalFocusingSystems": null,
-      "minimumFocusDistances": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.58,
+          "conditions": {}
+        }
+      ],
       "reproductionMagnifications": null,
       "officialFocusBehaviorClaims": []
     },

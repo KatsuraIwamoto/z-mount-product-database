@@ -6,7 +6,7 @@
     "brandId": "pergear",
     "name": "PERGEAR 35mm F1.2 APS-C Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "pergear-35mm-f1-2-aps-c-lens"
@@ -33,8 +33,27 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "controls",
+        "accessories",
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://www.pergear.com/cdn/shop/products/A3000070_new_gallery1_1600x.jpg?v=1742262138",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical",
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside images complete the survey of contacts, support and storage features?",
+    "Can operating documentation establish focus-ring operation and mount/accessory measurement conditions?",
+    "Can the manufacturer specify aperture-ring operation/click behavior?",
+    "The page attributes a -50 to 120 Celsius range to TPU material, not to the complete lens. No product operating-temperature claim is inferred."
   ]
 }

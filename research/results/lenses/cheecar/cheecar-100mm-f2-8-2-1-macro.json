@@ -6,7 +6,7 @@
     "brandId": "cheecar",
     "name": "Cheecar 100mm F2.8 2:1 Macro"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "cheecar-100mm-f2-8-2-1-macro"
@@ -36,7 +36,8 @@
         "lens.specialElements",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "officialProductPages"
       ]
     },
     {
@@ -51,6 +52,40 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2025/04/23/68084c259b89c.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2025/04/23/68084c25d27cb.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.stabilization",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2025/04/23/68084c266670c.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements"
+      ]
     }
+  ],
+  "unresolved": [
+    "The current optical diagram colors several elements as ED and high-refractive-index, which does not visually agree with the existing counts of two ED and one high-index element. No explicit numeric count accompanies the diagram, so the existing counts are retained pending clarification rather than replacing them by an inferred count.",
+    "The shared specification gives 72 × 157 mm and approximately 790 g without a mount or cap measurement condition. Existing measurements are retained, but Nikon Z-specific dimensions and weight remain unverified.",
+    "Sixteen rendered manufacturer detail images were inspected, including annotated barrel controls and Sony-mounted front/top/side views. Complete Nikon Z top, bottom, left, right and exposed rear coverage remains unavailable; no eligible accessory packing list, coating description or working distance was found."
   ]
 }

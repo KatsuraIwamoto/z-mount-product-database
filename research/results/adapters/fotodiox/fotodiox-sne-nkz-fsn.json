@@ -6,7 +6,7 @@
     "brandId": "fotodiox",
     "name": "Fotodiox Pro Fusion Adapter, Smart AF Adapter - Compatible with Sony Alpha E-Mount Mirrorless Lenses to Nikon Z-Mount Mirrorless Full Frame Cameras with Full Automated Functions"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "fotodiox-sne-nkz-fsn"
@@ -24,7 +24,9 @@
         "conversionOptics",
         "mechanisms",
         "officialProductPages",
-        "electronicServices"
+        "electronicServices",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
       ],
       "decisionChecks": [
         "availability"
@@ -37,9 +39,43 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/files/SNE-NKZ-FSN-Mk2-06.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/files/SNE-NKZ-FSN-Mk2-02.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/files/SNE-NKZ-FSN-Mk2-04.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "electronicServices"
+      ]
     }
   ],
   "unresolved": [
-    "What firmware-update connection method and connector apply to each released SNE-NKZ-FSN version?"
+    "What USB connector is used on the update cap supplied with the original unmarked Mark I adapter?",
+    "What product weight and measurement conditions apply to each released adapter generation?"
+  ],
+  "notes": [
+    "The official firmware instructions use the supplied USB body cap as the update connection and provide separate firmware for the unmarked Mark I and marked Mark II adapters.",
+    "The official compatibility list excludes Nikon Z APS-C cameras."
   ]
 }

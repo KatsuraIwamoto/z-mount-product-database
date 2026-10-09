@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA Argus 35mm F0.95 FF"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-argus-35mm-f0-95-ff"
@@ -54,6 +54,62 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/f802db3fbeb063f5c033a7a47a4c68622f2e18f7.html",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "identity",
+        "mount",
+        "controls",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/Argus35mm_02.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/Argus35mm_03.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/Argus35mm_04.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/Argus35mm_05.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z-specific dimensions and mass, which the distributor states vary by mount?",
+    "Can Nikon Z-specific rear, opposite-side and underside images establish full exterior coverage?"
   ]
 }

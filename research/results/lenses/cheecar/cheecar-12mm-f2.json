@@ -6,7 +6,7 @@
     "brandId": "cheecar",
     "name": "Cheecar 12mm F2"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "cheecar-12mm-f2"
@@ -35,8 +35,24 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity.modelNumberOptions",
+        "lens.coatings",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2021/09/13/613efca720c8f.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "The official description requires a filter adapter ring for CPL/ND filters; the 62 mm interface is therefore assigned to an accessory. The ring model and supply relationship are not specified. The phrase self-equipped hood does not unambiguously distinguish a supplied detachable hood from an integrated hood, so accessory relationships remain unknown.",
+    "The table labels 66 × 59.5 mm as L × W, contrary to the existing diameter/length assignment. It also lists 277 g without mount/cap conditions. Existing measurements are retained pending clarification instead of silently swapping dimensions.",
+    "The official product photo and optical chart were inspected. The shared barrel view confirms focus/aperture rings and distance/depth scales but does not establish complete Nikon Z top, bottom, left, right and exposed rear coverage or aperture click behavior. The listed 2020 market-entry year is not an exact announcement date."
   ]
 }

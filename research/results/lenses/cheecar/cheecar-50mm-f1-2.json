@@ -6,7 +6,7 @@
     "brandId": "cheecar",
     "name": "Cheecar 50mm F1.2"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "cheecar-50mm-f1-2"
@@ -35,7 +35,8 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages"
       ]
     },
     {
@@ -50,6 +51,53 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2025/12/09/69378134bca19.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.dimensionMeasurements"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2025/12/09/69378191d59da.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.coatings",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2025/12/09/693781350a54d.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2025/12/09/6937813835886.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "The September 20 review inspected all manufacturer gallery/detail panels, including Nikon Z fc-mounted front/top views and shared barrel photographs. Clicked aperture and focus rings, distance/depth-of-field scales and low-reflection multilayer coating are established. Complete Z-specific four-direction and rear-mount coverage, official variant names and supplied accessories remain unverified.",
+    "The introduction incorrectly describes a 25mm F1.8 lens and its stepless aperture ring; it is not used as evidence for this 50mm F1.2. The model-specific specification image explicitly states a clicked aperture ring.",
+    "The dimension table lists 61 × 58.5 mm, but the annotated barrel image labels the axial length 61 mm. Existing dimensions are retained pending clarification. The approximately 360 g weight and dimensions are not tied to Z or attachment conditions; the 32-degree angle has no stated orientation.",
+    "The optical diagram appears to show three high-index elements and one ED element, while the existing record contains two high-index elements and one ED. Existing counts are retained until the manufacturer clarifies the numerical count."
   ]
 }

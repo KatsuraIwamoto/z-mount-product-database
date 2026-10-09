@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "Adapter for Contax Rangefinder RF Lens on Nikon Z Full-Frame Camera"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "kipon-contax-rf-nik-z"
@@ -23,14 +23,36 @@
         "electronics",
         "conversionOptics",
         "mechanisms",
-        "officialProductPages"
+        "officialProductPages",
+        "identity.modelNumberOptions"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/6c6353_5ff3c7643dfa41149d226b8a79e9422e~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://static.wixstatic.com/media/6c6353_b6622b92e12f447ea442218727233251~mv2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "electronics",
+        "conversionOptics"
+      ]
     }
   ],
   "unresolved": [
-    "Which manufacturer model identifier and Contax RF bayonet configuration distinguish this product from the other listed Contax RF-to-Nikon Z versions?"
+    "Do the two separately listed Nikon Z product pages identify the same CRF-N/Z outer-bayonet adapter, or distinct released products with a documented configuration difference?"
+  ],
+  "notes": [
+    "This adapter is specified for outer-bayonet Contax RF lenses with their own focusing ring."
   ]
 }

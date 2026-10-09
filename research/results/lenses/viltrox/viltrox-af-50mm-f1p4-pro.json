@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 50mm F1.4 Pro"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-50mm-f1p4-pro"
@@ -39,7 +39,8 @@
         "lens.specialElements",
         "lens.coatings",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "identity"
       ]
     },
     {
@@ -50,6 +51,28 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_50mm_F1.4_Pro_Z-front_view.png?v=1770713155",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_50mm_F1.4_Pro_Z-product_list.jpg?v=1770713252",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can a current Z-specific full specification table reconfirm the retained 84.5 x 113 mm, F16, eleven blades and internal constant-length focusing? The current product page exposes narrative rather than the prior full table, and some detail paragraphs explicitly refer to FE. Unreported Z mass/magnification and published firmware remain unknown.",
+    "Can complete Z directional photographs reconfirm negative tripod/stabilization/retractability facts? Actual Z front-oblique and Z package images were inspected; blind spots are not treated as proof of absent controls."
   ]
 }

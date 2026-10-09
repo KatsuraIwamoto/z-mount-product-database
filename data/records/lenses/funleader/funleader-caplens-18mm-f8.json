@@ -119,12 +119,7 @@
         "present": false
       },
       "opticalFocusingSystems": null,
-      "minimumFocusDistances": [
-        {
-          "distanceM": 0.8,
-          "conditions": {}
-        }
-      ],
+      "minimumFocusDistances": null,
       "reproductionMagnifications": null,
       "officialFocusBehaviorClaims": []
     },

@@ -6,7 +6,7 @@
     "brandId": "hartblei",
     "name": "HARTBLEI SUPER-ROTATOR TS 2.8/80mm Digital Tilt-Shift Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "hartblei-super-rotator-ts-2-8-80mm-digital-tilt-shift-lens"
@@ -33,8 +33,41 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://hartbleilens.com/image/cache/catalog/Lenses/80mm_fujigfx_2499/2-500x500.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://hartbleilens.com/image/cache/catalog/Lenses/80mm_fujigfx_2499/3-500x500.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://hartbleilens.com/image/cache/catalog/Lenses/80mm_fujigfx_2499/5-500x500.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.tripodSupport"
       ]
     }
+  ],
+  "unresolved": [
+    "The official page offers a removable Nikon Z mount, but its illustrated rear mount and main specification frame are Fujifilm GFX. Shared barrel images confirm geared focus/aperture rings, distance markings and a support bracket; complete Z-specific four-direction imagery, support inclusion/removability and attachment interfaces remain unconfirmed.",
+    "Dimensions, weight, coatings, special elements, aperture click behavior and package accessories are not specified. The stated 38/48 degree angles refer to the GFX specification and are not copied into the Z full-frame record.",
+    "Tilt up to 8 degrees and shift up to 12 mm do not state signed limits; existing maximum-from-neutral values are retained without inventing bidirectional totals."
   ]
 }

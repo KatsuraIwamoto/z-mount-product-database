@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Sweet 22"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-sweet-22"
@@ -30,7 +30,8 @@
         "lens.coatings",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "lens.specialized"
       ]
     },
     {
@@ -53,6 +54,28 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://lensbaby.com/cdn/shop/files/DSC06561_574738c2-5d53-4334-8fdb-d577d719a105.png?v=1708560423&width=2478",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/cdn/shop/files/DSC06560.png?v=1708560530&width=1710",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "What is the sensor-to-subject minimum focus distance? The product introduction explicitly measures the published 5 inches from the front element.",
+    "What are the Nikon Z-specific dimensions and mass, and can rear/opposite-side/underside images plus operating instructions complete the exterior and control survey?",
+    "Why does a feature paragraph describe tilt while the specification table says tilt is not applicable?",
+    "Can a corrected optical specification confirm the construction? The table labels its 4 elements / 2 groups entry as Zone Plate."
   ]
 }

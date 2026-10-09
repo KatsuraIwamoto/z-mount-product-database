@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Fotodiox Pro PRONTO Autofocus Adapter - Compatible with Leica M Mount Lenses to Nikon Z-Mount Mirrorless Cameras",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "LM-NKZ-PRN"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -50,9 +52,23 @@
     "lensPowerTransmission": null,
     "recordingTriggerTransmission": null
   },
-  "mechanisms": [],
+  "mechanisms": [
+    {
+      "type": "other",
+      "conditions": {}
+    }
+  ],
   "physical": {
-    "dimensionMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          65,
+          25,
+          80
+        ],
+        "conditions": {}
+      }
+    ],
     "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
@@ -66,6 +82,12 @@
           "firmware-update"
         ],
         "connectorType": "micro-usb"
+      },
+      {
+        "method": "camera-body",
+        "purposes": [
+          "configuration"
+        ]
       }
     ]
   },

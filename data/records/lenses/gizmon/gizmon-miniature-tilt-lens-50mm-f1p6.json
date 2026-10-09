@@ -163,7 +163,14 @@
     },
     "specialized": {
       "movements": {
-        "tiltMeasurements": null
+        "tiltMeasurements": [
+          {
+            "maximumFromNeutralDegrees": 15,
+            "totalRangeDegrees": 30,
+            "directionality": "bidirectional",
+            "conditions": {}
+          }
+        ]
       }
     }
   }

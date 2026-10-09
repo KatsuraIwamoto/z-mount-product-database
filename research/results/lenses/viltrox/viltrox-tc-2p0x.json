@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "TC-2.0X Teleconverter for Nikon"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-tc-2p0x"
@@ -54,6 +54,26 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/TC-2.0X_Z-3.png?v=1772008201",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/TC-2.0X_Z-img8.jpg?v=1772435490",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "teleconverter.compatibleLensIds"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can full Nikon Z directional images establish controls, USB connector subtype and reconfirm existing negative tripod/retractability facts? Actual Z front-oblique was inspected; complete directional coverage is unavailable. Compatibility list cites firmwarev1.0.3 but a firmware version reference alone is not a published update file/release entry; publication remains unknown."
   ]
 }

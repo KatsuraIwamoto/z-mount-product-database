@@ -52,7 +52,7 @@
     "lensPowerTransmission": null,
     "recordingTriggerTransmission": null
   },
-  "mechanisms": [],
+  "mechanisms": null,
   "physical": {
     "dimensionMeasurements": [
       {
@@ -83,7 +83,8 @@
         "purposes": [
           "firmware-update",
           "configuration"
-        ]
+        ],
+        "connectorType": "other"
       }
     ]
   },

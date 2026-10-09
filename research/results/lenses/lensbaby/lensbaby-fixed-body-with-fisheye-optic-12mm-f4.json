@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Fixed Body with Fisheye Optic"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-fixed-body-with-fisheye-optic-12mm-f4"
@@ -74,5 +74,10 @@
         "lens.specialized"
       ]
     }
+  ],
+  "unresolved": [
+    "Can accessible Nikon Z fixed-body front, rear, opposite-side and underside photographs establish exterior coverage and control functions? The retailer image service was inaccessible during this review.",
+    "Can a manufacturer specification distinguish a complete circular image from a partly cropped circular image on full-frame Nikon Z? The manufacturer-hosted article describes circular imagery, while the retailer describes top/bottom cropping.",
+    "Can an accessible manufacturer specification or manual establish the assembled Nikon Z dimensions, mass, aperture range, optical construction and focusing-distance reference?"
   ]
 }

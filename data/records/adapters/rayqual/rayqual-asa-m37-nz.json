@@ -6,7 +6,8 @@
     "brandId": "rayqual",
     "productName": "ASA M37 Lens Mount Adapter for Nikon Z",
     "modelNumberOptions": [
-      "ASA M37-NZ"
+      "ASA M37-NZ",
+      "ASH M37-NZ"
     ],
     "alternateNames": null,
     "variants": null
@@ -15,7 +16,20 @@
     "announcementDate": null,
     "officialDesignations": []
   },
-  "officialProductPages": [],
+  "officialProductPages": [
+    {
+      "url": "https://www.rayqual.com/ashm37_se.html",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "RAYQUAL"
+      }
+    }
+  ],
   "mountConfigurations": [
     {
       "lensSideMountSystemId": "asa-m37",
@@ -36,7 +50,7 @@
     "lensPowerTransmission": false,
     "recordingTriggerTransmission": false
   },
-  "mechanisms": [],
+  "mechanisms": null,
   "physical": {
     "dimensionMeasurements": null,
     "weightMeasurements": null,

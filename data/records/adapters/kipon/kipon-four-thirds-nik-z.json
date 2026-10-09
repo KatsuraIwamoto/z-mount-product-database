@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Adapter for Four Thirds Mount Lens on Nikon Z Full-Frame Mirrorless Camera",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "4/3-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

@@ -100,7 +100,14 @@
     },
     "opticalConstruction": null,
     "specialElements": null,
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false
@@ -110,12 +117,7 @@
         "mechanism": null
       },
       "opticalFocusingSystems": null,
-      "minimumFocusDistances": [
-        {
-          "distanceM": 0.127,
-          "conditions": {}
-        }
-      ],
+      "minimumFocusDistances": null,
       "reproductionMagnifications": [
         {
           "kind": "maximum",
@@ -128,6 +130,15 @@
     "stabilization": {
       "present": false
     },
-    "specialized": {}
+    "specialized": {
+      "macro": {
+        "workingDistances": [
+          {
+            "distanceM": 0.127,
+            "conditions": {}
+          }
+        ]
+      }
+    }
   }
 }

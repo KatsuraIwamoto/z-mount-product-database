@@ -1,0 +1,30 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "sirui-aurora-24mm-f1-6",
+  "subject": {
+    "manufacturerId": "sirui",
+    "brandId": "sirui",
+    "name": "SIRUI Aurora 24mm f1.6"
+  },
+  "reviewedOn": "2026-09-16",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://store.sirui.com/blogs/guides/sirui-aurora-15mm-and-24mm-f1-6-shown-at-ibc2026",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Has SIRUI issued an official product release announcement or confirmed sale?",
+    "Has SIRUI confirmed a Nikon Z configuration?"
+  ]
+}

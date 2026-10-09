@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA Argus 18mm T1 S35 Cine"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-argus-18mm-t1-s35-cine"
@@ -29,7 +29,15 @@
         "physical.externalLengthDuringFocus",
         "physical.isRetractableForStorage",
         "physical.frontAccessoryInterface",
-        "lens.specialized"
+        "lens.specialized",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.imageCircleDiameters",
+        "lens.opticalConstruction",
+        "lens.focus"
       ],
       "decisionChecks": [
         "availability"
@@ -64,8 +72,43 @@
         "lens.imageCircleDiameters",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.tripodSupport",
+        "physical.filterInterfaces",
+        "physical.frontAccessoryInterface",
+        "physical.externalLengthDuringFocus"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/ArgusT1_03_S35.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://laowacine.com/wp-content/uploads/2024/06/DSC_0875-700x467.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "http://laowacine.com/wp-content/uploads/2024/06/Argus-Cine_Lens-Support.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.tripodSupport"
       ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z-specific dimensional and weight measurement conditions?",
+    "Can Nikon Z-specific rear, opposite-side and underside images establish full exterior coverage and the support configuration?"
   ]
 }

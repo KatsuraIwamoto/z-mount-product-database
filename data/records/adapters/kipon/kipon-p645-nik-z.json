@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "P645-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "P645-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

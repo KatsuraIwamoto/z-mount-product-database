@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "AF 35mm F1.8 Full-frame Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-af-35mm-f1p8"
@@ -31,7 +31,8 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "controls"
       ],
       "decisionChecks": [
         "availability"
@@ -70,6 +71,18 @@
       "sourceType": "support-page",
       "checked": [
         "electronicServices"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/AF35_1.8_b0af78fd-1745-4652-b8bc-8c77651f330a.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.filterInterfaces",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus"
       ]
     }
   ]

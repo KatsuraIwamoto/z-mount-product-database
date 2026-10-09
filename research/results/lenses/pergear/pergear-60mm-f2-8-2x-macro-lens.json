@@ -6,7 +6,7 @@
     "brandId": "pergear",
     "name": "PERGEAR 60mm F2.8 2X Macro Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "pergear-60mm-f2-8-2x-macro-lens"
@@ -21,7 +21,15 @@
         "identity",
         "mount",
         "physical.weightMeasurements",
-        "lens.specialized"
+        "lens.specialized",
+        "lifecycle",
+        "controls",
+        "lens.coatings",
+        "physical.dimensionMeasurements",
+        "physical.filterInterfaces",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus"
       ],
       "decisionChecks": [
         "availability"
@@ -33,7 +41,9 @@
       "sourceType": "announcement",
       "checked": [
         "identity",
-        "mount"
+        "mount",
+        "lens.coverage",
+        "lens.anglesOfView"
       ],
       "decisionChecks": [
         "availability"
@@ -72,6 +82,22 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.pergear.com/cdn/shop/articles/PERGEAR_60MM_800x.jpg?v=1626677790",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside views complete the survey of contacts, support parts and storage mechanisms?",
+    "What mount and accessory conditions apply to the common dimensional and mass specifications?",
+    "The current product URL now describes MK2. Can an original manufacturer manual confirm focus-ring operation and minimum aperture?",
+    "The official site republishes an independent Richard Wong review describing focus throw, working distance and constant length. Can manufacturer-authored documentation corroborate these operating facts before addition?"
   ]
 }

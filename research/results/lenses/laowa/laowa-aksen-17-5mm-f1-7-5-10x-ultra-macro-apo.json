@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA Aksen 17.5mm F1.7 5-10X Ultra Macro APO"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-aksen-17-5mm-f1-7-5-10x-ultra-macro-apo"
@@ -59,6 +59,103 @@
         "physical",
         "controls"
       ]
+    },
+    {
+      "url": "https://laowalens.com/camera-lens-98",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "officialProductPages",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com.cn/Public/Uploads/uploadfile/files/20251203/FF45mmF2.8ULTRAMACRO1-5XAPOyijiFF17.5mmF1.7ULTRAMACRO5-10XAPOxianweijingtouxianweijingshuomingshu.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "lens.aperture",
+        "lens.focus",
+        "lens.specialized",
+        "lens.opticalConstruction",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://laowalens.com/Public/Uploads/uploadfile/images/20260707/1jingtoutu.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "identity"
+      ]
+    },
+    {
+      "url": "https://laowalens.com/Public/Uploads/uploadfile/images/20260707/2jingtoutu.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "identity"
+      ]
+    },
+    {
+      "url": "https://laowalens.com/Public/Uploads/uploadfile/images/20260707/3jingtoutu.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "identity"
+      ]
+    },
+    {
+      "url": "https://laowalens.com/Public/Uploads/uploadfile/images/20260707/4jingtoutu.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "identity"
+      ]
+    },
+    {
+      "url": "http://laowacine.com/wp-content/uploads/2026/07/10b_Aksen-Features_Photo_Lens-Collar.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://laowalens.com/Public/Uploads/uploadfile/images/20260804/xiangji.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "What Nikon Z-specific dimensions and mass apply to the photographic version, with attachment conditions?",
+    "How should the photographic-version parfocal claim, which requires stopping down one stop, be represented when the schema cannot express aperture conditions?",
+    "Which model number, supply status and mounting interfaces describe the optional tripod collar?",
+    "Can Nikon Z-specific four-sided views establish full exterior coverage, and what special-element quantities and coatings are specified?",
+    "What accepted announcement establishes the photographic Nikon Z release date separately from the PL cine edition?",
+    "How should the separately sold coaxial-illumination version and its one-stop transmission difference be represented without conflating it with the standard version?"
   ]
 }

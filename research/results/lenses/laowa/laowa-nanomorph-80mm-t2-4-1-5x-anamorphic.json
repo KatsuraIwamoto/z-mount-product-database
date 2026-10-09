@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA Nanomorph 80mm T2.4 1.5x Anamorphic"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-nanomorph-80mm-t2-4-1-5x-anamorphic"
@@ -74,8 +74,41 @@
         "lens.anglesOfView",
         "lens.coverage",
         "lens.imageCircleDiameters",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "controls",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized",
+        "identity.variants"
+      ]
+    },
+    {
+      "url": "http://laowacine.com/wp-content/uploads/2023/10/08_nanomorph-product-page_Cine-lens-housing.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/932272e9d00b756cd3a0e85a2ec4b3976178b5fc.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z-specific dimensions and mass? The Japanese specification identifies the listed mirrorless values as Sony E measurements.",
+    "What image-circle diameter is specified independently of the rectangular coverage dimensions?",
+    "Can Nikon Z-specific rear, opposite-side and underside images establish complete exterior coverage?",
+    "What are the supplied accessories for an individual lens, distinct from the multi-lens bundle?"
   ]
 }

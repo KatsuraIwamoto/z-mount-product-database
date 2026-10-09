@@ -6,7 +6,7 @@
     "brandId": "novoflex",
     "name": "Adapter Olympus OM Lenses to Nikon Z Cameras"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "novoflex-nikz-om"
@@ -24,7 +24,26 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "mechanisms"
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.novoflex.de/en/Adapter-Collar-Mount-for-EOSR-and-NIKZ-Adapters/ASTAT-RZ",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.novoflex.de/media/e0/b3/c8/1717864479/NIKZ-OM-Adapter_975016.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mechanisms",
+        "conversionOptics"
       ]
     }
   ]

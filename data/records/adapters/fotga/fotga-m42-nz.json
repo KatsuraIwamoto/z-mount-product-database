@@ -1,0 +1,69 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "fotga-m42-nz",
+  "identity": {
+    "manufacturerId": "fotga",
+    "brandId": "fotga",
+    "productName": "Fotga M42-Nikon.Z Lens Mount Adapter Converter for 42mm M42 Lens to Nikon Z Mount Z8 Zf Zfc Z5 Z6 Z7 II Z6II Z7II Z9 Z50 Z30 Mirrorless DSLR Camera",
+    "modelNumberOptions": [
+      "M42-N/Z"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.fotga.com/product/fotga-m42-nikon-z-lens-mount-adapter-converter-for-42mm-m42-lens-to-nikon-z-mount-z8-z5-z6-z7-ii-z6ii-z7ii-z9-z50-mirrorless-dslr-camera/",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "FOTGA"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "m42",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": [
+    {
+      "type": "rotation",
+      "movements": null,
+      "conditions": {}
+    }
+  ],
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": false
+  }
+}

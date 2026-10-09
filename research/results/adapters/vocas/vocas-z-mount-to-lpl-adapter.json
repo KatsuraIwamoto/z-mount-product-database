@@ -6,7 +6,7 @@
     "brandId": "vocas",
     "name": "Vocas Z-mount to LPL adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "vocas-z-mount-to-lpl-adapter"
@@ -30,6 +30,48 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://media.vocas.com/media/catalog/product/0/9/0900-0170_vocas_z-mount_to_lpl_adapter_grafisch.1.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://media.vocas.com/media/catalog/product/0/9/resized/894/0900-0170_vocas_z-mount_to_lpl_adapter_grafisch.1.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://media.vocas.com/media/catalog/product/0/9/resized/894/0900-0170_vocas_z-mount_to_lpl_adapter_grafisch.2.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://media.vocas.com/media/catalog/product/cache/8754008f821c5c54a1cb609552a5a7be/0/9/0900-0170_vocas_z-mount_to_lpl_adapter_grafisch.4.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Is the lens locking ring adjustable beyond normal positive-lock operation, given that the description says adjustable but Additional Information says Adjustable lens lock: No?"
   ]
 }

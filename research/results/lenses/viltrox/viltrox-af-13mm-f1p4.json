@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "AF 13mm F1.4"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "viltrox-af-13mm-f1p4"
@@ -77,6 +77,26 @@
         "mount",
         "lens.anglesOfView"
       ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/19_72322543-96f5-4446-98f9-1246766d463e.jpg?v=1711088624&width=1500",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_13mm_F1.4_Z_e9851952-426c-4703-9f6b-6f852d5db7ce-869298.png?v=1722921085&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Z bottom/opposite-side/rear photographs complete the directional inspection and reconfirm existing negative tripod/retractability/stabilization facts? The Z bare-lens and Z fc-mounted front/side views and package image were inspected; aperture click behavior follows the Z-specific stepless table, not the clicked X version."
   ]
 }

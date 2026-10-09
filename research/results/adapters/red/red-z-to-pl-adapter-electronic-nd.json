@@ -6,7 +6,7 @@
     "brandId": "red",
     "name": "RED Z to PL Adapter w/ Electronic ND Filter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "red-z-to-pl-adapter-electronic-nd"
@@ -71,8 +71,78 @@
       "sourceType": "manual",
       "checked": [
         "identity",
+        "electronics",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.reddigitalcinema.com/SSP%20Applications/Red@SuiteCentric/SCA%20Kilimanjaro/img/products/790-0799_0.png?resizeid=3&resizeh=600&resizew=600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://support.reddigitalcinema.com/hc/en-us/articles/38057098334867-Z-Mount-Lensing",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
         "electronics"
       ]
+    },
+    {
+      "url": "https://www.reddigitalcinema.com/SSP%20Applications/Red@SuiteCentric/SCA%20Kilimanjaro/img/products/790-0799_1.png?resizeid=3&resizeh=600&resizew=600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://www.reddigitalcinema.com/SSP%20Applications/Red@SuiteCentric/SCA%20Kilimanjaro/img/products/790-0799_2.png?resizeid=3&resizeh=600&resizew=600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://www.reddigitalcinema.com/SSP%20Applications/Red@SuiteCentric/SCA%20Kilimanjaro/img/products/790-0799_3.png?resizeid=3&resizeh=600&resizew=600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://www.reddigitalcinema.com/SSP%20Applications/Red@SuiteCentric/SCA%20Kilimanjaro/img/products/790-0799_4.png?resizeid=3&resizeh=600&resizew=600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://www.reddigitalcinema.com/SSP%20Applications/Red@SuiteCentric/SCA%20Kilimanjaro/img/products/790-0799_5.png?resizeid=3&resizeh=600&resizew=600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which accepted source establishes EXIF specifically, in addition to the documented Cooke /i communication?",
+    "Does the recorded tripod support refer to a tripod-side interface, or only to the camera-to-adapter support brackets?"
   ]
 }

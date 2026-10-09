@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan AF 32mm F2.8"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-af-32mm-f2-8"
@@ -20,7 +20,9 @@
         "mount",
         "physical.filterInterfaces",
         "lens.aperture",
-        "lens.focus"
+        "lens.focus",
+        "electronicServices",
+        "lens.specialElements"
       ]
     },
     {
@@ -84,8 +86,30 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "image",
       "checked": [
-        "physical.weightMeasurements"
+        "physical.weightMeasurements",
+        "lens.specialElements",
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focalLength",
+        "lens.focus",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/AF32mmF2.8Z_dc603601-72ce-4cc3-a491-2afd01f4914e.jpg?v=1690187561&width=493",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Can the manufacturer reconcile the Z-specific store specification image stating approximately 411 g with the multi-mount manual stating approximately 183–200 g? The existing 411 g value is retained because it explicitly identifies Z.",
+    "Can exact Nikon Z top/bottom/left/right and rear photographs and operating instructions establish ring functions and reconfirm the existing negative tripod/retractability/stabilization facts? The inspected Z-labeled side image and rear manual diagram do not provide complete directional coverage."
   ]
 }

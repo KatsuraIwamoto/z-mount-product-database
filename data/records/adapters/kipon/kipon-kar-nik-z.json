@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Konica KAR-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "K/AR-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

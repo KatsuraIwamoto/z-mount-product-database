@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 100mm F2.8 2x Ultra Macro APO"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-100mm-f2-8-2x-ultra-macro-apo"
@@ -60,8 +60,77 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/camera-lens-31",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "identity.modelNumberOptions",
+        "lens.aperture",
+        "lens.specialElements",
+        "lens.focus",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/files/20240307/100mmF2.8shuomingshu2zip.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "accessories",
+        "lens.specialized",
+        "lens.specialElements",
+        "mount.electronicContacts"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20210402/4-483.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20210402/2-4-732.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20210402/2-1-634.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20210402/2-3-960.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces"
       ]
     }
+  ],
+  "unresolved": [
+    "Four official front/barrel/rear photos and the manufacturer manual diagrams were inspected; the gallery rear is not identified as Nikon Z. Z-specific rear contact confirmation and full four-direction coverage remain unavailable.",
+    "Japan confirms 72 x 155 mm for Nikon Z, but gives weight only as 638 g and up depending on mount. China assigns 638 g to EF; the manual repeats shared DSLR-sized 72 x 125 mm. Existing 650 g is retained pending Z-specific weight confirmation, without substituting EF values.",
+    "The manual states a minimum working distance of 7.5 cm but does not specify a numeric magnification condition or hood state. Hood attachment/removal is documented, but package inclusion, aperture click behavior, coating function and environmental protection remain unconfirmed.",
+    "The global product page returned 403 during this review; Chinese/Japanese official pages and the manufacturer manual were used."
   ]
 }

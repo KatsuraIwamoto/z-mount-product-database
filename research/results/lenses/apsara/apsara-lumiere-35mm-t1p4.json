@@ -6,7 +6,7 @@
     "brandId": "apsara",
     "name": "APSARA LUMIÈRE 35mm T1.4"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "apsara-lumiere-35mm-t1p4"
@@ -36,14 +36,20 @@
     },
     {
       "url": "https://www.bhphotovideo.com/c/product/1912590-REG/simmod_apsara_lumiere_35_nikon_z_mount_apsara_lumiere_lens_nikon.html",
-      "publisherRelationship": "retailer",
+      "publisherRelationship": "authorized-retailer",
       "sourceType": "retailer-listing",
       "checked": [
         "identity",
         "mount",
         "physical",
         "controls",
-        "lens.focus"
+        "lens.focus",
+        "accessories",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.imageCircleDiameters",
+        "lens.coverage",
+        "lens.stabilization"
       ]
     },
     {
@@ -71,6 +77,41 @@
         "availability",
         "inclusion-criteria"
       ]
+    },
+    {
+      "url": "https://www.apsaralenses.com/tech-specs",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "specification",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "controls",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.imageCircleDiameters",
+        "lens.focus",
+        "lens.coverage",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/images/fb/simmod_apsara_lumiere_35_nikon_z_mount_apsara_lumiere_lens_nikon_1912590.jpg",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical"
+      ]
     }
+  ],
+  "unresolved": [
+    "Confirm the measurement conditions for the published 678 g mass and 115 mm length; the official table does not identify caps, mount-specific conditions, or focus position.",
+    "Obtain identifiable Nikon Z rear, underside, and opposite-side images to complete the control and mount inspection; the retailer image shows only one side. Confirm the interchangeability procedure and focus-related length behavior.",
+    "Resolve the focus-rotation conflict: the earlier Simmod product description states 300 degrees, while the current APSARA specification table and Nikon Z retailer listing state 270 degrees. The previously recorded 300-degree value is retained pending clarification.",
+    "Resolve the inconsistent gram and pound equivalents in the official specification table; the native gram value agrees with the Nikon Z retailer listing.",
+    "Confirm minimum aperture and supplied accessories from manufacturer or distributor evidence; retailer specifications and package lists alone are not accepted for those values."
   ]
 }

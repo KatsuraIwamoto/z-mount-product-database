@@ -6,7 +6,8 @@
     "brandId": "novoflex",
     "productName": "Adapter Nikon Z Camera to NOVOFLEX A-mount",
     "modelNumberOptions": [
-      "NIKZ/A"
+      "NIKZ/A",
+      "NIKZA"
     ],
     "alternateNames": null,
     "variants": null
@@ -54,7 +55,34 @@
     "dimensionMeasurements": null,
     "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
-    "tripodSupport": null
+    "tripodSupport": {
+      "present": true,
+      "components": [
+        {
+          "type": "collar-assembly",
+          "relationship": "optional",
+          "removable": true,
+          "interfaces": [
+            {
+              "type": "mounting-thread",
+              "threadDesignation": "1/4-20"
+            },
+            {
+              "type": "mounting-thread",
+              "threadDesignation": "3/8-16"
+            },
+            {
+              "type": "arca-compatible"
+            }
+          ],
+          "modelNumberOptions": [
+            "ASTAT-RZ"
+          ],
+          "quantity": 1,
+          "conditions": {}
+        }
+      ]
+    }
   },
   "electronicServices": null,
   "conversionOptics": {

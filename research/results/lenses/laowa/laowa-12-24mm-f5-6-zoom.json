@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 12-24mm F5.6 Zoom"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-12-24mm-f5-6-zoom"
@@ -60,8 +60,67 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "lens.coatings",
+        "lens.zoom",
+        "physical.filterInterfaces",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/camera-lens-54",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "mount",
+        "lens.aperture",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20220625/jingtoutu1shishi.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.zoom"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20220625/1jingtoutu.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.zoom"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20220625/1jingtoutu2.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.zoom"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/Uploads/uploadfile/images/20220625/1jingtoutu3.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.zoom"
       ]
     }
+  ],
+  "unresolved": [
+    "Four official China photographs including bare rear and hood views were visually inspected. The gallery mixes versions with different focus/aperture-ring positions, including a Leica M-style version; the shared controls are recorded without inferring Nikon Z-specific geometry or complete four-direction coverage.",
+    "China and Japan explicitly attribute approximately 69.4 x 84 mm to Leica M; Japan also attributes approximately 497 g to Leica M and notes mount variation. Existing Z 69.4 x 95.6 mm and approximately 497 g are retained pending current Z-specific confirmation. Both sites exclude hood/front/rear caps from mass.",
+    "The FEC coating is explicitly water/dust repellent in Japan and is classified as surface-protective; the exact treated surface is not stated. This does not establish environmental sealing of the lens body.",
+    "Angle orientation, aperture click behavior, electronic contacts, environmental protection, external length behavior, supplied accessory relationships and conditions/focal length for 0.4x magnification remain unconfirmed. No matching manual was found in the accessible index/search; global product-page access remains unavailable."
   ]
 }

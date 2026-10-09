@@ -56,7 +56,19 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "rotationDegrees": 120,
+      "geared": true
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "geared": true
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -72,18 +84,37 @@
             "conditions": {}
           }
         ],
-        "minimumAperture": null,
+        "minimumAperture": [
+          {
+            "value": 16,
+            "conditions": {}
+          }
+        ],
         "effective": null
       },
-      "diaphragm": null,
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 10,
+        "bladeShape": null
+      },
       "controlMechanism": "mechanical"
     },
     "anglesOfView": null,
     "coverage": {
       "format": "full-frame"
     },
-    "opticalConstruction": null,
-    "specialElements": null,
+    "opticalConstruction": {
+      "groups": 12,
+      "elements": 17
+    },
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 1
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {
@@ -94,7 +125,12 @@
         "mechanism": "mechanical-coupled"
       },
       "opticalFocusingSystems": null,
-      "minimumFocusDistances": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.9,
+          "conditions": {}
+        }
+      ],
       "reproductionMagnifications": null,
       "officialFocusBehaviorClaims": []
     },

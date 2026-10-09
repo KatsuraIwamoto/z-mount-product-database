@@ -8,7 +8,23 @@
     "productName": "LAOWA Nanomorph 80mm T2.4 1.5x Anamorphic",
     "modelNumberOptions": null,
     "alternateNames": null,
-    "variants": null
+    "variants": [
+      {
+        "variantId": "amber",
+        "name": "Amber",
+        "modelNumberOptions": null
+      },
+      {
+        "variantId": "blue",
+        "name": "Blue",
+        "modelNumberOptions": null
+      },
+      {
+        "variantId": "silver",
+        "name": "Silver",
+        "modelNumberOptions": null
+      }
+    ]
   },
   "lifecycle": {
     "announcementDate": null,
@@ -27,6 +43,18 @@
         "type": "manufacturer-or-brand",
         "name": "LAOWA Cinema Lenses"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat/81d4307ac297ffbb45d8a2d0a695f0688bad2856.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -36,21 +64,8 @@
     "electronicContacts": null
   },
   "physical": {
-    "dimensionMeasurements": [
-      {
-        "maximumDiameterMm": 67,
-        "lengthMm": 141,
-        "conditions": {}
-      }
-    ],
-    "weightMeasurements": [
-      {
-        "grams": 710,
-        "conditions": {
-          "attachedComponents": []
-        }
-      }
-    ],
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
     "filterInterfaces": [
       {
@@ -62,12 +77,33 @@
       }
     ],
     "tripodSupport": {
-      "present": false
+      "present": true,
+      "components": null
     },
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "geared": true
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "geared": true
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Backfocus Adjustment"
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -116,12 +152,7 @@
     "coverage": {
       "format": "super-35"
     },
-    "imageCircleDiameters": [
-      {
-        "diameterMm": 28.8,
-        "conditions": {}
-      }
-    ],
+    "imageCircleDiameters": null,
     "opticalConstruction": {
       "groups": 13,
       "elements": 14

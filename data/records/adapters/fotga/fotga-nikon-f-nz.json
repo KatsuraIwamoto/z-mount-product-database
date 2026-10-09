@@ -1,0 +1,63 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "fotga-nikon-f-nz",
+  "identity": {
+    "manufacturerId": "fotga",
+    "brandId": "fotga",
+    "productName": "Fotga Lens Mount Adapter Converter for Nikon F Mount Lens to Nikon Z Mount Z8 Zf Zfc Z5 Z6 Z7 II Z6II Z7II Z9 Z50 Z30 Mirrorless DSLR Camera",
+    "modelNumberOptions": [
+      "NIKON-N/Z"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.fotga.com/product/fotga-lens-mount-adapter-converter-for-nikon-f-mount-lens-to-nikon-z-mount-z8-zf-zfc-z5-z6-z7-ii-z6ii-z7ii-z9-z50-z30-mirrorless-dslr-camera/",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "FOTGA"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "nikon-f",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": false,
+    "autofocus": false,
+    "cameraControlledAperture": false,
+    "lensStabilizationCommunication": false,
+    "manualFocusAssistance": false,
+    "metadataTransmission": {
+      "present": false
+    },
+    "lensPowerTransmission": false,
+    "recordingTriggerTransmission": false
+  },
+  "mechanisms": null,
+  "physical": {
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
+    "officialEnvironmentalProtectionClaims": null,
+    "tripodSupport": null
+  },
+  "electronicServices": null,
+  "conversionOptics": {
+    "present": false
+  }
+}

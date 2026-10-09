@@ -7,7 +7,11 @@
     "brandId": "meike",
     "productName": "Meike AF 23mm F1.4 APS-C Lens",
     "modelNumberOptions": null,
-    "alternateNames": null,
+    "alternateNames": [
+      {
+        "name": "Meike AF 23mm F1.4 Neo"
+      }
+    ],
     "variants": null
   },
   "lifecycle": {
@@ -35,7 +39,12 @@
     "mountOwnerRelationship": null,
     "electronicContacts": {
       "present": true,
-      "metadataTransmission": null
+      "metadataTransmission": {
+        "present": true,
+        "standards": [
+          "exif"
+        ]
+      }
     }
   },
   "physical": {
@@ -66,8 +75,44 @@
     "isRetractableForStorage": false
   },
   "controls": null,
-  "accessories": null,
-  "electronicServices": null,
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": null,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "connectorType": "usb-c",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -105,7 +150,14 @@
       "elements": 13
     },
     "specialElements": null,
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "surface-protective"
+        ],
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": true,

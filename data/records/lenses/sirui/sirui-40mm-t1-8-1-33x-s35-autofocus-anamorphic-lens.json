@@ -35,7 +35,12 @@
     "mountOwnerRelationship": null,
     "electronicContacts": {
       "present": true,
-      "metadataTransmission": null
+      "metadataTransmission": {
+        "present": true,
+        "standards": [
+          "exif"
+        ]
+      }
     }
   },
   "physical": {
@@ -57,9 +62,45 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "rotationDegrees": 360,
+      "geared": true
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "switchable",
+      "geared": true
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring-click-switch",
+      "quantity": 1
+    },
+    {
+      "type": "function-button",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
-  "electronicServices": null,
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "connectorType": "usb-c",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
+  },
   "lens": {
     "focalLength": {
       "kind": "prime",
@@ -74,30 +115,79 @@
             "conditions": {}
           }
         ],
-        "minimumAperture": null,
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {}
+          }
+        ],
         "effective": null
       },
-      "diaphragm": null,
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 11,
+        "bladeShape": null
+      },
       "controlMechanism": "electronic"
     },
-    "anglesOfView": null,
+    "anglesOfView": [
+      {
+        "format": "aps-c",
+        "orientation": "vertical",
+        "degrees": 22.218,
+        "conditions": {}
+      },
+      {
+        "format": "aps-c",
+        "orientation": "horizontal",
+        "degrees": 43.754,
+        "conditions": {}
+      },
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 48.02,
+        "conditions": {}
+      }
+    ],
     "coverage": {
       "format": "super-35"
     },
-    "opticalConstruction": null,
-    "specialElements": null,
+    "opticalConstruction": {
+      "groups": 12,
+      "elements": 16
+    },
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 1
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {
         "present": true,
-        "motors": null
+        "motors": [
+          {
+            "type": "stepping-motor",
+            "quantity": null,
+            "officialName": "STM"
+          }
+        ]
       },
       "manualFocus": {
         "present": true,
         "mechanism": null
       },
       "opticalFocusingSystems": null,
-      "minimumFocusDistances": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.6,
+          "conditions": {}
+        }
+      ],
       "reproductionMagnifications": null,
       "officialFocusBehaviorClaims": []
     },

@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN GTZ Mount Adapter"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "shoten-gtz"
@@ -46,6 +46,86 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/66/22/5_000000002266.jpg?1751426052",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "mechanisms",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/66/22/8_000000002266.jpg?1751426052",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "mechanisms",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/66/22/3_000000002266.jpg?1751426052",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "mechanisms",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/66/22/10_000000002266.jpg?1751426052",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "mechanisms",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/66/22/1_000000002266.jpg?1751426052",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "mechanisms",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/66/22/2_000000002266.jpg?1751426052",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "mechanisms",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/support.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
     }
+  ],
+  "notes": [
+    "Official product text identifies a focus dial and a customizable Fn button for AF/MF mode selection; recorded additional controls as other without inferring a helicoid design. Exif lens-name transmission requires selecting the matching lens profile. Product text specifies a bottom micro-USB port; reviewed images cover front, rear, sides and mounted examples, not the bottom port."
+  ],
+  "unresolved": [
+    "USB firmware-update capability is published, but no GTZ-specific released firmware file was located on the official support page or in the focused official-site search. hasPublishedFirmwareUpdate is null pending release evidence."
   ]
 }

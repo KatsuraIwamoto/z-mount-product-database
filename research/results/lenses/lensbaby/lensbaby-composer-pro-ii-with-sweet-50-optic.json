@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Composer Pro II with Sweet 50 Optic"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-composer-pro-ii-with-sweet-50-optic"
@@ -31,7 +31,8 @@
         "lens.coatings",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "lens.specialized"
       ]
     },
     {
@@ -41,6 +42,44 @@
       "checked": [
         "lens.focus"
       ]
+    },
+    {
+      "url": "https://lensbaby.com/blogs/creative-photography/guide-composer-series-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "other",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/cdn/shop/products/CPII_Tilt_Sweet50_Web.png?v=1637280493&width=1562",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://lensbaby.com/pages/faq-2",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "faq",
+      "checked": [
+        "controls",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0279/1378/1386/files/Composer_Pro_II.pdf?5459=",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z-specific assembled dimensions and mass?",
+    "Can Nikon Z-specific rear, opposite-side and underside images establish complete exterior and control coverage?"
   ]
 }

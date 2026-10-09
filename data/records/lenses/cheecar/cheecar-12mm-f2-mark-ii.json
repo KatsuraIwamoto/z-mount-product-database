@@ -14,7 +14,20 @@
     "announcementDate": null,
     "officialDesignations": []
   },
-  "officialProductPages": [],
+  "officialProductPages": [
+    {
+      "url": "http://cheecar.com/product-42292-37595-183611.html",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "CN",
+      "language": "zh",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Cheecar"
+      }
+    }
+  ],
   "mount": {
     "systemId": "nikon-z",
     "replaceability": "fixed",
@@ -46,7 +59,9 @@
         "type": "front-thread",
         "diameterMm": 62,
         "host": {
-          "kind": "product"
+          "kind": "accessory",
+          "category": "other",
+          "modelNumberOptions": null
         }
       }
     ],
@@ -56,7 +71,25 @@
     "isRetractableForStorage": false,
     "externalLengthDuringFocus": null
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "clicked"
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "lens": {
     "focalLength": {
@@ -124,7 +157,14 @@
         "officialName": "高折射率"
       }
     ],
-    "coatings": null,
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": null
+      }
+    ],
     "focus": {
       "autofocus": {
         "present": false

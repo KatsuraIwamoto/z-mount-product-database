@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan 35mm F1.4 Tilt"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-35mm-f1-4-tilt"
@@ -47,7 +47,9 @@
         "lens.focus",
         "lens.stabilization",
         "lens.specialized",
-        "officialProductPages"
+        "officialProductPages",
+        "controls",
+        "accessories"
       ]
     },
     {
@@ -60,6 +62,19 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/SKU-E_380dabe3-6711-432f-bb9d-147b467aecab.jpg?v=1746784819&width=493",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z top/bottom/left/right and rear views plus operating documentation reconfirm electronic-contact absence and existing negative tripod, stabilization and retractability facts? Shared barrel images establish visible scales, not a complete Z exterior inventory.",
+    "Can an official specification give Nikon Z weight separately from the shared multi-mount range and identify the included components?"
   ]
 }

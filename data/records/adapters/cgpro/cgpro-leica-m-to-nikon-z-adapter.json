@@ -11,7 +11,9 @@
       {
         "variantId": "leica-m-nikon-z",
         "name": "Leica M - Nikon Z",
-        "modelNumberOptions": null
+        "modelNumberOptions": [
+          "LM-Z"
+        ]
       }
     ]
   },

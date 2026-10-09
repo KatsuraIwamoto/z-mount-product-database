@@ -6,7 +6,7 @@
     "brandId": "cheecar",
     "name": "Cheecar 14mm F2.8 Mark II"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "cheecar-14mm-f2-8-mark-ii"
@@ -35,7 +35,9 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.coatings",
+        "officialProductPages"
       ]
     },
     {
@@ -50,6 +52,28 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2023/06/25/6497e922efa48.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2023/06/25/6497ea3db13e1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements"
+      ]
     }
+  ],
+  "unresolved": [
+    "The manufacturer specification offers clicked and declicked aperture versions, not a demonstrated click-switch mechanism. Their Nikon Z variant identifiers and availability are not established; aperture click behavior remains unknown.",
+    "The gallery shows a separate filter adapter, so the 82 mm filter interface is assigned to that accessory rather than the lens barrel. The image alone does not establish whether the adapter or pictured caps are supplied.",
+    "Eight manufacturer product/detail images were inspected, with shared front/barrel views but no complete Nikon Z top, bottom, left, right and exposed rear coverage. The shared 68.2 × 78 mm and approximately 500 g lack mount/cap conditions; existing measurements are retained pending Z-specific evidence."
   ]
 }

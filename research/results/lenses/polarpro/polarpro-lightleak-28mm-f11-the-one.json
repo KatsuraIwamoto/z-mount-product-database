@@ -6,7 +6,7 @@
     "brandId": "polarpro",
     "name": "LightLeak Lens 28mm F11 “The ONE”"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "polarpro-lightleak-28mm-f11-the-one"
@@ -34,7 +34,8 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "accessories"
       ],
       "decisionChecks": [
         "availability"
@@ -60,6 +61,22 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1050/9944/files/Z-28MM.png?v=1722015555",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "physical",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can rear, opposite-side and underside Nikon Z images complete the exterior survey, including the existing contact/support/storage claims? The Z-labelled front-oblique image was inspected.",
+    "What accessory conditions apply to the Nikon Z mass and dimensions?",
+    "The product page describes fixed focus from 1m onward, while FAQ warns of blur closer than 2–3 feet. These are fixed-focus usability descriptions, not a manually adjustable minimum focus distance."
   ]
 }

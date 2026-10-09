@@ -6,7 +6,7 @@
     "brandId": "apsara",
     "name": "APSARA LUMIÈRE 75mm T1.4"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "apsara-lumiere-75mm-t1-4"
@@ -47,12 +47,23 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "specification",
       "checked": [
-        "lens.coverage"
+        "lens.coverage",
+        "identity",
+        "mount",
+        "physical",
+        "controls",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.imageCircleDiameters",
+        "lens.focus",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
       ]
     },
     {
       "url": "https://www.bhphotovideo.com/c/product/1912599-REG/simmod_apsara_lumiere_75_nikon_z_mount_apsara_lumiere_lens_nikon.html",
-      "publisherRelationship": "retailer",
+      "publisherRelationship": "authorized-retailer",
       "sourceType": "retailer-listing",
       "checked": [
         "identity",
@@ -60,7 +71,12 @@
         "physical",
         "controls",
         "lens.coverage",
-        "lens.focus"
+        "lens.focus",
+        "accessories",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.imageCircleDiameters",
+        "lens.stabilization"
       ]
     },
     {
@@ -87,6 +103,20 @@
         "availability",
         "inclusion-criteria"
       ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/images/fb/simmod_apsara_lumiere_75_nikon_z_mount_apsara_lumiere_lens_nikon_1912599.jpg",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical"
+      ]
     }
+  ],
+  "unresolved": [
+    "Confirm the measurement conditions for the published 780 g mass and 116 mm length; the official table does not identify caps, mount-specific conditions, or focus position.",
+    "Obtain identifiable Nikon Z rear, underside, and opposite-side images to complete the control and mount inspection; the retailer image shows only one side. Confirm the interchangeability procedure and focus-related length behavior.",
+    "Confirm minimum aperture and supplied accessories from manufacturer or distributor evidence; retailer specifications and package lists alone are not accepted for those values."
   ]
 }

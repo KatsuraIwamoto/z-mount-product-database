@@ -6,7 +6,7 @@
     "brandId": "astrhori",
     "name": "18mm F8 APS-C Macro Probe Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "astrhori-18mm-f8-2x-macro-probe"
@@ -66,8 +66,33 @@
       "sourceType": "image",
       "checked": [
         "lens.opticalConstruction",
-        "lens.anglesOfView"
+        "lens.anglesOfView",
+        "controls",
+        "lens.specialized",
+        "physical.dimensionMeasurements"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0698/5046/4568/files/1_a8ab4a78-8f2c-4624-8b90-86f2e1316a19.jpg?v=1687859191",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.officialEnvironmentalProtectionClaims",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://www.astrhori.cn/cdn/shop/files/7_e6424a72-994f-4d1e-8819-a0b892206860.jpg?v=1699522549&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
       ]
     }
+  ],
+  "unresolved": [
+    "Obtain Nikon Z-specific mass and dimensions. The official drawing gives approximately 458 mm length and 60 mm diameter but explicitly says length and weight vary by mount; no Z-specific measurement is established.",
+    "Complete identifiable Nikon Z four-side and exposed mount inspection; the main product photographs depict Sony E or unidentified mounts. Confirm aperture click behavior, focusing-related external length and filter interfaces.",
+    "Clarify which protective covers are supplied: the packing list shows a combined lens protection cover entry without separately identifying front and rear cap quantities."
   ]
 }

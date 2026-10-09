@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike AF 50mm F1.8 SE"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-af-50mm-f1-8-se"
@@ -91,6 +91,43 @@
         "lens.focus",
         "lens.stabilization"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/5018L_-_2_02.jpg?v=1753067348",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.coatings",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/5018L_-__04.jpg?v=1753067351",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.focus",
+        "controls",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/5018L_-__05_e428cde4-02be-4a67-9ba3-f493c80f8d54.jpg?v=1758878322",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "electronicServices",
+        "mount.electronicContacts"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z opposite-side and underside images complete the exterior survey and substantiate the existing tripod-support and retractability fields?",
+    "Can operating documentation identify the manual ring function and mechanism?",
+    "Can primary Nikon Z specifications establish the missing dimensions, mass conditions, minimum aperture and diaphragm blade count?",
+    "Is the illustrated petal hood included in the Nikon Z package or sold separately?"
   ]
 }

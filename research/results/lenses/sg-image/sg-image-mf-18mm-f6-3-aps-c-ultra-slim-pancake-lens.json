@@ -6,7 +6,7 @@
     "brandId": "sg-image",
     "name": "SG-image MF 18mm F6.3 APS-C Ultra-Slim Pancake Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "sg-image-mf-18mm-f6-3-aps-c-ultra-slim-pancake-lens"
@@ -46,6 +46,27 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/2_b846c3fe-98ee-4cf0-9115-cb54b0198a45.png?v=1755254578&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical"
+      ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/3_2b241998-d472-46cc-8431-40c332e58137.png?v=1755254578&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical"
+      ]
     }
+  ],
+  "unresolved": [
+    "2026-09-20: Official page explicitly describes fixed f/6.3 aperture, manual focus and Z option. Shared front and front-oblique images inspected; rear, underside and Z-specific coverage remain unavailable. Focus lever function/coupling and stabilization absence need operating documentation; no additional physical values inferred from appearance."
   ]
 }

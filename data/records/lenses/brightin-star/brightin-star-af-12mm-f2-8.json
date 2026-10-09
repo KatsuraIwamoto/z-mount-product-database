@@ -48,7 +48,24 @@
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    },
+    {
+      "type": "function-button",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -137,7 +154,10 @@
           }
         ]
       },
-      "manualFocus": null,
+      "manualFocus": {
+        "present": true,
+        "mechanism": null
+      },
       "opticalFocusingSystems": null,
       "minimumFocusDistances": [
         {

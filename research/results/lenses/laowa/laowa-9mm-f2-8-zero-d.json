@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 9mm F2.8 Zero-D"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-9mm-f2-8-zero-d"
@@ -50,7 +50,11 @@
       "sourceType": "announcement",
       "checked": [
         "identity",
-        "mount"
+        "mount",
+        "lifecycle",
+        "lens.coatings",
+        "physical.weightMeasurements",
+        "lens.specialElements"
       ],
       "decisionChecks": [
         "availability",
@@ -73,8 +77,74 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/laowa9mmMFT01_500.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/laowa9mmMFT02_500b.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/ueditor/upload/image/20210812/1628751545837602.jpeg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/ueditor/upload/image/20210812/1628751545999386.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements",
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com/Public/ueditor/upload/image/20210812/1628751539759979.jpeg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com.cn/Public/Uploads/uploadfile/files/20251010/CF%209mm%20F2.8%20C%26D-Dreamer%E8%AF%B4%E6%98%8E%E4%B9%A6.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "lens.aperture",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
       ]
     }
+  ],
+  "unresolved": [
+    "What are the Nikon Z-specific diameter and length, given the 53/60 mm ordering in the specification tables and the MFT-specific Japan measurements?",
+    "What attachment conditions apply to the approximately 215 g Nikon Z mass?",
+    "Can Nikon Z-specific rear and four-sided views establish complete exterior coverage, and what aperture click behavior is specified?"
   ]
 }

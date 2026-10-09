@@ -27,6 +27,18 @@
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat1/162af474d5b0a22d674e823dd648dd0fe8be5c97.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -64,13 +76,59 @@
       }
     ],
     "tripodSupport": {
-      "present": false
+      "present": true,
+      "components": null
     },
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false
   },
-  "controls": null,
-  "accessories": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Shift ring"
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Shift lock knob"
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Rotation lock release button"
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": null,
+    "rearCaps": null,
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
   "electronicServices": null,
   "lens": {
     "focalLength": {
@@ -171,6 +229,15 @@
           {
             "maximumFromNeutralMm": 11,
             "totalRangeMm": 22,
+            "directionality": "bidirectional",
+            "conditions": {}
+          }
+        ],
+        "rotationMeasurements": [
+          {
+            "scope": "movement-assembly",
+            "maximumFromNeutralDegrees": 180,
+            "totalRangeDegrees": 360,
             "directionality": "bidirectional",
             "conditions": {}
           }

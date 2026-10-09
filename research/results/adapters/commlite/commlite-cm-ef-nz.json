@@ -6,7 +6,7 @@
     "brandId": "commlite",
     "name": "Electronic AF Lens Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "commlite-cm-ef-nz"
@@ -37,7 +37,22 @@
         "electronics",
         "electronicServices",
         "conversionOptics",
-        "mechanisms"
+        "mechanisms",
+        "physical.dimensionMeasurements",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://images-na.ssl-images-amazon.com/images/I/B1Lbffmjr6S.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics",
+        "physical.dimensionMeasurements",
+        "physical.tripodSupport",
+        "electronicServices"
       ]
     }
   ]

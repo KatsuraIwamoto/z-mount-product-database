@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA Argus 25mm F0.95 CF APO"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "laowa-argus-25mm-f0-95-cf-apo"
@@ -65,6 +65,15 @@
         "lens.stabilization",
         "physical.dimensionMeasurements",
         "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/Argus25mmF0.95_APS-C_02.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
       ]
     }
   ],

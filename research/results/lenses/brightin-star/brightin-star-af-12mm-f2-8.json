@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "BRIGHTIN STAR AF 12mm F2.8 Full-Frame Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-af-12mm-f2-8"
@@ -76,6 +76,29 @@
       "checked": [
         "lens.aperture"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0676/3669/1098/files/f9054c14f2e8a5d4cfb3c0043047078d_a410fe27-0452-4786-b8a6-8eed28217277.png?v=1780450694",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0676/3669/1098/files/2_ab735558-4b09-4e74-b204-1e905a4030e5.jpg?v=1780450824",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.specialElements"
+      ]
     }
+  ],
+  "unresolved": [
+    "Seven manufacturer gallery images were visually inspected: barrel front/side renders and cutaways show focus and aperture rings, AF/MF switch and Fn button. The pictured mount is not identified as Nikon Z; Z-specific top/bottom/left/right and rear coverage remains unavailable.",
+    "The home-country page contains no readable mount/release-status selection; the nominal zero-price default variant does not establish retail availability. Nikon Z identity/release corroboration remains in the prior reports, and a current explicit official Z release statement remains unconfirmed.",
+    "The prior official manual URL could not be reopened. Aperture blade count remains retained from that prior source; no new dimensions, weight, filter interface, supplied accessories, hood detachability or aperture click behavior were established."
   ]
 }

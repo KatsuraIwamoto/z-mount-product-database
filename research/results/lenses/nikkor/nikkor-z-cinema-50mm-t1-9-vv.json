@@ -1,0 +1,29 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "nikkor-z-cinema-50mm-t1-9-vv",
+  "subject": {
+    "manufacturerId": "nikon",
+    "brandId": "nikkor",
+    "name": "NIKKOR Z CINEMA 50mm T1.9 VV"
+  },
+  "reviewedOn": "2026-09-16",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.nikon.com/company/news/2026/0908_02/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Has Nikon issued an official product release announcement or confirmed sale of the NIKKOR Z CINEMA 50mm T1.9 VV?"
+  ]
+}

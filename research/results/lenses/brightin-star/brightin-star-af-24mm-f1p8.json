@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "AF 24mm F1.8 Full-Frame Wide Angle Prime Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-af-24mm-f1p8"
@@ -70,6 +70,28 @@
         "lens.focus",
         "physical.filterInterfaces"
       ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/AF24mmF1.8.png?v=1781926420&width=790",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "electronicServices",
+        "lens.opticalConstruction",
+        "lens.aperture",
+        "lens.focus",
+        "lens.anglesOfView",
+        "physical.filterInterfaces"
+      ]
     }
+  ],
+  "unresolved": [
+    "Five gallery images and enlarged portions of the official infographic were inspected. Shared photographs show an aperture ring, but the explicit Nikon Z specification says there is no physical aperture ring; no aperture ring is recorded for Z.",
+    "Z-specific diagram confirms approximately 90 mm length and 448 g; cap conditions and dimensional endpoints are not fully specified. Existing measurements are retained.",
+    "Manufacturer imagery includes Nikon-mounted front obliques and generic rear USB-C/contacts detail, but complete Nikon Z-specific top, bottom, left and right coverage is not established.",
+    "A petal-shaped hood is shown, but explicit standard-kit supplied-accessory text was not established; bundle accessories are not assumed to be standard supplies."
   ]
 }

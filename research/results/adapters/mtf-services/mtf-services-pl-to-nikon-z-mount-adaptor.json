@@ -6,7 +6,7 @@
     "brandId": "mtf-services",
     "name": "PL to Nikon Z Mount Adaptor"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "mtf-services-pl-to-nikon-z-mount-adaptor"
@@ -21,7 +21,9 @@
         "mountConfigurations",
         "electronics",
         "conversionOptics",
-        "officialProductPages"
+        "officialProductPages",
+        "mechanisms",
+        "physical.tripodSupport"
       ],
       "decisionChecks": [
         "availability"
@@ -51,6 +53,26 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://mtfservices.com/cdn/shop/files/NikonZwithPLmount1.8.jpg?v=1730042163&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://mtfservices.com/cdn/shop/files/PLback.jpg?v=1730042173&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "mechanisms",
+        "physical.tripodSupport"
       ]
     }
   ]

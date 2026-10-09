@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 35mm T2.0 Full Frame Cine Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "7artisans-spectrum-35mm-t2p0"
@@ -56,6 +56,25 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/e5dce7a921778a8288ab8cefc6f6ad93_095310dc-4fa4-44d1-bdd1-6fc4c1e383e3.jpg?v=1774428668",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.focus",
+        "lens.aperture",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.anglesOfView",
+        "lens.opticalConstruction"
+      ]
     }
+  ],
+  "unresolved": [
+    "What is the correct optical construction? The official table states 7 elements in 9 groups, which cannot be used as a valid construction, while gallery distance scales also differ from the published 0.36 m minimum focus distance.",
+    "Can official Nikon Z-specific images establish the full rear and all four exterior sides, including tripod interfaces and covered connectors? Identifiable mounted gallery examples are Sony E.",
+    "Which attached-component and focus conditions apply to the Nikon Z dimensions and published 674.5 g mass, does length change during focusing, and which accessories are supplied with the individual Nikon Z lens rather than the three-lens set?"
   ]
 }

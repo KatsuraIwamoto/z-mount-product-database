@@ -6,7 +6,7 @@
     "brandId": "blazar",
     "name": "Mantis 50mm T2.0 1.33X Full Frame Anamorphic Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "blazar-mantis-50mm-t2-1p33x"
@@ -36,6 +36,9 @@
         "lens.focus",
         "lens.stabilization",
         "lens.specialized"
+      ],
+      "decisionChecks": [
+        "availability"
       ]
     },
     {
@@ -63,7 +66,13 @@
       "sourceType": "product-page",
       "checked": [
         "physical.weightMeasurements",
-        "controls"
+        "controls",
+        "mount",
+        "lens.focus",
+        "lens.aperture",
+        "lens.coverage",
+        "physical.filterInterfaces",
+        "physical.frontAccessoryInterface"
       ]
     },
     {
@@ -72,11 +81,45 @@
       "sourceType": "specification",
       "checked": [
         "physical.weightMeasurements",
+        "controls",
+        "mount",
+        "lens.focus",
+        "lens.aperture",
+        "lens.coverage",
+        "physical.filterInterfaces",
+        "physical.frontAccessoryInterface"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0721/3200/2067/files/Mantis_whitebg_50mm_2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
         "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0721/3200/2067/files/Zmount_1.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount.electronicContacts"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0721/3200/2067/files/Zmount_2.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount.electronicContacts"
       ]
     }
   ],
   "unresolved": [
     "What is the published weight with the Nikon Z mount installed?"
+  ],
+  "notes": [
+    "The series uses interchangeable PL, E, EF, RF, L, and Z mounts. The specification table labels its weights as PL-mount measurements."
   ]
 }

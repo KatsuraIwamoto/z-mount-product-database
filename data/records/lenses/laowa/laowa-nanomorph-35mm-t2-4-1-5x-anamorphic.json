@@ -8,7 +8,23 @@
     "productName": "LAOWA Nanomorph 35mm T2.4 1.5x Anamorphic",
     "modelNumberOptions": null,
     "alternateNames": null,
-    "variants": null
+    "variants": [
+      {
+        "variantId": "amber",
+        "name": "Amber",
+        "modelNumberOptions": null
+      },
+      {
+        "variantId": "blue",
+        "name": "Blue",
+        "modelNumberOptions": null
+      },
+      {
+        "variantId": "silver",
+        "name": "Silver",
+        "modelNumberOptions": null
+      }
+    ]
   },
   "lifecycle": {
     "announcementDate": null,
@@ -27,6 +43,18 @@
         "type": "manufacturer-or-brand",
         "name": "LAOWA Cinema Lenses"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat/81d4307ac297ffbb45d8a2d0a695f0688bad2856.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -36,22 +64,8 @@
     "electronicContacts": null
   },
   "physical": {
-    "dimensionMeasurements": [
-      {
-        "maximumDiameterMm": 60,
-        "lengthMm": null,
-        "conditions": {}
-      }
-    ],
-    "weightMeasurements": [
-      {
-        "grams": 360,
-        "approximate": true,
-        "conditions": {
-          "attachedComponents": []
-        }
-      }
-    ],
+    "dimensionMeasurements": null,
+    "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
     "filterInterfaces": [
       {
@@ -66,9 +80,27 @@
       "present": false
     },
     "externalLengthDuringFocus": null,
-    "isRetractableForStorage": false
+    "isRetractableForStorage": false,
+    "frontAccessoryInterface": {
+      "outsideDiameterMm": 58
+    }
   },
-  "controls": null,
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "geared": true
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "geared": true
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    }
+  ],
   "accessories": null,
   "electronicServices": null,
   "lens": {
@@ -117,12 +149,7 @@
     "coverage": {
       "format": "super-35"
     },
-    "imageCircleDiameters": [
-      {
-        "diameterMm": 25.6,
-        "conditions": {}
-      }
-    ],
+    "imageCircleDiameters": null,
     "opticalConstruction": {
       "groups": 13,
       "elements": 15

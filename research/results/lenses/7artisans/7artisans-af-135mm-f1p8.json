@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "AF 135mm F1.8 Full-frame Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-af-135mm-f1p8"
@@ -65,7 +65,9 @@
       "sourceType": "announcement",
       "checked": [
         "identity.modelNumberOptions",
-        "mount"
+        "mount",
+        "physical.weightMeasurements",
+        "physical.dimensionMeasurements"
       ],
       "decisionChecks": [
         "availability"
@@ -99,9 +101,28 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://www.stkb.jp/shopdetail/000000002836",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "product-page",
+      "checked": [
+        "physical.weightMeasurements",
+        "physical.dimensionMeasurements"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/1_9a398dbc-8564-4118-90c3-d96012864bad.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "controls"
+      ]
     }
   ],
   "unresolved": [
-    "What is the official weight for the Nikon Z-mount configuration?"
+    "What are the dimensions and measurement conditions of the Nikon Z configuration?"
   ]
 }

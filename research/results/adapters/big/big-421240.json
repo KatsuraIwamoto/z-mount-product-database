@@ -6,7 +6,7 @@
     "brandId": "big",
     "name": "B.I.G. Objektivadapter Nikon AI(S) an Nikon Z"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "big-421240"
@@ -29,5 +29,8 @@
         "release-status"
       ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z front, rear and four-sided product images or a product-specific manual confirm the electronic-contact, optical-path and mechanism details?"
   ]
 }

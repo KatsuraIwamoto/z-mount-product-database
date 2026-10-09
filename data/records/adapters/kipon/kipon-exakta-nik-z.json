@@ -5,7 +5,9 @@
     "manufacturerId": "kipon",
     "brandId": "kipon",
     "productName": "Exakta-NIK Z",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "EXA-N/Z"
+    ],
     "alternateNames": null,
     "variants": null
   },

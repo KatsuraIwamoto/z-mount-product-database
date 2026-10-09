@@ -12,7 +12,7 @@
     "variants": null
   },
   "lifecycle": {
-    "announcementDate": "2025-12-26",
+    "announcementDate": "2025-07-21",
     "officialDesignations": []
   },
   "officialProductPages": [
@@ -51,10 +51,16 @@
     "lensPowerTransmission": false,
     "recordingTriggerTransmission": false
   },
-  "mechanisms": [],
+  "mechanisms": null,
   "physical": {
     "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "weightMeasurements": [
+      {
+        "grams": 94,
+        "approximate": true,
+        "conditions": {}
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

@@ -6,7 +6,7 @@
     "brandId": "lomography",
     "name": "Mirrorless Close-Up Lens Adapter for Nikon Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "lomography-z460n"
@@ -34,6 +34,31 @@
       "checked": [
         "identity",
         "mechanisms"
+      ]
+    },
+    {
+      "url": "https://cdn.assets.lomography.com/df/47566ce33d632454ec2a1b14a0ec0bea2a404b/1280x853x2.jpg?auth=2b13957190462b707a0d09af08de7c7900fc02fe53dde8c64a0a4e1d01c0d29f",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://cdn.assets.lomography.com/ad/a40a7345ccf901803638f5cbf1df07a334a25a/640x427x2.jpg?auth=2199d516d796eceb121d076e616e4ebdc64e1f2836a2077b0f68ecf6e50ea87e",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://cdn.assets.lomography.com/41/1bf25abf7043d0bc07d11a4603df536f497131/640x427x2.jpg?auth=619f3850b80215eb48801a8d22c56a140cf3b866134af40a4e8ddbf854f75fa5",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
   ]

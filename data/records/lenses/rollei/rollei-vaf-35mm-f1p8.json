@@ -93,10 +93,6 @@
       "quantity": 1
     },
     {
-      "type": "aperture-ring",
-      "quantity": 1
-    },
-    {
       "type": "focus-mode-switch",
       "quantity": 1
     },
@@ -161,7 +157,20 @@
       },
       "controlMechanism": "electronic"
     },
-    "anglesOfView": null,
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 64,
+        "conditions": {}
+      },
+      {
+        "format": "aps-c",
+        "orientation": null,
+        "degrees": 44.6,
+        "conditions": {}
+      }
+    ],
     "coverage": {
       "format": "full-frame"
     },

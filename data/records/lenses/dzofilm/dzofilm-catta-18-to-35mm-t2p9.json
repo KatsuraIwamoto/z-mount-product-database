@@ -29,6 +29,18 @@
   },
   "officialProductPages": [
     {
+      "url": "https://dzofilm.com/lens/zoom/catta-zoom",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "CN",
+      "language": "zh",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "DZOFILM"
+      }
+    },
+    {
       "url": "https://dzofilm.com/en/lens/zoom/catta-zoom",
       "pageFamilies": [
         "global"
@@ -52,7 +64,7 @@
   "physical": {
     "dimensionMeasurements": [
       {
-        "maximumDiameterMm": 80,
+        "maximumDiameterMm": null,
         "lengthMm": 215.4,
         "conditions": {}
       }
@@ -62,7 +74,8 @@
         "grams": 1680,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": null,
@@ -75,9 +88,7 @@
         }
       }
     ],
-    "tripodSupport": {
-      "present": false
-    },
+    "tripodSupport": null,
     "externalLengthDuringFocus": null,
     "isRetractableForStorage": false,
     "frontAccessoryInterface": {
@@ -103,6 +114,14 @@
       "quantity": 1,
       "rotationDegrees": 77,
       "geared": true
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "zoom-lever",
+      "quantity": 1
     }
   ],
   "accessories": null,
@@ -184,6 +203,12 @@
     "zoom": {
       "drive": null,
       "opticalZoomingSystems": null
-    }
+    },
+    "imageCircleDiameters": [
+      {
+        "diameterMm": 43.5,
+        "conditions": {}
+      }
+    ]
   }
 }

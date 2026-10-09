@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "MF 16mm F2.8 Full-Frame Manual Focus Prime Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "brightin-star-mf-16mm-f2p8"
@@ -64,6 +64,47 @@
         "lens.focus",
         "physical.filterInterfaces"
       ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/16mmF2.8__2.jpg?v=1762670128&width=1000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.anglesOfView",
+        "lens.aperture",
+        "lens.focus",
+        "lens.opticalConstruction",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/16mmF2.8__3.jpg?v=1762670130&width=1600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/16mmF2.8__4.jpg?v=1762670131&width=1600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://brightinstar.com/cdn/shop/files/1628-1.jpg?v=1781774788&width=1000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "The current product-page summary states 72 mm filter support, while its specification graphic and package text state 67 mm. The published 67 mm interface is retained with this conflict unresolved; a second interface is not inferred.",
+    "Shared approximately 73 × 94 mm and 460 g specifications lack a Nikon Z measurement condition; Nikon Z dimensions and mass remain unknown.",
+    "Five gallery images and the packing section of the long infographic were inspected, but no complete Nikon Z top, bottom, left, right and rear coverage was established. Aperture click behavior remains unconfirmed. The page describes a detachable metal hood but its standard-supply relationship is not explicit."
   ]
 }

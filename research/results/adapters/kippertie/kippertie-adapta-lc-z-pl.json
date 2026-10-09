@@ -6,7 +6,7 @@
     "brandId": "kippertie",
     "name": "Adapta LC Z/PL"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kippertie-adapta-lc-z-pl"
@@ -29,6 +29,32 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://store.kippertie.com/wp-content/uploads/2025/09/adapta_lc_zpl_front.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mechanisms",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://store.kippertie.com/wp-content/uploads/2025/09/adapta_lc_zpl_rear.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mechanisms",
+        "mountConfigurations"
+      ]
+    },
+    {
+      "url": "https://store.kippertie.com/wp-content/uploads/2025/09/Adapta_LC_support_foot_k.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.tripodSupport"
       ]
     }
   ]

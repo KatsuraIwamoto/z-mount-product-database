@@ -7,10 +7,24 @@
     "productName": "IF·NF-NZ Chipped Focus Confirm Adapter Nikon F Mount Lens Compatible with Nikon Z Camera",
     "modelNumberOptions": [
       "IF-NF-NZ",
-      "FR10260EMB"
+      "FR10260EMB",
+      "NF-NZ"
     ],
     "alternateNames": null,
-    "variants": null
+    "variants": [
+      {
+        "variantId": "black",
+        "name": "Black",
+        "modelNumberOptions": null,
+        "color": "Black"
+      },
+      {
+        "variantId": "silver",
+        "name": "Silver",
+        "modelNumberOptions": null,
+        "color": "Silver"
+      }
+    ]
   },
   "lifecycle": {
     "announcementDate": null,

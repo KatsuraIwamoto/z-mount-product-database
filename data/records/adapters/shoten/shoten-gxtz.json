@@ -40,14 +40,19 @@
   "electronics": {
     "electronicContacts": true,
     "autofocus": true,
-    "cameraControlledAperture": null,
-    "lensStabilizationCommunication": null,
-    "manualFocusAssistance": null,
-    "metadataTransmission": null,
+    "cameraControlledAperture": true,
+    "lensStabilizationCommunication": true,
+    "manualFocusAssistance": true,
+    "metadataTransmission": {
+      "present": true,
+      "standards": [
+        "exif"
+      ]
+    },
     "lensPowerTransmission": null,
     "recordingTriggerTransmission": null
   },
-  "mechanisms": [],
+  "mechanisms": null,
   "physical": {
     "dimensionMeasurements": [
       {

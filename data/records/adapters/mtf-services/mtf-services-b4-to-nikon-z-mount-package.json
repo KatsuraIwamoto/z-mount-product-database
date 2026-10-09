@@ -59,11 +59,11 @@
       "components": [
         {
           "type": "support-bridge",
-          "relationship": null,
+          "relationship": "supplied",
           "removable": null,
           "interfaces": null,
           "modelNumberOptions": null,
-          "quantity": null,
+          "quantity": 1,
           "conditions": {}
         }
       ]

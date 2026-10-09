@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 58mm F2.8 2x Ultra Macro APO"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-58mm-f2-8-2x-ultra-macro-apo"
@@ -62,8 +62,68 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.externalLengthDuringFocus"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/LAOWA58mmF2.8_01.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/LAOWA58mmF2.8_02.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/LAOWA58mmF2.8_03.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/LAOWA58mmF2.8_04.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com.cn/Public/Uploads/uploadfile/files/20240407/FF58mmF2.8CA-DreamerMacro2X.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity",
+        "mount",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
       ]
     }
+  ],
+  "unresolved": [
+    "What are Nikon Z-specific dimensions and mass with attachment conditions, rather than the Sony FE figures?",
+    "Is the minimum focus distance 183 mm or 185 mm for the Nikon Z version?",
+    "Can Nikon Z-specific views establish complete exterior coverage, and what aperture click behavior and supplied accessory contents are documented?"
   ]
 }

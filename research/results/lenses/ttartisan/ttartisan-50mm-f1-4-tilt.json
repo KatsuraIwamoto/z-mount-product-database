@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan 50mm F1.4 Tilt"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-50mm-f1-4-tilt"
@@ -48,7 +48,10 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "officialProductPages"
+        "officialProductPages",
+        "controls",
+        "accessories",
+        "lens.specialized"
       ]
     },
     {
@@ -61,6 +64,18 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/50mmf1.4.jpg?v=1690192153&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z top/bottom/left/right and rear views plus operating documentation reconfirm contact absence and existing negative tripod/stabilization/retractability facts? Shared barrel views do not establish complete Z coverage."
   ]
 }

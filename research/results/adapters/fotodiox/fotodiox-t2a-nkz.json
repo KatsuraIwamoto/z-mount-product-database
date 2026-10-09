@@ -6,10 +6,10 @@
     "brandId": "fotodiox",
     "name": "Fotodiox Lens Adapter Astro Edition - Compatible with T-Mount (T / T-2) Screw Mount Telescopes to Nikon Z-Mount Cameras for Astronomy"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "excluded",
-    "reason": "The product is dedicated to telescope or astronomy attachment rather than adapting an interchangeable camera lens."
+    "reason": "The product is marketed primarily for telescope or astronomy attachment; interchangeable-camera-lens adaptation is incidental."
   },
   "sources": [
     {
@@ -22,6 +22,14 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/products/T2A-NikZ-04.jpg?v=1583337859",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
       ]
     }
   ]

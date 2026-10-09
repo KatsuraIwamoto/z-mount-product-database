@@ -6,7 +6,7 @@
     "brandId": "cheecar",
     "name": "Cheecar 12mm F2 Mark II"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "cheecar-12mm-f2-mark-ii"
@@ -35,8 +35,41 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2025/04/23/6808403eadcec.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "lens.coatings",
+        "lens.aperture",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2025/04/23/680840420c972.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "http://cheecar.com/home/f/a/0pu31v/resource/2025/04/23/68084042280f2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.filterInterfaces"
       ]
     }
+  ],
+  "unresolved": [
+    "The manufacturer explicitly supplies a separate filter holder; the 62 mm filter interface is therefore assigned to that accessory rather than directly to the lens. The holder has no dedicated current accessory field or published model number; other supplied accessories remain unconfirmed.",
+    "The common dimension diagram/table gives 46.5 × 51.5 mm and approximately 229 g without Nikon Z conditions. The diagram marks 46.5 mm across the front opening, so its meaning as maximum barrel diameter is uncertain. Existing measurements are retained pending clarification of maximum diameter, Z length and cap conditions.",
+    "Seventeen manufacturer detail images were inspected. Nikon Z fc-mounted front-oblique and top views confirm the rings/scales, while Fuji-mounted silver images do not establish a Nikon Z silver variant. Complete bottom, both sides and exposed Nikon Z rear coverage remains unavailable."
   ]
 }

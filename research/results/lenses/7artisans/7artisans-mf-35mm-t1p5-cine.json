@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 35mm T1.5 Full Frame Cine Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-35mm-t1p5-cine"
@@ -72,7 +72,8 @@
         "lens.focus",
         "lens.aperture",
         "lens.anglesOfView",
-        "controls"
+        "controls",
+        "identity"
       ]
     }
   ]

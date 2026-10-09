@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 7.5mm f/2.8 Mark II APS-C Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "7artisans-mf-7p5mm-f2p8-mark-ii"
@@ -33,7 +33,9 @@
         "lens.opticalConstruction",
         "lens.focus",
         "lens.stabilization",
-        "lens.specialized"
+        "lens.specialized",
+        "lens.specialElements",
+        "controls"
       ],
       "decisionChecks": [
         "availability"
@@ -64,6 +66,31 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/products/4_263e97f7-b848-4d50-82cd-f76c6d6194ef.jpg?v=1682501808&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/files/9_b6c5a7ad-5d17-49b5-ac16-0a141b73fc2f.jpg?v=1682501808&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.aperture",
+        "lens.focus",
+        "lens.opticalConstruction",
+        "physical.weightMeasurements"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can official Nikon Z-specific images establish the full rear and all four exterior sides, including tripod interfaces and any covered connectors? The available Nikon Z6-mounted front oblique does not reveal every surface.",
+    "Does the Nikon Z lens support any filter interface? The specification table says filter size is not available, while an annotated image labels a 63 mm exterior width as filter size.",
+    "What are the Nikon Z-specific dimensions and measurement conditions for approximately 265 g, is the petal hood removable or integrated, and which accessories are supplied as standard?"
   ]
 }

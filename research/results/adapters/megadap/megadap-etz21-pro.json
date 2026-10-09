@@ -6,7 +6,7 @@
     "brandId": "megadap",
     "name": "Sony E to Nikon Z Autofocus Adapter Pro"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "megadap-etz21-pro"
@@ -15,7 +15,7 @@
     {
       "url": "https://megadap.net/etz21-pro-firmware/",
       "publisherRelationship": "manufacturer-or-brand",
-      "sourceType": "manual",
+      "sourceType": "support-page",
       "checked": [
         "identity",
         "identity.modelNumberOptions",
@@ -37,6 +37,47 @@
       "checked": [
         "identity"
       ]
+    },
+    {
+      "url": "https://www.megadap.com/xzzx/etz21-pro-%E5%9B%BA%E4%BB%B6%EF%BC%9Amlz_etz21pp0206/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronics",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://stkb.co.jp/file/ETZ21_Pro_Pro%2B.pdf",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://www.megadap.com/cpbjd/etz21-pro/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "officialProductPages",
+        "physical.weightMeasurements"
+      ]
+    },
+    {
+      "url": "https://www.megadap.com/wp-content/uploads/2025/06/%E8%AF%A6%E6%83%851-ETZ21%E5%8D%87%E7%BA%A7PRO%E7%89%88.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does this generation support camera-menu focal-length configuration for lenses without electronic contacts, and under which firmware versions?",
+    "Can exact-generation front, rear and four-sided exterior images establish the complete mechanism, connector, optical-path and tripod-support arrangement?"
   ]
 }

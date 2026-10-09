@@ -6,7 +6,7 @@
     "brandId": "kase",
     "name": "Kase Reflex 150mm AF"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "kase-150mm-f5-6-af-reflex-lens"
@@ -33,7 +33,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.specialized"
+        "lens.specialized",
+        "accessories"
       ]
     },
     {
@@ -62,6 +63,45 @@
         "controls",
         "lens.focus"
       ]
+    },
+    {
+      "url": "https://www.kasecn.com/products_detail/144.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "physical.filterInterfaces",
+        "controls",
+        "officialProductPages"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/images/fb/kase_1117180112_150mm_nikon_z_reflex_1966999.jpg",
+      "publisherRelationship": "retailer",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://www.kasecn.com/Download_detail/3.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
     }
+  ],
+  "unresolved": [
+    "The Chinese specification separates EF (487 g; 82 × 82 mm) and Sony E (529 g; 82 × 105 mm), without Nikon Z measurements; no values are transferred between mounts.",
+    "The Nikon Z-labelled retailer image confirms the focus ring and AF/MF switch, but a complete Z-specific four-direction and rear-contact inspection remains unavailable.",
+    "A magnetic front cap is explicitly supplied; hood/rear cap package status and coating details remain unconfirmed. The existing electronic aperture-control classification has not been independently established for this fixed-aperture reflex design.",
+    "Magnetic filter compatibility is not representable by current filter-interface types."
   ]
 }

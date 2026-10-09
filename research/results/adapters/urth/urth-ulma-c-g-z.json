@@ -6,7 +6,7 @@
     "brandId": "urth",
     "name": "Contax G Lens Mount to Nikon Z Camera Mount"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "urth-ulma-c-g-z"
@@ -36,6 +36,26 @@
       "sourceType": "image",
       "checked": [
         "mechanisms"
+      ]
+    },
+    {
+      "url": "https://urth.co/cdn/shop/files/2.-Urth-Lens-Mount-Adapter-G-Z-New_1000x.jpg?v=1754625679",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://urth.co/cdn/shop/files/3.-Urth-Lens-Mount-Adapter-G-Z-New_1000x.jpg?v=1754625679",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
       ]
     }
   ]

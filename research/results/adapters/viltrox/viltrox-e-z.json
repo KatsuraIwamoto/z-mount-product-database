@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "E-Z AF Lens Mount Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "viltrox-e-z"
@@ -40,6 +40,50 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://viltrox.com/pages/e-z-v6-0",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/pages/adapter-ring-firmware-update-guide",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronics",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/Adapter_Ring_Firmware_Update_Guide-img6.png?v=1764235237",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/Adapter_Ring_Firmware_Update_Guide-img1.png?v=1764235197",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "electronics",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Which camera-based manual-focus confirmation or assistance functions are supported, beyond the ability to use manual focus?",
+    "Can the total 7 mm length and 64.5 mm diameter be reconfirmed independently of the current 4 mm installed mount-extension description?",
+    "Can complete top, bottom, left and right production views establish whether additional mechanisms are absent?"
+  ],
+  "notes": [
+    "The update guide distinguishes hardware versions 5.x and 6.x and firmware options with lens stabilization enabled or disabled; lens and in-body stabilization cannot operate simultaneously."
   ]
 }

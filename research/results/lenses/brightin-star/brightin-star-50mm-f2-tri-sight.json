@@ -6,7 +6,7 @@
     "brandId": "brightin-star",
     "name": "BRIGHTIN STAR 50mm F2 TRI-SIGHT"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
@@ -31,6 +31,7 @@
     }
   ],
   "unresolved": [
-    "A Nikon Z development prototype was shown at CP+ 2026, but no current exact-product manufacturer page, formal release announcement, or retail availability was found. Confirm commercial release before inclusion."
+    "A Nikon Z development prototype was shown at CP+ 2026, but no current exact-product manufacturer page, formal release announcement, or retail availability was found. Confirm commercial release before inclusion.",
+    "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
   ]
 }

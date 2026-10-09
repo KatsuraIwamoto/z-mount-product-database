@@ -6,7 +6,7 @@
     "brandId": "shoten",
     "name": "SHOTEN CEF-NZ E Mount Adapter"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "shoten-cef-nz-e"
@@ -45,6 +45,71 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://gigaplus.makeshop.jp/shotenkobo/img/shoten/SHOTEN_E-series_MountAdapter_for_Nikon_Z.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "electronics",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "http://stkb.co.jp/support.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/35/24/3_000000002435.jpg?1774320439",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/35/24/8_000000002435.jpg?1774320439",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/35/24/9_000000002435.jpg?1774320439",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://makeshop-multi-images.akamaized.net/shotenkobo/shopimages/35/24/10_000000002435.jpg?1774320439",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "conversionOptics"
+      ]
     }
+  ],
+  "notes": [
+    "The supplied USB cable connects through magnetic data contacts on the adapter; connectorType is other, not a standard USB socket. Official support lists common E-series firmware 1.4.3 dated 2026-09-03 for this model.",
+    "Manual-focus confirmation is not supported on early Nikon Z6/Z7 bodies. EXIF values are configured lens profiles, not live lens aperture communication."
   ]
 }

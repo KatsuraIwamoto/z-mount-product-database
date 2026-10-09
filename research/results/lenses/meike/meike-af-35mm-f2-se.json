@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike AF 35mm F2 SE"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-af-35mm-f2-se"
@@ -75,6 +75,43 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/3520-_-_3_04.jpg?v=1758786046",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.anglesOfView",
+        "lens.aperture",
+        "lens.focus",
+        "lens.opticalConstruction",
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/3520-_-_3_02_0cd96c13-cdd2-402b-b636-e3b205c7390b.jpg?v=1753411643",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.externalLengthDuringFocus",
+        "lens.focus",
+        "lens.coatings",
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/files/3520E-_-10.jpg?v=1724840532&width=416",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "The current shared E/Z graphic gives 73 x 90 mm and approximately 298 g, while the existing record has 73 x 93 mm and 300 g. Which dimensions and accessory conditions specifically apply to Nikon Z?",
+    "The current detail graphic identifies USB Type-C, while the existing record specifies Micro-USB. Does this indicate a mount or production revision difference?",
+    "Can Nikon Z rear, opposite-side and underside photos complete the exterior survey and substantiate the existing tripod-support and retractability fields?",
+    "Can manufacturer operating documentation identify the manual ring function and establish whether the illustrated sealing claim applies to Nikon Z?"
   ]
 }

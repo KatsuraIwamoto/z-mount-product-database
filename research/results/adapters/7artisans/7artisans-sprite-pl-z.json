@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "Sprite PL-Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-sprite-pl-z"
@@ -25,13 +25,20 @@
     },
     {
       "url": "https://www.bhphotovideo.com/c/product/1840980-REG/7artisans_photoelectric_pl_z_adapter.html",
-      "publisherRelationship": "retailer",
+      "publisherRelationship": "authorized-retailer",
       "sourceType": "retailer-listing",
       "checked": [
         "electronics",
         "conversionOptics",
-        "mechanisms"
+        "mechanisms",
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations"
       ]
     }
+  ],
+  "unresolved": [
+    "Can a current eligible Sprite PL-Z source and exact-Z images establish electronics, optics and mechanisms? The current B.I.G. catalog lists the newer PL 4-in-1 kit, and the B&H PL-Z listing photograph is engraved PL-L Mount. Neither establishes the Sprite Z exterior; retailer unavailability alone does not establish manufacturer discontinuation.",
+    "The existing B.I.G. catalog citation is retained as historical evidence for published facts; its current edition does not identify Sprite PL-Z. Reconfirmation requires a dated catalog or manufacturer source. B.I.G. is the catalog publisher and distributes 7Artisans."
   ]
 }

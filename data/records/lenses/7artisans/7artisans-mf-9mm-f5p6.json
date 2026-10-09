@@ -60,7 +60,15 @@
       }
     ],
     "officialEnvironmentalProtectionClaims": null,
-    "filterInterfaces": null,
+    "filterInterfaces": [
+      {
+        "type": "rear-thread",
+        "diameterMm": 34,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
     "tripodSupport": {
       "present": false
     },
@@ -79,6 +87,10 @@
     },
     {
       "type": "depth-of-field-scale",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
       "quantity": 1
     }
   ],
@@ -126,7 +138,26 @@
       "groups": 11,
       "elements": 16
     },
-    "specialElements": null,
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 2
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 2
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 3
+      }
+    ],
     "coatings": null,
     "focus": {
       "autofocus": {

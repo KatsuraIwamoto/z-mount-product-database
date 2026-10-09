@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 65mm F2.8 2x Ultra Macro APO"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-65mm-f2-8-2x-ultra-macro-apo"
@@ -62,8 +62,64 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "lens.coverage",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.externalLengthDuringFocus"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/upload/03.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/upload/04.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/upload/01.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/upload/02%281%29.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com.cn/Ftp/CF%2065mm%20F2.8%20CA-Dreamer%20Macro%202X.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "lens.aperture",
+        "lens.specialized",
+        "lens.focus",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "mount"
       ]
     }
+  ],
+  "unresolved": [
+    "What are Nikon Z-specific dimensions and mass with attachment conditions for the measurements that vary by mount?",
+    "Can Nikon Z-specific views establish complete exterior coverage, and what aperture click behavior and supplied accessory contents are documented?"
   ]
 }

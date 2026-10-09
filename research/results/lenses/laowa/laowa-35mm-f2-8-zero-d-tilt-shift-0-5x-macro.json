@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 35mm F2.8 Zero-D Tilt-Shift 0.5x Macro"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-35mm-f2-8-zero-d-tilt-shift-0-5x-macro"
@@ -76,8 +76,51 @@
         "lens.focus",
         "lens.stabilization",
         "lens.specialized",
-        "physical.tripodSupport"
+        "physical.tripodSupport",
+        "officialProductPages",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/35mmf2.8tilt-shift_01.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/35mmf2.8tilt-shift_02.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/35mmf2.8tilt-shift_03.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com.cn/Public/Uploads/uploadfile/files/20250905/FFIITS35mmF2.8C-DreamerMacro0.5Xjingtoushuomingshu.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "controls",
+        "lens.imageCircleDiameters",
+        "lens.specialized",
+        "physical.dimensionMeasurements"
       ]
     }
+  ],
+  "unresolved": [
+    "Is the published maximum diameter 104.9 mm in Japan or 85 mm in the manual, and do different included components explain the difference?",
+    "What are Nikon Z-specific mass conditions, including support attachment?",
+    "What format and orientation apply to the stated 87.5-degree angle?",
+    "Can Nikon Z-specific views complete exterior coverage, and what aperture click behavior and hood/cap supply are documented?"
   ]
 }

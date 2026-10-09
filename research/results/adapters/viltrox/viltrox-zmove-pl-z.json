@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "ZMOVE Series PL Cine Lens Mount Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "viltrox-zmove-pl-z"
@@ -30,5 +30,8 @@
         "physical.tripodSupport"
       ]
     }
+  ],
+  "unresolved": [
+    "Can exact PL-Z front, rear and four-side production views establish the absence of additional mechanisms? The current shared gallery depicts PL-DL and PL-E."
   ]
 }

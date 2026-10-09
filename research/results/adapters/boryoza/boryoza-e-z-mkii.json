@@ -6,7 +6,7 @@
     "brandId": "boryoza",
     "name": "BORYOZA E-Z MKII Auto Focus Adapter Compatible with Sony E Mount Lens to Nikon Z Mount Cameras"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "boryoza-e-z-mkii"
@@ -40,6 +40,31 @@
       ],
       "decisionChecks": [
         "availability"
+      ]
+    },
+    {
+      "url": "https://admin.boryoza.net/api/storefront/production/media/1",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://boryoza.net/downloads/SE-NZ/BORYOZA%20SE-NZ%20MKII%20User%20Manual.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "electronicServices",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://boryoza.net/en/firmware",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
       ]
     }
   ]

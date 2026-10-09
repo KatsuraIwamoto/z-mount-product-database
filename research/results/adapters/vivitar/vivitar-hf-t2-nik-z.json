@@ -6,7 +6,7 @@
     "brandId": "vivitar",
     "name": "T2/T-Mount to Nikon Z Mount Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "vivitar-hf-t2-nik-z"
@@ -31,7 +31,10 @@
       "sourceType": "image",
       "checked": [
         "mechanisms",
-        "physical.tripodSupport"
+        "physical.tripodSupport",
+        "mountConfigurations",
+        "electronics",
+        "conversionOptics"
       ]
     },
     {
@@ -86,5 +89,8 @@
         "identity"
       ]
     }
+  ],
+  "unresolved": [
+    "Is the screw-secured T-mount insert user-adjustable for lens orientation, and what adjustment procedure applies?"
   ]
 }

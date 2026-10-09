@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "MF 14mm T2.9 Full Frame Cine Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "7artisans-spectrum-14mm-t2p9"
@@ -54,6 +54,47 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/14-T2_03.jpg?v=1701675206",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements",
+        "lens.opticalConstruction",
+        "controls",
+        "physical.dimensionMeasurements",
+        "lens.aperture"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/files/14295.jpg?v=1702373737&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://7artisans.store/cdn/shop/files/14291.jpg?v=1702373737&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0555/8504/6736/files/14-T2_04_d8b08d4d-71b2-47df-a3bf-935cc3802cd8.jpg?v=1760405547",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can official Nikon Z-specific images establish the full rear and all four exterior sides, including tripod-support provisions and covered connectors? Current gallery examples do not expose the complete Z configuration.",
+    "What focus and attached-component conditions apply to the Nikon Z dimensions and 660 g mass, and does its external length change during focusing?",
+    "What is the construction of the supplied lens bag, and are any lens hood or other accessories standard in the individual Nikon Z package?"
   ]
 }

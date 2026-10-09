@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan AF 75mm F2"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-af-75mm-f2"
@@ -47,7 +47,10 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "officialProductPages"
+        "officialProductPages",
+        "lens.specialElements",
+        "controls",
+        "accessories"
       ]
     },
     {
@@ -79,6 +82,18 @@
       "checked": [
         "electronicServices"
       ]
+    },
+    {
+      "url": "https://ttartisan.store/cdn/shop/files/1_03076011-c664-40e3-962a-377db23cc259.jpg?v=1726819596&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can exact Nikon Z directional photographs and operating instructions establish remaining ring functions and reconfirm existing negative tripod/retractability/stabilization facts? The shared side photograph does not provide full Z coverage; no Z-specific mass is inferred from the 326–340 g range."
   ]
 }

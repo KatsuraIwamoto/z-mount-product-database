@@ -6,7 +6,7 @@
     "brandId": "fotodiox",
     "name": "Fotodiox Pro Fusion Adapter, Smart Adapter - Compatible with Mamiya 7 Rangefinder Lenses to Nikon Z-Mount Mirrorless Cameras with Limited Automated Functions"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "fotodiox-m7-nkz-fsn"
@@ -24,7 +24,9 @@
         "conversionOptics",
         "mechanisms",
         "officialProductPages",
-        "electronicServices"
+        "electronicServices",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
       ],
       "decisionChecks": [
         "availability"
@@ -38,9 +40,52 @@
         "electronicServices",
         "electronics"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/products/M7-NKZ-FSN-07.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/products/M7-NKZ-FSN-04.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "electronics",
+        "conversionOptics",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/products/M7-NKZ-FSN-03.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/1415/1308/products/M7-NKZ-FSN-05.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mechanisms"
+      ]
     }
   ],
   "unresolved": [
-    "Can the camera control the aperture of a Mamiya 7 lens through this adapter?"
+    "Can the camera control the aperture of a Mamiya 7 lens through this adapter?",
+    "What product weight is established for the Nikon Z adapter with measurement conditions and consistent units?"
+  ],
+  "notes": [
+    "The Fn button calibrates aperture reporting, and the blue ring opens the lens shutter. Firmware 1.05 adds a lens focal-length setting procedure for EXIF transmission."
   ]
 }

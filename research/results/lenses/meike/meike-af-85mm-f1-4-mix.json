@@ -6,7 +6,7 @@
     "brandId": "meike",
     "name": "Meike AF 85mm F1.4 MIX"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "meike-af-85mm-f1-4-mix"
@@ -61,6 +61,36 @@
         "physical.dimensionMeasurements",
         "lens.coverage"
       ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/8514-_--_3_01.jpg?v=1753086075",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.focus",
+        "lens.opticalConstruction",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/8514-_--_-__03.jpg?v=1754563973",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "electronicServices",
+        "mount.electronicContacts"
+      ]
     }
+  ],
+  "unresolved": [
+    "The official chart labels full-frame D/H/V angles as 24.1/16.14/28.87 and APS-C as 16.14/10.58/19 degrees. Can the manufacturer correct the orientation ordering?",
+    "Does 87 x 114 mm apply to Nikon Z, and what accessories distinguish the approximately 735 g mass from approximately 800 g gross weight?",
+    "Can operating documentation identify the two visible rings and side button, including aperture click behavior?",
+    "Can Nikon Z opposite-side and underside photos complete the exterior survey and substantiate the existing tripod-support and retractability fields?"
   ]
 }

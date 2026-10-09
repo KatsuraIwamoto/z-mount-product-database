@@ -6,7 +6,7 @@
     "brandId": "astrhori",
     "name": "AF 85mm F1.8 Mark II Full-frame Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "astrhori-af-85mm-f1p8-ii"
@@ -78,6 +78,49 @@
         "lens.opticalConstruction",
         "lens.anglesOfView"
       ]
+    },
+    {
+      "url": "https://2ndfocus.com/products/astrhori-af-85mm-f18-mk2",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "distributor-page",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus",
+        "physical.filterInterfaces",
+        "controls",
+        "accessories"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0834/1959/5059/files/4582752631535-1.jpg?v=1760700785",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "accessories",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0698/5046/4568/files/5_32dcd9c8-6b66-42a4-8936-6e34b7615dd8.jpg?v=1761026577",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "electronicServices"
+      ]
     }
+  ],
+  "unresolved": [
+    "The distributor specification graphic identifies the illustration as Sony E and explicitly warns that shape and weight vary by mount; its approximately 441 g and 72 x 91 mm figures are not used as Nikon Z measurements. Nikon Z dimensions and mass remain unconfirmed.",
+    "Twelve distributor gallery images and thirteen manufacturer gallery images were visually reviewed. The distributor provides an explicit Z-marked barrel and Nikon Z/Zf-mounted front/side composite. Manufacturer rear/USB views are not labeled Nikon Z, and complete four-side Z coverage remains unavailable.",
+    "The aperture ring is visible on the Z-marked product; its click behavior and the manual-focus coupling mechanism remain unspecified."
   ]
 }

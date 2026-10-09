@@ -6,7 +6,7 @@
     "brandId": "sg-image",
     "name": "SG-image MF 50mm F1.8 Full-Frame Lens with Shaped Aperture"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "sg-image-mf-50mm-f1-8-full-frame-lens-with-shaped-aperture"
@@ -59,6 +59,18 @@
         "physical.weightMeasurements",
         "physical.filterInterfaces"
       ]
+    },
+    {
+      "url": "https://www.sg-image.com/cdn/shop/files/13_3eaacd43-9a62-4582-b9de-bb3063ec86c2.png?v=1754971479&width=1946",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.aperture",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "2026-09-20: Official specification image 508.png matches recorded optical/physical values and lists Z, but describes fixed aperture ring, variable shape and one aperture blade; product text says stopped down. These descriptions do not establish a conventional diaphragm or minimum f-number, so retained null diaphragm/minimum rather than inferring them. Shared front-oblique image shows heart-shaped opening, not operating function. Z-specific rear/other sides, focus coupling, stabilization absence and measurement attachment conditions remain unconfirmed."
   ]
 }

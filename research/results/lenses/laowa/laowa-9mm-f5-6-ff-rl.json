@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA 9mm F5.6 FF RL"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-9mm-f5-6-ff-rl"
@@ -51,7 +51,12 @@
       "checked": [
         "mount",
         "physical",
-        "controls"
+        "controls",
+        "lens.aperture",
+        "lens.focus",
+        "lens.specialElements",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements"
       ]
     },
     {
@@ -70,8 +75,50 @@
         "lens.opticalConstruction",
         "lens.specialElements",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/865b985018290796663e4f162159445fad592b0f.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/0df8939a125bdf960ca730e980f1f948cc90a053.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/f83b44c7529fee2e2d0f865124a1bd7e23f5e0fb.png",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/4541607614352.12.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements"
       ]
     }
+  ],
+  "unresolved": [
+    "What are Nikon Z-specific dimensions and mass rather than the Leica M measurements?",
+    "Does this optical design have one or two aspherical elements?",
+    "What model and interface describe the compatible 100 mm square filter holder?",
+    "Can Nikon Z-specific rear and four-sided views establish complete exterior coverage, and what aperture click behavior and supplied accessory contents are documented?"
   ]
 }

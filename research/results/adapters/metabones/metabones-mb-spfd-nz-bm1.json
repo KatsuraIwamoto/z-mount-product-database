@@ -6,7 +6,7 @@
     "brandId": "metabones",
     "name": "Canon FD/FL Lens to Nikon Z-mount Speed Booster ULTRA 0.71x"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "metabones-mb-spfd-nz-bm1"
@@ -26,6 +26,36 @@
         "conversionOptics",
         "mechanisms",
         "physical.officialEnvironmentalProtectionClaims",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.metabones.com/article/of/infinity-adjustment-speed-booster-only",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://www.metabones.com/assets/p/mb_spfd-nz-bm1_1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://www.metabones.com/assets/p/mb_spfd-nz-bm1_2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics",
+        "mechanisms",
         "physical.tripodSupport"
       ]
     }

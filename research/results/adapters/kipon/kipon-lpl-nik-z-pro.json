@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "LPL-NIK Z PRO Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "kipon-lpl-nik-z-pro"
@@ -28,6 +28,29 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://img.kipon.com/LPL%20Cine%20Lens-Nikon%20Z%20Camera%20PRO%20version%20Adapter/LPL-NZ-3-1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "mechanisms"
+      ]
+    },
+    {
+      "url": "https://img.kipon.com/LPL%20Cine%20Lens-Nikon%20Z%20Camera%20PRO%20version%20Adapter/LPL-NZ-1-1.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mountConfigurations",
+        "mechanisms"
+      ]
     }
+  ],
+  "unresolved": [
+    "Confirm the flange-distance adjustment procedure and supplied shim set for LPL-N/Z PRO; an official photograph shows a packet labelled KIPON LPL Mount-Shims, but the product description does not explain its use."
   ]
 }

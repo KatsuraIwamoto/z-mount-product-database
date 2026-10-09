@@ -6,7 +6,7 @@
     "brandId": "7artisans",
     "name": "AF 24mm F1.8 Full-frame Lens"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "included",
     "recordId": "7artisans-af-24mm-f1p8"
@@ -74,7 +74,11 @@
       "checked": [
         "lens.opticalConstruction",
         "controls",
-        "electronicServices"
+        "electronicServices",
+        "physical.filterInterfaces",
+        "lens.anglesOfView",
+        "lens.aperture",
+        "lens.focus"
       ]
     },
     {

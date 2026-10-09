@@ -36,7 +36,13 @@
       "lensRetention": {
         "type": "positive-lock"
       },
-      "lensRearProtrusionLimits": null
+      "lensRearProtrusionLimits": [
+        {
+          "maximumMm": 22,
+          "referencePlane": "mount-face",
+          "conditions": {}
+        }
+      ]
     }
   ],
   "electronics": {
@@ -55,13 +61,30 @@
     {
       "type": "drop-in-filter",
       "conditions": {}
+    },
+    {
+      "type": "flange-focal-distance-adjustment",
+      "conditions": {}
     }
   ],
   "physical": {
     "dimensionMeasurements": null,
     "weightMeasurements": null,
     "officialEnvironmentalProtectionClaims": null,
-    "tripodSupport": null
+    "tripodSupport": {
+      "present": true,
+      "components": [
+        {
+          "type": "support-bracket",
+          "relationship": "optional",
+          "removable": true,
+          "interfaces": null,
+          "modelNumberOptions": null,
+          "quantity": null,
+          "conditions": {}
+        }
+      ]
+    }
   },
   "electronicServices": null,
   "conversionOptics": {

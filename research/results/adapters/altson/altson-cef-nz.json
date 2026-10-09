@@ -6,7 +6,7 @@
     "brandId": "altson",
     "name": "CEF-NZ Auto Focus Lens Adapter"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-16",
   "decision": {
     "status": "needs-review"
   },
@@ -23,9 +23,21 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.districtcamera.com/products/used-altson-cef-nz-lens-adapter",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "identity"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
     }
   ],
   "unresolved": [
-    "Confirm the manufacturer identity and an official release or exact authorized sale listing for CEF-NZ."
+    "Confirm the manufacturer identity and an official release or exact authorized sale listing for CEF-NZ.",
+    "Can manufacturer or authorized-distributor documentation and exact production images establish the specifications of CEF-NZ?"
   ]
 }

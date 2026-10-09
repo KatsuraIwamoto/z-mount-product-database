@@ -4,25 +4,31 @@
   "subject": {
     "manufacturerId": "yeenon",
     "brandId": "yeenon",
-    "name": "Leica M to Nikon Z Macro Adapter"
+    "name": "YEENON LM-NZ Leica M VM to Nikon Z camera Close Focus adapter Black（macro）"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-16",
   "decision": {
-    "status": "needs-review"
+    "status": "included",
+    "recordId": "yeenon-lm-nz-m"
   },
   "sources": [
     {
       "url": "https://www.ebay.com/itm/404236342718",
-      "publisherRelationship": "retailer",
+      "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "retailer-listing",
       "checked": [
         "identity",
         "identity.modelNumberOptions",
+        "officialProductPages",
         "mountConfigurations",
         "electronics",
-        "conversionOptics",
         "mechanisms"
-      ]
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ],
+      "note": "The adapter extends axially by 8 mm for macro photography."
     },
     {
       "url": "https://www.mkkcamera.com/yeenon-leica-m-to-nikon-z-adapter-macro-black-lm-nz-m-6mb/",
@@ -47,9 +53,37 @@
         "identity",
         "mountConfigurations"
       ]
+    },
+    {
+      "url": "https://i.ebayimg.com/images/g/V8AAAOSwSstkMOCi/s-l500.webp",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://i.ebayimg.com/images/g/8GUAAOSwE5NkMOCs/s-l500.webp",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronics",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://i.ebayimg.com/images/g/56gAAOSwcXFkMODi/s-l500.webp",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.modelNumberOptions",
+        "mechanisms"
+      ]
     }
   ],
   "unresolved": [
-    "Can a YEENON or authorized-distributor source confirm this Leica M-to-Nikon Z macro adapter, its model identifiers, and its sale as a YEENON product?"
+    "Can accepted images cover all four exterior sides to identify any additional mechanisms or tripod support?",
+    "How does the LM-NZ(M) designation used by retailers correspond to the manufacturer-marked LM-NZ macro product and the separately offered Macro II generation?"
   ]
 }

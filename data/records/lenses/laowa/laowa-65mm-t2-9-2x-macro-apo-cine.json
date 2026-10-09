@@ -27,6 +27,18 @@
         "type": "manufacturer-or-brand",
         "name": "Venus Optics"
       }
+    },
+    {
+      "url": "https://www.laowa.jp/cat/f0029d5d35e6f9e276df218012b714a2505610b8.html",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "authorized-distributor",
+        "name": "LAOWA Japan"
+      }
     }
   ],
   "mount": {
@@ -40,7 +52,8 @@
       {
         "maximumDiameterMm": 84.8,
         "lengthMm": 103,
-        "conditions": {}
+        "conditions": {},
+        "approximate": true
       }
     ],
     "weightMeasurements": [
@@ -48,7 +61,8 @@
         "grams": 550,
         "conditions": {
           "attachedComponents": []
-        }
+        },
+        "approximate": true
       }
     ],
     "officialEnvironmentalProtectionClaims": null,
@@ -64,7 +78,7 @@
     "tripodSupport": {
       "present": false
     },
-    "externalLengthDuringFocus": null,
+    "externalLengthDuringFocus": "constant",
     "isRetractableForStorage": false
   },
   "controls": [
@@ -149,7 +163,12 @@
         "present": true,
         "mechanism": "mechanical-coupled"
       },
-      "opticalFocusingSystems": null,
+      "opticalFocusingSystems": [
+        {
+          "type": "internal-focusing",
+          "officialName": "Internal Focusing"
+        }
+      ],
       "minimumFocusDistances": [
         {
           "distanceM": 0.17,

@@ -6,7 +6,7 @@
     "brandId": "lensbaby",
     "name": "Lensbaby Fixed Body with Creative Bokeh Optic"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "lensbaby-fixed-body-with-creative-bokeh-optic"
@@ -40,7 +40,10 @@
         "identity",
         "lens.coverage",
         "lens.opticalConstruction",
-        "lens.aperture"
+        "lens.aperture",
+        "physical.filterInterfaces",
+        "lens.coatings",
+        "controls"
       ]
     },
     {
@@ -62,8 +65,22 @@
         "lens.focalLength",
         "lens.aperture",
         "lens.opticalConstruction",
-        "lens.stabilization"
+        "lens.stabilization",
+        "controls",
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://www.kenko-tokina.co.jp/camera-lens/assets_c/2021/10/4961607471746_2000-thumb-500xauto-43092.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z fixed-body front, rear, opposite-side and underside photographs establish exterior coverage? The available distributor photo shows only the interchangeable optic.",
+    "What are the Nikon Z fixed-body assembled dimensions, mass and minimum focus distance? The distributor dimensions and mass describe the optic alone."
   ]
 }

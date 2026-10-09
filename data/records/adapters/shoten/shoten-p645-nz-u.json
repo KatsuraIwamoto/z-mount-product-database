@@ -70,7 +70,7 @@
       "components": [
         {
           "type": "foot",
-          "relationship": null,
+          "relationship": "supplied",
           "removable": null,
           "interfaces": [
             {
@@ -78,7 +78,7 @@
             }
           ],
           "modelNumberOptions": null,
-          "quantity": null,
+          "quantity": 1,
           "conditions": {}
         }
       ]

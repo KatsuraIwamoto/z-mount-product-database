@@ -6,7 +6,7 @@
     "brandId": "big",
     "name": "B.I.G. Objektivadapter Hasselblad V an Nikon Z"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "big-421248"
@@ -40,6 +40,24 @@
       "decisionChecks": [
         "availability",
         "release-status"
+      ]
+    },
+    {
+      "url": "https://www.big-photo.de/thumbnail/58/c6/d0/1770904931/421248a-a01_800x800.jpg?ts=1770969150",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://www.big-photo.de/pdf/archiv/big-katalog/BIG-GESAMTKATALOG.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics"
       ]
     }
   ]

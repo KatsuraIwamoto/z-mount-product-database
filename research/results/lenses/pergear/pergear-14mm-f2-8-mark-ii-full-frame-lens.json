@@ -6,7 +6,7 @@
     "brandId": "pergear",
     "name": "PERGEAR 14mm F2.8 Mark II Full-Frame Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "pergear-14mm-f2-8-mark-ii-full-frame-lens"
@@ -32,7 +32,9 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "controls",
+        "lens.specialElements"
       ]
     },
     {
@@ -42,11 +44,29 @@
       "checked": [
         "identity",
         "mount",
-        "physical.weightMeasurements"
+        "physical.weightMeasurements",
+        "accessories",
+        "lens.specialElements"
       ],
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://www.pergear.com/cdn/shop/files/A2000597_new_com02_1600x.jpg?v=1689148136",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "Can Nikon Z rear, opposite-side and underside views complete the exterior survey, including contact/support/storage claims?",
+    "Can operating documentation identify the focus-ring operation and all mount/accessory conditions for measurements?",
+    "The product page says both 10 and nine aperture blades. Which count applies? The count remains unset.",
+    "The current product page specifies five high-index elements, while the II announcement specifies four. The count is not recorded; HOYA is not treated as an additional optical element type."
   ]
 }

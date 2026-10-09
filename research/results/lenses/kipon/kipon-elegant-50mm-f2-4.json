@@ -6,7 +6,7 @@
     "brandId": "kipon",
     "name": "KIPON ELEGANT 50mm F2.4 for Nikon Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "kipon-elegant-50mm-f2-4"
@@ -36,7 +36,8 @@
         "lens.coverage",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.stabilization"
+        "lens.stabilization",
+        "lens.imageCircleDiameters"
       ]
     },
     {
@@ -47,6 +48,23 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://www.kipon.jp/products/elegant-50mm-f2-4-for-nikon-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "officialProductPages",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.imageCircleDiameters",
+        "controls"
+      ]
     }
+  ],
+  "unresolved": [
+    "The 83 mm dimension is front-to-sensor at infinity, not mount-plane-to-front length; canonical length remains null. Weight accessory conditions are not itemized.",
+    "Three official shared front/side images were inspected, but complete Nikon Z-specific four-direction and rear-contact coverage remains unavailable. Aperture click behavior, coating function, special elements and supplied accessories remain unconfirmed.",
+    "The full-frame 46.8-degree angle appears under a combined V/H/D heading without an explicit individual orientation."
   ]
 }

@@ -5,7 +5,9 @@
     "manufacturerId": "fotodiox",
     "brandId": "fotodiox",
     "productName": "Fotodiox DLX Stretch Lens Adapter - Compatible with Leica M Rangefinder Lens to Nikon Z-Mount Mirrorless Camera Body with Macro Focusing Helicoid",
-    "modelNumberOptions": null,
+    "modelNumberOptions": [
+      "LM-NKZ-DLXS"
+    ],
     "alternateNames": null,
     "variants": null
   },
@@ -54,8 +56,23 @@
     }
   ],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          64,
+          64,
+          17
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 145,
+        "conditions": {},
+        "approximate": true
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

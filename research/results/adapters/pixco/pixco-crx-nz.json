@@ -6,7 +6,7 @@
     "brandId": "pixco",
     "name": "Contarex to Nikon Z Adapter"
   },
-  "reviewedOn": "2026-09-04",
+  "reviewedOn": "2026-09-19",
   "decision": {
     "status": "included",
     "recordId": "pixco-crx-nz"
@@ -37,6 +37,60 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/5_26bcfedb-7d91-4c46-93e2-2afe7c589cc5_800x.jpg?v=1613497758",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/1_692d5e2e-925a-4949-8db5-5e2c80dec393_800x.jpg?v=1613497758",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/2_3fdf993b-369b-44f9-8fde-1915a9cb4194_800x.jpg?v=1613497758",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics",
+        "electronics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/3_5463edea-81c0-4d1c-ab89-b6549a989226_800x.jpg?v=1613497758",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://pixco.com.cn/cdn/shop/products/4_f83df9ba-f387-4e60-beec-d09caff641a9_800x.jpg?v=1613497758",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
     }
+  ],
+  "unresolved": [
+    "Does the numbered ring actuate the lens aperture, and what operation does Pixco specify for this exact CRX-to-Nikon Z adapter?"
   ]
 }

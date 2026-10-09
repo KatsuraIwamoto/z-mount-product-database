@@ -36,7 +36,13 @@
       "lensRetention": {
         "type": "positive-lock"
       },
-      "lensRearProtrusionLimits": null
+      "lensRearProtrusionLimits": [
+        {
+          "maximumMm": 21,
+          "referencePlane": "mount-flange",
+          "conditions": {}
+        }
+      ]
     }
   ],
   "electronics": {
@@ -58,8 +64,22 @@
     }
   ],
   "physical": {
-    "dimensionMeasurements": null,
-    "weightMeasurements": null,
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 106,
+        "unclassifiedDimensionsMm": [
+          84,
+          36.7
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 234,
+        "conditions": {}
+      }
+    ],
     "officialEnvironmentalProtectionClaims": null,
     "tripodSupport": null
   },

@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "LAOWA Ranger S35 LITE 50-130mm T2.9"
   },
-  "reviewedOn": "2026-09-05",
+  "reviewedOn": "2026-09-20",
   "decision": {
     "status": "included",
     "recordId": "laowa-ranger-s35-50-130mm-t2-9-lite-cine-zoom"
@@ -33,7 +33,13 @@
         "lens.aperture",
         "lens.opticalConstruction",
         "lens.focus",
-        "lens.specialized"
+        "lens.specialized",
+        "physical.frontAccessoryInterface",
+        "lens.focalLength",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.imageCircleDiameters",
+        "lens.zoom"
       ],
       "decisionChecks": [
         "availability"
@@ -78,8 +84,39 @@
         "lens.anglesOfView",
         "lens.coverage",
         "lens.imageCircleDiameters",
-        "lens.stabilization"
+        "lens.stabilization",
+        "officialProductPages",
+        "mount.adapter",
+        "controls",
+        "physical.frontAccessoryInterface",
+        "physical.filterInterfaces",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.zoom"
+      ]
+    },
+    {
+      "url": "https://www.laowa.jp/Rangeer50-130mm_LITE_.jpg",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://laowacine.com/wp-content/uploads/2024/05/Ranger-s35-lite_DSC06916-700x468.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
       ]
     }
+  ],
+  "unresolved": [
+    "What are the dimensions and mass with the dedicated Nikon Z bayonet attached, and what mount and attachment conditions apply to the published measurements?",
+    "Can Nikon Z-configured rear, opposite-side and underside images establish complete exterior coverage and the lens-support configuration?"
   ]
 }
