@@ -1,0 +1,252 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "laowa-ffii-ts-24mm-f2-c-dreamer",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "venus-optics",
+    "brandId": "laowa",
+    "productName": "FFⅡ TS 24mm F2 C-Dreamer",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.laowalens.com.cn/camera-lens-101",
+      "pageFamilies": [
+        "home-country"
+      ],
+      "region": "CN",
+      "language": "zh-CN",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Laowa"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": null
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": null,
+        "lengthMm": 119,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 860,
+        "approximate": true,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 77,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": {
+      "present": true,
+      "components": [
+        {
+          "type": "other",
+          "relationship": "integrated",
+          "removable": null,
+          "interfaces": null,
+          "modelNumberOptions": null,
+          "quantity": 1,
+          "conditions": {}
+        }
+      ]
+    },
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": null
+  },
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "holder lock knob"
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "tilt knob"
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "tilt lock knob"
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "shift knob"
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "Shift lock knob"
+    },
+    {
+      "type": "other",
+      "quantity": 1,
+      "officialName": "mount rotation knob"
+    }
+  ],
+  "accessories": null,
+  "electronicServices": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 24
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 2,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 14,
+        "bladeShape": null
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 108.8,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": null,
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "officialName": "Glass Aspherical",
+        "quantity": 2
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "officialName": "ED",
+        "quantity": null
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "officialName": "Ultra High Refraction Glass",
+        "quantity": null
+      }
+    ],
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": null
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.25,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": null,
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {
+      "movements": {
+        "tiltMeasurements": [
+          {
+            "maximumFromNeutralDegrees": 10,
+            "totalRangeDegrees": 20,
+            "directionality": "bidirectional",
+            "conditions": {}
+          }
+        ],
+        "shiftMeasurements": [
+          {
+            "maximumFromNeutralMm": 12,
+            "totalRangeMm": 24,
+            "directionality": "bidirectional",
+            "conditions": {}
+          }
+        ],
+        "rotationMeasurements": [
+          {
+            "scope": "mount-interface",
+            "maximumFromNeutralDegrees": 180,
+            "totalRangeDegrees": 360,
+            "directionality": "bidirectional",
+            "conditions": {}
+          }
+        ]
+      }
+    },
+    "imageCircleDiameters": [
+      {
+        "diameterMm": 67,
+        "conditions": {}
+      }
+    ]
+  }
+}

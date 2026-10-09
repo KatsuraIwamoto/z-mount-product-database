@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "sirui-swift-40mm-f2p2",
+  "subject": {
+    "manufacturerId": "sirui",
+    "brandId": "sirui",
+    "name": "SIRUI Swift 40mm F2.2"
+  },
+  "reviewedOn": "2026-10-09",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.fuji.com.tw/posts/7037",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Has SIRUI officially confirmed the exact product name and Nikon Z configuration?",
+    "Has SIRUI issued a release announcement or confirmed sale, beyond the IBC2026 exhibition report?"
+  ]
+}

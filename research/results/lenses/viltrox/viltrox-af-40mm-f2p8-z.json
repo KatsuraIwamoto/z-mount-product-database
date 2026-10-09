@@ -6,7 +6,7 @@
     "brandId": "viltrox",
     "name": "VILTROX AF 40mm F2.8 Z"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-10-09",
   "decision": {
     "status": "excluded",
     "reason": "Viltrox's official Nikon Z product is AF 40mm F2.5, which is already represented by viltrox-af-40mm-f2p5-air; no separate AF 40mm F2.8 Z product was found."

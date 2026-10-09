@@ -3,13 +3,13 @@
   "datasetName": "Z Mount Lens Database",
   "datasetVariant": "light",
   "schemaVersion": "1.0.0",
-  "dataVersion": "2026.09.20",
+  "dataVersion": "2026.10.09",
   "creator": "Katsura Iwamoto",
   "license": "CC-BY-4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
-  "recordCount": 606,
-  "contentHash": "sha256:3f556454b62a3be2fdd56ef2685ec36436d3e8d7f5d098038bda8ac16c55fb4d",
+  "recordCount": 611,
+  "contentHash": "sha256:d8acf1c6a99bdeb312cafd14ab2bf55add586e044dd9418a6c1806bc0a2f3c06",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -8870,6 +8870,70 @@
           "cinema": {},
           "anamorphic": {}
         }
+      }
+    },
+    {
+      "id": "brightin-star-50mm-f2-tri-sight",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "brightin-star",
+        "brandId": "brightin-star",
+        "productName": "BRIGHTIN STAR MF 50mm F2.0 TRI-SIGHT Full-Frame Art Lens"
+      },
+      "lifecycle": {
+        "announcementDate": null,
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://brightinstar.com/products/50mm-f2-tri-sight-full-frame-art-lens"
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": null,
+        "electronicContacts": {
+          "present": false
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": null,
+        "weightMeasurements": null,
+        "filterInterfaces": null
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 50
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 2,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        "coverage": {
+          "format": "full-frame"
+        },
+        "focus": {
+          "autofocus": {
+            "present": false
+          },
+          "manualFocus": {
+            "present": true
+          },
+          "minimumFocusDistances": null,
+          "reproductionMagnifications": null
+        },
+        "stabilization": {
+          "present": false
+        },
+        "specialized": {}
       }
     },
     {
@@ -19602,6 +19666,96 @@
       }
     },
     {
+      "id": "laowa-af-35mm-f2-8-1x-apo-macro",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "venus-optics",
+        "brandId": "laowa",
+        "productName": "ACRIS 35mm f/2.8 1X Macro APO"
+      },
+      "lifecycle": {
+        "announcementDate": null,
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://www.venuslens.net/product/acris-35mm-f-2-8-1x-macro-apo/"
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": null,
+        "electronicContacts": {
+          "present": true,
+          "metadataTransmission": null
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": null,
+        "weightMeasurements": [
+          {
+            "grams": 570,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 72
+          }
+        ]
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 35
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 2.8,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        "coverage": {
+          "format": "full-frame"
+        },
+        "focus": {
+          "autofocus": {
+            "present": true
+          },
+          "manualFocus": {
+            "present": true
+          },
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.18,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 1,
+              "conditions": {}
+            }
+          ]
+        },
+        "stabilization": {
+          "present": false
+        },
+        "specialized": {
+          "macro": {}
+        }
+      }
+    },
+    {
       "id": "laowa-aksen-17-5mm-f1-7-5-10x-ultra-macro-apo",
       "productType": "lens",
       "identity": {
@@ -20856,6 +21010,94 @@
         },
         "specialized": {
           "macro": {}
+        }
+      }
+    },
+    {
+      "id": "laowa-ffii-ts-24mm-f2-c-dreamer",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "venus-optics",
+        "brandId": "laowa",
+        "productName": "FFⅡ TS 24mm F2 C-Dreamer"
+      },
+      "lifecycle": {
+        "announcementDate": null,
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://www.laowalens.com.cn/camera-lens-101"
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": null,
+        "electronicContacts": null
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": null,
+            "lengthMm": 119,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 860,
+            "approximate": true,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 77
+          }
+        ]
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 24
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 2,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        "coverage": {
+          "format": "full-frame"
+        },
+        "focus": {
+          "autofocus": {
+            "present": false
+          },
+          "manualFocus": {
+            "present": true
+          },
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.25,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": null
+        },
+        "stabilization": {
+          "present": false
+        },
+        "specialized": {
+          "movements": {}
         }
       }
     },
@@ -40330,6 +40572,127 @@
       }
     },
     {
+      "id": "sigma-16-to-300mm-f3p5-to-6p7-dc-os-contemporary",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "sigma",
+        "brandId": "sigma",
+        "productName": "16-300mm F3.5-6.7 DC OS | Contemporary"
+      },
+      "lifecycle": {
+        "announcementDate": "2026-10-08",
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://www.sigma-global.com/en/lenses/c025_16_300_35_67/"
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": null,
+        "mountOwnerRelationship": "officially-licensed",
+        "electronicContacts": {
+          "present": true,
+          "metadataTransmission": null
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 73.8,
+            "lengthMm": 125.4,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 630,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 67
+          }
+        ]
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "zoom",
+          "rangeMm": {
+            "minimum": 16,
+            "maximum": 300
+          }
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 3.5,
+                "conditions": {
+                  "focalLength": {
+                    "kind": "point",
+                    "millimeters": 16
+                  }
+                }
+              },
+              {
+                "value": 6.7,
+                "conditions": {
+                  "focalLength": {
+                    "kind": "point",
+                    "millimeters": 300
+                  }
+                }
+              }
+            ]
+          }
+        },
+        "coverage": {
+          "format": "aps-c"
+        },
+        "focus": {
+          "autofocus": {
+            "present": true
+          },
+          "manualFocus": {
+            "present": true
+          },
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.17,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 16
+                }
+              }
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.5,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 70
+                }
+              }
+            }
+          ]
+        },
+        "stabilization": {
+          "present": true
+        },
+        "specialized": {}
+      }
+    },
+    {
       "id": "sigma-16mm-f1p4-dc-dn-contemporary",
       "productType": "lens",
       "identity": {
@@ -44279,6 +44642,113 @@
         },
         "stabilization": {
           "present": true
+        },
+        "specialized": {}
+      }
+    },
+    {
+      "id": "tamron-20-to-40mm-f2p8-di-iii-vxd-a062",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "tamron",
+        "brandId": "tamron",
+        "productName": "20-40mm F/2.8 Di III VXD"
+      },
+      "lifecycle": {
+        "announcementDate": "2026-10-08",
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://www.tamron.com/global/consumer/lenses/a062/"
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": "officially-licensed",
+        "electronicContacts": {
+          "present": true,
+          "metadataTransmission": null
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 74.4,
+            "lengthMm": 88.7,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 380,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 67
+          }
+        ]
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "zoom",
+          "rangeMm": {
+            "minimum": 20,
+            "maximum": 40
+          }
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 2.8,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        "coverage": {
+          "format": "full-frame"
+        },
+        "focus": {
+          "autofocus": {
+            "present": true
+          },
+          "manualFocus": {
+            "present": true
+          },
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.17,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 20
+                }
+              }
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.263158,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 20
+                }
+              }
+            }
+          ]
+        },
+        "stabilization": {
+          "present": false
         },
         "specialized": {}
       }

@@ -6,7 +6,7 @@
     "brandId": "neewer",
     "name": "NW-ETZ Camera Autofocus Adapter Ring for Nikon"
   },
-  "reviewedOn": "2026-09-19",
+  "reviewedOn": "2026-10-09",
   "decision": {
     "status": "included",
     "recordId": "neewer-nw-etz"
@@ -112,6 +112,29 @@
         "identity",
         "mountConfigurations"
       ]
+    },
+    {
+      "url": "https://neewer.com/products/neewer-nw-etz-camera-autofocus-adapter-ring-for-nikon-66608408",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://shop.r10s.jp/neewer-store/cabinet/neewer10/10103698_2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions"
+      ],
+      "note": "The illustration labels NW-ETZ and NW-ETZ PRO separately and identifies the rubber sealing ring and coated PCB on NW-ETZ PRO."
     }
   ],
   "unresolved": [

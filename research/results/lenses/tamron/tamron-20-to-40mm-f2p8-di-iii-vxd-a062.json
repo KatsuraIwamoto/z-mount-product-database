@@ -1,0 +1,157 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "tamron-20-to-40mm-f2p8-di-iii-vxd-a062",
+  "sources": [
+    {
+      "url": "https://www.tamron.com/global/news/detail/a062z_20261008.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "productType",
+        "identity",
+        "identity.modelNumberOptions",
+        "lifecycle",
+        "mount",
+        "mount.electronicContacts",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.filterInterfaces",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized"
+      ],
+      "decisionChecks": [
+        "release-status",
+        "licensing"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/lenses/a062/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "controls",
+        "electronicServices",
+        "lens.specialElements",
+        "lens.coatings",
+        "lens.focus",
+        "lens.zoom",
+        "lens.stabilization"
+      ],
+      "note": "The page does not explicitly state whether optical stabilization is present. The absence of optical stabilization in the Nikon Z configuration is confirmed by the dataset maintainer."
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/lenses/a062/spec.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "accessories",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.focus"
+      ],
+      "decisionChecks": [
+        "release-status",
+        "licensing"
+      ]
+    },
+    {
+      "url": "https://tamron-americas.com/blog/low-light-photography-tips-with-tamron-lenses/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "identity"
+      ],
+      "note": "The lens comparison table explicitly lists the Sony E configuration of A062 as not equipped with VC."
+    },
+    {
+      "url": "https://tamron-americas.com/product/20-40mm-f-2-8-di-iii-vxd/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/product/pc_file/file/A062_lens-construction_en.svg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/soft/lensutility/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/news/news_file/file/a062z.webp",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/support/help/instruction/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "identity"
+      ]
+    },
+    {
+      "url": "https://s3-ap-northeast-1.amazonaws.com/tamron-docs/consumer/support/download/inst/a062/a062inst_2209_en.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "manual",
+      "checked": [
+        "identity"
+      ],
+      "note": "This instruction manual is explicitly marked for Sony E."
+    }
+  ],
+  "subject": {
+    "manufacturerId": "tamron",
+    "brandId": "tamron",
+    "name": "20-40mm F/2.8 Di III VXD"
+  },
+  "reviewedOn": "2026-10-09",
+  "decision": {
+    "status": "included",
+    "recordId": "tamron-20-to-40mm-f2p8-di-iii-vxd-a062"
+  },
+  "notes": [
+    "The Nikon Z release is scheduled for October 22, 2026.",
+    "The instruction-manual index currently links an A062 manual explicitly marked for Sony E."
+  ],
+  "unresolved": [
+    "Can a Nikon Z instruction manual establish the aperture control mechanism, manual-focus mechanism, focusing and zooming systems, external length behavior, storage retractability, and tripod support?",
+    "Has Tamron published a firmware update specifically for the Nikon Z configuration?"
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "../../../../schemas/adapters/research-result.schema.json",
+  "id": "neewer-nw-etz-pro",
+  "subject": {
+    "manufacturerId": "neewer",
+    "brandId": "neewer",
+    "name": "NW-ETZ PRO"
+  },
+  "reviewedOn": "2026-10-09",
+  "decision": {
+    "status": "included",
+    "recordId": "neewer-nw-etz-pro"
+  },
+  "sources": [
+    {
+      "url": "https://item.rakuten.co.jp/neewer-store/b0ct26lwcw/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "officialProductPages",
+        "mountConfigurations",
+        "electronics",
+        "electronicServices",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.rakuten.co.jp/neewer-store/info.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "company-profile",
+      "checked": [
+        "officialProductPages"
+      ],
+      "note": "The store operator is identified as Shenzhen Neewer Technology Co., Ltd."
+    },
+    {
+      "url": "https://tshop.r10s.jp/neewer-store/cabinet/neewer10/10103698.jpg?downsize=300:*",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "conversionOptics"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/1825411-REG/neewer_66604462_nw_etz_pro_fe_e_mount.html/reviews",
+      "publisherRelationship": "authorized-retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "mountConfigurations"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://shop.r10s.jp/neewer-store/cabinet/neewer10/10103698_2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "physical.officialEnvironmentalProtectionClaims"
+      ],
+      "note": "The illustration labels NW-ETZ and NW-ETZ PRO separately and identifies the rubber sealing ring and coated PCB on NW-ETZ PRO."
+    }
+  ],
+  "notes": [
+    "NEEWER states that the rubber sealing ring improves resistance to water and dust; no ingress-protection rating is specified on the product page.",
+    "The manufacturer lists dimensions as 67 x 7.5 mm without identifying the measurement axes.",
+    "The manufacturer advertises firmware updates using the supplied USB cable."
+  ],
+  "unresolved": [
+    "Can an accessible primary source establish the original release announcement date and the official English product name beyond NW-ETZ PRO?",
+    "Has an official firmware update file or release entry explicitly covering NW-ETZ PRO been published, and what is the adapter-side connector?",
+    "Can accepted documentation clarify the water-resistance classification and conditions of the sealing-ring claim?",
+    "Can complete exterior views or operating instructions establish the presence or absence of adjustment mechanisms?"
+  ]
+}

@@ -6,7 +6,7 @@
     "brandId": "sg-image",
     "name": "SG-image AF 35mm F1.4 APS-C Lens"
   },
-  "reviewedOn": "2026-09-16",
+  "reviewedOn": "2026-10-09",
   "decision": {
     "status": "needs-review"
   },
@@ -82,10 +82,26 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://www.sg-image.com/products/sg-image-af35mm-f1-4-aps-c-lens-for-mirrorless-cameras",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
     }
   ],
   "unresolved": [
     "Has an official Nikon Z release announcement or confirmed Nikon Z sale or availability been published?",
     "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
+  ],
+  "notes": [
+    "The current official store lists X and E mount options for this lens."
   ]
 }

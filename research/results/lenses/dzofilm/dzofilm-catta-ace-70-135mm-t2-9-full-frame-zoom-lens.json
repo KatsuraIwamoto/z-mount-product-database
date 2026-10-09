@@ -6,7 +6,7 @@
     "brandId": "dzofilm",
     "name": "DZOFILM CATTA Ace 70-135mm T2.9 Full-Frame Zoom Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-10-09",
   "decision": {
     "status": "excluded",
     "reason": "DZOFILM's current official CATTA Ace page lists PL, EF, and LPL mounts; no Z-mount configuration that attaches directly without a camera-side adapter was found."
@@ -22,6 +22,18 @@
       ],
       "decisionChecks": [
         "availability",
+        "inclusion-criteria"
+      ]
+    },
+    {
+      "url": "https://dzofilm.com/en/lens/zoom/catta-ace",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
         "inclusion-criteria"
       ]
     }

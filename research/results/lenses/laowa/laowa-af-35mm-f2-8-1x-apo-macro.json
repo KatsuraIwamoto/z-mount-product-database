@@ -4,11 +4,12 @@
   "subject": {
     "manufacturerId": "venus-optics",
     "brandId": "laowa",
-    "name": "LAOWA AF 35mm F2.8 1X APO Macro"
+    "name": "ACRIS 35mm f/2.8 1X Macro APO"
   },
-  "reviewedOn": "2026-09-16",
+  "reviewedOn": "2026-10-09",
   "decision": {
-    "status": "needs-review"
+    "status": "included",
+    "recordId": "laowa-af-35mm-f2-8-1x-apo-macro"
   },
   "sources": [
     {
@@ -36,11 +37,55 @@
         "availability",
         "release-status"
       ]
+    },
+    {
+      "url": "https://www.venuslens.net/product/acris-35mm-f-2-8-1x-macro-apo/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "physical.weightMeasurements",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ],
+      "note": "The page does not explicitly state whether optical stabilization is present. The absence of optical stabilization in the Nikon Z configuration is confirmed by the dataset maintainer."
+    },
+    {
+      "url": "https://www.venuslens.net/wp-content/uploads/2026/09/04_VEAC3528AFNZ-scaled.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount.electronicContacts",
+        "controls"
+      ]
     }
   ],
   "unresolved": [
-    "Has LAOWA issued an official product release announcement or begun sales for this product?",
-    "Has LAOWA announced a Nikon Z configuration?",
-    "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
+    "What official release-announcement date applies to the Nikon Z configuration?",
+    "What are the Nikon Z dimensions? The global specification table labels its dimensions as Canon EF only.",
+    "Can a Nikon Z manual establish the complete control and accessory inventory, aperture and manual-focus mechanisms, autofocus motor, length behavior, storage retractability, and tripod support?",
+    "Does the published working distance apply specifically at maximum reproduction magnification?",
+    "What electronic-service connections are supported, and has a Nikon Z firmware update been published?"
+  ],
+  "notes": [
+    "Autofocus is available from 0.5 m to infinity; the closer macro range requires manual focus.",
+    "The Nikon Z weight excludes the lens hood and lens caps."
   ]
 }

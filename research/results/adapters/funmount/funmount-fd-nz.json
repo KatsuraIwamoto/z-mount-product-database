@@ -6,7 +6,7 @@
     "brandId": "funmount",
     "name": "FD-NZ Mount Adapter"
   },
-  "reviewedOn": "2026-09-16",
+  "reviewedOn": "2026-10-09",
   "decision": {
     "status": "needs-review"
   },
@@ -18,9 +18,31 @@
       "checked": [
         "identity"
       ]
+    },
+    {
+      "url": "https://www.funmount.com/fd-nz.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mountConfigurations",
+        "electronics"
+      ],
+      "decisionChecks": [
+        "release-status",
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.funmount.com/contact.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "other",
+      "checked": [
+        "identity"
+      ]
     }
   ],
   "unresolved": [
-    "Confirm a product release or verified sale and the exact marketed product name for FD-NZ; the surviving manual alone does not establish canonical availability."
+    "Has FUNMOUNT formally announced release or confirmed sale of the FD-NZ focus-confirmation adapter? Its official product page establishes the model and Nikon Z configuration; a dated release or verifiable sales listing remains required."
   ]
 }

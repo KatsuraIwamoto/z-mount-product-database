@@ -4,11 +4,12 @@
   "subject": {
     "manufacturerId": "brightin-star",
     "brandId": "brightin-star",
-    "name": "BRIGHTIN STAR 50mm F2 TRI-SIGHT"
+    "name": "BRIGHTIN STAR MF 50mm F2.0 TRI-SIGHT Full-Frame Art Lens"
   },
-  "reviewedOn": "2026-09-16",
+  "reviewedOn": "2026-10-09",
   "decision": {
-    "status": "needs-review"
+    "status": "included",
+    "recordId": "brightin-star-50mm-f2-tri-sight"
   },
   "sources": [
     {
@@ -28,10 +29,43 @@
         "identity",
         "mount"
       ]
+    },
+    {
+      "url": "https://brightinstar.com/products/50mm-f2-tri-sight-full-frame-art-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "mount.electronicContacts",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialized",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ],
+      "note": "The page does not explicitly state whether optical stabilization is present. The absence of optical stabilization in the Nikon Z configuration is confirmed by the dataset maintainer."
     }
   ],
   "unresolved": [
-    "A Nikon Z development prototype was shown at CP+ 2026, but no current exact-product manufacturer page, formal release announcement, or retail availability was found. Confirm commercial release before inclusion.",
-    "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
+    "What official release-announcement date applies to the Nikon Z configuration?",
+    "How can the published minimum focusing distances be represented faithfully with their SMOOTH, PRIME, and FOAMS mode conditions? The current focus-condition schema has no rendering-mode field.",
+    "Can exact Nikon Z specifications and exterior views establish the dimensions, weight, filter interface, diaphragm details, minimum aperture, complete control and accessory inventory, focusing length behavior, storage retractability, and tripod support?"
+  ],
+  "notes": [
+    "The lens provides SMOOTH soft focus, PRIME standard rendering, and FOAMS bubble bokeh through movement of its lens groups.",
+    "The official minimum focusing distances are 0.9 m in SMOOTH, 0.8 m in PRIME, and 0.7 m in FOAMS.",
+    "The supplied rear bokeh inserts have rounded-triangle, butterfly, four-leaf-clover, and star shapes.",
+    "Before fitting the front cap, the manufacturer instructs users to select PRIME, focus at infinity, and retract the front optical assembly."
   ]
 }

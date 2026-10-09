@@ -1,0 +1,100 @@
+{
+  "$schema": "../../../../schemas/adapters/adapter-record.schema.json",
+  "id": "neewer-nw-etz-pro",
+  "identity": {
+    "manufacturerId": "neewer",
+    "brandId": "neewer",
+    "productName": "NW-ETZ PRO",
+    "modelNumberOptions": [
+      "NW-ETZ PRO"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": null
+  },
+  "officialProductPages": [
+    {
+      "url": "https://item.rakuten.co.jp/neewer-store/b0ct26lwcw/",
+      "pageFamilies": [
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "NEEWER"
+      }
+    }
+  ],
+  "mountConfigurations": [
+    {
+      "lensSideMountSystemId": "sony-e",
+      "cameraSideMountSystemId": "nikon-z",
+      "lensRetention": null,
+      "lensRearProtrusionLimits": null
+    }
+  ],
+  "electronics": {
+    "electronicContacts": true,
+    "autofocus": true,
+    "cameraControlledAperture": true,
+    "lensStabilizationCommunication": true,
+    "manualFocusAssistance": true,
+    "metadataTransmission": {
+      "present": true,
+      "standards": [
+        "exif"
+      ]
+    },
+    "lensPowerTransmission": null,
+    "recordingTriggerTransmission": null
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": null,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
+  },
+  "conversionOptics": {
+    "present": false
+  },
+  "mechanisms": null,
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "unclassifiedDimensionsMm": [
+          67,
+          7.5
+        ],
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 45,
+        "conditions": {}
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "dust-resistant",
+          "other"
+        ],
+        "scope": {
+          "kind": "product"
+        },
+        "conditions": {}
+      }
+    ],
+    "tripodSupport": null
+  }
+}

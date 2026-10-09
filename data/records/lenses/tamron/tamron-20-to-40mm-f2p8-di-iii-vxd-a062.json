@@ -1,0 +1,307 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "tamron-20-to-40mm-f2p8-di-iii-vxd-a062",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "tamron",
+    "brandId": "tamron",
+    "productName": "20-40mm F/2.8 Di III VXD",
+    "modelNumberOptions": [
+      "A062"
+    ],
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2026-10-08",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.tamron.com/global/consumer/lenses/a062/",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Tamron"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": "officially-licensed",
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": null
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 74.4,
+        "lengthMm": 88.7,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 380,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "moisture-resistant"
+        ],
+        "scope": {
+          "kind": "product"
+        },
+        "conditions": {}
+      }
+    ],
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 67,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": null,
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": null,
+    "externalLengthDuringZoom": null
+  },
+  "controls": [
+    {
+      "type": "zoom-ring",
+      "quantity": 1,
+      "rotationDegrees": 65
+    },
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "zoom",
+      "rangeMm": {
+        "minimum": 20,
+        "maximum": 40
+      }
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 2.8,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 9,
+        "bladeShape": "rounded"
+      },
+      "controlMechanism": null
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": "diagonal",
+        "degrees": 94.5,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 20
+          }
+        }
+      },
+      {
+        "format": "full-frame",
+        "orientation": "diagonal",
+        "degrees": 56.816667,
+        "conditions": {
+          "focalLength": {
+            "kind": "point",
+            "millimeters": 40
+          }
+        }
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 11,
+      "elements": 12
+    },
+    "specialElements": [
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "officialName": "LD (Low Dispersion) lens elements",
+        "quantity": 4
+      },
+      {
+        "types": [
+          "aspherical"
+        ],
+        "officialName": "GM (Glass Molded Aspherical) lens elements",
+        "quantity": 2
+      },
+      {
+        "types": [
+          "aspherical"
+        ],
+        "officialName": "Hybrid aspherical lens",
+        "quantity": 1
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "officialName": "BBAR-G2 (Broad-Band Anti-Reflection Generation 2) Coating",
+        "appliedTo": null
+      },
+      {
+        "types": [
+          "surface-protective"
+        ],
+        "officialName": "Fluorine Coating",
+        "appliedTo": [
+          "front-element"
+        ]
+      }
+    ],
+    "focus": {
+      "autofocus": {
+        "present": true,
+        "motors": [
+          {
+            "type": "voice-coil-motor",
+            "quantity": null,
+            "officialName": "VXD (Voice-coil eXtreme-torque Drive)"
+          }
+        ]
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": null
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.17,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 20
+            }
+          }
+        },
+        {
+          "distanceM": 0.29,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 40
+            }
+          }
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.263158,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 20
+            }
+          }
+        },
+        {
+          "kind": "maximum",
+          "value": 0.196078,
+          "conditions": {
+            "focalLength": {
+              "kind": "point",
+              "millimeters": 40
+            }
+          }
+        }
+      ],
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {},
+    "zoom": {
+      "drive": "manual",
+      "opticalZoomingSystems": null
+    }
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": null,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "connectorType": "usb-c",
+        "purposes": [
+          "firmware-update",
+          "configuration",
+          "tethered-control"
+        ],
+        "application": "TAMRON Lens Utility"
+      }
+    ]
+  }
+}

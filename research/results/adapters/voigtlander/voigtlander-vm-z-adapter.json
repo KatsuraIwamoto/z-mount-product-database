@@ -6,7 +6,7 @@
     "brandId": "voigtlander",
     "name": "VM-Z Adapter"
   },
-  "reviewedOn": "2026-09-16",
+  "reviewedOn": "2026-10-09",
   "decision": {
     "status": "needs-review"
   },
@@ -21,6 +21,14 @@
       ],
       "decisionChecks": [
         "release-status"
+      ]
+    },
+    {
+      "url": "https://www.cosina.co.jp/voigtlander/accessories/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "decisionChecks": [
+        "availability"
       ]
     }
   ],

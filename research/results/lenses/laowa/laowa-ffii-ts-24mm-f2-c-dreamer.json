@@ -4,11 +4,12 @@
   "subject": {
     "manufacturerId": "venus-optics",
     "brandId": "laowa",
-    "name": "LAOWA FFII TS 24mm F2 C-Dreamer"
+    "name": "FFⅡ TS 24mm F2 C-Dreamer"
   },
-  "reviewedOn": "2026-09-16",
+  "reviewedOn": "2026-10-09",
   "decision": {
-    "status": "needs-review"
+    "status": "included",
+    "recordId": "laowa-ffii-ts-24mm-f2-c-dreamer"
   },
   "sources": [
     {
@@ -18,9 +19,21 @@
       "checked": [
         "mount",
         "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
         "controls",
         "accessories",
-        "lens.focus"
+        "lens.focus",
+        "identity",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.imageCircleDiameters",
+        "lens.specialized"
       ]
     },
     {
@@ -66,11 +79,79 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://photorumors.com/2026/10/01/venus-optics-to-announce-a-new-laowa-ff-ii-ts-24mm-f-2-c-dreamer-tilt-shift-lens/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.laowalens.com.cn/camera-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "identity"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ],
+      "note": "The catalog labels FFⅡ TS 24mm F2 C-Dreamer as newly launched and links to the official purchase listing."
+    },
+    {
+      "url": "https://www.laowalens.com.cn/camera-lens-101",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "officialProductPages",
+        "mount",
+        "physical",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.tripodSupport",
+        "controls",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.specialElements",
+        "lens.specialized",
+        "lens.imageCircleDiameters",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ],
+      "note": "The page does not explicitly state whether optical stabilization is present. The absence of optical stabilization in the Nikon Z configuration is confirmed by the dataset maintainer."
+    },
+    {
+      "url": "https://www.laowalens.com.cn/Public/Uploads/uploadfile/images/20260922/3.jingtoujiegoutuxiangqingye.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements"
+      ]
     }
   ],
   "unresolved": [
-    "Is there an official release announcement or confirmed sale or availability for the Nikon Z configuration?",
-    "Which official aperture specification applies to the released product?",
-    "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
+    "What is the official release-announcement date for the Nikon Z configuration?",
+    "Which maximum diameter applies to the Nikon Z configuration: 93 mm on the product page or 82.5 mm in both language editions of the manual's specifications? Do these values describe different mount or measurement configurations, or is corrected official documentation available?",
+    "Which optical construction and ED/high-refractive-index element counts apply? The manual's English feature text states 18 elements in 12 groups, 4 ED and 5 high-refractive-index elements; its specification tables, Chinese feature text and the product page state 13 elements in 10 groups, 5 ED and 4 high-refractive-index elements.",
+    "What is the exact maximum reproduction magnification: 0.194 on the product page or 0.19X in the manual, and is the latter a rounded value?",
+    "Can accepted-source images of the released Nikon Z mount establish the presence or absence of electronic contacts and any mount-specific exterior details?"
   ]
 }

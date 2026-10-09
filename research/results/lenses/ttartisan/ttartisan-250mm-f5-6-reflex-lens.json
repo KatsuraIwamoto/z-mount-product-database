@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan 250mm F5.6 Reflex Lens"
   },
-  "reviewedOn": "2026-09-02",
+  "reviewedOn": "2026-10-09",
   "decision": {
     "status": "excluded",
     "reason": "The M42 lens has no Nikon Z configuration or supplied Z adapter. TTArtisan's own M-to-Z adapter explicitly does not support it, leaving only generic adapters, so it remains excluded."
