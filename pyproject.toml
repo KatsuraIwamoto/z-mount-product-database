@@ -45,7 +45,7 @@ dependencies = [
   "mypy==2.4.0",
   "pytest==9.1.1",
   "reuse[charset-normalizer]==6.2.0",
-  "ruff==0.16.10",
+  "ruff==0.17.1",
   "types-jsonschema==4.26.0.20261006",
 ]
 
@@ -76,7 +76,7 @@ review = "python -m z_mount_product_database.review {args}"
 detached = true
 python = "3.14"
 dependencies = [
-  "zensical==0.0.69",
+  "zensical==0.0.71",
 ]
 
 [tool.hatch.envs.docs.scripts]
