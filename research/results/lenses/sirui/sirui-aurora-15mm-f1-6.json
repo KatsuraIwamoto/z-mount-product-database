@@ -6,7 +6,7 @@
     "brandId": "sirui",
     "name": "SIRUI Aurora 15mm f1.6"
   },
-  "reviewedOn": "2026-09-16",
+  "reviewedOn": "2026-10-19",
   "decision": {
     "status": "needs-review"
   },
@@ -21,10 +21,23 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://store.sirui.com/blogs/guides/sirui-aurora-new-focal-lens-preview-at-ibc2026",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
     }
   ],
   "unresolved": [
     "Has SIRUI issued an official product release announcement or confirmed sale?",
-    "Has SIRUI confirmed a Nikon Z configuration?"
+    "Has SIRUI confirmed a Nikon Z configuration?",
+    "Which official product announcement confirms the focal length and maximum aperture of this candidate? The current redirected IBC preview describes two pre-production Aurora lenses without these specifications."
   ]
 }

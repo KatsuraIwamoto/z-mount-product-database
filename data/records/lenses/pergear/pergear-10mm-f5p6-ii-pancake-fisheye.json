@@ -1,0 +1,152 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "pergear-10mm-f5p6-ii-pancake-fisheye",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "pergear",
+    "brandId": "pergear",
+    "productName": "Pergear 10mm F5.6 II APS-C Fisheye Lens",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2026-10-10",
+    "officialDesignations": null
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.pergear.com/products/pergear-10mm-f5-6",
+      "pageFamilies": [
+        "global",
+        "usa"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "PERGEAR"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": false
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 50,
+        "lengthMm": 32,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 120,
+        "approximate": true,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": null,
+    "tripodSupport": null,
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": null
+  },
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "integrated",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": null,
+    "rearCaps": null,
+    "lensCases": null,
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 10
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 5.6,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 5.6,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": null,
+      "controlMechanism": null
+    },
+    "anglesOfView": [
+      {
+        "format": "aps-c",
+        "orientation": null,
+        "degrees": 172,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "aps-c"
+    },
+    "opticalConstruction": null,
+    "specialElements": null,
+    "coatings": [
+      {
+        "types": [
+          "anti-reflective"
+        ],
+        "appliedTo": [
+          "front-element"
+        ]
+      }
+    ],
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": null
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": null,
+      "reproductionMagnifications": null,
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {
+      "fisheye": {
+        "imageTypes": null
+      }
+    }
+  }
+}

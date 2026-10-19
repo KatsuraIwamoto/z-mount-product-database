@@ -1,0 +1,244 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "tamron-16-to-50mm-f2p8-a-b091",
+  "subject": {
+    "manufacturerId": "tamron",
+    "brandId": "tamron",
+    "name": "16-50mm F2.8 A"
+  },
+  "reviewedOn": "2026-10-19",
+  "decision": {
+    "status": "included",
+    "recordId": "tamron-16-to-50mm-f2p8-a-b091"
+  },
+  "sources": [
+    {
+      "url": "https://www.tamron.com/global/news/detail/b091_20261014.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount",
+        "lifecycle",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.officialEnvironmentalProtectionClaims",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "accessories",
+        "productType",
+        "identity.modelNumberOptions",
+        "mount.electronicContacts",
+        "physical.dimensionMeasurements"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://tamron-americas.com/tamron-announces-new-16-50mm-f2-8-a-model-b091-for-aps-c-mirrorless-cameras/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount",
+        "lifecycle",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.officialEnvironmentalProtectionClaims",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "accessories",
+        "physical.dimensionMeasurements"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com.hk/b091-launch-release/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount",
+        "lifecycle",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "physical.officialEnvironmentalProtectionClaims",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "accessories",
+        "physical.dimensionMeasurements",
+        "lens.coatings",
+        "identity.modelNumberOptions"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/jp/consumer/lenses/b091/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "officialProductPages",
+        "mount",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.specialElements",
+        "lens.coatings",
+        "physical.officialEnvironmentalProtectionClaims"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/lenses/b091/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "officialProductPages",
+        "mount",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.focus",
+        "lens.specialElements",
+        "lens.coatings",
+        "physical.officialEnvironmentalProtectionClaims",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/lenses/b091/spec.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "specification",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.aperture",
+        "accessories"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/jp/consumer/lenses/b091/spec.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "specification",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/product/pc_file/file/b091-lens-construction-en.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements",
+        "lens.opticalConstruction"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/accessories/hoods/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.tamron.com/global/consumer/soft/lensutility/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "controls",
+        "lens.focus",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://tamron-americas.com/product/16-50mm-f-2-8-a/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "electronicServices"
+      ]
+    },
+    {
+      "url": "https://tamron-americas.com/wp-content/uploads/2024/11/slim-jim.pdf",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "catalog",
+      "checked": [
+        "lens.stabilization",
+        "lens.specialElements"
+      ]
+    },
+    {
+      "url": "https://www.store-tamron.com/c/model-B091/AB091Z00000",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.modelNumberOptions",
+        "mount"
+      ]
+    },
+    {
+      "url": "https://tamrononline.itembox.cloud/product/002/000000000284/000000000284-01.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.tamron.eu/en-GB/p/490186f6-0038-4614-8335-3faf445357cc/16-50mm-f28-a?sku=B091Z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "lens.coatings",
+        "lens.focus"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Will the regional publications reconcile their Nikon Z dimensions with the current Japanese, global, and Americas product specification tables (maximum diameter 70 mm, length 81.6 mm), including 121.3 mm in the Americas announcement, 64.4 mm in a Hong Kong announcement table, and 79.6 mm on the selected European B091Z product page?",
+    "Can the Nikon Z B091Z focus ring be assigned aperture, exposure compensation, or other control-ring functions through the camera, and which model-specific operating instructions establish its zoom-ring function and remaining controls? The Lens Utility B091Z compatibility result confirms MF ring settings but does not establish camera-side assignments.",
+    "Which Nikon Z operating instructions or sufficiently complete views establish zoom extension, retractable storage, and tripod support? The identified Nikon Z official-store image does not cover all four exterior sides.",
+    "Which model-specific source corroborates the internal-focusing and eBAND coating entries on the European B091Z product page against the Japanese and global product specifications?",
+    "Which rear-cap model is supplied with the Nikon Z version?",
+    "Has a firmware update for the Nikon Z version been published?"
+  ],
+  "notes": [
+    "The official specification defines length as the distance from the lens front tip to the lens mount face."
+  ]
+}

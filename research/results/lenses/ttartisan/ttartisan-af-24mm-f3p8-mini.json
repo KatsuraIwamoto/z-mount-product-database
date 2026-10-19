@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "ttartisan-af-24mm-f3p8-mini",
+  "subject": {
+    "manufacturerId": "ttartisan",
+    "brandId": "ttartisan",
+    "name": "TTArtisan AF 24mm F3.8 mini"
+  },
+  "reviewedOn": "2026-10-19",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://ttartisan.store/products/ttartisan-af-24mm-f3-8-mini",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status",
+        "availability"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Has TTArtisan officially announced the Nikon Z version for release or confirmed its sale, beyond the unavailable Nikon Z option on the official store?"
+  ]
+}
