@@ -3,13 +3,13 @@
   "datasetName": "Z Mount Lens Database",
   "datasetVariant": "light",
   "schemaVersion": "1.0.0",
-  "dataVersion": "2026.10.09",
+  "dataVersion": "2026.10.19",
   "creator": "Katsura Iwamoto",
   "license": "CC-BY-4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
-  "recordCount": 611,
-  "contentHash": "sha256:d8acf1c6a99bdeb312cafd14ab2bf55add586e044dd9418a6c1806bc0a2f3c06",
+  "recordCount": 613,
+  "contentHash": "sha256:c77297a2a235679db2025ce613edef1628ab6bb33b709c1582613020ecf5dfe3",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -37166,6 +37166,86 @@
       }
     },
     {
+      "id": "pergear-10mm-f5p6-ii-pancake-fisheye",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "pergear",
+        "brandId": "pergear",
+        "productName": "Pergear 10mm F5.6 II APS-C Fisheye Lens"
+      },
+      "lifecycle": {
+        "announcementDate": "2026-10-10",
+        "officialDesignations": null
+      },
+      "officialProductPages": [
+        {
+          "url": "https://www.pergear.com/products/pergear-10mm-f5-6"
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": null,
+        "electronicContacts": {
+          "present": false
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 50,
+            "lengthMm": 32,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 120,
+            "approximate": true,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "filterInterfaces": null
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 10
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 5.6,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        "coverage": {
+          "format": "aps-c"
+        },
+        "focus": {
+          "autofocus": {
+            "present": false
+          },
+          "manualFocus": {
+            "present": true
+          },
+          "minimumFocusDistances": null,
+          "reproductionMagnifications": null
+        },
+        "stabilization": {
+          "present": false
+        },
+        "specialized": {
+          "fisheye": {}
+        }
+      }
+    },
+    {
       "id": "pergear-10mm-f8-pancake-lens",
       "productType": "lens",
       "identity": {
@@ -44391,6 +44471,116 @@
             {
               "kind": "maximum",
               "value": 0.19,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 16
+                }
+              }
+            }
+          ]
+        },
+        "stabilization": {
+          "present": false
+        },
+        "specialized": {}
+      }
+    },
+    {
+      "id": "tamron-16-to-50mm-f2p8-a-b091",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "tamron",
+        "brandId": "tamron",
+        "productName": "16-50mm F2.8 A"
+      },
+      "lifecycle": {
+        "announcementDate": "2026-10-14",
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://www.tamron.com/jp/consumer/lenses/b091/"
+        },
+        {
+          "url": "https://www.tamron.com/global/consumer/lenses/b091/"
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": "officially-licensed",
+        "electronicContacts": {
+          "present": true,
+          "metadataTransmission": null
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 70,
+            "lengthMm": 81.6,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 315,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 55
+          }
+        ]
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "zoom",
+          "rangeMm": {
+            "minimum": 16,
+            "maximum": 50
+          }
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 2.8,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        "coverage": {
+          "format": "aps-c"
+        },
+        "focus": {
+          "autofocus": {
+            "present": true
+          },
+          "manualFocus": {
+            "present": true
+          },
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.15,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 16
+                }
+              }
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.222222,
               "conditions": {
                 "focalLength": {
                   "kind": "point",

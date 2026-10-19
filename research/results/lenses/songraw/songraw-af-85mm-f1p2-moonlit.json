@@ -6,7 +6,7 @@
     "brandId": "songraw",
     "name": "SongRaw AF 85mm F1.2 Moonlit"
   },
-  "reviewedOn": "2026-10-09",
+  "reviewedOn": "2026-10-19",
   "decision": {
     "status": "needs-review"
   },
@@ -58,11 +58,26 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://songrawlens.com/products/songraw-af-851-2-ms-full-frame-autofocus-lens-golden-focal-lengthportraits-with-depth",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
     }
   ],
   "unresolved": [
     "Was the Nikon Z version officially released or offered for sale?",
     "Did an official source state that the MS product replaced the Moonlit product?",
     "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
+  ],
+  "notes": [
+    "The official store offers the separately recorded AF 85mm F1.2 MS in Nikon Z mount; the Moonlit production identity remains unconfirmed."
   ]
 }

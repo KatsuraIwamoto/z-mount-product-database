@@ -1,0 +1,171 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "pergear-10mm-f5p6-ii-pancake-fisheye",
+  "subject": {
+    "manufacturerId": "pergear",
+    "brandId": "pergear",
+    "name": "Pergear 10mm F5.6 II APS-C Fisheye Lens"
+  },
+  "reviewedOn": "2026-10-19",
+  "decision": {
+    "status": "included",
+    "recordId": "pergear-10mm-f5p6-ii-pancake-fisheye"
+  },
+  "sources": [
+    {
+      "url": "https://pergear.co.jp/blogs/news/pergear-10mm-f5-6-ii",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "productType",
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.coatings",
+        "lens.specialized",
+        "lifecycle"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.pergear.com/products/pergear-10mm-f5-6",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "controls",
+        "accessories",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.coatings",
+        "lens.specialized",
+        "officialProductPages",
+        "mount.electronicContacts",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.pergear.com/blogs/news/pergear-10mm-f5-6-ii",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "controls",
+        "accessories",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://www.pergear.com/blogs/news",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "collection",
+      "checked": [
+        "identity",
+        "lifecycle"
+      ]
+    },
+    {
+      "url": "https://www.pergear.de/blogs/news/pergear-10mm-f5-6-ii",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "controls",
+        "accessories",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.pergear.com/products/pergear-10mm-f5-6?variant=50622724898914",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    },
+    {
+      "url": "https://www.pergear.com/cdn/shop/files/710P1tjyxGL._AC_SL1500_1600x.jpg?v=1791626714",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.pergear.com/cdn/shop/files/71KTJS7nGKL._AC_SL1500_1600x.jpg?v=1791626722",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "lens.aperture",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://www.pergear.com/cdn/shop/files/71yzQdquLxL._AC_SL1500_1600x.jpg?v=1791626724",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://www.pergear.com/cdn/shop/files/717br9598SL._AC_SL1500_1600x.jpg?v=1791626728",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "accessories"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Which corrected official specification or optical construction diagram resolves 6 groups and 5 elements in the Japanese announcement versus 5 groups and 6 elements in the English and German announcements and the official gallery? What special-element types and counts are used?",
+    "Which corrected specification establishes the Nikon Z minimum focus distance: approximately 15 cm in the official specification tables or 12 cm in the II-labelled official gallery graphics? Are the distances measured from the same reference plane?",
+    "Which II-generation Nikon Z manual or mount-specific exterior views establish the diaphragm construction, manual-focus coupling, filter interfaces, focus extension, tripod support, and storage design? The shared gallery does not establish the photographed mount or show its bare mount face and all four exterior sides.",
+    "Which official package-content list confirms the supplied front and rear caps and any case, strap, or protective wrap for the Nikon Z II version?"
+  ],
+  "notes": [
+    "The official specification tables describe the focus-distance value as approximate.",
+    "The lens hood is built in; the published approximate weight excludes lens caps."
+  ]
+}
