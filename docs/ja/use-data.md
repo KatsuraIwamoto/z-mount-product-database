@@ -136,12 +136,12 @@ Gitブランチ上の`dist/`とリポジトリ直下の`PRODUCTS.md`は、配布
 
 ### 実際の出力
 
-データバージョン `2026.10.19` のレンズFull版では、どちらのコードも次の内容を表示します。
+データバージョン `2026.11.01` のレンズFull版では、どちらのコードも次の内容を表示します。
 
 ```json
 {
-  "dataVersion": "2026.10.19",
-  "recordCount": 613,
+  "dataVersion": "2026.11.01",
+  "recordCount": 615,
   "firstProduct": {
     "id": "7artisans-24mm-f1-4",
     "productType": "lens",
@@ -231,7 +231,7 @@ print(json.dumps(matches, ensure_ascii=False, indent=2))
 
 各配布データのルートには、版、件数、ハッシュ値、ライセンスなどのメタデータがあります。
 プロジェクト全体の名称は「Z Mount Product Database」ですが、`datasetName` にはデータセットごとの名称が入ります。
-次の例は、データバージョン `2026.10.19` の各配布データから、`referenceData`と`products`または`adapters`を除いて抜き出したものです。
+次の例は、データバージョン `2026.11.01` の各配布データから、`referenceData`と`products`または`adapters`を除いて抜き出したものです。
 
 === "レンズFull版"
 
@@ -241,13 +241,13 @@ print(json.dumps(matches, ensure_ascii=False, indent=2))
       "datasetName": "Z Mount Lens Database",
       "datasetVariant": "full",
       "schemaVersion": "1.0.0",
-      "dataVersion": "2026.10.19",
+      "dataVersion": "2026.11.01",
       "creator": "Katsura Iwamoto",
       "license": "CC-BY-4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
-      "recordCount": 613,
-      "contentHash": "sha256:a834bb11d9ede93ba6ea6e37cd3e59392ca4b532a992a119201efa2b221b3b35"
+      "recordCount": 615,
+      "contentHash": "sha256:5a85728244fa0546254f1778f8a4f09ab758f7a7a7f6d166b6e2b3ebcc70dd1a"
     }
     ```
 
@@ -259,13 +259,13 @@ print(json.dumps(matches, ensure_ascii=False, indent=2))
       "datasetName": "Z Mount Lens Database",
       "datasetVariant": "light",
       "schemaVersion": "1.0.0",
-      "dataVersion": "2026.10.19",
+      "dataVersion": "2026.11.01",
       "creator": "Katsura Iwamoto",
       "license": "CC-BY-4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
       "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
-      "recordCount": 613,
-      "contentHash": "sha256:c77297a2a235679db2025ce613edef1628ab6bb33b709c1582613020ecf5dfe3"
+      "recordCount": 615,
+      "contentHash": "sha256:36f5dfa0a9b74e3a62e0bdb6ca78c2f5696d4f90f5e3a5e0c7e4909aa5f57a37"
     }
     ```
 
@@ -277,7 +277,7 @@ print(json.dumps(matches, ensure_ascii=False, indent=2))
       "datasetName": "Z Mount Adapter Database",
       "datasetVariant": "full",
       "schemaVersion": "1.0.0",
-      "dataVersion": "2026.10.19",
+      "dataVersion": "2026.11.01",
       "creator": "Katsura Iwamoto",
       "license": "CC-BY-4.0",
       "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",

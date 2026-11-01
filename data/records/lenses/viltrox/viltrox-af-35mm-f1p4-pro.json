@@ -1,0 +1,288 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "viltrox-af-35mm-f1p4-pro",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "viltrox",
+    "brandId": "viltrox",
+    "productName": "AF 35mm F1.4 Pro",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2026-10-29",
+    "officialDesignations": []
+  },
+  "officialProductPages": [
+    {
+      "url": "https://viltrox.com/products/af-35mm-f1-4-z",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Viltrox"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": null
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 84.5,
+        "lengthMm": 112.5,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 780,
+        "approximate": true,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": [
+      {
+        "types": [
+          "dust-resistant",
+          "splash-resistant",
+          "moisture-resistant",
+          "weather-resistant"
+        ],
+        "scope": {
+          "kind": "product"
+        },
+        "conditions": {}
+      },
+      {
+        "types": [
+          "other"
+        ],
+        "scope": {
+          "kind": "component",
+          "component": "front element"
+        },
+        "conditions": {}
+      }
+    ],
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 77,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": null,
+    "externalLengthDuringFocus": "constant",
+    "isRetractableForStorage": false
+  },
+  "controls": [
+    {
+      "type": "function-button",
+      "quantity": 1,
+      "officialName": "Fn button"
+    },
+    {
+      "type": "aperture-ring-click-switch",
+      "quantity": 1,
+      "officialName": "CLICK switch"
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "switchable"
+    },
+    {
+      "type": "focus-ring",
+      "quantity": 1,
+      "response": "linear"
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": [
+          "PL-68A"
+        ],
+        "quantity": 1
+      }
+    ],
+    "frontCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "rearCaps": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensCases": [
+      {
+        "construction": "soft-case",
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "lensStraps": null,
+    "protectiveWraps": null
+  },
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": null,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "connectorType": "usb-c",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 35
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 1.4,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 16,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 11,
+        "bladeShape": null
+      },
+      "controlMechanism": null
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 62.6,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 11,
+      "elements": 16
+    },
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "officialName": "UA",
+        "quantity": 2
+      },
+      {
+        "types": [
+          "low-dispersion"
+        ],
+        "quantity": 3,
+        "officialName": "ED"
+      },
+      {
+        "types": [
+          "high-refractive-index"
+        ],
+        "quantity": 4,
+        "officialName": "HR"
+      }
+    ],
+    "coatings": [
+      {
+        "types": [
+          "surface-protective"
+        ],
+        "appliedTo": [
+          "front-element"
+        ]
+      }
+    ],
+    "focus": {
+      "autofocus": {
+        "present": true,
+        "motors": [
+          {
+            "type": "voice-coil-motor",
+            "officialName": "HyperVCM",
+            "quantity": 2
+          }
+        ]
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": null
+      },
+      "opticalFocusingSystems": [
+        {
+          "type": "internal-focusing"
+        }
+      ],
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.3,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.18,
+          "conditions": {}
+        }
+      ],
+      "officialFocusBehaviorClaims": [
+        {
+          "type": "focus-breathing-suppressed",
+          "conditions": {}
+        }
+      ]
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}

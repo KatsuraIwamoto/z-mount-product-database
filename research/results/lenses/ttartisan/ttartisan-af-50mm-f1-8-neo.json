@@ -6,7 +6,7 @@
     "brandId": "ttartisan",
     "name": "TTArtisan AF 50mm F1.8 Neo"
   },
-  "reviewedOn": "2026-09-20",
+  "reviewedOn": "2026-11-01",
   "decision": {
     "status": "included",
     "recordId": "ttartisan-af-50mm-f1-8-neo"
@@ -50,7 +50,8 @@
         "lens.specialElements",
         "controls",
         "accessories",
-        "electronicServices"
+        "electronicServices",
+        "identity.variants"
       ]
     },
     {
@@ -103,6 +104,22 @@
       "checked": [
         "identity",
         "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0433/2224/5282/files/SKU-Z_f4b0cc30-38e5-4e66-aa7a-4a478370feac.jpg?v=1792465113",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.variants"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0433/2224/5282/files/SKU-Z_0d47f98b-6f3c-42e2-bebc-084a08ebaf73.jpg?v=1792465136",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.variants"
       ]
     }
   ],

@@ -3,13 +3,13 @@
   "datasetName": "Z Mount Lens Database",
   "datasetVariant": "light",
   "schemaVersion": "1.0.0",
-  "dataVersion": "2026.10.19",
+  "dataVersion": "2026.11.01",
   "creator": "Katsura Iwamoto",
   "license": "CC-BY-4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
-  "recordCount": 613,
-  "contentHash": "sha256:c77297a2a235679db2025ce613edef1628ab6bb33b709c1582613020ecf5dfe3",
+  "recordCount": 615,
+  "contentHash": "sha256:36f5dfa0a9b74e3a62e0bdb6ca78c2f5696d4f90f5e3a5e0c7e4909aa5f57a37",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -30956,6 +30956,129 @@
       }
     },
     {
+      "id": "nikkor-z-120-to-300mm-f2p8-tc-vr-s",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "nikon",
+        "brandId": "nikkor",
+        "productName": "NIKKOR Z 120-300mm f/2.8 TC VR S"
+      },
+      "lifecycle": {
+        "announcementDate": "2026-10-29",
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://imaging.nikon.com/imaging/lineup/lens/z-mount/z_120-300mmf28_tc_vr_s/"
+        },
+        {
+          "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_120-300mm_f28_tc_vr_s/"
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": "mount-owner",
+        "electronicContacts": {
+          "present": true,
+          "metadataTransmission": {
+            "present": true,
+            "standards": [
+              "exif"
+            ]
+          }
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 128,
+            "lengthMm": 353.5,
+            "approximate": true,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 2735,
+            "approximate": true,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 112
+          },
+          {
+            "type": "drop-in",
+            "filterDiameterMm": 46
+          }
+        ]
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "zoom",
+          "rangeMm": {
+            "minimum": 120,
+            "maximum": 300
+          }
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 2.8,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        "coverage": {
+          "format": "full-frame"
+        },
+        "focus": {
+          "autofocus": {
+            "present": true
+          },
+          "manualFocus": {
+            "present": true
+          },
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.98,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 120
+                }
+              }
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.18,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 150
+                }
+              }
+            }
+          ]
+        },
+        "stabilization": {
+          "present": true
+        },
+        "specialized": {
+          "builtInTeleconverter": {}
+        }
+      }
+    },
+    {
       "id": "nikkor-z-135mm-f1p8-s-plena",
       "productType": "lens",
       "identity": {
@@ -50569,6 +50692,101 @@
             {
               "kind": "maximum",
               "value": 0.17,
+              "conditions": {}
+            }
+          ]
+        },
+        "stabilization": {
+          "present": false
+        },
+        "specialized": {}
+      }
+    },
+    {
+      "id": "viltrox-af-35mm-f1p4-pro",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "viltrox",
+        "brandId": "viltrox",
+        "productName": "AF 35mm F1.4 Pro"
+      },
+      "lifecycle": {
+        "announcementDate": "2026-10-29",
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://viltrox.com/products/af-35mm-f1-4-z"
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": null,
+        "electronicContacts": {
+          "present": true,
+          "metadataTransmission": null
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 84.5,
+            "lengthMm": 112.5,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 780,
+            "approximate": true,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 77
+          }
+        ]
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 35
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 1.4,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        "coverage": {
+          "format": "full-frame"
+        },
+        "focus": {
+          "autofocus": {
+            "present": true
+          },
+          "manualFocus": {
+            "present": true
+          },
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.3,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.18,
               "conditions": {}
             }
           ]
