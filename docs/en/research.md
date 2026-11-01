@@ -211,11 +211,20 @@ Sources accepted as alternative evidence
   Corporate investor-relations materials and press releases may also be used.
   Product and announcement pages from authorized distributors are also accepted as alternative evidence.
 
-Sources used only for corroboration
-: An authorized retailer's page for the exact product may corroborate that the product was released, that it is offered for the Nikon Z mount, and that the manufacturer published a model number.
+Sources accepted as supplemental evidence
+: Only for fields that remain unestablished after checking manufacturer and authorized-distributor sources, explicitly stated product information from authorized or major retailers may be adopted.
+  Verify the exact model, generation, mount, and sales configuration, and track each adopted field in `checked`.
+  Do not treat an omitted specification as evidence that a feature is absent. Investigate conflicts instead of automatically choosing a value.
+  Retailer pages cannot be registered in `officialProductPages`.
+
+Major retailers must have an identifiable operator and consistently provide specialist product information.
+Marketplace sellers and automated aggregators are excluded. Use `authorized-retailer` for authorized retailers and the existing `retailer` value for major retailers.
+The validator limits eligible major retailers through `MAJOR_RETAILER_HOSTS`; currently this is B&H (`bhphotovideo.com` and `www.bhphotovideo.com`).
+When adding a retailer, verify eligibility and update both the host set and this documentation.
+The validator checks source types and field coverage. Whether official sources leave a gap, source priority, and conflicting information must be assessed during research.
 
 Facts checked from product images
-: An image published by an authorized retailer may support facts directly visible on the product when the exact product and configuration are established and the image clearly shows the relevant area.
+: An image published by an authorized or eligible major retailer may support facts directly visible on the product when the exact product and configuration are established and the image clearly shows the relevant area.
   Record the direct image URL with `sourceType: image`, and retain the retailer page as a separate source when it establishes the product or configuration.
   Use images of multiple states or video for facts that depend on movement or a state change.
   Do not infer hidden construction, materials, dimensions, weight, electronic functions, environmental protection, compatibility, or release status from appearance.
@@ -226,11 +235,11 @@ Also inspect the front, mount face, covered areas, or other views relevant to th
 A clearly visible component's presence may be recorded within the area shown even when other views are unavailable.
 
 Shape, grooves, or scales alone do not establish movement, detachability, or purpose. Verify presence, movement, function, and inclusion in the package separately.
-Classifying a control requires evidence such as official operating instructions, a manual, or accepted images or video that establish its operation and function.
+Classifying a control requires evidence such as operating instructions from official or accepted supplemental sources, a manual, or accepted images or video that establish its operation and function.
 Rotation alone does not identify an aperture or focus ring. Do not classify a component with an unknown function as decorative either.
 
 Research leads
-: Other retailers, reviews, news, and forums are leads for further research.
+: Retailers outside the eligible categories above, reviews, news, and forums are leads for further research.
   Use only facts verified by an accepted source for an inclusion decision or product information.
 
 Store a `sources[].url` without tracking parameters or fragments, and do not duplicate the same URL.

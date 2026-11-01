@@ -1380,30 +1380,20 @@ def test_research_checked_coverage_respects_source_relationships() -> None:
         "physical.weightMeasurements",
     )
 
-    assert _research_coverage_diagnostics(
-        "research/results/adapters/example.json",
-        record,
-        [
-            {
-                "publisherRelationship": "authorized-retailer",
-                "checked": list(coverage_paths),
-            }
-        ],
-        coverage_paths,
-    ) == [
-        Diagnostic(
-            "research/results/adapters/example.json/sources",
-            "canonical field group 'identity' has no checked source coverage",
-        ),
-        Diagnostic(
-            "research/results/adapters/example.json/sources",
-            "canonical field group 'electronics' has no checked source coverage",
-        ),
-        Diagnostic(
-            "research/results/adapters/example.json/sources",
-            "canonical field group 'physical.weightMeasurements' has no checked source coverage",
-        ),
-    ]
+    assert (
+        _research_coverage_diagnostics(
+            "research/results/adapters/example.json",
+            record,
+            [
+                {
+                    "publisherRelationship": "authorized-retailer",
+                    "checked": list(coverage_paths),
+                }
+            ],
+            coverage_paths,
+        )
+        == []
+    )
 
     assert validation_module._accepted_checked_paths(
         {
@@ -1442,6 +1432,71 @@ def test_research_checked_coverage_respects_source_relationships() -> None:
             coverage_paths,
         )
     ) == len(coverage_paths)
+
+
+@pytest.mark.parametrize("host", ["bhphotovideo.com", "www.bhphotovideo.com"])
+def test_major_retailer_supplemental_coverage(host: str) -> None:
+    source = {
+        "url": f"https://{host}/c/product/example.html",
+        "publisherRelationship": "retailer",
+        "sourceType": "retailer-listing",
+        "checked": ["lens.stabilization", "physical.weightMeasurements", "officialProductPages"],
+    }
+    assert validation_module._accepted_checked_paths(source) == {
+        "lens.stabilization",
+        "physical.weightMeasurements",
+    }
+    source["sourceType"] = "image"
+    assert validation_module._accepted_checked_paths(source) == {"lens.stabilization"}
+
+
+@pytest.mark.parametrize(
+    "url",
+    [
+        "https://bhphotovideo.com.example.org/product",
+        "https://bhphotovideo.com@example.org/product",
+        "https://example.org/bhphotovideo.com/product",
+        "https://[invalid/product",
+    ],
+)
+def test_major_retailer_coverage_rejects_other_hosts(url: str) -> None:
+    assert (
+        validation_module._accepted_checked_paths(
+            {
+                "url": url,
+                "publisherRelationship": "retailer",
+                "sourceType": "retailer-listing",
+                "checked": ["lens.stabilization"],
+            }
+        )
+        == set()
+    )
+
+
+@pytest.mark.parametrize("relationship", ["authorized-retailer", "retailer"])
+def test_retailer_images_preserve_mount_and_model_number_coverage(relationship: str) -> None:
+    paths = {"identity.modelNumberOptions", "mount", "mount.adapter", "mountConfigurations"}
+    assert (
+        validation_module._accepted_checked_paths(
+            {
+                "url": "https://www.bhphotovideo.com/images/example.jpg",
+                "publisherRelationship": relationship,
+                "sourceType": "image",
+                "checked": list(paths),
+            }
+        )
+        == paths
+    )
+
+
+def test_authorized_retailer_is_not_an_official_product_page() -> None:
+    assert validation_module._accepted_checked_paths(
+        {
+            "publisherRelationship": "authorized-retailer",
+            "sourceType": "retailer-listing",
+            "checked": ["officialProductPages", "lens.stabilization"],
+        }
+    ) == {"lens.stabilization"}
 
 
 def test_lifecycle_dates_must_not_postdate_the_paired_research_review(tmp_path: Path) -> None:

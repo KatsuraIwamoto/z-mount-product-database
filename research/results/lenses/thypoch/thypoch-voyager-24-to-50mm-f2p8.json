@@ -1,0 +1,42 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "thypoch-voyager-24-to-50mm-f2p8",
+  "subject": {
+    "manufacturerId": "thypoch",
+    "brandId": "thypoch",
+    "name": "Voyager 24-50mm f/2.8"
+  },
+  "reviewedOn": "2026-11-01",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://nikonrumors.com/2026/10/15/thypoch-24-50mm-f-2-8-lens-coming-soon-for-nikon-z-mount.aspx/",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://store.thypoch.com/products/voyager-24-50mm",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Has the manufacturer officially announced the release or confirmed sale of the Nikon Z configuration?"
+  ]
+}

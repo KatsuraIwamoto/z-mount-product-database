@@ -6,9 +6,10 @@
     "brandId": "nikkor",
     "name": "NIKKOR Z 120-300mm f/2.8 TC VR S"
   },
-  "reviewedOn": "2026-10-19",
+  "reviewedOn": "2026-11-01",
   "decision": {
-    "status": "needs-review"
+    "status": "included",
+    "recordId": "nikkor-z-120-to-300mm-f2p8-tc-vr-s"
   },
   "sources": [
     {
@@ -53,9 +54,173 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_120-300mm_f28_tc_vr_s/spec.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "specification",
+      "checked": [
+        "identity",
+        "mount",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "lens.zoom",
+        "lens.stabilization",
+        "lens.specialized",
+        "physical.filterInterfaces",
+        "controls",
+        "accessories",
+        "lens.anglesOfView",
+        "lens.specialElements",
+        "lens.coatings"
+      ]
+    },
+    {
+      "url": "https://www.nikon.com/company/news/2026/1029_01/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "productType",
+        "identity",
+        "lifecycle",
+        "physical.externalLengthDuringFocus",
+        "physical.externalLengthDuringZoom",
+        "lens.focus",
+        "mount.electronicContacts",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.isRetractableForStorage"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_120-300mm_f28_tc_vr_s/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "officialProductPages",
+        "lifecycle"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_120-300mm_f28_tc_vr_s/features01.html",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "technical-page",
+      "checked": [
+        "controls",
+        "physical.tripodSupport",
+        "lens.focus",
+        "lens.stabilization",
+        "lens.coatings",
+        "lens.specialized"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/cms/products/lineup/nikkor/zmount/nikkor_z_120-300mm_f28_tc_vr_s/img/index/product_03.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls",
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/cms/products/lineup/nikkor/zmount/nikkor_z_120-300mm_f28_tc_vr_s/img/features01/pic_10.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://nij.nikon.com/cms/products/lineup/nikkor/zmount/nikkor_z_120-300mm_f28_tc_vr_s/img/features01/pic_16.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.tripodSupport"
+      ]
+    },
+    {
+      "url": "https://imaging.nikon.com/imaging/lineup/lens/z-mount/z_120-300mmf28_tc_vr_s/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "officialProductPages",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.coatings",
+        "lens.focus",
+        "lens.specialized",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.nikonusa.com/p/cl-l3-lens-case/4266/overview",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.nikon-asia.com/nikkor-z-120-300mm-f-2-8-tc-vr-s",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "specification",
+      "checked": [
+        "physical.weightMeasurements",
+        "lens.anglesOfView"
+      ],
+      "note": "The mass specification is labeled Weight (g) (body only)*1 and states approximately 2735 g."
+    },
+    {
+      "url": "https://www.nikonusa.com/p/nikkor-z-120-300mm-f28-tc-vr-s/20135/overview",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "controls",
+        "physical.weightMeasurements",
+        "lens.anglesOfView"
+      ]
+    },
+    {
+      "url": "https://www.nikon.co.uk/en_GB/product/lenses/mirrorless/nikkor-z-120-300mm-f2.8-tc-vr-s-JMA728DA",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "controls",
+        "physical.externalLengthDuringZoom",
+        "physical.isRetractableForStorage",
+        "lens.focus",
+        "lens.zoom"
+      ],
+      "note": "The product page describes internal zoom, a control ring that can also be used as a focus ring, and two assignable L-Fn buttons. The page explicitly describes internal zoom and a multi-focus system."
+    },
+    {
+      "url": "https://nij.nikon.com/cms/products/lineup/nikkor/zmount/nikkor_z_120-300mm_f28_tc_vr_s/img/features01/pic_22.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
     }
   ],
   "unresolved": [
-    "Confirm that Nikon has issued an official product release announcement before adding a canonical record."
+    "Does the body-only mass label on Nikon Asia include the tripod collar and foot as part of the lens body?",
+    "Can official documentation establish tripod-support detachability and mounting-thread specification?",
+    "Can official documentation establish firmware-update capability, a published lens firmware update?"
   ]
 }

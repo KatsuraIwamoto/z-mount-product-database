@@ -144,11 +144,13 @@
       "publisherRelationship": "manufacturer-or-brand",
       "sourceType": "support-page",
       "checked": [
-        "electronicServices"
+        "electronicServices",
+        "lens.focus"
       ],
       "decisionChecks": [
         "availability"
-      ]
+      ],
+      "note": "Firmware 1.10 adds selectable focus-ring rotation ranges and switching of focus/control ring roles."
     },
     {
       "url": "https://nij.nikon.com/products/nikkor/about/technology.html",

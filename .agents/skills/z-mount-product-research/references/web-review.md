@@ -39,7 +39,8 @@ abbreviations, a URL slug, a retailer SKU, or a JAN/EAN/UPC code. A label such a
 Model requires checking what that publisher uses it to identify.
 
 Match each identifier to the product, generation, mount, and sales configuration. Use
-accepted retailer evidence only within the corroboration limits of the research rules.
+accepted retailer evidence only within the supplemental-evidence rules in
+[Research results](../../../../docs/en/research.md#record-sources).
 When a model number is unestablished, use `null` in the applicable model-number field;
 do not copy the product name as a substitute. If an existing identifier is questionable,
 recheck its recorded evidence and report the ambiguity rather than guessing a replacement.

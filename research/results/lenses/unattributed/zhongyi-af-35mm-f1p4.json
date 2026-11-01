@@ -1,0 +1,31 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "zhongyi-af-35mm-f1p4",
+  "subject": {
+    "manufacturerId": "zhongyi-optics",
+    "brandId": null,
+    "name": "Zhongyi AF 35mm F1.4"
+  },
+  "reviewedOn": "2026-11-01",
+  "decision": {
+    "status": "needs-review"
+  },
+  "sources": [
+    {
+      "url": "https://www.ea360.com/contents/22/44392.html",
+      "publisherRelationship": "independent-publication",
+      "sourceType": "news-report",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Has the manufacturer officially announced the release or confirmed sale of the Nikon Z configuration?",
+    "Which brand name will the manufacturer use for the Nikon Z configuration?"
+  ]
+}
