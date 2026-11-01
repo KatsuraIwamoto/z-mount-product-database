@@ -6,9 +6,10 @@
     "brandId": "viltrox",
     "name": "AF 35mm F1.4 Pro"
   },
-  "reviewedOn": "2026-10-19",
+  "reviewedOn": "2026-11-01",
   "decision": {
-    "status": "needs-review"
+    "status": "included",
+    "recordId": "viltrox-af-35mm-f1p4-pro"
   },
   "sources": [
     {
@@ -72,10 +73,106 @@
       "decisionChecks": [
         "availability"
       ]
+    },
+    {
+      "url": "https://viltrox.com/products/af-35mm-f1-4-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "productType",
+        "lifecycle",
+        "mount",
+        "officialProductPages",
+        "physical.officialEnvironmentalProtectionClaims",
+        "physical.filterInterfaces",
+        "controls",
+        "electronicServices",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.coverage",
+        "lens.opticalConstruction",
+        "lens.specialElements",
+        "lens.coatings",
+        "lens.focus",
+        "lens.specialized",
+        "mount.electronicContacts",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.externalLengthDuringFocus",
+        "lens.anglesOfView",
+        "accessories",
+        "physical.isRetractableForStorage"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_35mm_F1.4_Pro_Z-rear_view.png?v=1793000661",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "mount.electronicContacts"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_35mm_F1.4_Pro_Z-side_view.png?v=1793000661",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0104/0380/7298/files/Viltrox_AF_35mm_f1.4_CLICK.jpg?v=1793171519",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/cdn/shop/files/AF_35mm_F1.4_Pro_Z-img2.png?v=1793256755",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ]
+    },
+    {
+      "url": "https://www.bhphotovideo.com/c/product/2007805-REG/viltrox_af_35_1_4_z_af_35mm_f_1_4_pro.html",
+      "publisherRelationship": "retailer",
+      "sourceType": "retailer-listing",
+      "checked": [
+        "controls",
+        "lens.stabilization"
+      ]
+    },
+    {
+      "url": "https://viltrox.com/blogs/lens-insights/viltrox-black-friday-2026-lens-and-flash-buying-guide",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "lifecycle"
+      ],
+      "note": "The official guide dates the AF 35mm F1.4 Pro release to October 29, 2026 and lists FE/Z together under New October 29."
+    },
+    {
+      "url": "https://globalpr.agency/press-room/viltrox/press-releases/article/viltrox-launches-af-35mm-f14-pro-fe-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "lifecycle"
+      ],
+      "note": "Viltrox press release distributed by GlobalPR, dated October 29, 2026, announces the FE/Z lens."
     }
   ],
   "unresolved": [
-    "Has Viltrox officially announced the release of or begun selling a Nikon Z configuration of this product?",
-    "Can accepted-source images of the exact released Nikon Z configuration establish its production identity and exterior controls?"
+    "Can the Nikon Z manual establish the manual-focus mechanism and any additional controls?",
+    "Can official documentation establish metadata-transmission standards for the Nikon Z version?",
+    "Can unobstructed right-side and bottom views establish whether the Nikon Z lens has a tripod mounting point or additional controls?",
+    "Has an official firmware update for the Nikon Z version been published?"
   ]
 }

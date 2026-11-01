@@ -3,13 +3,13 @@
   "datasetName": "Z Mount Lens Database",
   "datasetVariant": "full",
   "schemaVersion": "1.0.0",
-  "dataVersion": "2026.10.19",
+  "dataVersion": "2026.11.01",
   "creator": "Katsura Iwamoto",
   "license": "CC-BY-4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
-  "recordCount": 613,
-  "contentHash": "sha256:a834bb11d9ede93ba6ea6e37cd3e59392ca4b532a992a119201efa2b221b3b35",
+  "recordCount": 615,
+  "contentHash": "sha256:5a85728244fa0546254f1778f8a4f09ab758f7a7a7f6d166b6e2b3ebcc70dd1a",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -64744,6 +64744,674 @@
       }
     },
     {
+      "id": "nikkor-z-120-to-300mm-f2p8-tc-vr-s",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "nikon",
+        "brandId": "nikkor",
+        "productName": "NIKKOR Z 120-300mm f/2.8 TC VR S",
+        "modelNumberOptions": null,
+        "alternateNames": null,
+        "variants": null
+      },
+      "lifecycle": {
+        "announcementDate": "2026-10-29",
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://imaging.nikon.com/imaging/lineup/lens/z-mount/z_120-300mmf28_tc_vr_s/",
+          "pageFamilies": [
+            "global"
+          ],
+          "region": null,
+          "language": "en",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "Nikon"
+          }
+        },
+        {
+          "url": "https://nij.nikon.com/products/lineup/nikkor/zmount/nikkor_z_120-300mm_f28_tc_vr_s/",
+          "pageFamilies": [
+            "nikon-imaging-japan"
+          ],
+          "region": "JP",
+          "language": "ja",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "Nikon"
+          }
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": "mount-owner",
+        "electronicContacts": {
+          "present": true,
+          "metadataTransmission": {
+            "present": true,
+            "standards": [
+              "exif"
+            ]
+          }
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 128,
+            "lengthMm": 353.5,
+            "approximate": true,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 2735,
+            "approximate": true,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "dust-resistant",
+              "drip-resistant"
+            ],
+            "scope": {
+              "kind": "product"
+            },
+            "conditions": {}
+          }
+        ],
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 112,
+            "host": {
+              "kind": "product"
+            }
+          },
+          {
+            "type": "drop-in",
+            "filterDiameterMm": 46,
+            "host": {
+              "kind": "product"
+            }
+          }
+        ],
+        "tripodSupport": {
+          "present": true,
+          "components": [
+            {
+              "type": "collar-assembly",
+              "relationship": null,
+              "removable": null,
+              "interfaces": [
+                {
+                  "type": "arca-compatible"
+                }
+              ],
+              "modelNumberOptions": null,
+              "quantity": 1,
+              "conditions": {}
+            }
+          ]
+        },
+        "externalLengthDuringFocus": "constant",
+        "isRetractableForStorage": false,
+        "externalLengthDuringZoom": "constant"
+      },
+      "controls": [
+        {
+          "type": "function-ring",
+          "quantity": 1,
+          "officialName": "Fn ring"
+        },
+        {
+          "type": "zoom-ring",
+          "quantity": 1
+        },
+        {
+          "type": "control-ring",
+          "quantity": 1
+        },
+        {
+          "type": "function-button",
+          "quantity": 4
+        },
+        {
+          "type": "function-button",
+          "quantity": 1,
+          "officialName": "L-Fn button"
+        },
+        {
+          "type": "focus-mode-switch",
+          "quantity": 1
+        },
+        {
+          "type": "focus-limiter",
+          "quantity": 1
+        },
+        {
+          "type": "other",
+          "quantity": 1,
+          "officialName": "Teleconverter switch"
+        },
+        {
+          "type": "other",
+          "quantity": 1,
+          "officialName": "Teleconverter switch lock"
+        },
+        {
+          "type": "memory-set-button",
+          "quantity": 1,
+          "officialName": "Memory set button"
+        }
+      ],
+      "accessories": {
+        "lensHoods": [
+          {
+            "relationship": "supplied",
+            "modelNumberOptions": [
+              "HB-120"
+            ],
+            "quantity": 1
+          }
+        ],
+        "frontCaps": [
+          {
+            "relationship": "supplied",
+            "modelNumberOptions": [
+              "LC-112B"
+            ],
+            "quantity": 1
+          }
+        ],
+        "rearCaps": [
+          {
+            "relationship": "supplied",
+            "modelNumberOptions": [
+              "LF-N1"
+            ],
+            "quantity": 1
+          }
+        ],
+        "lensCases": [
+          {
+            "construction": "soft-case",
+            "relationship": "supplied",
+            "modelNumberOptions": [
+              "CL-L3"
+            ],
+            "quantity": 1
+          }
+        ],
+        "lensStraps": [
+          {
+            "relationship": "supplied",
+            "modelNumberOptions": [
+              "LN-4"
+            ],
+            "quantity": 1
+          }
+        ],
+        "protectiveWraps": null
+      },
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": null,
+        "connections": null
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "zoom",
+          "rangeMm": {
+            "minimum": 120,
+            "maximum": 300
+          }
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 2.8,
+                "conditions": {}
+              }
+            ],
+            "minimumAperture": [
+              {
+                "value": 22,
+                "conditions": {}
+              }
+            ],
+            "effective": null
+          },
+          "diaphragm": {
+            "present": true,
+            "bladeCount": 9,
+            "bladeShape": "rounded"
+          },
+          "controlMechanism": "electronic"
+        },
+        "anglesOfView": [
+          {
+            "format": "full-frame",
+            "orientation": "diagonal",
+            "degrees": 20.333333,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 120
+              }
+            }
+          },
+          {
+            "format": "full-frame",
+            "orientation": "diagonal",
+            "degrees": 8.166667,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 300
+              }
+            }
+          },
+          {
+            "format": "aps-c",
+            "orientation": "diagonal",
+            "degrees": 13.333333,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 120
+              }
+            }
+          },
+          {
+            "format": "aps-c",
+            "orientation": "diagonal",
+            "degrees": 5.333333,
+            "conditions": {
+              "focalLength": {
+                "kind": "point",
+                "millimeters": 300
+              }
+            }
+          }
+        ],
+        "coverage": {
+          "format": "full-frame"
+        },
+        "opticalConstruction": {
+          "groups": 24,
+          "elements": 30
+        },
+        "specialElements": [
+          {
+            "types": [
+              "low-dispersion"
+            ],
+            "officialName": "ED glass",
+            "quantity": 1
+          },
+          {
+            "types": [
+              "low-dispersion"
+            ],
+            "officialName": "Super ED glass",
+            "quantity": 1
+          },
+          {
+            "types": [
+              "aspherical"
+            ],
+            "quantity": 1
+          },
+          {
+            "types": [
+              "fluorite"
+            ],
+            "officialName": "Fluorite lens",
+            "quantity": 1
+          },
+          {
+            "types": [
+              "other"
+            ],
+            "officialName": "SR lens",
+            "quantity": 1
+          }
+        ],
+        "coatings": [
+          {
+            "types": [
+              "anti-reflective"
+            ],
+            "officialName": "Meso Amorphous Coat",
+            "appliedTo": null
+          },
+          {
+            "types": [
+              "anti-reflective"
+            ],
+            "officialName": "ARNEO Coat",
+            "appliedTo": null
+          },
+          {
+            "types": [
+              "surface-protective"
+            ],
+            "officialName": "Fluorine coat",
+            "appliedTo": [
+              "front-element"
+            ]
+          },
+          {
+            "types": [
+              "anti-reflective"
+            ],
+            "officialName": "Nikon Super Integrated Coating",
+            "appliedTo": null
+          }
+        ],
+        "focus": {
+          "autofocus": {
+            "present": true,
+            "motors": [
+              {
+                "type": "voice-coil-motor",
+                "officialName": "Silky Swift VCM",
+                "quantity": null
+              }
+            ]
+          },
+          "manualFocus": {
+            "present": true,
+            "mechanism": "electronic-by-wire"
+          },
+          "opticalFocusingSystems": [
+            {
+              "type": "internal-focusing",
+              "officialName": "IF"
+            },
+            {
+              "type": "multiple-group-focusing"
+            }
+          ],
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.98,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 120
+                }
+              }
+            },
+            {
+              "distanceM": 0.99,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 135
+                }
+              }
+            },
+            {
+              "distanceM": 1.03,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 150
+                }
+              }
+            },
+            {
+              "distanceM": 1.21,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 180
+                }
+              }
+            },
+            {
+              "distanceM": 1.38,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 200
+                }
+              }
+            },
+            {
+              "distanceM": 1.8,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 250
+                }
+              }
+            },
+            {
+              "distanceM": 2,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 300
+                }
+              }
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.18,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 150
+                }
+              }
+            }
+          ],
+          "officialFocusBehaviorClaims": null
+        },
+        "stabilization": {
+          "present": true,
+          "ratings": [
+            {
+              "stops": 6.5,
+              "conditions": {
+                "focalLength": {
+                  "kind": "point",
+                  "millimeters": 300
+                },
+                "cameraBodyModel": "Nikon Z6III",
+                "configuration": "lens-and-body",
+                "standard": "CIPA",
+                "standardVersion": "2024",
+                "mode": "NORMAL",
+                "measurementAxes": 3,
+                "evaluationPosition": "center-and-peripheral"
+              }
+            }
+          ]
+        },
+        "specialized": {
+          "builtInTeleconverter": {
+            "magnification": 1.4,
+            "unitOpticalConstruction": {
+              "groups": 5,
+              "elements": 8
+            },
+            "engagedSpecifications": {
+              "focalLength": {
+                "kind": "zoom",
+                "rangeMm": {
+                  "minimum": 168,
+                  "maximum": 420
+                }
+              },
+              "anglesOfView": [
+                {
+                  "format": "full-frame",
+                  "orientation": "diagonal",
+                  "degrees": 14.666667,
+                  "conditions": {
+                    "focalLength": {
+                      "kind": "point",
+                      "millimeters": 168
+                    }
+                  }
+                },
+                {
+                  "format": "full-frame",
+                  "orientation": "diagonal",
+                  "degrees": 5.833333,
+                  "conditions": {
+                    "focalLength": {
+                      "kind": "point",
+                      "millimeters": 420
+                    }
+                  }
+                },
+                {
+                  "format": "aps-c",
+                  "orientation": "diagonal",
+                  "degrees": 9.666667,
+                  "conditions": {
+                    "focalLength": {
+                      "kind": "point",
+                      "millimeters": 168
+                    }
+                  }
+                },
+                {
+                  "format": "aps-c",
+                  "orientation": "diagonal",
+                  "degrees": 3.833333,
+                  "conditions": {
+                    "focalLength": {
+                      "kind": "point",
+                      "millimeters": 420
+                    }
+                  }
+                }
+              ],
+              "aperture": {
+                "fNumber": {
+                  "maximumAperture": [
+                    {
+                      "value": 4,
+                      "conditions": {}
+                    }
+                  ],
+                  "minimumAperture": [
+                    {
+                      "value": 32,
+                      "conditions": {}
+                    }
+                  ],
+                  "effective": null
+                }
+              },
+              "minimumFocusDistances": [
+                {
+                  "distanceM": 0.98,
+                  "conditions": {
+                    "focalLength": {
+                      "kind": "point",
+                      "millimeters": 168
+                    }
+                  }
+                },
+                {
+                  "distanceM": 0.99,
+                  "conditions": {
+                    "focalLength": {
+                      "kind": "point",
+                      "millimeters": 189
+                    }
+                  }
+                },
+                {
+                  "distanceM": 1.03,
+                  "conditions": {
+                    "focalLength": {
+                      "kind": "point",
+                      "millimeters": 210
+                    }
+                  }
+                },
+                {
+                  "distanceM": 1.21,
+                  "conditions": {
+                    "focalLength": {
+                      "kind": "point",
+                      "millimeters": 252
+                    }
+                  }
+                },
+                {
+                  "distanceM": 1.38,
+                  "conditions": {
+                    "focalLength": {
+                      "kind": "point",
+                      "millimeters": 280
+                    }
+                  }
+                },
+                {
+                  "distanceM": 1.8,
+                  "conditions": {
+                    "focalLength": {
+                      "kind": "point",
+                      "millimeters": 350
+                    }
+                  }
+                },
+                {
+                  "distanceM": 2,
+                  "conditions": {
+                    "focalLength": {
+                      "kind": "point",
+                      "millimeters": 420
+                    }
+                  }
+                }
+              ],
+              "reproductionMagnifications": [
+                {
+                  "kind": "maximum",
+                  "value": 0.25,
+                  "conditions": {
+                    "focalLength": {
+                      "kind": "point",
+                      "millimeters": 210
+                    }
+                  }
+                }
+              ],
+              "stabilizationRatings": null
+            }
+          }
+        },
+        "zoom": {
+          "drive": "manual",
+          "opticalZoomingSystems": [
+            {
+              "type": "internal-zooming"
+            }
+          ]
+        }
+      }
+    },
+    {
       "id": "nikkor-z-135mm-f1p8-s-plena",
       "productType": "lens",
       "identity": {
@@ -108831,7 +109499,26 @@
         "productName": "TTArtisan AF 50mm F1.8 Neo",
         "modelNumberOptions": null,
         "alternateNames": null,
-        "variants": null
+        "variants": [
+          {
+            "variantId": "black",
+            "name": "Black",
+            "modelNumberOptions": null,
+            "color": "Black"
+          },
+          {
+            "variantId": "green",
+            "name": "Green",
+            "modelNumberOptions": null,
+            "color": "Green"
+          },
+          {
+            "variantId": "titanium",
+            "name": "Titanium",
+            "modelNumberOptions": null,
+            "color": "Titanium"
+          }
+        ]
       },
       "lifecycle": {
         "announcementDate": null,
@@ -114061,6 +114748,293 @@
             }
           ],
           "officialFocusBehaviorClaims": []
+        },
+        "stabilization": {
+          "present": false
+        },
+        "specialized": {}
+      }
+    },
+    {
+      "id": "viltrox-af-35mm-f1p4-pro",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "viltrox",
+        "brandId": "viltrox",
+        "productName": "AF 35mm F1.4 Pro",
+        "modelNumberOptions": null,
+        "alternateNames": null,
+        "variants": null
+      },
+      "lifecycle": {
+        "announcementDate": "2026-10-29",
+        "officialDesignations": []
+      },
+      "officialProductPages": [
+        {
+          "url": "https://viltrox.com/products/af-35mm-f1-4-z",
+          "pageFamilies": [
+            "global"
+          ],
+          "region": null,
+          "language": "en",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "Viltrox"
+          }
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": null,
+        "electronicContacts": {
+          "present": true,
+          "metadataTransmission": null
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 84.5,
+            "lengthMm": 112.5,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 780,
+            "approximate": true,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "officialEnvironmentalProtectionClaims": [
+          {
+            "types": [
+              "dust-resistant",
+              "splash-resistant",
+              "moisture-resistant",
+              "weather-resistant"
+            ],
+            "scope": {
+              "kind": "product"
+            },
+            "conditions": {}
+          },
+          {
+            "types": [
+              "other"
+            ],
+            "scope": {
+              "kind": "component",
+              "component": "front element"
+            },
+            "conditions": {}
+          }
+        ],
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 77,
+            "host": {
+              "kind": "product"
+            }
+          }
+        ],
+        "tripodSupport": null,
+        "externalLengthDuringFocus": "constant",
+        "isRetractableForStorage": false
+      },
+      "controls": [
+        {
+          "type": "function-button",
+          "quantity": 1,
+          "officialName": "Fn button"
+        },
+        {
+          "type": "aperture-ring-click-switch",
+          "quantity": 1,
+          "officialName": "CLICK switch"
+        },
+        {
+          "type": "focus-mode-switch",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "clickBehavior": "switchable"
+        },
+        {
+          "type": "focus-ring",
+          "quantity": 1,
+          "response": "linear"
+        }
+      ],
+      "accessories": {
+        "lensHoods": [
+          {
+            "relationship": "supplied",
+            "modelNumberOptions": [
+              "PL-68A"
+            ],
+            "quantity": 1
+          }
+        ],
+        "frontCaps": [
+          {
+            "relationship": "supplied",
+            "modelNumberOptions": null,
+            "quantity": 1
+          }
+        ],
+        "rearCaps": [
+          {
+            "relationship": "supplied",
+            "modelNumberOptions": null,
+            "quantity": 1
+          }
+        ],
+        "lensCases": [
+          {
+            "construction": "soft-case",
+            "relationship": "supplied",
+            "modelNumberOptions": null,
+            "quantity": 1
+          }
+        ],
+        "lensStraps": null,
+        "protectiveWraps": null
+      },
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": null,
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "usb-c",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 35
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 1.4,
+                "conditions": {}
+              }
+            ],
+            "minimumAperture": [
+              {
+                "value": 16,
+                "conditions": {}
+              }
+            ],
+            "effective": null
+          },
+          "diaphragm": {
+            "present": true,
+            "bladeCount": 11,
+            "bladeShape": null
+          },
+          "controlMechanism": null
+        },
+        "anglesOfView": [
+          {
+            "format": "full-frame",
+            "orientation": null,
+            "degrees": 62.6,
+            "conditions": {}
+          }
+        ],
+        "coverage": {
+          "format": "full-frame"
+        },
+        "opticalConstruction": {
+          "groups": 11,
+          "elements": 16
+        },
+        "specialElements": [
+          {
+            "types": [
+              "aspherical"
+            ],
+            "officialName": "UA",
+            "quantity": 2
+          },
+          {
+            "types": [
+              "low-dispersion"
+            ],
+            "quantity": 3,
+            "officialName": "ED"
+          },
+          {
+            "types": [
+              "high-refractive-index"
+            ],
+            "quantity": 4,
+            "officialName": "HR"
+          }
+        ],
+        "coatings": [
+          {
+            "types": [
+              "surface-protective"
+            ],
+            "appliedTo": [
+              "front-element"
+            ]
+          }
+        ],
+        "focus": {
+          "autofocus": {
+            "present": true,
+            "motors": [
+              {
+                "type": "voice-coil-motor",
+                "officialName": "HyperVCM",
+                "quantity": 2
+              }
+            ]
+          },
+          "manualFocus": {
+            "present": true,
+            "mechanism": null
+          },
+          "opticalFocusingSystems": [
+            {
+              "type": "internal-focusing"
+            }
+          ],
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.3,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.18,
+              "conditions": {}
+            }
+          ],
+          "officialFocusBehaviorClaims": [
+            {
+              "type": "focus-breathing-suppressed",
+              "conditions": {}
+            }
+          ]
         },
         "stabilization": {
           "present": false

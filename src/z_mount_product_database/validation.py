@@ -149,14 +149,8 @@ ADAPTER_RESEARCH_COVERAGE_PATHS = (
     "physical.officialEnvironmentalProtectionClaims",
     "physical.tripodSupport",
 )
-AUTHORIZED_RETAILER_COVERAGE_PATHS = frozenset(
-    {
-        "identity.modelNumberOptions",
-        "mount",
-        "mount.adapter",
-        "mountConfigurations",
-    }
-)
+# Editorial eligibility and source priority are defined in docs/ja/research.md.
+MAJOR_RETAILER_HOSTS = frozenset({"bhphotovideo.com", "www.bhphotovideo.com"})
 AUTHORIZED_RETAILER_IMAGE_COVERAGE_PATHS = frozenset(
     {
         "accessories",
@@ -165,6 +159,7 @@ AUTHORIZED_RETAILER_IMAGE_COVERAGE_PATHS = frozenset(
         "electronics",
         "identity",
         "identity.alternateNames",
+        "identity.modelNumberOptions",
         "identity.variants",
         "lens.aperture",
         "lens.focalLength",
@@ -173,7 +168,10 @@ AUTHORIZED_RETAILER_IMAGE_COVERAGE_PATHS = frozenset(
         "lens.stabilization",
         "lens.zoom",
         "mechanisms",
+        "mount",
+        "mount.adapter",
         "mount.electronicContacts",
+        "mountConfigurations",
         "physical.externalLengthDuringFocus",
         "physical.externalLengthDuringZoom",
         "physical.filterInterfaces",
@@ -1055,11 +1053,17 @@ def _accepted_checked_paths(source: Any) -> set[str]:
         return paths
     if relationship == "crowdfunding-platform":
         return paths - {"officialProductPages"}
-    if relationship == "authorized-retailer":
-        allowed_paths = AUTHORIZED_RETAILER_COVERAGE_PATHS
+    url = source.get("url")
+    is_major_retailer = False
+    if relationship == "retailer" and isinstance(url, str):
+        try:
+            is_major_retailer = urlsplit(url).hostname in MAJOR_RETAILER_HOSTS
+        except ValueError:
+            return set()
+    if relationship == "authorized-retailer" or is_major_retailer:
         if source.get("sourceType") == "image":
-            allowed_paths |= AUTHORIZED_RETAILER_IMAGE_COVERAGE_PATHS
-        return paths & allowed_paths
+            return paths & AUTHORIZED_RETAILER_IMAGE_COVERAGE_PATHS
+        return paths - {"officialProductPages"}
     return set()
 
 

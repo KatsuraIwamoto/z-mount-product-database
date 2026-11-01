@@ -8,7 +8,26 @@
     "productName": "TTArtisan AF 50mm F1.8 Neo",
     "modelNumberOptions": null,
     "alternateNames": null,
-    "variants": null
+    "variants": [
+      {
+        "variantId": "black",
+        "name": "Black",
+        "modelNumberOptions": null,
+        "color": "Black"
+      },
+      {
+        "variantId": "green",
+        "name": "Green",
+        "modelNumberOptions": null,
+        "color": "Green"
+      },
+      {
+        "variantId": "titanium",
+        "name": "Titanium",
+        "modelNumberOptions": null,
+        "color": "Titanium"
+      }
+    ]
   },
   "lifecycle": {
     "announcementDate": null,
