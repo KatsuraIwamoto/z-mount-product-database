@@ -149,13 +149,30 @@
         "controls",
         "lens.stabilization"
       ]
+    },
+    {
+      "url": "https://viltrox.com/blogs/lens-insights/viltrox-black-friday-2026-lens-and-flash-buying-guide",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "lifecycle"
+      ],
+      "note": "The official guide dates the AF 35mm F1.4 Pro release to October 29, 2026 and lists FE/Z together under New October 29."
+    },
+    {
+      "url": "https://globalpr.agency/press-room/viltrox/press-releases/article/viltrox-launches-af-35mm-f14-pro-fe-z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "lifecycle"
+      ],
+      "note": "Viltrox press release distributed by GlobalPR, dated October 29, 2026, announces the FE/Z lens."
     }
   ],
   "unresolved": [
     "Can the Nikon Z manual establish the manual-focus mechanism and any additional controls?",
     "Can official documentation establish metadata-transmission standards for the Nikon Z version?",
     "Can unobstructed right-side and bottom views establish whether the Nikon Z lens has a tripod mounting point or additional controls?",
-    "Has an official firmware update for the Nikon Z version been published?",
-    "What is the official announcement date for the Nikon Z version?"
+    "Has an official firmware update for the Nikon Z version been published?"
   ]
 }
