@@ -7,7 +7,12 @@
     "brandId": "laowa",
     "productName": "FFⅡ TS 24mm F2 C-Dreamer",
     "modelNumberOptions": null,
-    "alternateNames": null,
+    "alternateNames": [
+      {
+        "name": "24mm f/2 Zero-D Tilt-Shift",
+        "language": "en"
+      }
+    ],
     "variants": null
   },
   "lifecycle": {
@@ -26,6 +31,18 @@
         "type": "manufacturer-or-brand",
         "name": "Laowa"
       }
+    },
+    {
+      "url": "https://www.venuslens.net/product/laowa-24mm-f2-zero-d-tilt-shift/",
+      "pageFamilies": [
+        "global"
+      ],
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Laowa"
+      },
+      "region": null
     }
   ],
   "mount": {
@@ -160,7 +177,7 @@
       {
         "format": "full-frame",
         "orientation": null,
-        "degrees": 108.8,
+        "degrees": 84,
         "conditions": {}
       }
     ],

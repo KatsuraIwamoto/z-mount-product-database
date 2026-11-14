@@ -3,13 +3,13 @@
   "datasetName": "Z Mount Lens Database",
   "datasetVariant": "light",
   "schemaVersion": "1.0.0",
-  "dataVersion": "2026.11.01",
+  "dataVersion": "2026.11.14",
   "creator": "Katsura Iwamoto",
   "license": "CC-BY-4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
-  "recordCount": 615,
-  "contentHash": "sha256:36f5dfa0a9b74e3a62e0bdb6ca78c2f5696d4f90f5e3a5e0c7e4909aa5f57a37",
+  "recordCount": 618,
+  "contentHash": "sha256:11138cfea1d27fd578f456ca74144720525594accca3ddd2128e62697068920f",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -21028,6 +21028,9 @@
       "officialProductPages": [
         {
           "url": "https://www.laowalens.com.cn/camera-lens-101"
+        },
+        {
+          "url": "https://www.venuslens.net/product/laowa-24mm-f2-zero-d-tilt-shift/"
         }
       ],
       "mount": {
@@ -28223,6 +28226,92 @@
       }
     },
     {
+      "id": "meike-af-35mm-f1-7-air",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "meike",
+        "brandId": "meike",
+        "productName": "AF 35mm F1.7 Air"
+      },
+      "lifecycle": {
+        "announcementDate": null,
+        "officialDesignations": null
+      },
+      "officialProductPages": [
+        {
+          "url": "https://meikeglobal.com/collections/new-release/products/3517z"
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": null,
+        "electronicContacts": {
+          "present": true,
+          "metadataTransmission": null
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 66.5,
+            "lengthMm": 59.2,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 185,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 52
+          }
+        ]
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 35
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 1.7,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        "coverage": {
+          "format": "aps-c"
+        },
+        "focus": {
+          "autofocus": {
+            "present": true
+          },
+          "manualFocus": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.35,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": null
+        },
+        "stabilization": {
+          "present": false
+        },
+        "specialized": {}
+      }
+    },
+    {
       "id": "meike-af-35mm-f1-8-pro",
       "productType": "lens",
       "identity": {
@@ -28736,6 +28825,98 @@
           "minimumFocusDistances": [
             {
               "distanceM": 0.55,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": null
+        },
+        "stabilization": {
+          "present": false
+        },
+        "specialized": {}
+      }
+    },
+    {
+      "id": "meike-af-58mm-f1-2-mix",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "meike",
+        "brandId": "meike",
+        "productName": "AF 58mm F1.2 APS-C MIX"
+      },
+      "lifecycle": {
+        "announcementDate": null,
+        "officialDesignations": null
+      },
+      "officialProductPages": [
+        {
+          "url": "https://meikeglobal.com/collections/new-release/products/5812z"
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": null,
+        "electronicContacts": {
+          "present": true,
+          "metadataTransmission": {
+            "present": true,
+            "standards": [
+              "exif"
+            ]
+          }
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 76,
+            "lengthMm": 90,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 455,
+            "approximate": true,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 62
+          }
+        ]
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 58
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 1.2,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        "coverage": {
+          "format": "aps-c"
+        },
+        "focus": {
+          "autofocus": {
+            "present": true
+          },
+          "manualFocus": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.62,
               "conditions": {}
             }
           ],
@@ -53591,6 +53772,105 @@
                   "millimeters": 28
                 }
               }
+            }
+          ]
+        },
+        "stabilization": {
+          "present": false
+        },
+        "specialized": {}
+      }
+    },
+    {
+      "id": "voigtlander-nokton-35mm-f1p2-aspherical",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "cosina",
+        "brandId": "voigtlander",
+        "productName": "NOKTON 35mm F1.2 Aspherical"
+      },
+      "lifecycle": {
+        "announcementDate": "2026-11-13",
+        "officialDesignations": null
+      },
+      "officialProductPages": [
+        {
+          "url": "https://www.cosina.co.jp/voigtlander/z-mount/nokton-35mm-f1-2-aspherical/"
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": "officially-licensed",
+        "electronicContacts": {
+          "present": true,
+          "metadataTransmission": {
+            "present": true,
+            "standards": [
+              "exif"
+            ]
+          }
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 67.6,
+            "lengthMm": 62.4,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 390,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 58
+          }
+        ]
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 35
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 1.2,
+                "conditions": {}
+              }
+            ]
+          }
+        },
+        "coverage": {
+          "format": "full-frame"
+        },
+        "focus": {
+          "autofocus": {
+            "present": false
+          },
+          "manualFocus": {
+            "present": true
+          },
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.3,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.172414,
+              "conditions": {}
             }
           ]
         },

@@ -1,0 +1,121 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "meike-af-58mm-f1-2-mix",
+  "subject": {
+    "manufacturerId": "meike",
+    "brandId": "meike",
+    "name": "AF 58mm F1.2 APS-C MIX"
+  },
+  "reviewedOn": "2026-11-14",
+  "decision": {
+    "status": "included",
+    "recordId": "meike-af-58mm-f1-2-mix"
+  },
+  "sources": [
+    {
+      "url": "https://meikeglobal.com/collections/new-release/products/5812z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "lens.focalLength",
+        "lens.coverage",
+        "lens.focus",
+        "controls",
+        "lens.stabilization",
+        "identity.variants"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ],
+      "note": "The Nikon Z product page offers Black and Silver color options. It does not explicitly state whether optical image stabilization is present."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/5812Detail-13.png?v=1793085961",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ],
+      "note": "The APS-C row is labelled Horizontal / Vertical / Diagonal and lists 27.2, 22.7 and 15.3 degrees in that order."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/5812Detail-6.png?v=1793085963",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/5812Detail-8.png?v=1793085965",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/5812Detail-12.png?v=1793085964",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "electronicServices",
+        "mount.electronicContacts",
+        "physical.filterInterfaces"
+      ],
+      "note": "The feature graphic advertises USB-C firmware updating and Exif transmission; its rear-mount photograph is labelled E-mount."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/5812Detail-11.png?v=1793085966",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ],
+      "note": "The Nikon Z product page presents this feature graphic describing an AF/MF switch, customizable Fn button, click/declick aperture ring and switch, and aperture-ring lock. Its illustrative camera is Sony."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/5812Detail-5.png?v=1793085966",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements"
+      ],
+      "note": "The graphic describes APO-level chromatic aberration correction without identifying glass types or quantities."
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/files/5812-2.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ],
+      "note": "The product photograph published on the Nikon Z product page shows a wide grooved front ring separate from the marked aperture ring and CLICK switch."
+    }
+  ],
+  "unresolved": [
+    "What is the correct orientation mapping for the three APS-C angles? The table labels horizontal, vertical and diagonal above 27.2, 22.7 and 15.3 degrees respectively.",
+    "Do the shared dimensions apply to Nikon Z with the same measurement conditions?",
+    "Can Nikon Z operating documentation establish the manual-focus mechanism, and can front, rear, both sides and underside views complete the control inventory and establish tripod support and storage construction?",
+    "What are the announcement date, model numbers, included accessories, special glass and coatings, maximum reproduction ratio, optical focusing system, focus-related length change and environmental protection specifications?",
+    "Has a Nikon Z firmware release been published for this lens?",
+    "Can published documentation explicitly confirm the absence of optical stabilization? The canonical value is false at the dataset maintainer's explicit direction on 2026-11-14; the inspected official sources do not explicitly state its absence.",
+    "Can operating documentation explicitly identify the front ring as the focus ring and describe its operation? Its presence was visually rechecked in the official product imagery; the focus-ring classification follows the dataset maintainer's identification on 2026-11-14.",
+    "Can an accessible, eligible Nikon Z dealer listing resolve the focusing-distance and angle-orientation discrepancies and document the package contents? On 2026-11-14, https://shop.lnwgadget.com/en-th/products/meike-58mm-f1-2-mix-aps-c-autofocus-lens returned a live 404 and its authorization was not established. The B&H link in the Daily Camera News announcement leads to a search rather than an exact product page; no usable B&H product listing was verified.",
+    "Will Meike correct the 0.62 mm wording in the close-focus graphic? The canonical 0.62 m follows the explicit E/Z/X specification table; the graphic unit is assessed as a typographical error, rather than an alternative physically plausible minimum focusing distance.",
+    "Are White and Black and White finishes offered for Nikon Z? The current Z-specific official page and catalog expose Black and Silver, which are recorded; earlier four-color observations are not used to establish additional Z variants.",
+    "Can an exact-model B&H listing provide supplementary specifications? The live B&H site search on 2026-11-14 reported no exact match for this model; similar older lenses and other Air focal lengths are not treated as evidence."
+  ]
+}

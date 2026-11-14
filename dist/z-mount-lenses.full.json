@@ -3,13 +3,13 @@
   "datasetName": "Z Mount Lens Database",
   "datasetVariant": "full",
   "schemaVersion": "1.0.0",
-  "dataVersion": "2026.11.01",
+  "dataVersion": "2026.11.14",
   "creator": "Katsura Iwamoto",
   "license": "CC-BY-4.0",
   "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
   "repositoryUrl": "https://github.com/KatsuraIwamoto/z-mount-product-database",
-  "recordCount": 615,
-  "contentHash": "sha256:5a85728244fa0546254f1778f8a4f09ab758f7a7a7f6d166b6e2b3ebcc70dd1a",
+  "recordCount": 618,
+  "contentHash": "sha256:57594366cb6536895ad4635b637b404024a2d6e4a8ed5391da061711504e2c1a",
   "referenceData": {
     "manufacturers": {
       "7artisans": {
@@ -43732,7 +43732,12 @@
         "brandId": "laowa",
         "productName": "FFⅡ TS 24mm F2 C-Dreamer",
         "modelNumberOptions": null,
-        "alternateNames": null,
+        "alternateNames": [
+          {
+            "name": "24mm f/2 Zero-D Tilt-Shift",
+            "language": "en"
+          }
+        ],
         "variants": null
       },
       "lifecycle": {
@@ -43751,6 +43756,18 @@
             "type": "manufacturer-or-brand",
             "name": "Laowa"
           }
+        },
+        {
+          "url": "https://www.venuslens.net/product/laowa-24mm-f2-zero-d-tilt-shift/",
+          "pageFamilies": [
+            "global"
+          ],
+          "language": "en",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "Laowa"
+          },
+          "region": null
         }
       ],
       "mount": {
@@ -43885,7 +43902,7 @@
           {
             "format": "full-frame",
             "orientation": null,
-            "degrees": 108.8,
+            "degrees": 84,
             "conditions": {}
           }
         ],
@@ -58714,6 +58731,181 @@
       }
     },
     {
+      "id": "meike-af-35mm-f1-7-air",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "meike",
+        "brandId": "meike",
+        "productName": "AF 35mm F1.7 Air",
+        "modelNumberOptions": null,
+        "alternateNames": null,
+        "variants": [
+          {
+            "variantId": "black",
+            "name": "Black",
+            "color": "Black",
+            "modelNumberOptions": null
+          },
+          {
+            "variantId": "white",
+            "name": "White",
+            "color": "White",
+            "modelNumberOptions": null
+          }
+        ]
+      },
+      "lifecycle": {
+        "announcementDate": null,
+        "officialDesignations": null
+      },
+      "officialProductPages": [
+        {
+          "url": "https://meikeglobal.com/collections/new-release/products/3517z",
+          "pageFamilies": [
+            "global"
+          ],
+          "region": null,
+          "language": "en",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "Meike"
+          }
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": null,
+        "electronicContacts": {
+          "present": true,
+          "metadataTransmission": null
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 66.5,
+            "lengthMm": 59.2,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 185,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "officialEnvironmentalProtectionClaims": null,
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 52,
+            "host": {
+              "kind": "product"
+            }
+          }
+        ],
+        "tripodSupport": null,
+        "externalLengthDuringFocus": null,
+        "isRetractableForStorage": null
+      },
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1
+        },
+        {
+          "type": "focus-mode-switch",
+          "quantity": 1
+        }
+      ],
+      "accessories": null,
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": true,
+        "connections": null
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 35
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 1.7,
+                "conditions": {}
+              }
+            ],
+            "minimumAperture": [
+              {
+                "value": 16,
+                "conditions": {}
+              }
+            ],
+            "effective": null
+          },
+          "diaphragm": {
+            "present": true,
+            "bladeCount": 9,
+            "bladeShape": null
+          },
+          "controlMechanism": null
+        },
+        "anglesOfView": [
+          {
+            "format": "aps-c",
+            "orientation": "diagonal",
+            "degrees": 44.6,
+            "conditions": {}
+          },
+          {
+            "format": "aps-c",
+            "orientation": "horizontal",
+            "degrees": 37.2,
+            "conditions": {}
+          },
+          {
+            "format": "aps-c",
+            "orientation": "vertical",
+            "degrees": 24.9,
+            "conditions": {}
+          }
+        ],
+        "coverage": {
+          "format": "aps-c"
+        },
+        "opticalConstruction": {
+          "groups": 10,
+          "elements": 12
+        },
+        "specialElements": null,
+        "coatings": null,
+        "focus": {
+          "autofocus": {
+            "present": true,
+            "motors": null
+          },
+          "manualFocus": null,
+          "opticalFocusingSystems": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.35,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": null,
+          "officialFocusBehaviorClaims": null
+        },
+        "stabilization": {
+          "present": false
+        },
+        "specialized": {}
+      }
+    },
+    {
       "id": "meike-af-35mm-f1-8-pro",
       "productType": "lens",
       "identity": {
@@ -59905,6 +60097,199 @@
           ],
           "reproductionMagnifications": null,
           "officialFocusBehaviorClaims": []
+        },
+        "stabilization": {
+          "present": false
+        },
+        "specialized": {}
+      }
+    },
+    {
+      "id": "meike-af-58mm-f1-2-mix",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "meike",
+        "brandId": "meike",
+        "productName": "AF 58mm F1.2 APS-C MIX",
+        "modelNumberOptions": null,
+        "alternateNames": null,
+        "variants": [
+          {
+            "variantId": "black",
+            "name": "Black",
+            "color": "Black",
+            "modelNumberOptions": null
+          },
+          {
+            "variantId": "silver",
+            "name": "Silver",
+            "color": "Silver",
+            "modelNumberOptions": null
+          }
+        ]
+      },
+      "lifecycle": {
+        "announcementDate": null,
+        "officialDesignations": null
+      },
+      "officialProductPages": [
+        {
+          "url": "https://meikeglobal.com/collections/new-release/products/5812z",
+          "pageFamilies": [
+            "global"
+          ],
+          "region": null,
+          "language": "en",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "Meike"
+          }
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": null,
+        "electronicContacts": {
+          "present": true,
+          "metadataTransmission": {
+            "present": true,
+            "standards": [
+              "exif"
+            ]
+          }
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 76,
+            "lengthMm": 90,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 455,
+            "approximate": true,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "officialEnvironmentalProtectionClaims": null,
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 62,
+            "host": {
+              "kind": "product"
+            }
+          }
+        ],
+        "tripodSupport": null,
+        "externalLengthDuringFocus": null,
+        "isRetractableForStorage": null
+      },
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1
+        },
+        {
+          "type": "focus-mode-switch",
+          "quantity": 1
+        },
+        {
+          "type": "function-button",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring-click-switch",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring-lock",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1,
+          "clickBehavior": "switchable"
+        }
+      ],
+      "accessories": null,
+      "electronicServices": {
+        "hasPublishedFirmwareUpdate": null,
+        "connections": [
+          {
+            "method": "direct-usb",
+            "connectorType": "usb-c",
+            "purposes": [
+              "firmware-update"
+            ]
+          }
+        ]
+      },
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 58
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 1.2,
+                "conditions": {}
+              }
+            ],
+            "minimumAperture": [
+              {
+                "value": 16,
+                "conditions": {}
+              }
+            ],
+            "effective": null
+          },
+          "diaphragm": {
+            "present": true,
+            "bladeCount": 11,
+            "bladeShape": null
+          },
+          "controlMechanism": null
+        },
+        "anglesOfView": null,
+        "coverage": {
+          "format": "aps-c"
+        },
+        "opticalConstruction": {
+          "groups": 10,
+          "elements": 14
+        },
+        "specialElements": null,
+        "coatings": null,
+        "focus": {
+          "autofocus": {
+            "present": true,
+            "motors": [
+              {
+                "type": "stepping-motor",
+                "quantity": null,
+                "officialName": "Hyper STM Motor"
+              }
+            ]
+          },
+          "manualFocus": null,
+          "opticalFocusingSystems": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.62,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": null,
+          "officialFocusBehaviorClaims": null
         },
         "stabilization": {
           "present": false
@@ -121763,6 +122148,195 @@
                   "millimeters": 28
                 }
               }
+            }
+          ],
+          "officialFocusBehaviorClaims": null
+        },
+        "stabilization": {
+          "present": false
+        },
+        "specialized": {}
+      }
+    },
+    {
+      "id": "voigtlander-nokton-35mm-f1p2-aspherical",
+      "productType": "lens",
+      "identity": {
+        "manufacturerId": "cosina",
+        "brandId": "voigtlander",
+        "productName": "NOKTON 35mm F1.2 Aspherical",
+        "modelNumberOptions": null,
+        "alternateNames": null,
+        "variants": null
+      },
+      "lifecycle": {
+        "announcementDate": "2026-11-13",
+        "officialDesignations": null
+      },
+      "officialProductPages": [
+        {
+          "url": "https://www.cosina.co.jp/voigtlander/z-mount/nokton-35mm-f1-2-aspherical/",
+          "pageFamilies": [
+            "home-country",
+            "japan"
+          ],
+          "region": "JP",
+          "language": "ja",
+          "publisher": {
+            "type": "manufacturer-or-brand",
+            "name": "Cosina"
+          }
+        }
+      ],
+      "mount": {
+        "systemId": "nikon-z",
+        "replaceability": "fixed",
+        "mountOwnerRelationship": "officially-licensed",
+        "electronicContacts": {
+          "present": true,
+          "metadataTransmission": {
+            "present": true,
+            "standards": [
+              "exif"
+            ]
+          }
+        }
+      },
+      "physical": {
+        "dimensionMeasurements": [
+          {
+            "maximumDiameterMm": 67.6,
+            "lengthMm": 62.4,
+            "conditions": {}
+          }
+        ],
+        "weightMeasurements": [
+          {
+            "grams": 390,
+            "conditions": {
+              "attachedComponents": []
+            }
+          }
+        ],
+        "officialEnvironmentalProtectionClaims": null,
+        "filterInterfaces": [
+          {
+            "type": "front-thread",
+            "diameterMm": 58,
+            "host": {
+              "kind": "product"
+            }
+          }
+        ],
+        "tripodSupport": null,
+        "externalLengthDuringFocus": null,
+        "isRetractableForStorage": null
+      },
+      "controls": [
+        {
+          "type": "focus-ring",
+          "quantity": 1
+        },
+        {
+          "type": "aperture-ring",
+          "quantity": 1
+        },
+        {
+          "type": "focus-distance-scale",
+          "quantity": 1
+        },
+        {
+          "type": "depth-of-field-scale",
+          "quantity": 1
+        }
+      ],
+      "accessories": {
+        "lensHoods": [
+          {
+            "relationship": "supplied",
+            "modelNumberOptions": null,
+            "quantity": 1
+          }
+        ],
+        "frontCaps": null,
+        "rearCaps": null,
+        "lensStraps": null,
+        "protectiveWraps": null,
+        "lensCases": null
+      },
+      "electronicServices": null,
+      "lens": {
+        "focalLength": {
+          "kind": "prime",
+          "millimeters": 35
+        },
+        "aperture": {
+          "fNumber": {
+            "maximumAperture": [
+              {
+                "value": 1.2,
+                "conditions": {}
+              }
+            ],
+            "minimumAperture": [
+              {
+                "value": 22,
+                "conditions": {}
+              }
+            ],
+            "effective": null
+          },
+          "diaphragm": {
+            "present": true,
+            "bladeCount": 12,
+            "bladeShape": null
+          },
+          "controlMechanism": "mechanical"
+        },
+        "anglesOfView": [
+          {
+            "format": "full-frame",
+            "orientation": null,
+            "degrees": 61.7,
+            "conditions": {}
+          }
+        ],
+        "coverage": {
+          "format": "full-frame"
+        },
+        "opticalConstruction": {
+          "groups": 7,
+          "elements": 9
+        },
+        "specialElements": [
+          {
+            "types": [
+              "aspherical"
+            ],
+            "quantity": 2
+          }
+        ],
+        "coatings": null,
+        "focus": {
+          "autofocus": {
+            "present": false
+          },
+          "manualFocus": {
+            "present": true,
+            "mechanism": "mechanical-coupled"
+          },
+          "opticalFocusingSystems": null,
+          "minimumFocusDistances": [
+            {
+              "distanceM": 0.3,
+              "conditions": {}
+            }
+          ],
+          "reproductionMagnifications": [
+            {
+              "kind": "maximum",
+              "value": 0.172414,
+              "conditions": {}
             }
           ],
           "officialFocusBehaviorClaims": null

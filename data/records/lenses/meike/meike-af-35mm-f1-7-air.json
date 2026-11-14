@@ -1,0 +1,176 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "meike-af-35mm-f1-7-air",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "meike",
+    "brandId": "meike",
+    "productName": "AF 35mm F1.7 Air",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": [
+      {
+        "variantId": "black",
+        "name": "Black",
+        "color": "Black",
+        "modelNumberOptions": null
+      },
+      {
+        "variantId": "white",
+        "name": "White",
+        "color": "White",
+        "modelNumberOptions": null
+      }
+    ]
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": null
+  },
+  "officialProductPages": [
+    {
+      "url": "https://meikeglobal.com/collections/new-release/products/3517z",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Meike"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": null
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 66.5,
+        "lengthMm": 59.2,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 185,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 52,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": null,
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": null
+  },
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    }
+  ],
+  "accessories": null,
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": true,
+    "connections": null
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 35
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 1.7,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 16,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 9,
+        "bladeShape": null
+      },
+      "controlMechanism": null
+    },
+    "anglesOfView": [
+      {
+        "format": "aps-c",
+        "orientation": "diagonal",
+        "degrees": 44.6,
+        "conditions": {}
+      },
+      {
+        "format": "aps-c",
+        "orientation": "horizontal",
+        "degrees": 37.2,
+        "conditions": {}
+      },
+      {
+        "format": "aps-c",
+        "orientation": "vertical",
+        "degrees": 24.9,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "aps-c"
+    },
+    "opticalConstruction": {
+      "groups": 10,
+      "elements": 12
+    },
+    "specialElements": null,
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": true,
+        "motors": null
+      },
+      "manualFocus": null,
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.35,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": null,
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}

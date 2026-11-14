@@ -1,0 +1,190 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "voigtlander-nokton-35mm-f1p2-aspherical",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "cosina",
+    "brandId": "voigtlander",
+    "productName": "NOKTON 35mm F1.2 Aspherical",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": null
+  },
+  "lifecycle": {
+    "announcementDate": "2026-11-13",
+    "officialDesignations": null
+  },
+  "officialProductPages": [
+    {
+      "url": "https://www.cosina.co.jp/voigtlander/z-mount/nokton-35mm-f1-2-aspherical/",
+      "pageFamilies": [
+        "home-country",
+        "japan"
+      ],
+      "region": "JP",
+      "language": "ja",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Cosina"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": "officially-licensed",
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": {
+        "present": true,
+        "standards": [
+          "exif"
+        ]
+      }
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 67.6,
+        "lengthMm": 62.4,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 390,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 58,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": null,
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": null
+  },
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-distance-scale",
+      "quantity": 1
+    },
+    {
+      "type": "depth-of-field-scale",
+      "quantity": 1
+    }
+  ],
+  "accessories": {
+    "lensHoods": [
+      {
+        "relationship": "supplied",
+        "modelNumberOptions": null,
+        "quantity": 1
+      }
+    ],
+    "frontCaps": null,
+    "rearCaps": null,
+    "lensStraps": null,
+    "protectiveWraps": null,
+    "lensCases": null
+  },
+  "electronicServices": null,
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 35
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 1.2,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 22,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 12,
+        "bladeShape": null
+      },
+      "controlMechanism": "mechanical"
+    },
+    "anglesOfView": [
+      {
+        "format": "full-frame",
+        "orientation": null,
+        "degrees": 61.7,
+        "conditions": {}
+      }
+    ],
+    "coverage": {
+      "format": "full-frame"
+    },
+    "opticalConstruction": {
+      "groups": 7,
+      "elements": 9
+    },
+    "specialElements": [
+      {
+        "types": [
+          "aspherical"
+        ],
+        "quantity": 2
+      }
+    ],
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": false
+      },
+      "manualFocus": {
+        "present": true,
+        "mechanism": "mechanical-coupled"
+      },
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.3,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": [
+        {
+          "kind": "maximum",
+          "value": 0.172414,
+          "conditions": {}
+        }
+      ],
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}
