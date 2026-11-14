@@ -1,0 +1,95 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "voigtlander-nokton-35mm-f1p2-aspherical",
+  "subject": {
+    "manufacturerId": "cosina",
+    "brandId": "voigtlander",
+    "name": "NOKTON 35mm F1.2 Aspherical"
+  },
+  "reviewedOn": "2026-11-14",
+  "decision": {
+    "status": "included",
+    "recordId": "voigtlander-nokton-35mm-f1p2-aspherical"
+  },
+  "sources": [
+    {
+      "url": "https://www.cosina.co.jp/voigtlander/z-mount/nokton-35mm-f1-2-aspherical/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "lens.focalLength",
+        "lens.coverage",
+        "lens.focus",
+        "mount.electronicContacts",
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "controls",
+        "accessories",
+        "lens.stabilization"
+      ],
+      "decisionChecks": [
+        "release-status",
+        "licensing",
+        "inclusion-criteria"
+      ],
+      "note": "The Nikon Z specification supports in-body stabilization on compatible cameras."
+    },
+    {
+      "url": "https://www.cosina.co.jp/news/%E3%83%95%E3%82%A9%E3%82%AF%E3%83%88%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BCnokton-35mm-f1-2-aspherical-e-mount-z-mount-%E7%99%BA%E5%A3%B2/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "lifecycle",
+        "mount"
+      ],
+      "note": "The announcement schedules the Nikon Z version for release in December 2026.",
+      "decisionChecks": [
+        "release-status"
+      ]
+    },
+    {
+      "url": "https://www.cosina.co.jp/wp/wp-content/uploads/2026/11/Z-35_12-web01-rthdf.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.cosina.co.jp/wp/wp-content/uploads/2026/11/Z-35_12-web02-kjiqw.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ]
+    },
+    {
+      "url": "https://www.cosina.co.jp/wp/wp-content/uploads/2026/11/J-EZ-35_12_LD-vbhgf.svg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements"
+      ]
+    }
+  ],
+  "unresolved": [
+    "Which orientation does the published 61.7-degree angle of view represent?",
+    "Can rear, opposite-side and underside views or operating documentation complete the exterior inventory and establish tripod support, retractability and focus-related length change?",
+    "What are the dimension measurement conditions, aperture-blade shape, coatings, optical focusing system, environmental protection, firmware services and supplied cap specifications?",
+    "Are any model numbers, alternate official names or finish variants published?",
+    "Can the official introduction video at https://www.youtube.com/watch?v=B6OUKzN7zs0 provide the missing exterior views? The browser remained in a pre-roll advertisement and no transcript was available during this check.",
+    "Can published documentation explicitly confirm the absence of optical stabilization? The canonical value is false at the dataset maintainer's explicit direction on 2026-11-14; the inspected official sources do not explicitly state its absence.",
+    "Can an authorized dealer provide additional Nikon Z-specific operating documentation or exterior views for the remaining questions? The exact-model listings at https://www.ginichi.com/shop/g/g50995/ and https://www.mapcamera.com/item/4530076235182 were inspected on 2026-11-14 but did not resolve these gaps. Ginichi explicitly places the click/declick aperture description under the E-mount version, so it does not establish that feature for Nikon Z.",
+    "Can a B&H listing for the new full-frame Z version establish the supplied caps and other missing specifications? The inspected listing https://www.bhphotovideo.com/c/product/1733758-REG/voigtlander_ba369b_nokton_35mm_f_1_2_lens.html identifies the older APS-C lens (230 g, 46 mm filter, eight elements in six groups); its accessory and stabilization specifications do not apply to this product."
+  ]
+}

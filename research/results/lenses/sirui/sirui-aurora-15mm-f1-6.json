@@ -4,9 +4,9 @@
   "subject": {
     "manufacturerId": "sirui",
     "brandId": "sirui",
-    "name": "SIRUI Aurora 15mm f1.6"
+    "name": "SIRUI Aurora 15mm F1.6"
   },
-  "reviewedOn": "2026-10-19",
+  "reviewedOn": "2026-11-14",
   "decision": {
     "status": "needs-review"
   },
@@ -33,11 +33,37 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://store.sirui.com/products/aurora-series-15mm-f1-6-full-frame-autofocus-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.focalLength",
+        "lens.aperture"
+      ],
+      "decisionChecks": [
+        "release-status",
+        "availability"
+      ],
+      "note": "The official product page offers E and L preorders and publishes specifications for these mounts."
+    },
+    {
+      "url": "https://store.sirui.com/cdn/shop/files/AURORA_15-1.jpg?v=1794219405&width=1500",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ],
+      "note": "The barrel inscription identifies Aurora 15mm F1.6. An IRIS LOCK switch and aperture scale with A and F16 positions are visible. This shared gallery image does not establish a Nikon Z exterior."
     }
   ],
   "unresolved": [
-    "Has SIRUI issued an official product release announcement or confirmed sale?",
-    "Has SIRUI confirmed a Nikon Z configuration?",
-    "Which official product announcement confirms the focal length and maximum aperture of this candidate? The current redirected IBC preview describes two pre-production Aurora lenses without these specifications."
+    "Has SIRUI formally released the Nikon Z configuration, beyond the future-mount preview accompanying the E/L launch?",
+    "Which accepted official release source confirms the Nikon Z version and its release schedule?",
+    "What are the Nikon Z-specific dimensions, weight conditions, controls and electronic services, and can accepted-source images establish the released Z exterior?"
   ]
 }

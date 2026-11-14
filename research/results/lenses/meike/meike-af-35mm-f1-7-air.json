@@ -1,0 +1,111 @@
+{
+  "$schema": "../../../../schemas/lenses/research-result.schema.json",
+  "id": "meike-af-35mm-f1-7-air",
+  "subject": {
+    "manufacturerId": "meike",
+    "brandId": "meike",
+    "name": "AF 35mm F1.7 Air"
+  },
+  "reviewedOn": "2026-11-14",
+  "decision": {
+    "status": "included",
+    "recordId": "meike-af-35mm-f1-7-air"
+  },
+  "sources": [
+    {
+      "url": "https://meikeglobal.com/collections/new-release/products/3517z",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "productType",
+        "identity",
+        "officialProductPages",
+        "mount",
+        "lens.focalLength",
+        "lens.coverage",
+        "lens.focus",
+        "mount.electronicContacts",
+        "lens.stabilization",
+        "controls"
+      ],
+      "decisionChecks": [
+        "availability",
+        "inclusion-criteria"
+      ],
+      "note": "The product page does not explicitly state whether optical image stabilization is present."
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/3517_11.jpg?v=1794207675",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "physical.dimensionMeasurements",
+        "physical.weightMeasurements",
+        "physical.filterInterfaces",
+        "lens.focalLength",
+        "lens.aperture",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/3517_01.jpg?v=1794207675",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "lens.coverage",
+        "lens.focus"
+      ]
+    },
+    {
+      "url": "https://cdn.shopify.com/s/files/1/0251/3508/7676/files/3517_09.jpg?v=1794207674",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity.variants"
+      ],
+      "note": "The color-description graphic on the Nikon Z product page explicitly advertises Black and White finishes."
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/files/3517-7.jpg?v=1794207388&width=1600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "controls"
+      ],
+      "note": "The product photograph published on the Nikon Z product page shows a wide grooved front ring and a switch labelled AF/MF."
+    },
+    {
+      "url": "https://meikeglobal.com/cdn/shop/files/3517-9.jpg?v=1794208257&width=1600",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "accessories"
+      ],
+      "note": "The photograph shows a mounted hood labelled LH25-P58; inclusion in the Nikon Z package is not stated."
+    },
+    {
+      "url": "https://meikeglobal.com/en-jp/pages/firmware-upgrade",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "support-page",
+      "checked": [
+        "electronicServices"
+      ],
+      "note": "The Nikon Z release entry links an update archive and describes a correction to the focal-length parameter in photo metadata."
+    }
+  ],
+  "unresolved": [
+    "Do the shared dimensions apply to Nikon Z with the same measurement conditions?",
+    "Can Nikon Z operating documentation and complete exterior images establish the complete control inventory, manual-focus mechanism, autofocus motor, metadata transmission, aperture mechanism, tripod support and storage construction?",
+    "What are the announcement date, included accessories, special elements and coatings, maximum reproduction ratio, focusing system, focus-related length change and environmental protection specifications?",
+    "What connection method and procedure are required to install the published Nikon Z firmware update?",
+    "Can complete Nikon Z exterior views establish the absence of tripod support?",
+    "Can published documentation explicitly confirm the absence of optical stabilization? The canonical value is false at the dataset maintainer's explicit direction on 2026-11-14; the inspected official sources do not explicitly state its absence.",
+    "Can operating documentation explicitly identify the front ring as the focus ring and describe its operation? Its presence was visually rechecked in the official product imagery; the focus-ring classification follows the dataset maintainer's identification on 2026-11-14.",
+    "Can an exact Nikon Z AF 35mm F1.7 Air listing from an authorized distributor or eligible retailer establish the remaining specifications and package contents? The 2026-11-14 dealer review found no usable exact-model listing at B&H or Meike partner ayex (https://www.meike-shop.de/); older manual-focus 35mm F1.7 listings are a different product.",
+    "What are the model numbers for the advertised Black and White variants? The Nikon Z product page advertises both colors in its description graphic, while its current purchase selector exposes only a default variant without a color label.",
+    "Can an exact-model B&H listing provide supplementary specifications? The live B&H site search on 2026-11-14 reported no exact match for this model; similar older lenses and other Air focal lengths are not treated as evidence."
+  ]
+}

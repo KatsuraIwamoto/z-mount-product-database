@@ -6,7 +6,7 @@
     "brandId": "sirui",
     "name": "SIRUI Swift 20mm F2.4"
   },
-  "reviewedOn": "2026-10-09",
+  "reviewedOn": "2026-11-14",
   "decision": {
     "status": "needs-review"
   },
@@ -22,10 +22,59 @@
       "decisionChecks": [
         "release-status"
       ]
+    },
+    {
+      "url": "https://store.sirui.com/blogs/guides/sirui-swift-20-40mm-launch-compact-full-frame-autofocus-lenses",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ],
+      "note": "The November 4, 2026 launch announcement identifies Sony E and L mounts."
+    },
+    {
+      "url": "https://store.sirui.com/products/sirui-swift-series-20mm-f2-4-40mm-f2-2-full-frame-autofocus-lens",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "decisionChecks": [
+        "availability",
+        "release-status"
+      ],
+      "note": "The store offers E and L configurations and an unavailable X option; no Nikon Z purchase option is listed."
+    },
+    {
+      "url": "https://store.sirui.com/cdn/shop/files/sirui_swift_20mm_Specifications.jpg?v=1793607753&width=1500",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.opticalConstruction"
+      ],
+      "note": "The specification graphic labels dimensions and weights for E and L mounts only. Its lens-structure row reads 9 elements in 11 groups."
+    },
+    {
+      "url": "https://store.sirui.com/cdn/shop/files/Swift-AF-Lens-20mm-1.jpg?v=1793946552&width=1500",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "controls"
+      ],
+      "note": "The front-oblique product image shows the focal-length/aperture inscription, FN button and aperture scale with an A position. The image does not identify a Nikon Z configuration."
     }
   ],
   "unresolved": [
-    "Has SIRUI officially confirmed the exact product name and Nikon Z configuration?",
-    "Has SIRUI issued a release announcement or confirmed sale, beyond the IBC2026 exhibition report?"
+    "Has SIRUI issued a release announcement or confirmed sale of a Nikon Z configuration?",
+    "Which optical construction applies to any Nikon Z configuration? The shared product-page text states 11 elements in 9 groups, whereas the specification graphic reverses the element/group counts.",
+    "Can accepted-source images establish the released Nikon Z configuration and its exterior controls, mount contacts and accessories?"
   ]
 }

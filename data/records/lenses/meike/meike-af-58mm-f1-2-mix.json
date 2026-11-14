@@ -1,0 +1,194 @@
+{
+  "$schema": "../../../../schemas/lenses/product-record.schema.json",
+  "id": "meike-af-58mm-f1-2-mix",
+  "productType": "lens",
+  "identity": {
+    "manufacturerId": "meike",
+    "brandId": "meike",
+    "productName": "AF 58mm F1.2 APS-C MIX",
+    "modelNumberOptions": null,
+    "alternateNames": null,
+    "variants": [
+      {
+        "variantId": "black",
+        "name": "Black",
+        "color": "Black",
+        "modelNumberOptions": null
+      },
+      {
+        "variantId": "silver",
+        "name": "Silver",
+        "color": "Silver",
+        "modelNumberOptions": null
+      }
+    ]
+  },
+  "lifecycle": {
+    "announcementDate": null,
+    "officialDesignations": null
+  },
+  "officialProductPages": [
+    {
+      "url": "https://meikeglobal.com/collections/new-release/products/5812z",
+      "pageFamilies": [
+        "global"
+      ],
+      "region": null,
+      "language": "en",
+      "publisher": {
+        "type": "manufacturer-or-brand",
+        "name": "Meike"
+      }
+    }
+  ],
+  "mount": {
+    "systemId": "nikon-z",
+    "replaceability": "fixed",
+    "mountOwnerRelationship": null,
+    "electronicContacts": {
+      "present": true,
+      "metadataTransmission": {
+        "present": true,
+        "standards": [
+          "exif"
+        ]
+      }
+    }
+  },
+  "physical": {
+    "dimensionMeasurements": [
+      {
+        "maximumDiameterMm": 76,
+        "lengthMm": 90,
+        "conditions": {}
+      }
+    ],
+    "weightMeasurements": [
+      {
+        "grams": 455,
+        "approximate": true,
+        "conditions": {
+          "attachedComponents": []
+        }
+      }
+    ],
+    "officialEnvironmentalProtectionClaims": null,
+    "filterInterfaces": [
+      {
+        "type": "front-thread",
+        "diameterMm": 62,
+        "host": {
+          "kind": "product"
+        }
+      }
+    ],
+    "tripodSupport": null,
+    "externalLengthDuringFocus": null,
+    "isRetractableForStorage": null
+  },
+  "controls": [
+    {
+      "type": "focus-ring",
+      "quantity": 1
+    },
+    {
+      "type": "focus-mode-switch",
+      "quantity": 1
+    },
+    {
+      "type": "function-button",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring-click-switch",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring-lock",
+      "quantity": 1
+    },
+    {
+      "type": "aperture-ring",
+      "quantity": 1,
+      "clickBehavior": "switchable"
+    }
+  ],
+  "accessories": null,
+  "electronicServices": {
+    "hasPublishedFirmwareUpdate": null,
+    "connections": [
+      {
+        "method": "direct-usb",
+        "connectorType": "usb-c",
+        "purposes": [
+          "firmware-update"
+        ]
+      }
+    ]
+  },
+  "lens": {
+    "focalLength": {
+      "kind": "prime",
+      "millimeters": 58
+    },
+    "aperture": {
+      "fNumber": {
+        "maximumAperture": [
+          {
+            "value": 1.2,
+            "conditions": {}
+          }
+        ],
+        "minimumAperture": [
+          {
+            "value": 16,
+            "conditions": {}
+          }
+        ],
+        "effective": null
+      },
+      "diaphragm": {
+        "present": true,
+        "bladeCount": 11,
+        "bladeShape": null
+      },
+      "controlMechanism": null
+    },
+    "anglesOfView": null,
+    "coverage": {
+      "format": "aps-c"
+    },
+    "opticalConstruction": {
+      "groups": 10,
+      "elements": 14
+    },
+    "specialElements": null,
+    "coatings": null,
+    "focus": {
+      "autofocus": {
+        "present": true,
+        "motors": [
+          {
+            "type": "stepping-motor",
+            "quantity": null,
+            "officialName": "Hyper STM Motor"
+          }
+        ]
+      },
+      "manualFocus": null,
+      "opticalFocusingSystems": null,
+      "minimumFocusDistances": [
+        {
+          "distanceM": 0.62,
+          "conditions": {}
+        }
+      ],
+      "reproductionMagnifications": null,
+      "officialFocusBehaviorClaims": null
+    },
+    "stabilization": {
+      "present": false
+    },
+    "specialized": {}
+  }
+}

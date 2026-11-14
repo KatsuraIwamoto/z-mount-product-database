@@ -6,7 +6,7 @@
     "brandId": "laowa",
     "name": "FFⅡ TS 24mm F2 C-Dreamer"
   },
-  "reviewedOn": "2026-10-09",
+  "reviewedOn": "2026-11-14",
   "decision": {
     "status": "included",
     "recordId": "laowa-ffii-ts-24mm-f2-c-dreamer"
@@ -34,7 +34,8 @@
         "lens.specialElements",
         "lens.imageCircleDiameters",
         "lens.specialized"
-      ]
+      ],
+      "note": "The specification table labels the format Full Frame and gives an angle of view of 108.8 degrees, without an angular orientation, focus distance or tilt/shift position."
     },
     {
       "url": "https://www.sina.cn/news/detail/5333630668507627.html",
@@ -145,6 +146,71 @@
       "checked": [
         "lens.specialElements"
       ]
+    },
+    {
+      "url": "https://www.venuslens.net/product/laowa-24mm-f2-zero-d-tilt-shift/",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "product-page",
+      "checked": [
+        "identity",
+        "identity.alternateNames",
+        "officialProductPages",
+        "mount",
+        "lens.anglesOfView",
+        "lens.opticalConstruction",
+        "lens.focus",
+        "physical.dimensionMeasurements"
+      ],
+      "decisionChecks": [
+        "release-status",
+        "availability"
+      ],
+      "note": "The global store lists Nikon Z among the offered mounts. The specifications label angle of view as 84 degrees, horizontal FOV as 102.7 degrees, and vertical FOV as 90 degrees without identifying movement settings or sensor dimensions for those angles."
+    },
+    {
+      "url": "https://www.venuslens.net/wp-content/uploads/2026/11/laowa-24mm-f2-optical-structure.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "lens.specialElements",
+        "lens.opticalConstruction"
+      ],
+      "note": "The optical diagram legend identifies extra-low dispersion, glass aspherical and ultra-high-refraction glass; five green, two red and four pink elements are visible."
+    },
+    {
+      "url": "https://www.venuslens.net/wp-content/uploads/2026/11/24mmf2Zero-DTiltShift_Summary_productpage_1920x1080.png",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "physical.tripodSupport",
+        "lens.specialized"
+      ],
+      "note": "The feature graphic labels the support Arca-Swiss and illustrates tilt, shift and mount rotation. The camera example is Fujifilm; the rear views do not identify a Nikon Z configuration."
+    },
+    {
+      "url": "https://www.venuslens.net/wp-content/uploads/2026/10/24mm-f2-Zero-D-Tilt-Shift_KV_1920x1080.jpg",
+      "publisherRelationship": "manufacturer-or-brand",
+      "sourceType": "image",
+      "checked": [
+        "identity",
+        "mount"
+      ],
+      "note": "The launch graphic names 24mm f/2 Zero-D Tilt-Shift and explicitly lists Nikon Z among six mount options."
+    },
+    {
+      "url": "https://newsroom.notified.com/focus-nordic---global/posts/pressreleases/laowa-introduces-24mm-f2-zero-d-tilt-shift-le",
+      "publisherRelationship": "authorized-distributor",
+      "sourceType": "announcement",
+      "checked": [
+        "identity",
+        "mount",
+        "lens.anglesOfView"
+      ],
+      "decisionChecks": [
+        "release-status"
+      ],
+      "note": "Focus Nordic explicitly specifies the angle of view on full-frame cameras. The release does not specify the angular orientation, focus distance or tilt/shift position."
     }
   ],
   "unresolved": [
@@ -152,6 +218,7 @@
     "Which maximum diameter applies to the Nikon Z configuration: 93 mm on the product page or 82.5 mm in both language editions of the manual's specifications? Do these values describe different mount or measurement configurations, or is corrected official documentation available?",
     "Which optical construction and ED/high-refractive-index element counts apply? The manual's English feature text states 18 elements in 12 groups, 4 ED and 5 high-refractive-index elements; its specification tables, Chinese feature text and the product page state 13 elements in 10 groups, 5 ED and 4 high-refractive-index elements.",
     "What is the exact maximum reproduction magnification: 0.194 on the product page or 0.19X in the manual, and is the latter a rounded value?",
-    "Can accepted-source images of the released Nikon Z mount establish the presence or absence of electronic contacts and any mount-specific exterior details?"
+    "Can accepted-source images of the released Nikon Z mount establish the presence or absence of electronic contacts and any mount-specific exterior details?",
+    "What sensor area, focus distance and tilt/shift position apply to the manufacturer's horizontal 102.7-degree and vertical 90-degree figures and the manual's 108.8-degree figure? The manual labels the format Full Frame but gives no angular orientation or movement conditions. Focus Nordic explicitly specifies 84 degrees on full-frame cameras, without an angular orientation or movement conditions. Can the manufacturer clarify whether the other figures describe different conditions or require correction?"
   ]
 }
